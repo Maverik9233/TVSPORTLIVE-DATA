@@ -39,6 +39,7 @@ class SourceCompetition:
     key: str
     sport: str
     league: str
+    name: str | None = None
 
 
 @dataclass
@@ -84,71 +85,91 @@ SOCCER_COMPETITIONS = (
         key="serie_a",
         sport="FOOTBALL",
         league="ita.1",
+        name="Serie A",
     ),
     SourceCompetition(
         key="serie_b",
         sport="FOOTBALL",
         league="ita.2",
+        name="Serie B",
     ),
     SourceCompetition(
         key="serie_c",
         sport="FOOTBALL",
         league="ita.3",
+        name="Serie C",
+    ),
+    SourceCompetition(
+        key="coppa_italia",
+        sport="FOOTBALL",
+        league="ita.coppa_italia",
+        name="Coppa Italia",
     ),
     SourceCompetition(
         key="premier_league",
         sport="FOOTBALL",
         league="eng.1",
+        name="Premier League",
     ),
     SourceCompetition(
         key="la_liga",
         sport="FOOTBALL",
         league="esp.1",
+        name="La Liga",
     ),
     SourceCompetition(
         key="bundesliga",
         sport="FOOTBALL",
         league="ger.1",
+        name="Bundesliga",
     ),
     SourceCompetition(
         key="ligue_1",
         sport="FOOTBALL",
         league="fra.1",
+        name="Ligue 1",
     ),
     SourceCompetition(
         key="primeira_liga",
         sport="FOOTBALL",
         league="por.1",
+        name="Primeira Liga",
     ),
     SourceCompetition(
         key="eredivisie",
         sport="FOOTBALL",
         league="ned.1",
+        name="Eredivisie",
     ),
     SourceCompetition(
         key="champions_league",
         sport="FOOTBALL",
         league="uefa.champions",
+        name="Champions League",
     ),
     SourceCompetition(
         key="europa_league",
         sport="FOOTBALL",
         league="uefa.europa",
+        name="Europa League",
     ),
     SourceCompetition(
         key="conference_league",
         sport="FOOTBALL",
         league="uefa.europa.conf",
+        name="Conference League",
     ),
     SourceCompetition(
         key="fifa_world_cup",
         sport="FOOTBALL",
         league="fifa.world",
+        name="FIFA World Cup",
     ),
     SourceCompetition(
         key="fifa_club_world_cup",
         sport="FOOTBALL",
         league="fifa.cwc",
+        name="FIFA Club World Cup",
     ),
 )
 
@@ -158,31 +179,37 @@ OTHER_COMPETITIONS = (
         key="formula_1",
         sport="FORMULA_1",
         league="f1",
+        name="Formula 1",
     ),
     SourceCompetition(
         key="motogp",
         sport="MOTOGP",
         league="motogp",
+        name="MotoGP",
     ),
     SourceCompetition(
         key="atp",
         sport="TENNIS",
         league="atp",
+        name="ATP",
     ),
     SourceCompetition(
         key="wta",
         sport="TENNIS",
         league="wta",
+        name="WTA",
     ),
     SourceCompetition(
         key="nba",
         sport="BASKETBALL",
         league="nba",
+        name="NBA",
     ),
     SourceCompetition(
         key="euroleague",
         sport="BASKETBALL",
         league="euroleague",
+        name="EuroLeague",
     ),
 )
 
@@ -244,6 +271,7 @@ def get_espn_sport_path(
 
     try:
         return mapping[sport]
+
     except KeyError:
         raise ValueError(
             f"Sport non supportato: {sport}"
@@ -291,10 +319,6 @@ def fetch_json(
 ) -> dict:
     """
     Scarica JSON dalla sorgente.
-
-    Non utilizziamo un browser User-Agent falso:
-    alcune infrastrutture ESPN possono rifiutare richieste
-    che sembrano provenire da browser contraffatti.
     """
 
     request = urllib.request.Request(
@@ -383,6 +407,7 @@ def safe_int(
 
     try:
         return int(value)
+
     except (
         TypeError,
         ValueError,
@@ -484,6 +509,7 @@ def normalize_status(
     ).lower()
 
     if state == "in":
+
         if (
             "halftime" in detail
             or "half" in detail
@@ -514,28 +540,6 @@ def normalize_status(
 def extract_clock(
     event: dict,
 ) -> tuple[int | None, str | None]:
-
-    competitions = event.get(
-        "competitions",
-        [],
-    )
-
-    if not isinstance(
-        competitions,
-        list,
-    ):
-        return None, None
-
-    if not competitions:
-        return None, None
-
-    competition = competitions[0]
-
-    if not isinstance(
-        competition,
-        dict,
-    ):
-        return None, None
 
     status = event.get(
         "status",
@@ -803,9 +807,7 @@ def normalize_event(
             )
 
         else:
-            title = (
-                competition.key
-            )
+            title = competition.name or competition.key
 
     status = normalize_status(
         event
@@ -823,7 +825,8 @@ def normalize_event(
         competition_key=competition.key,
 
         competition_name=(
-            competition.key
+            competition.name
+            or competition.key
         ),
 
         sport=competition.sport,
@@ -849,6 +852,18 @@ def normalize_event(
 
         period=period,
         minute=minute,
+
+        country=(
+            "IT"
+            if competition.key
+            in {
+                "serie_a",
+                "serie_b",
+                "serie_c",
+                "coppa_italia",
+            }
+            else None
+        ),
     )
 
 
