@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T21:38:18Z",
+  "generatedAt": "2026-09-15T23:43:39Z",
   "competitions": [
     {
       "id": "europa_league",
@@ -10,15 +10,6 @@
       "countryFlagUrl": null,
       "logoUrl": null,
       "priority": 95
-    },
-    {
-      "id": "coppa_italia",
-      "name": "Coppa Italia",
-      "sport": "FOOTBALL",
-      "country": "Italy",
-      "countryFlagUrl": null,
-      "logoUrl": null,
-      "priority": 90
     },
     {
       "id": "la_liga",
@@ -37,15 +28,6 @@
       "countryFlagUrl": null,
       "logoUrl": null,
       "priority": 80
-    },
-    {
-      "id": "eredivisie",
-      "name": "Eredivisie",
-      "sport": "FOOTBALL",
-      "country": "Netherlands",
-      "countryFlagUrl": null,
-      "logoUrl": null,
-      "priority": 75
     }
   ],
   "teams": [
@@ -58,18 +40,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_139",
-      "name": "Ajax Amsterdam",
-      "shortName": "Ajax",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_96",
-      "name": "Alavés",
-      "shortName": "Alavés",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+      "id": "espn_349",
+      "name": "AFC Bournemouth",
+      "shortName": "Bournemouth",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -138,10 +112,34 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_1895",
+      "name": "Besiktas",
+      "shortName": "Besiktas",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_85",
       "name": "Celta Vigo",
       "shortName": "Celta Vigo",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_256",
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_384",
+      "name": "Crystal Palace",
+      "shortName": "C Palace",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -162,34 +160,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_3751",
-      "name": "Elche",
-      "shortName": "Elche",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+      "id": "espn_622",
+      "name": "Ferencvaros",
+      "shortName": "Ferencvaros",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_88",
-      "name": "Espanyol",
-      "shortName": "Espanyol",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_109",
-      "name": "Fiorentina",
-      "shortName": "Fiorentina",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_3263",
-      "name": "Genoa",
-      "shortName": "Genoa",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+      "id": "espn_2922",
+      "name": "Getafe",
+      "shortName": "Getafe",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -210,10 +192,42 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_111",
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_2990",
+      "name": "Lech Poznan",
+      "shortName": "Lech Poznan",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_1538",
       "name": "Levante",
       "shortName": "Levante",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_490",
+      "name": "Levski Sofia",
+      "shortName": "Levski Sofia",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_987",
+      "name": "Lillestrom",
+      "shortName": "Lillestrom",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -226,10 +240,42 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_176",
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_99",
+      "name": "Málaga",
+      "shortName": "Málaga",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_147",
+      "name": "NEC Nijmegen",
+      "shortName": "NEC",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_3362",
       "name": "NK Celje",
       "shortName": "NK Celje",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_1010",
+      "name": "OFI Crete",
+      "shortName": "OFI Crete",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -258,14 +304,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_3956",
-      "name": "Pisa",
-      "shortName": "Pisa",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_87",
       "name": "Racing Santander",
       "shortName": "Racing",
@@ -274,18 +312,26 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_101",
-      "name": "Rayo Vallecano",
-      "shortName": "Rayo",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+      "id": "espn_2790",
+      "name": "RB Salzburg",
+      "shortName": "RB Salzburg",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_86",
-      "name": "Real Madrid",
-      "shortName": "Real Madrid",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+      "id": "espn_244",
+      "name": "Real Betis",
+      "shortName": "Betis",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_89",
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -322,14 +368,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_11139",
-      "name": "Sudtirol",
-      "shortName": "Sudtirol",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11139.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_366",
       "name": "Sunderland",
       "shortName": "Sunderland",
@@ -338,18 +376,42 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_94",
-      "name": "Valencia",
-      "shortName": "Valencia",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+      "id": "espn_21615",
+      "name": "Torreense",
+      "shortName": "Torreense",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_156",
-      "name": "Willem II",
-      "shortName": "Willem II",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
+      "id": "espn_7911",
+      "name": "TSG Hoffenheim",
+      "shortName": "Hoffenheim",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_5807",
+      "name": "Union St.-Gilloise",
+      "shortName": "Union SG",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_11706",
+      "name": "Viktoria Plzen",
+      "shortName": "Viktoria Plzen",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_102",
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "country": null,
       "countryFlagUrl": null
     }
@@ -407,76 +469,6 @@
       "homeTeamId": null,
       "awayTeamId": null,
       "startTime": "2026-09-14T04:00Z",
-      "status": "FINISHED",
-      "channels": []
-    },
-    {
-      "id": "espn_401911654",
-      "title": "Sudtirol at Genoa",
-      "sport": "FOOTBALL",
-      "competitionId": "coppa_italia",
-      "homeTeamId": "espn_3263",
-      "awayTeamId": "espn_11139",
-      "startTime": "2026-09-15T16:00Z",
-      "status": "FINISHED",
-      "channels": [
-        "Italia 1"
-      ]
-    },
-    {
-      "id": "espn_401882868",
-      "title": "Espanyol at Rayo Vallecano",
-      "sport": "FOOTBALL",
-      "competitionId": "la_liga",
-      "homeTeamId": "espn_101",
-      "awayTeamId": "espn_88",
-      "startTime": "2026-09-15T17:00Z",
-      "status": "FINISHED",
-      "channels": []
-    },
-    {
-      "id": "espn_401882876",
-      "title": "Valencia at Alavés",
-      "sport": "FOOTBALL",
-      "competitionId": "la_liga",
-      "homeTeamId": "espn_96",
-      "awayTeamId": "espn_94",
-      "startTime": "2026-09-15T18:00Z",
-      "status": "FINISHED",
-      "channels": []
-    },
-    {
-      "id": "espn_401875602",
-      "title": "Willem II at Ajax Amsterdam",
-      "sport": "FOOTBALL",
-      "competitionId": "eredivisie",
-      "homeTeamId": "espn_139",
-      "awayTeamId": "espn_156",
-      "startTime": "2026-09-15T18:00Z",
-      "status": "FINISHED",
-      "channels": []
-    },
-    {
-      "id": "espn_401911785",
-      "title": "Pisa at Fiorentina",
-      "sport": "FOOTBALL",
-      "competitionId": "coppa_italia",
-      "homeTeamId": "espn_109",
-      "awayTeamId": "espn_3956",
-      "startTime": "2026-09-15T19:00Z",
-      "status": "FINISHED",
-      "channels": [
-        "Italia 1"
-      ]
-    },
-    {
-      "id": "espn_401882872",
-      "title": "Real Madrid at Elche",
-      "sport": "FOOTBALL",
-      "competitionId": "la_liga",
-      "homeTeamId": "espn_3751",
-      "awayTeamId": "espn_86",
-      "startTime": "2026-09-15T19:30Z",
       "status": "FINISHED",
       "channels": []
     },
@@ -620,6 +612,127 @@
       "homeTeamId": "espn_83",
       "awayTeamId": "espn_87",
       "startTime": "2026-09-16T19:30Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915584",
+      "title": "RB Salzburg at Levski Sofia",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_490",
+      "awayTeamId": "espn_2790",
+      "startTime": "2026-09-17T16:45Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915585",
+      "title": "TSG Hoffenheim at OFI Crete",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_1010",
+      "awayTeamId": "espn_7911",
+      "startTime": "2026-09-17T16:45Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401882874",
+      "title": "Getafe at Real Betis",
+      "sport": "FOOTBALL",
+      "competitionId": "la_liga",
+      "homeTeamId": "espn_244",
+      "awayTeamId": "espn_2922",
+      "startTime": "2026-09-17T17:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915583",
+      "title": "AFC Bournemouth at Real Sociedad",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_89",
+      "awayTeamId": "espn_349",
+      "startTime": "2026-09-17T19:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915581",
+      "title": "Ferencvaros at Celtic",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_256",
+      "awayTeamId": "espn_622",
+      "startTime": "2026-09-17T19:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915569",
+      "title": "Lech Poznan at Crystal Palace",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_384",
+      "awayTeamId": "espn_2990",
+      "startTime": "2026-09-17T19:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915591",
+      "title": "Marseille at Besiktas",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_1895",
+      "awayTeamId": "espn_176",
+      "startTime": "2026-09-17T19:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915582",
+      "title": "NEC Nijmegen at Juventus",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_111",
+      "awayTeamId": "espn_147",
+      "startTime": "2026-09-17T19:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915570",
+      "title": "Torreense at Lillestrom",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_987",
+      "awayTeamId": "espn_21615",
+      "startTime": "2026-09-17T19:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401915580",
+      "title": "Union St.-Gilloise at Viktoria Plzen",
+      "sport": "FOOTBALL",
+      "competitionId": "europa_league",
+      "homeTeamId": "espn_11706",
+      "awayTeamId": "espn_5807",
+      "startTime": "2026-09-17T19:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401882869",
+      "title": "Villarreal at Málaga",
+      "sport": "FOOTBALL",
+      "competitionId": "la_liga",
+      "homeTeamId": "espn_99",
+      "awayTeamId": "espn_102",
+      "startTime": "2026-09-17T19:30Z",
       "status": "SCHEDULED",
       "channels": []
     }
