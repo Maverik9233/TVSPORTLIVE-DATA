@@ -3,27 +3,18 @@ from __future__ import annotations
 APP_NAME = "TVSPORTLIVE"
 
 CHANNELS_URL = (
-    "https://www.dropbox.com/scl/fi/"
-    "9ecu6jkvziuzanftvc9zn/channels.txt"
-    "?rlkey=e1itmamnnvjpuga57ihuoa8ac"
-    "&st=mi0gwguz"
-    "&dl=1"
+    "https://github.com/Maverik9233/TVSPORTLIVE-DATA/"
+    "raw/refs/heads/main/data/channels.txt"
 )
 
 EVENTS_URL = (
-    "https://www.dropbox.com/scl/fi/"
-    "8a42xmyn1qmorx0y7nz31/events.txt"
-    "?rlkey=cjmsa47wiioait2oxbgjti7ee"
-    "&st=iiffkqth"
-    "&dl=1"
+    "https://github.com/Maverik9233/TVSPORTLIVE-DATA/"
+    "raw/refs/heads/main/data/events.txt"
 )
 
 LIVE_URL = (
-    "https://www.dropbox.com/scl/fi/"
-    "0xjtwvlt85farvcnv4elr/live.txt"
-    "?rlkey=oa1j9f2fjnt2orubd17o6qbvn"
-    "&st=6zppwb5v"
-    "&dl=1"
+    "https://github.com/Maverik9233/TVSPORTLIVE-DATA/"
+    "raw/refs/heads/main/data/live.txt"
 )
 
 TIMEZONE = "Europe/Rome"
