@@ -2899,6 +2899,27 @@
         }
       ]
     },
+{
+      "id": "bein_sports_1_(Astro)",
+      "name": "beIN Sports 1 (Astro)",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_1_source_1",
+          "url": "https://premium.hls.st/playlist/premium712.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "fox_sports_australia",
       "name": "Fox Sports Australia",
