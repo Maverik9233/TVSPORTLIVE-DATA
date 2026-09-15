@@ -738,21 +738,21 @@
       "priority": 24,
       "logoUrl": null,
       "aliases": [
-        "DAZN 1 Bar DE HD",
+        "DAZN 1 Bar",
         "DAZN 1 Bar Deutsch HD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "dazn_1_bar_source_1",
-          "url": "https://kool.to/watch?live=53511421482dd4981f3c9",
+          "url": "https://st.chatango.com/pcache/sounds/message_received.mp3?1",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "dazn_1_bar_source_2",
-          "url": "https://kool.to/watch?live=2577751922a57769dee12",
+          "url": "https://premium.hls.st/playlist/premium426.m3u8",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
