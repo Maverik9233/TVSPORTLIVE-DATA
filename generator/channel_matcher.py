@@ -5,7 +5,6 @@ import re
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
-from typing import Iterable
 
 from config import (
     CHANNELS_URL,
@@ -14,40 +13,16 @@ from config import (
 )
 
 
-# ============================================================
-# TVSPORTLIVE - CHANNEL MATCHER
-#
-# Scarica channels.txt dal repository GitHub e trasforma
-# i dati JSON in oggetti Channel.
-#
-# Mantiene compatibilità con event_builder.py:
-#
-#   Channel
-#   ChannelMatch
-#   load_channels()
-#   find_best_channel()
-#   match_broadcasters()
-#   match_liveonsat_event()
-#   match_liveonsat_events()
-# ============================================================
-
-
-# ============================================================
-# CHANNEL
-# ============================================================
-
 @dataclass(frozen=True)
 class Channel:
     id: str
     name: str
-    country: str = "INTERNATIONAL"
-    priority: int = 100
+    country: str
+    priority: int
+    logo_url: str | None = None
     aliases: tuple[str, ...] = ()
+    enabled: bool = True
 
-
-# ============================================================
-# CHANNEL MATCH
-# ============================================================
 
 @dataclass(frozen=True)
 class ChannelMatch:
@@ -55,10 +30,6 @@ class ChannelMatch:
     channel_name: str
     score: int
 
-
-# ============================================================
-# DOWNLOAD
-# ============================================================
 
 def _download_channels() -> str:
     request = urllib.request.Request(
@@ -75,14 +46,12 @@ def _download_channels() -> str:
             request,
             timeout=REQUEST_TIMEOUT_SECONDS,
         ) as response:
-
             return response.read().decode(
                 "utf-8",
                 errors="replace",
             )
 
     except urllib.error.HTTPError as error:
-
         body = error.read().decode(
             "utf-8",
             errors="replace",
@@ -94,16 +63,11 @@ def _download_channels() -> str:
         ) from error
 
     except urllib.error.URLError as error:
-
         raise RuntimeError(
             "Impossibile raggiungere channels.txt: "
             f"{error}"
         ) from error
 
-
-# ============================================================
-# LOAD CHANNELS
-# ============================================================
 
 def load_channels() -> list[Channel]:
     raw_text = _download_channels()
@@ -112,31 +76,26 @@ def load_channels() -> list[Channel]:
         data = json.loads(raw_text)
 
     except json.JSONDecodeError as error:
-
         raise RuntimeError(
             "channels.txt non contiene JSON valido."
         ) from error
 
     if not isinstance(data, dict):
-
         raise RuntimeError(
-            "channels.txt deve contenere "
-            "un oggetto JSON."
+            "channels.txt deve contenere un oggetto JSON."
         )
 
     channels_data = data.get("channels")
 
     if not isinstance(channels_data, list):
-
         raise RuntimeError(
-            "channels.txt non contiene "
-            "un array 'channels' valido."
+            "channels.txt non contiene un array "
+            "'channels' valido."
         )
 
     channels: list[Channel] = []
 
     for item in channels_data:
-
         if not isinstance(item, dict):
             continue
 
@@ -152,29 +111,20 @@ def load_channels() -> list[Channel]:
             continue
 
         country = str(
-            item.get(
-                "country",
-                "INTERNATIONAL",
-            )
-        ).strip()
-
-        if not country:
-            country = "INTERNATIONAL"
+            item.get("country", "INTERNATIONAL")
+        ).strip().upper()
 
         try:
             priority = int(
-                item.get(
-                    "priority",
-                    100,
-                )
+                item.get("priority", 0)
             )
+        except (TypeError, ValueError):
+            priority = 0
 
-        except (
-            TypeError,
-            ValueError,
-        ):
+        logo_url = item.get("logoUrl")
 
-            priority = 100
+        if not isinstance(logo_url, str):
+            logo_url = None
 
         aliases_data = item.get(
             "aliases",
@@ -183,33 +133,21 @@ def load_channels() -> list[Channel]:
 
         aliases: list[str] = []
 
-        if isinstance(
-            aliases_data,
-            list,
-        ):
-
+        if isinstance(aliases_data, list):
             for alias in aliases_data:
+                if isinstance(alias, str):
+                    alias = alias.strip()
 
-                if not isinstance(
-                    alias,
-                    str,
-                ):
-                    continue
+                    if alias:
+                        aliases.append(alias)
 
-                alias = alias.strip()
+        enabled = item.get(
+            "enabled",
+            True,
+        )
 
-                if alias:
-                    aliases.append(alias)
-
-        elif isinstance(
-            aliases_data,
-            str,
-        ):
-
-            alias = aliases_data.strip()
-
-            if alias:
-                aliases.append(alias)
+        if not isinstance(enabled, bool):
+            enabled = True
 
         channels.append(
             Channel(
@@ -217,52 +155,25 @@ def load_channels() -> list[Channel]:
                 name=channel_name,
                 country=country,
                 priority=priority,
-                aliases=tuple(
-                    aliases
-                ),
+                logo_url=logo_url,
+                aliases=tuple(aliases),
+                enabled=enabled,
             )
         )
 
     return channels
 
 
-# ============================================================
-# NORMALIZATION
-# ============================================================
-
-def _normalize(
-    value: str,
-) -> str:
-
+def _normalize(value: str) -> str:
     value = value.lower().strip()
 
     value = (
-        value
-        .replace("à", "a")
-        .replace("á", "a")
-        .replace("â", "a")
-        .replace("ä", "a")
-        .replace("ã", "a")
-        .replace("å", "a")
+        value.replace("à", "a")
         .replace("è", "e")
         .replace("é", "e")
-        .replace("ê", "e")
-        .replace("ë", "e")
         .replace("ì", "i")
-        .replace("í", "i")
-        .replace("î", "i")
-        .replace("ï", "i")
         .replace("ò", "o")
-        .replace("ó", "o")
-        .replace("ô", "o")
-        .replace("ö", "o")
-        .replace("õ", "o")
         .replace("ù", "u")
-        .replace("ú", "u")
-        .replace("û", "u")
-        .replace("ü", "u")
-        .replace("ç", "c")
-        .replace("ñ", "n")
     )
 
     value = re.sub(
@@ -276,54 +187,31 @@ def _normalize(
     )
 
 
-def _compact(
-    value: str,
-) -> str:
-
-    return _normalize(
-        value
-    ).replace(
+def _compact(value: str) -> str:
+    return _normalize(value).replace(
         " ",
         "",
     )
 
 
-# ============================================================
-# CHANNEL NAMES
-# ============================================================
-
 def _channel_names(
     channel: Channel,
-) -> tuple[str, ...]:
-
-    names: list[str] = [
-        channel.name
+) -> list[str]:
+    names = [
+        channel.name,
     ]
 
     names.extend(
         channel.aliases
     )
 
-    return tuple(
-        name
-        for name in names
-        if isinstance(
-            name,
-            str,
-        )
-        and name.strip()
-    )
+    return names
 
-
-# ============================================================
-# MATCH SCORE
-# ============================================================
 
 def _match_score(
     broadcaster: str,
     channel: Channel,
 ) -> int:
-
     broadcaster_normalized = _normalize(
         broadcaster
     )
@@ -340,7 +228,6 @@ def _match_score(
     for channel_name in _channel_names(
         channel
     ):
-
         channel_normalized = _normalize(
             channel_name
         )
@@ -352,41 +239,25 @@ def _match_score(
         if not channel_normalized:
             continue
 
-        # ----------------------------------------------------
-        # Corrispondenza esatta
-        # ----------------------------------------------------
-
         if (
             broadcaster_normalized
             == channel_normalized
         ):
-
             best_score = max(
                 best_score,
                 100,
             )
-
             continue
-
-        # ----------------------------------------------------
-        # Corrispondenza esatta senza spazi
-        # ----------------------------------------------------
 
         if (
             broadcaster_compact
             == channel_compact
         ):
-
             best_score = max(
                 best_score,
                 95,
             )
-
             continue
-
-        # ----------------------------------------------------
-        # Una stringa contiene l'altra
-        # ----------------------------------------------------
 
         if (
             broadcaster_normalized
@@ -394,17 +265,11 @@ def _match_score(
             or channel_normalized
             in broadcaster_normalized
         ):
-
             best_score = max(
                 best_score,
                 80,
             )
-
             continue
-
-        # ----------------------------------------------------
-        # Contenimento senza spazi
-        # ----------------------------------------------------
 
         if (
             broadcaster_compact
@@ -412,7 +277,6 @@ def _match_score(
             or channel_compact
             in broadcaster_compact
         ):
-
             best_score = max(
                 best_score,
                 70,
@@ -421,18 +285,18 @@ def _match_score(
     return best_score
 
 
-# ============================================================
-# FIND BEST CHANNEL
-# ============================================================
-
 def find_best_channel(
     broadcaster: str,
-    channels: Iterable[Channel],
+    channels: list[Channel],
 ) -> ChannelMatch | None:
-
     best_match: ChannelMatch | None = None
 
     for channel in channels:
+        if not channel.enabled:
+            continue
+
+        if not channel.id or not channel.name:
+            continue
 
         score = _match_score(
             broadcaster=broadcaster,
@@ -453,45 +317,26 @@ def find_best_channel(
             or candidate.score
             > best_match.score
         ):
-
             best_match = candidate
 
     return best_match
 
 
-# ============================================================
-# MATCH BROADCASTERS
-# ============================================================
-
 def match_broadcasters(
-    broadcasters: Iterable[str],
-    channels: Iterable[Channel],
+    broadcasters: list[str],
+    channels: list[Channel],
 ) -> list[ChannelMatch]:
-
-    channels_list = list(
-        channels
-    )
-
     matches: list[ChannelMatch] = []
 
     seen_ids: set[str] = set()
 
     for broadcaster in broadcasters:
-
-        if not isinstance(
-            broadcaster,
-            str,
-        ):
-            continue
-
-        broadcaster = broadcaster.strip()
-
         if not broadcaster:
             continue
 
         match = find_best_channel(
             broadcaster=broadcaster,
-            channels=channels_list,
+            channels=channels,
         )
 
         if match is None:
@@ -504,22 +349,15 @@ def match_broadcasters(
             match.channel_id
         )
 
-        matches.append(
-            match
-        )
+        matches.append(match)
 
     return matches
 
 
-# ============================================================
-# LIVEONSAT EVENT MATCHING
-# ============================================================
-
 def match_liveonsat_event(
-    broadcasters: Iterable[str],
-    channels: Iterable[Channel],
+    broadcasters: list[str],
+    channels: list[Channel],
 ) -> list[ChannelMatch]:
-
     return match_broadcasters(
         broadcasters=broadcasters,
         channels=channels,
@@ -528,17 +366,11 @@ def match_liveonsat_event(
 
 def match_liveonsat_events(
     liveonsat_events,
-    channels: Iterable[Channel],
+    channels: list[Channel],
 ) -> dict:
-
     result = {}
 
-    channels_list = list(
-        channels
-    )
-
     for event in liveonsat_events:
-
         event_id = getattr(
             event,
             "event_id",
@@ -557,7 +389,7 @@ def match_liveonsat_events(
         result[event_id] = (
             match_liveonsat_event(
                 broadcasters=broadcasters,
-                channels=channels_list,
+                channels=channels,
             )
         )
 
