@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T16:34:52Z",
+  "generatedAt": "2026-09-15T16:42:24Z",
   "competitions": [
     {
       "id": "europa_league",
@@ -10,6 +10,15 @@
       "countryFlagUrl": null,
       "logoUrl": null,
       "priority": 95
+    },
+    {
+      "id": "coppa_italia",
+      "name": "Coppa Italia",
+      "sport": "FOOTBALL",
+      "country": "Italy",
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 90
     },
     {
       "id": "la_liga",
@@ -169,6 +178,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_109",
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_3263",
+      "name": "Genoa",
+      "shortName": "Genoa",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_13083",
       "name": "Hapoel Be'er",
       "shortName": "Hapoel Be'er",
@@ -233,6 +258,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_3956",
+      "name": "Pisa",
+      "shortName": "Pisa",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_87",
       "name": "Racing Santander",
       "shortName": "Racing",
@@ -285,6 +318,14 @@
       "name": "Stade Rennais",
       "shortName": "Rennes",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_11139",
+      "name": "Sudtirol",
+      "shortName": "Sudtirol",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11139.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -370,6 +411,17 @@
       "channels": []
     },
     {
+      "id": "espn_401911654",
+      "title": "Sudtirol at Genoa",
+      "sport": "FOOTBALL",
+      "competitionId": "coppa_italia",
+      "homeTeamId": "espn_3263",
+      "awayTeamId": "espn_11139",
+      "startTime": "2026-09-15T16:00Z",
+      "status": "LIVE",
+      "channels": []
+    },
+    {
       "id": "espn_401882868",
       "title": "Espanyol at Rayo Vallecano",
       "sport": "FOOTBALL",
@@ -399,6 +451,17 @@
       "homeTeamId": "espn_139",
       "awayTeamId": "espn_156",
       "startTime": "2026-09-15T18:00Z",
+      "status": "SCHEDULED",
+      "channels": []
+    },
+    {
+      "id": "espn_401911785",
+      "title": "Pisa at Fiorentina",
+      "sport": "FOOTBALL",
+      "competitionId": "coppa_italia",
+      "homeTeamId": "espn_109",
+      "awayTeamId": "espn_3956",
+      "startTime": "2026-09-15T19:00Z",
       "status": "SCHEDULED",
       "channels": []
     },
