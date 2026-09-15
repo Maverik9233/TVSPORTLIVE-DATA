@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import datetime, timezone
 from pathlib import Path
 
 from config import validate_configuration
@@ -12,8 +13,16 @@ from channel_matcher import load_channels
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-
 DATA_DIRECTORY = PROJECT_ROOT / "data"
+
+
+def _generated_at() -> str:
+    return (
+        datetime.now(timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
 
 
 def run() -> None:
@@ -23,14 +32,11 @@ def run() -> None:
 
     print()
     print("[1/6] Verifica configurazione...")
-
     validate_configuration()
-
     print("Configurazione OK.")
 
     print()
     print("[2/6] Recupero eventi sportivi...")
-
     raw_events = fetch_all_events()
 
     print(
@@ -47,7 +53,6 @@ def run() -> None:
 
     print()
     print("[3/6] Recupero programmazione LiveOnSat...")
-
     liveonsat_events = get_liveonsat_events()
 
     print(
@@ -57,7 +62,6 @@ def run() -> None:
 
     print()
     print("[4/6] Caricamento canali...")
-
     channels = load_channels()
 
     print(
@@ -71,20 +75,21 @@ def run() -> None:
             "Generazione annullata."
         )
 
+    generated_at = _generated_at()
+
     print()
-    print(
-        "[5/6] Costruzione eventi "
-        "e stato live..."
-    )
+    print("[5/6] Costruzione eventi e stato live...")
 
     events_document = build_events_document(
         raw_events=raw_events,
         liveonsat_events=liveonsat_events,
         channels=channels,
+        generated_at=generated_at,
     )
 
     live_document = build_live(
         raw_events=raw_events,
+        generated_at=generated_at,
     )
 
     print(
@@ -135,13 +140,8 @@ def run() -> None:
     print("=" * 60)
 
     print()
-    print(
-        "I file sono disponibili in:"
-    )
-
-    print(
-        f"  {DATA_DIRECTORY}"
-    )
+    print("I file sono disponibili in:")
+    print(f"  {DATA_DIRECTORY}")
 
 
 if __name__ == "__main__":
@@ -150,9 +150,7 @@ if __name__ == "__main__":
 
     except KeyboardInterrupt:
         print()
-        print(
-            "Generazione interrotta manualmente."
-        )
+        print("Generazione interrotta manualmente.")
         raise SystemExit(130)
 
     except Exception as error:
