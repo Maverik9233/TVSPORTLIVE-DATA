@@ -88,7 +88,7 @@ def run() -> None:
     )
 
     live_document = build_live(
-        raw_events=raw_events,
+        events=raw_events,
         generated_at=generated_at,
     )
 
