@@ -24,28 +24,6 @@ from sports_sources import RawEvent
 
 # ============================================================
 # TVSPORTLIVE - EVENT BUILDER
-#
-# Trasforma gli eventi reali raccolti dalle sorgenti sportive
-# nella struttura che verrà successivamente serializzata
-# dentro events.txt.
-#
-# Flusso:
-#
-#   SPORTS SOURCE
-#        ↓
-#   RawEvent
-#        ↓
-#   LiveOnSat
-#        ↓
-#   broadcaster
-#        ↓
-#   channels.txt
-#        ↓
-#   Channel.id
-#        ↓
-#   evento finale
-#
-# Questo modulo NON scrive ancora Dropbox.
 # ============================================================
 
 
@@ -171,6 +149,26 @@ COMPETITION_PRIORITIES = {
 
 
 # ============================================================
+# BROADCASTER OVERRIDES
+#
+# LiveOnSat attualmente non espone Italia 1 per Genoa-Sudtirol,
+# mentre la programmazione ufficiale Mediaset indica Italia 1.
+#
+# Questo override serve quindi a non perdere il broadcaster
+# italiano quando LiveOnSat non lo riporta.
+#
+# L'override produce comunque una normale ricerca dentro
+# channels.txt: non inserisce direttamente un ID.
+# ============================================================
+
+COMPETITION_BROADCASTER_OVERRIDES = {
+    "coppa_italia": (
+        "Italia 1",
+    ),
+}
+
+
+# ============================================================
 # TEAM ID
 # ============================================================
 
@@ -224,7 +222,9 @@ def build_competition(
     event: RawEvent,
 ) -> BuiltCompetition:
 
-    competition_id = event.competition_key
+    competition_id = (
+        event.competition_key
+    )
 
     name = (
         COMPETITION_NAMES.get(
@@ -250,24 +250,31 @@ def build_competition(
         "coppa_italia",
         "supercoppa_italiana",
     }:
+
         country = "Italy"
 
     elif competition_id == "premier_league":
+
         country = "England"
 
     elif competition_id == "la_liga":
+
         country = "Spain"
 
     elif competition_id == "bundesliga":
+
         country = "Germany"
 
     elif competition_id == "ligue_1":
+
         country = "France"
 
     elif competition_id == "primeira_liga":
+
         country = "Portugal"
 
     elif competition_id == "eredivisie":
+
         country = "Netherlands"
 
     return BuiltCompetition(
@@ -314,7 +321,7 @@ def build_team(
 
 
 # ============================================================
-# CHANNEL MATCHING
+# LIVEONSAT EVENT MATCH
 # ============================================================
 
 def get_matching_liveonsat_event(
@@ -326,11 +333,6 @@ def get_matching_liveonsat_event(
         liveonsat_events
     )
 
-    # --------------------------------------------------------
-    # Primo tentativo:
-    # titolo esatto
-    # --------------------------------------------------------
-
     exact_matches: list[
         LiveOnSatEvent
     ] = []
@@ -341,17 +343,13 @@ def get_matching_liveonsat_event(
             raw_event.title,
             candidate.title,
         ):
+
             exact_matches.append(
                 candidate
             )
 
     if not exact_matches:
         return None
-
-    # --------------------------------------------------------
-    # Se ci sono più risultati, preferiamo quello
-    # con orario più vicino.
-    # --------------------------------------------------------
 
     return min(
         exact_matches,
@@ -377,7 +375,6 @@ def time_difference_seconds(
     except ValueError:
 
         return 999999
-
 
     try:
 
@@ -408,7 +405,6 @@ def time_difference_seconds(
             - liveonsat_minutes
         )
 
-        # Gestione del passaggio mezzanotte.
         difference = min(
             difference,
             1440 - difference,
@@ -451,23 +447,19 @@ def sort_channel_matches(
             and channel.country == "IT"
         )
 
-        if PREFER_ITALIAN_CHANNELS:
-
-            return (
-                0 if is_italian else 1,
-                -match.score,
-                channel.priority
-                if channel
-                else 100,
-                match.channel_name.lower(),
-            )
-
         return (
+            0 if (
+                PREFER_ITALIAN_CHANNELS
+                and is_italian
+            ) else 1,
+
             -match.score,
+
             channel.priority
             if channel
             else 100,
-            match.channel_name.lower(),
+
+            match.channel_name.casefold(),
         )
 
     return sorted(
@@ -491,6 +483,45 @@ def build_event_id(
 
 
 # ============================================================
+# CHANNEL BROADCASTERS
+# ============================================================
+
+def get_event_broadcasters(
+    raw_event: RawEvent,
+    liveonsat_match: LiveOnSatEvent | None,
+) -> list[str]:
+
+    broadcasters: list[str] = []
+
+    if liveonsat_match is not None:
+
+        for broadcaster in (
+            liveonsat_match.broadcasters
+        ):
+
+            if broadcaster not in broadcasters:
+                broadcasters.append(
+                    broadcaster
+                )
+
+    overrides = (
+        COMPETITION_BROADCASTER_OVERRIDES.get(
+            raw_event.competition_key,
+            (),
+        )
+    )
+
+    for broadcaster in overrides:
+
+        if broadcaster not in broadcasters:
+            broadcasters.append(
+                broadcaster
+            )
+
+    return broadcasters
+
+
+# ============================================================
 # EVENT
 # ============================================================
 
@@ -507,15 +538,35 @@ def build_event(
         )
     )
 
+    broadcasters = get_event_broadcasters(
+        raw_event=raw_event,
+        liveonsat_match=liveonsat_match,
+    )
+
     channel_ids: list[str] = []
 
     if liveonsat_match is not None:
 
+        print(
+            "[EVENT] "
+            f"{raw_event.title} -> "
+            "LiveOnSat: "
+            f"{', '.join(broadcasters) if broadcasters else 'nessun broadcaster'}"
+        )
+
+    else:
+
+        print(
+            "[EVENT] "
+            f"{raw_event.title} -> "
+            "nessuna corrispondenza LiveOnSat"
+        )
+
+    if broadcasters:
+
         channel_matches = match_broadcasters(
-            broadcasters=(
-                liveonsat_match.broadcasters
-            ),
-            channels=channels,
+            broadcasters=broadcasters,
+            channels=list(channels),
         )
 
         ordered_matches = sort_channel_matches(
@@ -528,28 +579,20 @@ def build_event(
             for match in ordered_matches
         ]
 
-        if channel_ids:
+    if channel_ids:
 
-            print(
-                "[EVENT] "
-                f"{raw_event.title} -> "
-                f"{', '.join(channel_ids)}"
-            )
-
-        else:
-
-            print(
-                "[EVENT] "
-                f"{raw_event.title} -> "
-                "nessun canale compatibile"
-            )
+        print(
+            "[EVENT] "
+            f"{raw_event.title} -> "
+            f"CANALI: {', '.join(channel_ids)}"
+        )
 
     else:
 
         print(
             "[EVENT] "
             f"{raw_event.title} -> "
-            "nessuna corrispondenza LiveOnSat"
+            "nessun canale compatibile"
         )
 
     home_team_id = build_team_id(
@@ -580,7 +623,7 @@ def build_event(
 
 
 # ============================================================
-# DOCUMENT BUILDER
+# DOCUMENT
 # ============================================================
 
 def build_events_document(
@@ -670,19 +713,20 @@ def build_events_document(
         competitions.values(),
         key=lambda item: (
             -item.priority,
-            item.name.lower(),
+            item.name.casefold(),
         ),
     )
 
     teams_list = sorted(
         teams.values(),
-        key=lambda item: item.name.lower(),
+        key=lambda item:
+            item.name.casefold(),
     )
 
     events.sort(
         key=lambda item: (
             item.start_time,
-            item.title.lower(),
+            item.title.casefold(),
         )
     )
 
