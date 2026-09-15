@@ -1,20 +1,20 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
-from html import unescape
 from typing import Iterable
 
-from config import REQUEST_TIMEOUT_SECONDS, TIMEZONE, USER_AGENT
+from config import REQUEST_TIMEOUT_SECONDS, USER_AGENT
 
 
 # ============================================================
 # TVSPORTLIVE - LIVEONSAT
 #
-# LiveOnSat viene utilizzato ESCLUSIVAMENTE come fonte per
-# sapere quali broadcaster trasmettono un determinato evento.
+# LiveOnSat viene utilizzato come fonte per associare gli
+# eventi sportivi ai broadcaster televisivi.
 #
 # NON vengono recuperati:
 #   - link streaming
@@ -36,7 +36,7 @@ class LiveOnSatEvent:
 
 
 # ============================================================
-# URL PRINCIPALI
+# URL
 # ============================================================
 
 LIVEONSAT_ITALY_FOOTBALL_URL = (
@@ -59,17 +59,16 @@ LIVEONSAT_FORMULA_1_URL = (
 # HTTP
 # ============================================================
 
-def fetch_html(
-    url: str,
-) -> str:
-
+def fetch_html(url: str) -> str:
     request = urllib.request.Request(
         url=url,
         headers={
             "User-Agent": USER_AGENT,
             "Accept": (
                 "text/html,"
-                "application/xhtml+xml"
+                "application/xhtml+xml,"
+                "application/xml;q=0.9,"
+                "*/*;q=0.8"
             ),
             "Accept-Language": (
                 "it-IT,it;q=0.9,en;q=0.8"
@@ -79,7 +78,6 @@ def fetch_html(
     )
 
     try:
-
         with urllib.request.urlopen(
             request,
             timeout=REQUEST_TIMEOUT_SECONDS,
@@ -93,41 +91,27 @@ def fetch_html(
             data = response.read()
 
     except urllib.error.HTTPError as error:
-
         raise RuntimeError(
             f"HTTP {error.code} da LiveOnSat: {url}"
         ) from error
 
     except urllib.error.URLError as error:
-
         raise RuntimeError(
             f"Errore di rete verso LiveOnSat: "
             f"{error.reason}"
         ) from error
 
-    try:
-
-        return data.decode(
-            "utf-8",
-            errors="replace",
-        )
-
-    except Exception as error:
-
-        raise RuntimeError(
-            f"Impossibile decodificare "
-            f"la pagina LiveOnSat: {url}"
-        ) from error
+    return data.decode(
+        "utf-8",
+        errors="replace",
+    )
 
 
 # ============================================================
-# HTML CLEANING
+# HTML -> TEXT
 # ============================================================
 
-def html_to_text(
-    html: str,
-) -> str:
-
+def html_to_text(html: str) -> str:
     text = html
 
     text = re.sub(
@@ -148,14 +132,18 @@ def html_to_text(
         text,
     )
 
+    # Le celle delle tabelle sono molto importanti:
+    # LiveOnSat separa spesso competizione, partita,
+    # orario e broadcaster in celle HTML differenti.
     text = re.sub(
-        r"(?i)<br\s*/?>",
+        r"(?i)</?(?:td|th|tr|div|p|li|h1|h2|h3|h4|h5|h6)"
+        r"\b[^>]*>",
         "\n",
         text,
     )
 
     text = re.sub(
-        r"(?i)</(?:div|p|li|tr|td|th|h1|h2|h3|h4|h5|h6)>",
+        r"(?i)<br\s*/?>",
         "\n",
         text,
     )
@@ -166,8 +154,25 @@ def html_to_text(
         text,
     )
 
-    text = unescape(
-        text
+    text = re.sub(
+        r"&#x([0-9a-fA-F]+);",
+        lambda match: chr(
+            int(match.group(1), 16)
+        ),
+        text,
+    )
+
+    text = re.sub(
+        r"&#([0-9]+);",
+        lambda match: chr(
+            int(match.group(1))
+        ),
+        text,
+    )
+
+    text = text.replace(
+        "&nbsp;",
+        " ",
     )
 
     text = text.replace(
@@ -178,7 +183,6 @@ def html_to_text(
     lines: list[str] = []
 
     for line in text.splitlines():
-
         line = re.sub(
             r"\s+",
             " ",
@@ -186,25 +190,23 @@ def html_to_text(
         ).strip()
 
         if line:
-            lines.append(
-                line
-            )
+            lines.append(line)
 
-    return "\n".join(
-        lines
-    )
+    return "\n".join(lines)
 
 
 # ============================================================
 # NORMALIZATION
 # ============================================================
 
-def normalize_text(
-    value: str,
-) -> str:
+def normalize_text(value: str) -> str:
+    value = str(value)
 
-    value = unescape(
-        value
+    value = (
+        unicodedata
+        .normalize("NFKD", value)
+        .encode("ascii", "ignore")
+        .decode("ascii")
     )
 
     value = value.replace(
@@ -221,21 +223,65 @@ def normalize_text(
     return value.strip()
 
 
+def normalize_event_title(title: str) -> str:
+    title = normalize_text(title).casefold()
+
+    # ESPN può utilizzare "at", LiveOnSat utilizza
+    # normalmente "v".
+    title = re.sub(
+        r"\s+\bat\b\s+",
+        " - ",
+        title,
+    )
+
+    title = re.sub(
+        r"\s+\bvs?\.\s+",
+        " - ",
+        title,
+    )
+
+    title = re.sub(
+        r"\s+\bvs?\s+",
+        " - ",
+        title,
+    )
+
+    title = re.sub(
+        r"\s+-\s+",
+        " - ",
+        title,
+    )
+
+    title = re.sub(
+        r"\s*-\s*",
+        " - ",
+        title,
+    )
+
+    title = re.sub(
+        r"\s+",
+        " ",
+        title,
+    )
+
+    return title.strip()
+
+
+# ============================================================
+# BROADCASTER
+# ============================================================
+
 def normalize_broadcaster(
     value: str,
 ) -> str | None:
 
-    value = normalize_text(
-        value
-    )
+    value = normalize_text(value)
 
     if not value:
         return None
 
-    # Rimuoviamo solamente i marcatori utilizzati da
-    # LiveOnSat per indicare restrizioni/app/streaming.
-    #
-    # NON eliminiamo il nome del broadcaster.
+    # Marcatori usati da LiveOnSat per indicare
+    # restrizioni/app/streaming.
     value = re.sub(
         r"\s*\(\s*\$\/geo\/R\s*\)",
         "",
@@ -271,31 +317,23 @@ def normalize_broadcaster(
         flags=re.IGNORECASE,
     )
 
-    value = normalize_text(
-        value
+    value = re.sub(
+        r"\s+",
+        " ",
+        value,
     )
 
-    return value or None
+    return value.strip() or None
 
 
-# ============================================================
-# BROADCASTER FILTER
-# ============================================================
-
-def looks_like_broadcaster(
-    line: str,
-) -> bool:
-
-    line = normalize_text(
-        line
-    )
+def looks_like_broadcaster(line: str) -> bool:
+    line = normalize_text(line)
 
     if not line:
         return False
 
-    lower = line.lower()
+    lower = line.casefold()
 
-    # Elementi strutturali della pagina.
     blocked = (
         "liveonsat",
         "website last updated",
@@ -307,10 +345,10 @@ def looks_like_broadcaster(
         "basketball",
         "no schedules",
         "image",
-        "st:",
         "round ",
         "week ",
         "girone ",
+        "st:",
     )
 
     if any(
@@ -319,18 +357,15 @@ def looks_like_broadcaster(
     ):
         return False
 
-    # Un broadcaster deve avere una lunghezza ragionevole.
     if len(line) < 2 or len(line) > 120:
         return False
 
-    # Una data pura non è un broadcaster.
     if re.fullmatch(
         r"\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4}",
         line,
     ):
         return False
 
-    # Gli orari non sono broadcaster.
     if re.fullmatch(
         r"\d{1,2}:\d{2}",
         line,
@@ -341,133 +376,166 @@ def looks_like_broadcaster(
 
 
 # ============================================================
-# MATCH TITLE
+# EVENT HEADER
 # ============================================================
 
-def normalize_event_title(
-    title: str,
-) -> str:
-
-    title = normalize_text(
-        title
-    )
-
-    title = title.lower()
-
-    title = title.replace(
-        " v ",
-        " - ",
-    )
-
-    title = title.replace(
-        " vs ",
-        " - ",
-    )
-
-    title = title.replace(
-        " vs. ",
-        " - ",
-    )
-
-    title = re.sub(
-        r"\s*-\s*",
-        " - ",
-        title,
-    )
-
-    return title.strip()
-
-
-def event_titles_match(
-    first: str,
-    second: str,
-) -> bool:
-
-    a = normalize_event_title(
-        first
-    )
-
-    b = normalize_event_title(
-        second
-    )
-
-    if not a or not b:
-        return False
-
-    if a == b:
-        return True
-
-    if a in b or b in a:
-        return True
-
-    return False
-
-
-# ============================================================
-# EVENT EXTRACTION
-# ============================================================
-
-_EVENT_PATTERN = re.compile(
+_SINGLE_LINE_EVENT_PATTERN = re.compile(
     r"^(?P<competition>.+?)"
-    r"\s+(?:Image\s+)?"
+    r"\s+(?:Image\s+)*"
     r"(?P<title>[^|]+?)"
-    r"\s+(?:Image\s+)?"
+    r"\s+(?:Image\s+)*"
     r"ST:\s*(?P<time>\d{1,2}:\d{2})$",
     re.IGNORECASE,
 )
 
 
+def _clean_event_part(value: str) -> str:
+    value = normalize_text(value)
+
+    value = re.sub(
+        r"\bImage\b",
+        " ",
+        value,
+        flags=re.IGNORECASE,
+    )
+
+    value = re.sub(
+        r"\s+",
+        " ",
+        value,
+    )
+
+    return value.strip()
+
+
 def parse_event_header(
-    line: str,
-) -> tuple[
-    str,
-    str,
-    str,
-] | None:
+    lines: list[str],
+    index: int,
+) -> tuple[str, str, str, int] | None:
 
-    line = normalize_text(
-        line
-    )
-
-    match = _EVENT_PATTERN.match(
-        line
-    )
-
-    if not match:
+    if index < 0 or index >= len(lines):
         return None
 
-    competition = normalize_text(
-        match.group(
-            "competition"
-        )
+    current = _clean_event_part(
+        lines[index]
     )
 
-    title = normalize_text(
-        match.group(
-            "title"
-        )
+    # --------------------------------------------------------
+    # Formato compatto:
+    #
+    # Competition ... Title ... ST: 18:00
+    # --------------------------------------------------------
+
+    match = _SINGLE_LINE_EVENT_PATTERN.match(
+        current
     )
 
-    start_time = normalize_text(
-        match.group(
+    if match:
+        competition = _clean_event_part(
+            match.group("competition")
+        )
+
+        title = _clean_event_part(
+            match.group("title")
+        )
+
+        start_time = match.group(
             "time"
+        ).strip()
+
+        if competition and title:
+            return (
+                competition,
+                title,
+                start_time,
+                index + 1,
+            )
+
+    # --------------------------------------------------------
+    # Formato LiveOnSat più comune:
+    #
+    # Competition
+    # Title
+    # ST: 18:00
+    # --------------------------------------------------------
+
+    if index + 2 < len(lines):
+
+        competition = _clean_event_part(
+            lines[index]
         )
-    )
 
-    if not competition:
-        return None
+        title = _clean_event_part(
+            lines[index + 1]
+        )
 
-    if not title:
-        return None
+        time_line = _clean_event_part(
+            lines[index + 2]
+        )
 
-    if not start_time:
-        return None
+        time_match = re.search(
+            r"\bST:\s*(\d{1,2}:\d{2})\b",
+            time_line,
+            flags=re.IGNORECASE,
+        )
 
-    return (
-        competition,
-        title,
-        start_time,
-    )
+        if (
+            competition
+            and title
+            and time_match
+            and not looks_like_broadcaster(
+                competition
+            )
+        ):
+            return (
+                competition,
+                title,
+                time_match.group(1),
+                index + 3,
+            )
+
+    # --------------------------------------------------------
+    # Variante:
+    #
+    # Competition
+    # Title ST: 18:00
+    # --------------------------------------------------------
+
+    if index + 1 < len(lines):
+
+        competition = _clean_event_part(
+            lines[index]
+        )
+
+        second_line = _clean_event_part(
+            lines[index + 1]
+        )
+
+        time_match = re.search(
+            r"\bST:\s*(\d{1,2}:\d{2})\b",
+            second_line,
+            flags=re.IGNORECASE,
+        )
+
+        if (
+            competition
+            and time_match
+        ):
+            title = _clean_event_part(
+                second_line[
+                    :time_match.start()
+                ]
+            )
+
+            if title:
+                return (
+                    competition,
+                    title,
+                    time_match.group(1),
+                    index + 2,
+                )
+
+    return None
 
 
 # ============================================================
@@ -475,43 +543,47 @@ def parse_event_header(
 # ============================================================
 
 def collect_broadcasters(
-    lines: Iterable[str],
+    lines: list[str],
     start_index: int,
 ) -> tuple[str, ...]:
 
     broadcasters: list[str] = []
 
-    for line in lines:
+    index = start_index
+
+    while index < len(lines):
 
         line = normalize_text(
-            line
+            lines[index]
         )
 
         if not line:
+            index += 1
             continue
 
-        # Il prossimo evento interrompe la raccolta.
+        # Se incontriamo l'inizio di un nuovo evento,
+        # termina la raccolta del precedente.
         if parse_event_header(
-            line
+            lines,
+            index,
         ) is not None:
             break
 
-        if not looks_like_broadcaster(
-            line
-        ):
-            continue
+        if looks_like_broadcaster(line):
 
-        broadcaster = normalize_broadcaster(
-            line
-        )
-
-        if not broadcaster:
-            continue
-
-        if broadcaster not in broadcasters:
-            broadcasters.append(
-                broadcaster
+            broadcaster = normalize_broadcaster(
+                line
             )
+
+            if (
+                broadcaster
+                and broadcaster not in broadcasters
+            ):
+                broadcasters.append(
+                    broadcaster
+                )
+
+        index += 1
 
     return tuple(
         broadcasters
@@ -526,9 +598,7 @@ def parse_liveonsat_page(
     html: str,
 ) -> list[LiveOnSatEvent]:
 
-    text = html_to_text(
-        html
-    )
+    text = html_to_text(html)
 
     lines = [
         normalize_text(line)
@@ -543,7 +613,8 @@ def parse_liveonsat_page(
     while index < len(lines):
 
         parsed = parse_event_header(
-            lines[index]
+            lines,
+            index,
         )
 
         if parsed is None:
@@ -554,11 +625,12 @@ def parse_liveonsat_page(
             competition,
             title,
             start_time,
+            next_index,
         ) = parsed
 
         broadcasters = collect_broadcasters(
-            lines=lines[index + 1:],
-            start_index=index + 1,
+            lines=lines,
+            start_index=next_index,
         )
 
         result.append(
@@ -570,7 +642,8 @@ def parse_liveonsat_page(
             )
         )
 
-        index += 1
+        # Saltiamo direttamente il blocco header.
+        index = next_index
 
     return deduplicate_liveonsat_events(
         result
@@ -597,7 +670,9 @@ def deduplicate_liveonsat_events(
                 event.title
             ),
             event.start_time,
-            event.competition,
+            normalize_text(
+                event.competition
+            ).casefold(),
         )
 
         if key not in unique:
@@ -611,7 +686,6 @@ def deduplicate_liveonsat_events(
         )
 
         for broadcaster in event.broadcasters:
-
             if broadcaster not in broadcasters:
                 broadcasters.append(
                     broadcaster
@@ -632,8 +706,49 @@ def deduplicate_liveonsat_events(
 
 
 # ============================================================
-# MATCHING WITH SPORTS EVENTS
+# MATCHING
 # ============================================================
+
+def event_titles_match(
+    first: str,
+    second: str,
+) -> bool:
+
+    a = normalize_event_title(first)
+    b = normalize_event_title(second)
+
+    if not a or not b:
+        return False
+
+    if a == b:
+        return True
+
+    if a in b or b in a:
+        return True
+
+    # Confronto robusto anche quando una fonte aggiunge
+    # dettagli prima/dopo il nome delle squadre.
+    a_parts = [
+        part.strip()
+        for part in a.split("-")
+        if part.strip()
+    ]
+
+    b_parts = [
+        part.strip()
+        for part in b.split("-")
+        if part.strip()
+    ]
+
+    if len(a_parts) == 2 and len(b_parts) == 2:
+        if (
+            a_parts[0] == b_parts[0]
+            and a_parts[1] == b_parts[1]
+        ):
+            return True
+
+    return False
+
 
 def find_broadcasters_for_event(
     event_title: str,
@@ -667,9 +782,9 @@ def find_broadcasters_for_event(
             )
             continue
 
-        if (
-            candidate_title in normalized_title
-            or normalized_title in candidate_title
+        if event_titles_match(
+            event_title,
+            candidate.title,
         ):
             partial_matches.append(
                 candidate
@@ -684,7 +799,6 @@ def find_broadcasters_for_event(
     broadcasters: list[str] = []
 
     for match in matches:
-
         for broadcaster in match.broadcasters:
 
             if broadcaster not in broadcasters:
@@ -698,7 +812,7 @@ def find_broadcasters_for_event(
 
 
 # ============================================================
-# PUBLIC FETCH FUNCTIONS
+# FETCHERS
 # ============================================================
 
 def fetch_italy_football_events() -> list[LiveOnSatEvent]:
@@ -778,12 +892,6 @@ def fetch_formula_1_events() -> list[LiveOnSatEvent]:
 # ============================================================
 
 def get_liveonsat_events() -> list[LiveOnSatEvent]:
-    """
-    Recupera gli eventi LiveOnSat disponibili.
-
-    Se una sezione non è raggiungibile, viene saltata.
-    Nessun evento viene inventato.
-    """
 
     all_events: list[LiveOnSatEvent] = []
 
