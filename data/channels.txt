@@ -52,6 +52,31 @@
         }
       ]
     },
+{
+      "id": "Italia 1",
+      "name": "Italia 1",
+      "country": "IT",
+      "priority": 2,
+      "logoUrl": null,
+      "aliases": [],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "italia_1_source_1",
+          "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "italia_1_source_2",
+          "url": "https://dgtv-app.pages.dev/Italia/Italia1",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
     {
       "id": "sky_sport_arena",
       "name": "Sky Sport Arena",
