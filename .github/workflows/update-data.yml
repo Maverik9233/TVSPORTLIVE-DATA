@@ -7,7 +7,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: tvsportlive-data-update
+  cancel-in-progress: true
 
 jobs:
   update-data:
@@ -16,6 +20,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -23,9 +29,24 @@ jobs:
           python-version: "3.13"
 
       - name: Run TVSPORTLIVE generator
-        env:
-          TVSPORTLIVE_DROPBOX_REFRESH_TOKEN: ${{ secrets.TVSPORTLIVE_DROPBOX_REFRESH_TOKEN }}
-          TVSPORTLIVE_DROPBOX_APP_KEY: ${{ secrets.TVSPORTLIVE_DROPBOX_APP_KEY }}
-          TVSPORTLIVE_DROPBOX_APP_SECRET: ${{ secrets.TVSPORTLIVE_DROPBOX_APP_SECRET }}
         run: |
           python generator/main.py
+
+      - name: Check generated files
+        run: |
+          test -s data/events.txt
+          test -s data/live.txt
+
+      - name: Commit generated data
+        run: |
+          git config user.name "TVSPORTLIVE Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/events.txt data/live.txt
+
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica ai dati."
+          else
+            git commit -m "Update sports data"
+            git push
+          fi
