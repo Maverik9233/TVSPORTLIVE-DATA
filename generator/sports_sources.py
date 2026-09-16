@@ -1,4 +1,4 @@
-```python
+python
 from __future__ import annotations
 
 import json
@@ -1758,4 +1758,3 @@ def get_real_events() -> list[RawEvent]:
     )
 
     return events
-```
