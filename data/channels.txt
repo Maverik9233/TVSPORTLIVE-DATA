@@ -2920,6 +2920,27 @@
         }
       ]
     },
+{
+      "id": "Arena_Premium_1",
+      "name": "Arena Premium 1 Serbia",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 1 Serbia",
+        "Arena Premium 1 Srbija HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sports_1_source_1",
+          "url": "https://premium.hls.st/playlist/premium429.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "fox_sports_australia",
       "name": "Fox Sports Australia",
