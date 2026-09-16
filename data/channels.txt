@@ -2928,13 +2928,80 @@
       "logoUrl": null,
       "aliases": [
         "Arena Sport 1 Serbia",
-        "Arena Premium 1 Srbija HD"
+        "Arena Premium 1 Srbija HD",
+        "Arena Premium 1 Srbija"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "arena_sports_1_source_1",
           "url": "https://premium.hls.st/playlist/premium429.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+{
+      "id": "Arena_Premium_2",
+      "name": "Arena Premium 2 Serbia",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 2 Serbia",
+        "Arena Premium 2 Srbija HD",
+        "Arena Premium 2 Srbija"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sports_2_source_1",
+          "url": "https://premium.hls.st/playlist/premium430.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+{
+      "id": "Arena_Premium_3",
+      "name": "Arena Premium 3 Serbia",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 3 Serbia",
+        "Arena Premium 3 Srbija HD",
+        "Arena Premium 3 Srbija"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sports_3_source_1",
+          "url": "https://premium.hls.st/playlist/premium431.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+{
+      "id": "Arena_Premium_4",
+      "name": "Arena Premium 4 Serbia",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 4 Serbia",
+        "Arena Premium 4 Srbija HD",
+        "Arena Premium 4 Srbija"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sports_4_source_1",
+          "url": "https://premium.hls.st/playlist/premium581.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
