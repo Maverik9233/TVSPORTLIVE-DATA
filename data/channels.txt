@@ -270,20 +270,24 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport 24 HD",
-        "Sky Sport 24 SD"
+        "Sky Sport 24 SD",
+        "Sky Sport 24 Italia HD",
+        "Sky Sport 24 Italia SD",
+        "Sky Sport 24 Italy HD",
+        "Sky Sport 24 Italy SD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sport_24_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium869.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_24_source_2",
-          "url": "",
+          "url": "https://ds164.bluetier.top/SkySport24IT/index.m3u8?token=U2t5U3BvcnQyNElUfG5vX2NoZWNrX2lwfDE3ODk1NjgwODc=.868a2a723df01da3d04351840c5e805081eded6b76b52a46e8362b9707edb71e",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -298,20 +302,24 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Max HD",
-        "Sky Sport Max SD"
+        "Sky Sport Max SD",
+        "Sky Sport Max Italia HD",
+        "Sky Sport Max Italia SD",
+        "Sky Sport Max Italy",
+        "Sky Sport Max Italia"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sport_max_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium460.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_max_source_2",
-          "url": "",
+          "url": "https://ds164.bluetier.top/SkySportMaxIT/index.m3u8?token=U2t5U3BvcnRNYXhJVHxub19jaGVja19pcHwxNzg5NTY4NDgx.ea94e83295985100d77fd037fd0d603761152ca2127a5cc2413586af776a0ae7",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -718,20 +726,23 @@
       "logoUrl": null,
       "aliases": [
         "DAZN 1 Italia HD",
-        "DAZN 1 Italia SD"
+        "DAZN 1 Italia SD",
+        "DAZN 1 Italy HD",
+        "DAZN 1 Italia"
+        "ZONA DAZN Italia"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "dazn_1_italia_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium877.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "dazn_1_italia_source_2",
-          "url": "",
+          "url": "https://epidd.hundxvision.co.uk/main/secure/e3dc22e655b0e7e2e193d0454c21a758dc2cdb9e3d79312c59e8917e30e033df/1789577253/dazn1it.m3u8",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
