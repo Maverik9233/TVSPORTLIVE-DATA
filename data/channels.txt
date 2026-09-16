@@ -914,20 +914,22 @@
       "logoUrl": null,
       "aliases": [
         "TV8 HD",
-        "TV8 SD"
+        "TV8 SD",
+        "TV8 Italia HD",
+        "TV8 Italia"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "tv8_source_1",
-          "url": "",
+          "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "tv8_source_2",
-          "url": "",
+          "url": "https://www.mytivu.it/Application/Channels/TV8.php",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
