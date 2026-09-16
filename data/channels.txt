@@ -340,7 +340,7 @@
       "sources": [
         {
           "id": "sky_sport_251_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium871.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -368,7 +368,7 @@
       "sources": [
         {
           "id": "sky_sport_252_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium872.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -396,7 +396,7 @@
       "sources": [
         {
           "id": "sky_sport_253_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium873.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -424,7 +424,7 @@
       "sources": [
         {
           "id": "sky_sport_254_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium874.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -452,7 +452,7 @@
       "sources": [
         {
           "id": "sky_sport_255_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium28.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -480,7 +480,7 @@
       "sources": [
         {
           "id": "sky_sport_256_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium179.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -508,7 +508,7 @@
       "sources": [
         {
           "id": "sky_sport_257_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium178.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -536,7 +536,7 @@
       "sources": [
         {
           "id": "sky_sport_258_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium177.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -564,7 +564,7 @@
       "sources": [
         {
           "id": "sky_sport_259_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium180.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -1011,20 +1011,26 @@
       "logoUrl": null,
       "aliases": [
         "Canale 20 Mediaset HD",
-        "Canale 20 Mediaset SD"
+        "Canale 20 Mediaset SD",
+        "Canale 20 Mediaset Italia HD",
+        "Canale 20 Mediaset Italy SD",
+        "20 Mediaset HD",
+        "20 Mediaset SD",
+        "20Mediaset HD",
+        "20Mediaset SD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "canale_20_mediaset_source_1",
-          "url": "",
+          "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "canale_20_mediaset_source_2",
-          "url": "",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest_hd.mpd",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -1039,7 +1045,13 @@
       "logoUrl": null,
       "aliases": [
         "Italia 2 HD",
-        "Italia 2 SD"
+        "Italia 2 SD",
+        "Italia 2 Mediaset HD",
+        "Italia 2 Mediaset SD",
+        "Italia 2 Italia HD",
+        "Italia 2 Italia SD",
+        "Italia 2 Italy HD",
+        "Italia 2 Italy SD"
       ],
       "enabled": true,
       "sources": [
@@ -1052,7 +1064,7 @@
         },
         {
           "id": "italia_2_source_2",
-          "url": "",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -1073,7 +1085,7 @@
       "sources": [
         {
           "id": "cielo_source_1",
-          "url": "",
+          "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -1081,6 +1093,40 @@
         {
           "id": "cielo_source_2",
           "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+ {
+      "id": "canale_5_mediaset",
+      "name": "Canale 5 Mediaset",
+      "country": "IT",
+      "priority": 33,
+      "logoUrl": null,
+      "aliases": [
+        "Canale 5 Mediaset HD",
+        "Canale 5 Mediaset SD",
+        "Canale 5 HD",
+        "Canale 5 SD",
+        "Canale 5 Italia HD",
+        "Canale 5 Italia SD",
+        "Canale 5 Italia",
+        "Canale 5 Italy" 
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "canale_5_mediaset_source_1",
+          "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "canale_5_mediaset_source_2",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hd.mpd",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -1136,7 +1182,7 @@
         },
         {
           "id": "sky_sport_football_source_2",
-          "url": "",
+          "url": "https://ds164.bluetier.top/SkySportCalcioIT/index.m3u8?token=U2t5U3BvcnRDYWxjaW9JVHxub19jaGVja19pcHwxNzg5NTc1OTk4.e60ce9845c0ff9d2b03b1ead5bdddba86edaddca9fbb7dad894fd4c3c761f3c4",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -2568,14 +2614,14 @@
       "priority": 104,
       "logoUrl": null,
       "aliases": [
-        "Sky Sports Football UK HD",
-        "Sky Sports Football UK SD"
+        "Sky Sports Football HD",
+        "Sky Sports Football SD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sports_football_uk_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium35.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -2583,20 +2629,83 @@
       ]
     },
     {
-      "id": "tnt_sports_uk",
-      "name": "TNT Sports UK",
+      "id": "tnt_sports_1",
+      "name": "TNT Sports 1",
       "country": "GB",
       "priority": 105,
       "logoUrl": null,
       "aliases": [
-        "TNT Sports UK HD",
-        "TNT Sports UK SD"
+        "TNT Sports 1 HD",
+        "TNT Sports 1 SD"
       ],
       "enabled": true,
       "sources": [
         {
-          "id": "tnt_sports_uk_source_1",
-          "url": "",
+          "id": "tnt_sports_1_source_1",
+          "url": "https://premium.hls.st/playlist/premium31.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+{
+      "id": "tnt_sports_2",
+      "name": "TNT Sports 2",
+      "country": "GB",
+      "priority": 105,
+      "logoUrl": null,
+      "aliases": [
+        "TNT Sports 1 HD",
+        "TNT Sports 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tnt_sports_2_source_1",
+          "url": "https://premium.hls.st/playlist/premium32.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+{
+      "id": "tnt_sports_3",
+      "name": "TNT Sports 3",
+      "country": "GB",
+      "priority": 105,
+      "logoUrl": null,
+      "aliases": [
+        "TNT Sports 3 HD",
+        "TNT Sports 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tnt_sports_3_source_1",
+          "url": "https://premium.hls.st/playlist/premium33.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+{
+      "id": "tnt_sports_4",
+      "name": "TNT Sports 4",
+      "country": "GB",
+      "priority": 105,
+      "logoUrl": null,
+      "aliases": [
+        "TNT Sports 1 HD",
+        "TNT Sports 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tnt_sports_4_source_1",
+          "url": "https://premium.hls.st/playlist/premium34.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
