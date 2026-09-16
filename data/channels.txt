@@ -10,7 +10,12 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Uno HD",
-        "Sky Sport Uno SD"
+        "Sky Sport Uno SD",
+        "Sky Sport Uno Italia HD",
+        "Sky Sport Uno Italia",
+        "Sky Sport Uno Italia SD",
+        "Sky Sport Uno Italy SD"
+        "Sky Sport Uno Italy HD"
       ],
       "enabled": true,
       "sources": [
@@ -45,13 +50,16 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Calcio HD",
-        "Sky Sport Calcio SD"
+        "Sky Sport Calcio SD",
+        "Sky Sport Calcio Italia",
+        "Sky Sport Calcio Italy",
+        "Sky Sport Calcio Italy SD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sport_calcio_source_1",
-          "url": "https://dlive.sx/watch.php?id=870",
+          "url": "https://premium.hls.st/playlist/premium870.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -87,7 +95,7 @@
         },
         {
           "id": "italia_1_source_2",
-          "url": "https://dgtv-app.pages.dev/Italia/Italia1",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hd.mpd",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -102,20 +110,24 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Arena HD",
-        "Sky Sport Arena SD"
+        "Sky Sport Arena SD",
+        "Sky Sport Arena Italia",
+        "Sky Sport Arena Italy",
+        "Sky Sport Arena Italy HD",
+        "Sky Sport Arena Italia HD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sport_arena_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium462.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_arena_source_2",
-          "url": "",
+          "url": "https://dlive.sx/watch.php?id=462",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -130,20 +142,23 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport F1 HD",
+        "Sky Sport F1 Italia HD",
+        "Sky Sport F1 Italia",
+        "Sky Sport F1 Italy",
         "Sky Sport F1 SD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sport_f1_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium577.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_f1_source_2",
-          "url": "",
+          "url": "https://ds164.bluetier.top/SkySportF1IT/index.m3u8?token=U2t5U3BvcnRGMUlUfG5vX2NoZWNrX2lwfDE3ODk1Njc3Njg=.0cf4461724c2654b40ec0a703d4feda48c080e2dbf26c9e0ba6b9f92c085154e",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -158,13 +173,16 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport MotoGP HD",
+        "Sky Sport MotoGP Italy HD",
+        "Sky Sport MotoGP Italia HD",
+        "Sky Sport MotoGP",
         "Sky Sport MotoGP SD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sport_motogp_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium575.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -186,20 +204,26 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Tennis HD",
-        "Sky Sport Tennis SD"
+        "Sky Sport Tennis SD",
+        "Sky Sport Tennis Italia HD",
+        "Sky Sport Tennis Italy HD",
+        "Sky Sport Tennis Italy",
+        "Sky Sport Tennis Italia",
+        "Sky Tennis Italy",
+        "Sky Tennis Italia",
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sport_tennis_source_1",
-          "url": "",
+          "url": "https://premium.hls.st/playlist/premium576.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_tennis_source_2",
-          "url": "",
+          "url": "https://ds164.bluetier.top/SkySportTennisIT/tracks-a1/mono.m3u8?token=U2t5U3BvcnRUZW5uaXNJVHxub19jaGVja19pcHwxNzg5NTY2NDI4.9abe6e314557b8487ba9e15118dea5dbc702c45d3ab235ff6449f7633a2545bd",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -207,27 +231,31 @@
       ]
     },
     {
-      "id": "sky_sport_nba",
-      "name": "Sky Sport NBA",
+      "id": "sky_sport_basket",
+      "name": "Sky Sport Basket",
       "country": "IT",
       "priority": 7,
       "logoUrl": null,
       "aliases": [
-        "Sky Sport NBA HD",
-        "Sky Sport NBA SD"
+        "Sky Sport Basket HD",
+        "Sky Sport Basket SD",
+        "Sky Sport Basket Italy",
+        "Sky Sport Basket Italy HD",
+        "Sky Sport Basket Italia HD",
+        "Sky Sport Basket Italia SD",
       ],
       "enabled": true,
       "sources": [
         {
-          "id": "sky_sport_nba_source_1",
-          "url": "",
+          "id": "sky_sport_basket_source_1",
+          "url": "https://premium.hls.st/playlist/premium875.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
-          "id": "sky_sport_nba_source_2",
-          "url": "",
+          "id": "sky_sport_basket_source_2",
+          "url": "https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI4NzUiLCJ0cyI6MTc4OTU2NzIxNTc5N30",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
