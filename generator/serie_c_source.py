@@ -209,6 +209,74 @@ BROADCASTER_WORDS = {
 }
 
 
+
+def _extract_team_logos(html: str) -> dict[str, str]:
+    """
+    Estrae le URL dei loghi squadra da seriec.com.
+    Pattern tipico:
+      /storage/app/media/loghi-squadre/Bari.png
+      /storage/app/media/loghi-squadre/girone-c/scafatese-trasp-logo.png
+    """
+    logos: dict[str, str] = {}
+    pattern = re.compile(
+        r'(?:src|data-src)=["\']'
+        r'([^"\']*loghi-squadre/[^"\']+\.(?:png|jpg|jpeg|webp|svg))'
+        r'["\']',
+        re.IGNORECASE,
+    )
+    base = "https://www.seriec.com"
+
+    for match in pattern.finditer(html):
+        path = match.group(1).strip()
+        path = re.sub(r"/+", "/", path)
+        filename = path.rsplit("/", 1)[-1]
+        # es. Bari.png, scafatese-trasp-logo.png, Pescara_Calcio.png
+        name_part = re.sub(
+            r"(-trasp)?-?logo$|\.png$|\.jpg$|\.jpeg$|\.webp$|\.svg$",
+            "",
+            filename,
+            flags=re.IGNORECASE,
+        )
+        name_part = name_part.replace("_", " ").replace("-", " ")
+        key = _slug(name_part)
+        if not key:
+            continue
+        url = path if path.startswith("http") else base + path
+        # Preferisci path senza doppio slash
+        url = url.replace("media//", "media/")
+        if key not in logos:
+            logos[key] = url
+
+    return logos
+
+
+def _logo_for_team(team_name: str, logos: dict[str, str]) -> Optional[str]:
+    if not team_name or not logos:
+        return None
+    key = _slug(team_name)
+    if key in logos:
+        return logos[key]
+
+    # Varianti comuni (NEXT GEN, UNDER 23, abbreviazioni)
+    variants = {
+        key,
+        key.replace("juventus_next_gen", "juventus"),
+        key.replace("inter_under_23", "inter"),
+        key.replace("atalanta_under_23", "atalanta"),
+        key.replace("_under_23", ""),
+        key.replace("_next_gen", ""),
+        key.replace("_calcio", ""),
+        key.replace("f_", ""),
+    }
+    for variant in variants:
+        if variant in logos:
+            return logos[variant]
+        for logo_key, url in logos.items():
+            if variant and (variant in logo_key or logo_key in variant):
+                return url
+    return None
+
+
 def _looks_like_team(value: str) -> bool:
     normalized = _normalize(value)
 
@@ -440,6 +508,7 @@ def _build_event(
     home: str,
     away: str,
     now: datetime,
+    logos: dict[str, str] | None = None,
 ) -> Optional[SerieCEvent]:
     start = _parse_date_line(date_time, now)
     if start is None:
@@ -469,6 +538,8 @@ def _build_event(
 
     end = start + timedelta(minutes=130)
 
+    logos = logos or {}
+
     return SerieCEvent(
         source_event_id=event_key,
         competition_key="serie_c",
@@ -484,21 +555,24 @@ def _build_event(
         away_team_id=away_id,
         away_team_name=away_clean,
         away_team_short_name=away_clean,
+        home_logo_url=_logo_for_team(home_clean, logos),
+        away_logo_url=_logo_for_team(away_clean, logos),
     )
 
 
 def _parse_page(html: str, now: datetime) -> list[SerieCEvent]:
     parser = _SerieCHtmlParser()
     parser.feed(html)
-    text = parser.text()
+    page_text = parser.text()
+    logos = _extract_team_logos(html)
 
-    raw_events = _find_event_blocks(text)
+    raw_events = _find_event_blocks(page_text)
 
     events: list[SerieCEvent] = []
     seen: set[str] = set()
 
     for date_time, home, away in raw_events:
-        event = _build_event(date_time, home, away, now)
+        event = _build_event(date_time, home, away, now, logos=logos)
         if event is None:
             continue
         if event.source_event_id in seen:
@@ -517,11 +591,14 @@ def fetch_serie_c_events() -> list[SerieCEvent]:
     now = datetime.now(TIMEZONE)
 
     all_events: dict[str, SerieCEvent] = {}
+    all_logos: dict[str, str] = {}
 
     for url in SERIE_C_URLS:
         try:
             print(f"[SERIE C] Download calendario: {url}")
             html = _download(url)
+            page_logos = _extract_team_logos(html)
+            all_logos.update(page_logos)
             events = _parse_page(html, now)
             print(f"[SERIE C] Eventi trovati da {url}: {len(events)}")
 
@@ -530,6 +607,39 @@ def fetch_serie_c_events() -> list[SerieCEvent]:
 
         except Exception as error:
             print(f"[SERIE C] Fonte non disponibile {url}: {error}")
+
+    # Riapplica loghi aggregati (homepage + gironi)
+    if all_logos:
+        print(f"[SERIE C] Loghi squadra trovati: {len(all_logos)}")
+        for event_id, event in list(all_events.items()):
+            home_logo = event.home_logo_url or _logo_for_team(
+                event.home_team_name, all_logos
+            )
+            away_logo = event.away_logo_url or _logo_for_team(
+                event.away_team_name, all_logos
+            )
+            if home_logo != event.home_logo_url or away_logo != event.away_logo_url:
+                all_events[event_id] = SerieCEvent(
+                    source_event_id=event.source_event_id,
+                    competition_key=event.competition_key,
+                    competition_name=event.competition_name,
+                    sport=event.sport,
+                    title=event.title,
+                    start_time=event.start_time,
+                    end_time=event.end_time,
+                    status=event.status,
+                    home_team_id=event.home_team_id,
+                    home_team_name=event.home_team_name,
+                    home_team_short_name=event.home_team_short_name,
+                    away_team_id=event.away_team_id,
+                    away_team_name=event.away_team_name,
+                    away_team_short_name=event.away_team_short_name,
+                    home_score=event.home_score,
+                    away_score=event.away_score,
+                    country=event.country,
+                    home_logo_url=home_logo,
+                    away_logo_url=away_logo,
+                )
 
     result = sorted(
         all_events.values(),
