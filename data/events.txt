@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T22:49:53Z",
+  "generatedAt": "2026-09-17T23:25:06Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -226,7 +226,7 @@
       "id": "espn_serie_c_bari",
       "name": "BARI",
       "shortName": "BARI",
-      "logoUrl": null,
+      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Bari.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -338,7 +338,7 @@
       "id": "espn_serie_c_catania",
       "name": "CATANIA",
       "shortName": "CATANIA",
-      "logoUrl": null,
+      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/CATANIA.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -738,7 +738,7 @@
       "id": "espn_serie_c_savoia",
       "name": "SAVOIA",
       "shortName": "SAVOIA",
-      "logoUrl": null,
+      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/loghi-squadre/girone-c/savoia-trasp-logo.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -762,7 +762,7 @@
       "id": "espn_serie_c_scafatese",
       "name": "SCAFATESE",
       "shortName": "SCAFATESE",
-      "logoUrl": null,
+      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/scafatese-trasp-logo.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1022,7 +1022,9 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "dazn_1_italia"
+      ]
     },
     {
       "id": "espn_401876453",
@@ -1051,10 +1053,12 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "dazn_1_italia",
         "sportitalia",
         "dazn_deutsch",
         "dazn_france",
-        "dazn_ireland"
+        "dazn_ireland",
+        "sport_tv_2_portugal"
       ]
     },
     {
@@ -1125,7 +1129,9 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "dazn_1_italia"
+      ]
     },
     {
       "id": "espn_401874964",
@@ -1140,6 +1146,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "dazn_1_italia",
         "dazn_deutsch",
         "dazn_france",
         "dazn_ireland"
@@ -1157,7 +1164,9 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "dazn_1_italia"
+      ]
     },
     {
       "id": "espn_401874767",
@@ -1172,6 +1181,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "dazn_1_italia",
         "dazn_deutsch",
         "dazn_france",
         "dazn_ireland"
@@ -1189,7 +1199,9 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "dazn_1_italia"
+      ]
     },
     {
       "id": "espn_401884784",
@@ -1315,7 +1327,19 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "sky_sport_251",
+        "sky_sport_252",
+        "sky_sport_253",
+        "sky_sport_254",
+        "sky_sport_255",
+        "sky_sport_256",
+        "sky_sport_257",
+        "sky_sport_258",
+        "sky_sport_259"
+      ]
     },
     {
       "id": "seriec_20260919_1430_forli_torres",
@@ -1329,7 +1353,19 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "sky_sport_251",
+        "sky_sport_252",
+        "sky_sport_253",
+        "sky_sport_254",
+        "sky_sport_255",
+        "sky_sport_256",
+        "sky_sport_257",
+        "sky_sport_258",
+        "sky_sport_259"
+      ]
     },
     {
       "id": "seriec_20260919_1430_sorrento_bari",
@@ -1343,7 +1379,19 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "sky_sport_251",
+        "sky_sport_252",
+        "sky_sport_253",
+        "sky_sport_254",
+        "sky_sport_255",
+        "sky_sport_256",
+        "sky_sport_257",
+        "sky_sport_258",
+        "sky_sport_259"
+      ]
     },
     {
       "id": "espn_401885434",
@@ -1399,7 +1447,9 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "dazn_1_italia"
+      ]
     },
     {
       "id": "espn_401876451",
@@ -1511,7 +1561,19 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "sky_sport_251",
+        "sky_sport_252",
+        "sky_sport_253",
+        "sky_sport_254",
+        "sky_sport_255",
+        "sky_sport_256",
+        "sky_sport_257",
+        "sky_sport_258",
+        "sky_sport_259"
+      ]
     },
     {
       "id": "seriec_20260919_1730_savoia_casarano",
@@ -1525,7 +1587,19 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "sky_sport_251",
+        "sky_sport_252",
+        "sky_sport_253",
+        "sky_sport_254",
+        "sky_sport_255",
+        "sky_sport_256",
+        "sky_sport_257",
+        "sky_sport_258",
+        "sky_sport_259"
+      ]
     },
     {
       "id": "espn_401899618",
@@ -1539,7 +1613,9 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "dazn_1_italia"
+      ]
     },
     {
       "id": "espn_401875598",
@@ -1568,6 +1644,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "dazn_1_italia",
         "dazn_deutsch",
         "dazn_france",
         "dazn_ireland"
@@ -1683,7 +1760,19 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "sky_sport_251",
+        "sky_sport_252",
+        "sky_sport_253",
+        "sky_sport_254",
+        "sky_sport_255",
+        "sky_sport_256",
+        "sky_sport_257",
+        "sky_sport_258",
+        "sky_sport_259"
+      ]
     },
     {
       "id": "seriec_20260919_2030_catania_barletta",
@@ -1697,7 +1786,19 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "sky_sport_251",
+        "sky_sport_252",
+        "sky_sport_253",
+        "sky_sport_254",
+        "sky_sport_255",
+        "sky_sport_256",
+        "sky_sport_257",
+        "sky_sport_258",
+        "sky_sport_259"
+      ]
     },
     {
       "id": "seriec_20260919_2030_salernitana_giugliano",
@@ -1711,7 +1812,19 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "sky_sport_251",
+        "sky_sport_252",
+        "sky_sport_253",
+        "sky_sport_254",
+        "sky_sport_255",
+        "sky_sport_256",
+        "sky_sport_257",
+        "sky_sport_258",
+        "sky_sport_259"
+      ]
     }
   ]
 }
