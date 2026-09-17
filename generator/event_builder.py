@@ -20,6 +20,10 @@ from liveonsat import (
     event_titles_match,
 )
 from sports_sources import RawEvent
+from sky_serie_c_channels import (
+    fetch_sky_serie_c_channel_map,
+    find_channels_for_match,
+)
 
 
 # ============================================================
@@ -160,6 +164,23 @@ COMPETITION_COUNTRIES = {
 COMPETITION_BROADCASTER_OVERRIDES = {
     "coppa_italia": (
         "Italia 1",
+    ),
+    # Serie C: diritti Sky/NOW. LiveOnSat indica spesso solo
+    # "Sky Go Italy"; i canali numerati (251+) sono quelli
+    # usati da Sky per le gare in contemporanea.
+    "serie_c": (
+        "Sky Sport Calcio",
+        "Sky Sport 251",
+        "Sky Sport 252",
+        "Sky Sport 253",
+        "Sky Sport 254",
+        "Sky Sport 255",
+        "Sky Sport 256",
+        "Sky Sport 257",
+        "Sky Sport 258",
+        "Sky Sport 259",
+        "Sky Go Italy",
+        "NOW",
     ),
 }
 
@@ -464,10 +485,25 @@ def build_event_id(
 def get_event_broadcasters(
     raw_event: RawEvent,
     liveonsat_match: LiveOnSatEvent | None,
+    sky_serie_c_map: dict | None = None,
 ) -> list[str]:
 
     broadcasters: list[str] = []
 
+    # 1) Canali precisi da articoli Sky (Serie C)
+    if (
+        raw_event.competition_key == "serie_c"
+        and sky_serie_c_map
+    ):
+        sky_channels = find_channels_for_match(
+            raw_event.title,
+            sky_serie_c_map,
+        )
+        for broadcaster in sky_channels:
+            if broadcaster not in broadcasters:
+                broadcasters.append(broadcaster)
+
+    # 2) LiveOnSat
     if liveonsat_match is not None:
         for broadcaster in (
             liveonsat_match.broadcasters
@@ -477,6 +513,7 @@ def get_event_broadcasters(
                     broadcaster
                 )
 
+    # 3) Override di competizione (fallback / integrazione)
     overrides = (
         COMPETITION_BROADCASTER_OVERRIDES.get(
             raw_event.competition_key,
@@ -501,6 +538,7 @@ def build_event(
     raw_event: RawEvent,
     liveonsat_events: Iterable[LiveOnSatEvent],
     channels: Iterable[Channel],
+    sky_serie_c_map: dict | None = None,
 ) -> BuiltEvent:
 
     channels_list = list(
@@ -517,6 +555,7 @@ def build_event(
     broadcasters = get_event_broadcasters(
         raw_event=raw_event,
         liveonsat_match=liveonsat_match,
+        sky_serie_c_map=sky_serie_c_map,
     )
 
     channel_ids: list[str] = []
@@ -617,6 +656,19 @@ def build_events_document(
         channels
     )
 
+    # Mappa canali precisi Serie C da articoli Sky (251-259 ecc.)
+    sky_serie_c_map: dict = {}
+    try:
+        has_serie_c = any(
+            getattr(ev, "competition_key", None) == "serie_c"
+            for ev in raw_events_list
+        )
+        if has_serie_c:
+            sky_serie_c_map = fetch_sky_serie_c_channel_map()
+    except Exception as error:
+        print(f"[SKY SERIE C] Mappa canali non disponibile: {error}")
+        sky_serie_c_map = {}
+
     competitions: dict[
         str,
         BuiltCompetition,
@@ -672,6 +724,7 @@ def build_events_document(
             raw_event=raw_event,
             liveonsat_events=liveonsat_list,
             channels=channels_list,
+            sky_serie_c_map=sky_serie_c_map,
         )
 
         events.append(
