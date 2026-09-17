@@ -60,8 +60,12 @@ class BuiltEvent:
     away_team_id: str | None
 
     start_time: str
+    end_time: str | None
 
     status: str
+
+    home_score: int | None
+    away_score: int | None
 
     channels: tuple[str, ...]
 
@@ -84,31 +88,24 @@ COMPETITION_NAMES = {
     "serie_a": "Serie A",
     "serie_b": "Serie B",
     "serie_c": "Serie C",
-
     "coppa_italia": "Coppa Italia",
     "supercoppa_italiana": "Supercoppa Italiana",
-
     "champions_league": "UEFA Champions League",
     "europa_league": "UEFA Europa League",
     "conference_league": "UEFA Conference League",
     "uefa_super_cup": "UEFA Super Cup",
-
     "fifa_world_cup": "FIFA World Cup",
     "fifa_club_world_cup": "FIFA Club World Cup",
-
     "premier_league": "Premier League",
     "la_liga": "La Liga",
     "bundesliga": "Bundesliga",
     "ligue_1": "Ligue 1",
     "primeira_liga": "Primeira Liga",
     "eredivisie": "Eredivisie",
-
     "formula_1": "Formula 1",
     "motogp": "MotoGP",
-
     "atp": "ATP",
     "wta": "WTA",
-
     "euroleague": "EuroLeague",
     "nba": "NBA",
 }
@@ -118,47 +115,46 @@ COMPETITION_PRIORITIES = {
     "serie_a": 100,
     "serie_b": 95,
     "serie_c": 90,
-
     "champions_league": 100,
     "europa_league": 95,
     "conference_league": 90,
     "uefa_super_cup": 100,
-
     "fifa_world_cup": 110,
     "fifa_club_world_cup": 105,
-
     "coppa_italia": 90,
     "supercoppa_italiana": 95,
-
     "premier_league": 85,
     "la_liga": 85,
     "bundesliga": 85,
     "ligue_1": 80,
     "primeira_liga": 75,
     "eredivisie": 75,
-
     "formula_1": 100,
     "motogp": 100,
-
     "atp": 80,
     "wta": 80,
-
     "euroleague": 85,
     "nba": 85,
 }
 
 
+COMPETITION_COUNTRIES = {
+    "serie_a": "Italy",
+    "serie_b": "Italy",
+    "serie_c": "Italy",
+    "coppa_italia": "Italy",
+    "supercoppa_italiana": "Italy",
+    "premier_league": "England",
+    "la_liga": "Spain",
+    "bundesliga": "Germany",
+    "ligue_1": "France",
+    "primeira_liga": "Portugal",
+    "eredivisie": "Netherlands",
+}
+
+
 # ============================================================
 # BROADCASTER OVERRIDES
-#
-# LiveOnSat attualmente non espone Italia 1 per Genoa-Sudtirol,
-# mentre la programmazione ufficiale Mediaset indica Italia 1.
-#
-# Questo override serve quindi a non perdere il broadcaster
-# italiano quando LiveOnSat non lo riporta.
-#
-# L'override produce comunque una normale ricerca dentro
-# channels.txt: non inserisce direttamente un ID.
 # ============================================================
 
 COMPETITION_BROADCASTER_OVERRIDES = {
@@ -178,8 +174,26 @@ def build_team_id(
 ) -> str | None:
 
     if raw_team_id:
+        normalized_raw_id = raw_team_id.strip()
+
+        if not normalized_raw_id:
+            return None
+
+        # SofaScore fornisce già ID nel formato
+        # "sofascore_123".
+        if normalized_raw_id.lower().startswith(
+            "sofascore_"
+        ):
+            return normalized_raw_id
+
+        # ESPN fornisce il proprio ID numerico.
+        if normalized_raw_id.lower().startswith(
+            "espn_"
+        ):
+            return normalized_raw_id
+
         return (
-            f"espn_{raw_team_id}"
+            f"espn_{normalized_raw_id}"
         )
 
     if not team_name:
@@ -241,41 +255,9 @@ def build_competition(
         )
     )
 
-    country: str | None = None
-
-    if competition_id in {
-        "serie_a",
-        "serie_b",
-        "serie_c",
-        "coppa_italia",
-        "supercoppa_italiana",
-    }:
-
-        country = "Italy"
-
-    elif competition_id == "premier_league":
-
-        country = "England"
-
-    elif competition_id == "la_liga":
-
-        country = "Spain"
-
-    elif competition_id == "bundesliga":
-
-        country = "Germany"
-
-    elif competition_id == "ligue_1":
-
-        country = "France"
-
-    elif competition_id == "primeira_liga":
-
-        country = "Portugal"
-
-    elif competition_id == "eredivisie":
-
-        country = "Netherlands"
+    country = COMPETITION_COUNTRIES.get(
+        competition_id
+    )
 
     return BuiltCompetition(
         id=competition_id,
@@ -338,12 +320,10 @@ def get_matching_liveonsat_event(
     ] = []
 
     for candidate in candidates:
-
         if event_titles_match(
             raw_event.title,
             candidate.title,
         ):
-
             exact_matches.append(
                 candidate
             )
@@ -367,17 +347,14 @@ def time_difference_seconds(
 ) -> int:
 
     try:
-
         event_dt = datetime.fromisoformat(
             raw_start_time
         )
 
     except ValueError:
-
         return 999999
 
     try:
-
         hour, minute = (
             liveonsat_time
             .strip()
@@ -416,7 +393,6 @@ def time_difference_seconds(
         ValueError,
         TypeError,
     ):
-
         return 999999
 
 
@@ -437,7 +413,6 @@ def sort_channel_matches(
     def sort_key(
         match: ChannelMatch,
     ):
-
         channel = channel_map.get(
             match.channel_id
         )
@@ -494,11 +469,9 @@ def get_event_broadcasters(
     broadcasters: list[str] = []
 
     if liveonsat_match is not None:
-
         for broadcaster in (
             liveonsat_match.broadcasters
         ):
-
             if broadcaster not in broadcasters:
                 broadcasters.append(
                     broadcaster
@@ -512,7 +485,6 @@ def get_event_broadcasters(
     )
 
     for broadcaster in overrides:
-
         if broadcaster not in broadcasters:
             broadcasters.append(
                 broadcaster
@@ -531,6 +503,10 @@ def build_event(
     channels: Iterable[Channel],
 ) -> BuiltEvent:
 
+    channels_list = list(
+        channels
+    )
+
     liveonsat_match = (
         get_matching_liveonsat_event(
             raw_event=raw_event,
@@ -546,16 +522,13 @@ def build_event(
     channel_ids: list[str] = []
 
     if liveonsat_match is not None:
-
         print(
             "[EVENT] "
             f"{raw_event.title} -> "
             "LiveOnSat: "
             f"{', '.join(broadcasters) if broadcasters else 'nessun broadcaster'}"
         )
-
     else:
-
         print(
             "[EVENT] "
             f"{raw_event.title} -> "
@@ -563,15 +536,14 @@ def build_event(
         )
 
     if broadcasters:
-
         channel_matches = match_broadcasters(
             broadcasters=broadcasters,
-            channels=list(channels),
+            channels=channels_list,
         )
 
         ordered_matches = sort_channel_matches(
             matches=channel_matches,
-            channels=channels,
+            channels=channels_list,
         )
 
         channel_ids = [
@@ -580,15 +552,12 @@ def build_event(
         ]
 
     if channel_ids:
-
         print(
             "[EVENT] "
             f"{raw_event.title} -> "
             f"CANALI: {', '.join(channel_ids)}"
         )
-
     else:
-
         print(
             "[EVENT] "
             f"{raw_event.title} -> "
@@ -615,7 +584,10 @@ def build_event(
         home_team_id=home_team_id,
         away_team_id=away_team_id,
         start_time=raw_event.start_time,
+        end_time=raw_event.end_time,
         status=raw_event.status,
+        home_score=raw_event.home_score,
+        away_score=raw_event.away_score,
         channels=tuple(
             channel_ids
         ),
@@ -660,7 +632,6 @@ def build_events_document(
     ] = []
 
     for raw_event in raw_events_list:
-
         competition = build_competition(
             raw_event
         )
@@ -679,7 +650,6 @@ def build_events_document(
         )
 
         if home_team is not None:
-
             teams[
                 home_team.id
             ] = home_team
@@ -694,7 +664,6 @@ def build_events_document(
         )
 
         if away_team is not None:
-
             teams[
                 away_team.id
             ] = away_team
