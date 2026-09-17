@@ -248,82 +248,69 @@ def _id_matches_name(
     )
 
 
+def _token_sequence_in(
+    needle: list[str],
+    haystack: list[str],
+) -> bool:
+    if not needle or not haystack:
+        return False
+
+    size = len(needle)
+
+    if size > len(haystack):
+        return False
+
+    for index in range(len(haystack) - size + 1):
+        if haystack[index:index + size] == needle:
+            return True
+
+    return False
+
+
 def _match_score(
     broadcaster: str,
     channel: Channel,
 ) -> int:
-    broadcaster_normalized = _normalize(
-        broadcaster
-    )
+    broadcaster_normalized = _normalize(broadcaster)
+    broadcaster_tokens = broadcaster_normalized.split()
 
-    broadcaster_compact = _compact(
-        broadcaster
-    )
-
-    if not broadcaster_normalized:
+    if not broadcaster_tokens:
         return 0
 
     best_score = 0
 
-    for channel_name in _channel_names(
-        channel
-    ):
-        channel_normalized = _normalize(
-            channel_name
-        )
+    for channel_name in _channel_names(channel):
+        channel_normalized = _normalize(channel_name)
+        channel_tokens = channel_normalized.split()
 
-        channel_compact = _compact(
-            channel_name
-        )
-
-        if not channel_normalized:
+        if not channel_tokens:
             continue
 
-        if (
-            broadcaster_normalized
-            == channel_normalized
-        ):
-            best_score = max(
-                best_score,
-                100,
-            )
+        if broadcaster_normalized == channel_normalized:
+            best_score = max(best_score, 100)
             continue
 
-        if (
-            broadcaster_compact
-            == channel_compact
-        ):
-            best_score = max(
-                best_score,
-                95,
-            )
+        if _compact(broadcaster) == _compact(channel_name):
+            best_score = max(best_score, 98)
             continue
 
-        if (
-            broadcaster_normalized
-            in channel_normalized
-            or channel_normalized
-            in broadcaster_normalized
+        # Confronto per sequenza di token, non per semplice
+        # substring: evita che "Sky Sport 2" venga considerato
+        # uguale a "Sky Sport 252".
+        if _token_sequence_in(
+            channel_tokens,
+            broadcaster_tokens,
         ):
-            best_score = max(
-                best_score,
-                80,
-            )
+            best_score = max(best_score, 90)
             continue
 
-        if (
-            broadcaster_compact
-            in channel_compact
-            or channel_compact
-            in broadcaster_compact
+        if _token_sequence_in(
+            broadcaster_tokens,
+            channel_tokens,
         ):
-            best_score = max(
-                best_score,
-                70,
-            )
+            best_score = max(best_score, 85)
 
     return best_score
-
 
 def find_best_channel(
     broadcaster: str,
