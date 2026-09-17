@@ -7,6 +7,7 @@ import urllib.request
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
+from serie_c_source import fetch_serie_c_events
 
 from config import (
     REQUEST_TIMEOUT_SECONDS,
@@ -1755,5 +1756,58 @@ def get_real_events() -> list[RawEvent]:
         f"Totale eventi reali recuperati: "
         f"{len(events)}"
     )
+    # ============================================================
+    # SERIE C - FONTE UFFICIALE LEGA SERIE C
+    # ============================================================
 
+    try:
+        serie_c_events = fetch_serie_c_events()
+
+        print(
+            f"[SPORTS] Serie C - fonte ufficiale: "
+            f"{len(serie_c_events)} eventi"
+        )
+
+        for event in serie_c_events:
+            raw_events.append(
+                RawEvent(
+                    source="seriec",
+                    source_event_id=event.source_event_id,
+
+                    competition_key=event.competition_key,
+                    competition_name=event.competition_name,
+                    sport=event.sport,
+
+                    title=event.title,
+
+                    start_time=event.start_time,
+                    end_time=event.end_time,
+
+                    status=event.status,
+
+                    home_team_id=event.home_team_id,
+                    home_team_name=event.home_team_name,
+                    home_team_short_name=event.home_team_short_name,
+                    home_logo_url=event.home_logo_url,
+
+                    away_team_id=event.away_team_id,
+                    away_team_name=event.away_team_name,
+                    away_team_short_name=event.away_team_short_name,
+                    away_logo_url=event.away_logo_url,
+
+                    home_score=event.home_score,
+                    away_score=event.away_score,
+
+                    period=None,
+                    minute=None,
+
+                    country=event.country,
+                )
+            )
+
+    except Exception as error:
+        print(
+            "[SPORTS] Serie C - errore fonte "
+            f"ufficiale: {error}"
+        )
     return events
