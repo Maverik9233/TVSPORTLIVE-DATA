@@ -2995,6 +2995,28 @@
         }
       ]
     },
+{
+      "id": "arena_premium_5_srbija_HD",
+      "name": "Arena Premium 5 Serbia HD",
+      "country": "ZA",
+      "priority": 106,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Premium 5 Srbija HD",
+        "Arena Premium 5 Serbia HD",
+        "Arena Premium 5 Serbia"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_premium_5_source_1",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/b1kyb3emo52xh.m3u8?s=yPJgnVWW2les5k6DMlGJHg&e=1789703515",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "supersport_football",
       "name": "SuperSport Football",
