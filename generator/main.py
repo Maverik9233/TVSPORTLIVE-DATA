@@ -3,13 +3,13 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from pathlib import Path
 
+from channel_matcher import load_channels
 from config import validate_configuration
 from event_builder import build_events_document
 from json_writer import write_all
 from live_builder import build_live
 from liveonsat import get_liveonsat_events
 from sports_sources import fetch_all_events
-from channel_matcher import load_channels
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -32,15 +32,18 @@ def run() -> None:
 
     print()
     print("[1/6] Verifica configurazione...")
+
     validate_configuration()
+
     print("Configurazione OK.")
 
     print()
     print("[2/6] Recupero eventi sportivi...")
+
     raw_events = fetch_all_events()
 
     print(
-        f"Eventi sportivi recuperati: "
+        "Eventi sportivi recuperati: "
         f"{len(raw_events)}"
     )
 
@@ -53,19 +56,21 @@ def run() -> None:
 
     print()
     print("[3/6] Recupero programmazione LiveOnSat...")
+
     liveonsat_events = get_liveonsat_events()
 
     print(
-        f"Eventi LiveOnSat recuperati: "
+        "Eventi LiveOnSat recuperati: "
         f"{len(liveonsat_events)}"
     )
 
     print()
     print("[4/6] Caricamento canali...")
+
     channels = load_channels()
 
     print(
-        f"Canali disponibili: "
+        "Canali disponibili: "
         f"{len(channels)}"
     )
 
@@ -150,7 +155,9 @@ if __name__ == "__main__":
 
     except KeyboardInterrupt:
         print()
-        print("Generazione interrotta manualmente.")
+        print(
+            "Generazione interrotta manualmente."
+        )
         raise SystemExit(130)
 
     except Exception as error:
