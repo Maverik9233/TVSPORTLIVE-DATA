@@ -1,4 +1,4 @@
-from __future__ import annotations
+from **future** import annotations
 
 import json
 import urllib.error
@@ -1386,13 +1386,12 @@ return "SCHEDULED"
 def extract_clock(
 event: dict,
 ) -> tuple[int | None, str | None]:
-
-```
 status = event.get(
-    "status",
-    {},
+"status",
+{},
 )
 
+```
 if not isinstance(
     status,
     dict,
@@ -1447,13 +1446,12 @@ event: dict,
 dict | None,
 dict | None,
 ]:
-
-```
 competitions = event.get(
-    "competitions",
-    [],
+"competitions",
+[],
 )
 
+```
 if not isinstance(
     competitions,
     list,
@@ -1517,20 +1515,19 @@ str | None,
 str | None,
 int | None,
 ]:
+if not isinstance(
+competitor,
+dict,
+):
+return (
+None,
+None,
+None,
+None,
+None,
+)
 
 ```
-if not isinstance(
-    competitor,
-    dict,
-):
-    return (
-        None,
-        None,
-        None,
-        None,
-        None,
-    )
-
 team = competitor.get(
     "team",
     {},
@@ -1603,14 +1600,13 @@ def normalize_event(
 event: dict,
 competition: SourceCompetition,
 ) -> RawEvent | None:
-
-```
 event_id = safe_string(
-    event.get(
-        "id"
-    )
+event.get(
+"id"
+)
 )
 
+```
 if not event_id:
     return None
 
@@ -1768,13 +1764,12 @@ def fetch_competition_date(
 competition: SourceCompetition,
 date_value: str,
 ) -> list[RawEvent]:
-
-```
 url = build_scoreboard_url(
-    competition=competition,
-    date_value=date_value,
+competition=competition,
+date_value=date_value,
 )
 
+```
 data = fetch_json(
     url
 )
@@ -1820,10 +1815,9 @@ return normalized
 # ============================================================
 
 def fetch_all_events() -> list[RawEvent]:
-
-```
 dates = get_requested_dates()
 
+```
 all_events: list[RawEvent] = []
 
 # --------------------------------------------------------
@@ -1894,7 +1888,6 @@ all_events.extend(
 return deduplicate_events(
     all_events
 )
-```
 
 # ============================================================
 
@@ -1905,13 +1898,10 @@ return deduplicate_events(
 def deduplicate_events(
 events: list[RawEvent],
 ) -> list[RawEvent]:
-
-```
 unique: dict[
-    tuple[str, str],
-    RawEvent,
+tuple[str, str],
+RawEvent,
 ] = {}
-
 for event in events:
 
     key = (
@@ -1935,7 +1925,6 @@ result.sort(
 )
 
 return result
-```
 
 # ============================================================
 
@@ -1944,8 +1933,6 @@ return result
 # ============================================================
 
 def get_real_events() -> list[RawEvent]:
-
-```
 events = fetch_all_events()
 
 print(
@@ -1955,3 +1942,4 @@ print(
 )
 
 return events
+```
