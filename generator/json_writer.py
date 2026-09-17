@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -19,36 +18,38 @@ EVENTS_OUTPUT_FILE = DATA_DIR / "events.txt"
 LIVE_OUTPUT_FILE = DATA_DIR / "live.txt"
 
 
-def _generated_at() -> str:
-    return (
-        datetime.now(timezone.utc)
-        .replace(microsecond=0)
-        .isoformat()
-        .replace("+00:00", "Z")
-    )
-
-
 def _write_json(
     path: Path,
     payload: dict[str, Any],
 ) -> Path:
+
     path.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    with path.open(
+    temporary_path = path.with_suffix(
+        path.suffix + ".tmp"
+    )
+
+    with temporary_path.open(
         "w",
         encoding="utf-8",
         newline="\n",
     ) as file:
+
         json.dump(
             payload,
             file,
             ensure_ascii=False,
             indent=JSON_INDENT,
         )
+
         file.write("\n")
+
+    temporary_path.replace(
+        path
+    )
 
     return path
 
@@ -56,6 +57,7 @@ def _write_json(
 def _competition_to_dict(
     competition,
 ) -> dict[str, Any]:
+
     return {
         "id": competition.id,
         "name": competition.name,
@@ -72,6 +74,7 @@ def _competition_to_dict(
 def _team_to_dict(
     team,
 ) -> dict[str, Any]:
+
     return {
         "id": team.id,
         "name": team.name,
@@ -87,6 +90,7 @@ def _team_to_dict(
 def _event_to_dict(
     event,
 ) -> dict[str, Any]:
+
     return {
         "id": event.id,
         "title": event.title,
@@ -101,14 +105,20 @@ def _event_to_dict(
             event.away_team_id
         ),
         "startTime": event.start_time,
+        "endTime": event.end_time,
         "status": event.status,
-        "channels": list(event.channels),
+        "homeScore": event.home_score,
+        "awayScore": event.away_score,
+        "channels": list(
+            event.channels
+        ),
     }
 
 
 def _live_state_to_dict(
     live_state,
 ) -> dict[str, Any]:
+
     return {
         "eventId": live_state.event_id,
         "status": live_state.status,
@@ -129,7 +139,9 @@ def _live_state_to_dict(
         "totalLaps": (
             live_state.total_laps
         ),
-        "position": live_state.position,
+        "position": (
+            live_state.position
+        ),
         "updatedAt": live_state.updated_at,
     }
 
@@ -137,9 +149,10 @@ def _live_state_to_dict(
 def build_events_json(
     document: BuiltEventsDocument,
 ) -> dict[str, Any]:
+
     return {
-        "version": JSON_VERSION,
-        "generatedAt": _generated_at(),
+        "version": document.version,
+        "generatedAt": document.generated_at,
         "competitions": [
             _competition_to_dict(
                 competition
@@ -148,12 +161,16 @@ def build_events_json(
             in document.competitions
         ],
         "teams": [
-            _team_to_dict(team)
+            _team_to_dict(
+                team
+            )
             for team
             in document.teams
         ],
         "events": [
-            _event_to_dict(event)
+            _event_to_dict(
+                event
+            )
             for event
             in document.events
         ],
@@ -163,9 +180,10 @@ def build_events_json(
 def build_live_json(
     document: BuiltLiveDocument,
 ) -> dict[str, Any]:
+
     return {
-        "version": JSON_VERSION,
-        "generatedAt": _generated_at(),
+        "version": document.version,
+        "generatedAt": document.generated_at,
         "live": [
             _live_state_to_dict(
                 live_state
@@ -180,6 +198,7 @@ def write_events_json(
     document: BuiltEventsDocument,
     output_file: Path = EVENTS_OUTPUT_FILE,
 ) -> Path:
+
     payload = build_events_json(
         document
     )
@@ -194,6 +213,7 @@ def write_live_json(
     document: BuiltLiveDocument,
     output_file: Path = LIVE_OUTPUT_FILE,
 ) -> Path:
+
     payload = build_live_json(
         document
     )
@@ -208,6 +228,7 @@ def write_all(
     events_document: BuiltEventsDocument,
     live_document: BuiltLiveDocument,
 ) -> tuple[Path, Path]:
+
     events_file = write_events_json(
         document=events_document
     )
