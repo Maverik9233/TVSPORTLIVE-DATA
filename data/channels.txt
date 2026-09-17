@@ -1857,7 +1857,8 @@
       "logoUrl": null,
       "aliases": [
         "Digi Sport 1 Romania HD",
-        "Digi Sport 1 Romania SD"
+        "Digi Sport 1 Romania SD",
+         "Digi Sport 1 Romania SD"
       ],
       "enabled": true,
       "sources": [
@@ -1878,13 +1879,58 @@
       "logoUrl": null,
       "aliases": [
         "Digi Sport 2 Romania HD",
+        "Digi Sport 2 Romania SD",
         "Digi Sport 2 Romania SD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "digi_sport_2_romania_source_1",
-          "url": "",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/ithsrie7z8m3z.m3u8?s=nhLK-PiQEnJWIzOFuCbXsA&e=1789673745",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "digi_sport_3_romania",
+      "name": "Digi Sport 3 Romania",
+      "country": "RO",
+      "priority": 63,
+      "logoUrl": null,
+      "aliases": [
+        "Digi Sport 3 Romania HD",
+        "Digi Sport 3 Romania SD",
+        "Digi Sport 3 Romania SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "digi_sport_3_romania_source_1",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/xzwfgx3yuw3op.m3u8?s=cZ5XPIcKENUEGAHkwnFxOA&e=1789673767",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+{
+      "id": "digi_sport_4_romania",
+      "name": "Digi Sport 4 Romania",
+      "country": "RO",
+      "priority": 63,
+      "logoUrl": null,
+      "aliases": [
+        "Digi Sport 4 Romania HD",
+        "Digi Sport 4 Romania SD",
+        "Digi Sport 4 Romania SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "digi_sport_4_romania_source_1",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/iths6zz7yuj16.m3u8?s=tRbmOijIfVxjlctsI65Zow&e=1789673870",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -3282,6 +3328,28 @@
         {
           "id": "arena_sports_4_source_1",
           "url": "https://premium.hls.st/playlist/premium581.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+{
+      "id": " Nitro_Österreich",
+      "name": " Nitro Österreich",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Nitro Österreich",
+        "Nitro Österreich HD",
+         "Nitro Österreich Austria"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "Nitro_Österreich_source_1",
+          "url": "https://s6.hopslan.com/nitro1/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
