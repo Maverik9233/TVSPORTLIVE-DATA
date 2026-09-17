@@ -56,7 +56,6 @@ class RawEvent:
 source: str
 source_event_id: str
 
-```
 competition_key: str
 competition_name: str
 
@@ -269,7 +268,6 @@ date_value,
 safe="",
 )
 
-```
 return (
     f"{ESPN_BASE_URL}/"
     f"{get_espn_sport_path(competition.sport)}/"
@@ -277,7 +275,6 @@ return (
     f"scoreboard"
     f"?dates={encoded_date}"
 )
-```
 
 def get_espn_sport_path(
 sport: str,
@@ -298,7 +295,6 @@ except KeyError:
     raise ValueError(
         f"Sport non supportato: {sport}"
     )
-```
 
 # ============================================================
 
@@ -353,7 +349,6 @@ team_id: int | str | None,
 if team_id is None:
 return None
 
-```
 value = safe_string(team_id)
 
 if not value:
@@ -363,7 +358,6 @@ return (
     "https://img.sofascore.com/api/v1/team/"
     f"{value}/image"
 )
-```
 
 def get_sofascore_current_season_id(
 tournament_id: int,
@@ -375,7 +369,6 @@ tournament_id
 )
 )
 
-```
 except Exception as error:
     print(
         "[SOFASCORE] "
@@ -464,7 +457,6 @@ candidates.sort(
 return safe_int(
     candidates[0].get("id")
 )
-```
 
 def normalize_sofascore_status(
 event: dict,
@@ -474,7 +466,6 @@ status = event.get(
 {},
 )
 
-```
 if not isinstance(
     status,
     dict,
@@ -535,7 +526,6 @@ if status_code in {
     return "LIVE"
 
 return "SCHEDULED"
-```
 
 def extract_sofascore_clock(
 event: dict,
@@ -545,7 +535,6 @@ status = event.get(
 {},
 )
 
-```
 if not isinstance(
     status,
     dict,
@@ -582,7 +571,6 @@ if current is None:
 minute = current // 60
 
 return minute, period
-```
 
 def extract_sofascore_team(
 team: dict | None,
@@ -603,7 +591,6 @@ None,
 None,
 )
 
-```
 team_id = safe_string(
     team.get("id")
 )
@@ -636,7 +623,6 @@ return (
     short_name,
     logo,
 )
-```
 
 def normalize_sofascore_event(
 event: dict,
@@ -647,7 +633,6 @@ event_id = safe_string(
 event.get("id")
 )
 
-```
 if not event_id:
     return None
 
@@ -829,7 +814,6 @@ return RawEvent(
     minute=minute,
     country="IT",
 )
-```
 
 def get_sofascore_event_pages(
 tournament_id: int,
@@ -838,7 +822,6 @@ path: str,
 ) -> list[dict]:
 events: list[dict] = []
 
-```
 for page in range(0, 2):
     url = (
         f"{SOFASCORE_BASE_URL}/"
@@ -882,7 +865,6 @@ for page in range(0, 2):
     )
 
 return events
-```
 
 def fetch_serie_c_events_for_date_range(
 dates: list[str],
@@ -890,7 +872,6 @@ dates: list[str],
 """
 Compatibilità con il vecchio percorso SofaScore.
 
-```
 La Serie C non viene più utilizzata da
 fetch_all_events(), quindi questa funzione non viene
 chiamata nel normale workflow.
@@ -989,7 +970,6 @@ for competition_key, tournament_id in (
     )
 
 return result
-```
 
 # ============================================================
 
@@ -1004,8 +984,6 @@ event,
 Converte un SerieCEvent proveniente da
 serie_c_source.py nel formato comune RawEvent.
 """
-
-```
 return RawEvent(
     source="SERIEC",
     source_event_id=event.source_event_id,
@@ -1030,7 +1008,6 @@ return RawEvent(
     minute=None,
     country=event.country,
 )
-```
 
 def fetch_official_serie_c_events() -> list[RawEvent]:
 """
@@ -1038,7 +1015,6 @@ Recupera la Serie C esclusivamente dalla fonte
 ufficiale implementata in serie_c_source.py.
 """
 
-```
 try:
     events = fetch_serie_c_events()
 
@@ -1113,7 +1089,6 @@ if SHOW_TOMORROW:
     )
 
 return dates
-```
 
 # ============================================================
 
@@ -1133,7 +1108,6 @@ headers={
 method="GET",
 )
 
-```
 try:
     with urllib.request.urlopen(
         request,
@@ -1190,7 +1164,6 @@ if not isinstance(
     )
 
 return data
-```
 
 # ============================================================
 
@@ -1204,7 +1177,6 @@ value,
 if value is None:
 return None
 
-```
 text = str(
     value
 ).strip()
@@ -1213,7 +1185,6 @@ if not text:
     return None
 
 return text
-```
 
 def safe_int(
 value,
@@ -1221,7 +1192,6 @@ value,
 if value is None:
 return None
 
-```
 try:
     return int(
         value
@@ -1232,7 +1202,6 @@ except (
     ValueError,
 ):
     return None
-```
 
 def get_nested(
 data: dict,
@@ -1240,7 +1209,6 @@ data: dict,
 ):
 current = data
 
-```
 for key in keys:
     if not isinstance(
         current,
@@ -1253,7 +1221,6 @@ for key in keys:
     )
 
 return current
-```
 
 def extract_logo(
 team: dict,
@@ -1263,7 +1230,6 @@ logos = team.get(
 [],
 )
 
-```
 if isinstance(
     logos,
     list,
@@ -1290,7 +1256,6 @@ logo = team.get(
 return safe_string(
     logo
 )
-```
 
 # ============================================================
 
@@ -1307,7 +1272,6 @@ event,
 "type",
 )
 
-```
 if not isinstance(
     status_type,
     dict,
@@ -1365,7 +1329,6 @@ if completed:
     return "FINISHED"
 
 return "SCHEDULED"
-```
 
 # ============================================================
 
@@ -1381,7 +1344,6 @@ status = event.get(
 {},
 )
 
-```
 if not isinstance(
     status,
     dict,
@@ -1422,7 +1384,6 @@ if display_clock:
         minute = None
 
 return minute, period
-```
 
 # ============================================================
 
@@ -1441,7 +1402,6 @@ competitions = event.get(
 [],
 )
 
-```
 if not isinstance(
     competitions,
     list,
@@ -1494,7 +1454,6 @@ for competitor in competitors:
         away = competitor
 
 return home, away
-```
 
 def extract_team(
 competitor: dict | None,
@@ -1517,7 +1476,6 @@ None,
 None,
 )
 
-```
 team = competitor.get(
     "team",
     {},
@@ -1578,7 +1536,6 @@ return (
     logo,
     score,
 )
-```
 
 # ============================================================
 
@@ -1596,7 +1553,6 @@ event.get(
 )
 )
 
-```
 if not event_id:
     return None
 
@@ -1732,7 +1688,6 @@ return RawEvent(
         else None
     ),
 )
-```
 
 # ============================================================
 
@@ -1749,7 +1704,6 @@ competition=competition,
 date_value=date_value,
 )
 
-```
 data = fetch_json(
     url
 )
@@ -1786,7 +1740,6 @@ for event in events:
         )
 
 return normalized
-```
 
 # ============================================================
 
@@ -1802,7 +1755,6 @@ tuple[str, str],
 RawEvent,
 ] = {}
 
-```
 for event in events:
 
     key = (
@@ -1826,7 +1778,6 @@ result.sort(
 )
 
 return result
-```
 
 # ============================================================
 
@@ -1837,7 +1788,6 @@ return result
 def fetch_all_events() -> list[RawEvent]:
 dates = get_requested_dates()
 
-```
 all_events: list[RawEvent] = []
 
 # --------------------------------------------------------
