@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime
 from typing import Iterable
 
 from config import JSON_VERSION
@@ -10,26 +9,11 @@ from sports_sources import RawEvent
 
 # ============================================================
 # TVSPORTLIVE - LIVE BUILDER
-#
-# Costruisce il contenuto di live.txt partendo dagli eventi
-# reali recuperati dalle sorgenti sportive.
-#
-# IMPORTANTE:
-#
-#   - non crea eventi fittizi
-#   - non assegna canali
-#   - non modifica channels.txt
-#   - non usa LiveOnSat per determinare lo stato live
-#
-# Lo stato LIVE viene determinato esclusivamente dalla
-# sorgente sportiva.
 # ============================================================
-
 
 @dataclass(frozen=True)
 class BuiltLiveState:
     event_id: str
-
     status: str
 
     home_score: int | None
@@ -62,7 +46,6 @@ class BuiltLiveDocument:
 def build_event_id(
     raw_event: RawEvent,
 ) -> str:
-
     return (
         f"{raw_event.source.lower()}_"
         f"{raw_event.source_event_id}"
@@ -82,7 +65,6 @@ LIVE_STATUSES = {
 def is_live_event(
     event: RawEvent,
 ) -> bool:
-
     return (
         event.status.upper()
         in LIVE_STATUSES
@@ -96,13 +78,6 @@ def is_live_event(
 def extract_added_time(
     event: RawEvent,
 ) -> int | None:
-
-    # Alcune sorgenti possono esporre il recupero
-    # all'interno del periodo/status.
-    #
-    # Per ora non interpretiamo testo arbitrario come
-    # recupero: se la sorgente non fornisce un valore
-    # numerico dedicato, lasciamo null.
     return None
 
 
@@ -113,19 +88,12 @@ def extract_added_time(
 def extract_current_lap(
     event: RawEvent,
 ) -> int | None:
-
-    # sports_sources.py non interpreta ancora il numero
-    # di giro dalla sorgente.
-    #
-    # Quando la sorgente fornirà questo dato in modo
-    # strutturato, verrà valorizzato qui.
     return None
 
 
 def extract_total_laps(
     event: RawEvent,
 ) -> int | None:
-
     return None
 
 
@@ -136,7 +104,6 @@ def extract_total_laps(
 def extract_position(
     event: RawEvent,
 ) -> int | None:
-
     return None
 
 
@@ -153,30 +120,23 @@ def build_live_state(
         event_id=build_event_id(
             event
         ),
-
         status=event.status,
-
         home_score=event.home_score,
         away_score=event.away_score,
-
         minute=event.minute,
         added_time=extract_added_time(
             event
         ),
-
         period=event.period,
-
         current_lap=extract_current_lap(
             event
         ),
         total_laps=extract_total_laps(
             event
         ),
-
         position=extract_position(
             event
         ),
-
         updated_at=updated_at,
     )
 
@@ -195,25 +155,21 @@ def build_live_document(
     ] = []
 
     for event in events:
-
         if not is_live_event(
             event
         ):
             continue
 
-        live_state = build_live_state(
-            event=event,
-            updated_at=generated_at,
-        )
-
         live_states.append(
-            live_state
+            build_live_state(
+                event=event,
+                updated_at=generated_at,
+            )
         )
 
     live_states.sort(
-        key=lambda item: (
+        key=lambda item:
             item.event_id
-        )
     )
 
     return BuiltLiveDocument(
