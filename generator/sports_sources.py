@@ -50,23 +50,17 @@ key: str
 sport: str
 league: str
 name: str | None = None
-
 @dataclass
 class RawEvent:
 source: str
 source_event_id: str
-
 competition_key: str
 competition_name: str
-
 sport: str
-
 title: str
 start_time: str
 end_time: str | None
-
 status: str
-
 home_team_id: str | None = None
 home_team_name: str | None = None
 home_team_short_name: str | None = None
