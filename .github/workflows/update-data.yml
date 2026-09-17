@@ -28,14 +28,197 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Verify Python
+        run: |
+          python --version
+
+      - name: Verify generator files
+        run: |
+          test -f generator/main.py
+          test -f generator/config.py
+          test -f generator/sports_sources.py
+          test -f generator/liveonsat.py
+          test -f generator/channel_matcher.py
+          test -f generator/event_builder.py
+          test -f generator/live_builder.py
+          test -f generator/json_writer.py
+
+          if [ -f generator/dropbox.py ]; then
+            echo "ERRORE: generator/dropbox.py non deve esistere."
+            exit 1
+          fi
+
+      - name: Check Python syntax
+        run: |
+          python -m compileall -q generator
+
       - name: Run TVSPORTLIVE generator
         run: |
           python generator/main.py
 
-      - name: Check generated files
+      - name: Validate generated files
         run: |
           test -s data/events.txt
           test -s data/live.txt
+          test -s data/channels.txt
+
+      - name: Validate JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          files = (
+              Path("data/channels.txt"),
+              Path("data/events.txt"),
+              Path("data/live.txt"),
+          )
+
+          for path in files:
+              print(f"Validazione JSON: {path}")
+
+              with path.open(
+                  "r",
+                  encoding="utf-8",
+              ) as file:
+                  data = json.load(file)
+
+              if not isinstance(data, dict):
+                  raise RuntimeError(
+                      f"{path} non contiene un oggetto JSON."
+                  )
+
+              print(f"OK: {path}")
+          PY
+
+      - name: Validate events structure
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("data/events.txt")
+
+          with path.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              data = json.load(file)
+
+          if not isinstance(
+              data.get("competitions"),
+              list,
+          ):
+              raise RuntimeError(
+                  "events.txt: competitions non valido."
+              )
+
+          if not isinstance(
+              data.get("teams"),
+              list,
+          ):
+              raise RuntimeError(
+                  "events.txt: teams non valido."
+              )
+
+          events = data.get("events")
+
+          if not isinstance(events, list):
+              raise RuntimeError(
+                  "events.txt: events non valido."
+              )
+
+          if not events:
+              raise RuntimeError(
+                  "events.txt: nessun evento generato."
+              )
+
+          required = {
+              "id",
+              "title",
+              "sport",
+              "startTime",
+              "endTime",
+              "status",
+              "homeScore",
+              "awayScore",
+              "channels",
+          }
+
+          for index, event in enumerate(events):
+              if not isinstance(event, dict):
+                  raise RuntimeError(
+                      f"events.txt: evento {index} non è un oggetto."
+                  )
+
+              missing = required - event.keys()
+
+              if missing:
+                  raise RuntimeError(
+                      "events.txt: evento "
+                      f"{index} privo di campi: "
+                      f"{sorted(missing)}"
+                  )
+
+          print(
+              f"events.txt valido: {len(events)} eventi."
+          )
+          PY
+
+      - name: Validate live structure
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("data/live.txt")
+
+          with path.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              data = json.load(file)
+
+          live = data.get("live")
+
+          if not isinstance(live, list):
+              raise RuntimeError(
+                  "live.txt: live non valido."
+              )
+
+          required = {
+              "eventId",
+              "status",
+              "homeScore",
+              "awayScore",
+              "minute",
+              "addedTime",
+              "period",
+              "currentLap",
+              "totalLaps",
+              "position",
+              "updatedAt",
+          }
+
+          for index, item in enumerate(live):
+              if not isinstance(item, dict):
+                  raise RuntimeError(
+                      f"live.txt: elemento {index} non è un oggetto."
+                  )
+
+              missing = required - item.keys()
+
+              if missing:
+                  raise RuntimeError(
+                      "live.txt: elemento "
+                      f"{index} privo di campi: "
+                      f"{sorted(missing)}"
+                  )
+
+          print(
+              f"live.txt valido: {len(live)} eventi live."
+          )
+          PY
 
       - name: Commit generated data
         run: |
