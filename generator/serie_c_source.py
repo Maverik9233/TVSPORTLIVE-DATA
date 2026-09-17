@@ -14,11 +14,14 @@ from config import REQUEST_TIMEOUT_SECONDS, USER_AGENT
 
 TIMEZONE = ZoneInfo("Europe/Rome")
 
+# Homepage contiene già le "Prossime Partite" di tutti i gironi.
+# Le pagine girone restano come fallback.
 SERIE_C_URLS = (
-    "https://www.seriec.com/calendario",
+    "https://www.seriec.com/",
     "https://www.seriec.com/gironi/girone-a",
     "https://www.seriec.com/gironi/girone-b",
     "https://www.seriec.com/gironi/girone-c",
+    "https://www.seriec.com/calendario",
 )
 
 
@@ -55,549 +58,381 @@ class SerieCEvent:
 
 class _SerieCHtmlParser(HTMLParser):
     """
-    Parser HTML molto semplice e robusto.
-
-    Recupera:
-    - testo visibile;
-    - alt delle immagini, utile per i nomi delle squadre;
-    - href;
-    - class/id degli elementi quando disponibili.
-
-    Non dipende da BeautifulSoup o altre librerie esterne.
+    Parser HTML leggero: estrae testo visibile + alt delle immagini
+    (i nomi squadra compaiono spesso solo lì).
     """
 
     def __init__(self) -> None:
-        super().__init__(
-            convert_charrefs=True
-        )
-
+        super().__init__(convert_charrefs=True)
         self.parts: list[str] = []
-
         self.current_tag: Optional[str] = None
+        self._skip_depth = 0
 
-        self.current_attrs: dict[str, str] = {}
-
-        self.links: list[str] = []
-
-        self.images: list[dict[str, str]] = []
-
-    def handle_starttag(
-        self,
-        tag: str,
-        attrs,
-    ) -> None:
+    def handle_starttag(self, tag: str, attrs) -> None:
         attributes = {
-            str(key): str(value)
-            for key, value in attrs
-            if value is not None
+            str(k): str(v) for k, v in attrs if v is not None
         }
-
         self.current_tag = tag
-        self.current_attrs = attributes
+
+        if tag in ("script", "style", "noscript"):
+            self._skip_depth += 1
+            return
+
+        if self._skip_depth > 0:
+            return
 
         if tag == "img":
             alt = attributes.get("alt", "").strip()
-            src = attributes.get("src", "").strip()
+            if alt:
+                clean_alt = re.sub(
+                    r"^image:\s*", "", alt, flags=re.IGNORECASE
+                ).strip()
+                if clean_alt and len(clean_alt) > 1:
+                    self.parts.append(clean_alt)
 
-            if alt or src:
-                self.images.append(
-                    {
-                        "alt": alt,
-                        "src": src,
-                    }
-                )
-
-                # Nelle pagine della Lega Serie C i nomi delle
-                # squadre possono essere presenti esclusivamente
-                # nell'attributo alt dell'immagine. Aggiungiamolo
-                # al testo estratto, mantenendo l'ordine del DOM.
-                if alt:
-                    clean_alt = re.sub(
-                        r"^image:\s*",
-                        "",
-                        alt,
-                        flags=re.IGNORECASE,
-                    ).strip()
-
-                    if clean_alt:
-                        self.parts.append(clean_alt)
-
-    def handle_startendtag(
-        self,
-        tag: str,
-        attrs,
-    ) -> None:
+    def handle_startendtag(self, tag: str, attrs) -> None:
         self.handle_starttag(tag, attrs)
         self.handle_endtag(tag)
 
-    def handle_endtag(
-        self,
-        tag: str,
-    ) -> None:
+    def handle_endtag(self, tag: str) -> None:
+        if tag in ("script", "style", "noscript") and self._skip_depth > 0:
+            self._skip_depth -= 1
         self.current_tag = None
-        self.current_attrs = {}
 
-    def handle_data(
-        self,
-        data: str,
-    ) -> None:
-        text = " ".join(
-            data.split()
-        ).strip()
-
-        if not text:
+    def handle_data(self, data: str) -> None:
+        if self._skip_depth > 0:
             return
-
-        self.parts.append(text)
-
-        if self.current_tag == "a":
-            self.links.append(text)
+        text = " ".join(data.split()).strip()
+        if text:
+            self.parts.append(text)
 
     def text(self) -> str:
-        return "\n".join(
-            part
-            for part in self.parts
-            if part
-        )
+        return "\n".join(part for part in self.parts if part)
 
 
-def _download(
-    url: str,
-) -> str:
+def _download(url: str) -> str:
     request = Request(
         url,
         headers={
             "User-Agent": USER_AGENT,
             "Accept": (
-                "text/html,"
-                "application/xhtml+xml,"
-                "application/xml;q=0.9,"
-                "*/*;q=0.8"
+                "text/html,application/xhtml+xml,"
+                "application/xml;q=0.9,*/*;q=0.8"
             ),
-            "Accept-Language": "it-IT,it;q=0.9",
+            "Accept-Language": "it-IT,it;q=0.9,en;q=0.8",
+            "Cache-Control": "no-cache",
         },
     )
 
     try:
-        with urlopen(
-            request,
-            timeout=REQUEST_TIMEOUT_SECONDS,
-        ) as response:
+        with urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
             data = response.read()
-
     except HTTPError as error:
-        raise RuntimeError(
-            f"HTTP {error.code} da {url}"
-        ) from error
-
+        raise RuntimeError(f"HTTP {error.code} da {url}") from error
     except URLError as error:
-        raise RuntimeError(
-            f"Errore di rete da {url}: {error.reason}"
-        ) from error
-
+        raise RuntimeError(f"Errore di rete da {url}: {error.reason}") from error
     except Exception as error:
-        raise RuntimeError(
-            f"Errore durante il download di {url}: {error}"
-        ) from error
+        raise RuntimeError(f"Errore durante il download di {url}: {error}") from error
 
-    for encoding in (
-        "utf-8",
-        "latin-1",
-    ):
+    for encoding in ("utf-8", "latin-1"):
         try:
-            return data.decode(
-                encoding
-            )
+            return data.decode(encoding)
         except UnicodeDecodeError:
             continue
 
-    return data.decode(
-        "utf-8",
-        errors="replace",
-    )
+    return data.decode("utf-8", errors="replace")
 
 
-def _normalize(
-    value: str,
-) -> str:
+def _normalize(value: str) -> str:
     value = value.upper()
-
     value = (
-        value
-        .replace("À", "A")
+        value.replace("À", "A")
         .replace("È", "E")
         .replace("É", "E")
         .replace("Ì", "I")
         .replace("Ò", "O")
         .replace("Ù", "U")
     )
-
-    value = re.sub(
-        r"\s+",
-        " ",
-        value,
-    )
-
+    value = re.sub(r"\s+", " ", value)
     return value.strip()
 
 
-def _slug(
-    value: str,
-) -> str:
+def _slug(value: str) -> str:
     value = _normalize(value)
-
-    value = re.sub(
-        r"[^A-Z0-9]+",
-        "_",
-        value,
-    )
-
+    value = re.sub(r"[^A-Z0-9]+", "_", value)
     return value.strip("_").lower()
 
 
-def _parse_date(
+# Formato homepage ufficiale 2026/27:
+#   6ª | 20/09 12:30
+#   JUVENTUS NEXT GEN
+#   JUV
+#   Sky Sport
+#   NOW
+#   ALB
+#   ALBINOLEFFE
+DATE_LINE_RE = re.compile(
+    r"^"
+    r"(?:\d+[ªA]\s*\|\s*)?"          # opzionale "6ª |"
+    r"(\d{1,2})/(\d{1,2})"           # giorno/mese
+    r"(?:\s+(\d{1,2}):(\d{2}))?"     # ora opzionale
+    r"$",
+    re.IGNORECASE,
+)
+
+# Formato vecchio / calendario:
+#   Gio 17 Set 18:30
+LEGACY_DATE_RE = re.compile(
+    r"^(?:LUN|MAR|MER|GIO|VEN|SAB|DOM)\s+"
+    r"(\d{1,2})\s+"
+    r"([A-ZÀÈÉÌÒÙ]{3})\s+"
+    r"(\d{1,2}):(\d{2})$",
+    re.IGNORECASE,
+)
+
+MONTHS_IT = {
+    "GEN": 1, "FEB": 2, "MAR": 3, "APR": 4,
+    "MAG": 5, "GIU": 6, "LUG": 7, "AGO": 8,
+    "SET": 9, "OTT": 10, "NOV": 11, "DIC": 12,
+}
+
+IGNORED_EXACT = {
+    "VS", "SKY SPORT", "NOW", "SKY", "RAI SPORT", "RAI", "RAI 2", "RAI2",
+    "RISULTATI E CALENDARIO", "PROSSIME PARTITE",
+    "GIRONE A", "GIRONE B", "GIRONE C", "SERIE C",
+    "CALENDARIO", "LIVE", "HIGHLIGHTS",
+    "COPPA ITALIA", "CLASSIFICA",
+}
+
+BROADCASTER_WORDS = {
+    "SKY", "SPORT", "NOW", "RAI", "DAZN", "MEDIASET",
+}
+
+
+def _looks_like_team(value: str) -> bool:
+    normalized = _normalize(value)
+
+    if not normalized or len(normalized) < 2:
+        return False
+
+    if normalized in IGNORED_EXACT:
+        return False
+
+    if re.fullmatch(r"\d+\s*-\s*\d+", normalized):
+        return False
+
+    if re.fullmatch(r"\d{1,2}:\d{2}", normalized):
+        return False
+
+    if re.fullmatch(r"\d+", normalized):
+        return False
+
+    if DATE_LINE_RE.match(normalized) or LEGACY_DATE_RE.match(normalized):
+        return False
+
+    if normalized.startswith("GIORNATA ") or normalized.startswith("IMAGE:"):
+        return False
+
+    # Codici squadra corti (2-4 lettere) li trattiamo come team
+    if re.fullmatch(r"[A-Z]{2,4}", normalized):
+        return True
+
+    # Evita righe che sono solo broadcaster
+    tokens = set(normalized.split())
+    if tokens and tokens.issubset(BROADCASTER_WORDS | {"SPORT"}):
+        return False
+
+    return True
+
+
+def _parse_date_line(
     value: str,
     now: datetime,
 ) -> Optional[datetime]:
     """
-    Converte le date italiane presenti sul sito:
-
-        Gio 17 Set 18:30
-        Dom 20 Set 14:30
-
-    nell'anno corretto.
+    Interpreta:
+      - 6ª | 20/09 12:30
+      - 20/09 12:30
+      - Gio 17 Set 18:30
     """
+    normalized = _normalize(value)
 
-    months = {
-        "GEN": 1,
-        "FEB": 2,
-        "MAR": 3,
-        "APR": 4,
-        "MAG": 5,
-        "GIU": 6,
-        "LUG": 7,
-        "AGO": 8,
-        "SET": 9,
-        "OTT": 10,
-        "NOV": 11,
-        "DIC": 12,
-    }
+    match = DATE_LINE_RE.match(normalized)
+    if match:
+        day = int(match.group(1))
+        month = int(match.group(2))
+        hour = int(match.group(3) or 15)
+        minute = int(match.group(4) or 0)
+        year = now.year
 
-    match = re.search(
-        r"\b"
-        r"(?:LUN|MAR|MER|GIO|VEN|SAB|DOM)"
-        r"\s+"
-        r"(\d{1,2})"
-        r"\s+"
-        r"([A-ZÀÈÉÌÒÙ]{3})"
-        r"\s+"
-        r"(\d{1,2}):(\d{2})"
-        r"\b",
-        _normalize(value),
-    )
+        try:
+            result = datetime(
+                year, month, day, hour, minute, tzinfo=TIMEZONE
+            )
+        except ValueError:
+            return None
 
-    if not match:
-        return None
+        # Attraversamento anno
+        if result < now - timedelta(days=180):
+            try:
+                result = result.replace(year=year + 1)
+            except ValueError:
+                return None
 
-    day = int(match.group(1))
-    month_name = match.group(2)
-    hour = int(match.group(3))
-    minute = int(match.group(4))
+        return result
 
-    month = months.get(
-        month_name
-    )
+    match = LEGACY_DATE_RE.match(normalized)
+    if match:
+        day = int(match.group(1))
+        month_name = match.group(2)
+        hour = int(match.group(3))
+        minute = int(match.group(4))
+        month = MONTHS_IT.get(month_name)
+        if month is None:
+            return None
 
-    if month is None:
-        return None
+        year = now.year
+        try:
+            result = datetime(
+                year, month, day, hour, minute, tzinfo=TIMEZONE
+            )
+        except ValueError:
+            return None
 
-    year = now.year
+        if result < now - timedelta(days=180):
+            try:
+                result = result.replace(year=year + 1)
+            except ValueError:
+                return None
 
-    try:
-        result = datetime(
-            year,
-            month,
-            day,
-            hour,
-            minute,
-            tzinfo=TIMEZONE,
-        )
-    except ValueError:
-        return None
+        return result
 
-    # Se il calendario attraversa l'anno nuovo.
-    if result < now - timedelta(days=180):
-        result = result.replace(
-            year=year + 1
-        )
-
-    return result
+    return None
 
 
-def _extract_team_names(
-    text: str,
-) -> list[str]:
+def _pick_team_name(candidates: list[str]) -> Optional[str]:
     """
-    Estrae nomi squadra da una porzione di calendario.
-
-    Il sito presenta generalmente:
-
-        SQUADRA CASA
-        VS
-        SQUADRA OSPITE
-
-    oppure, per partite già concluse:
-
-        SQUADRA CASA
-        2 - 1
-        SQUADRA OSPITE
+    Preferisce il nome lungo rispetto al codice a 2-4 lettere.
     """
+    long_names: list[str] = []
+    short_codes: list[str] = []
 
-    lines = [
-        line.strip()
-        for line in text.splitlines()
-        if line.strip()
-    ]
-
-    cleaned: list[str] = []
-
-    ignored_exact = {
-        "VS",
-        "SKY SPORT",
-        "NOW",
-        "RISULTATI E CALENDARIO",
-        "PROSSIME PARTITE",
-        "GIRONE A",
-        "GIRONE B",
-        "GIRONE C",
-        "SERIE C",
-        "CALENDARIO",
-        "STAGIONE 2026/2027",
-    }
-
-    for line in lines:
-        normalized = _normalize(line)
-
-        if normalized in ignored_exact:
+    for value in candidates:
+        candidate = value.strip()
+        if not _looks_like_team(candidate):
             continue
+        normalized = _normalize(candidate)
+        # Codici ufficiali sul sito sono quasi sempre 2-3 lettere (JUV, ALB, BA…).
+        # Nomi come BARI, LECC, etc. vanno trattati come nome squadra.
+        if re.fullmatch(r"[A-Z]{2,3}", normalized):
+            short_codes.append(candidate)
+        else:
+            long_names.append(candidate)
 
-        if re.fullmatch(
-            r"\d+\s*-\s*\d+",
-            normalized,
-        ):
-            continue
+    if long_names:
+        return max(long_names, key=len)
 
-        if re.fullmatch(
-            r"\d{1,2}:\d{2}",
-            normalized,
-        ):
-            continue
+    if short_codes:
+        return short_codes[0]
 
-        if re.fullmatch(
-            r"\d+",
-            normalized,
-        ):
-            continue
-
-        if re.search(
-            r"(?:GIO|VEN|SAB|DOM|LUN|MAR|MER)"
-            r"\s+\d{1,2}\s+"
-            r"[A-Z]{3}\s+"
-            r"\d{1,2}:\d{2}",
-            normalized,
-        ):
-            continue
-
-        if normalized.startswith(
-            "GIORNATA "
-        ):
-            continue
-
-        if normalized.startswith(
-            "IMAGE:"
-        ):
-            continue
-
-        if len(normalized) < 3:
-            continue
-
-        cleaned.append(
-            line
-        )
-
-    return cleaned
+    return None
 
 
 def _find_event_blocks(
     text: str,
 ) -> list[tuple[str, str, str]]:
     """
-    Cerca blocchi calendario nel testo.
+    Restituisce liste di (date_time_raw, home, away).
 
-    Restituisce:
-        (data_ora, squadra_casa, squadra_ospite)
+    Supporta due layout:
+    1) Homepage ufficiale (2026+):
+         6ª | 20/09 12:30
+         HOME FULL
+         HOME CODE
+         Sky Sport / NOW
+         AWAY CODE
+         AWAY FULL
+
+    2) Layout legacy con VS o risultato.
     """
-
-    lines = [
-        line.strip()
-        for line in text.splitlines()
-        if line.strip()
-    ]
-
-    date_pattern = re.compile(
-        r"^(?:"
-        r"LUN|MAR|MER|GIO|VEN|SAB|DOM"
-        r")\s+"
-        r"\d{1,2}\s+"
-        r"[A-ZÀÈÉÌÒÙ]{3}\s+"
-        r"\d{1,2}:\d{2}$",
-        re.IGNORECASE,
-    )
-
-    events: list[
-        tuple[str, str, str]
-    ] = []
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    events: list[tuple[str, str, str]] = []
 
     i = 0
-
     while i < len(lines):
-        current = _normalize(
-            lines[i]
+        current = lines[i]
+        normalized = _normalize(current)
+
+        is_date = bool(
+            DATE_LINE_RE.match(normalized)
+            or LEGACY_DATE_RE.match(normalized)
         )
 
-        if not date_pattern.match(
-            current
-        ):
+        if not is_date:
             i += 1
             continue
 
-        date_time = lines[i]
+        date_time = current
+        window = lines[i + 1 : i + 14]
 
-        candidate_lines = lines[
-            i + 1:i + 12
-        ]
+        # --- Layout homepage: HOME + CODE + broadcasters + CODE + AWAY ---
+        team_candidates: list[str] = []
+        for line in window:
+            n = _normalize(line)
+            if DATE_LINE_RE.match(n) or LEGACY_DATE_RE.match(n):
+                break
+            if n in IGNORED_EXACT:
+                continue
+            if re.fullmatch(r"\d+\s*-\s*\d+", n):
+                continue
+            if _looks_like_team(line):
+                team_candidates.append(line)
 
-        # Cerca il primo VS.
+        if len(team_candidates) >= 2:
+            home = _pick_team_name(team_candidates[:3])
+            remaining = [
+                t for t in team_candidates
+                if _normalize(t) != _normalize(home or "")
+            ]
+            away = _pick_team_name(remaining[:3])
+
+            if home and away and _normalize(home) != _normalize(away):
+                events.append((date_time, home, away))
+                i += 1
+                continue
+
+        # --- Fallback legacy: VS ---
         vs_index = None
-
-        for index, line in enumerate(
-            candidate_lines
-        ):
+        for index, line in enumerate(window):
             if _normalize(line) == "VS":
                 vs_index = index
                 break
 
         if vs_index is not None:
-            before = candidate_lines[
-                :vs_index
-            ]
-
-            after = candidate_lines[
-                vs_index + 1:
-            ]
-
-            home = _pick_team(
-                before
-            )
-
-            away = _pick_team(
-                after
-            )
-
+            before = window[:vs_index]
+            after = window[vs_index + 1 :]
+            home = _pick_team_name(before)
+            away = _pick_team_name(after)
             if home and away:
-                events.append(
-                    (
-                        date_time,
-                        home,
-                        away,
-                    )
-                )
-
+                events.append((date_time, home, away))
                 i += 1
                 continue
 
-        # Fallback per eventuali partite già concluse:
-        # CASA / risultato / OSPITE.
-        if len(candidate_lines) >= 3:
-            home = candidate_lines[0]
-            result = candidate_lines[1]
-            away = candidate_lines[2]
-
+        # --- Fallback risultato: CASA / 2-1 / OSPITE ---
+        if len(window) >= 3:
+            home_c = window[0]
+            result = window[1]
+            away_c = window[2]
             if (
-                _looks_like_team(home)
-                and re.fullmatch(
-                    r"\d+\s*-\s*\d+",
-                    _normalize(result),
-                )
-                and _looks_like_team(away)
+                _looks_like_team(home_c)
+                and re.fullmatch(r"\d+\s*-\s*\d+", _normalize(result))
+                and _looks_like_team(away_c)
             ):
-                events.append(
-                    (
-                        date_time,
-                        home,
-                        away,
-                    )
-                )
+                events.append((date_time, home_c, away_c))
 
         i += 1
 
     return events
-
-
-def _looks_like_team(
-    value: str,
-) -> bool:
-    normalized = _normalize(
-        value
-    )
-
-    if normalized in {
-        "VS",
-        "SKY SPORT",
-        "NOW",
-    }:
-        return False
-
-    if re.fullmatch(
-        r"\d+\s*-\s*\d+",
-        normalized,
-    ):
-        return False
-
-    if re.fullmatch(
-        r"\d{1,2}:\d{2}",
-        normalized,
-    ):
-        return False
-
-    if len(normalized) < 3:
-        return False
-
-    return True
-
-
-def _pick_team(
-    values: list[str],
-) -> Optional[str]:
-    ignored = {
-        "IMAGE",
-        "IMAGE:",
-        "SKY SPORT",
-        "NOW",
-        "SKY",
-    }
-
-    for value in values:
-        candidate = value.strip()
-        normalized = _normalize(candidate)
-
-        if normalized in ignored:
-            continue
-
-        if _looks_like_team(candidate):
-            return candidate
-
-    return None
 
 
 def _build_event(
@@ -606,24 +441,15 @@ def _build_event(
     away: str,
     now: datetime,
 ) -> Optional[SerieCEvent]:
-    start = _parse_date(
-        date_time,
-        now,
-    )
-
+    start = _parse_date_line(date_time, now)
     if start is None:
         return None
 
-    # Generiamo solo oggi e domani.
+    # Solo oggi e domani (allineato a config SHOW_TODAY / SHOW_TOMORROW)
     today = now.date()
-    tomorrow = (
-        now + timedelta(days=1)
-    ).date()
+    tomorrow = (now + timedelta(days=1)).date()
 
-    if start.date() not in {
-        today,
-        tomorrow,
-    }:
+    if start.date() not in {today, tomorrow}:
         return None
 
     home_clean = home.strip()
@@ -632,15 +458,8 @@ def _build_event(
     if not home_clean or not away_clean:
         return None
 
-    home_id = (
-        "serie_c_"
-        + _slug(home_clean)
-    )
-
-    away_id = (
-        "serie_c_"
-        + _slug(away_clean)
-    )
+    home_id = "serie_c_" + _slug(home_clean)
+    away_id = "serie_c_" + _slug(away_clean)
 
     event_key = (
         f"{start.strftime('%Y%m%d_%H%M')}_"
@@ -648,19 +467,14 @@ def _build_event(
         f"{_slug(away_clean)}"
     )
 
-    end = start + timedelta(
-        minutes=130
-    )
+    end = start + timedelta(minutes=130)
 
     return SerieCEvent(
         source_event_id=event_key,
         competition_key="serie_c",
         competition_name="Serie C",
         sport="FOOTBALL",
-        title=(
-            f"{home_clean} - "
-            f"{away_clean}"
-        ),
+        title=f"{home_clean} - {away_clean}",
         start_time=start,
         end_time=end,
         status="SCHEDULED",
@@ -673,105 +487,49 @@ def _build_event(
     )
 
 
-def _parse_page(
-    html: str,
-    now: datetime,
-) -> list[SerieCEvent]:
+def _parse_page(html: str, now: datetime) -> list[SerieCEvent]:
     parser = _SerieCHtmlParser()
-
     parser.feed(html)
-
     text = parser.text()
 
-    raw_events = _find_event_blocks(
-        text
-    )
+    raw_events = _find_event_blocks(text)
 
     events: list[SerieCEvent] = []
-
     seen: set[str] = set()
 
-    for (
-        date_time,
-        home,
-        away,
-    ) in raw_events:
-        event = _build_event(
-            date_time,
-            home,
-            away,
-            now,
-        )
-
+    for date_time, home, away in raw_events:
+        event = _build_event(date_time, home, away, now)
         if event is None:
             continue
-
-        if (
-            event.source_event_id
-            in seen
-        ):
+        if event.source_event_id in seen:
             continue
-
-        seen.add(
-            event.source_event_id
-        )
-
-        events.append(
-            event
-        )
+        seen.add(event.source_event_id)
+        events.append(event)
 
     return events
 
 
 def fetch_serie_c_events() -> list[SerieCEvent]:
     """
-    Recupera gli eventi Serie C ufficiali
-    per oggi e domani.
-
-    La pagina ufficiale della Lega Serie C
-    contiene già calendario e programmazione.
+    Recupera gli eventi Serie C ufficiali per oggi e domani
+    dal sito della Lega Serie C.
     """
+    now = datetime.now(TIMEZONE)
 
-    now = datetime.now(
-        TIMEZONE
-    )
-
-    all_events: dict[
-        str,
-        SerieCEvent
-    ] = {}
+    all_events: dict[str, SerieCEvent] = {}
 
     for url in SERIE_C_URLS:
         try:
-            print(
-                f"[SERIE C] Download calendario: "
-                f"{url}"
-            )
-
-            html = _download(
-                url
-            )
-
-            events = _parse_page(
-                html,
-                now,
-            )
-
-            print(
-                f"[SERIE C] Eventi trovati da "
-                f"{url}: {len(events)}"
-            )
+            print(f"[SERIE C] Download calendario: {url}")
+            html = _download(url)
+            events = _parse_page(html, now)
+            print(f"[SERIE C] Eventi trovati da {url}: {len(events)}")
 
             for event in events:
-                all_events[
-                    event.source_event_id
-                ] = event
+                all_events[event.source_event_id] = event
 
         except Exception as error:
-            print(
-                f"[SERIE C] Fonte non disponibile "
-                f"{url}: {error}"
-            )
+            print(f"[SERIE C] Fonte non disponibile {url}: {error}")
 
     result = sorted(
         all_events.values(),
@@ -782,11 +540,7 @@ def fetch_serie_c_events() -> list[SerieCEvent]:
         ),
     )
 
-    print(
-        f"[SERIE C] Totale eventi oggi/domani: "
-        f"{len(result)}"
-    )
-
+    print(f"[SERIE C] Totale eventi oggi/domani: {len(result)}")
     return result
 
 
@@ -794,15 +548,11 @@ if __name__ == "__main__":
     events = fetch_serie_c_events()
 
     print()
-    print(
-        f"Serie C: {len(events)} eventi"
-    )
+    print(f"Serie C: {len(events)} eventi")
 
     for event in events:
         print(
-            event.start_time.strftime(
-                "%Y-%m-%d %H:%M"
-            ),
+            event.start_time.strftime("%Y-%m-%d %H:%M"),
             "|",
             event.title,
         )
