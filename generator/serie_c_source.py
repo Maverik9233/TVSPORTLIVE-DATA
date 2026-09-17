@@ -107,6 +107,21 @@ class _SerieCHtmlParser(HTMLParser):
                     }
                 )
 
+                # Nelle pagine della Lega Serie C i nomi delle
+                # squadre possono essere presenti esclusivamente
+                # nell'attributo alt dell'immagine. Aggiungiamolo
+                # al testo estratto, mantenendo l'ordine del DOM.
+                if alt:
+                    clean_alt = re.sub(
+                        r"^image:\s*",
+                        "",
+                        alt,
+                        flags=re.IGNORECASE,
+                    ).strip()
+
+                    if clean_alt:
+                        self.parts.append(clean_alt)
+
     def handle_startendtag(
         self,
         tag: str,
@@ -564,11 +579,23 @@ def _looks_like_team(
 def _pick_team(
     values: list[str],
 ) -> Optional[str]:
+    ignored = {
+        "IMAGE",
+        "IMAGE:",
+        "SKY SPORT",
+        "NOW",
+        "SKY",
+    }
+
     for value in values:
-        if _looks_like_team(
-            value
-        ):
-            return value.strip()
+        candidate = value.strip()
+        normalized = _normalize(candidate)
+
+        if normalized in ignored:
+            continue
+
+        if _looks_like_team(candidate):
+            return candidate
 
     return None
 
