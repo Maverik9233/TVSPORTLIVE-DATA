@@ -280,6 +280,32 @@ def normalize_broadcaster(
     if not value:
         return None
 
+    # Estrae il nome canale da righe JS tipo:
+    # CAPTION, 'Sky Go Italy [online] – 2026-09-19...');">Sky Go Italy [online]
+    caption_match = re.search(
+        r"CAPTION,\s*'([^']+)'",
+        value,
+        flags=re.IGNORECASE,
+    )
+    if caption_match:
+        value = caption_match.group(1)
+        # Rimuove timestamp nel caption
+        value = re.sub(
+            r"\s*[&ndash;\-–—]+\s*\d{4}-\d{2}-\d{2}.*$",
+            "",
+            value,
+        )
+
+    # Se c'è testo dopo il tag di chiusura JS, preferiscilo
+    tail = re.search(
+        r'">\s*([^<"\n]+)\s*$',
+        value,
+    )
+    if tail:
+        candidate = tail.group(1).strip()
+        if candidate and len(candidate) > 2:
+            value = candidate
+
     # Marcatori usati da LiveOnSat per indicare
     # restrizioni/app/streaming.
     value = re.sub(
@@ -317,13 +343,43 @@ def normalize_broadcaster(
         flags=re.IGNORECASE,
     )
 
-    value = re.sub(
-        r"\s+",
-        " ",
-        value,
-    )
+    # Rimuove emoji e residui HTML
+    value = re.sub(r"[📺📡🔴▶️]+", "", value)
+    value = re.sub(r"&[a-z]+;", " ", value, flags=re.IGNORECASE)
 
-    return value.strip() or None
+    value = re.sub(r"\s+", " ", value)
+
+    cleaned = value.strip()
+
+    if not cleaned:
+        return None
+
+    # Scarta ancora rumore tecnico
+    lower = cleaned.casefold()
+    if lower in {
+        "pos", "satellite", "freq", "symbol", "encryption",
+        "liveonsat.com", "* iptv/stream", "iptv/stream",
+    }:
+        return None
+
+    if re.fullmatch(r"[\d\.\,\°\s\*]+", cleaned):
+        return None
+
+    # Date tipo "Friday, 18th September"
+    if re.search(r"\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b", lower):
+        return None
+
+    # Frequenze sat tipo "11.512 H" / "30000 - 3/4"
+    if re.fullmatch(r"\d{1,2}\.\d{1,3}\s*[HV]", cleaned, re.I):
+        return None
+    if re.fullmatch(r"\d{4,5}\s*-\s*\d/\d", cleaned):
+        return None
+    if re.search(r"\bnagra|\bviaccess|\birdeto|\bconax|\bhd\s+nagra", lower):
+        return None
+    if lower.startswith("eutelsat") or lower.startswith("hotbird") or lower.startswith("astra"):
+        return None
+
+    return cleaned
 
 
 def looks_like_broadcaster(line: str) -> bool:
@@ -333,6 +389,16 @@ def looks_like_broadcaster(line: str) -> bool:
         return False
 
     lower = line.casefold()
+
+    # Header tecnici e rumore della tabella LiveOnSat
+    blocked_exact = {
+        "pos", "satellite", "freq", "symbol", "encryption",
+        "liveonsat.com", "liveonsat", "* iptv/stream",
+        "iptv/stream", "0.0&deg;", "0.000",
+    }
+
+    if lower in blocked_exact:
+        return False
 
     blocked = (
         "liveonsat",
@@ -349,27 +415,30 @@ def looks_like_broadcaster(line: str) -> bool:
         "week ",
         "girone ",
         "st:",
+        "onmouseout",
+        "onmouseover",
+        "return nd",
     )
 
-    if any(
-        item in lower
-        for item in blocked
-    ):
+    # Le righe CAPTION contengono il nome canale: lasciamole passare
+    # (normalize_broadcaster le pulisce).
+    if "caption" in lower and ("sky" in lower or "rai" in lower or "dazn" in lower or "now" in lower or "sport" in lower):
+        return True
+
+    if any(item in lower for item in blocked):
         return False
 
     if len(line) < 2 or len(line) > 120:
         return False
 
-    if re.fullmatch(
-        r"\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4}",
-        line,
-    ):
+    if re.fullmatch(r"\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4}", line):
         return False
 
-    if re.fullmatch(
-        r"\d{1,2}:\d{2}",
-        line,
-    ):
+    if re.fullmatch(r"\d{1,2}:\d{2}", line):
+        return False
+
+    # Solo numeri / gradi / frequenze
+    if re.fullmatch(r"[\d\.\,\°\&deg;\s\*]+", line):
         return False
 
     return True
