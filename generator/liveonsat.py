@@ -709,11 +709,57 @@ def deduplicate_liveonsat_events(
 # MATCHING
 # ============================================================
 
+def _team_parts_match(first: str, second: str) -> bool:
+    """Confronta due nomi squadra ignorando differenze minori."""
+    a = normalize_text(first).casefold()
+    b = normalize_text(second).casefold()
+
+    if not a or not b:
+        return False
+
+    if a == b:
+        return True
+
+    if a in b or b in a:
+        return True
+
+    a_tokens = set(re.findall(r"[a-z0-9]+", a))
+    b_tokens = set(re.findall(r"[a-z0-9]+", b))
+
+    if not a_tokens or not b_tokens:
+        return False
+
+    # Evita falsi positivi con token troppo generici.
+    meaningful_a = {token for token in a_tokens if len(token) >= 3}
+    meaningful_b = {token for token in b_tokens if len(token) >= 3}
+
+    if not meaningful_a or not meaningful_b:
+        return False
+
+    common = meaningful_a & meaningful_b
+
+    return (
+        len(common) >= 1
+        and (
+            common == meaningful_a
+            or common == meaningful_b
+            or len(common) >= 2
+        )
+    )
+
+
 def event_titles_match(
     first: str,
     second: str,
 ) -> bool:
+    """
+    Confronta i titoli degli eventi anche quando le due fonti
+    usano l'ordine inverso delle squadre.
 
+    Esempio:
+        ESPN:       "AFC Bournemouth at Real Sociedad"
+        LiveOnSat:  "Real Sociedad v Bournemouth"
+    """
     a = normalize_event_title(first)
     b = normalize_event_title(second)
 
@@ -726,8 +772,6 @@ def event_titles_match(
     if a in b or b in a:
         return True
 
-    # Confronto robusto anche quando una fonte aggiunge
-    # dettagli prima/dopo il nome delle squadre.
     a_parts = [
         part.strip()
         for part in a.split("-")
@@ -740,15 +784,24 @@ def event_titles_match(
         if part.strip()
     ]
 
-    if len(a_parts) == 2 and len(b_parts) == 2:
-        if (
-            a_parts[0] == b_parts[0]
-            and a_parts[1] == b_parts[1]
-        ):
-            return True
+    if len(a_parts) != 2 or len(b_parts) != 2:
+        return False
+
+    # Ordine normale: casa -> trasferta.
+    if (
+        _team_parts_match(a_parts[0], b_parts[0])
+        and _team_parts_match(a_parts[1], b_parts[1])
+    ):
+        return True
+
+    # Ordine invertito tra le due fonti.
+    if (
+        _team_parts_match(a_parts[0], b_parts[1])
+        and _team_parts_match(a_parts[1], b_parts[0])
+    ):
+        return True
 
     return False
-
 
 def find_broadcasters_for_event(
     event_title: str,
