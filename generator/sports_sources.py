@@ -1,4 +1,4 @@
-from __future__ import annotations
+from **future** import annotations
 
 import json
 import urllib.error
@@ -1009,35 +1009,25 @@ serie_c_source.py nel formato comune RawEvent.
 return RawEvent(
     source="SERIEC",
     source_event_id=event.source_event_id,
-
     competition_key=event.competition_key,
     competition_name=event.competition_name,
-
     sport=event.sport,
-
     title=event.title,
-
     start_time=event.start_time.isoformat(),
     end_time=event.end_time.isoformat(),
-
     status=event.status,
-
     home_team_id=event.home_team_id,
     home_team_name=event.home_team_name,
     home_team_short_name=event.home_team_short_name,
     home_team_logo=event.home_logo_url,
-
     away_team_id=event.away_team_id,
     away_team_name=event.away_team_name,
     away_team_short_name=event.away_team_short_name,
     away_team_logo=event.away_logo_url,
-
     home_score=event.home_score,
     away_score=event.away_score,
-
     period=None,
     minute=None,
-
     country=event.country,
 )
 ```
@@ -1708,38 +1698,28 @@ if not end_time:
 return RawEvent(
     source="ESPN",
     source_event_id=event_id,
-
     competition_key=competition.key,
     competition_name=(
         competition.name
         or competition.key
     ),
-
     sport=competition.sport,
-
     title=title,
-
     start_time=start_time,
     end_time=end_time,
-
     status=status,
-
     home_team_id=home_id,
     home_team_name=home_name,
     home_team_short_name=home_short_name,
     home_team_logo=home_logo,
-
     away_team_id=away_id,
     away_team_name=away_name,
     away_team_short_name=away_short_name,
     away_team_logo=away_logo,
-
     home_score=home_score,
     away_score=away_score,
-
     period=period,
     minute=minute,
-
     country=(
         "IT"
         if competition.key
@@ -1806,6 +1786,46 @@ for event in events:
         )
 
 return normalized
+```
+
+# ============================================================
+
+# DEDUPLICATION
+
+# ============================================================
+
+def deduplicate_events(
+events: list[RawEvent],
+) -> list[RawEvent]:
+unique: dict[
+tuple[str, str],
+RawEvent,
+] = {}
+
+```
+for event in events:
+
+    key = (
+        event.source,
+        event.source_event_id,
+    )
+
+    if key not in unique:
+        unique[key] = event
+
+result = list(
+    unique.values()
+)
+
+result.sort(
+    key=lambda item: (
+        item.start_time,
+        item.competition_key,
+        item.title,
+    )
+)
+
+return result
 ```
 
 # ============================================================
@@ -1891,43 +1911,6 @@ return deduplicate_events(
 
 # ============================================================
 
-# DEDUPLICATION
-
-# ============================================================
-
-def deduplicate_events(
-events: list[RawEvent],
-) -> list[RawEvent]:
-unique: dict[
-tuple[str, str],
-RawEvent,
-] = {}
-for event in events:
-
-    key = (
-        event.source,
-        event.source_event_id,
-    )
-
-    if key not in unique:
-        unique[key] = event
-
-result = list(
-    unique.values()
-)
-
-result.sort(
-    key=lambda item: (
-        item.start_time,
-        item.competition_key,
-        item.title,
-    )
-)
-
-return result
-
-# ============================================================
-
 # PUBLIC ENTRY POINT
 
 # ============================================================
@@ -1942,4 +1925,3 @@ print(
 )
 
 return events
-```
