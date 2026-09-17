@@ -84,7 +84,6 @@ period: str | None = None
 minute: int | None = None
 
 country: str | None = None
-```
 
 # ============================================================
 
