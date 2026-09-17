@@ -1,0 +1,3481 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-17T21:35:00Z",
+  "channels": [
+    {
+      "id": "sky_sport_uno",
+      "name": "Sky Sport Uno",
+      "country": "IT",
+      "priority": 1,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Uno HD",
+        "Sky Sport Uno SD",
+        "Sky Sport Uno Italia HD",
+        "Sky Sport Uno Italia",
+        "Sky Sport Uno Italia SD",
+        "Sky Sport Uno Italy SD",
+        "Sky Sport Uno Italy HD",
+        "Sky Sport 1",
+        "Sky Sport 1 HD",
+        "SkySport Uno"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_uno_source_1",
+          "url": "https://premium.hls.st/playlist/premium461.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_uno_source_2",
+          "url": "https://ds164.bluetier.top/SkySportUnoIT/index.m3u8?token=U2t5U3BvcnRVbm9JVHxub19jaGVja19pcHwxNzg5NTA3ODA0.884b21aa3ac1ba0a43f90d78bf87fd74903e6d311da0deedd13288bd85557490",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        },
+        {
+          "id": "sky_sport_uno_source_3",
+          "url": "https://premium.hls.st/playlist/premium461.m3u8",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_calcio",
+      "name": "Sky Sport Calcio",
+      "country": "IT",
+      "priority": 2,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Calcio HD",
+        "Sky Sport Calcio SD",
+        "Sky Sport Calcio Italia",
+        "Sky Sport Calcio Italy",
+        "Sky Sport Calcio Italy SD",
+        "Sky Sport Serie A",
+        "Sky Supercalcio",
+        "SkySport Calcio"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_calcio_source_1",
+          "url": "https://premium.hls.st/playlist/premium870.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_calcio_source_2",
+          "url": "https://www.htsport.org/calcio.htm",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "Italia 1",
+      "name": "Italia 1",
+      "country": "IT",
+      "priority": 2,
+      "logoUrl": null,
+      "aliases": [
+        "Italia 1 HD",
+        "Italia 1 SD",
+        "Italia 1 mediaset",
+        "Italia1",
+        "Italia Uno"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "italia_1_source_1",
+          "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "italia_1_source_2",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hd.mpd",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_arena",
+      "name": "Sky Sport Arena",
+      "country": "IT",
+      "priority": 3,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Arena HD",
+        "Sky Sport Arena SD",
+        "Sky Sport Arena Italia",
+        "Sky Sport Arena Italy",
+        "Sky Sport Arena Italy HD",
+        "Sky Sport Arena Italia HD",
+        "Sky Sport 2",
+        "SkySport Arena"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_arena_source_1",
+          "url": "https://premium.hls.st/playlist/premium462.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_arena_source_2",
+          "url": "https://dlive.sx/watch.php?id=462",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_f1",
+      "name": "Sky Sport F1",
+      "country": "IT",
+      "priority": 4,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport F1 HD",
+        "Sky Sport F1 Italia HD",
+        "Sky Sport F1 Italia",
+        "Sky Sport F1 Italy",
+        "Sky Sport F1 SD",
+        "Sky Sport Formula 1",
+        "SkySport F1",
+        "Sky F1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_f1_source_1",
+          "url": "https://premium.hls.st/playlist/premium577.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_f1_source_2",
+          "url": "https://ds164.bluetier.top/SkySportF1IT/index.m3u8?token=U2t5U3BvcnRGMUlUfG5vX2NoZWNrX2lwfDE3ODk1Njc3Njg=.0cf4461724c2654b40ec0a703d4feda48c080e2dbf26c9e0ba6b9f92c085154e",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_motogp",
+      "name": "Sky Sport MotoGP",
+      "country": "IT",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport MotoGP HD",
+        "Sky Sport MotoGP Italy HD",
+        "Sky Sport MotoGP Italia HD",
+        "Sky Sport MotoGP",
+        "Sky Sport MotoGP SD",
+        "SkySport MotoGP",
+        "Sky MotoGP"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_motogp_source_1",
+          "url": "https://premium.hls.st/playlist/premium575.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_motogp_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_tennis",
+      "name": "Sky Sport Tennis",
+      "country": "IT",
+      "priority": 6,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Tennis HD",
+        "Sky Sport Tennis SD",
+        "Sky Sport Tennis Italia HD",
+        "Sky Sport Tennis Italy HD",
+        "Sky Sport Tennis Italy",
+        "Sky Sport Tennis Italia",
+        "Sky Tennis Italy",
+        "Sky Tennis Italia",
+        "SkySport Tennis",
+        "Sky Tennis"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_tennis_source_1",
+          "url": "https://premium.hls.st/playlist/premium576.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_tennis_source_2",
+          "url": "https://ds164.bluetier.top/SkySportTennisIT/tracks-a1/mono.m3u8?token=U2t5U3BvcnRUZW5uaXNJVHxub19jaGVja19pcHwxNzg5NTY2NDI4.9abe6e314557b8487ba9e15118dea5dbc702c45d3ab235ff6449f7633a2545bd",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_basket",
+      "name": "Sky Sport Basket",
+      "country": "IT",
+      "priority": 7,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Basket HD",
+        "Sky Sport Basket SD",
+        "Sky Sport Basket Italy",
+        "Sky Sport Basket Italy HD",
+        "Sky Sport Basket Italia HD",
+        "Sky Sport Basket Italia SD",
+        "SkySport Basket",
+        "Sky Basket",
+        "Sky Sport NBA"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_basket_source_1",
+          "url": "https://premium.hls.st/playlist/premium875.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_basket_source_2",
+          "url": "https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI4NzUiLCJ0cyI6MTc4OTU2NzIxNTc5N30",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_24",
+      "name": "Sky Sport 24",
+      "country": "IT",
+      "priority": 8,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 24 HD",
+        "Sky Sport 24 SD",
+        "Sky Sport 24 Italia HD",
+        "Sky Sport 24 Italia SD",
+        "Sky Sport 24 Italy HD",
+        "Sky Sport 24 Italy SD",
+        "SkySport 24"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_24_source_1",
+          "url": "https://premium.hls.st/playlist/premium869.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_24_source_2",
+          "url": "https://ds164.bluetier.top/SkySport24IT/index.m3u8?token=U2t5U3BvcnQyNElUfG5vX2NoZWNrX2lwfDE3ODk1NjgwODc=.868a2a723df01da3d04351840c5e805081eded6b76b52a46e8362b9707edb71e",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_max",
+      "name": "Sky Sport Max",
+      "country": "IT",
+      "priority": 9,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Max HD",
+        "Sky Sport Max SD",
+        "Sky Sport Max Italia HD",
+        "Sky Sport Max Italia SD",
+        "Sky Sport Max Italy",
+        "Sky Sport Max Italia",
+        "SkySport Max"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_max_source_1",
+          "url": "https://premium.hls.st/playlist/premium460.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_max_source_2",
+          "url": "https://ds164.bluetier.top/SkySportMaxIT/index.m3u8?token=U2t5U3BvcnRNYXhJVHxub19jaGVja19pcHwxNzg5NTY4NDgx.ea94e83295985100d77fd037fd0d603761152ca2127a5cc2413586af776a0ae7",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_251",
+      "name": "Sky Sport 251",
+      "country": "IT",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 251 HD",
+        "Sky Sport 251 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_251_source_1",
+          "url": "https://premium.hls.st/playlist/premium871.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_251_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_252",
+      "name": "Sky Sport 252",
+      "country": "IT",
+      "priority": 11,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 252 HD",
+        "Sky Sport 252 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_252_source_1",
+          "url": "https://premium.hls.st/playlist/premium872.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_252_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_253",
+      "name": "Sky Sport 253",
+      "country": "IT",
+      "priority": 12,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 253 HD",
+        "Sky Sport 253 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_253_source_1",
+          "url": "https://premium.hls.st/playlist/premium873.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_253_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_254",
+      "name": "Sky Sport 254",
+      "country": "IT",
+      "priority": 13,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 254 HD",
+        "Sky Sport 254 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_254_source_1",
+          "url": "https://premium.hls.st/playlist/premium874.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_254_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_255",
+      "name": "Sky Sport 255",
+      "country": "IT",
+      "priority": 14,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 255 HD",
+        "Sky Sport 255 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_255_source_1",
+          "url": "https://premium.hls.st/playlist/premium28.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_255_source_2",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/d26pdsqcyikqz.m3u8?s=AzlHgspcG0LOUSmeG5QBgQ&e=1789668857",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_256",
+      "name": "Sky Sport 256",
+      "country": "IT",
+      "priority": 15,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 256 HD",
+        "Sky Sport 256 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_256_source_1",
+          "url": "https://premium.hls.st/playlist/premium179.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_256_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_257",
+      "name": "Sky Sport 257",
+      "country": "IT",
+      "priority": 16,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 257 HD",
+        "Sky Sport 257 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_257_source_1",
+          "url": "https://premium.hls.st/playlist/premium178.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_257_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_258",
+      "name": "Sky Sport 258",
+      "country": "IT",
+      "priority": 17,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 258 HD",
+        "Sky Sport 258 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_258_source_1",
+          "url": "https://premium.hls.st/playlist/premium177.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_258_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_259",
+      "name": "Sky Sport 259",
+      "country": "IT",
+      "priority": 18,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 259 HD",
+        "Sky Sport 259 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_259_source_1",
+          "url": "https://premium.hls.st/playlist/premium180.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_259_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_260",
+      "name": "Sky Sport 260",
+      "country": "IT",
+      "priority": 19,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 260 HD",
+        "Sky Sport 260 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_260_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_260_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_261",
+      "name": "Sky Sport 261",
+      "country": "IT",
+      "priority": 20,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 261 HD",
+        "Sky Sport 261 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_261_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_261_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_262",
+      "name": "Sky Sport 262",
+      "country": "IT",
+      "priority": 21,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 262 HD",
+        "Sky Sport 262 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_262_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_262_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_263",
+      "name": "Sky Sport 263",
+      "country": "IT",
+      "priority": 22,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 263 HD",
+        "Sky Sport 263 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_263_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_263_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_4k",
+      "name": "Sky Sport 4K",
+      "country": "IT",
+      "priority": 23,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 4K HD",
+        "Sky Sport 4K SD",
+        "Sky Sport 4K HDR",
+        "Sky Sport UHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_4k_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_4k_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "dazn_1_italia",
+      "name": "DAZN 1 Italia",
+      "country": "IT",
+      "priority": 24,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 1 Italia HD",
+        "DAZN 1 Italia SD",
+        "DAZN 1 Italy HD",
+        "DAZN 1 Italia",
+        "ZONA DAZN Italia",
+        "DAZN 1",
+        "DAZN1",
+        "Zona DAZN",
+        "DAZN Channel",
+        "DAZN 1 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_1_italia_source_1",
+          "url": "https://premium.hls.st/playlist/premium877.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "dazn_1_italia_source_2",
+          "url": "https://epidd.hundxvision.co.uk/main/secure/e3dc22e655b0e7e2e193d0454c21a758dc2cdb9e3d79312c59e8917e30e033df/1789577253/dazn1it.m3u8",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "dazn_2_italia",
+      "name": "DAZN 2 Italia",
+      "country": "IT",
+      "priority": 25,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 2 Italia HD",
+        "DAZN 2 Italia SD",
+        "DAZN 2",
+        "DAZN2",
+        "Zona DAZN 2",
+        "DAZN 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_2_italia_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "dazn_2_italia_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "dazn_1_bar DE",
+      "name": "DAZN 1 Bar DE",
+      "country": "IT",
+      "priority": 24,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 1 Bar Deutsch HD",
+        "DAZN 1 Bar Deutsch",
+        "DAZN 1 Bar DE HD",
+        "DAZN 1 Bar DE SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_1_bar_source_1",
+          "url": "https://st.chatango.com/pcache/sounds/message_received.mp3?1",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "dazn_1_bar_source_2",
+          "url": "https://premium.hls.st/playlist/premium426.m3u8",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "eurosport_1",
+      "name": "Eurosport 1",
+      "country": "IT",
+      "priority": 26,
+      "logoUrl": null,
+      "aliases": [
+        "Eurosport 1 HD",
+        "Eurosport 1 SD",
+        "Eurosport1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eurosport_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "eurosport_1_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "eurosport_2",
+      "name": "Eurosport 2",
+      "country": "IT",
+      "priority": 27,
+      "logoUrl": null,
+      "aliases": [
+        "Eurosport 2 HD",
+        "Eurosport 2 SD",
+        "Eurosport2"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eurosport_2_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "eurosport_2_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "rai_sport",
+      "name": "Rai Sport",
+      "country": "IT",
+      "priority": 28,
+      "logoUrl": null,
+      "aliases": [
+        "Rai Sport HD",
+        "Rai Sport SD",
+        "RaiSport",
+        "Rai Sport +"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "rai_sport_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "rai_sport_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sportitalia",
+      "name": "Sportitalia",
+      "country": "IT",
+      "priority": 29,
+      "logoUrl": null,
+      "aliases": [
+        "Sportitalia HD",
+        "Sportitalia SD",
+        "Sport Italia"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sportitalia_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sportitalia_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "supertennis",
+      "name": "SuperTennis",
+      "country": "IT",
+      "priority": 30,
+      "logoUrl": null,
+      "aliases": [
+        "SuperTennis HD",
+        "SuperTennis SD",
+        "Super Tennis"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "supertennis_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "supertennis_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "tv8",
+      "name": "TV8",
+      "country": "IT",
+      "priority": 31,
+      "logoUrl": null,
+      "aliases": [
+        "TV8 HD",
+        "TV8 SD",
+        "TV8 Italia HD",
+        "TV8 Italia",
+        "TV 8"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tv8_source_1",
+          "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "tv8_source_2",
+          "url": "https://www.mytivu.it/Application/Channels/TV8.php",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "italia_1",
+      "name": "Italia 1",
+      "country": "IT",
+      "priority": 32,
+      "logoUrl": null,
+      "aliases": [
+        "Italia 1 HD",
+        "Italia 1 SD",
+        "Italia1",
+        "Italia Uno"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "italia_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "italia_1_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "canale_20_mediaset",
+      "name": "Canale 20 Mediaset",
+      "country": "IT",
+      "priority": 33,
+      "logoUrl": null,
+      "aliases": [
+        "Canale 20 Mediaset HD",
+        "Canale 20 Mediaset SD",
+        "Canale 20 Mediaset Italia HD",
+        "Canale 20 Mediaset Italy SD",
+        "20 Mediaset HD",
+        "20 Mediaset SD",
+        "20Mediaset HD",
+        "20Mediaset SD",
+        "20 Mediaset",
+        "Canale 20",
+        "20Mediaset",
+        "Canale 20 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "canale_20_mediaset_source_1",
+          "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "canale_20_mediaset_source_2",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest_hd.mpd",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "italia_2",
+      "name": "Italia 2",
+      "country": "IT",
+      "priority": 34,
+      "logoUrl": null,
+      "aliases": [
+        "Italia 2 HD",
+        "Italia 2 SD",
+        "Italia 2 Mediaset HD",
+        "Italia 2 Mediaset SD",
+        "Italia 2 Italia HD",
+        "Italia 2 Italia SD",
+        "Italia 2 Italy HD",
+        "Italia 2 Italy SD",
+        "Italia2",
+        "Italia Due"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "italia_2_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "italia_2_source_2",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "cielo",
+      "name": "Cielo",
+      "country": "IT",
+      "priority": 35,
+      "logoUrl": null,
+      "aliases": [
+        "Cielo HD",
+        "Cielo SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cielo_source_1",
+          "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "cielo_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "canale_5_mediaset",
+      "name": "Canale 5 Mediaset",
+      "country": "IT",
+      "priority": 33,
+      "logoUrl": null,
+      "aliases": [
+        "Canale 5 Mediaset HD",
+        "Canale 5 Mediaset SD",
+        "Canale 5 HD",
+        "Canale 5 SD",
+        "Canale 5 Italia HD",
+        "Canale 5 Italia SD",
+        "Canale 5 Italia",
+        "Canale 5 Italy",
+        "Canale 5",
+        "Canale5",
+        "C5"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "canale_5_mediaset_source_1",
+          "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "canale_5_mediaset_source_2",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hd.mpd",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "mediaset_infinity_sport",
+      "name": "Mediaset Infinity Sport",
+      "country": "IT",
+      "priority": 36,
+      "logoUrl": null,
+      "aliases": [
+        "Mediaset Infinity Sport HD",
+        "Mediaset Infinity Sport SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "mediaset_infinity_sport_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "mediaset_infinity_sport_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_football",
+      "name": "Sky Sport Football",
+      "country": "IT",
+      "priority": 37,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Football HD",
+        "Sky Sport Football SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_football_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_football_source_2",
+          "url": "https://ds164.bluetier.top/SkySportCalcioIT/index.m3u8?token=U2t5U3BvcnRDYWxjaW9JVHxub19jaGVja19pcHwxNzg5NTc1OTk4.e60ce9845c0ff9d2b03b1ead5bdddba86edaddca9fbb7dad894fd4c3c761f3c4",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_arena",
+      "name": "Sky Sport Arena",
+      "country": "IT",
+      "priority": 38,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Arena HD",
+        "Sky Sport Arena SD",
+        "Sky Sport 2",
+        "SkySport Arena"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_arena_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_arena_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_tennis",
+      "name": "Sky Sport Tennis",
+      "country": "IT",
+      "priority": 39,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Tennis HD",
+        "Sky Sport Tennis SD",
+        "SkySport Tennis",
+        "Sky Tennis"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_tennis_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_tennis_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_f1",
+      "name": "Sky Sport F1",
+      "country": "IT",
+      "priority": 40,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport F1 HD",
+        "Sky Sport F1 SD",
+        "Sky Sport Formula 1",
+        "SkySport F1",
+        "Sky F1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_f1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_f1_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_motogp",
+      "name": "Sky Sport MotoGP",
+      "country": "IT",
+      "priority": 41,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport MotoGP HD",
+        "Sky Sport MotoGP SD",
+        "SkySport MotoGP",
+        "Sky MotoGP"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_motogp_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "sky_sport_motogp_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "arena_sport_1_hr",
+      "name": "Arena Sport 1 HR",
+      "country": "HR",
+      "priority": 42,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 1 HR HD",
+        "Arena Sport 1 HR SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sport_1_hr_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "arena_sport_2_bih",
+      "name": "Arena Sport 2 BIH",
+      "country": "BA",
+      "priority": 43,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 2 BIH HD",
+        "Arena Sport 2 BIH SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sport_2_bih_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "arena_sport_2_srb",
+      "name": "Arena Sport 2 SRB",
+      "country": "RS",
+      "priority": 44,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 2 SRB HD",
+        "Arena Sport 2 SRB SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sport_2_srb_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "arena_premium_1_slo",
+      "name": "Arena Premium 1 SLO",
+      "country": "SI",
+      "priority": 45,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Premium 1 SLO HD",
+        "Arena Premium 1 SLO SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_premium_1_slo_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sport_klub_1",
+      "name": "Sport Klub 1",
+      "country": "INTERNATIONAL",
+      "priority": 46,
+      "logoUrl": null,
+      "aliases": [
+        "Sport Klub 1 HD",
+        "Sport Klub 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sport_klub_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sport_klub_2",
+      "name": "Sport Klub 2",
+      "country": "INTERNATIONAL",
+      "priority": 47,
+      "logoUrl": null,
+      "aliases": [
+        "Sport Klub 2 HD",
+        "Sport Klub 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sport_klub_2_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_1_france",
+      "name": "beIN Sports 1 France",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 1 France HD",
+        "beIN Sports 1 France SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_1_france_source_1",
+          "url": "https://premium.hls.st/playlist/premium116.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_1_arabic",
+      "name": "beIN Sports 1 Arabic",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 1 Arabic HD",
+        "beIN Sports 1 Arabic SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_1_arabic_source_1",
+          "url": "https://premium.hls.st/playlist/premium91.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_1_turkey",
+      "name": "beIN Sports 1 Turkey",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 1 Arabic HD",
+        "beIN Sports 1 Arabic SD",
+        "beIN Sports 1 Turkey HD",
+        "beIN Sports 1 Turkey SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_1_turkey_source_1",
+          "url": "https://premium.hls.st/playlist/premium62.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_2_france",
+      "name": "beIN Sports 2 France",
+      "country": "INTERNATIONAL",
+      "priority": 49,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 2 France HD",
+        "beIN Sports 2 France SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_2_france_source_1",
+          "url": "https://premium.hls.st/playlist/premium117.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_2_arabic",
+      "name": "beIN Sports 2 Arabic",
+      "country": "INTERNATIONAL",
+      "priority": 49,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 2 HD",
+        "beIN Sports 2 SD",
+        "beIN Sports 2 Arabic HD",
+        "beIN Sports 2 Arabic SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_2_arabic_source_1",
+          "url": "https://premium.hls.st/playlist/premium92.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_2_turkey",
+      "name": "beIN Sports 2 Turkey",
+      "country": "INTERNATIONAL",
+      "priority": 49,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 2 HD Turkey",
+        "beIN Sports 2 SD Turkey",
+        "beIN Sports 2 Turkey HD",
+        "beIN Sports 2 Turkey SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_2_terkey_source_1",
+          "url": "https://premium.hls.st/playlist/premium63.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_3_france",
+      "name": "beIN Sports 3 France",
+      "country": "INTERNATIONAL",
+      "priority": 50,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 3 HD France",
+        "beIN Sports 3 SD France",
+        "beIN Sports 3 France HD",
+        "beIN Sports 3 France SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_3_france_source_1",
+          "url": "https://premium.hls.st/playlist/premium118.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_3_arabic",
+      "name": "beIN Sports 3 Arabic",
+      "country": "INTERNATIONAL",
+      "priority": 50,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 3 HD Arabic",
+        "beIN Sports 3 SD Arabic",
+        "beIN Sports 3 Arabic HD",
+        "beIN Sports 3 Arabic SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_3_arabic_source_1",
+          "url": "https://premium.hls.st/playlist/premium93.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_3_turkey",
+      "name": "beIN Sports 3 Turkey",
+      "country": "INTERNATIONAL",
+      "priority": 50,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 3 HD Turkey",
+        "beIN Sports 3 SD Turkey",
+        "beIN Sports 3 Turkey HD",
+        "beIN Sports 3 Turkey SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_3_source_1",
+          "url": "https://premium.hls.st/playlist/premium64.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_4",
+      "name": "beIN Sports 4",
+      "country": "INTERNATIONAL",
+      "priority": 51,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 4 HD",
+        "beIN Sports 4 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_4_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_mena",
+      "name": "beIN Sports MENA",
+      "country": "INTERNATIONAL",
+      "priority": 52,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports MENA HD",
+        "beIN Sports MENA SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_mena_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_deutsch",
+      "name": "DAZN Deutsch",
+      "country": "DE",
+      "priority": 53,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN Deutsch HD",
+        "DAZN Deutsch SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_deutsch_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_spain",
+      "name": "DAZN Spain",
+      "country": "ES",
+      "priority": 54,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN Spain HD",
+        "DAZN Spain SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_spain_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_france",
+      "name": "DAZN France",
+      "country": "FR",
+      "priority": 55,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN France HD",
+        "DAZN France SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_france_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_uk",
+      "name": "DAZN UK",
+      "country": "GB",
+      "priority": 56,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN UK HD",
+        "DAZN UK SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_uk_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_ireland",
+      "name": "DAZN Ireland",
+      "country": "IE",
+      "priority": 57,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN Ireland HD",
+        "DAZN Ireland SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_ireland_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "canal_plus_foot",
+      "name": "Canal+ Foot",
+      "country": "FR",
+      "priority": 58,
+      "logoUrl": null,
+      "aliases": [
+        "Canal+ Foot HD",
+        "Canal+ Foot SD",
+        "Canal+Foot"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "canal_plus_foot_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "canal_plus_france",
+      "name": "Canal+ France",
+      "country": "FR",
+      "priority": 59,
+      "logoUrl": null,
+      "aliases": [
+        "Canal+ France HD",
+        "Canal+ France SD",
+        "Canal+France"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "canal_plus_france_source_1",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/9pbvi2zo8g855.m3u8?s=Ec73vRrk8Fx5O2PE99ExqA&e=1789674034",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "movistar_laliga",
+      "name": "Movistar LaLiga",
+      "country": "ES",
+      "priority": 60,
+      "logoUrl": null,
+      "aliases": [
+        "Movistar LaLiga HD",
+        "Movistar LaLiga SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "movistar_laliga_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "movistar_deportes",
+      "name": "Movistar Deportes",
+      "country": "ES",
+      "priority": 61,
+      "logoUrl": null,
+      "aliases": [
+        "Movistar Deportes HD",
+        "Movistar Deportes",
+        "Movistar Deportes SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "movistar_deportes_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "digi_sport_1_romania",
+      "name": "Digi Sport 1 Romania",
+      "country": "RO",
+      "priority": 62,
+      "logoUrl": null,
+      "aliases": [
+        "Digi Sport 1 Romania HD",
+        "Digi Sport 1 Romania SD",
+        "Digi Sport 1 Romania"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "digi_sport_1_romania_source_1",
+          "url": "https://premium.hls.st/playlist/premium400.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "digi_sport_2_romania",
+      "name": "Digi Sport 2 Romania",
+      "country": "RO",
+      "priority": 63,
+      "logoUrl": null,
+      "aliases": [
+        "Digi Sport 2 Romania HD",
+        "Digi Sport 2 Romania SD",
+        "Digi Sport 2 Romania"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "digi_sport_2_romania_source_1",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/ithsrie7z8m3z.m3u8?s=nhLK-PiQEnJWIzOFuCbXsA&e=1789673745",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "digi_sport_3_romania",
+      "name": "Digi Sport 3 Romania",
+      "country": "RO",
+      "priority": 63,
+      "logoUrl": null,
+      "aliases": [
+        "Digi Sport 3 Romania HD",
+        "Digi Sport 3 Romania SD",
+        "Digi Sport 3 Romania"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "digi_sport_3_romania_source_1",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/xzwfgx3yuw3op.m3u8?s=cZ5XPIcKENUEGAHkwnFxOA&e=1789673767",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "digi_sport_4_romania",
+      "name": "Digi Sport 4 Romania",
+      "country": "RO",
+      "priority": 63,
+      "logoUrl": null,
+      "aliases": [
+        "Digi Sport 4 Romania HD",
+        "Digi Sport 4 Romania SD",
+        "Digi Sport 4 Romania"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "digi_sport_4_romania_source_1",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/iths6zz7yuj16.m3u8?s=tRbmOijIfVxjlctsI65Zow&e=1789673870",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "eleven_sports_polska_1",
+      "name": "Eleven Sports Polska 1",
+      "country": "PL",
+      "priority": 64,
+      "logoUrl": null,
+      "aliases": [
+        "Eleven Sports Polska 1 HD",
+        "Eleven Sports Polska 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eleven_sports_polska_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "espn_international",
+      "name": "ESPN International",
+      "country": "INTERNATIONAL",
+      "priority": 65,
+      "logoUrl": null,
+      "aliases": [
+        "ESPN International HD",
+        "ESPN International SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "espn_international_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "espn_usa",
+      "name": "ESPN USA",
+      "country": "US",
+      "priority": 66,
+      "logoUrl": null,
+      "aliases": [
+        "ESPN USA HD",
+        "ESPN USA SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "espn_usa_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "espn2_usa",
+      "name": "ESPN2 USA",
+      "country": "US",
+      "priority": 67,
+      "logoUrl": null,
+      "aliases": [
+        "ESPN2 USA HD",
+        "ESPN2 USA SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "espn2_usa_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "espn_brasil",
+      "name": "ESPN Brasil",
+      "country": "BR",
+      "priority": 68,
+      "logoUrl": null,
+      "aliases": [
+        "ESPN Brasil HD",
+        "ESPN Brasil SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "espn_brasil_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "fox_sports_mexico",
+      "name": "Fox Sports Mexico",
+      "country": "MX",
+      "priority": 69,
+      "logoUrl": null,
+      "aliases": [
+        "Fox Sports Mexico HD",
+        "Fox Sports Mexico SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "fox_sports_mexico_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "tyc_sports",
+      "name": "TyC Sports",
+      "country": "AR",
+      "priority": 70,
+      "logoUrl": null,
+      "aliases": [
+        "TyC Sports HD",
+        "TyC Sports SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tyc_sports_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sport_tv_portugal",
+      "name": "Sport TV Portugal",
+      "country": "PT",
+      "priority": 71,
+      "logoUrl": null,
+      "aliases": [
+        "Sport TV Portugal HD",
+        "Sport TV Portugal SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sport_tv_portugal_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sport_tv_2_portugal",
+      "name": "Sport TV 2 Portugal",
+      "country": "PT",
+      "priority": 72,
+      "logoUrl": null,
+      "aliases": [
+        "Sport TV 2 Portugal HD",
+        "Sport TV 2 Portugal SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sport_tv_2_portugal_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "eleven_sports_belgium",
+      "name": "Eleven Sports Belgium",
+      "country": "BE",
+      "priority": 73,
+      "logoUrl": null,
+      "aliases": [
+        "Eleven Sports Belgium HD",
+        "Eleven Sports Belgium SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eleven_sports_belgium_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "ziggo_sport",
+      "name": "Ziggo Sport",
+      "country": "NL",
+      "priority": 74,
+      "logoUrl": null,
+      "aliases": [
+        "Ziggo Sport HD",
+        "Ziggo Sport SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "ziggo_sport_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "ziggo_sport_racing",
+      "name": "Ziggo Sport Racing",
+      "country": "NL",
+      "priority": 75,
+      "logoUrl": null,
+      "aliases": [
+        "Ziggo Sport Racing HD",
+        "Ziggo Sport Racing SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "ziggo_sport_racing_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport_1",
+      "name": "Cosmote Sport 1",
+      "country": "GR",
+      "priority": 76,
+      "logoUrl": null,
+      "aliases": [
+        "Cosmote Sport 1 HD",
+        "Cosmote Sport 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport_2",
+      "name": "Cosmote Sport 2",
+      "country": "GR",
+      "priority": 77,
+      "logoUrl": null,
+      "aliases": [
+        "Cosmote Sport 2 HD",
+        "Cosmote Sport 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport_2_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "novasports_1",
+      "name": "Nova Sports 1",
+      "country": "GR",
+      "priority": 78,
+      "logoUrl": null,
+      "aliases": [
+        "Nova Sports 1 HD",
+        "Nova Sports 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "novasports_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "match_tv_russia",
+      "name": "Match TV Russia",
+      "country": "RU",
+      "priority": 79,
+      "logoUrl": null,
+      "aliases": [
+        "Match TV Russia HD",
+        "Match TV Russia SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "match_tv_russia_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sky_sport_f1_international",
+      "name": "Sky Sport F1 International",
+      "country": "INTERNATIONAL",
+      "priority": 80,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport F1 International HD",
+        "Sky Sport F1 International SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_f1_international_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "viaplay_motor",
+      "name": "Viaplay Motor",
+      "country": "INTERNATIONAL",
+      "priority": 81,
+      "logoUrl": null,
+      "aliases": [
+        "Viaplay Motor HD",
+        "Viaplay Motor SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "viaplay_motor_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "canal_plus_sport_france",
+      "name": "Canal+ Sport France",
+      "country": "FR",
+      "priority": 82,
+      "logoUrl": null,
+      "aliases": [
+        "Canal+ Sport France HD",
+        "Canal+ Sport France SD",
+        "Canal+Sport France"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "canal_plus_sport_france_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "canal_plus_foot",
+      "name": "Canal+ Foot",
+      "country": "FR",
+      "priority": 83,
+      "logoUrl": null,
+      "aliases": [
+        "Canal+ Foot HD",
+        "Canal+ Foot SD",
+        "Canal+Foot"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "canal_plus_foot_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "eurosport_1",
+      "name": "Eurosport 1",
+      "country": "INTERNATIONAL",
+      "priority": 84,
+      "logoUrl": null,
+      "aliases": [
+        "Eurosport 1 HD",
+        "Eurosport 1 SD",
+        "Eurosport1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eurosport_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "eurosport_2",
+      "name": "Eurosport 2",
+      "country": "INTERNATIONAL",
+      "priority": 85,
+      "logoUrl": null,
+      "aliases": [
+        "Eurosport 2 HD",
+        "Eurosport 2 SD",
+        "Eurosport2"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eurosport_2_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "tennis_channel",
+      "name": "Tennis Channel",
+      "country": "US",
+      "priority": 86,
+      "logoUrl": null,
+      "aliases": [
+        "Tennis Channel HD",
+        "Tennis Channel SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tennis_channel_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_1",
+      "name": "beIN Sports 1",
+      "country": "INTERNATIONAL",
+      "priority": 87,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 1 HD",
+        "beIN Sports 1 SD",
+        "BeIN Sports 1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_2",
+      "name": "beIN Sports 2",
+      "country": "INTERNATIONAL",
+      "priority": 88,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 2 HD",
+        "beIN Sports 2 SD",
+        "BeIN Sports 2"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_2_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "nba_tv",
+      "name": "NBA TV",
+      "country": "US",
+      "priority": 89,
+      "logoUrl": null,
+      "aliases": [
+        "NBA TV HD",
+        "NBA TV SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "nba_tv_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "eurosport_basket",
+      "name": "Eurosport Basket",
+      "country": "INTERNATIONAL",
+      "priority": 90,
+      "logoUrl": null,
+      "aliases": [
+        "Eurosport Basket HD",
+        "Eurosport Basket SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eurosport_basket_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sportklub_1",
+      "name": "Sportklub 1",
+      "country": "INTERNATIONAL",
+      "priority": 91,
+      "logoUrl": null,
+      "aliases": [
+        "Sportklub 1 HD",
+        "Sportklub 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sportklub_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sportklub_2",
+      "name": "Sportklub 2",
+      "country": "INTERNATIONAL",
+      "priority": 92,
+      "logoUrl": null,
+      "aliases": [
+        "Sportklub 2 HD",
+        "Sportklub 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sportklub_2_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "arena_sport_1_croatia",
+      "name": "Arena Sport 1 Croatia",
+      "country": "HR",
+      "priority": 93,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 1 Croatia HD",
+        "Arena Sport 1 Croatia SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sport_1_croatia_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "arena_sport_2_croatia",
+      "name": "Arena Sport 2 Croatia",
+      "country": "HR",
+      "priority": 94,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 2 Croatia HD",
+        "Arena Sport 2 Croatia SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sport_2_croatia_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "arena_sport_serbia",
+      "name": "Arena Sport Serbia",
+      "country": "RS",
+      "priority": 95,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport Serbia HD",
+        "Arena Sport Serbia SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sport_serbia_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "arena_sport_bih",
+      "name": "Arena Sport BIH",
+      "country": "BA",
+      "priority": 96,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport BIH HD",
+        "Arena Sport BIH SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sport_bih_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "digi_sport_1_romania",
+      "name": "Digi Sport 1 Romania",
+      "country": "RO",
+      "priority": 97,
+      "logoUrl": null,
+      "aliases": [
+        "Digi Sport 1 Romania HD",
+        "Digi Sport 1 Romania SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "digi_sport_1_romania_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "digi_sport_2_romania",
+      "name": "Digi Sport 2 Romania",
+      "country": "RO",
+      "priority": 98,
+      "logoUrl": null,
+      "aliases": [
+        "Digi Sport 2 Romania HD",
+        "Digi Sport 2 Romania SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "digi_sport_2_romania_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "eleven_sports_poland_1",
+      "name": "Eleven Sports Poland 1",
+      "country": "PL",
+      "priority": 99,
+      "logoUrl": null,
+      "aliases": [
+        "Eleven Sports Poland 1 HD",
+        "Eleven Sports Poland 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eleven_sports_poland_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "eleven_sports_poland_2",
+      "name": "Eleven Sports Poland 2",
+      "country": "PL",
+      "priority": 100,
+      "logoUrl": null,
+      "aliases": [
+        "Eleven Sports Poland 2 HD",
+        "Eleven Sports Poland 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eleven_sports_poland_2_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "polsat_sport_1",
+      "name": "Polsat Sport 1",
+      "country": "PL",
+      "priority": 101,
+      "logoUrl": null,
+      "aliases": [
+        "Polsat Sport 1 HD",
+        "Polsat Sport 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "polsat_sport_1_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "movistar_deportes",
+      "name": "Movistar Deportes",
+      "country": "ES",
+      "priority": 102,
+      "logoUrl": null,
+      "aliases": [
+        "Movistar Deportes HD",
+        "Movistar Deportes SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "movistar_deportes_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sky_sports_main_event",
+      "name": "Sky Sports Main Event",
+      "country": "GB",
+      "priority": 103,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sports Main Event HD",
+        "Sky Sports Main Event SD",
+        "Sky Sports ME",
+        "SSME"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sports_main_event_source_1",
+          "url": "https://premium.hls.st/playlist/premium38.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sky_sports_football_uk",
+      "name": "Sky Sports Football UK",
+      "country": "GB",
+      "priority": 104,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sports Football HD",
+        "Sky Sports Football SD",
+        "Sky Sports Football",
+        "Sky Sports PL"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sports_football_uk_source_1",
+          "url": "https://premium.hls.st/playlist/premium35.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "tnt_sports_1",
+      "name": "TNT Sports 1",
+      "country": "GB",
+      "priority": 105,
+      "logoUrl": null,
+      "aliases": [
+        "TNT Sports 1 HD",
+        "TNT Sports 1 SD",
+        "TNT1",
+        "TNT Sport 1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tnt_sports_1_source_1",
+          "url": "https://premium.hls.st/playlist/premium31.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "tnt_sports_2",
+      "name": "TNT Sports 2",
+      "country": "GB",
+      "priority": 105,
+      "logoUrl": null,
+      "aliases": [
+        "TNT Sports 1 HD",
+        "TNT Sports 1 SD",
+        "TNT Sports 2 HD",
+        "TNT2"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tnt_sports_2_source_1",
+          "url": "https://premium.hls.st/playlist/premium32.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "tnt_sports_3",
+      "name": "TNT Sports 3",
+      "country": "GB",
+      "priority": 105,
+      "logoUrl": null,
+      "aliases": [
+        "TNT Sports 3 HD",
+        "TNT Sports 3 SD",
+        "TNT3"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tnt_sports_3_source_1",
+          "url": "https://premium.hls.st/playlist/premium33.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "tnt_sports_4",
+      "name": "TNT Sports 4",
+      "country": "GB",
+      "priority": 105,
+      "logoUrl": null,
+      "aliases": [
+        "TNT Sports 1 HD",
+        "TNT Sports 1 SD",
+        "TNT Sports 4 HD",
+        "TNT4"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tnt_sports_4_source_1",
+          "url": "https://premium.hls.st/playlist/premium34.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "supersport_action",
+      "name": "SuperSport Action",
+      "country": "ZA",
+      "priority": 106,
+      "logoUrl": null,
+      "aliases": [
+        "SuperSport Action HD",
+        "SuperSport Action SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "supersport_action_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "supersport_football",
+      "name": "SuperSport Football",
+      "country": "ZA",
+      "priority": 107,
+      "logoUrl": null,
+      "aliases": [
+        "SuperSport Football HD",
+        "SuperSport Football SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "supersport_football_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sky_sports_arena_uk",
+      "name": "Sky Sports Arena UK",
+      "country": "GB",
+      "priority": 108,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sports Arena UK HD",
+        "Sky Sports Arena UK SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sports_arena_uk_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sky_sports_mix_uk",
+      "name": "Sky Sports Mix UK",
+      "country": "GB",
+      "priority": 109,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sports Mix UK HD",
+        "Sky Sports Mix UK SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sports_mix_uk_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sky_sports_cricket_uk",
+      "name": "Sky Sports Cricket UK",
+      "country": "GB",
+      "priority": 110,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sports Cricket UK HD",
+        "Sky Sports Cricket UK SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sports_cricket_uk_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_deutschland",
+      "name": "DAZN Deutschland",
+      "country": "DE",
+      "priority": 111,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN Deutschland HD",
+        "DAZN Deutschland SD",
+        "DAZN DE",
+        "DAZN Germany"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_deutschland_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_spagna",
+      "name": "DAZN Spagna",
+      "country": "ES",
+      "priority": 112,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN Spagna HD",
+        "DAZN Spagna SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_spagna_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_francia",
+      "name": "DAZN Francia",
+      "country": "FR",
+      "priority": 113,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN Francia HD",
+        "DAZN Francia SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_francia_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_3",
+      "name": "beIN Sports 3",
+      "country": "INTERNATIONAL",
+      "priority": 114,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 3 HD",
+        "beIN Sports 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_3_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_4",
+      "name": "beIN Sports 4",
+      "country": "INTERNATIONAL",
+      "priority": 115,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 4 HD",
+        "beIN Sports 4 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_4_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "espn_international",
+      "name": "ESPN International",
+      "country": "INTERNATIONAL",
+      "priority": 116,
+      "logoUrl": null,
+      "aliases": [
+        "ESPN International HD",
+        "ESPN International SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "espn_international_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "espn_usa",
+      "name": "ESPN USA",
+      "country": "US",
+      "priority": 117,
+      "logoUrl": null,
+      "aliases": [
+        "ESPN USA HD",
+        "ESPN USA SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "espn_usa_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "fox_sports_1_usa",
+      "name": "Fox Sports 1 USA",
+      "country": "US",
+      "priority": 118,
+      "logoUrl": null,
+      "aliases": [
+        "Fox Sports USA HD",
+        "Fox Sports USA SD",
+        "Fox Sports 1 USA HD",
+        "Fox Sports 1 USA SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "fox_sports_1_usa_source_1",
+          "url": "https://premium.hls.st/playlist/premium38.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "canal_plus_sport_360",
+      "name": "Canal+ Sport 360",
+      "country": "FR",
+      "priority": 119,
+      "logoUrl": null,
+      "aliases": [
+        "Canal+ Sport 360 HD",
+        "Canal+ Sport 360 SD",
+        "Canal+Sport 360"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "canal_plus_sport_360_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "sport_tv_portugal",
+      "name": "Sport TV Portugal",
+      "country": "PT",
+      "priority": 120,
+      "logoUrl": null,
+      "aliases": [
+        "Sport TV Portugal HD",
+        "Sport TV Portugal SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sport_tv_portugal_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "ziggo_sport",
+      "name": "Ziggo Sport",
+      "country": "NL",
+      "priority": 121,
+      "logoUrl": null,
+      "aliases": [
+        "Ziggo Sport HD",
+        "Ziggo Sport SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "ziggo_sport_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bein_sports_1_(Astro)",
+      "name": "beIN Sports 1 (Astro)",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports 1 SD",
+        "beIN Sports 1 (Astro) HD",
+        "beIN Sports 1 (Astro) SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_1_source_1",
+          "url": "https://premium.hls.st/playlist/premium712.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "Arena_Premium_1",
+      "name": "Arena Premium 1 Serbia",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 1 Serbia",
+        "Arena Premium 1 Srbija HD",
+        "Arena Premium 1 Srbija",
+        "Arena Sport 1 Serbia",
+        "Arena Premium 1 Srbija",
+        "Arena Sport 1 Serbia",
+        "Arena sport 1 Srbija HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sports_1_source_1",
+          "url": "https://premium.hls.st/playlist/premium429.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "Arena_Premium_2",
+      "name": "Arena Premium 2 Serbia",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 2 Serbia",
+        "Arena Premium 2 Srbija HD",
+        "Arena Premium 2 Srbija",
+        "Arena Premium 2 Serbia HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sports_2_source_1",
+          "url": "https://premium.hls.st/playlist/premium430.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "Arena_Premium_3",
+      "name": "Arena Premium 3 Serbia",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 3 Serbia",
+        "Arena Premium 3 Srbija HD",
+        "Arena Premium 3 Srbija",
+        "Arena Premium 3 Serbia HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sports_3_source_1",
+          "url": "https://premium.hls.st/playlist/premium431.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "Arena_Premium_4",
+      "name": "Arena Premium 4 Serbia",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Arena Sport 4 Serbia",
+        "Arena Premium 4 Srbija HD",
+        "Arena Premium 4 Srbija",
+        "Arena Premium 4 Serbia HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "arena_sports_4_source_1",
+          "url": "https://premium.hls.st/playlist/premium581.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": " Nitro_Österreich",
+      "name": " Nitro Österreich",
+      "country": "INTERNATIONAL",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Nitro Österreich",
+        "Nitro Österreich HD",
+        "Nitro Österreich Austria",
+        "Nitro Österreich SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "Nitro_Österreich_source_1",
+          "url": "https://s6.hopslan.com/nitro1/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "fox_sports_australia",
+      "name": "Fox Sports Australia",
+      "country": "AU",
+      "priority": 122,
+      "logoUrl": null,
+      "aliases": [
+        "Fox Sports Australia HD",
+        "Fox Sports Australia SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "fox_sports_australia_source_1",
+          "url": "",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    }
+  ]
+}
