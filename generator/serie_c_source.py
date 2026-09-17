@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 import re
 
 from config import REQUEST_TIMEOUT_SECONDS, USER_AGENT
+from serie_c_logos import logo_from_static_map
 
 
 TIMEZONE = ZoneInfo("Europe/Rome")
@@ -251,30 +252,34 @@ def _extract_team_logos(html: str) -> dict[str, str]:
 
 
 def _logo_for_team(team_name: str, logos: dict[str, str]) -> Optional[str]:
-    if not team_name or not logos:
-        return None
-    key = _slug(team_name)
-    if key in logos:
-        return logos[key]
+    """
+    1) Loghi trovati nel HTML di seriec.com
+    2) Mappa statica (serie_c_logos.py) come fallback
+    """
+    if team_name and logos:
+        key = _slug(team_name)
+        if key in logos:
+            return logos[key]
 
-    # Varianti comuni (NEXT GEN, UNDER 23, abbreviazioni)
-    variants = {
-        key,
-        key.replace("juventus_next_gen", "juventus"),
-        key.replace("inter_under_23", "inter"),
-        key.replace("atalanta_under_23", "atalanta"),
-        key.replace("_under_23", ""),
-        key.replace("_next_gen", ""),
-        key.replace("_calcio", ""),
-        key.replace("f_", ""),
-    }
-    for variant in variants:
-        if variant in logos:
-            return logos[variant]
-        for logo_key, url in logos.items():
-            if variant and (variant in logo_key or logo_key in variant):
-                return url
-    return None
+        variants = {
+            key,
+            key.replace("juventus_next_gen", "juventus"),
+            key.replace("inter_under_23", "inter"),
+            key.replace("atalanta_under_23", "atalanta"),
+            key.replace("_under_23", ""),
+            key.replace("_next_gen", ""),
+            key.replace("_calcio", ""),
+            key.replace("f_", ""),
+        }
+        for variant in variants:
+            if variant in logos:
+                return logos[variant]
+            for logo_key, url in logos.items():
+                if variant and (variant in logo_key or logo_key in variant):
+                    return url
+
+    # Fallback mappa statica
+    return logo_from_static_map(team_name)
 
 
 def _looks_like_team(value: str) -> bool:
