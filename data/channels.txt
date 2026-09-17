@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T00:00:00Z",
+  "generatedAt": "2026-09-17T21:35:00Z",
   "channels": [
     {
       "id": "sky_sport_uno",
@@ -15,7 +15,10 @@
         "Sky Sport Uno Italia",
         "Sky Sport Uno Italia SD",
         "Sky Sport Uno Italy SD",
-        "Sky Sport Uno Italy HD"
+        "Sky Sport Uno Italy HD",
+        "Sky Sport 1",
+        "Sky Sport 1 HD",
+        "SkySport Uno"
       ],
       "enabled": true,
       "sources": [
@@ -33,7 +36,7 @@
           "enabled": false,
           "priority": 2
         },
-         {
+        {
           "id": "sky_sport_uno_source_3",
           "url": "https://premium.hls.st/playlist/premium461.m3u8",
           "type": "AUTO",
@@ -53,7 +56,10 @@
         "Sky Sport Calcio SD",
         "Sky Sport Calcio Italia",
         "Sky Sport Calcio Italy",
-        "Sky Sport Calcio Italy SD"
+        "Sky Sport Calcio Italy SD",
+        "Sky Sport Serie A",
+        "Sky Supercalcio",
+        "SkySport Calcio"
       ],
       "enabled": true,
       "sources": [
@@ -82,7 +88,9 @@
       "aliases": [
         "Italia 1 HD",
         "Italia 1 SD",
-        "Italia 1 mediaset"
+        "Italia 1 mediaset",
+        "Italia1",
+        "Italia Uno"
       ],
       "enabled": true,
       "sources": [
@@ -114,7 +122,9 @@
         "Sky Sport Arena Italia",
         "Sky Sport Arena Italy",
         "Sky Sport Arena Italy HD",
-        "Sky Sport Arena Italia HD"
+        "Sky Sport Arena Italia HD",
+        "Sky Sport 2",
+        "SkySport Arena"
       ],
       "enabled": true,
       "sources": [
@@ -145,7 +155,10 @@
         "Sky Sport F1 Italia HD",
         "Sky Sport F1 Italia",
         "Sky Sport F1 Italy",
-        "Sky Sport F1 SD"
+        "Sky Sport F1 SD",
+        "Sky Sport Formula 1",
+        "SkySport F1",
+        "Sky F1"
       ],
       "enabled": true,
       "sources": [
@@ -176,7 +189,9 @@
         "Sky Sport MotoGP Italy HD",
         "Sky Sport MotoGP Italia HD",
         "Sky Sport MotoGP",
-        "Sky Sport MotoGP SD"
+        "Sky Sport MotoGP SD",
+        "SkySport MotoGP",
+        "Sky MotoGP"
       ],
       "enabled": true,
       "sources": [
@@ -210,7 +225,9 @@
         "Sky Sport Tennis Italy",
         "Sky Sport Tennis Italia",
         "Sky Tennis Italy",
-        "Sky Tennis Italia"
+        "Sky Tennis Italia",
+        "SkySport Tennis",
+        "Sky Tennis"
       ],
       "enabled": true,
       "sources": [
@@ -242,7 +259,10 @@
         "Sky Sport Basket Italy",
         "Sky Sport Basket Italy HD",
         "Sky Sport Basket Italia HD",
-        "Sky Sport Basket Italia SD"
+        "Sky Sport Basket Italia SD",
+        "SkySport Basket",
+        "Sky Basket",
+        "Sky Sport NBA"
       ],
       "enabled": true,
       "sources": [
@@ -274,7 +294,8 @@
         "Sky Sport 24 Italia HD",
         "Sky Sport 24 Italia SD",
         "Sky Sport 24 Italy HD",
-        "Sky Sport 24 Italy SD"
+        "Sky Sport 24 Italy SD",
+        "SkySport 24"
       ],
       "enabled": true,
       "sources": [
@@ -306,7 +327,8 @@
         "Sky Sport Max Italia HD",
         "Sky Sport Max Italia SD",
         "Sky Sport Max Italy",
-        "Sky Sport Max Italia"
+        "Sky Sport Max Italia",
+        "SkySport Max"
       ],
       "enabled": true,
       "sources": [
@@ -698,7 +720,9 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport 4K HD",
-        "Sky Sport 4K SD"
+        "Sky Sport 4K SD",
+        "Sky Sport 4K HDR",
+        "Sky Sport UHD"
       ],
       "enabled": true,
       "sources": [
@@ -729,7 +753,12 @@
         "DAZN 1 Italia SD",
         "DAZN 1 Italy HD",
         "DAZN 1 Italia",
-        "ZONA DAZN Italia"
+        "ZONA DAZN Italia",
+        "DAZN 1",
+        "DAZN1",
+        "Zona DAZN",
+        "DAZN Channel",
+        "DAZN 1 HD"
       ],
       "enabled": true,
       "sources": [
@@ -757,7 +786,11 @@
       "logoUrl": null,
       "aliases": [
         "DAZN 2 Italia HD",
-        "DAZN 2 Italia SD"
+        "DAZN 2 Italia SD",
+        "DAZN 2",
+        "DAZN2",
+        "Zona DAZN 2",
+        "DAZN 2 HD"
       ],
       "enabled": true,
       "sources": [
@@ -777,7 +810,7 @@
         }
       ]
     },
-{
+    {
       "id": "dazn_1_bar DE",
       "name": "DAZN 1 Bar DE",
       "country": "IT",
@@ -785,7 +818,9 @@
       "logoUrl": null,
       "aliases": [
         "DAZN 1 Bar Deutsch HD",
-        "DAZN 1 Bar Deutsch"
+        "DAZN 1 Bar Deutsch",
+        "DAZN 1 Bar DE HD",
+        "DAZN 1 Bar DE SD"
       ],
       "enabled": true,
       "sources": [
@@ -813,7 +848,8 @@
       "logoUrl": null,
       "aliases": [
         "Eurosport 1 HD",
-        "Eurosport 1 SD"
+        "Eurosport 1 SD",
+        "Eurosport1"
       ],
       "enabled": true,
       "sources": [
@@ -841,7 +877,8 @@
       "logoUrl": null,
       "aliases": [
         "Eurosport 2 HD",
-        "Eurosport 2 SD"
+        "Eurosport 2 SD",
+        "Eurosport2"
       ],
       "enabled": true,
       "sources": [
@@ -869,7 +906,9 @@
       "logoUrl": null,
       "aliases": [
         "Rai Sport HD",
-        "Rai Sport SD"
+        "Rai Sport SD",
+        "RaiSport",
+        "Rai Sport +"
       ],
       "enabled": true,
       "sources": [
@@ -897,7 +936,8 @@
       "logoUrl": null,
       "aliases": [
         "Sportitalia HD",
-        "Sportitalia SD"
+        "Sportitalia SD",
+        "Sport Italia"
       ],
       "enabled": true,
       "sources": [
@@ -925,7 +965,8 @@
       "logoUrl": null,
       "aliases": [
         "SuperTennis HD",
-        "SuperTennis SD"
+        "SuperTennis SD",
+        "Super Tennis"
       ],
       "enabled": true,
       "sources": [
@@ -955,7 +996,8 @@
         "TV8 HD",
         "TV8 SD",
         "TV8 Italia HD",
-        "TV8 Italia"
+        "TV8 Italia",
+        "TV 8"
       ],
       "enabled": true,
       "sources": [
@@ -983,7 +1025,9 @@
       "logoUrl": null,
       "aliases": [
         "Italia 1 HD",
-        "Italia 1 SD"
+        "Italia 1 SD",
+        "Italia1",
+        "Italia Uno"
       ],
       "enabled": true,
       "sources": [
@@ -1017,7 +1061,11 @@
         "20 Mediaset HD",
         "20 Mediaset SD",
         "20Mediaset HD",
-        "20Mediaset SD"
+        "20Mediaset SD",
+        "20 Mediaset",
+        "Canale 20",
+        "20Mediaset",
+        "Canale 20 HD"
       ],
       "enabled": true,
       "sources": [
@@ -1051,7 +1099,9 @@
         "Italia 2 Italia HD",
         "Italia 2 Italia SD",
         "Italia 2 Italy HD",
-        "Italia 2 Italy SD"
+        "Italia 2 Italy SD",
+        "Italia2",
+        "Italia Due"
       ],
       "enabled": true,
       "sources": [
@@ -1099,7 +1149,7 @@
         }
       ]
     },
- {
+    {
       "id": "canale_5_mediaset",
       "name": "Canale 5 Mediaset",
       "country": "IT",
@@ -1113,7 +1163,10 @@
         "Canale 5 Italia HD",
         "Canale 5 Italia SD",
         "Canale 5 Italia",
-        "Canale 5 Italy" 
+        "Canale 5 Italy",
+        "Canale 5",
+        "Canale5",
+        "C5"
       ],
       "enabled": true,
       "sources": [
@@ -1197,7 +1250,9 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Arena HD",
-        "Sky Sport Arena SD"
+        "Sky Sport Arena SD",
+        "Sky Sport 2",
+        "SkySport Arena"
       ],
       "enabled": true,
       "sources": [
@@ -1225,7 +1280,9 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Tennis HD",
-        "Sky Sport Tennis SD"
+        "Sky Sport Tennis SD",
+        "SkySport Tennis",
+        "Sky Tennis"
       ],
       "enabled": true,
       "sources": [
@@ -1253,7 +1310,10 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport F1 HD",
-        "Sky Sport F1 SD"
+        "Sky Sport F1 SD",
+        "Sky Sport Formula 1",
+        "SkySport F1",
+        "Sky F1"
       ],
       "enabled": true,
       "sources": [
@@ -1281,7 +1341,9 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport MotoGP HD",
-        "Sky Sport MotoGP SD"
+        "Sky Sport MotoGP SD",
+        "SkySport MotoGP",
+        "Sky MotoGP"
       ],
       "enabled": true,
       "sources": [
@@ -1448,7 +1510,7 @@
         }
       ]
     },
-   {
+    {
       "id": "bein_sports_1_arabic",
       "name": "beIN Sports 1 Arabic",
       "country": "INTERNATIONAL",
@@ -1469,7 +1531,7 @@
         }
       ]
     },
- {
+    {
       "id": "bein_sports_1_turkey",
       "name": "beIN Sports 1 Turkey",
       "country": "INTERNATIONAL",
@@ -1477,7 +1539,9 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 1 Arabic HD",
-        "beIN Sports 1 Arabic SD"
+        "beIN Sports 1 Arabic SD",
+        "beIN Sports 1 Turkey HD",
+        "beIN Sports 1 Turkey SD"
       ],
       "enabled": true,
       "sources": [
@@ -1511,7 +1575,7 @@
         }
       ]
     },
- {
+    {
       "id": "bein_sports_2_arabic",
       "name": "beIN Sports 2 Arabic",
       "country": "INTERNATIONAL",
@@ -1519,7 +1583,9 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 2 HD",
-        "beIN Sports 2 SD"
+        "beIN Sports 2 SD",
+        "beIN Sports 2 Arabic HD",
+        "beIN Sports 2 Arabic SD"
       ],
       "enabled": true,
       "sources": [
@@ -1532,7 +1598,7 @@
         }
       ]
     },
- {
+    {
       "id": "bein_sports_2_turkey",
       "name": "beIN Sports 2 Turkey",
       "country": "INTERNATIONAL",
@@ -1540,7 +1606,9 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 2 HD Turkey",
-        "beIN Sports 2 SD Turkey"
+        "beIN Sports 2 SD Turkey",
+        "beIN Sports 2 Turkey HD",
+        "beIN Sports 2 Turkey SD"
       ],
       "enabled": true,
       "sources": [
@@ -1561,7 +1629,9 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 3 HD France",
-        "beIN Sports 3 SD France"
+        "beIN Sports 3 SD France",
+        "beIN Sports 3 France HD",
+        "beIN Sports 3 France SD"
       ],
       "enabled": true,
       "sources": [
@@ -1574,7 +1644,7 @@
         }
       ]
     },
-{
+    {
       "id": "bein_sports_3_arabic",
       "name": "beIN Sports 3 Arabic",
       "country": "INTERNATIONAL",
@@ -1582,7 +1652,9 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 3 HD Arabic",
-        "beIN Sports 3 SD Arabic"
+        "beIN Sports 3 SD Arabic",
+        "beIN Sports 3 Arabic HD",
+        "beIN Sports 3 Arabic SD"
       ],
       "enabled": true,
       "sources": [
@@ -1595,7 +1667,7 @@
         }
       ]
     },
-{
+    {
       "id": "bein_sports_3_turkey",
       "name": "beIN Sports 3 Turkey",
       "country": "INTERNATIONAL",
@@ -1603,7 +1675,9 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 3 HD Turkey",
-        "beIN Sports 3 SD Turkey"
+        "beIN Sports 3 SD Turkey",
+        "beIN Sports 3 Turkey HD",
+        "beIN Sports 3 Turkey SD"
       ],
       "enabled": true,
       "sources": [
@@ -1836,7 +1910,8 @@
       "logoUrl": null,
       "aliases": [
         "Movistar Deportes HD",
-        "Movistar Deportes"
+        "Movistar Deportes",
+        "Movistar Deportes SD"
       ],
       "enabled": true,
       "sources": [
@@ -1858,7 +1933,7 @@
       "aliases": [
         "Digi Sport 1 Romania HD",
         "Digi Sport 1 Romania SD",
-         "Digi Sport 1 Romania"
+        "Digi Sport 1 Romania"
       ],
       "enabled": true,
       "sources": [
@@ -1893,7 +1968,7 @@
         }
       ]
     },
- {
+    {
       "id": "digi_sport_3_romania",
       "name": "Digi Sport 3 Romania",
       "country": "RO",
@@ -1915,7 +1990,7 @@
         }
       ]
     },
-{
+    {
       "id": "digi_sport_4_romania",
       "name": "Digi Sport 4 Romania",
       "country": "RO",
@@ -2367,7 +2442,8 @@
       "logoUrl": null,
       "aliases": [
         "Eurosport 1 HD",
-        "Eurosport 1 SD"
+        "Eurosport 1 SD",
+        "Eurosport1"
       ],
       "enabled": true,
       "sources": [
@@ -2388,7 +2464,8 @@
       "logoUrl": null,
       "aliases": [
         "Eurosport 2 HD",
-        "Eurosport 2 SD"
+        "Eurosport 2 SD",
+        "Eurosport2"
       ],
       "enabled": true,
       "sources": [
@@ -2430,7 +2507,8 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 1 HD",
-        "beIN Sports 1 SD"
+        "beIN Sports 1 SD",
+        "BeIN Sports 1"
       ],
       "enabled": true,
       "sources": [
@@ -2451,7 +2529,8 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 2 HD",
-        "beIN Sports 2 SD"
+        "beIN Sports 2 SD",
+        "BeIN Sports 2"
       ],
       "enabled": true,
       "sources": [
@@ -2766,7 +2845,9 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sports Main Event HD",
-        "Sky Sports Main Event SD"
+        "Sky Sports Main Event SD",
+        "Sky Sports ME",
+        "SSME"
       ],
       "enabled": true,
       "sources": [
@@ -2787,7 +2868,9 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sports Football HD",
-        "Sky Sports Football SD"
+        "Sky Sports Football SD",
+        "Sky Sports Football",
+        "Sky Sports PL"
       ],
       "enabled": true,
       "sources": [
@@ -2808,7 +2891,9 @@
       "logoUrl": null,
       "aliases": [
         "TNT Sports 1 HD",
-        "TNT Sports 1 SD"
+        "TNT Sports 1 SD",
+        "TNT1",
+        "TNT Sport 1"
       ],
       "enabled": true,
       "sources": [
@@ -2821,7 +2906,7 @@
         }
       ]
     },
-{
+    {
       "id": "tnt_sports_2",
       "name": "TNT Sports 2",
       "country": "GB",
@@ -2829,7 +2914,9 @@
       "logoUrl": null,
       "aliases": [
         "TNT Sports 1 HD",
-        "TNT Sports 1 SD"
+        "TNT Sports 1 SD",
+        "TNT Sports 2 HD",
+        "TNT2"
       ],
       "enabled": true,
       "sources": [
@@ -2842,7 +2929,7 @@
         }
       ]
     },
-{
+    {
       "id": "tnt_sports_3",
       "name": "TNT Sports 3",
       "country": "GB",
@@ -2850,7 +2937,8 @@
       "logoUrl": null,
       "aliases": [
         "TNT Sports 3 HD",
-        "TNT Sports 3 SD"
+        "TNT Sports 3 SD",
+        "TNT3"
       ],
       "enabled": true,
       "sources": [
@@ -2863,7 +2951,7 @@
         }
       ]
     },
-{
+    {
       "id": "tnt_sports_4",
       "name": "TNT Sports 4",
       "country": "GB",
@@ -2871,7 +2959,9 @@
       "logoUrl": null,
       "aliases": [
         "TNT Sports 1 HD",
-        "TNT Sports 1 SD"
+        "TNT Sports 1 SD",
+        "TNT Sports 4 HD",
+        "TNT4"
       ],
       "enabled": true,
       "sources": [
@@ -2997,7 +3087,9 @@
       "logoUrl": null,
       "aliases": [
         "DAZN Deutschland HD",
-        "DAZN Deutschland SD"
+        "DAZN Deutschland SD",
+        "DAZN DE",
+        "DAZN Germany"
       ],
       "enabled": true,
       "sources": [
@@ -3144,7 +3236,9 @@
       "logoUrl": null,
       "aliases": [
         "Fox Sports USA HD",
-        "Fox Sports USA SD"
+        "Fox Sports USA SD",
+        "Fox Sports 1 USA HD",
+        "Fox Sports 1 USA SD"
       ],
       "enabled": true,
       "sources": [
@@ -3221,7 +3315,7 @@
         }
       ]
     },
-{
+    {
       "id": "bein_sports_1_(Astro)",
       "name": "beIN Sports 1 (Astro)",
       "country": "INTERNATIONAL",
@@ -3229,7 +3323,9 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 1 HD (Astro)",
-        "beIN Sports 1 SD"
+        "beIN Sports 1 SD",
+        "beIN Sports 1 (Astro) HD",
+        "beIN Sports 1 (Astro) SD"
       ],
       "enabled": true,
       "sources": [
@@ -3242,7 +3338,7 @@
         }
       ]
     },
-{
+    {
       "id": "Arena_Premium_1",
       "name": "Arena Premium 1 Serbia",
       "country": "INTERNATIONAL",
@@ -3268,7 +3364,7 @@
         }
       ]
     },
-{
+    {
       "id": "Arena_Premium_2",
       "name": "Arena Premium 2 Serbia",
       "country": "INTERNATIONAL",
@@ -3277,7 +3373,8 @@
       "aliases": [
         "Arena Sport 2 Serbia",
         "Arena Premium 2 Srbija HD",
-        "Arena Premium 2 Srbija"
+        "Arena Premium 2 Srbija",
+        "Arena Premium 2 Serbia HD"
       ],
       "enabled": true,
       "sources": [
@@ -3290,7 +3387,7 @@
         }
       ]
     },
-{
+    {
       "id": "Arena_Premium_3",
       "name": "Arena Premium 3 Serbia",
       "country": "INTERNATIONAL",
@@ -3299,7 +3396,8 @@
       "aliases": [
         "Arena Sport 3 Serbia",
         "Arena Premium 3 Srbija HD",
-        "Arena Premium 3 Srbija"
+        "Arena Premium 3 Srbija",
+        "Arena Premium 3 Serbia HD"
       ],
       "enabled": true,
       "sources": [
@@ -3312,7 +3410,7 @@
         }
       ]
     },
-{
+    {
       "id": "Arena_Premium_4",
       "name": "Arena Premium 4 Serbia",
       "country": "INTERNATIONAL",
@@ -3321,7 +3419,8 @@
       "aliases": [
         "Arena Sport 4 Serbia",
         "Arena Premium 4 Srbija HD",
-        "Arena Premium 4 Srbija"
+        "Arena Premium 4 Srbija",
+        "Arena Premium 4 Serbia HD"
       ],
       "enabled": true,
       "sources": [
@@ -3334,7 +3433,7 @@
         }
       ]
     },
-{
+    {
       "id": " Nitro_Österreich",
       "name": " Nitro Österreich",
       "country": "INTERNATIONAL",
@@ -3343,7 +3442,8 @@
       "aliases": [
         "Nitro Österreich",
         "Nitro Österreich HD",
-         "Nitro Österreich Austria"
+        "Nitro Österreich Austria",
+        "Nitro Österreich SD"
       ],
       "enabled": true,
       "sources": [
