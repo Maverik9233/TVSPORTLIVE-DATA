@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T20:00:15Z",
+  "generatedAt": "2026-09-17T21:11:30Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -496,8 +496,8 @@
       "awayTeamId": "espn_349",
       "startTime": "2026-09-17T19:00Z",
       "endTime": "2026-09-17T21:00:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
       "awayScore": 2,
       "channels": []
     },
@@ -510,9 +510,9 @@
       "awayTeamId": "espn_622",
       "startTime": "2026-09-17T19:00Z",
       "endTime": "2026-09-17T21:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
-      "awayScore": 2,
+      "awayScore": 3,
       "channels": []
     },
     {
@@ -524,8 +524,8 @@
       "awayTeamId": "espn_2990",
       "startTime": "2026-09-17T19:00Z",
       "endTime": "2026-09-17T21:00:00Z",
-      "status": "LIVE",
-      "homeScore": 3,
+      "status": "FINISHED",
+      "homeScore": 4,
       "awayScore": 0,
       "channels": []
     },
@@ -538,8 +538,8 @@
       "awayTeamId": "espn_176",
       "startTime": "2026-09-17T19:00Z",
       "endTime": "2026-09-17T21:00:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 4,
       "awayScore": 1,
       "channels": []
     },
@@ -552,8 +552,8 @@
       "awayTeamId": "espn_147",
       "startTime": "2026-09-17T19:00Z",
       "endTime": "2026-09-17T21:00:00Z",
-      "status": "LIVE",
-      "homeScore": 3,
+      "status": "FINISHED",
+      "homeScore": 5,
       "awayScore": 0,
       "channels": []
     },
@@ -566,9 +566,9 @@
       "awayTeamId": "espn_21615",
       "startTime": "2026-09-17T19:00Z",
       "endTime": "2026-09-17T21:00:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 1,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -580,9 +580,9 @@
       "awayTeamId": "espn_5807",
       "startTime": "2026-09-17T19:00Z",
       "endTime": "2026-09-17T21:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 2,
+      "awayScore": 3,
       "channels": []
     },
     {
@@ -596,7 +596,7 @@
       "endTime": "2026-09-17T21:30:00Z",
       "status": "LIVE",
       "homeScore": 1,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -667,7 +667,12 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sportitalia",
+        "dazn_deutsch",
+        "dazn_france",
+        "dazn_ireland"
+      ]
     },
     {
       "id": "espn_401879275",
