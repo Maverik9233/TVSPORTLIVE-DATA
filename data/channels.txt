@@ -2201,6 +2201,29 @@
       ]
     },
     {
+      "id": "bein_sports_max_1_tr",
+      "name": "beIN Sports Max 1 TR",
+      "country": "INTERNATIONAL",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "beIN Sports Max 1 TR HD",
+        "beIN Sports Max 1 TR FHD",
+        "beIN Sports Max 1 HD TR",
+        "beIN Sports Max 1 TR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bein_sports_max_1_tr_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19062/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
       "id": "dazn_deutsch",
       "name": "DAZN Deutsch",
       "country": "DE",
