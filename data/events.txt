@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T05:47:05Z",
+  "generatedAt": "2026-09-18T10:05:40Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -978,6 +978,34 @@
       "startTime": "2026-09-14T04:00Z",
       "endTime": "2026-09-21T03:59Z",
       "status": "FINISHED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "espn_811-2026",
+      "title": "Korea Open",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "startTime": "2026-09-18T04:00Z",
+      "endTime": "2026-09-28T03:59Z",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "espn_1009-2026",
+      "title": "Singapore Tennis Open presented by BNP Paribas",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "startTime": "2026-09-18T04:00Z",
+      "endTime": "2026-09-28T03:59Z",
+      "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
