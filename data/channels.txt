@@ -1574,29 +1574,29 @@
         }
       ]
     },
- {
-      "id": "sky_sport_1_DE",
-      "name": "Sky Sport 1 DE",
-      "country": "IT",
-      "priority": 5,
-      "logoUrl": null,
-      "aliases": [
-        "Sky Sport 1 HD DE",
-        "Sky Sport 1 Deutsch HD",
-        "Sky Sport 1 Deutsch",
-        "Sky Sport DE"
-      ],
+{
+  "id": "sky_sport_1_DE",
+  "name": "Sky Sport 1 DE",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": null,
+  "aliases": [
+    "Sky Sport 1 HD DE",
+    "Sky Sport 1 Deutsch HD",
+    "Sky Sport 1 Deutsch",
+    "Sky Sport DE"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sky_sport_1_DE_source_1",
+      "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19028/index.m3u8",
+      "type": "AUTO",
       "enabled": true,
-      "sources": [
-        {
-          "id": "sky_sport_1_DE_source_1",
-          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19028/index.m3u8",
-          "type": "AUTO",
-          "enabled": true,
-          "priority": 1
-        },
-      ]
-    },
+      "priority": 1
+    }
+  ]
+}
    {
       "id": "sky_sport_2_DE",
       "name": "Sky Sport 2 DE",
@@ -1617,7 +1617,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
    {
@@ -1639,7 +1639,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
    {
@@ -1661,7 +1661,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
 {
@@ -1684,7 +1684,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
  {
@@ -1707,7 +1707,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
    {
@@ -1730,7 +1730,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
 {
@@ -1753,7 +1753,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
    {
@@ -1776,7 +1776,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
     {
@@ -1799,7 +1799,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
    {
@@ -1822,7 +1822,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
    {
@@ -1845,7 +1845,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
    {
@@ -1868,7 +1868,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
    {
@@ -1891,7 +1891,7 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
       ]
     },
     {
