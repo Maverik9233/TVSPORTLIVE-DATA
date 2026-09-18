@@ -153,6 +153,30 @@ SOCCER_COMPETITIONS = (
         name="Eredivisie",
     ),
     SourceCompetition(
+        key="eerste_divisie",
+        sport="FOOTBALL",
+        league="ned.2",
+        name="Eerste Divisie",
+    ),
+    SourceCompetition(
+        key="championship",
+        sport="FOOTBALL",
+        league="eng.2",
+        name="Championship",
+    ),
+    SourceCompetition(
+        key="la_liga_2",
+        sport="FOOTBALL",
+        league="esp.2",
+        name="La Liga 2",
+    ),
+    SourceCompetition(
+        key="bundesliga_2",
+        sport="FOOTBALL",
+        league="ger.2",
+        name="2. Bundesliga",
+    ),
+    SourceCompetition(
         key="champions_league",
         sport="FOOTBALL",
         league="uefa.champions",
