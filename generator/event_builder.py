@@ -106,6 +106,10 @@ COMPETITION_NAMES = {
     "ligue_1": "Ligue 1",
     "primeira_liga": "Primeira Liga",
     "eredivisie": "Eredivisie",
+    "eerste_divisie": "Eerste Divisie",
+    "championship": "Championship",
+    "la_liga_2": "La Liga 2",
+    "bundesliga_2": "2. Bundesliga",
     "formula_1": "Formula 1",
     "motogp": "MotoGP",
     "atp": "ATP",
@@ -133,6 +137,10 @@ COMPETITION_PRIORITIES = {
     "ligue_1": 80,
     "primeira_liga": 75,
     "eredivisie": 75,
+    "eerste_divisie": 55,
+    "championship": 72,
+    "la_liga_2": 65,
+    "bundesliga_2": 68,
     "formula_1": 100,
     "motogp": 100,
     "atp": 80,
@@ -154,6 +162,10 @@ COMPETITION_COUNTRIES = {
     "ligue_1": "France",
     "primeira_liga": "Portugal",
     "eredivisie": "Netherlands",
+    "eerste_divisie": "Netherlands",
+    "championship": "England",
+    "la_liga_2": "Spain",
+    "bundesliga_2": "Germany",
 }
 
 
@@ -164,6 +176,44 @@ COMPETITION_COUNTRIES = {
 COMPETITION_BROADCASTER_OVERRIDES = {
     "coppa_italia": (
         "Italia 1",
+    ),
+    "premier_league": (
+        "Sky Sport Calcio",
+        "Sky Sport Uno",
+        "NOW",
+    ),
+    "championship": (
+        "Sky Sport Calcio",
+        "Sky Sport Uno",
+        "NOW",
+    ),
+    "la_liga": (
+        "DAZN 1 Italia",
+        "DAZN 2 Italia",
+    ),
+    "la_liga_2": (
+        "DAZN 1 Italia",
+    ),
+    "bundesliga": (
+        "Sky Sport Uno",
+        "Sky Sport Calcio",
+    ),
+    "bundesliga_2": (
+        "Sky Sport Uno",
+    ),
+    "eredivisie": (
+        "Ziggo Sport",
+        "Sky Sport Uno",
+    ),
+    "eerste_divisie": (
+        "Ziggo Sport",
+    ),
+    "ligue_1": (
+        "DAZN 1 Italia",
+    ),
+    "primeira_liga": (
+        "Sport TV 1 Portugal",
+        "Sky Sport Uno",
     ),
     # Serie C: diritti Sky/NOW. LiveOnSat indica spesso solo
     # "Sky Go Italy"; i canali numerati (251+) sono quelli
