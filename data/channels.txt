@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "Italia 1",
+      "id": "italia_1",
       "name": "Italia 1",
       "country": "IT",
       "priority": 2,
@@ -1574,6 +1574,326 @@
         }
       ]
     },
+ {
+      "id": "sky_sport_1_DE",
+      "name": "Sky Sport 1 DE",
+      "country": "IT",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 1 HD DE",
+        "Sky Sport 1 Deutsch HD",
+        "Sky Sport 1 Deutsch",
+        "Sky Sport DE"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_1_DE_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19028/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_2_DE",
+      "name": "Sky Sport 2 DE",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 2 HD DE",
+        "Sky Sport 2 Deutsch HD",
+        "Sky Sport 2 Deutsch",
+        "Sky Sport 2 DE"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_2_DE_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19028/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_austria_1",
+      "name": "Sky Sport Austria 1",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 1 Austria",
+        "Sky Sport 1 Austria HD",
+        "Sky Sport 1 Austria HD DE"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_austria_1_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/2492/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_austria_2",
+      "name": "Sky Sport Austria 2",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport 2 Austria",
+        "Sky Sport 2 Austria HD",
+        "Sky Sport 2 Austria HD DE"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_austria_2_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/6113/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+{
+      "id": "sky_sport_bundesliga_1",
+      "name": "Sky Sport Bundesliga 1",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 1",
+        "Sky Sport Bundesliga 1 HD",
+        "Sky Sport Bundesliga 1 HD DE",
+        "Sky Sport Bundesliga 1 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_1_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/2480/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+ {
+      "id": "sky_sport_bundesliga_2",
+      "name": "Sky Sport Bundesliga 2",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 2",
+        "Sky Sport Bundesliga 2 HD",
+        "Sky Sport Bundesliga 2 HD DE",
+        "Sky Sport Bundesliga 2 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_2_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/7234/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_bundesliga_3",
+      "name": "Sky Sport Bundesliga 3",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 3",
+        "Sky Sport Bundesliga 3 HD",
+        "Sky Sport Bundesliga 3 HD DE",
+        "Sky Sport Bundesliga 3 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_3_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/7235/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+{
+      "id": "sky_sport_bundesliga_4",
+      "name": "Sky Sport Bundesliga 4",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 4",
+        "Sky Sport Bundesliga 4 HD",
+        "Sky Sport Bundesliga 4 HD DE",
+        "Sky Sport Bundesliga 4 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_4_source_1",
+          "url": "https://4169it.7odxv0l067ka.net:8443/hls/r471s1o6rloc.m3u8?s=fRtGCWDxGy8JsLkrepnWIw&e=1789764025",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_bundesliga_5",
+      "name": "Sky Sport Bundesliga 5",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 5",
+        "Sky Sport Bundesliga 5 HD",
+        "Sky Sport Bundesliga 5 HD DE",
+        "Sky Sport Bundesliga 5 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_5_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/7237/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+    {
+      "id": "sky_sport_bundesliga_6",
+      "name": "Sky Sport Bundesliga 6",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 6",
+        "Sky Sport Bundesliga 6 HD",
+        "Sky Sport Bundesliga 6 HD DE",
+        "Sky Sport Bundesliga 6 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_6_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/7238/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_bundesliga_7",
+      "name": "Sky Sport Bundesliga 7",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 7",
+        "Sky Sport Bundesliga 7 HD",
+        "Sky Sport Bundesliga 7 HD DE",
+        "Sky Sport Bundesliga 7 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_7_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/7239/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_bundesliga_8",
+      "name": "Sky Sport Bundesliga 8",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 8",
+        "Sky Sport Bundesliga 8 HD",
+        "Sky Sport Bundesliga 8 HD DE",
+        "Sky Sport Bundesliga 8 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_8_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/7240/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_bundesliga_9",
+      "name": "Sky Sport Bundesliga 9",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 9",
+        "Sky Sport Bundesliga 9 HD",
+        "Sky Sport Bundesliga 9 HD DE",
+        "Sky Sport Bundesliga 9 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_9_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/7241/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
+   {
+      "id": "sky_sport_bundesliga_9",
+      "name": "Sky Sport Bundesliga 9",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Bundesliga 9",
+        "Sky Sport Bundesliga 9 HD",
+        "Sky Sport Bundesliga 9 HD DE",
+        "Sky Sport Bundesliga 9 DE HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sport_bundesliga_9_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/7241/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+      ]
+    },
     {
       "id": "bein_sports_1_france",
       "name": "beIN Sports 1 France",
@@ -1670,7 +1990,8 @@
         "beIN Sports 2 HD",
         "beIN Sports 2 SD",
         "beIN Sports 2 Arabic HD",
-        "beIN Sports 2 Arabic SD"
+        "beIN Sports 2 Arabic SD",
+        "beIN Sports 2 Arabic"
       ],
       "enabled": true,
       "sources": [
@@ -1691,6 +2012,8 @@
       "logoUrl": null,
       "aliases": [
         "beIN Sports 2 HD Turkey",
+        "beIN Sports 2 Turkey HD",
+        "beIN Sports 2 Turkey",
         "beIN Sports 2 SD Turkey",
         "beIN Sports 2 Turkey HD",
         "beIN Sports 2 Turkey SD"
