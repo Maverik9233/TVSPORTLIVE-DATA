@@ -978,6 +978,43 @@
         }
       ]
     },
+{
+      "id": "dazn_1_HD_PT",
+      "name": "DAZN 1 HD PT",
+      "country": "INTERNATIONAL",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 1 HD PT",
+        "DAZN 1 FHD PT",
+        "DAZN 1 PT",
+        "DAZN PT",
+        "DAZN1 PT",
+        "DAZN 1 Channel PT",
+        "DAZN 1 HD PT",
+        "DAZN 1 FHD PT",
+        "DAZN 1 Portugal",
+        "DAZN PT",
+        "DAZN 1 Portugal HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_1_HD_PT_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19158/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "dazn_1_HD_PT_source_2",
+          "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
     {
       "id": "rai_sport",
       "name": "Rai Sport",
