@@ -2019,30 +2019,30 @@
         }
       ]
     },
-   {
-      "id": "espn_2_nl",
-      "name": "Espn 2 NL",
-      "country": "INTERNATIONAL",
-      "priority": 5,
-      "logoUrl": null,
-      "aliases": [
-        "Espn 2 NL",
-        "Espn 2 NL HD",
-        "Espn 2 HD NL",
-        "ESPN 2 Nederland",
-        "ESPN 2 Nederland HD"
-      ],
+  {
+  "id": "espn_2_nl",
+  "name": "Espn 2 NL",
+  "country": "INTERNATIONAL",
+  "priority": 5,
+  "logoUrl": null,
+  "aliases": [
+    "Espn 2 NL",
+    "Espn 2 NL HD",
+    "Espn 2 HD NL",
+    "ESPN 2 Nederland",
+    "ESPN 2 Nederland HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "espn_2_nl_source_1",
+      "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19202/index.m3u8",
+      "type": "AUTO",
       "enabled": true,
-      "sources": [
-        {
-          "id": "espn_2_nl_source_1",
-          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19202/index.m3u8",
-          "type": "AUTO",
-          "enabled": true,
-          "priority": 1
-        }
-      ]
-    },
+      "priority": 1
+    }
+  ]
+},
     {
       "id": "bein_sports_2_france",
       "name": "beIN Sports 2 France",
