@@ -2636,7 +2636,7 @@
       "id": "nba_tv_usa",
       "name": "NBA TV",
       "country": "INTERNATIONAL",
-      "priority": 68,
+      "priority": 10,
       "logoUrl": null,
       "aliases": [
         "NBA TV HD",
@@ -2650,7 +2650,7 @@
         {
           "id": "nba_tv_usa_source_1",
           "url": "https://dlive.sx/stream/stream-404.php",
-          "type": "Web",
+          "type": "AUTO",
           "enabled": true,
           "priority": 1
         }
