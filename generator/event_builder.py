@@ -267,18 +267,40 @@ COMPETITION_BROADCASTER_OVERRIDES = {
     "nba": (
         "Sky Sport Basket",
         "Sky Sport Uno",
+        "NBA TV",
+        "DAZN 1 Italia",
+        "Eurosport 1",
+    ),
+    "wnba": (
+        "Sky Sport Basket",
+        "Sky Sport Uno",
+        "DAZN 1 Italia",
+    ),
+    "nbl": (
+        "Sky Sport Basket",
+        "Sky Sport Uno",
     ),
     "euroleague": (
         "Sky Sport Basket",
         "Sky Sport Uno",
+        "Eurosport 1",
+        "DAZN 1 Italia",
     ),
     "atp": (
         "Sky Sport Tennis",
         "Sky Sport Uno",
+        "Eurosport 1",
+        "Eurosport 2",
+        "SuperTennis",
+        "Tennis Channel",
     ),
     "wta": (
         "Sky Sport Tennis",
         "Sky Sport Uno",
+        "Eurosport 1",
+        "Eurosport 2",
+        "SuperTennis",
+        "Tennis Channel",
     ),
     # Serie C: diritti Sky/NOW. LiveOnSat indica spesso solo
     # "Sky Go Italy"; i canali numerati (251+) sono quelli
@@ -301,6 +323,37 @@ COMPETITION_BROADCASTER_OVERRIDES = {
         "Sky Sport Uno",
         "Sky Sport MotoGP",
         "DAZN 1 Italia",
+        "NOW",
+    ),
+}
+
+# Fallback per sport quando LiveOnSat non matcha
+# (tennis/basket spesso hanno titoli torneo, non "A vs B")
+SPORT_BROADCASTER_FALLBACKS: dict[str, tuple[str, ...]] = {
+    "TENNIS": (
+        "Sky Sport Tennis",
+        "Eurosport 1",
+        "Eurosport 2",
+        "SuperTennis",
+        "Sky Sport Uno",
+        "Tennis Channel",
+    ),
+    "BASKETBALL": (
+        "Sky Sport Basket",
+        "NBA TV",
+        "Sky Sport Uno",
+        "DAZN 1 Italia",
+        "Eurosport 1",
+    ),
+    "MOTOGP": (
+        "Sky Sport Uno",
+        "Sky Sport MotoGP",
+        "DAZN 1 Italia",
+        "NOW",
+    ),
+    "FORMULA_1": (
+        "Sky Sport F1",
+        "Sky Sport Uno",
         "NOW",
     ),
 }
@@ -647,6 +700,14 @@ def get_event_broadcasters(
             broadcasters.append(
                 broadcaster
             )
+
+    # 4) Fallback per sport (tennis / basket / motogp / F1)
+    #    Serve quando LiveOnSat non trova la partita
+    #    e gli override di competizione non bastano.
+    sport_key = (raw_event.sport or "").upper()
+    for broadcaster in SPORT_BROADCASTER_FALLBACKS.get(sport_key, ()):
+        if broadcaster not in broadcasters:
+            broadcasters.append(broadcaster)
 
     return broadcasters
 
