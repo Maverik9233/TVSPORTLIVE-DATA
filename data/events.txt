@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T14:01:40Z",
+  "generatedAt": "2026-09-19T16:42:03Z",
   "competitions": [
     {
       "id": "motogp",
@@ -530,14 +530,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_bari",
-      "name": "BARI",
-      "shortName": "BARI",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Bari.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_serie_c_barletta",
       "name": "BARLETTA",
       "shortName": "BARLETTA",
@@ -890,14 +882,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_cosenza",
-      "name": "COSENZA",
-      "shortName": "COSENZA",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_388",
       "name": "Coventry City",
       "shortName": "Coventry",
@@ -1198,14 +1182,6 @@
       "name": "FOLGORE CARATESE",
       "shortName": "FOLGORE CARATESE",
       "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/folgorecaratese-trasp-logo.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_forli",
-      "name": "FORLÌ",
-      "shortName": "FORLÌ",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -2378,14 +2354,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_scafatese",
-      "name": "SCAFATESE",
-      "shortName": "SCAFATESE",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/scafatese-trasp-logo.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_133",
       "name": "Schalke 04",
       "shortName": "Schalke",
@@ -2422,14 +2390,6 @@
       "name": "Sheffield United",
       "shortName": "Sheffield Utd",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_sorrento",
-      "name": "SORRENTO",
-      "shortName": "SORRENTO",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -2622,14 +2582,6 @@
       "name": "Toronto Tempo",
       "shortName": "Tempo",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_torres",
-      "name": "TORRES",
-      "shortName": "TORRES",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -3220,9 +3172,9 @@
       "awayTeamId": "espn_4059",
       "startTime": "2026-09-19T13:00Z",
       "endTime": "2026-09-19T15:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3236,9 +3188,9 @@
       "awayTeamId": "espn_2925",
       "startTime": "2026-09-19T13:00Z",
       "endTime": "2026-09-19T15:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
@@ -3256,8 +3208,8 @@
       "awayTeamId": "espn_3952",
       "startTime": "2026-09-19T13:00Z",
       "endTime": "2026-09-19T15:00:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 1,
       "channels": [
         "dazn_1_italia"
@@ -3272,9 +3224,9 @@
       "awayTeamId": "espn_239",
       "startTime": "2026-09-19T13:00Z",
       "endTime": "2026-09-19T15:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia",
         "dazn_deutsch",
@@ -3291,7 +3243,7 @@
       "awayTeamId": "espn_11137",
       "startTime": "2026-09-19T13:00Z",
       "endTime": "2026-09-19T15:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3307,9 +3259,9 @@
       "awayTeamId": "espn_3841",
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 1,
+      "status": "FINISHED",
+      "homeScore": 3,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3324,9 +3276,9 @@
       "awayTeamId": "espn_122",
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3341,9 +3293,9 @@
       "awayTeamId": "espn_2950",
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 1,
+      "status": "FINISHED",
+      "homeScore": 3,
+      "awayScore": 4,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3358,9 +3310,9 @@
       "awayTeamId": "espn_126",
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3375,8 +3327,8 @@
       "awayTeamId": "espn_359",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 3,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -3392,9 +3344,9 @@
       "awayTeamId": "espn_365",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3409,9 +3361,9 @@
       "awayTeamId": "espn_374",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3426,9 +3378,9 @@
       "awayTeamId": "espn_306",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3443,8 +3395,8 @@
       "awayTeamId": "espn_373",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -3460,9 +3412,9 @@
       "awayTeamId": "espn_369",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3477,9 +3429,9 @@
       "awayTeamId": "espn_394",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3494,9 +3446,9 @@
       "awayTeamId": "espn_376",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3511,9 +3463,9 @@
       "awayTeamId": "espn_318",
       "startTime": "2026-09-19T14:00Z",
       "endTime": "2026-09-19T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3528,7 +3480,7 @@
       "awayTeamId": "espn_96",
       "startTime": "2026-09-19T14:15Z",
       "endTime": "2026-09-19T16:15:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3545,89 +3497,11 @@
       "awayTeamId": "espn_3788",
       "startTime": "2026-09-19T14:15Z",
       "endTime": "2026-09-19T16:15:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 3,
       "channels": [
         "dazn_1_italia"
-      ]
-    },
-    {
-      "id": "seriec_20260919_1430_cosenza_scafatese",
-      "title": "COSENZA - SCAFATESE",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_cosenza",
-      "awayTeamId": "espn_serie_c_scafatese",
-      "startTime": "2026-09-19T14:30:00+02:00",
-      "endTime": "2026-09-19T16:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
-      ]
-    },
-    {
-      "id": "seriec_20260919_1430_forli_torres",
-      "title": "FORLÌ - TORRES",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_forli",
-      "awayTeamId": "espn_serie_c_torres",
-      "startTime": "2026-09-19T14:30:00+02:00",
-      "endTime": "2026-09-19T16:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
-      ]
-    },
-    {
-      "id": "seriec_20260919_1430_sorrento_bari",
-      "title": "SORRENTO - BARI",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_sorrento",
-      "awayTeamId": "espn_serie_c_bari",
-      "startTime": "2026-09-19T14:30:00+02:00",
-      "endTime": "2026-09-19T16:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
       ]
     },
     {
@@ -3639,9 +3513,9 @@
       "awayTeamId": "espn_12698",
       "startTime": "2026-09-19T14:30Z",
       "endTime": "2026-09-19T16:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 4,
       "channels": [
         "sky_sport_uno"
       ]
@@ -3655,9 +3529,9 @@
       "awayTeamId": "espn_9983",
       "startTime": "2026-09-19T14:30Z",
       "endTime": "2026-09-19T16:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 3,
+      "awayScore": 1,
       "channels": [
         "ziggo_sport"
       ]
@@ -3671,9 +3545,9 @@
       "awayTeamId": "espn_552",
       "startTime": "2026-09-19T14:30Z",
       "endTime": "2026-09-19T16:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno"
       ]
@@ -3687,9 +3561,9 @@
       "awayTeamId": "espn_3736",
       "startTime": "2026-09-19T14:30Z",
       "endTime": "2026-09-19T16:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "ziggo_sport"
@@ -3723,9 +3597,9 @@
       "awayTeamId": "espn_3257",
       "startTime": "2026-09-19T15:15Z",
       "endTime": "2026-09-19T17:15:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3739,8 +3613,8 @@
       "awayTeamId": "espn_180",
       "startTime": "2026-09-19T15:15Z",
       "endTime": "2026-09-19T17:15:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia"
@@ -3755,8 +3629,8 @@
       "awayTeamId": "espn_110",
       "startTime": "2026-09-19T16:00Z",
       "endTime": "2026-09-19T18:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": []
     },
@@ -3769,7 +3643,7 @@
       "awayTeamId": "espn_124",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3786,7 +3660,7 @@
       "awayTeamId": "espn_388",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3803,7 +3677,7 @@
       "awayTeamId": "espn_3752",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3819,7 +3693,7 @@
       "awayTeamId": "espn_87",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3836,7 +3710,7 @@
       "awayTeamId": "espn_245",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -4723,6 +4597,69 @@
       "awayScore": 0,
       "channels": [
         "sky_sport_uno"
+      ]
+    },
+    {
+      "id": "espn_1019-2026",
+      "title": "Delta Motors Tolentino Open",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "startTime": "2026-09-20T04:00Z",
+      "endTime": "2026-09-28T03:59Z",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_1022-2026",
+      "title": "Eupago Porto Open",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "startTime": "2026-09-20T04:00Z",
+      "endTime": "2026-09-28T03:59Z",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_1077-2026",
+      "title": "Turk Telekom Ankara Open",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "startTime": "2026-09-20T04:00Z",
+      "endTime": "2026-09-28T03:59Z",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
       ]
     },
     {
