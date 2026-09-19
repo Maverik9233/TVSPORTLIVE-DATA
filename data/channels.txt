@@ -2308,6 +2308,28 @@
         }
       ]
     },
+ {
+      "id": "idman_tv",
+      "name": "Idman TV",
+      "country": "AZ",
+      "priority": 62,
+      "logoUrl": null,
+      "aliases": [
+        "Idman TV HD",
+        "Idman TV SD",
+        "Idman TV"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "idman_tv_source_1",
+          "url": "https://premium.hls.st/playlist/premium400.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "eleven_sports_polska_1",
       "name": "Eleven Sports Polska 1",
