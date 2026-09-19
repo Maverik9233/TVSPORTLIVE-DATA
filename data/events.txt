@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T16:42:03Z",
+  "generatedAt": "2026-09-19T18:59:01Z",
   "competitions": [
     {
       "id": "motogp",
@@ -482,14 +482,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_audace_cerignola",
-      "name": "AUDACE CERIGNOLA",
-      "shortName": "AUDACE CERIGNOLA",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_20906",
       "name": "Austin FC",
       "shortName": "Austin",
@@ -718,22 +710,6 @@
       "name": "Casa Pia",
       "shortName": "Casa Pia",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_casarano",
-      "name": "CASARANO",
-      "shortName": "CASARANO",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_casertana",
-      "name": "CASERTANA",
-      "shortName": "CASERTANA",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -2322,14 +2298,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_savoia",
-      "name": "SAVOIA",
-      "shortName": "SAVOIA",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/loghi-squadre/girone-c/savoia-trasp-logo.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_3736",
       "name": "SC Cambuur",
       "shortName": "Cambuur",
@@ -3597,8 +3565,8 @@
       "awayTeamId": "espn_3257",
       "startTime": "2026-09-19T15:15Z",
       "endTime": "2026-09-19T17:15:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 1,
       "channels": [
         "dazn_1_italia"
@@ -3613,9 +3581,9 @@
       "awayTeamId": "espn_180",
       "startTime": "2026-09-19T15:15Z",
       "endTime": "2026-09-19T17:15:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 2,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3629,9 +3597,9 @@
       "awayTeamId": "espn_110",
       "startTime": "2026-09-19T16:00Z",
       "endTime": "2026-09-19T18:00:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -3643,9 +3611,9 @@
       "awayTeamId": "espn_124",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3660,9 +3628,9 @@
       "awayTeamId": "espn_388",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3677,9 +3645,9 @@
       "awayTeamId": "espn_3752",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3693,8 +3661,8 @@
       "awayTeamId": "espn_87",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 5,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia",
@@ -3710,8 +3678,8 @@
       "awayTeamId": "espn_245",
       "startTime": "2026-09-19T16:30Z",
       "endTime": "2026-09-19T18:30:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 5,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia"
@@ -3726,9 +3694,9 @@
       "awayTeamId": "espn_146",
       "startTime": "2026-09-19T16:45Z",
       "endTime": "2026-09-19T18:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 4,
       "channels": [
         "sky_sport_uno",
         "ziggo_sport"
@@ -3743,9 +3711,9 @@
       "awayTeamId": "espn_11",
       "startTime": "2026-09-19T17:00Z",
       "endTime": "2026-09-19T19:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 78,
+      "awayScore": 72,
       "channels": [
         "sky_sport_uno",
         "sky_sport_basket",
@@ -3763,63 +3731,11 @@
       "awayTeamId": "espn_3822",
       "startTime": "2026-09-19T17:00Z",
       "endTime": "2026-09-19T19:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno"
-      ]
-    },
-    {
-      "id": "seriec_20260919_1730_audace_cerignola_casertana",
-      "title": "AUDACE CERIGNOLA - CASERTANA",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_audace_cerignola",
-      "awayTeamId": "espn_serie_c_casertana",
-      "startTime": "2026-09-19T17:30:00+02:00",
-      "endTime": "2026-09-19T19:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
-      ]
-    },
-    {
-      "id": "seriec_20260919_1730_savoia_casarano",
-      "title": "SAVOIA - CASARANO",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_savoia",
-      "awayTeamId": "espn_serie_c_casarano",
-      "startTime": "2026-09-19T17:30:00+02:00",
-      "endTime": "2026-09-19T19:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
       ]
     },
     {
@@ -3831,9 +3747,9 @@
       "awayTeamId": "espn_235",
       "startTime": "2026-09-19T17:30Z",
       "endTime": "2026-09-19T19:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "dazn_1_italia"
@@ -3848,7 +3764,7 @@
       "awayTeamId": "espn_17702",
       "startTime": "2026-09-19T17:30Z",
       "endTime": "2026-09-19T19:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3865,9 +3781,9 @@
       "awayTeamId": "espn_4055",
       "startTime": "2026-09-19T17:30Z",
       "endTime": "2026-09-19T19:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3881,9 +3797,9 @@
       "awayTeamId": "espn_2566",
       "startTime": "2026-09-19T18:00Z",
       "endTime": "2026-09-19T20:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "ziggo_sport"
@@ -3898,8 +3814,8 @@
       "awayTeamId": "espn_129",
       "startTime": "2026-09-19T18:30Z",
       "endTime": "2026-09-19T20:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno"
@@ -3914,7 +3830,7 @@
       "awayTeamId": "espn_112",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3938,7 +3854,7 @@
       "awayTeamId": "espn_3236",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3954,8 +3870,8 @@
       "awayTeamId": "espn_273",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia"
@@ -3970,8 +3886,8 @@
       "awayTeamId": "espn_169",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia"
@@ -3986,7 +3902,7 @@
       "awayTeamId": "espn_170",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
