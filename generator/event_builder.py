@@ -24,6 +24,11 @@ from sky_serie_c_channels import (
     fetch_sky_serie_c_channel_map,
     find_channels_for_match,
 )
+from competition_flags import (
+    competition_flag_url,
+    competition_logo_url,
+)
+from team_logos import resolve_team_logo
 
 
 # ============================================================
@@ -454,13 +459,22 @@ def build_competition(
         competition_id
     )
 
+    flag_url = competition_flag_url(
+        competition_id
+    )
+
+    # logoUrl = bandiera così l'app attuale (che legge logoUrl) la mostra
+    logo_url = competition_logo_url(
+        competition_id
+    )
+
     return BuiltCompetition(
         id=competition_id,
         name=name,
         sport=event.sport,
         country=country,
-        country_flag_url=None,
-        logo_url=None,
+        country_flag_url=flag_url,
+        logo_url=logo_url,
         priority=priority,
     )
 
@@ -487,11 +501,17 @@ def build_team(
     if not final_id:
         return None
 
+    resolved_logo = resolve_team_logo(
+        team_name=team_name,
+        existing_logo=team_logo,
+        competition_key=None,
+    )
+
     return BuiltTeam(
         id=final_id,
         name=team_name,
         short_name=team_short_name,
-        logo_url=team_logo,
+        logo_url=resolved_logo,
         country=None,
         country_flag_url=None,
     )
