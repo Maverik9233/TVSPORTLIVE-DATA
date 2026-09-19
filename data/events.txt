@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T13:24:14Z",
+  "generatedAt": "2026-09-19T13:37:04Z",
   "competitions": [
     {
       "id": "motogp",
@@ -2250,14 +2250,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "team_red_bull_ring_spielberg",
-      "name": "Red Bull Ring - Spielberg",
-      "shortName": null,
-      "logoUrl": "https://photos.motogp.com/2025/events/background/13 Austria.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_serie_c_reggiana",
       "name": "REGGIANA",
       "shortName": "REGGIANA",
@@ -3107,8 +3099,8 @@
       "awayTeamId": "espn_362",
       "startTime": "2026-09-19T11:30Z",
       "endTime": "2026-09-19T13:30:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 3,
       "channels": [
         "sky_sport_uno",
@@ -3124,7 +3116,7 @@
       "awayTeamId": "espn_372",
       "startTime": "2026-09-19T11:30Z",
       "endTime": "2026-09-19T13:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 3,
       "awayScore": 1,
       "channels": [
@@ -3160,7 +3152,7 @@
       "endTime": "2026-09-19T14:00:00Z",
       "status": "LIVE",
       "homeScore": 79,
-      "awayScore": 93,
+      "awayScore": 100,
       "channels": [
         "sky_sport_uno",
         "sky_sport_basket",
@@ -3178,7 +3170,7 @@
       "awayTeamId": "espn_371",
       "startTime": "2026-09-19T11:30Z",
       "endTime": "2026-09-19T13:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 2,
       "awayScore": 2,
       "channels": [
@@ -3315,7 +3307,7 @@
       "awayTeamId": "espn_3841",
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3332,7 +3324,7 @@
       "awayTeamId": "espn_122",
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3349,7 +3341,7 @@
       "awayTeamId": "espn_2950",
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3366,7 +3358,7 @@
       "awayTeamId": "espn_126",
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3708,7 +3700,7 @@
       "title": "MotoGP - QATAR AIRWAYS GRAND PRIX OF AUSTRIA (Sprint)",
       "sport": "MOTOGP",
       "competitionId": "motogp",
-      "homeTeamId": "team_red_bull_ring_spielberg",
+      "homeTeamId": null,
       "awayTeamId": null,
       "startTime": "2026-09-19T15:00:00+02:00",
       "endTime": "2026-09-19T16:00:00+02:00",
@@ -5175,7 +5167,7 @@
       "title": "MotoGP - QATAR AIRWAYS GRAND PRIX OF AUSTRIA (Race)",
       "sport": "MOTOGP",
       "competitionId": "motogp",
-      "homeTeamId": "team_red_bull_ring_spielberg",
+      "homeTeamId": null,
       "awayTeamId": null,
       "startTime": "2026-09-20T14:00:00+02:00",
       "endTime": "2026-09-20T15:30:00+02:00",
