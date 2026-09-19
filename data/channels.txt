@@ -2634,13 +2634,16 @@
     },
 {
       "id": "nba_tv_usa",
-      "name": "NBA TV USA",
-      "country": "BR",
+      "name": "NBA TV",
+      "country": "INTERNATIONAL",
       "priority": 68,
       "logoUrl": null,
       "aliases": [
-        "ESPN Brasil HD",
-        "ESPN Brasil SD"
+        "NBA TV HD",
+        "NBA TV USA",
+        "NBA TV",
+        "NBA TV USA HD",
+        "NBA TV SD"
       ],
       "enabled": true,
       "sources": [
