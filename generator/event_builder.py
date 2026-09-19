@@ -297,6 +297,12 @@ COMPETITION_BROADCASTER_OVERRIDES = {
         "Sky Go Italy",
         "NOW",
     ),
+    "motogp": (
+        "Sky Sport Uno",
+        "Sky Sport MotoGP",
+        "DAZN 1 Italia",
+        "NOW",
+    ),
 }
 
 
