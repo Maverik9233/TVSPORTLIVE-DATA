@@ -177,6 +177,42 @@ SOCCER_COMPETITIONS = (
         name="2. Bundesliga",
     ),
     SourceCompetition(
+        key="liga_profesional",
+        sport="FOOTBALL",
+        league="arg.1",
+        name="Liga Profesional",
+    ),
+    SourceCompetition(
+        key="brasileirao",
+        sport="FOOTBALL",
+        league="bra.1",
+        name="Brasileirão",
+    ),
+    SourceCompetition(
+        key="mls",
+        sport="FOOTBALL",
+        league="usa.1",
+        name="MLS",
+    ),
+    SourceCompetition(
+        key="liga_mx",
+        sport="FOOTBALL",
+        league="mex.1",
+        name="Liga MX",
+    ),
+    SourceCompetition(
+        key="copa_libertadores",
+        sport="FOOTBALL",
+        league="conmebol.libertadores",
+        name="Copa Libertadores",
+    ),
+    SourceCompetition(
+        key="copa_sudamericana",
+        sport="FOOTBALL",
+        league="conmebol.sudamericana",
+        name="Copa Sudamericana",
+    ),
+    SourceCompetition(
         key="champions_league",
         sport="FOOTBALL",
         league="uefa.champions",
@@ -244,6 +280,18 @@ OTHER_COMPETITIONS = (
         sport="BASKETBALL",
         league="euroleague",
         name="EuroLeague",
+    ),
+    SourceCompetition(
+        key="wnba",
+        sport="BASKETBALL",
+        league="wnba",
+        name="WNBA",
+    ),
+    SourceCompetition(
+        key="nbl",
+        sport="BASKETBALL",
+        league="nbl",
+        name="NBL",
     ),
 )
 
