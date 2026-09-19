@@ -110,12 +110,20 @@ COMPETITION_NAMES = {
     "championship": "Championship",
     "la_liga_2": "La Liga 2",
     "bundesliga_2": "2. Bundesliga",
+    "liga_profesional": "Liga Profesional",
+    "brasileirao": "Brasileirão",
+    "mls": "MLS",
+    "liga_mx": "Liga MX",
+    "copa_libertadores": "Copa Libertadores",
+    "copa_sudamericana": "Copa Sudamericana",
     "formula_1": "Formula 1",
     "motogp": "MotoGP",
     "atp": "ATP",
     "wta": "WTA",
     "euroleague": "EuroLeague",
     "nba": "NBA",
+    "wnba": "WNBA",
+    "nbl": "NBL",
 }
 
 
@@ -141,12 +149,20 @@ COMPETITION_PRIORITIES = {
     "championship": 72,
     "la_liga_2": 65,
     "bundesliga_2": 68,
+    "liga_profesional": 70,
+    "brasileirao": 72,
+    "mls": 70,
+    "liga_mx": 68,
+    "copa_libertadores": 88,
+    "copa_sudamericana": 82,
     "formula_1": 100,
     "motogp": 100,
     "atp": 80,
     "wta": 80,
     "euroleague": 85,
     "nba": 85,
+    "wnba": 75,
+    "nbl": 60,
 }
 
 
@@ -166,6 +182,15 @@ COMPETITION_COUNTRIES = {
     "championship": "England",
     "la_liga_2": "Spain",
     "bundesliga_2": "Germany",
+    "liga_profesional": "Argentina",
+    "brasileirao": "Brazil",
+    "mls": "USA",
+    "nba": "USA",
+    "wnba": "USA",
+    "nbl": "Australia",
+    "liga_mx": "Mexico",
+    "copa_libertadores": "South America",
+    "copa_sudamericana": "South America",
 }
 
 
@@ -213,6 +238,46 @@ COMPETITION_BROADCASTER_OVERRIDES = {
     ),
     "primeira_liga": (
         "Sport TV 1 Portugal",
+        "Sky Sport Uno",
+    ),
+    "liga_profesional": (
+        "Sky Sport Uno",
+        "DAZN 1 Italia",
+    ),
+    "brasileirao": (
+        "Sky Sport Uno",
+        "DAZN 1 Italia",
+    ),
+    "mls": (
+        "Sky Sport Uno",
+        "DAZN 1 Italia",
+    ),
+    "liga_mx": (
+        "Sky Sport Uno",
+    ),
+    "copa_libertadores": (
+        "Sky Sport Uno",
+        "Sky Sport Calcio",
+        "DAZN 1 Italia",
+    ),
+    "copa_sudamericana": (
+        "Sky Sport Uno",
+        "DAZN 1 Italia",
+    ),
+    "nba": (
+        "Sky Sport Basket",
+        "Sky Sport Uno",
+    ),
+    "euroleague": (
+        "Sky Sport Basket",
+        "Sky Sport Uno",
+    ),
+    "atp": (
+        "Sky Sport Tennis",
+        "Sky Sport Uno",
+    ),
+    "wta": (
+        "Sky Sport Tennis",
         "Sky Sport Uno",
     ),
     # Serie C: diritti Sky/NOW. LiveOnSat indica spesso solo
