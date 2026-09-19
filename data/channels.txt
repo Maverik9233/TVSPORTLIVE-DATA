@@ -2632,6 +2632,27 @@
         }
       ]
     },
+{
+      "id": "nba_tv_usa",
+      "name": "NBA TV USA",
+      "country": "BR",
+      "priority": 68,
+      "logoUrl": null,
+      "aliases": [
+        "ESPN Brasil HD",
+        "ESPN Brasil SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "nba_tv_usa_source_1",
+          "url": "https://dlive.sx/watch.php?id=404",
+          "type": "Web",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "fox_sports_mexico",
       "name": "Fox Sports Mexico",
