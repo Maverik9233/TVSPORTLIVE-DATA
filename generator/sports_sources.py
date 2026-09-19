@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from serie_c_source import fetch_serie_c_events
+from motogp_source import fetch_motogp_events
 
 from config import (
     REQUEST_TIMEOUT_SECONDS,
@@ -1833,6 +1834,45 @@ def deduplicate_events(
 # ============================================================
 
 
+
+def convert_motogp_event(event) -> RawEvent:
+    """Converte MotoGPEvent (motogp_source) in RawEvent."""
+    return RawEvent(
+        source="motogp_official",
+        source_event_id=event.source_event_id,
+        competition_key="motogp",
+        competition_name="MotoGP",
+        sport="MOTOGP",
+        title=event.title,
+        start_time=event.start_time.isoformat(),
+        end_time=event.end_time.isoformat() if event.end_time else None,
+        status=event.status,
+        home_team_id=None,
+        home_team_name=event.location,
+        home_team_short_name=None,
+        home_team_logo=event.image_url,
+        away_team_id=None,
+        away_team_name=None,
+        away_team_short_name=None,
+        away_team_logo=None,
+        home_score=None,
+        away_score=None,
+        period=None,
+        minute=None,
+        country=event.country,
+    )
+
+
+def fetch_official_motogp_events() -> list[RawEvent]:
+    try:
+        events = fetch_motogp_events()
+    except Exception as error:
+        print(f"[MOTOGP] Fonte ufficiale non disponibile: {error}")
+        return []
+
+    return [convert_motogp_event(event) for event in events]
+
+
 def fetch_all_events() -> list[RawEvent]:
     dates = get_requested_dates()
 
@@ -1849,6 +1889,11 @@ def fetch_all_events() -> list[RawEvent]:
     for competition in ALL_COMPETITIONS:
 
         if competition.key == "serie_c":
+            continue
+
+        # MotoGP: ESPN scoreboard non disponibile (HTTP 400).
+        # Fonte ufficiale: motogp.com via motogp_source.py
+        if competition.key == "motogp":
             continue
 
         for date_value in dates:
@@ -1897,6 +1942,19 @@ def fetch_all_events() -> list[RawEvent]:
 
     all_events.extend(
         serie_c_events
+    )
+
+    # --------------------------------------------------------
+    # MOTOGP
+    # Fonte ufficiale: www.motogp.com/en/calendar
+    # --------------------------------------------------------
+
+    motogp_events = (
+        fetch_official_motogp_events()
+    )
+
+    all_events.extend(
+        motogp_events
     )
 
     # --------------------------------------------------------
