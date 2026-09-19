@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T18:59:01Z",
+  "generatedAt": "2026-09-19T21:26:24Z",
   "competitions": [
     {
       "id": "motogp",
@@ -298,14 +298,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_altamura",
-      "name": "ALTAMURA",
-      "shortName": "ALTAMURA",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_21613",
       "name": "Alverca",
       "shortName": "Alverca",
@@ -522,14 +514,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_barletta",
-      "name": "BARLETTA",
-      "shortName": "BARLETTA",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_131",
       "name": "Bayer Leverkusen",
       "shortName": "Leverkusen",
@@ -718,14 +702,6 @@
       "name": "Castellón",
       "shortName": "Castellón",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4438.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_catania",
-      "name": "CATANIA",
-      "shortName": "CATANIA",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/CATANIA.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1230,14 +1206,6 @@
       "name": "Girona",
       "shortName": "Girona",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_giugliano",
-      "name": "GIUGLIANO",
-      "shortName": "GIUGLIANO",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1994,14 +1962,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_picerno",
-      "name": "PICERNO",
-      "shortName": "PICERNO",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_serie_c_pineto",
       "name": "PINETO",
       "shortName": "PINETO",
@@ -2230,14 +2190,6 @@
       "name": "Rio Ave",
       "shortName": "Rio Ave",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_salernitana",
-      "name": "SALERNITANA",
-      "shortName": "SALERNITANA",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -3711,9 +3663,9 @@
       "awayTeamId": "espn_11",
       "startTime": "2026-09-19T17:00Z",
       "endTime": "2026-09-19T19:30:00Z",
-      "status": "LIVE",
-      "homeScore": 78,
-      "awayScore": 72,
+      "status": "FINISHED",
+      "homeScore": 87,
+      "awayScore": 82,
       "channels": [
         "sky_sport_uno",
         "sky_sport_basket",
@@ -3747,9 +3699,9 @@
       "awayTeamId": "espn_235",
       "startTime": "2026-09-19T17:30Z",
       "endTime": "2026-09-19T19:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 2,
-      "awayScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "dazn_1_italia"
@@ -3764,7 +3716,7 @@
       "awayTeamId": "espn_17702",
       "startTime": "2026-09-19T17:30Z",
       "endTime": "2026-09-19T19:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3781,8 +3733,8 @@
       "awayTeamId": "espn_4055",
       "startTime": "2026-09-19T17:30Z",
       "endTime": "2026-09-19T19:30:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 3,
       "awayScore": 1,
       "channels": [
         "dazn_1_italia"
@@ -3797,9 +3749,9 @@
       "awayTeamId": "espn_2566",
       "startTime": "2026-09-19T18:00Z",
       "endTime": "2026-09-19T20:00:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "ziggo_sport"
@@ -3814,9 +3766,9 @@
       "awayTeamId": "espn_129",
       "startTime": "2026-09-19T18:30Z",
       "endTime": "2026-09-19T20:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno"
       ]
@@ -3830,9 +3782,9 @@
       "awayTeamId": "espn_112",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
         "sky_sport_calcio",
         "dazn_1_italia",
@@ -3854,9 +3806,9 @@
       "awayTeamId": "espn_3236",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 3,
+      "awayScore": 2,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3870,9 +3822,9 @@
       "awayTeamId": "espn_273",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3886,8 +3838,8 @@
       "awayTeamId": "espn_169",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 4,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia"
@@ -3902,8 +3854,8 @@
       "awayTeamId": "espn_170",
       "startTime": "2026-09-19T18:45Z",
       "endTime": "2026-09-19T20:45:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia"
@@ -3918,9 +3870,9 @@
       "awayTeamId": "espn_83",
       "startTime": "2026-09-19T19:00Z",
       "endTime": "2026-09-19T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 3,
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia"
@@ -3935,9 +3887,9 @@
       "awayTeamId": "espn_9318",
       "startTime": "2026-09-19T19:00Z",
       "endTime": "2026-09-19T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "dazn_1_italia"
@@ -3952,9 +3904,9 @@
       "awayTeamId": "espn_143",
       "startTime": "2026-09-19T19:00Z",
       "endTime": "2026-09-19T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "ziggo_sport"
@@ -3969,9 +3921,9 @@
       "awayTeamId": "espn_9812",
       "startTime": "2026-09-19T19:00Z",
       "endTime": "2026-09-19T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3985,9 +3937,9 @@
       "awayTeamId": "espn_15784",
       "startTime": "2026-09-19T19:30Z",
       "endTime": "2026-09-19T21:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno"
       ]
@@ -4001,9 +3953,9 @@
       "awayTeamId": "espn_11",
       "startTime": "2026-09-19T19:45Z",
       "endTime": "2026-09-19T21:45:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "dazn_1_italia"
@@ -4018,91 +3970,12 @@
       "awayTeamId": "espn_6086",
       "startTime": "2026-09-19T20:00Z",
       "endTime": "2026-09-19T22:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "dazn_1_italia"
-      ]
-    },
-    {
-      "id": "seriec_20260919_2030_altamura_picerno",
-      "title": "ALTAMURA - PICERNO",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_altamura",
-      "awayTeamId": "espn_serie_c_picerno",
-      "startTime": "2026-09-19T20:30:00+02:00",
-      "endTime": "2026-09-19T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
-      ]
-    },
-    {
-      "id": "seriec_20260919_2030_catania_barletta",
-      "title": "CATANIA - BARLETTA",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_catania",
-      "awayTeamId": "espn_serie_c_barletta",
-      "startTime": "2026-09-19T20:30:00+02:00",
-      "endTime": "2026-09-19T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_arena",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
-      ]
-    },
-    {
-      "id": "seriec_20260919_2030_salernitana_giugliano",
-      "title": "SALERNITANA - GIUGLIANO",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_salernitana",
-      "awayTeamId": "espn_serie_c_giugliano",
-      "startTime": "2026-09-19T20:30:00+02:00",
-      "endTime": "2026-09-19T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
       ]
     },
     {
