@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T09:34:41Z",
+  "generatedAt": "2026-09-19T09:40:55Z",
   "competitions": [
     {
       "id": "motogp",
@@ -2897,7 +2897,11 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "sky_sport_tennis"
+        "supertennis",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "tennis_channel"
       ]
     },
     {
@@ -2914,7 +2918,11 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "sky_sport_tennis"
+        "supertennis",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "tennis_channel"
       ]
     },
     {
@@ -2931,7 +2939,11 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "sky_sport_tennis"
+        "supertennis",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "tennis_channel"
       ]
     },
     {
@@ -2948,7 +2960,11 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "sky_sport_tennis"
+        "supertennis",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "tennis_channel"
       ]
     },
     {
@@ -2965,7 +2981,11 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "sky_sport_tennis"
+        "supertennis",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "tennis_channel"
       ]
     },
     {
@@ -2982,7 +3002,11 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "sky_sport_tennis"
+        "supertennis",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "tennis_channel"
       ]
     },
     {
@@ -2999,7 +3023,11 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "sky_sport_tennis"
+        "supertennis",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "tennis_channel"
       ]
     },
     {
@@ -3011,10 +3039,16 @@
       "awayTeamId": "espn_1",
       "startTime": "2026-09-19T09:30Z",
       "endTime": "2026-09-19T12:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": []
+      "status": "LIVE",
+      "homeScore": 6,
+      "awayScore": 4,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401885107",
@@ -3127,7 +3161,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401880251",
@@ -3840,7 +3880,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401885438",
@@ -4323,7 +4369,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401876970",
@@ -4573,7 +4625,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401876969",
@@ -4687,7 +4745,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401875242",
@@ -4701,7 +4765,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401875596",
@@ -5592,7 +5662,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "seriec_20260920_1730_arzignano_v_renate",
@@ -5822,7 +5898,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401882858",
@@ -5903,7 +5985,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "seriec_20260920_2030_alcione_milano_union_brescia",
@@ -6099,7 +6187,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_761829",
@@ -6179,7 +6273,13 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "dazn_1_italia",
+        "eurosport_1",
+        "nba_tv"
+      ]
     },
     {
       "id": "espn_401876965",
