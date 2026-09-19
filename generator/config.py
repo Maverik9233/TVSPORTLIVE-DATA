@@ -87,12 +87,20 @@ SUPPORTED_COMPETITIONS = (
     "championship",
     "la_liga_2",
     "bundesliga_2",
+    "liga_profesional",
+    "brasileirao",
+    "mls",
+    "liga_mx",
+    "copa_libertadores",
+    "copa_sudamericana",
     "formula_1",
     "motogp",
     "atp",
     "wta",
     "euroleague",
     "nba",
+    "wnba",
+    "nbl",
 )
 
 
