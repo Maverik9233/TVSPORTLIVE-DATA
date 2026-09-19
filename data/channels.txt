@@ -3129,14 +3129,16 @@
       "logoUrl": null,
       "aliases": [
         "Sportklub 2 HD",
-        "Sportklub 2 SD"
+        "Sportklub 2 SD",
+        "Sportklub 2 Croatia",
+        "Sportklub 2 HD Croatia"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sportklub_2_source_1",
-          "url": "",
-          "type": "AUTO",
+          "url": "https://dlive.sx/watch.php?id=102",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         }
