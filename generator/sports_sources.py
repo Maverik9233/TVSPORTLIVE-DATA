@@ -1836,7 +1836,11 @@ def deduplicate_events(
 
 
 def convert_motogp_event(event) -> RawEvent:
-    """Converte MotoGPEvent (motogp_source) in RawEvent."""
+    """Converte MotoGPEvent (motogp_source) in RawEvent.
+
+    MotoGP non è una partita casa/ospite: niente team fittizi
+    (il circuito come 'home' faceva comportamenti strani in app).
+    """
     return RawEvent(
         source="motogp_official",
         source_event_id=event.source_event_id,
@@ -1848,9 +1852,9 @@ def convert_motogp_event(event) -> RawEvent:
         end_time=event.end_time.isoformat() if event.end_time else None,
         status=event.status,
         home_team_id=None,
-        home_team_name=event.location,
+        home_team_name=None,
         home_team_short_name=None,
-        home_team_logo=event.image_url,
+        home_team_logo=None,
         away_team_id=None,
         away_team_name=None,
         away_team_short_name=None,
