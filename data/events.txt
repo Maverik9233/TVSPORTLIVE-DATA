@@ -1,7 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T00:49:21Z",
+  "generatedAt": "2026-09-19T01:08:58Z",
   "competitions": [
+    {
+      "id": "motogp",
+      "name": "MotoGP",
+      "sport": "MOTOGP",
+      "country": null,
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 100
+    },
     {
       "id": "serie_a",
       "name": "Serie A",
@@ -2241,6 +2250,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "team_red_bull_ring_spielberg",
+      "name": "Red Bull Ring - Spielberg",
+      "shortName": null,
+      "logoUrl": "https://photos.motogp.com/2025/events/background/13 Austria.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_serie_c_reggiana",
       "name": "REGGIANA",
       "shortName": "REGGIANA",
@@ -3644,6 +3661,25 @@
       "channels": [
         "sky_sport_uno",
         "ziggo_sport"
+      ]
+    },
+    {
+      "id": "motogp_official_motogp_qatar_airways_grand_prix_of_austria_sprint_2026-09-19",
+      "title": "MotoGP - QATAR AIRWAYS GRAND PRIX OF AUSTRIA (Sprint)",
+      "sport": "MOTOGP",
+      "competitionId": "motogp",
+      "homeTeamId": "team_red_bull_ring_spielberg",
+      "awayTeamId": null,
+      "startTime": "2026-09-19T15:00:00+02:00",
+      "endTime": "2026-09-19T16:00:00+02:00",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "dazn_1_italia",
+        "sky_sport_motogp"
       ]
     },
     {
@@ -5059,6 +5095,25 @@
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
+      ]
+    },
+    {
+      "id": "motogp_official_motogp_qatar_airways_grand_prix_of_austria_race_2026-09-20",
+      "title": "MotoGP - QATAR AIRWAYS GRAND PRIX OF AUSTRIA (Race)",
+      "sport": "MOTOGP",
+      "competitionId": "motogp",
+      "homeTeamId": "team_red_bull_ring_spielberg",
+      "awayTeamId": null,
+      "startTime": "2026-09-20T14:00:00+02:00",
+      "endTime": "2026-09-20T15:30:00+02:00",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_calcio",
+        "dazn_1_italia",
+        "sky_sport_motogp"
       ]
     },
     {
