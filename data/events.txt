@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T13:41:58Z",
+  "generatedAt": "2026-09-19T14:01:40Z",
   "competitions": [
     {
       "id": "motogp",
@@ -2889,10 +2889,10 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "supertennis",
         "sky_sport_tennis",
         "eurosport_1",
         "eurosport_2",
+        "supertennis",
         "tennis_channel"
       ]
     },
@@ -2910,10 +2910,10 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "supertennis",
         "sky_sport_tennis",
         "eurosport_1",
         "eurosport_2",
+        "supertennis",
         "tennis_channel"
       ]
     },
@@ -2931,10 +2931,10 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "supertennis",
         "sky_sport_tennis",
         "eurosport_1",
         "eurosport_2",
+        "supertennis",
         "tennis_channel"
       ]
     },
@@ -2952,10 +2952,10 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "supertennis",
         "sky_sport_tennis",
         "eurosport_1",
         "eurosport_2",
+        "supertennis",
         "tennis_channel"
       ]
     },
@@ -2973,10 +2973,10 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "supertennis",
         "sky_sport_tennis",
         "eurosport_1",
         "eurosport_2",
+        "supertennis",
         "tennis_channel"
       ]
     },
@@ -2994,10 +2994,10 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "supertennis",
         "sky_sport_tennis",
         "eurosport_1",
         "eurosport_2",
+        "supertennis",
         "tennis_channel"
       ]
     },
@@ -3015,10 +3015,10 @@
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
-        "supertennis",
         "sky_sport_tennis",
         "eurosport_1",
         "eurosport_2",
+        "supertennis",
         "tennis_channel"
       ]
     },
@@ -3187,7 +3187,7 @@
       "awayTeamId": "espn_84",
       "startTime": "2026-09-19T12:00Z",
       "endTime": "2026-09-19T14:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 1,
       "channels": [
@@ -3203,7 +3203,7 @@
       "awayTeamId": "espn_101",
       "startTime": "2026-09-19T12:00Z",
       "endTime": "2026-09-19T14:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
       "awayScore": 1,
       "channels": [
@@ -3257,7 +3257,7 @@
       "startTime": "2026-09-19T13:00Z",
       "endTime": "2026-09-19T15:00:00Z",
       "status": "LIVE",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
       "channels": [
         "dazn_1_italia"
@@ -3309,7 +3309,7 @@
       "endTime": "2026-09-19T15:30:00Z",
       "status": "LIVE",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3342,8 +3342,8 @@
       "startTime": "2026-09-19T13:30Z",
       "endTime": "2026-09-19T15:30:00Z",
       "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio"
@@ -3704,14 +3704,14 @@
       "awayTeamId": null,
       "startTime": "2026-09-19T15:00:00+02:00",
       "endTime": "2026-09-19T16:00:00+02:00",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
-        "dazn_1_italia",
-        "sky_sport_motogp"
+        "sky_sport_motogp",
+        "dazn_1_italia"
       ]
     },
     {
@@ -4277,6 +4277,7 @@
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
+        "sky_sport_arena",
         "sky_sport_251",
         "sky_sport_252",
         "sky_sport_253",
@@ -4285,8 +4286,7 @@
         "sky_sport_256",
         "sky_sport_257",
         "sky_sport_258",
-        "sky_sport_259",
-        "sky_sport_arena"
+        "sky_sport_259"
       ]
     },
     {
@@ -4942,6 +4942,7 @@
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
+        "sky_sport_arena",
         "sky_sport_251",
         "sky_sport_252",
         "sky_sport_253",
@@ -4950,8 +4951,7 @@
         "sky_sport_256",
         "sky_sport_257",
         "sky_sport_258",
-        "sky_sport_259",
-        "sky_sport_arena"
+        "sky_sport_259"
       ]
     },
     {
@@ -5177,8 +5177,8 @@
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
-        "dazn_1_italia",
-        "sky_sport_motogp"
+        "sky_sport_motogp",
+        "dazn_1_italia"
       ]
     },
     {
@@ -6000,6 +6000,7 @@
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
+        "sky_sport_arena",
         "sky_sport_251",
         "sky_sport_252",
         "sky_sport_253",
@@ -6008,8 +6009,7 @@
         "sky_sport_256",
         "sky_sport_257",
         "sky_sport_258",
-        "sky_sport_259",
-        "sky_sport_arena"
+        "sky_sport_259"
       ]
     },
     {
