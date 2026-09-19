@@ -1455,27 +1455,6 @@
         }
       ]
     },
-    {
-      "id": "sky_sport_motogp",
-      "name": "Sky Sport MotoGP",
-      "country": "IT",
-      "priority": 41,
-      "logoUrl": null,
-      "aliases": [
-        "Sky Sport MotoGP HD",
-        "Sky Sport MotoGP SD",
-        "SkySport MotoGP",
-        "Sky MotoGP"
-      ],
-      "enabled": true,
-      "sources": [
-        {
-          "id": "sky_sport_motogp_source_1",
-          "url": "",
-          "type": "AUTO",
-          "enabled": true,
-          "priority": 1
-        },
         {
           "id": "sky_sport_motogp_source_2",
           "url": "",
