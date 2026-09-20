@@ -1050,7 +1050,7 @@
     {
       "id": "dazn_1_HD_PT",
       "name": "DAZN 1 HD PT",
-      "country": "INTERNATIONAL",
+      "country": "PT",
       "priority": 10,
       "logoUrl": null,
       "aliases": [
@@ -1074,13 +1074,149 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
+        }
+      ]
+    },
+ {
+      "id": "dazn_2_HD_PT",
+      "name": "DAZN 2 HD PT",
+      "country": "PT",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 2 HD PT",
+        "DAZN 2 FHD PT",
+        "DAZN 2 PT",
+        "DAZN 2 PT HD",
+        "DAZN1 PT HD",
+        "DAZN 2 FHD Portugal",
+        "DAZN 2 FHD Portogallo",
+        "DAZN 2 Portugal",
+        "DAZN PT",
+        "DAZN 2 Portugal HD"
+      ],
+      "enabled": true,
+      "sources": [
         {
-          "id": "dazn_1_HD_PT_source_2",
-          "url": "",
+          "id": "dazn_2_HD_PT_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2532/index.m3u8",
           "type": "AUTO",
-          "enabled": false,
-          "priority": 2
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_3_HD_PT",
+      "name": "DAZN 3 HD PT",
+      "country": "PT",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 3 HD PT",
+        "DAZN 3 FHD PT",
+        "DAZN 3 PT",
+        "DAZN PT",
+        "DAZN3 PT",
+        "DAZN 3 Channel PT",
+        "DAZN 3 HD PT",
+        "DAZN 3 FHD PT",
+        "DAZN 3 Portugal",
+        "DAZN 3 Portugal HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_3_HD_PT_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/7062/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_4_HD_PT",
+      "name": "DAZN 4 HD PT",
+      "country": "PT",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 4 HD PT",
+        "DAZN 4 FHD PT",
+        "DAZN 4 PT",
+        "DAZN4 PT",
+        "DAZN 4 HD PT",
+        "DAZN 4 FHD PT",
+        "DAZN 4 Portugal",
+        "DAZN 4 Portugal HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_4_HD_PT_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2534/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_5_HD_PT",
+      "name": "DAZN 5 HD PT",
+      "country": "PT",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 5 HD PT",
+        "DAZN 5 FHD PT",
+        "DAZN 5 PT",
+        "DAZN5 PT",
+        "DAZN5 PT HD",
+        "DAZN 5 Channel PT",
+        "DAZN 5 HD PT",
+        "DAZN 5 FHD PT",
+        "DAZN 5 Portugal",
+        "DAZN 5 Portugal HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_5_HD_PT_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2535/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_6_HD_PT",
+      "name": "DAZN 6 HD PT",
+      "country": "PT",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 6 HD PT",
+        "DAZN 6 FHD PT",
+        "DAZN 6 PT",
+        "DAZN6 PT",
+        "DAZN 6 PT HD",
+        "DAZN 1 Channel PT",
+        "DAZN 6 HD PT",
+        "DAZN 6 FHD PT",
+        "DAZN 6 Portugal",
+        "DAZN 6 Portugal HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_6_HD_PT_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2536/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
         }
       ]
     },
@@ -1104,13 +1240,6 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
-        {
-          "id": "rai_sport_source_2",
-          "url": "",
-          "type": "AUTO",
-          "enabled": false,
-          "priority": 2
         }
       ]
     },
@@ -1141,13 +1270,6 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
-        {
-          "id": "rai_1_source_2",
-          "url": "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8",
-          "type": "AUTO",
-          "enabled": false,
-          "priority": 2
         }
       ]
     },
@@ -1178,13 +1300,6 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
-        },
-        {
-          "id": "rai_2_source_2",
-          "url": "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8",
-          "type": "AUTO",
-          "enabled": false,
-          "priority": 2
         }
       ]
     },
@@ -2509,8 +2624,8 @@
       ]
     },
     {
-      "id": "digi_sport_1_romania",
-      "name": "Digi Sport 1 Romania",
+      "id": "digi_sport_1_ro",
+      "name": "Digi Sport 1 Ro",
       "country": "RO",
       "priority": 62,
       "logoUrl": null,
@@ -2522,7 +2637,7 @@
       "enabled": true,
       "sources": [
         {
-          "id": "digi_sport_1_romania_source_1",
+          "id": "digi_sport_1_ro_source_1",
           "url": "https://premium.hls.st/playlist/premium400.m3u8",
           "type": "AUTO",
           "enabled": true,
@@ -2531,8 +2646,8 @@
       ]
     },
     {
-      "id": "digi_sport_2_romania",
-      "name": "Digi Sport 2 Romania",
+      "id": "digi_sport_2_ro",
+      "name": "Digi Sport 2 Ro",
       "country": "RO",
       "priority": 63,
       "logoUrl": null,
@@ -2544,8 +2659,8 @@
       "enabled": true,
       "sources": [
         {
-          "id": "digi_sport_2_romania_source_1",
-          "url": "https://4169it.7odxv0l067ka.net:8443/hls/ithsrie7z8m3z.m3u8?s=nhLK-PiQEnJWIzOFuCbXsA&e=1789673745",
+          "id": "digi_sport_2_ro_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2522/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -2553,8 +2668,8 @@
       ]
     },
     {
-      "id": "digi_sport_3_romania",
-      "name": "Digi Sport 3 Romania",
+      "id": "digi_sport_3_ro",
+      "name": "Digi Sport 3 Ro",
       "country": "RO",
       "priority": 63,
       "logoUrl": null,
@@ -2566,8 +2681,8 @@
       "enabled": true,
       "sources": [
         {
-          "id": "digi_sport_3_romania_source_1",
-          "url": "https://4169it.7odxv0l067ka.net:8443/hls/xzwfgx3yuw3op.m3u8?s=cZ5XPIcKENUEGAHkwnFxOA&e=1789673767",
+          "id": "digi_sport_3_ro_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2524/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -2575,21 +2690,24 @@
       ]
     },
     {
-      "id": "digi_sport_4_romania",
-      "name": "Digi Sport 4 Romania",
+      "id": "digi_sport_4_ro",
+      "name": "Digi Sport 4 Ro",
       "country": "RO",
       "priority": 63,
       "logoUrl": null,
       "aliases": [
         "Digi Sport 4 Romania HD",
         "Digi Sport 4 Romania SD",
+        "Digi Sport 4 Ro SD",
+        "Digi Sport 4 Ro HD",
+         "Digi Sport 4 Ro",
         "Digi Sport 4 Romania"
       ],
       "enabled": true,
       "sources": [
         {
-          "id": "digi_sport_4_romania_source_1",
-          "url": "https://4169it.7odxv0l067ka.net:8443/hls/iths6zz7yuj16.m3u8?s=tRbmOijIfVxjlctsI65Zow&e=1789673870",
+          "id": "digi_sport_4_ro_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2538/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
