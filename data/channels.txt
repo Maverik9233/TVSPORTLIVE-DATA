@@ -82,18 +82,25 @@
       "sources": [
         {
           "id": "sky_sport_calcio_source_1",
-          "url": "https://dlive.sx/stream/stream-870.php",
+          "url": "https://epiembeds.online/embed/skysportcalcio-it",
           "type": "WEB",
           "enabled": true,
           "priority": 1
-        },
+        }, 
         {
           "id": "sky_sport_calcio_source_2",
           "url": "https://premium.hls.st/playlist/premium870.m3u8",
           "type": "HLS",
           "enabled": false,
           "priority": 2
-        }
+        },
+        {
+          "id": "sky_sport_calcio_source_3",
+          "url": "https://dlive.sx/stream/stream-870.php",
+          "type": "WEB",
+          "enabled": false,
+          "priority": 2
+        },
       ]
     },
     {
@@ -188,10 +195,39 @@
         },
         {
           "id": "sky_sport_f1_source_2",
-          "url": "https://premium.hls.st/playlist/premium577.m3u8",
+          "url": "https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI1NzciLCJ0cyI6MTc4OTkwNzgxMDU0M30",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
+        }
+      ]
+    },
+
+{
+      "id": "sky_sports_f1_uk",
+      "name": "Sky Sports F1 UK",
+      "country": "INTERNATIONAL",
+      "priority": 4,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport F1 HD",
+        "Sky Sport F1 HD UK",
+        "Sky Sport F1 UK",
+        "Sky Sport F1",
+        "Sky Sport Formula 1",
+        "SkySport F1 UK",
+        "Sky F1 UK",
+        "SkyF1 UK",
+        "Sky F1 HD UK"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_sportS_f1_uk_source_1",
+          "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11222/skysportweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
         }
       ]
     },
