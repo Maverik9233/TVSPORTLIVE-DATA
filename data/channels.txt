@@ -2515,6 +2515,27 @@
         }
       ]
     },
+   {
+      "id": "skysports_tennis_uk",
+      "name": "Sky Sports Tennis HD UK",
+      "country": "GB",
+      "priority": 1,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sports Tennis HD UK",
+        "Sky Sports Tennis UK"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "skysports_tennis_uk_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/6546/index.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "dazn_ireland",
       "name": "DAZN Ireland",
