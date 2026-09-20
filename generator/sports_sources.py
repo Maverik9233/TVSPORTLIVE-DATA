@@ -66,6 +66,8 @@ class RawEvent:
     period: str | None = None
     minute: int | None = None
     country: str | None = None
+    goals: list | None = None
+    cards: list | None = None
 
 
 # ============================================================
@@ -1387,51 +1389,136 @@ def normalize_status(
 def extract_clock(
     event: dict,
 ) -> tuple[int | None, str | None]:
-    status = event.get(
-        "status",
-        {},
-    )
+    """
+    Minuto e periodo ESPN.
 
-    if not isinstance(
-        status,
-        dict,
-    ):
-        return None, None
+    Per il calcio lo status utile è spesso su
+    competitions[0].status (displayClock tipo "67:00"),
+    non solo su event.status.
+    """
+    status = event.get("status")
+    if not isinstance(status, dict):
+        status = {}
 
-    display_clock = safe_string(
-        status.get(
-            "displayClock"
-        )
-    )
+    competitions = event.get("competitions") or []
+    if isinstance(competitions, list) and competitions:
+        comp0 = competitions[0]
+        if isinstance(comp0, dict):
+            comp_status = comp0.get("status")
+            if isinstance(comp_status, dict):
+                # preferisci status della competition
+                status = {**status, **comp_status}
 
-    period = safe_string(
-        status.get(
-            "period"
-        )
-    )
+    display_clock = safe_string(status.get("displayClock"))
+    period_raw = status.get("period")
+    type_info = status.get("type") if isinstance(status.get("type"), dict) else {}
+
+    period: str | None = None
+    type_name = safe_string(type_info.get("name")) or ""
+    type_detail = (safe_string(type_info.get("detail")) or "").lower()
+    type_short = (safe_string(type_info.get("shortDetail")) or "").lower()
+
+    if "half" in type_detail or "half" in type_short or "STATUS_HALFTIME" in type_name:
+        period = "HT"
+    elif period_raw is not None:
+        try:
+            p = int(period_raw)
+            if p == 1:
+                period = "1H"
+            elif p == 2:
+                period = "2H"
+            elif p >= 3:
+                period = "ET"
+            else:
+                period = str(p)
+        except (TypeError, ValueError):
+            period = safe_string(period_raw)
 
     minute = None
-
     if display_clock:
         try:
-            parts = display_clock.split(
-                ":"
-            )
-
-            if parts:
-                minute = int(
-                    float(
-                        parts[0]
-                    )
-                )
-
-        except (
-            ValueError,
-            TypeError,
-        ):
+            # "67:00" o "67'" o "90+3"
+            cleaned = display_clock.replace("'", "").strip()
+            if "+" in cleaned:
+                # es. 90+3 → minuto 90 (added gestito altrove se serve)
+                base = cleaned.split("+")[0]
+                minute = int(float(base.split(":")[0]))
+            else:
+                minute = int(float(cleaned.split(":")[0]))
+        except (ValueError, TypeError):
             minute = None
 
     return minute, period
+
+
+def extract_match_incidents(
+    event: dict,
+) -> tuple[list[dict], list[dict]]:
+    """
+    Gol e cartellini da competitions[0].details (ESPN).
+
+    Ritorna (goals, cards) come liste di dict:
+      {minute, player, team, type}
+    """
+    goals: list[dict] = []
+    cards: list[dict] = []
+
+    competitions = event.get("competitions") or []
+    if not isinstance(competitions, list) or not competitions:
+        return goals, cards
+
+    comp0 = competitions[0]
+    if not isinstance(comp0, dict):
+        return goals, cards
+
+    details = comp0.get("details") or []
+    if not isinstance(details, list):
+        return goals, cards
+
+    # mappa competitor id -> home/away
+    team_side: dict[str, str] = {}
+    for c in comp0.get("competitors") or []:
+        if not isinstance(c, dict):
+            continue
+        cid = safe_string(c.get("id"))
+        ha = (safe_string(c.get("homeAway")) or "").lower()
+        if cid and ha:
+            team_side[cid] = ha
+
+    for detail in details:
+        if not isinstance(detail, dict):
+            continue
+
+        type_info = detail.get("type") if isinstance(detail.get("type"), dict) else {}
+        type_text = (safe_string(type_info.get("text")) or safe_string(type_info.get("type")) or "").lower()
+
+        clock = detail.get("clock") if isinstance(detail.get("clock"), dict) else {}
+        clock_str = safe_string(clock.get("displayValue")) or safe_string(detail.get("clock"))
+
+        athletes = detail.get("athletesInvolved") or []
+        player = None
+        if isinstance(athletes, list) and athletes:
+            a0 = athletes[0]
+            if isinstance(a0, dict):
+                player = safe_string(a0.get("displayName")) or safe_string(a0.get("shortName"))
+
+        team = detail.get("team") if isinstance(detail.get("team"), dict) else {}
+        team_id = safe_string(team.get("id"))
+        side = team_side.get(team_id or "", "")
+
+        item = {
+            "minute": clock_str,
+            "player": player,
+            "team": side or team_id,
+            "type": type_text,
+        }
+
+        if "goal" in type_text or "score" in type_text:
+            goals.append(item)
+        elif "yellow" in type_text or "red" in type_text or "card" in type_text:
+            cards.append(item)
+
+    return goals, cards
 
 
 # ============================================================
@@ -1700,6 +1787,8 @@ def normalize_event(
         except ValueError:
             end_time = None
 
+    goals, cards = extract_match_incidents(event)
+
     return RawEvent(
         source="ESPN",
         source_event_id=event_id,
@@ -1736,6 +1825,8 @@ def normalize_event(
             }
             else None
         ),
+        goals=goals or None,
+        cards=cards or None,
     )
 
 
