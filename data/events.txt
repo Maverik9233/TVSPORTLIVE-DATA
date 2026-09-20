@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T15:13:26Z",
+  "generatedAt": "2026-09-20T16:16:49Z",
   "competitions": [
     {
       "id": "motogp",
@@ -834,14 +834,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_foggia",
-      "name": "FOGGIA",
-      "shortName": "FOGGIA",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/foggia-calcio.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_serie_c_folgore_caratese",
       "name": "FOLGORE CARATESE",
       "shortName": "FOLGORE CARATESE",
@@ -1030,14 +1022,6 @@
       "name": "Inter Miami CF",
       "shortName": "Miami",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_inter_under_23",
-      "name": "INTER UNDER 23",
-      "shortName": "INTER UNDER 23",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -2786,7 +2770,7 @@
       "awayTeamId": "espn_11420",
       "startTime": "2026-09-20T13:30Z",
       "endTime": "2026-09-20T15:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 2,
       "awayScore": 0,
       "channels": []
@@ -2828,7 +2812,7 @@
       "awayTeamId": "espn_2029",
       "startTime": "2026-09-20T14:00Z",
       "endTime": "2026-09-20T16:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
@@ -2842,7 +2826,7 @@
       "awayTeamId": "espn_tennis_18480",
       "startTime": "2026-09-20T14:10:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -2856,9 +2840,9 @@
       "awayTeamId": "espn_86",
       "startTime": "2026-09-20T14:15Z",
       "endTime": "2026-09-20T16:15:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -2871,8 +2855,8 @@
       "startTime": "2026-09-20T14:15Z",
       "endTime": "2026-09-20T16:15:00Z",
       "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -2884,7 +2868,7 @@
       "awayTeamId": "espn_tennis_17027",
       "startTime": "2026-09-20T14:20:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -2914,7 +2898,7 @@
       "endTime": "2026-09-20T16:30:00Z",
       "status": "LIVE",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -2926,7 +2910,7 @@
       "awayTeamId": "espn_tennis_19078",
       "startTime": "2026-09-20T14:40:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -2955,35 +2939,9 @@
       "startTime": "2026-09-20T14:45Z",
       "endTime": "2026-09-20T16:45:00Z",
       "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 1,
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": []
-    },
-    {
-      "id": "seriec_20260920_1500_inter_under_23_foggia",
-      "title": "INTER UNDER 23 - FOGGIA",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_inter_under_23",
-      "awayTeamId": "espn_serie_c_foggia",
-      "startTime": "2026-09-20T15:00:00+02:00",
-      "endTime": "2026-09-20T17:10:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_calcio",
-        "sky_sport_251",
-        "sky_sport_252",
-        "sky_sport_253",
-        "sky_sport_254",
-        "sky_sport_255",
-        "sky_sport_256",
-        "sky_sport_257",
-        "sky_sport_258",
-        "sky_sport_259"
-      ]
     },
     {
       "id": "espn_401876452",
@@ -2994,8 +2952,8 @@
       "awayTeamId": "espn_166",
       "startTime": "2026-09-20T15:15Z",
       "endTime": "2026-09-20T17:15:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": []
     },
@@ -3008,26 +2966,12 @@
       "awayTeamId": "espn_3956",
       "startTime": "2026-09-20T15:15Z",
       "endTime": "2026-09-20T17:15:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia"
       ]
-    },
-    {
-      "id": "espn_tennis_wta_183774",
-      "title": "Alicia Herrero Linana - Clara Burel",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_4629",
-      "awayTeamId": "espn_tennis_3508",
-      "startTime": "2026-09-20T15:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
     },
     {
       "id": "espn_401878777",
@@ -3038,7 +2982,7 @@
       "awayTeamId": "espn_360",
       "startTime": "2026-09-20T15:30Z",
       "endTime": "2026-09-20T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
@@ -3052,21 +2996,21 @@
       "awayTeamId": "espn_10388",
       "startTime": "2026-09-20T15:30Z",
       "endTime": "2026-09-20T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
     },
     {
-      "id": "espn_tennis_wta_183873",
-      "title": "G. Dabrowski / L. Stefani - A. Rogers / A. Zamarripa",
+      "id": "espn_tennis_wta_183774",
+      "title": "Alicia Herrero Linana - Clara Burel",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_tennis_1375-2732",
-      "awayTeamId": "espn_tennis_13951-6526",
-      "startTime": "2026-09-20T16:00:00Z",
+      "homeTeamId": "espn_tennis_4629",
+      "awayTeamId": "espn_tennis_3508",
+      "startTime": "2026-09-20T15:50:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -3080,7 +3024,7 @@
       "awayTeamId": "espn_105",
       "startTime": "2026-09-20T16:00Z",
       "endTime": "2026-09-20T18:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3099,6 +3043,20 @@
         "supersport_football",
         "ziggo_sport"
       ]
+    },
+    {
+      "id": "espn_tennis_wta_183873",
+      "title": "G. Dabrowski / L. Stefani - A. Rogers / A. Zamarripa",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_1375-2732",
+      "awayTeamId": "espn_tennis_13951-6526",
+      "startTime": "2026-09-20T16:10:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
     },
     {
       "id": "espn_401883168",
