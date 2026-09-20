@@ -982,16 +982,13 @@
         "Rai Sport HD",
         "Rai Sport SD",
         "RaiSport",
-        "Rai Sport +",
-        "Rai 2",
-        "Rai Due",
-        "RaiSport HD"
+        "Rai Sport +"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "rai_sport_source_1",
-          "url": "",
+          "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=16",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -1020,7 +1017,7 @@
       "sources": [
         {
           "id": "sportitalia_source_1",
-          "url": "",
+          "url": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -1028,6 +1025,37 @@
         {
           "id": "sportitalia_source_2",
           "url": "",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "solocalcio",
+      "name": "Sportitalia Calcio",
+      "country": "IT",
+      "priority": 29,
+      "logoUrl": null,
+      "aliases": [
+        "Sportitalia Calcio HD",
+        "Sportitalia Calcio SD",
+        "Sport Italia",
+        "Solo Calcio",
+        "SI Calcio"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "solocalcio_source_1",
+          "url": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "solocalcio_source_2",
+          "url": "https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -1049,7 +1077,7 @@
       "sources": [
         {
           "id": "supertennis_source_1",
-          "url": "",
+          "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -1154,14 +1182,14 @@
       "sources": [
         {
           "id": "italia_2_source_1",
-          "url": "",
+          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "italia_2_source_2",
-          "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd",
+          "url": "",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
