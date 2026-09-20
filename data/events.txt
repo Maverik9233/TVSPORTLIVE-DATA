@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T18:54:37Z",
+  "generatedAt": "2026-09-20T21:20:53Z",
   "competitions": [
     {
       "id": "motogp",
@@ -254,14 +254,6 @@
       "name": "Alana Smith",
       "shortName": "A. Smith",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_alcione_milano",
-      "name": "ALCIONE MILANO",
-      "shortName": "ALCIONE MILANO",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -810,14 +802,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_folgore_caratese",
-      "name": "FOLGORE CARATESE",
-      "shortName": "FOLGORE CARATESE",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/folgorecaratese-trasp-logo.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_4057",
       "name": "Frosinone",
       "shortName": "Frosinone",
@@ -874,14 +858,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_giana_erminio",
-      "name": "GIANA ERMINIO",
-      "shortName": "GIANA ERMINIO",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_tennis_19073",
       "name": "Giulia Alessia Monteleone",
       "shortName": "G. Monteleone",
@@ -906,26 +882,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_grosseto",
-      "name": "GROSSETO",
-      "shortName": "GROSSETO",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Grosseto.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_6273",
       "name": "Grêmio",
       "shortName": "Grêmio",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_gubbio",
-      "name": "GUBBIO",
-      "shortName": "GUBBIO",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1166,14 +1126,6 @@
       "name": "Lecce",
       "shortName": "Lecce",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_lecco",
-      "name": "LECCO",
-      "shortName": "LECCO",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1498,14 +1450,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_ostiamare",
-      "name": "OSTIAMARE",
-      "shortName": "OSTIAMARE",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/ostiamare-trasp-logo.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_234",
       "name": "Pachuca",
       "shortName": "Pachuca",
@@ -1534,22 +1478,6 @@
       "name": "Parma",
       "shortName": "Parma",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_pergolettese",
-      "name": "PERGOLETTESE",
-      "shortName": "PERGOLETTESE",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_perugia",
-      "name": "PERUGIA",
-      "shortName": "PERUGIA",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1950,14 +1878,6 @@
       "name": "TSG Hoffenheim",
       "shortName": "Hoffenheim",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_union_brescia",
-      "name": "UNION BRESCIA",
-      "shortName": "UNION BRESCIA",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -3075,7 +2995,7 @@
       "awayTeamId": "espn_2994",
       "startTime": "2026-09-20T17:00Z",
       "endTime": "2026-09-20T19:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
@@ -3089,7 +3009,7 @@
       "awayTeamId": "espn_21581",
       "startTime": "2026-09-20T17:00Z",
       "endTime": "2026-09-20T19:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
       "awayScore": 2,
       "channels": []
@@ -3103,9 +3023,9 @@
       "awayTeamId": "espn_8",
       "startTime": "2026-09-20T17:00Z",
       "endTime": "2026-09-20T19:30:00Z",
-      "status": "LIVE",
-      "homeScore": 76,
-      "awayScore": 90,
+      "status": "FINISHED",
+      "homeScore": 89,
+      "awayScore": 101,
       "channels": []
     },
     {
@@ -3117,8 +3037,8 @@
       "awayTeamId": "espn_2574",
       "startTime": "2026-09-20T17:30Z",
       "endTime": "2026-09-20T19:30:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 1,
       "channels": [
         "dazn_1_italia"
@@ -3133,8 +3053,8 @@
       "awayTeamId": "espn_7911",
       "startTime": "2026-09-20T17:30Z",
       "endTime": "2026-09-20T19:30:00Z",
-      "status": "LIVE",
-      "homeScore": 2,
+      "status": "FINISHED",
+      "homeScore": 3,
       "awayScore": 1,
       "channels": []
     },
@@ -3147,9 +3067,9 @@
       "awayTeamId": "espn_5",
       "startTime": "2026-09-20T17:45Z",
       "endTime": "2026-09-20T19:45:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -3161,8 +3081,8 @@
       "awayTeamId": "espn_113",
       "startTime": "2026-09-20T18:45Z",
       "endTime": "2026-09-20T20:45:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 3,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia",
@@ -3186,9 +3106,9 @@
       "awayTeamId": "espn_160",
       "startTime": "2026-09-20T18:45Z",
       "endTime": "2026-09-20T20:45:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -3200,9 +3120,9 @@
       "awayTeamId": "espn_2022",
       "startTime": "2026-09-20T19:00Z",
       "endTime": "2026-09-20T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 3,
       "channels": []
     },
     {
@@ -3214,9 +3134,9 @@
       "awayTeamId": "espn_3445",
       "startTime": "2026-09-20T19:00Z",
       "endTime": "2026-09-20T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 3,
       "channels": []
     },
     {
@@ -3228,9 +3148,9 @@
       "awayTeamId": "espn_3747",
       "startTime": "2026-09-20T19:00Z",
       "endTime": "2026-09-20T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 3,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -3242,9 +3162,9 @@
       "awayTeamId": "espn_9",
       "startTime": "2026-09-20T19:00Z",
       "endTime": "2026-09-20T21:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 69,
+      "awayScore": 106,
       "channels": []
     },
     {
@@ -3256,9 +3176,9 @@
       "awayTeamId": "espn_89",
       "startTime": "2026-09-20T19:00Z",
       "endTime": "2026-09-20T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 3,
       "channels": []
     },
     {
@@ -3270,23 +3190,9 @@
       "awayTeamId": "espn_1929",
       "startTime": "2026-09-20T19:30Z",
       "endTime": "2026-09-20T21:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": []
-    },
-    {
-      "id": "espn_tennis_wta_183857",
-      "title": "Kaitlin Quevedo - Nadia Podoroska",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_14460",
-      "awayTeamId": "espn_tennis_3256",
-      "startTime": "2026-09-20T19:50:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 3,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -3298,8 +3204,8 @@
       "awayTeamId": "espn_3",
       "startTime": "2026-09-20T20:00Z",
       "endTime": "2026-09-20T22:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": []
     },
@@ -3312,9 +3218,9 @@
       "awayTeamId": "espn_14",
       "startTime": "2026-09-20T20:00Z",
       "endTime": "2026-09-20T22:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -3326,94 +3232,10 @@
       "awayTeamId": "espn_16",
       "startTime": "2026-09-20T20:00Z",
       "endTime": "2026-09-20T22:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 45,
+      "awayScore": 62,
       "channels": []
-    },
-    {
-      "id": "seriec_20260920_2030_alcione_milano_union_brescia",
-      "title": "ALCIONE MILANO - UNION BRESCIA",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_alcione_milano",
-      "awayTeamId": "espn_serie_c_union_brescia",
-      "startTime": "2026-09-20T20:30:00+02:00",
-      "endTime": "2026-09-20T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_253"
-      ]
-    },
-    {
-      "id": "seriec_20260920_2030_folgore_caratese_giana_erminio",
-      "title": "FOLGORE CARATESE - GIANA ERMINIO",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_folgore_caratese",
-      "awayTeamId": "espn_serie_c_giana_erminio",
-      "startTime": "2026-09-20T20:30:00+02:00",
-      "endTime": "2026-09-20T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno"
-      ]
-    },
-    {
-      "id": "seriec_20260920_2030_grosseto_perugia",
-      "title": "GROSSETO - PERUGIA",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_grosseto",
-      "awayTeamId": "espn_serie_c_perugia",
-      "startTime": "2026-09-20T20:30:00+02:00",
-      "endTime": "2026-09-20T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_252"
-      ]
-    },
-    {
-      "id": "seriec_20260920_2030_gubbio_ostiamare",
-      "title": "GUBBIO - OSTIAMARE",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_gubbio",
-      "awayTeamId": "espn_serie_c_ostiamare",
-      "startTime": "2026-09-20T20:30:00+02:00",
-      "endTime": "2026-09-20T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_254"
-      ]
-    },
-    {
-      "id": "seriec_20260920_2030_lecco_pergolettese",
-      "title": "LECCO - PERGOLETTESE",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_lecco",
-      "awayTeamId": "espn_serie_c_pergolettese",
-      "startTime": "2026-09-20T20:30:00+02:00",
-      "endTime": "2026-09-20T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_255"
-      ]
     },
     {
       "id": "espn_401841241",
@@ -3455,6 +3277,20 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_tennis_wta_183857",
+      "title": "Kaitlin Quevedo - Nadia Podoroska",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_14460",
+      "awayTeamId": "espn_tennis_3256",
+      "startTime": "2026-09-20T23:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
       "channels": []
     },
     {
