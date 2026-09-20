@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T11:10:33Z",
+  "generatedAt": "2026-09-20T12:15:21Z",
   "competitions": [
     {
       "id": "motogp",
@@ -2428,7 +2428,7 @@
       "awayTeamId": "espn_tennis_19075",
       "startTime": "2026-09-20T10:05:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2470,8 +2470,8 @@
       "awayTeamId": "espn_153",
       "startTime": "2026-09-20T10:15Z",
       "endTime": "2026-09-20T12:15:00Z",
-      "status": "LIVE",
-      "homeScore": 3,
+      "status": "FINISHED",
+      "homeScore": 5,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -2487,7 +2487,7 @@
       "awayTeamId": "espn_tennis_14147",
       "startTime": "2026-09-20T10:30:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2508,7 +2508,7 @@
       "awayTeamId": "espn_tennis_4152",
       "startTime": "2026-09-20T10:30:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2551,7 +2551,7 @@
       "startTime": "2026-09-20T10:30Z",
       "endTime": "2026-09-20T12:30:00Z",
       "status": "LIVE",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
       "channels": [
         "dazn_1_bar DE",
@@ -2574,7 +2574,7 @@
       "startTime": "2026-09-20T11:00Z",
       "endTime": "2026-09-20T13:00:00Z",
       "status": "LIVE",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -2588,72 +2588,9 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_10674",
       "awayTeamId": "espn_tennis_6823",
-      "startTime": "2026-09-20T11:05:00Z",
+      "startTime": "2026-09-20T11:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_186104",
-      "title": "Alja Senica - Enola Chiesa",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_15354",
-      "awayTeamId": "espn_tennis_16995",
-      "startTime": "2026-09-20T11:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_186105",
-      "title": "Dalila Spiteri - Laura Bohner",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_4700",
-      "awayTeamId": "espn_tennis_18286",
-      "startTime": "2026-09-20T11:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_183697",
-      "title": "E. Cascino / F. Shuo - L. Ciric Bagaric / A. Moratelli",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_3841-5256",
-      "awayTeamId": "espn_tennis_8534-4295",
-      "startTime": "2026-09-20T11:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2674,28 +2611,7 @@
       "awayTeamId": "espn_tennis_13779",
       "startTime": "2026-09-20T11:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_186119",
-      "title": "Sofia Johnson - Ivana Sebestova",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_18567",
-      "awayTeamId": "espn_tennis_16777",
-      "startTime": "2026-09-20T11:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2716,9 +2632,9 @@
       "awayTeamId": "espn_6418",
       "startTime": "2026-09-20T11:30Z",
       "endTime": "2026-09-20T13:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno"
       ]
@@ -2732,8 +2648,8 @@
       "awayTeamId": "espn_270",
       "startTime": "2026-09-20T11:30Z",
       "endTime": "2026-09-20T13:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno"
@@ -2748,44 +2664,23 @@
       "awayTeamId": "espn_121",
       "startTime": "2026-09-20T11:30Z",
       "endTime": "2026-09-20T13:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno"
       ]
     },
     {
-      "id": "espn_tennis_wta_186093",
-      "title": "Duru Arslan - Alana Smith",
+      "id": "espn_tennis_wta_186104",
+      "title": "Alja Senica - Enola Chiesa",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_tennis_19072",
-      "awayTeamId": "espn_tennis_4720",
-      "startTime": "2026-09-20T12:00:00Z",
+      "homeTeamId": "espn_tennis_15354",
+      "awayTeamId": "espn_tennis_16995",
+      "startTime": "2026-09-20T11:35:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_186096",
-      "title": "Ksenia Zaytseva - Naoko Eto",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_13737",
-      "awayTeamId": "espn_tennis_4134",
-      "startTime": "2026-09-20T12:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2806,7 +2701,7 @@
       "awayTeamId": "espn_99",
       "startTime": "2026-09-20T12:00Z",
       "endTime": "2026-09-20T14:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -2823,11 +2718,95 @@
       "awayTeamId": "espn_92",
       "startTime": "2026-09-20T12:00Z",
       "endTime": "2026-09-20T14:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_186093",
+      "title": "Duru Arslan - Alana Smith",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_19072",
+      "awayTeamId": "espn_tennis_4720",
+      "startTime": "2026-09-20T12:05:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_186096",
+      "title": "Ksenia Zaytseva - Naoko Eto",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_13737",
+      "awayTeamId": "espn_tennis_4134",
+      "startTime": "2026-09-20T12:05:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_186105",
+      "title": "Dalila Spiteri - Laura Bohner",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_4700",
+      "awayTeamId": "espn_tennis_18286",
+      "startTime": "2026-09-20T12:15:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_183697",
+      "title": "E. Cascino / F. Shuo - L. Ciric Bagaric / A. Moratelli",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_3841-5256",
+      "awayTeamId": "espn_tennis_8534-4295",
+      "startTime": "2026-09-20T12:20:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
       ]
     },
     {
@@ -2871,6 +2850,27 @@
       "channels": [
         "sky_sport_arena",
         "sky_sport_259"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_186119",
+      "title": "Sofia Johnson - Ivana Sebestova",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_18567",
+      "awayTeamId": "espn_tennis_16777",
+      "startTime": "2026-09-20T12:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
       ]
     },
     {
@@ -2994,27 +2994,6 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_19081",
       "awayTeamId": "espn_tennis_2551",
-      "startTime": "2026-09-20T13:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_186115",
-      "title": "Sahaja Yamalapalli - Maria Martinez Vaquero",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_14252",
-      "awayTeamId": "espn_tennis_18480",
       "startTime": "2026-09-20T13:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
@@ -3214,6 +3193,27 @@
       ]
     },
     {
+      "id": "espn_tennis_wta_186115",
+      "title": "Sahaja Yamalapalli - Maria Martinez Vaquero",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_14252",
+      "awayTeamId": "espn_tennis_18480",
+      "startTime": "2026-09-20T13:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
       "id": "espn_401884788",
       "title": "RB Leipzig at Bayer Leverkusen",
       "sport": "FOOTBALL",
@@ -3239,7 +3239,7 @@
       "awayTeamId": null,
       "startTime": "2026-09-20T14:00:00+02:00",
       "endTime": "2026-09-20T15:30:00+02:00",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": [
