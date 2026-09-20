@@ -142,6 +142,12 @@ def _live_state_to_dict(
         "position": (
             live_state.position
         ),
+        "goalsText": getattr(
+            live_state, "goals_text", None
+        ),
+        "cardsText": getattr(
+            live_state, "cards_text", None
+        ),
         "updatedAt": live_state.updated_at,
     }
 
