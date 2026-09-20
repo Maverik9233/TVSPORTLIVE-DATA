@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T16:16:49Z",
+  "generatedAt": "2026-09-20T18:54:37Z",
   "competitions": [
     {
       "id": "motogp",
@@ -370,14 +370,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_arzignano_v",
-      "name": "ARZIGNANO V.",
-      "shortName": "ARZIGNANO V.",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_tennis_4152",
       "name": "Ashmitha Easwaramurthi",
       "shortName": "A. Easwaramurthi",
@@ -506,14 +498,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_campobasso",
-      "name": "CAMPOBASSO",
-      "shortName": "CAMPOBASSO",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_21581",
       "name": "Casa Pia",
       "shortName": "Casa Pia",
@@ -526,14 +510,6 @@
       "name": "Catarina Gomes",
       "shortName": "C. Gomes",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_cavese",
-      "name": "CAVESE",
-      "shortName": "CAVESE",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1594,14 +1570,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_pineto",
-      "name": "PINETO",
-      "shortName": "PINETO",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_3956",
       "name": "Pisa",
       "shortName": "Pisa",
@@ -1630,14 +1598,6 @@
       "name": "Portland Fire",
       "shortName": "Fire",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_potenza",
-      "name": "POTENZA",
-      "shortName": "POTENZA",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1750,14 +1710,6 @@
       "name": "Reese Brantmeier",
       "shortName": "R. Brantmeier",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_renate",
-      "name": "RENATE",
-      "shortName": "RENATE",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -2854,7 +2806,7 @@
       "awayTeamId": "espn_95",
       "startTime": "2026-09-20T14:15Z",
       "endTime": "2026-09-20T16:15:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
       "awayScore": 1,
       "channels": []
@@ -2882,7 +2834,7 @@
       "awayTeamId": "espn_21607",
       "startTime": "2026-09-20T14:30Z",
       "endTime": "2026-09-20T16:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 2,
       "channels": []
@@ -2896,8 +2848,8 @@
       "awayTeamId": "espn_3696",
       "startTime": "2026-09-20T14:30Z",
       "endTime": "2026-09-20T16:30:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
       "awayScore": 1,
       "channels": []
     },
@@ -2924,7 +2876,7 @@
       "awayTeamId": "espn_3706",
       "startTime": "2026-09-20T14:45Z",
       "endTime": "2026-09-20T16:45:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
       "awayScore": 1,
       "channels": []
@@ -2938,7 +2890,7 @@
       "awayTeamId": "espn_141",
       "startTime": "2026-09-20T14:45Z",
       "endTime": "2026-09-20T16:45:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
       "awayScore": 2,
       "channels": []
@@ -2952,9 +2904,9 @@
       "awayTeamId": "espn_166",
       "startTime": "2026-09-20T15:15Z",
       "endTime": "2026-09-20T17:15:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -2966,9 +2918,9 @@
       "awayTeamId": "espn_3956",
       "startTime": "2026-09-20T15:15Z",
       "endTime": "2026-09-20T17:15:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "dazn_1_italia"
       ]
@@ -2982,9 +2934,9 @@
       "awayTeamId": "espn_360",
       "startTime": "2026-09-20T15:30Z",
       "endTime": "2026-09-20T17:30:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -2996,7 +2948,7 @@
       "awayTeamId": "espn_10388",
       "startTime": "2026-09-20T15:30Z",
       "endTime": "2026-09-20T17:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
@@ -3010,7 +2962,7 @@
       "awayTeamId": "espn_tennis_3508",
       "startTime": "2026-09-20T15:50:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -3024,8 +2976,8 @@
       "awayTeamId": "espn_105",
       "startTime": "2026-09-20T16:00Z",
       "endTime": "2026-09-20T18:00:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -3045,20 +2997,6 @@
       ]
     },
     {
-      "id": "espn_tennis_wta_183873",
-      "title": "G. Dabrowski / L. Stefani - A. Rogers / A. Zamarripa",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_1375-2732",
-      "awayTeamId": "espn_tennis_13951-6526",
-      "startTime": "2026-09-20T16:10:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
       "id": "espn_401883168",
       "title": "Burgos at Las Palmas",
       "sport": "FOOTBALL",
@@ -3067,9 +3005,9 @@
       "awayTeamId": "espn_12597",
       "startTime": "2026-09-20T16:30Z",
       "endTime": "2026-09-20T18:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -3081,9 +3019,9 @@
       "awayTeamId": "espn_1538",
       "startTime": "2026-09-20T16:30Z",
       "endTime": "2026-09-20T18:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 3,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -3095,8 +3033,8 @@
       "awayTeamId": "espn_131858",
       "startTime": "2026-09-20T16:30Z",
       "endTime": "2026-09-20T18:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": []
     },
@@ -3109,9 +3047,23 @@
       "awayTeamId": "espn_244",
       "startTime": "2026-09-20T16:30Z",
       "endTime": "2026-09-20T18:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 1,
+      "channels": []
+    },
+    {
+      "id": "espn_tennis_wta_183873",
+      "title": "G. Dabrowski / L. Stefani - A. Rogers / A. Zamarripa",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_1375-2732",
+      "awayTeamId": "espn_tennis_13951-6526",
+      "startTime": "2026-09-20T16:35:00Z",
+      "endTime": null,
+      "status": "FINISHED",
+      "homeScore": null,
+      "awayScore": null,
       "channels": []
     },
     {
@@ -3123,7 +3075,7 @@
       "awayTeamId": "espn_2994",
       "startTime": "2026-09-20T17:00Z",
       "endTime": "2026-09-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
@@ -3137,9 +3089,9 @@
       "awayTeamId": "espn_21581",
       "startTime": "2026-09-20T17:00Z",
       "endTime": "2026-09-20T19:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -3151,61 +3103,10 @@
       "awayTeamId": "espn_8",
       "startTime": "2026-09-20T17:00Z",
       "endTime": "2026-09-20T19:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 76,
+      "awayScore": 90,
       "channels": []
-    },
-    {
-      "id": "seriec_20260920_1730_arzignano_v_renate",
-      "title": "ARZIGNANO V. - RENATE",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_arzignano_v",
-      "awayTeamId": "espn_serie_c_renate",
-      "startTime": "2026-09-20T17:30:00+02:00",
-      "endTime": "2026-09-20T19:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_254"
-      ]
-    },
-    {
-      "id": "seriec_20260920_1730_campobasso_pineto",
-      "title": "CAMPOBASSO - PINETO",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_campobasso",
-      "awayTeamId": "espn_serie_c_pineto",
-      "startTime": "2026-09-20T17:30:00+02:00",
-      "endTime": "2026-09-20T19:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_253"
-      ]
-    },
-    {
-      "id": "seriec_20260920_1730_potenza_cavese",
-      "title": "POTENZA - CAVESE",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_potenza",
-      "awayTeamId": "espn_serie_c_cavese",
-      "startTime": "2026-09-20T17:30:00+02:00",
-      "endTime": "2026-09-20T19:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_252"
-      ]
     },
     {
       "id": "espn_401899612",
@@ -3216,9 +3117,9 @@
       "awayTeamId": "espn_2574",
       "startTime": "2026-09-20T17:30Z",
       "endTime": "2026-09-20T19:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia"
       ]
@@ -3232,9 +3133,9 @@
       "awayTeamId": "espn_7911",
       "startTime": "2026-09-20T17:30Z",
       "endTime": "2026-09-20T19:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -3246,23 +3147,9 @@
       "awayTeamId": "espn_5",
       "startTime": "2026-09-20T17:45Z",
       "endTime": "2026-09-20T19:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
-    },
-    {
-      "id": "espn_tennis_wta_183857",
-      "title": "Kaitlin Quevedo - Nadia Podoroska",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_14460",
-      "awayTeamId": "espn_tennis_3256",
-      "startTime": "2026-09-20T18:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
       "channels": []
     },
     {
@@ -3274,7 +3161,7 @@
       "awayTeamId": "espn_113",
       "startTime": "2026-09-20T18:45Z",
       "endTime": "2026-09-20T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -3299,7 +3186,7 @@
       "awayTeamId": "espn_160",
       "startTime": "2026-09-20T18:45Z",
       "endTime": "2026-09-20T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
@@ -3386,6 +3273,20 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_tennis_wta_183857",
+      "title": "Kaitlin Quevedo - Nadia Podoroska",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_14460",
+      "awayTeamId": "espn_tennis_3256",
+      "startTime": "2026-09-20T19:50:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
       "channels": []
     },
     {
