@@ -29,7 +29,12 @@ class BuiltLiveState:
 
     position: int | None
 
-    updated_at: str
+    # Testo breve per UI, es. "12' Rossi; 45' Bianchi"
+    goals_text: str | None = None
+    # es. "33' Giallo Verdi; 70' Rosso Neri"
+    cards_text: str | None = None
+
+    updated_at: str = ""
 
 
 @dataclass(frozen=True)
@@ -111,6 +116,30 @@ def extract_position(
 # LIVE STATE
 # ============================================================
 
+def _format_incidents(items: list | None, prefer_types: tuple[str, ...] | None = None) -> str | None:
+    if not items:
+        return None
+    parts: list[str] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        minute = item.get("minute") or ""
+        player = item.get("player") or "?"
+        itype = (item.get("type") or "").lower()
+        prefix = ""
+        if "yellow" in itype:
+            prefix = "🟨 "
+        elif "red" in itype:
+            prefix = "🟥 "
+        elif "goal" in itype:
+            prefix = "⚽ "
+        part = f"{prefix}{minute} {player}".strip()
+        parts.append(part)
+    if not parts:
+        return None
+    return " · ".join(parts)
+
+
 def build_live_state(
     event: RawEvent,
     updated_at: str,
@@ -137,6 +166,8 @@ def build_live_state(
         position=extract_position(
             event
         ),
+        goals_text=_format_incidents(getattr(event, "goals", None)),
+        cards_text=_format_incidents(getattr(event, "cards", None)),
         updated_at=updated_at,
     )
 
