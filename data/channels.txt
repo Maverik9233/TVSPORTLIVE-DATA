@@ -1595,7 +1595,7 @@
     {
       "id": "tennis_channel",
       "name": "Tennis Channel",
-      "country": "INTERNATIONAL",
+      "country": "US",
       "priority": 44,
       "logoUrl": null,
       "aliases": [
@@ -1610,7 +1610,7 @@
         {
           "id": "tennis_channel_source_1",
           "url": "https://amg01444-tennischannelth-tennischde-samsungch-jp1l8.amagi.tv/playlist/amg01444-tennischannelth-tennischde-samsungch/playlist.m3u8",
-          "type": "AUTO",
+          "type": "HLS",
           "enabled": true,
           "priority": 1
         }
@@ -1624,7 +1624,6 @@
       "logoUrl": null,
       "aliases": [
         "Tennis+ HD",
-        "Tennis+ SD",
         "Tennis Plus",
         "Tennis+",
         "tennis+",
@@ -1636,7 +1635,7 @@
         {
           "id": "tennis+_source_1",
           "url": "https://amg01935-amg01935c1-amgplt0020.playout.now3.amagi.tv/playlist.m3u8",
-          "type": "AUTO",
+          "type": "HLS",
           "enabled": true,
           "priority": 1
         }
@@ -1650,7 +1649,6 @@
       "logoUrl": null,
       "aliases": [
         "Tennis Channel 2 HD",
-        "Tennis Channel 2 SD",
         "Tennis Channel 2",
         "TennisChannel 2",
         "tennischannel 2"
@@ -1660,7 +1658,7 @@
         {
           "id": "tennis_channel_2_source_1",
           "url": "https://amg01444-tennischannel-amg01444c2-lg-us-959.playouts.now.amagi.tv/playlist/amg01444-tennischannelfast-tennischannelus-lgus/playlist.m3u8",
-          "type": "AUTO",
+          "type": "HLS",
           "enabled": true,
           "priority": 1
         }
@@ -1674,7 +1672,7 @@
       "logoUrl": null,
       "aliases": [
         "Arena Sport 1 HR HD",
-        "Arena Sport 1 HR SD"
+        "Arena Sport 1 HR"
       ],
       "enabled": true,
       "sources": [
@@ -1695,7 +1693,7 @@
       "logoUrl": null,
       "aliases": [
         "Arena Sport 2 BIH HD",
-        "Arena Sport 2 BIH SD"
+        "Arena Sport 2 BIH"
       ],
       "enabled": true,
       "sources": [
@@ -1716,7 +1714,7 @@
       "logoUrl": null,
       "aliases": [
         "Arena Sport 2 SRB HD",
-        "Arena Sport 2 SRB SD"
+        "Arena Sport 2 SRB"
       ],
       "enabled": true,
       "sources": [
@@ -1759,7 +1757,7 @@
       "aliases": [
         "Sport Klub 1 HD",
         "Sport Klub 1 SD"
-      ],
+     ],
       "enabled": true,
       "sources": [
         {
