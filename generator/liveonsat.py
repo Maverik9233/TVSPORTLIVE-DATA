@@ -838,8 +838,8 @@ def event_titles_match(
     if a == b:
         return True
 
-    if a in b or b in a:
-        return True
+    # Niente match per sottostringa ("milan" in "inter milan"):
+    # troppo largo e attaccava canali sbagliati.
 
     a_parts = [
         part.strip()
