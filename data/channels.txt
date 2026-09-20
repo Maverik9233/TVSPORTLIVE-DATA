@@ -10,18 +10,11 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Uno HD",
-        "Sky Sport Uno SD",
         "Sky Sport Uno Italia HD",
         "Sky Sport Uno Italia",
-        "Sky Sport Uno Italia SD",
-        "Sky Sport Uno Italy SD",
         "Sky Sport Uno Italy HD",
-        "Sky Sport 1",
+        "Sky Sport 1 IT",
         "Sky Sport 1 HD",
-        "SkySport Uno",
-        "Sky Go Italy",
-        "Sky Go Italia",
-        "Sky Go",
         "Sky Sport 1 Italy"
       ],
       "enabled": true,
@@ -29,7 +22,7 @@
         {
           "id": "sky_sport_uno_source_1",
           "url": "https://dlive.sx/stream/stream-461.php",
-          "type": "AUTO",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         },
@@ -57,26 +50,11 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Calcio HD",
-        "Sky Sport Calcio SD",
         "Sky Sport Calcio Italia",
         "Sky Sport Calcio Italy",
-        "Sky Sport Calcio Italy SD",
         "Sky Sport Serie A",
-        "Sky Supercalcio",
-        "SkySport Calcio",
-        "Sky Go Italy",
-        "Sky Go Italia",
-        "Sky Go",
-        "SkyGo Italy",
-        "SkyGo Italia",
         "Sky Sport Calcio Italy HD",
-        "Sky Calcio",
-        "NOW",
-        "NOW Sport",
-        "NOW TV",
-        "Now Italy",
-        "NOW Italia",
-        "NOW Pass Sport"
+        "Sky Calcio IT"
       ],
       "enabled": true,
       "sources": [
@@ -142,13 +120,10 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sport Arena HD",
-        "Sky Sport Arena SD",
         "Sky Sport Arena Italia",
         "Sky Sport Arena Italy",
         "Sky Sport Arena Italy HD",
-        "Sky Sport Arena Italia HD",
-        "Sky Sport 2",
-        "SkySport Arena"
+        "Sky Sport Arena Italia HD"
       ],
       "enabled": true,
       "sources": [
@@ -179,10 +154,9 @@
         "Sky Sport F1 Italia HD",
         "Sky Sport F1 Italia",
         "Sky Sport F1 Italy",
-        "Sky Sport F1 SD",
-        "Sky Sport Formula 1",
-        "SkySport F1",
-        "Sky F1"
+        "Sky Sport Formula 1 IT",
+        "SkySport F1 IT",
+        "Sky F1 IT"
       ],
       "enabled": true,
       "sources": [
@@ -206,7 +180,7 @@
 {
       "id": "sky_sports_f1_uk",
       "name": "Sky Sports F1 UK",
-      "country": "INTERNATIONAL",
+      "country": "GB",
       "priority": 4,
       "logoUrl": null,
       "aliases": [
