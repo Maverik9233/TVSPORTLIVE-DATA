@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T14:31:58Z",
+  "generatedAt": "2026-09-20T15:13:26Z",
   "competitions": [
     {
       "id": "motogp",
@@ -574,14 +574,6 @@
       "name": "Corinthians",
       "shortName": "Corinthians",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_crotone",
-      "name": "CROTONE",
-      "shortName": "CROTONE",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1438,14 +1430,6 @@
       "name": "Mona Barthel",
       "shortName": "M. Barthel",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_monopoli",
-      "name": "MONOPOLI",
-      "shortName": "MONOPOLI",
-      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -2377,7 +2361,7 @@
         "dazn_deutsch",
         "dazn_france",
         "dazn_ireland",
-        "digi_sport_2_romania",
+        "digi_sport_2_ro",
         "supersport_football",
         "ziggo_sport"
       ]
@@ -2601,7 +2585,7 @@
       "awayTeamId": "espn_tennis_8534-4295",
       "startTime": "2026-09-20T12:45:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -2629,8 +2613,8 @@
       "awayTeamId": "espn_6997",
       "startTime": "2026-09-20T13:00Z",
       "endTime": "2026-09-20T15:00:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 1,
       "channels": []
     },
@@ -2643,7 +2627,7 @@
       "awayTeamId": "espn_2572",
       "startTime": "2026-09-20T13:00Z",
       "endTime": "2026-09-20T15:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 2,
       "awayScore": 0,
       "channels": [
@@ -2651,7 +2635,7 @@
         "dazn_deutsch",
         "dazn_france",
         "dazn_ireland",
-        "digi_sport_3_romania",
+        "digi_sport_3_ro",
         "supersport_football",
         "sport_tv_2_portugal",
         "ziggo_sport"
@@ -2666,7 +2650,7 @@
       "awayTeamId": "espn_384",
       "startTime": "2026-09-20T13:00Z",
       "endTime": "2026-09-20T15:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
@@ -2680,9 +2664,9 @@
       "awayTeamId": "espn_3263",
       "startTime": "2026-09-20T13:00Z",
       "endTime": "2026-09-20T15:00:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
@@ -2700,7 +2684,7 @@
       "awayTeamId": "espn_364",
       "startTime": "2026-09-20T13:00Z",
       "endTime": "2026-09-20T15:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 1,
       "channels": []
@@ -2714,9 +2698,9 @@
       "awayTeamId": "espn_11139",
       "startTime": "2026-09-20T13:00Z",
       "endTime": "2026-09-20T15:00:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 2,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 4,
       "channels": [
         "dazn_1_italia"
       ]
@@ -2730,8 +2714,8 @@
       "awayTeamId": "espn_366",
       "startTime": "2026-09-20T13:00Z",
       "endTime": "2026-09-20T15:00:00Z",
-      "status": "LIVE",
-      "homeScore": 4,
+      "status": "FINISHED",
+      "homeScore": 5,
       "awayScore": 3,
       "channels": []
     },
@@ -2744,8 +2728,8 @@
       "awayTeamId": "espn_120",
       "startTime": "2026-09-20T13:00Z",
       "endTime": "2026-09-20T15:00:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 1,
       "channels": [
         "dazn_1_italia"
@@ -2803,7 +2787,7 @@
       "startTime": "2026-09-20T13:30Z",
       "endTime": "2026-09-20T15:30:00Z",
       "status": "LIVE",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
       "channels": []
     },
@@ -2816,7 +2800,7 @@
       "awayTeamId": "espn_tennis_8411",
       "startTime": "2026-09-20T13:35:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -2906,23 +2890,6 @@
       "channels": []
     },
     {
-      "id": "seriec_20260920_1430_monopoli_crotone",
-      "title": "MONOPOLI - CROTONE",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_monopoli",
-      "awayTeamId": "espn_serie_c_crotone",
-      "startTime": "2026-09-20T14:30:00+02:00",
-      "endTime": "2026-09-20T16:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_253"
-      ]
-    },
-    {
       "id": "espn_401885437",
       "title": "Académico de Viseu at Estrela",
       "sport": "FOOTBALL",
@@ -2933,7 +2900,7 @@
       "endTime": "2026-09-20T16:30:00Z",
       "status": "LIVE",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -2945,7 +2912,7 @@
       "awayTeamId": "espn_3696",
       "startTime": "2026-09-20T14:30Z",
       "endTime": "2026-09-20T16:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
@@ -2957,9 +2924,9 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_5133",
       "awayTeamId": "espn_tennis_19078",
-      "startTime": "2026-09-20T14:35:00Z",
+      "startTime": "2026-09-20T14:40:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -2973,9 +2940,9 @@
       "awayTeamId": "espn_3706",
       "startTime": "2026-09-20T14:45Z",
       "endTime": "2026-09-20T16:45:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -2987,9 +2954,9 @@
       "awayTeamId": "espn_141",
       "startTime": "2026-09-20T14:45Z",
       "endTime": "2026-09-20T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -3127,7 +3094,7 @@
         "dazn_deutsch",
         "dazn_france",
         "dazn_ireland",
-        "digi_sport_2_romania",
+        "digi_sport_2_ro",
         "tnt_sports_1",
         "supersport_football",
         "ziggo_sport"
@@ -3359,7 +3326,7 @@
         "dazn_deutsch",
         "dazn_france",
         "dazn_ireland",
-        "digi_sport_3_romania",
+        "digi_sport_3_ro",
         "tnt_sports_1",
         "supersport_football",
         "ziggo_sport"
