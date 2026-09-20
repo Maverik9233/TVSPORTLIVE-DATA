@@ -204,112 +204,9 @@ COMPETITION_COUNTRIES = {
 # ============================================================
 
 COMPETITION_BROADCASTER_OVERRIDES = {
-    "coppa_italia": (
-        "Italia 1",
-    ),
-    "premier_league": (
-        "Sky Sport Calcio",
-        "Sky Sport Uno",
-        "NOW",
-    ),
-    "championship": (
-        "Sky Sport Calcio",
-        "Sky Sport Uno",
-        "NOW",
-    ),
-    "la_liga": (
-        "DAZN 1 Italia",
-        "DAZN 2 Italia",
-    ),
-    "la_liga_2": (
-        "DAZN 1 Italia",
-    ),
-    "bundesliga": (
-        "Sky Sport Uno",
-        "Sky Sport Calcio",
-    ),
-    "bundesliga_2": (
-        "Sky Sport Uno",
-    ),
-    "eredivisie": (
-        "Ziggo Sport",
-        "Sky Sport Uno",
-    ),
-    "eerste_divisie": (
-        "Ziggo Sport",
-    ),
-    "ligue_1": (
-        "DAZN 1 Italia",
-    ),
-    "primeira_liga": (
-        "Sport TV 1 Portugal",
-        "Sky Sport Uno",
-    ),
-    "liga_profesional": (
-        "Sky Sport Uno",
-        "DAZN 1 Italia",
-    ),
-    "brasileirao": (
-        "Sky Sport Uno",
-        "DAZN 1 Italia",
-    ),
-    "mls": (
-        "Sky Sport Uno",
-        "DAZN 1 Italia",
-    ),
-    "liga_mx": (
-        "Sky Sport Uno",
-    ),
-    "copa_libertadores": (
-        "Sky Sport Uno",
-        "Sky Sport Calcio",
-        "DAZN 1 Italia",
-    ),
-    "copa_sudamericana": (
-        "Sky Sport Uno",
-        "DAZN 1 Italia",
-    ),
-    "nba": (
-        "Sky Sport Basket",
-        "Sky Sport Uno",
-        "NBA TV",
-        "DAZN 1 Italia",
-        "Eurosport 1",
-    ),
-    "wnba": (
-        "Sky Sport Basket",
-        "Sky Sport Uno",
-        "DAZN 1 Italia",
-    ),
-    "nbl": (
-        "Sky Sport Basket",
-        "Sky Sport Uno",
-    ),
-    "euroleague": (
-        "Sky Sport Basket",
-        "Sky Sport Uno",
-        "Eurosport 1",
-        "DAZN 1 Italia",
-    ),
-    "atp": (
-        "Sky Sport Tennis",
-        "Sky Sport Uno",
-        "Eurosport 1",
-        "Eurosport 2",
-        "SuperTennis",
-        "Tennis Channel",
-    ),
-    "wta": (
-        "Sky Sport Tennis",
-        "Sky Sport Uno",
-        "Eurosport 1",
-        "Eurosport 2",
-        "SuperTennis",
-        "Tennis Channel",
-    ),
-    # Serie C: diritti Sky/NOW. LiveOnSat indica spesso solo
-    # "Sky Go Italy"; i canali numerati (251+) sono quelli
-    # usati da Sky per le gare in contemporanea.
+    # Solo leghe dove senza override non avremmo MAI un canale IT
+    # e i diritti sono noti a livello di competizione (non di singola gara).
+    # Per tutto il resto: SOLO LiveOnSat / Sky articoli Serie C.
     "serie_c": (
         "Sky Sport Calcio",
         "Sky Sport 251",
@@ -322,12 +219,6 @@ COMPETITION_BROADCASTER_OVERRIDES = {
         "Sky Sport 258",
         "Sky Sport 259",
         "Sky Go Italy",
-        "NOW",
-    ),
-    "motogp": (
-        "Sky Sport Uno",
-        "Sky Sport MotoGP",
-        "DAZN 1 Italia",
         "NOW",
     ),
 }
@@ -707,21 +598,18 @@ def get_event_broadcasters(
                     broadcaster
                 )
 
-    # 3) Override competizione SOLO se LiveOnSat non ha dato nulla.
-    #    Evita canali "a caso" su ogni evento della lega.
-    if not broadcasters:
-        overrides = (
-            COMPETITION_BROADCASTER_OVERRIDES.get(
-                raw_event.competition_key,
-                (),
-            )
-        )
-        for broadcaster in overrides:
+    # 3) Override SOLO Serie C e SOLO se ancora senza canali.
+    #    Nessun override generico su Premier/La Liga/NBA/tennis/ecc.
+    if (
+        not broadcasters
+        and raw_event.competition_key == "serie_c"
+    ):
+        for broadcaster in COMPETITION_BROADCASTER_OVERRIDES.get(
+            "serie_c",
+            (),
+        ):
             if broadcaster not in broadcasters:
                 broadcasters.append(broadcaster)
-
-    # Niente fallback per sport intero (tennis/basket/motogp generici):
-    # producevano canali non correlati alla singola gara.
 
     return broadcasters
 
