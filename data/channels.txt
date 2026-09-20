@@ -933,6 +933,54 @@
         }
       ]
     },
+    {
+      "id": "tv8_5",
+      "name": "TV8.5",
+      "country": "INTERNATIONAL",
+      "priority": 44,
+      "logoUrl": null,
+      "aliases": [
+        "TV8.5 HD",
+        "TV8.5 SD",
+        "TV8.5",
+        "TV8.5 Turk",
+        "TV8.5 Turchia"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "tv8_5_source_1",
+          "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "turkmenistan",
+      "name": "Turkmenistan Sport",
+      "country": "INTERNATIONAL",
+      "priority": 44,
+      "logoUrl": null,
+      "aliases": [
+        "Turkmenistan HD",
+        "Turkmenistan SD",
+        "Turkmenistan",
+        "Turkmenistan Sport",
+        "turkmenistan sport"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "turkmeinstan_source_1",
+          "url": "https://alpha.tv.online.tm/hls/ch004.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
 {
       "id": "cbs_golazo",
       "name": "CBS Sports Golazo N/W",
