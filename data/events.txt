@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T22:27:57Z",
+  "generatedAt": "2026-09-20T22:51:13Z",
   "competitions": [
     {
       "id": "serie_c",
@@ -46,6 +46,15 @@
       "countryFlagUrl": "https://flagsapi.com/AU/flat/64.png",
       "logoUrl": "https://flagsapi.com/AU/flat/64.png",
       "priority": 60
+    },
+    {
+      "id": "fifa_friendly",
+      "name": "Amichevoli",
+      "sport": "FOOTBALL",
+      "country": null,
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 50
     }
   ],
   "teams": [
@@ -134,6 +143,14 @@
       "name": "Angelina Voloshchuk",
       "shortName": "A. Voloshchuk",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_8942",
+      "name": "Anguilla",
+      "shortName": "Anguilla",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/aia.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -290,6 +307,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_13582",
+      "name": "Dominica",
+      "shortName": "Dominica",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/dma.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_19072",
       "name": "Duru Arslan",
       "shortName": "D. Arslan",
@@ -334,6 +359,14 @@
       "name": "Enola Chiesa",
       "shortName": "E. Chiesa",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_4862",
+      "name": "Fiji",
+      "shortName": "Fiji",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/fij.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -754,6 +787,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_4888",
+      "name": "New Caledonia",
+      "shortName": "New Caledonia",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ncd.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_9",
       "name": "New York Liberty",
       "shortName": "Liberty",
@@ -874,6 +915,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_4861",
+      "name": "Solomon Islands",
+      "shortName": "Solomon Islands",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/sol.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_serie_c_spezia",
       "name": "SPEZIA",
       "shortName": "SPEZIA",
@@ -942,6 +991,14 @@
       "name": "Valentina Steiner",
       "shortName": "V. Steiner",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_4864",
+      "name": "Vanuatu",
+      "shortName": "Vanuatu",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/van.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1386,7 +1443,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_14460",
       "awayTeamId": "espn_tennis_3256",
-      "startTime": "2026-09-20T23:00:00Z",
+      "startTime": "2026-09-20T23:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -1447,6 +1504,20 @@
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "espn_401922333",
+      "title": "Solomon Islands at New Caledonia",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_4888",
+      "awayTeamId": "espn_4861",
+      "startTime": "2026-09-21T04:00Z",
+      "endTime": "2026-09-21T06:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": []
     },
     {
@@ -1576,6 +1647,20 @@
       "channels": []
     },
     {
+      "id": "espn_401922312",
+      "title": "Vanuatu at Fiji",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_4862",
+      "awayTeamId": "espn_4864",
+      "startTime": "2026-09-21T07:00Z",
+      "endTime": "2026-09-21T09:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
       "id": "espn_401875253",
       "title": "South East Melbourne Phoenix at Tasmania JackJumpers",
       "sport": "BASKETBALL",
@@ -1584,6 +1669,20 @@
       "awayTeamId": "espn_8",
       "startTime": "2026-09-21T09:30Z",
       "endTime": "2026-09-21T12:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401922037",
+      "title": "Anguilla at Dominica",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_13582",
+      "awayTeamId": "espn_8942",
+      "startTime": "2026-09-21T15:00Z",
+      "endTime": "2026-09-21T17:00:00Z",
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
