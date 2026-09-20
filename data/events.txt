@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T06:58:01Z",
+  "generatedAt": "2026-09-20T10:42:48Z",
   "competitions": [
     {
       "id": "motogp",
@@ -1722,7 +1722,7 @@
       "awayTeamId": null,
       "startTime": "2026-09-20T04:00Z",
       "endTime": "2026-09-28T03:59Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -1743,7 +1743,7 @@
       "awayTeamId": null,
       "startTime": "2026-09-20T04:00Z",
       "endTime": "2026-09-28T03:59Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -1764,7 +1764,7 @@
       "awayTeamId": null,
       "startTime": "2026-09-20T04:00Z",
       "endTime": "2026-09-28T03:59Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -1785,7 +1785,7 @@
       "awayTeamId": "espn_4",
       "startTime": "2026-09-20T05:00Z",
       "endTime": "2026-09-20T07:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 95,
       "awayScore": 81,
       "channels": [
@@ -1802,9 +1802,9 @@
       "awayTeamId": "espn_3",
       "startTime": "2026-09-20T07:00Z",
       "endTime": "2026-09-20T09:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 111,
+      "awayScore": 90,
       "channels": [
         "sky_sport_uno",
         "sky_sport_basket"
@@ -1819,8 +1819,8 @@
       "awayTeamId": "espn_153",
       "startTime": "2026-09-20T10:15Z",
       "endTime": "2026-09-20T12:15:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -1836,7 +1836,7 @@
       "awayTeamId": "espn_114",
       "startTime": "2026-09-20T10:30Z",
       "endTime": "2026-09-20T12:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
