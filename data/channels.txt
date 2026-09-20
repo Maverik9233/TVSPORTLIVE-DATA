@@ -28,22 +28,22 @@
       "sources": [
         {
           "id": "sky_sport_uno_source_1",
-          "url": "https://htsport.org/sportuno.htm",
-          "type": "WEB",
+          "url": "https://dlive.sx/stream/stream-461.php",
+          "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_uno_source_2",
-          "url": "https://dlive.sx/watch.php?id=461",
-          "type": "AUTO",
+          "url": "https://htsport.org/sportuno.htm",
+          "type": "WEB",
           "enabled": false,
           "priority": 2
         },
         {
           "id": "sky_sport_uno_source_3",
           "url": "https://premium.hls.st/playlist/premium461.m3u8",
-          "type": "AUTO",
+          "type": "HLS",
           "enabled": false,
           "priority": 2
         }
@@ -82,15 +82,15 @@
       "sources": [
         {
           "id": "sky_sport_calcio_source_1",
-          "url": "http://huhu.to/watch?live=16659201012da175e450af",
-          "type": "AUTO",
+          "url": "https://dlive.sx/stream/stream-870.php",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_calcio_source_2",
           "url": "https://premium.hls.st/playlist/premium870.m3u8",
-          "type": "AUTO",
+          "type": "HLS",
           "enabled": false,
           "priority": 2
         }
