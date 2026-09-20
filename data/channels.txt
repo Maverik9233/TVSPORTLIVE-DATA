@@ -1002,6 +1002,80 @@
         }
       ]
     },
+  {
+      "id": "rai_1",
+      "name": "Rai 1",
+      "country": "IT",
+      "priority": 28,
+      "logoUrl": null,
+      "aliases": [
+        "Rai 1 HD",
+        "Rai 1 SD",
+        "RaiUno",
+        "Rai 1"
+        "Rai 1 Italia",
+        "Rai Uno Italia",
+        "rai Uno",
+        "raiuno",
+        "Rai Uno Italy",
+        "Rai 1 Italy",
+        "rai uno Italy HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "rai_1_source_1",
+          "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=16",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "rai_1_source_2",
+          "url": "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
+{
+      "id": "rai_2",
+      "name": "Rai 2",
+      "country": "IT",
+      "priority": 28,
+      "logoUrl": null,
+      "aliases": [
+        "Rai 2 HD",
+        "Rai 2 SD",
+        "RaiDue",
+        "Rai 2"
+        "Rai 2 Italia",
+        "Rai Due Italia",
+        "rai Due",
+        "raidue",
+        "Rai Due Italy",
+        "Rai 2 Italy",
+        "rai uno Italy HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "rai_2_source_1",
+          "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=16",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "rai_2_source_2",
+          "url": "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        }
+      ]
+    },
     {
       "id": "sportitalia",
       "name": "Sportitalia",
