@@ -1,7 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T20:59:36Z",
+  "generatedAt": "2026-09-21T21:45:08Z",
   "competitions": [
+    {
+      "id": "serie_c",
+      "name": "Serie C",
+      "sport": "FOOTBALL",
+      "country": "Italy",
+      "countryFlagUrl": "https://flagsapi.com/IT/flat/64.png",
+      "logoUrl": "https://flagsapi.com/IT/flat/64.png",
+      "priority": 90
+    },
     {
       "id": "atp",
       "name": "ATP",
@@ -331,10 +340,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_serie_c_desenzano",
+      "name": "Desenzano",
+      "shortName": "Desenzano",
+      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Desenzano.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_8068",
       "name": "Despina Papamichail",
       "shortName": "D. Papamichail",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_serie_c_dolomiti_bellunesi",
+      "name": "Dolomiti Bellunesi",
+      "shortName": "Dolomiti Bellunesi",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -479,6 +504,14 @@
       "name": "Golden State Valkyries",
       "shortName": "Valkyries",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_serie_c_guidonia",
+      "name": "Guidonia",
+      "shortName": "Guidonia",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -707,6 +740,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_serie_c_livorno",
+      "name": "Livorno",
+      "shortName": "Livorno",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_440",
       "name": "Lizette Cabrera",
       "shortName": "L. Cabrera",
@@ -719,6 +760,14 @@
       "name": "Los Angeles Sparks",
       "shortName": "Sparks",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_serie_c_lumezzane",
+      "name": "Lumezzane",
+      "shortName": "Lumezzane",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -931,6 +980,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_serie_c_pianese",
+      "name": "Pianese",
+      "shortName": "Pianese",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_17104",
       "name": "Polina Iatcenko",
       "shortName": "P. Iatcenko",
@@ -951,6 +1008,14 @@
       "name": "Portland Fire",
       "shortName": "Fire",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_serie_c_pro_vercelli",
+      "name": "Pro Vercelli",
+      "shortName": "Pro Vercelli",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1003,6 +1068,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_serie_c_sambenedettese",
+      "name": "Sambenedettese",
+      "shortName": "Sambenedettese",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_7797",
       "name": "Sinja Kraus",
       "shortName": "S. Kraus",
@@ -1039,6 +1112,14 @@
       "name": "Solomon Islands",
       "shortName": "Solomon Islands",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/sol.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_serie_c_spezia",
+      "name": "Spezia",
+      "shortName": "Spezia",
+      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Spezia.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1131,6 +1212,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_serie_c_trento",
+      "name": "Trento",
+      "shortName": "Trento",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_serie_c_treviso",
+      "name": "Treviso",
+      "shortName": "Treviso",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_16688",
       "name": "Valentina Steiner",
       "shortName": "V. Steiner",
@@ -1151,6 +1248,14 @@
       "name": "Viktoria Hruncakova",
       "shortName": "V. Kuzmova",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_serie_c_vis_pesaro",
+      "name": "Vis Pesaro",
+      "shortName": "Vis Pesaro",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1865,10 +1970,108 @@
       "awayTeamId": "espn_tennis_17102",
       "startTime": "2026-09-21T19:20:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
+    },
+    {
+      "id": "seriec_diretta_SlWyRy2c",
+      "title": "Dolomiti Bellunesi - Lumezzane",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_dolomiti_bellunesi",
+      "awayTeamId": "espn_serie_c_lumezzane",
+      "startTime": "2026-09-21T20:30:00+02:00",
+      "endTime": "2026-09-21T22:40:00+02:00",
+      "status": "FINISHED",
+      "homeScore": 0,
+      "awayScore": 1,
+      "channels": [
+        "sky_sport_256"
+      ]
+    },
+    {
+      "id": "seriec_diretta_zRDJ2qnD",
+      "title": "Guidonia - Livorno",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_guidonia",
+      "awayTeamId": "espn_serie_c_livorno",
+      "startTime": "2026-09-21T20:30:00+02:00",
+      "endTime": "2026-09-21T22:40:00+02:00",
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_251"
+      ]
+    },
+    {
+      "id": "seriec_diretta_tO05QnvK",
+      "title": "Pianese - Sambenedettese",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_pianese",
+      "awayTeamId": "espn_serie_c_sambenedettese",
+      "startTime": "2026-09-21T20:30:00+02:00",
+      "endTime": "2026-09-21T22:40:00+02:00",
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_253"
+      ]
+    },
+    {
+      "id": "seriec_diretta_pKkqJ4Wg",
+      "title": "Spezia - Vis Pesaro",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_spezia",
+      "awayTeamId": "espn_serie_c_vis_pesaro",
+      "startTime": "2026-09-21T20:30:00+02:00",
+      "endTime": "2026-09-21T22:40:00+02:00",
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 1,
+      "channels": [
+        "sky_sport_max",
+        "sky_sport_252"
+      ]
+    },
+    {
+      "id": "seriec_diretta_bZmRO6xR",
+      "title": "Trento - Pro Vercelli",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_trento",
+      "awayTeamId": "espn_serie_c_pro_vercelli",
+      "startTime": "2026-09-21T20:30:00+02:00",
+      "endTime": "2026-09-21T22:40:00+02:00",
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_255"
+      ]
+    },
+    {
+      "id": "seriec_diretta_UHvcJp0l",
+      "title": "Treviso - Desenzano",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_treviso",
+      "awayTeamId": "espn_serie_c_desenzano",
+      "startTime": "2026-09-21T20:30:00+02:00",
+      "endTime": "2026-09-21T22:40:00+02:00",
+      "status": "FINISHED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_254"
+      ]
     },
     {
       "id": "espn_401841583",
