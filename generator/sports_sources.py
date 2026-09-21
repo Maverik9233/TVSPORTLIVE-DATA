@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from serie_c_source import fetch_serie_c_events
+from diretta_serie_c_source import fetch_diretta_serie_c_events
 from motogp_source import fetch_motogp_events
 
 from config import (
@@ -1153,15 +1154,49 @@ def fetch_official_serie_c_events() -> list[RawEvent]:
     ufficiale implementata in serie_c_source.py.
     """
 
+    events = []
     try:
-        events = fetch_serie_c_events()
+        events = list(fetch_serie_c_events())
     except Exception as error:
         print(
             "[SPORTS] "
             f"Serie C - errore fonte ufficiale: "
             f"{error}"
         )
-        return []
+        events = []
+
+    # Fallback / integrazione diretta.it (oggi spesso più aggiornata)
+    try:
+        diretta_events = list(fetch_diretta_serie_c_events())
+    except Exception as error:
+        print(f"[SPORTS] Serie C - errore diretta.it: {error}")
+        diretta_events = []
+
+    if not events and diretta_events:
+        print(f"[SPORTS] Serie C - uso diretta.it: {len(diretta_events)} eventi")
+        events = diretta_events
+    elif diretta_events:
+        # unisci per nome+orario, preferisci score da diretta se ufficiale senza score
+        def key(e):
+            return (
+                e.start_time.strftime("%Y%m%d%H%M") if hasattr(e.start_time, "strftime") else str(e.start_time)[:16],
+                (e.home_team_name or "").lower(),
+                (e.away_team_name or "").lower(),
+            )
+        by_key = {key(e): e for e in events}
+        for de in diretta_events:
+            k = key(de)
+            if k not in by_key:
+                events.append(de)
+                by_key[k] = de
+            else:
+                existing = by_key[k]
+                if getattr(existing, "home_score", None) is None and de.home_score is not None:
+                    existing.home_score = de.home_score
+                    existing.away_score = de.away_score
+                if getattr(existing, "status", "") == "SCHEDULED" and de.status in ("LIVE", "FINISHED"):
+                    existing.status = de.status
+        print(f"[SPORTS] Serie C - ufficiale+diretta: {len(events)} eventi")
 
     normalized: list[RawEvent] = []
 
