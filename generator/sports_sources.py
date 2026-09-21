@@ -1553,57 +1553,6 @@ def extract_match_incidents(
     if not isinstance(competitions, list) or not competitions:
         return goals, cards
 
-
-def extract_espn_broadcasts(event: dict) -> list[str]:
-    """
-    Canali dichiarati da ESPN nello scoreboard (quando presenti).
-    Utile soprattutto per USA/UK; a volte anche Sudamerica.
-    """
-    names: list[str] = []
-
-    def add(name: str | None) -> None:
-        if not name:
-            return
-        n = name.strip()
-        if not n or n in names:
-            return
-        # filtra spazzatura
-        low = n.lower()
-        if low in {"tbd", "n/a", "none", "-"}:
-            return
-        names.append(n)
-
-    competitions = event.get("competitions") or []
-    if not isinstance(competitions, list):
-        return names
-
-    for comp in competitions:
-        if not isinstance(comp, dict):
-            continue
-        for b in comp.get("broadcasts") or []:
-            if not isinstance(b, dict):
-                continue
-            for n in b.get("names") or []:
-                add(safe_string(n) if isinstance(n, str) else (str(n) if n is not None else None))
-            # a volte name singolo
-            add(b.get("name") if isinstance(b.get("name"), str) else None)
-
-        for b in comp.get("geoBroadcasts") or []:
-            if not isinstance(b, dict):
-                continue
-            media = b.get("media") if isinstance(b.get("media"), dict) else {}
-            if isinstance(media.get("shortName"), str):
-                add(media.get("shortName"))
-            if isinstance(media.get("displayName"), str):
-                add(media.get("displayName"))
-            btype = b.get("type")
-            if isinstance(btype, dict) and isinstance(btype.get("shortName"), str):
-                add(btype.get("shortName"))
-
-    return names
-
-
-
     comp0 = competitions[0]
     if not isinstance(comp0, dict):
         return goals, cards
@@ -1617,8 +1566,8 @@ def extract_espn_broadcasts(event: dict) -> list[str]:
     for c in comp0.get("competitors") or []:
         if not isinstance(c, dict):
             continue
-        cid = safe_string(c.get("id"))
-        ha = (safe_string(c.get("homeAway")) or "").lower()
+        cid = safe_string((c.get("team") or {}).get("id") if isinstance(c.get("team"), dict) else c.get("id"))
+        ha = safe_string(c.get("homeAway"))
         if cid and ha:
             team_side[cid] = ha
 
@@ -1627,17 +1576,25 @@ def extract_espn_broadcasts(event: dict) -> list[str]:
             continue
 
         type_info = detail.get("type") if isinstance(detail.get("type"), dict) else {}
-        type_text = (safe_string(type_info.get("text")) or safe_string(type_info.get("type")) or "").lower()
+        type_text = (
+            safe_string(type_info.get("text"))
+            or safe_string(type_info.get("type"))
+            or ""
+        ).lower()
 
         clock = detail.get("clock") if isinstance(detail.get("clock"), dict) else {}
-        clock_str = safe_string(clock.get("displayValue")) or safe_string(detail.get("clock"))
+        clock_str = safe_string(clock.get("displayValue")) or safe_string(
+            detail.get("clock") if not isinstance(detail.get("clock"), dict) else None
+        )
 
         athletes = detail.get("athletesInvolved") or []
         player = None
         if isinstance(athletes, list) and athletes:
             a0 = athletes[0]
             if isinstance(a0, dict):
-                player = safe_string(a0.get("displayName")) or safe_string(a0.get("shortName"))
+                player = safe_string(a0.get("displayName")) or safe_string(
+                    a0.get("shortName")
+                )
 
         team = detail.get("team") if isinstance(detail.get("team"), dict) else {}
         team_id = safe_string(team.get("id"))
@@ -1656,6 +1613,206 @@ def extract_espn_broadcasts(event: dict) -> list[str]:
             cards.append(item)
 
     return goals, cards
+
+
+def extract_espn_broadcasts(event: dict) -> list[str]:
+    """
+    Canali dichiarati da ESPN nello scoreboard (quando presenti).
+    """
+    names: list[str] = []
+
+    def add(name: str | None) -> None:
+        if not name:
+            return
+        n = name.strip()
+        if not n or n in names:
+            return
+        low = n.lower()
+        if low in {"tbd", "n/a", "none", "-"}:
+            return
+        names.append(n)
+
+    competitions = event.get("competitions") or []
+    if not isinstance(competitions, list):
+        return names
+
+    for comp in competitions:
+        if not isinstance(comp, dict):
+            continue
+        for b in comp.get("broadcasts") or []:
+            if not isinstance(b, dict):
+                continue
+            for n in b.get("names") or []:
+                add(
+                    safe_string(n)
+                    if isinstance(n, str)
+                    else (str(n) if n is not None else None)
+                )
+            add(b.get("name") if isinstance(b.get("name"), str) else None)
+
+        for b in comp.get("geoBroadcasts") or []:
+            if not isinstance(b, dict):
+                continue
+            media = b.get("media") if isinstance(b.get("media"), dict) else {}
+            if isinstance(media.get("shortName"), str):
+                add(media.get("shortName"))
+            if isinstance(media.get("displayName"), str):
+                add(media.get("displayName"))
+            btype = b.get("type")
+            if isinstance(btype, dict) and isinstance(btype.get("shortName"), str):
+                add(btype.get("shortName"))
+
+    return names
+
+
+def _norm_team(name: str | None) -> str:
+    if not name:
+        return ""
+    import re as _re
+    s = name.lower().strip()
+    s = _re.sub(r"[^a-z0-9àèéìòù\s]", " ", s)
+    s = " ".join(s.split())
+    # togli suffix comuni
+    for w in ("calcio", "fc", "ac", "as", "us", "ssd", "asd", "virtus"):
+        s = s.replace(f" {w}", "").replace(f"{w} ", "")
+    return s.strip()
+
+
+def _teams_match(a: str | None, b: str | None) -> bool:
+    na, nb = _norm_team(a), _norm_team(b)
+    if not na or not nb:
+        return False
+    if na == nb:
+        return True
+    if na in nb or nb in na:
+        return True
+    # token overlap
+    ta, tb = set(na.split()), set(nb.split())
+    if not ta or not tb:
+        return False
+    inter = ta & tb
+    return len(inter) >= 1 and (len(inter) / min(len(ta), len(tb))) >= 0.5
+
+
+def enrich_serie_c_from_espn(
+    serie_c_events: list,
+) -> list:
+    """
+    Arricchisce eventi Serie C (fonte ufficiale) con score/gol/cartellini ESPN
+    quando ita.3 è disponibile. Match per nomi squadra.
+    """
+    if not serie_c_events:
+        return serie_c_events
+
+    # trova SourceCompetition serie_c
+    competition = None
+    for c in ALL_COMPETITIONS:
+        if c.key == "serie_c":
+            competition = c
+            break
+    if competition is None:
+        return serie_c_events
+
+    from datetime import datetime, timedelta
+    from zoneinfo import ZoneInfo
+
+    now = datetime.now(ZoneInfo("Europe/Rome"))
+    dates = []
+    for d in (0, 1):
+        dates.append((now + timedelta(days=d)).strftime("%Y%m%d"))
+
+    espn_raw: list[dict] = []
+    for date_value in dates:
+        try:
+            url = build_scoreboard_url(competition, date_value)
+            data = fetch_json(url)
+            events = data.get("events") or []
+            if isinstance(events, list):
+                espn_raw.extend([e for e in events if isinstance(e, dict)])
+            print(f"[SERIE C] ESPN {date_value}: {len(events)} eventi")
+        except Exception as error:
+            print(f"[SERIE C] ESPN {date_value} non disponibile: {error}")
+
+    if not espn_raw:
+        print("[SERIE C] Nessun dato ESPN da mergiare (score/gol da fonte ufficiale)")
+        return serie_c_events
+
+    # prepara lista (home, away, event_dict)
+    espn_matches = []
+    for ev in espn_raw:
+        home, away = extract_competitors(ev)
+        if not home or not away:
+            continue
+        ht = (home.get("team") or {}) if isinstance(home.get("team"), dict) else {}
+        at = (away.get("team") or {}) if isinstance(away.get("team"), dict) else {}
+        hname = safe_string(ht.get("displayName") or ht.get("name") or home.get("displayName"))
+        aname = safe_string(at.get("displayName") or at.get("name") or away.get("displayName"))
+        espn_matches.append((hname, aname, ev, home, away))
+
+    enriched = 0
+    for event in serie_c_events:
+        if not isinstance(event, RawEvent):
+            continue
+        for hname, aname, ev, home, away in espn_matches:
+            if not (
+                _teams_match(event.home_team_name, hname)
+                and _teams_match(event.away_team_name, aname)
+            ) and not (
+                _teams_match(event.home_team_name, aname)
+                and _teams_match(event.away_team_name, hname)
+            ):
+                continue
+
+            # score
+            hs = safe_int(home.get("score"))
+            aws = safe_int(away.get("score"))
+            if hs is not None:
+                event.home_score = hs
+            if aws is not None:
+                event.away_score = aws
+
+            # clock / status
+            minute, period = extract_clock(ev)
+            if minute is not None:
+                event.minute = minute
+            if period:
+                event.period = period
+
+            # goals / cards da details scoreboard
+            goals, cards = extract_match_incidents(ev)
+            if goals:
+                event.goals = goals
+            if cards:
+                event.cards = cards
+
+            # se manca detail, prova summary
+            if not goals and not cards:
+                eid = safe_string(ev.get("id"))
+                if eid:
+                    try:
+                        sum_url = (
+                            "https://site.api.espn.com/apis/site/v2/sports/soccer/"
+                            f"{competition.league}/summary?event={eid}"
+                        )
+                        summary = fetch_json(sum_url)
+                        # summary a volte ha competitions[0].details
+                        goals2, cards2 = extract_match_incidents(summary)
+                        if not goals2 and isinstance(summary.get("header"), dict):
+                            goals2, cards2 = extract_match_incidents(
+                                {"competitions": (summary.get("header") or {}).get("competitions") or summary.get("competitions") or []}
+                            )
+                        if goals2:
+                            event.goals = goals2
+                        if cards2:
+                            event.cards = cards2
+                    except Exception as err:
+                        print(f"[SERIE C] summary {eid}: {err}")
+
+            enriched += 1
+            break
+
+    print(f"[SERIE C] ESPN merge: {enriched}/{len(serie_c_events)} arricchiti")
+    return serie_c_events
 
 
 # ============================================================
@@ -2401,6 +2558,10 @@ def fetch_all_events() -> list[RawEvent]:
     serie_c_events = (
         fetch_official_serie_c_events()
     )
+    try:
+        serie_c_events = enrich_serie_c_from_espn(serie_c_events)
+    except Exception as error:
+        print(f"[SERIE C] enrich ESPN errore: {error}")
 
     all_events.extend(
         serie_c_events
