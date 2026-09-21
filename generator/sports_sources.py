@@ -1092,6 +1092,35 @@ def convert_serie_c_event(
     Converte un SerieCEvent proveniente da
     serie_c_source.py nel formato comune RawEvent.
     """
+    minute = None
+    period = None
+    try:
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        now = datetime.now(ZoneInfo("Europe/Rome"))
+        start = event.start_time
+        if start.tzinfo is None:
+            start = start.replace(tzinfo=ZoneInfo("Europe/Rome"))
+        if str(event.status).upper() == "LIVE":
+            elapsed = int((now - start).total_seconds() // 60)
+            if elapsed < 0:
+                elapsed = 0
+            # stima grezza 1° / 2° tempo
+            if elapsed <= 45:
+                minute = min(elapsed, 45)
+                period = "1H"
+            elif elapsed <= 60:
+                minute = 45
+                period = "HT"
+            else:
+                minute = min(elapsed - 15, 90)  # ~intervallo 15 min
+                period = "2H"
+        elif str(event.status).upper() == "FINISHED":
+            period = "FT"
+    except Exception:
+        minute = None
+        period = None
+
     return RawEvent(
         source="SERIEC",
         source_event_id=event.source_event_id,
@@ -1112,8 +1141,8 @@ def convert_serie_c_event(
         away_team_logo=event.away_logo_url,
         home_score=event.home_score,
         away_score=event.away_score,
-        period=None,
-        minute=None,
+        period=period,
+        minute=minute,
         country=event.country,
     )
 
