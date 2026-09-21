@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T18:52:21Z",
+  "generatedAt": "2026-09-21T19:49:21Z",
   "competitions": [
     {
       "id": "serie_c",
@@ -1620,7 +1620,7 @@
       "awayTeamId": "espn_tennis_6571",
       "startTime": "2026-09-21T16:35:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1646,9 +1646,9 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_15069",
       "awayTeamId": "espn_tennis_17102",
-      "startTime": "2026-09-21T18:55:00Z",
+      "startTime": "2026-09-21T19:20:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1662,9 +1662,9 @@
       "awayTeamId": "espn_serie_c_lumezzane",
       "startTime": "2026-09-21T20:30:00+02:00",
       "endTime": "2026-09-21T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_256"
       ]
@@ -1678,9 +1678,9 @@
       "awayTeamId": "espn_serie_c_livorno",
       "startTime": "2026-09-21T20:30:00+02:00",
       "endTime": "2026-09-21T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -1692,9 +1692,9 @@
       "awayTeamId": "espn_serie_c_sambenedettese",
       "startTime": "2026-09-21T20:30:00+02:00",
       "endTime": "2026-09-21T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_253"
       ]
@@ -1708,9 +1708,9 @@
       "awayTeamId": "espn_serie_c_vis_pesaro",
       "startTime": "2026-09-21T20:30:00+02:00",
       "endTime": "2026-09-21T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "sky_sport_max",
         "sky_sport_252"
@@ -1725,9 +1725,9 @@
       "awayTeamId": "espn_serie_c_pro_vercelli",
       "startTime": "2026-09-21T20:30:00+02:00",
       "endTime": "2026-09-21T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 3,
+      "awayScore": 0,
       "channels": [
         "sky_sport_255"
       ]
@@ -1741,9 +1741,9 @@
       "awayTeamId": "espn_serie_c_desenzano",
       "startTime": "2026-09-21T20:30:00+02:00",
       "endTime": "2026-09-21T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_254"
       ]
