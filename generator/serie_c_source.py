@@ -545,6 +545,19 @@ def _build_event(
 
     logos = logos or {}
 
+    # Status reale: la fonte ufficiale non espone "LIVE",
+    # quindi lo deduciamo dall'orario (Europe/Rome).
+    now_cmp = now if now.tzinfo else now.replace(tzinfo=TIMEZONE)
+    start_cmp = start if start.tzinfo else start.replace(tzinfo=TIMEZONE)
+    end_cmp = end if end.tzinfo else end.replace(tzinfo=TIMEZONE)
+
+    if now_cmp >= end_cmp:
+        status = "FINISHED"
+    elif now_cmp >= start_cmp:
+        status = "LIVE"
+    else:
+        status = "SCHEDULED"
+
     return SerieCEvent(
         source_event_id=event_key,
         competition_key="serie_c",
@@ -553,7 +566,7 @@ def _build_event(
         title=f"{home_clean} - {away_clean}",
         start_time=start,
         end_time=end,
-        status="SCHEDULED",
+        status=status,
         home_team_id=home_id,
         home_team_name=home_clean,
         home_team_short_name=home_clean,
