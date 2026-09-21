@@ -810,14 +810,21 @@
       "sources": [
         {
           "id": "dazn_1_italia_source_1",
-          "url": "https://premium.hls.st/playlist/premium877.m3u8",
-          "type": "AUTO",
+          "url": "https://dlive.sx/stream/stream-877.php",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "dazn_1_italia_source_2",
-          "url": "https://epidd.hundxvision.co.uk/main/secure/d9e073bb0f0cfcaf2027393933b39ed187c478b5d04e3457c41ae0e6e017b03e/1789772940/dazn1it.m3u8",
+          "url": "https://dlive.sx/cast/stream-877.php",
+          "type": "WEB",
+          "enabled": false,
+          "priority": 2
+        },
+       {
+          "id": "dazn_1_italia_source_3",
+          "url": "https://premium.hls.st/playlist/premium877.m3u8",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
