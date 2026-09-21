@@ -411,11 +411,22 @@ def _pick_team_name(candidates: list[str]) -> Optional[str]:
     return None
 
 
+
+def _score_in_window(window: list[str]) -> tuple[int | None, int | None]:
+    """Cerca un risultato tipo 1-0 / 2 - 1 nelle righe della partita."""
+    for line in window:
+        n = _normalize(line)
+        m = re.fullmatch(r"(\d+)\s*-\s*(\d+)", n)
+        if m:
+            return int(m.group(1)), int(m.group(2))
+    return None, None
+
+
 def _find_event_blocks(
     text: str,
-) -> list[tuple[str, str, str]]:
+) -> list[tuple[str, str, str, int | None, int | None]]:
     """
-    Restituisce liste di (date_time_raw, home, away).
+    Restituisce (date_time_raw, home, away, home_score, away_score).
 
     Supporta due layout:
     1) Homepage ufficiale (2026+):
@@ -429,7 +440,7 @@ def _find_event_blocks(
     2) Layout legacy con VS o risultato.
     """
     lines = [line.strip() for line in text.splitlines() if line.strip()]
-    events: list[tuple[str, str, str]] = []
+    events: list[tuple[str, str, str, int | None, int | None]] = []
 
     i = 0
     while i < len(lines):
@@ -470,7 +481,8 @@ def _find_event_blocks(
             away = _pick_team_name(remaining[:3])
 
             if home and away and _normalize(home) != _normalize(away):
-                events.append((date_time, home, away))
+                hs, aws = _score_in_window(window)
+                events.append((date_time, home, away, hs, aws))
                 i += 1
                 continue
 
@@ -487,7 +499,8 @@ def _find_event_blocks(
             home = _pick_team_name(before)
             away = _pick_team_name(after)
             if home and away:
-                events.append((date_time, home, away))
+                hs, aws = _score_in_window(window)
+                events.append((date_time, home, away, hs, aws))
                 i += 1
                 continue
 
@@ -501,7 +514,8 @@ def _find_event_blocks(
                 and re.fullmatch(r"\d+\s*-\s*\d+", _normalize(result))
                 and _looks_like_team(away_c)
             ):
-                events.append((date_time, home_c, away_c))
+                hs, aws = _score_in_window([result])
+                events.append((date_time, home_c, away_c, hs, aws))
 
         i += 1
 
@@ -514,6 +528,8 @@ def _build_event(
     away: str,
     now: datetime,
     logos: dict[str, str] | None = None,
+    home_score: int | None = None,
+    away_score: int | None = None,
 ) -> Optional[SerieCEvent]:
     start = _parse_date_line(date_time, now)
     if start is None:
@@ -573,6 +589,8 @@ def _build_event(
         away_team_id=away_id,
         away_team_name=away_clean,
         away_team_short_name=away_clean,
+        home_score=home_score,
+        away_score=away_score,
         home_logo_url=_logo_for_team(home_clean, logos),
         away_logo_url=_logo_for_team(away_clean, logos),
     )
@@ -589,8 +607,11 @@ def _parse_page(html: str, now: datetime) -> list[SerieCEvent]:
     events: list[SerieCEvent] = []
     seen: set[str] = set()
 
-    for date_time, home, away in raw_events:
-        event = _build_event(date_time, home, away, now, logos=logos)
+    for date_time, home, away, hs, aws in raw_events:
+        event = _build_event(
+            date_time, home, away, now, logos=logos,
+            home_score=hs, away_score=aws,
+        )
         if event is None:
             continue
         if event.source_event_id in seen:
