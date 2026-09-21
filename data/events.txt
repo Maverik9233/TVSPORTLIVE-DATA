@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T15:04:13Z",
+  "generatedAt": "2026-09-21T16:52:58Z",
   "competitions": [
     {
       "id": "serie_c",
@@ -1424,7 +1424,7 @@
       "awayTeamId": "espn_tennis_810",
       "startTime": "2026-09-21T13:10:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1438,7 +1438,7 @@
       "awayTeamId": "espn_tennis_13737",
       "startTime": "2026-09-21T13:15:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1452,7 +1452,7 @@
       "awayTeamId": "espn_tennis_3705",
       "startTime": "2026-09-21T13:15:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1466,7 +1466,7 @@
       "awayTeamId": "espn_tennis_15344-4183",
       "startTime": "2026-09-21T13:25:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1480,7 +1480,7 @@
       "awayTeamId": "espn_tennis_10676",
       "startTime": "2026-09-21T13:35:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1508,7 +1508,7 @@
       "awayTeamId": "espn_tennis_7797",
       "startTime": "2026-09-21T13:45:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1522,7 +1522,7 @@
       "awayTeamId": "espn_tennis_3256",
       "startTime": "2026-09-21T14:05:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1536,7 +1536,7 @@
       "awayTeamId": "espn_tennis_13951-6526",
       "startTime": "2026-09-21T14:10:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1550,35 +1550,7 @@
       "awayTeamId": "espn_tennis_18481",
       "startTime": "2026-09-21T14:20:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "espn_tennis_wta_183924",
-      "title": "C. Cervino Ruiz / M. Martinez Vaquero - N. Bains / S. Yamalapalli",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_4662-18480",
-      "awayTeamId": "espn_tennis_2551-14252",
-      "startTime": "2026-09-21T15:10:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "espn_tennis_wta_183943",
-      "title": "Susan Bandecchi - Oceane Dodin",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_4104",
-      "awayTeamId": "espn_tennis_2848",
-      "startTime": "2026-09-21T15:15:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1592,7 +1564,7 @@
       "awayTeamId": "espn_tennis_15264-15265",
       "startTime": "2026-09-21T15:20:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1604,9 +1576,37 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_19088",
       "awayTeamId": "espn_tennis_3070",
-      "startTime": "2026-09-21T15:30:00Z",
+      "startTime": "2026-09-21T15:20:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "espn_tennis_wta_183943",
+      "title": "Susan Bandecchi - Oceane Dodin",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_4104",
+      "awayTeamId": "espn_tennis_2848",
+      "startTime": "2026-09-21T15:20:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "espn_tennis_wta_183924",
+      "title": "C. Cervino Ruiz / M. Martinez Vaquero - N. Bains / S. Yamalapalli",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_4662-18480",
+      "awayTeamId": "espn_tennis_2551-14252",
+      "startTime": "2026-09-21T15:35:00Z",
+      "endTime": null,
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1618,9 +1618,9 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_11603",
       "awayTeamId": "espn_tennis_6571",
-      "startTime": "2026-09-21T16:00:00Z",
+      "startTime": "2026-09-21T16:35:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -1632,7 +1632,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_7831",
       "awayTeamId": "espn_tennis_3185",
-      "startTime": "2026-09-21T16:30:00Z",
+      "startTime": "2026-09-21T17:10:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeScore": null,
