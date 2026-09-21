@@ -2417,52 +2417,78 @@ def fetch_tennis_header_events(
         else:
             status = "SCHEDULED"
 
-        # Punteggio set — ESPN header:
-        #   competitor.score = set vinti (int o "2")
-        #   a volte linescores = games per set
-        def parse_sets_won(comp: dict) -> int | None:
+        # Punteggio tennis ESPN header:
+        #   score = "6-4 6-2" oppure set vinti "2"
+        #   linescores = games per set + winner
+        def parse_tennis_side(comp: dict) -> tuple[int | None, str | None]:
+            lines = comp.get("linescores") or comp.get("linescore")
+            if isinstance(lines, list) and lines:
+                sets_won = 0
+                games_parts: list[str] = []
+                for ls in lines:
+                    if not isinstance(ls, dict):
+                        continue
+                    if ls.get("winner") is True:
+                        sets_won += 1
+                    v = ls.get("setScore")
+                    if v is None:
+                        v = ls.get("score")
+                    if v is None:
+                        v = ls.get("value")
+                    if v is not None:
+                        try:
+                            games_parts.append(str(int(float(v))))
+                        except (TypeError, ValueError):
+                            games_parts.append(str(v))
+                    tb = ls.get("tiebreak")
+                    if tb is None:
+                        tb = ls.get("tieBreakScore")
+                    if tb is not None and games_parts:
+                        games_parts[-1] = f"{games_parts[-1]}({tb})"
+                detail = " ".join(games_parts) if games_parts else None
+                return sets_won, detail
+
             raw = comp.get("score")
             if isinstance(raw, (int, float)):
-                return int(raw)
+                return int(raw), None
             if isinstance(raw, str):
                 s = raw.strip()
                 if not s or s in {"-", "—"}:
-                    return None
+                    return None, None
                 if s.isdigit():
-                    return int(s)
-                # "2" already handled; "6-4, 7-5" non è set vinti
-            # fallback: contare set vinti da linescores se entrambi hanno lista
-            return None
+                    return int(s), None
+                # "6-4 6-2" o "1-6 6-7(2-7)" → conta set vinti
+                sets_won = 0
+                for part in s.replace(",", " ").split():
+                    core = part.split("(")[0]
+                    if "-" not in core:
+                        continue
+                    left, _, right = core.partition("-")
+                    try:
+                        if int(left) > int(right):
+                            sets_won += 1
+                    except ValueError:
+                        continue
+                return sets_won, s
+            return None, None
 
-        home_score = parse_sets_won(home)
-        away_score = parse_sets_won(away)
+        home_score, home_detail = parse_tennis_side(home)
+        away_score, away_detail = parse_tennis_side(away)
 
-        # Dettaglio games (opzionale) per UI sotto il LIVE
-        def games_detail(comp: dict) -> str | None:
-            lines = comp.get("linescores") or comp.get("linescore")
-            if not isinstance(lines, list) or not lines:
-                return None
-            parts = []
-            for ls in lines:
-                if isinstance(ls, dict):
-                    v = ls.get("value")
-                    if v is not None:
-                        parts.append(str(int(float(v))) if str(v).replace('.','',1).isdigit() else str(v))
-                elif isinstance(ls, (int, float)):
-                    parts.append(str(int(ls)))
-            return "-".join(parts) if parts else None
-
-        hg = games_detail(home)
-        ag = games_detail(away)
+        # period = stringa leggibile set (es. "6-4 6-2")
         period = None
-        if hg and ag:
-            period = f"{hg} | {ag}"
-        elif home_score is not None and away_score is not None:
-            period = None  # UI mostra già 2-1
+        raw_home_score = home.get("score")
+        if isinstance(raw_home_score, str) and "-" in raw_home_score:
+            period = raw_home_score.strip()
+        elif home_detail and away_detail:
+            period = f"{home_detail} | {away_detail}"
+        elif home_detail:
+            period = home_detail
 
-        # Nome torneo più leggibile (città / paese se in summary)
         location = safe_string(item.get("location")) or safe_string(
-            (item.get("venue") or {}).get("fullName") if isinstance(item.get("venue"), dict) else None
+            (item.get("venue") or {}).get("fullName")
+            if isinstance(item.get("venue"), dict)
+            else None
         )
 
         # competition_name: torneo (WTA / ATP restano competition_key)
