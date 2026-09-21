@@ -68,6 +68,7 @@ class RawEvent:
     country: str | None = None
     goals: list | None = None
     cards: list | None = None
+    broadcasts: list | None = None
 
 
 # ============================================================
@@ -1523,6 +1524,57 @@ def extract_match_incidents(
     if not isinstance(competitions, list) or not competitions:
         return goals, cards
 
+
+def extract_espn_broadcasts(event: dict) -> list[str]:
+    """
+    Canali dichiarati da ESPN nello scoreboard (quando presenti).
+    Utile soprattutto per USA/UK; a volte anche Sudamerica.
+    """
+    names: list[str] = []
+
+    def add(name: str | None) -> None:
+        if not name:
+            return
+        n = name.strip()
+        if not n or n in names:
+            return
+        # filtra spazzatura
+        low = n.lower()
+        if low in {"tbd", "n/a", "none", "-"}:
+            return
+        names.append(n)
+
+    competitions = event.get("competitions") or []
+    if not isinstance(competitions, list):
+        return names
+
+    for comp in competitions:
+        if not isinstance(comp, dict):
+            continue
+        for b in comp.get("broadcasts") or []:
+            if not isinstance(b, dict):
+                continue
+            for n in b.get("names") or []:
+                add(safe_string(n) if isinstance(n, str) else (str(n) if n is not None else None))
+            # a volte name singolo
+            add(b.get("name") if isinstance(b.get("name"), str) else None)
+
+        for b in comp.get("geoBroadcasts") or []:
+            if not isinstance(b, dict):
+                continue
+            media = b.get("media") if isinstance(b.get("media"), dict) else {}
+            if isinstance(media.get("shortName"), str):
+                add(media.get("shortName"))
+            if isinstance(media.get("displayName"), str):
+                add(media.get("displayName"))
+            btype = b.get("type")
+            if isinstance(btype, dict) and isinstance(btype.get("shortName"), str):
+                add(btype.get("shortName"))
+
+    return names
+
+
+
     comp0 = competitions[0]
     if not isinstance(comp0, dict):
         return goals, cards
@@ -1844,6 +1896,7 @@ def normalize_event(
             end_time = None
 
     goals, cards = extract_match_incidents(event)
+    broadcasts = extract_espn_broadcasts(event)
 
     return RawEvent(
         source="ESPN",
@@ -1883,6 +1936,7 @@ def normalize_event(
         ),
         goals=goals or None,
         cards=cards or None,
+        broadcasts=broadcasts or None,
     )
 
 
