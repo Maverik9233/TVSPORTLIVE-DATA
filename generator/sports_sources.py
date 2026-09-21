@@ -2196,13 +2196,64 @@ def fetch_tennis_header_events(
         else:
             status = "SCHEDULED"
 
+        # Punteggio set — ESPN header:
+        #   competitor.score = set vinti (int o "2")
+        #   a volte linescores = games per set
+        def parse_sets_won(comp: dict) -> int | None:
+            raw = comp.get("score")
+            if isinstance(raw, (int, float)):
+                return int(raw)
+            if isinstance(raw, str):
+                s = raw.strip()
+                if not s or s in {"-", "—"}:
+                    return None
+                if s.isdigit():
+                    return int(s)
+                # "2" already handled; "6-4, 7-5" non è set vinti
+            # fallback: contare set vinti da linescores se entrambi hanno lista
+            return None
+
+        home_score = parse_sets_won(home)
+        away_score = parse_sets_won(away)
+
+        # Dettaglio games (opzionale) per UI sotto il LIVE
+        def games_detail(comp: dict) -> str | None:
+            lines = comp.get("linescores") or comp.get("linescore")
+            if not isinstance(lines, list) or not lines:
+                return None
+            parts = []
+            for ls in lines:
+                if isinstance(ls, dict):
+                    v = ls.get("value")
+                    if v is not None:
+                        parts.append(str(int(float(v))) if str(v).replace('.','',1).isdigit() else str(v))
+                elif isinstance(ls, (int, float)):
+                    parts.append(str(int(ls)))
+            return "-".join(parts) if parts else None
+
+        hg = games_detail(home)
+        ag = games_detail(away)
+        period = None
+        if hg and ag:
+            period = f"{hg} | {ag}"
+        elif home_score is not None and away_score is not None:
+            period = None  # UI mostra già 2-1
+
+        # Nome torneo più leggibile (città / paese se in summary)
+        location = safe_string(item.get("location")) or safe_string(
+            (item.get("venue") or {}).get("fullName") if isinstance(item.get("venue"), dict) else None
+        )
+
         # competition_name: torneo (WTA / ATP restano competition_key)
         results.append(
             RawEvent(
                 source="ESPN_TENNIS",
                 source_event_id=f"{league}_{match_id}",
                 competition_key=competition.key,
-                competition_name=tournament,
+                competition_name=(
+                    f"{tournament} ({location})" if location and tournament and location.lower() not in tournament.lower()
+                    else (tournament or competition.name or league.upper())
+                ),
                 sport="TENNIS",
                 title=title,
                 start_time=start_time,
@@ -2216,9 +2267,9 @@ def fetch_tennis_header_events(
                 away_team_name=away_name,
                 away_team_short_name=away_short,
                 away_team_logo=away_logo,
-                home_score=None,
-                away_score=None,
-                period=None,
+                home_score=home_score,
+                away_score=away_score,
+                period=period,
                 minute=None,
                 country=None,
             )
