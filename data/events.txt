@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T23:20:54Z",
+  "generatedAt": "2026-09-21T01:19:57Z",
   "competitions": [
     {
       "id": "serie_c",
@@ -62,14 +62,6 @@
       "id": "espn_tennis_2734-2581",
       "name": "A. Bondar / F. Stollar",
       "shortName": "A. Bondar / F. Stollar",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_tennis_13951-6526",
-      "name": "A. Rogers / A. Zamarripa",
-      "shortName": "A. Rogers / A. Zamarripa",
       "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
@@ -379,14 +371,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_tennis_1375-2732",
-      "name": "G. Dabrowski / L. Stefani",
-      "shortName": "G. Dabrowski / L. Stefani",
-      "logoUrl": null,
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_tennis_13314",
       "name": "Gabriela Knutson",
       "shortName": "G. Knutson",
@@ -511,14 +495,6 @@
       "name": "Jessica Pieri",
       "shortName": "J. Pieri",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_tennis_14460",
-      "name": "Kaitlin Quevedo",
-      "shortName": "K. Quevedo",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -751,14 +727,6 @@
       "name": "Moyuka Uchijima",
       "shortName": "M. Uchijima",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_tennis_3256",
-      "name": "Nadia Podoroska",
-      "shortName": "N. Podoroska",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1418,34 +1386,6 @@
       "startTime": "2026-09-20T15:50:00Z",
       "endTime": null,
       "status": "FINISHED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "espn_tennis_wta_183873",
-      "title": "G. Dabrowski / L. Stefani - A. Rogers / A. Zamarripa",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_1375-2732",
-      "awayTeamId": "espn_tennis_13951-6526",
-      "startTime": "2026-09-20T16:35:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "espn_tennis_wta_183857",
-      "title": "Kaitlin Quevedo - Nadia Podoroska",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_14460",
-      "awayTeamId": "espn_tennis_3256",
-      "startTime": "2026-09-20T23:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null,
       "channels": []
