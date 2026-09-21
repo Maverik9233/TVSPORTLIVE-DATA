@@ -598,6 +598,12 @@ def get_event_broadcasters(
                     broadcaster
                 )
 
+    # 2b) Canali dichiarati da ESPN (broadcasts nello scoreboard)
+    espn_bc = getattr(raw_event, "broadcasts", None) or []
+    for broadcaster in espn_bc:
+        if broadcaster and broadcaster not in broadcasters:
+            broadcasters.append(broadcaster)
+
     # 3) Override SOLO Serie C e SOLO se ancora senza canali.
     #    Nessun override generico su Premier/La Liga/NBA/tennis/ecc.
     if (
