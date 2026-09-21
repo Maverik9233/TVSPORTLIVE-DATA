@@ -191,12 +191,12 @@
       "priority": 4,
       "logoUrl": null,
       "aliases": [
-        "Sky Sport F1 HD",
-        "Sky Sport F1 HD UK",
-        "Sky Sport F1 UK",
-        "Sky Sport F1",
-        "Sky Sport Formula 1",
-        "SkySport F1 UK",
+        "Sky Sports F1 HD",
+        "Sky Sports F1 HD UK",
+        "Sky Sports F1 UK",
+        "Sky Sports F1",
+        "Sky Sports Formula 1",
+        "SkySports F1 UK",
         "Sky F1 UK",
         "SkyF1 UK",
         "Sky F1 HD UK"
@@ -2639,6 +2639,13 @@
           "type": "HLS",
           "enabled": true,
           "priority": 1
+        },
+{
+          "id": "skysports_tennis_uk_source_2",
+          "url": http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/6546/index.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
         }
       ]
     },
@@ -3225,20 +3232,22 @@
       ]
     },
     {
-      "id": "sky_sport_f1_international",
-      "name": "Sky Sport F1 International",
-      "country": "INTERNATIONAL",
+      "id": "sky_sport_f1_de",
+      "name": "Sky Sport F1 DE",
+      "country": "DE",
       "priority": 80,
       "logoUrl": null,
       "aliases": [
-        "Sky Sport F1 International HD",
-        "Sky Sport F1 International SD"
+        "Sky Sport F1 DE HD",
+        "Sky Sport F1 DE",
+        "Sky Sport F1 Deuchland HD",
+        "Sky Sport F1 Deutsch HD"
       ],
       "enabled": true,
       "sources": [
         {
-          "id": "sky_sport_f1_international_source_1",
-          "url": "",
+          "id": "sky_sport_f1_de_source_1",
+          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/10079/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -4129,6 +4138,56 @@
         }
       ]
     },
+{
+  "id": "setanta_sports_1",
+  "name": "Setanta Sports 1",
+  "country": "INTERNATIONAL",
+  "priority": 88,
+  "logoUrl": null,
+  "aliases": [
+    "Setanta Sports 1 HD",
+    "Setanta Sports 1 SD",
+    "Setanta Sport 1",
+    "Setanta Sport 1 HD",
+    "Setanta Sports1",
+    "Setanta Sports1 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "setanta_sports_1_source_1",
+      "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/6543/index.m3u8",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "setanta_sports_2",
+  "name": "Setanta Sports 2",
+  "country": "INTERNATIONAL",
+  "priority": 90,
+  "logoUrl": null,
+  "aliases": [
+    "Setanta Sports 2 HD",
+    "Setanta Sports 2 SD",
+    "Setanta Sport 2",
+    "Setanta Sport 2 HD",
+    "Setanta Sports2",
+    "Setanta Sports2 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "setanta_sports_2_source_1",
+      "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/6544/index.m3u8",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
     {
       "id": "fox_sports_australia",
       "name": "Fox Sports Australia",
