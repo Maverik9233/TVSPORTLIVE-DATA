@@ -129,7 +129,7 @@
       "sources": [
         {
           "id": "sky_sport_arena_source_1",
-          "url": "https://premium.hls.st/playlist/premium462.m3u8",
+          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19128/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -140,7 +140,14 @@
           "type": "AUTO",
           "enabled": false,
           "priority": 2
-        }
+        },
+      {
+          "id": "sky_sport_arena_source_3",
+          "url": "https://premium.hls.st/playlist/premium462.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
       ]
     },
     {
@@ -224,14 +231,14 @@
       "sources": [
         {
           "id": "sky_sport_motogp_source_1",
-          "url": "https://premium.hls.st/playlist/premium575.m3u8",
+          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19133/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_motogp_source_2",
-          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/19133/index.m3u8",
+          "url": "https://premium.hls.st/playlist/premium575.m3u8",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -328,7 +335,7 @@
       "sources": [
         {
           "id": "sky_sport_24_source_1",
-          "url": "https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/MM-2ND7eB0Ah069v6uJ1hwp2kdq71trhYJ4KMxNIo_AhyoIBtTJ1wUGaMdbN12lUxZ4clHNAcvnpvjeWjGXEA7N2mrM3rAptE8_FUOKzXgow6pOUcxZLqFRcdLhCCo7Fk_pc4lBwKB4mTle9PJuNj7gIUx1VsKS9k2dcBRrrke1uy5iksa-PE3WtczV3rgghOCFwUU84FnP980OmqP1Xqri5DpfLUn6Vvjp-QEgSgIe_V6IHS9YytFzGWvPRozSt/hls/index.m3u8",
+          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19127/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -1608,7 +1615,6 @@
       "logoUrl": null,
       "aliases": [
         "Tennis Channel HD",
-        "Tennis Channel SD",
         "Tennis Channel",
         "TennisChannel",
         "tennischannel"
@@ -1617,7 +1623,7 @@
       "sources": [
         {
           "id": "tennis_channel_source_1",
-          "url": "https://amg01444-tennischannelth-tennischde-samsungch-jp1l8.amagi.tv/playlist/amg01444-tennischannelth-tennischde-samsungch/playlist.m3u8",
+          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19136/index.m3u8",
           "type": "HLS",
           "enabled": true,
           "priority": 1
@@ -2874,13 +2880,14 @@
       "logoUrl": null,
       "aliases": [
         "Fox Sports Mexico HD",
-        "Fox Sports Mexico SD"
+        "Fox Sports MX",
+        "Fox Sports Mexico"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "fox_sports_mexico_source_1",
-          "url": "",
+          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19139/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -3823,8 +3830,15 @@
       ],
       "enabled": true,
       "sources": [
-        {
+{
           "id": "fox_sports_1_usa_source_1",
+          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19144/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "fox_sports_1_usa_source_2",
           "url": "https://premium.hls.st/playlist/premium38.m3u8",
           "type": "AUTO",
           "enabled": true,
