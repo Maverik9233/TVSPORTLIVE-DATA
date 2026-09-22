@@ -55,7 +55,7 @@ def run() -> None:
         )
 
     print()
-    print("[3/6] Recupero programmazione LiveOnSat...")
+    print("[3/6] Recupero programmazione TV (LiveOnSat + LiveSoccerTV)...")
 
     liveonsat_events = get_liveonsat_events()
 
