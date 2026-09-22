@@ -339,6 +339,18 @@ SOCCER_COMPETITIONS = (
         league="ksa.1",
         name="Saudi Pro League",
     ),
+    SourceCompetition(
+        key="scottish_premiership",
+        sport="FOOTBALL",
+        league="sco.1",
+        name="Scottish Premiership",
+    ),
+    SourceCompetition(
+        key="scottish_championship",
+        sport="FOOTBALL",
+        league="sco.2",
+        name="Scottish Championship",
+    ),
     # Sudamerica extra
     SourceCompetition(
         key="liga_1_peru",
