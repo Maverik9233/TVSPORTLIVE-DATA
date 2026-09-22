@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T15:52:25Z",
+  "generatedAt": "2026-09-22T19:35:10Z",
   "competitions": [
     {
       "id": "atp",
@@ -448,14 +448,6 @@
       "name": "Dayeon Back",
       "shortName": "D. Back",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_tennis_16142",
-      "name": "Deniz Dilek",
-      "shortName": "D. Dilek",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1316,14 +1308,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_tennis_6500",
-      "name": "Solana Sierra",
-      "shortName": "S. Sierra",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_tennis_2567",
       "name": "Sun Fajing",
       "shortName": "S. Fajing",
@@ -1982,9 +1966,9 @@
       "awayTeamId": "espn_tennis_15344",
       "startTime": "2026-09-22T13:45:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
-      "awayScore": 1,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -2024,9 +2008,9 @@
       "awayTeamId": "espn_tennis_1254",
       "startTime": "2026-09-22T14:05:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
-      "awayScore": 1,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -2038,9 +2022,9 @@
       "awayTeamId": "espn_tennis_2177",
       "startTime": "2026-09-22T14:25:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -2052,8 +2036,8 @@
       "awayTeamId": "espn_tennis_13452-12320",
       "startTime": "2026-09-22T14:40:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": []
     },
@@ -2066,8 +2050,8 @@
       "awayTeamId": "espn_tennis_4384",
       "startTime": "2026-09-22T14:55:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": []
     },
@@ -2094,9 +2078,9 @@
       "awayTeamId": "espn_tennis_17107",
       "startTime": "2026-09-22T15:10:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 1,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -2108,8 +2092,22 @@
       "awayTeamId": "espn_tennis_17753",
       "startTime": "2026-09-22T15:30:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
+      "channels": []
+    },
+    {
+      "id": "espn_tennis_wta_183911",
+      "title": "A. Kucmova / A. Laboutkova - N. Basiletti / F. Urgesi",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_17027-5133",
+      "awayTeamId": "espn_tennis_17102-11603",
+      "startTime": "2026-09-22T16:05:00Z",
+      "endTime": null,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": []
     },
@@ -2120,11 +2118,11 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_7438",
       "awayTeamId": "espn_tennis_6823",
-      "startTime": "2026-09-22T16:00:00Z",
+      "startTime": "2026-09-22T16:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "FINISHED",
+      "homeScore": 0,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -2134,39 +2132,11 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_3909",
       "awayTeamId": "espn_tennis_19091",
-      "startTime": "2026-09-22T16:00:00Z",
+      "startTime": "2026-09-22T16:25:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "espn_tennis_wta_183985",
-      "title": "Solana Sierra - Deniz Dilek",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_6500",
-      "awayTeamId": "espn_tennis_16142",
-      "startTime": "2026-09-22T16:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "espn_tennis_wta_183911",
-      "title": "A. Kucmova / A. Laboutkova - N. Basiletti / F. Urgesi",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_17027-5133",
-      "awayTeamId": "espn_tennis_17102-11603",
-      "startTime": "2026-09-22T16:10:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 0,
       "channels": []
     },
     {
@@ -2178,8 +2148,8 @@
       "awayTeamId": "espn_21124",
       "startTime": "2026-09-22T16:45Z",
       "endTime": "2026-09-22T18:45:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "espn_us"
@@ -2194,9 +2164,9 @@
       "awayTeamId": "espn_19257",
       "startTime": "2026-09-22T16:45Z",
       "endTime": "2026-09-22T18:45:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "tv8"
       ]
@@ -2208,11 +2178,11 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_13529",
       "awayTeamId": "espn_tennis_2599",
-      "startTime": "2026-09-22T18:00:00Z",
+      "startTime": "2026-09-22T18:05:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 0,
       "channels": []
     },
     {
@@ -2224,7 +2194,7 @@
       "awayTeamId": "espn_20830",
       "startTime": "2026-09-22T19:00Z",
       "endTime": "2026-09-22T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -2240,7 +2210,7 @@
       "awayTeamId": "espn_21127",
       "startTime": "2026-09-22T19:00Z",
       "endTime": "2026-09-22T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -2256,8 +2226,8 @@
       "awayTeamId": "espn_19258",
       "startTime": "2026-09-22T19:00Z",
       "endTime": "2026-09-22T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
+      "status": "LIVE",
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "espn_us"
