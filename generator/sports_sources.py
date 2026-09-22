@@ -242,6 +242,130 @@ SOCCER_COMPETITIONS = (
         name="UWCL",
     ),
 
+    # --- Europa est / Balcani / Mediterraneo / Asia ---
+    SourceCompetition(
+        key="super_lig",
+        sport="FOOTBALL",
+        league="tur.1",
+        name="Süper Lig",
+    ),
+    SourceCompetition(
+        key="turkiye_1_lig",
+        sport="FOOTBALL",
+        league="tur.2",
+        name="1. Lig Turchia",
+    ),
+    SourceCompetition(
+        key="ekstraklasa",
+        sport="FOOTBALL",
+        league="pol.1",
+        name="Ekstraklasa",
+    ),
+    SourceCompetition(
+        key="polska_1_liga",
+        sport="FOOTBALL",
+        league="pol.2",
+        name="I Liga Polonia",
+    ),
+    SourceCompetition(
+        key="kategoria_superiore",
+        sport="FOOTBALL",
+        league="alb.1",
+        name="Kategoria Superiore",
+    ),
+    SourceCompetition(
+        key="super_league_ch",
+        sport="FOOTBALL",
+        league="sui.1",
+        name="Super League Svizzera",
+    ),
+    SourceCompetition(
+        key="challenge_league_ch",
+        sport="FOOTBALL",
+        league="sui.2",
+        name="Challenge League",
+    ),
+    SourceCompetition(
+        key="hnl",
+        sport="FOOTBALL",
+        league="cro.1",
+        name="HNL Croazia",
+    ),
+    SourceCompetition(
+        key="jupiler_pro",
+        sport="FOOTBALL",
+        league="bel.1",
+        name="Pro League Belgio",
+    ),
+    SourceCompetition(
+        key="challenger_pro",
+        sport="FOOTBALL",
+        league="bel.2",
+        name="Challenger Pro League",
+    ),
+    SourceCompetition(
+        key="cyprus_1",
+        sport="FOOTBALL",
+        league="cyp.1",
+        name="First Division Cipro",
+    ),
+    SourceCompetition(
+        key="malta_premier",
+        sport="FOOTBALL",
+        league="mlt.1",
+        name="Premier League Malta",
+    ),
+    SourceCompetition(
+        key="russian_premier",
+        sport="FOOTBALL",
+        league="rus.1",
+        name="Premier Liga Russia",
+    ),
+    SourceCompetition(
+        key="bulgaria_first",
+        sport="FOOTBALL",
+        league="bul.1",
+        name="efbet Liga",
+    ),
+    SourceCompetition(
+        key="chinese_super_league",
+        sport="FOOTBALL",
+        league="chn.1",
+        name="Chinese Super League",
+    ),
+    SourceCompetition(
+        key="saudi_pro_league",
+        sport="FOOTBALL",
+        league="ksa.1",
+        name="Saudi Pro League",
+    ),
+    # Sudamerica extra
+    SourceCompetition(
+        key="liga_1_peru",
+        sport="FOOTBALL",
+        league="per.1",
+        name="Liga 1 Perú",
+    ),
+    SourceCompetition(
+        key="primera_chile",
+        sport="FOOTBALL",
+        league="chi.1",
+        name="Primera División Chile",
+    ),
+    SourceCompetition(
+        key="liga_betplay",
+        sport="FOOTBALL",
+        league="col.1",
+        name="Liga BetPlay",
+    ),
+    SourceCompetition(
+        key="liga_uruguaya",
+        sport="FOOTBALL",
+        league="uru.1",
+        name="Liga Uruguay",
+    ),
+
+
     SourceCompetition(
         key="liga_mx",
         sport="FOOTBALL",
