@@ -8,6 +8,11 @@ Alternativa EU: flagcdn.com
 """
 
 _COMPETITION_FLAG_CODE: dict[str, str] = {
+    "serie_a_women": "https://flagcdn.com/w40/it.png",
+    "wsl": "https://flagcdn.com/w40/gb.png",
+    "liga_f": "https://flagcdn.com/w40/es.png",
+    "nwsl": "https://flagcdn.com/w40/us.png",
+    "uwcl": "https://flagcdn.com/w40/eu.png",
     "serie_a": "IT",
     "serie_b": "IT",
     "serie_c": "IT",
