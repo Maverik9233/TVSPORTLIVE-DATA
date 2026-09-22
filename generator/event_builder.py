@@ -5,6 +5,11 @@ from datetime import datetime
 from typing import Iterable
 from zoneinfo import ZoneInfo
 
+from livesoccertv_source import (
+    LiveSoccerTvEvent,
+    fetch_livesoccertv_events,
+    match_livesoccertv_event,
+)
 from channel_matcher import (
     Channel,
     ChannelMatch,
@@ -571,9 +576,18 @@ def get_event_broadcasters(
     raw_event: RawEvent,
     liveonsat_match: LiveOnSatEvent | None,
     sky_serie_c_map: dict | None = None,
+    livesoccertv_match: LiveSoccerTvEvent | None = None,
 ) -> list[str]:
 
     broadcasters: list[str] = []
+
+    def add(name: str | None) -> None:
+        if not name:
+            return
+        n = name.strip()
+        if not n or n in broadcasters:
+            return
+        broadcasters.append(n)
 
     # 1) Canali precisi da articoli Sky (Serie C)
     if (
@@ -585,27 +599,26 @@ def get_event_broadcasters(
             sky_serie_c_map,
         )
         for broadcaster in sky_channels:
-            if broadcaster not in broadcasters:
-                broadcasters.append(broadcaster)
+            add(broadcaster)
 
     # 2) LiveOnSat
     if liveonsat_match is not None:
         for broadcaster in (
             liveonsat_match.broadcasters
         ):
-            if broadcaster not in broadcasters:
-                broadcasters.append(
-                    broadcaster
-                )
+            add(broadcaster)
 
-    # 2b) Canali dichiarati da ESPN (broadcasts nello scoreboard)
+    # 2b) LiveSoccerTV
+    if livesoccertv_match is not None:
+        for broadcaster in livesoccertv_match.broadcasters:
+            add(broadcaster)
+
+    # 2c) Canali dichiarati da ESPN (broadcasts nello scoreboard)
     espn_bc = getattr(raw_event, "broadcasts", None) or []
     for broadcaster in espn_bc:
-        if broadcaster and broadcaster not in broadcasters:
-            broadcasters.append(broadcaster)
+        add(broadcaster)
 
-    # 3) Override SOLO Serie C e SOLO se ancora senza canali.
-    #    Nessun override generico su Premier/La Liga/NBA/tennis/ecc.
+    # 3) Override Serie C se ancora vuoto
     if (
         not broadcasters
         and raw_event.competition_key == "serie_c"
@@ -614,8 +627,13 @@ def get_event_broadcasters(
             "serie_c",
             (),
         ):
-            if broadcaster not in broadcasters:
-                broadcasters.append(broadcaster)
+            add(broadcaster)
+
+    # 4) Fallback sport (tennis/basket/F1/MotoGP) se ancora vuoto
+    if not broadcasters:
+        sport = (raw_event.sport or "").upper()
+        for broadcaster in SPORT_BROADCASTER_FALLBACKS.get(sport, ()):
+            add(broadcaster)
 
     return broadcasters
 
@@ -629,6 +647,7 @@ def build_event(
     liveonsat_events: Iterable[LiveOnSatEvent],
     channels: Iterable[Channel],
     sky_serie_c_map: dict | None = None,
+    livesoccertv_events: Iterable[LiveSoccerTvEvent] | None = None,
 ) -> BuiltEvent:
 
     channels_list = list(
@@ -642,27 +661,37 @@ def build_event(
         )
     )
 
+    lst_list = list(livesoccertv_events or [])
+    livesoccertv_match = match_livesoccertv_event(
+        home_name=raw_event.home_team_name,
+        away_name=raw_event.away_team_name,
+        title=raw_event.title,
+        lst_events=lst_list,
+    )
+
     broadcasters = get_event_broadcasters(
         raw_event=raw_event,
         liveonsat_match=liveonsat_match,
         sky_serie_c_map=sky_serie_c_map,
+        livesoccertv_match=livesoccertv_match,
     )
 
     channel_ids: list[str] = []
 
+    sources = []
     if liveonsat_match is not None:
-        print(
-            "[EVENT] "
-            f"{raw_event.title} -> "
-            "LiveOnSat: "
-            f"{', '.join(broadcasters) if broadcasters else 'nessun broadcaster'}"
-        )
-    else:
-        print(
-            "[EVENT] "
-            f"{raw_event.title} -> "
-            "nessuna corrispondenza LiveOnSat"
-        )
+        sources.append("LiveOnSat")
+    if livesoccertv_match is not None:
+        sources.append("LiveSoccerTV")
+    if getattr(raw_event, "broadcasts", None):
+        sources.append("ESPN")
+    src_label = "+".join(sources) if sources else "nessuna fonte TV"
+    print(
+        "[EVENT] "
+        f"{raw_event.title} -> "
+        f"{src_label}: "
+        f"{', '.join(broadcasters) if broadcasters else 'nessun broadcaster'}"
+    )
 
     if broadcasters:
         channel_matches = match_broadcasters(
@@ -759,6 +788,14 @@ def build_events_document(
         print(f"[SKY SERIE C] Mappa canali non disponibile: {error}")
         sky_serie_c_map = {}
 
+    # LiveSoccerTV — seconda fonte programmazione
+    livesoccertv_list: list = []
+    try:
+        livesoccertv_list = fetch_livesoccertv_events()
+    except Exception as error:
+        print(f"[LIVESOCCERTV] Non disponibile: {error}")
+        livesoccertv_list = []
+
     competitions: dict[
         str,
         BuiltCompetition,
@@ -815,6 +852,7 @@ def build_events_document(
             liveonsat_events=liveonsat_list,
             channels=channels_list,
             sky_serie_c_map=sky_serie_c_map,
+            livesoccertv_events=livesoccertv_list,
         )
 
         events.append(
