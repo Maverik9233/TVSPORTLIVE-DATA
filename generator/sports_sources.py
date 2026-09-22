@@ -200,6 +200,49 @@ SOCCER_COMPETITIONS = (
         name="MLS",
     ),
     SourceCompetition(
+        key="serie_a_women",
+        sport="FOOTBALL",
+        league="ita.w.1",
+        name="Serie A Femminile",
+    ),
+    SourceCompetition(
+        key="wsl",
+        sport="FOOTBALL",
+        league="eng.w.1",
+        name="Women's Super League",
+    ),
+    SourceCompetition(
+        key="liga_f",
+        sport="FOOTBALL",
+        league="esp.w.1",
+        name="Liga F",
+    ),
+    SourceCompetition(
+        key="frauen_bundesliga",
+        sport="FOOTBALL",
+        league="ger.w.1",
+        name="Frauen-Bundesliga",
+    ),
+    SourceCompetition(
+        key="premiere_ligue_f",
+        sport="FOOTBALL",
+        league="fra.w.1",
+        name="Première Ligue",
+    ),
+    SourceCompetition(
+        key="nwsl",
+        sport="FOOTBALL",
+        league="usa.nwsl",
+        name="NWSL",
+    ),
+    SourceCompetition(
+        key="uwcl",
+        sport="FOOTBALL",
+        league="uefa.wchampions",
+        name="UWCL",
+    ),
+
+    SourceCompetition(
         key="liga_mx",
         sport="FOOTBALL",
         league="mex.1",
