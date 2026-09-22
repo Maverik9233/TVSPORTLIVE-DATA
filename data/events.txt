@@ -1,7 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T19:35:10Z",
+  "generatedAt": "2026-09-22T22:24:56Z",
   "competitions": [
+    {
+      "id": "formula_1",
+      "name": "Formula 1",
+      "sport": "FORMULA_1",
+      "country": null,
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 100
+    },
     {
       "id": "atp",
       "name": "ATP",
@@ -57,6 +66,42 @@
       "priority": 50
     },
     {
+      "id": "liga_1_peru",
+      "name": "Liga 1 Perú",
+      "sport": "FOOTBALL",
+      "country": null,
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 50
+    },
+    {
+      "id": "liga_betplay",
+      "name": "Liga BetPlay",
+      "sport": "FOOTBALL",
+      "country": null,
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 50
+    },
+    {
+      "id": "uefa_u21_qual",
+      "name": "Qual. Europeo U21",
+      "sport": "FOOTBALL",
+      "country": null,
+      "countryFlagUrl": "https://flagcdn.com/w40/eu.png",
+      "logoUrl": "https://flagcdn.com/w40/eu.png",
+      "priority": 50
+    },
+    {
+      "id": "uefa_nations_league",
+      "name": "UEFA Nations League",
+      "sport": "FOOTBALL",
+      "country": null,
+      "countryFlagUrl": "https://flagcdn.com/w40/eu.png",
+      "logoUrl": "https://flagcdn.com/w40/eu.png",
+      "priority": 50
+    },
+    {
       "id": "uwcl",
       "name": "UWCL",
       "sport": "FOOTBALL",
@@ -96,6 +141,22 @@
       "name": "A. Senica / M. Toma",
       "shortName": "A. Senica / M. Toma",
       "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_1",
+      "name": "Adelaide 36ers",
+      "shortName": "36ers",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nbl/500/adl.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_21314",
+      "name": "ADT",
+      "shortName": "ADT",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21314.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -172,6 +233,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_8109",
+      "name": "América de Cali",
+      "shortName": "América Cali",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_7816",
       "name": "Anastasia Gasanova",
       "shortName": "A. Gasanova",
@@ -192,6 +261,14 @@
       "name": "Anastasia Zakharova",
       "shortName": "A. Zakharova",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/rus.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_587",
+      "name": "Andorra",
+      "shortName": "Andorra",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/and.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -220,14 +297,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_19973",
-      "name": "Arsenal",
-      "shortName": "Arsenal",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_20",
       "name": "Atlanta Dream",
       "shortName": "Dream",
@@ -236,10 +305,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_5264",
+      "name": "Atlético Nacional",
+      "shortName": "Atl. Nacional",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_5160",
       "name": "Aurora Zantedeschi",
       "shortName": "A. Zantedeschi",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_474",
+      "name": "Austria",
+      "shortName": "Austria",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -284,18 +369,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_20103",
-      "name": "Bayern Munich",
-      "shortName": "Bayern",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
+      "id": "espn_4209",
+      "name": "Belarus U21",
+      "shortName": "Belarus",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/blr.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_20830",
-      "name": "Benfica",
-      "shortName": "Benfica",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
+      "id": "espn_11669",
+      "name": "Belgium U21",
+      "shortName": "Belgium",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -312,22 +397,6 @@
       "name": "Bernard Tomic",
       "shortName": "B. Tomic",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_21124",
-      "name": "BK Häcken",
-      "shortName": "BK Häcken",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_2",
-      "name": "Brisbane Bullets",
-      "shortName": "Bullets",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nbl/500/bri.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -396,6 +465,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_658",
+      "name": "China",
+      "shortName": "China",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/chn.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_3372",
+      "name": "Cienciano del Cusco",
+      "shortName": "Cienciano",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3372.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_18",
       "name": "Connecticut Sun",
       "shortName": "Sun",
@@ -452,6 +537,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_479",
+      "name": "Denmark",
+      "shortName": "Denmark",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_2040",
       "name": "Donna Vekic",
       "shortName": "D. Vekic",
@@ -488,6 +581,14 @@
       "name": "E. Pridankina / A. Tikhonova",
       "shortName": "E. Pridankina / A. Tikhonova",
       "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_209",
+      "name": "Ecuador",
+      "shortName": "Ecuador",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -580,6 +681,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_481",
+      "name": "Germany",
+      "shortName": "Germany",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_16721",
       "name": "Gibraltar",
       "shortName": "Gibraltar",
@@ -600,6 +709,14 @@
       "name": "Golden State Valkyries",
       "shortName": "Valkyries",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_455",
+      "name": "Greece",
+      "shortName": "Greece",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -636,14 +753,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_21127",
-      "name": "HB Køge",
-      "shortName": "HB Køge",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_tennis_15260",
       "name": "Hu Jia",
       "shortName": "H. Jia",
@@ -676,10 +785,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_131635",
-      "name": "Internazionale",
-      "shortName": "Inter Milan",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
+      "id": "espn_469",
+      "name": "Iran",
+      "shortName": "Iran",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -692,10 +801,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_461",
+      "name": "Israel",
+      "shortName": "Israel",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/isr.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_3705-500",
       "name": "J. Garland / S. Hsieh",
       "shortName": "J. Garland / S. Hsieh",
       "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_627",
+      "name": "Japan",
+      "shortName": "Japan",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -752,14 +877,6 @@
       "name": "Julie Struplova",
       "shortName": "J. Struplova",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_20092",
-      "name": "Juventus",
-      "shortName": "Juventus",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20092.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -828,6 +945,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_18272",
+      "name": "Kosovo",
+      "shortName": "Kosovo",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kosovo.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_20926",
+      "name": "Kosovo U21",
+      "shortName": "Kosovo",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kos.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_6953",
       "name": "Lanlana Tararudee",
       "shortName": "L. Tararudee",
@@ -852,6 +985,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_589",
+      "name": "Liechtenstein",
+      "shortName": "Liechtenstein",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/lie.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_6929",
       "name": "Linda Fruhvirtova",
       "shortName": "L. Fruhvirtova",
@@ -864,6 +1005,14 @@
       "name": "Lisa Zaar",
       "shortName": "L. Zaar",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_460",
+      "name": "Lithuania",
+      "shortName": "Lithuania",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ltu.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -924,10 +1073,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_19257",
-      "name": "Manchester City",
-      "shortName": "Man City",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+      "id": "espn_453",
+      "name": "Malta",
+      "shortName": "Malta",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/mlt.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1020,6 +1169,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_5484",
+      "name": "Millonarios",
+      "shortName": "Millonarios",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_5352",
       "name": "Mina Hodzic",
       "shortName": "M. Hodzic",
@@ -1052,6 +1209,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_449",
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_4888",
+      "name": "New Caledonia",
+      "shortName": "New Caledonia",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ncd.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_9",
       "name": "New York Liberty",
       "shortName": "Liberty",
@@ -1060,10 +1233,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_2666",
+      "name": "New Zealand",
+      "shortName": "New Zealand",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_2498",
       "name": "Nikoloz Basilashvili",
       "shortName": "N. Basilashvili",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/geo.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_464",
+      "name": "Norway",
+      "shortName": "Norway",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1108,18 +1297,26 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_21640",
-      "name": "Paris FC",
-      "shortName": "Paris FC",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
+      "id": "espn_6167",
+      "name": "Palestine",
+      "shortName": "Palestine",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/pal.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_19258",
-      "name": "Paris Saint-Germain",
-      "shortName": "PSG",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+      "id": "espn_4885",
+      "name": "Papua New Guinea",
+      "shortName": "Papua New Guinea",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/png.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_21640",
+      "name": "Paris FC",
+      "shortName": "Paris FC",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1132,6 +1329,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_7",
+      "name": "Perth Wildcats",
+      "shortName": "Wildcats",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nbl/500/per.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_14190",
       "name": "Petr Bar Biryukov",
       "shortName": "P. Bar Biryukov",
@@ -1140,18 +1345,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_132052",
-      "name": "Portland Fire",
-      "shortName": "Fire",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png",
+      "id": "espn_11",
+      "name": "Phoenix Mercury",
+      "shortName": "Mercury",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_21128",
-      "name": "Real Madrid",
-      "shortName": "Real Madrid",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+      "id": "espn_482",
+      "name": "Portugal",
+      "shortName": "Portugal",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1176,6 +1381,14 @@
       "name": "Reese Brantmeier",
       "shortName": "R. Brantmeier",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_476",
+      "name": "Republic of Ireland",
+      "shortName": "Rep Ireland",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/irl.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1228,6 +1441,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_20943",
+      "name": "San Marino U21",
+      "shortName": "San Marino",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/smr.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_11808",
       "name": "Sao Tome and Principe",
       "shortName": "Sao Tome & P",
@@ -1256,6 +1477,14 @@
       "name": "Sebastian Baez",
       "shortName": "S. Baez",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_6757",
+      "name": "Serbia",
+      "shortName": "Serbia",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/sba.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1304,6 +1533,22 @@
       "name": "Sohyun Park",
       "shortName": "S. Park",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_4861",
+      "name": "Solomon Islands",
+      "shortName": "Solomon Islands",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/sol.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_451",
+      "name": "South Korea",
+      "shortName": "South Korea",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1388,10 +1633,34 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_212",
+      "name": "Uruguay",
+      "shortName": "Uruguay",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_2570",
+      "name": "Uzbekistan",
+      "shortName": "Uzbekistan",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_16688",
       "name": "Valentina Steiner",
       "shortName": "V. Steiner",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_4864",
+      "name": "Vanuatu",
+      "shortName": "Vanuatu",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/van.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1428,6 +1697,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_578",
+      "name": "Wales",
+      "shortName": "Wales",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_3387",
       "name": "Wang Xinyu",
       "shortName": "X. Wang",
@@ -1448,6 +1725,14 @@
       "name": "Weronika Falkowska",
       "shortName": "W. Falkowska",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_9762",
+      "name": "Águilas Doradas",
+      "shortName": "Águilas Doradas",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9762.png",
       "country": null,
       "countryFlagUrl": null
     }
@@ -1675,20 +1960,6 @@
       "status": "FINISHED",
       "homeScore": 2,
       "awayScore": 1,
-      "channels": []
-    },
-    {
-      "id": "espn_401875244",
-      "title": "New Zealand Breakers at Brisbane Bullets",
-      "sport": "BASKETBALL",
-      "competitionId": "nbl",
-      "homeTeamId": "espn_2",
-      "awayTeamId": "espn_6",
-      "startTime": "2026-09-22T09:30Z",
-      "endTime": "2026-09-22T12:00:00Z",
-      "status": "FINISHED",
-      "homeScore": 88,
-      "awayScore": 85,
       "channels": []
     },
     {
@@ -2140,38 +2411,6 @@
       "channels": []
     },
     {
-      "id": "espn_401917017",
-      "title": "BK Häcken at Internazionale",
-      "sport": "FOOTBALL",
-      "competitionId": "uwcl",
-      "homeTeamId": "espn_131635",
-      "awayTeamId": "espn_21124",
-      "startTime": "2026-09-22T16:45Z",
-      "endTime": "2026-09-22T18:45:00Z",
-      "status": "FINISHED",
-      "homeScore": 1,
-      "awayScore": 0,
-      "channels": [
-        "espn_us"
-      ]
-    },
-    {
-      "id": "espn_401917018",
-      "title": "Manchester City at Bayern Munich",
-      "sport": "FOOTBALL",
-      "competitionId": "uwcl",
-      "homeTeamId": "espn_20103",
-      "awayTeamId": "espn_19257",
-      "startTime": "2026-09-22T16:45Z",
-      "endTime": "2026-09-22T18:45:00Z",
-      "status": "FINISHED",
-      "homeScore": 2,
-      "awayScore": 2,
-      "channels": [
-        "tv8"
-      ]
-    },
-    {
       "id": "espn_tennis_wta_183883",
       "title": "Jennifer Ruggeri - Julia Grabher",
       "sport": "TENNIS",
@@ -2180,138 +2419,10 @@
       "awayTeamId": "espn_tennis_2599",
       "startTime": "2026-09-22T18:05:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 1,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": []
-    },
-    {
-      "id": "espn_401917015",
-      "title": "Benfica at Juventus",
-      "sport": "FOOTBALL",
-      "competitionId": "uwcl",
-      "homeTeamId": "espn_20092",
-      "awayTeamId": "espn_20830",
-      "startTime": "2026-09-22T19:00Z",
-      "endTime": "2026-09-22T21:00:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "espn_us"
-      ]
-    },
-    {
-      "id": "espn_401917016",
-      "title": "HB Køge at Arsenal",
-      "sport": "FOOTBALL",
-      "competitionId": "uwcl",
-      "homeTeamId": "espn_19973",
-      "awayTeamId": "espn_21127",
-      "startTime": "2026-09-22T19:00Z",
-      "endTime": "2026-09-22T21:00:00Z",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "tv8"
-      ]
-    },
-    {
-      "id": "espn_401917014",
-      "title": "Paris Saint-Germain at Real Madrid",
-      "sport": "FOOTBALL",
-      "competitionId": "uwcl",
-      "homeTeamId": "espn_21128",
-      "awayTeamId": "espn_19258",
-      "startTime": "2026-09-22T19:00Z",
-      "endTime": "2026-09-22T21:00:00Z",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 0,
-      "channels": [
-        "espn_us"
-      ]
-    },
-    {
-      "id": "espn_401857208",
-      "title": "Connecticut Sun at Washington Mystics",
-      "sport": "BASKETBALL",
-      "competitionId": "wnba",
-      "homeTeamId": "espn_16",
-      "awayTeamId": "espn_18",
-      "startTime": "2026-09-22T23:30Z",
-      "endTime": "2026-09-23T02:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "tv8"
-      ]
-    },
-    {
-      "id": "espn_401857209",
-      "title": "Minnesota Lynx at Indiana Fever",
-      "sport": "BASKETBALL",
-      "competitionId": "wnba",
-      "homeTeamId": "espn_5",
-      "awayTeamId": "espn_8",
-      "startTime": "2026-09-23T00:00Z",
-      "endTime": "2026-09-23T02:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "tv8",
-        "espn_us"
-      ]
-    },
-    {
-      "id": "espn_401857210",
-      "title": "Toronto Tempo at Chicago Sky",
-      "sport": "BASKETBALL",
-      "competitionId": "wnba",
-      "homeTeamId": "espn_19",
-      "awayTeamId": "espn_131935",
-      "startTime": "2026-09-23T00:00Z",
-      "endTime": "2026-09-23T02:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "tv8"
-      ]
-    },
-    {
-      "id": "espn_401857212",
-      "title": "Golden State Valkyries at Portland Fire",
-      "sport": "BASKETBALL",
-      "competitionId": "wnba",
-      "homeTeamId": "espn_132052",
-      "awayTeamId": "espn_129689",
-      "startTime": "2026-09-23T02:00Z",
-      "endTime": "2026-09-23T04:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": []
-    },
-    {
-      "id": "espn_401857211",
-      "title": "Los Angeles Sparks at Las Vegas Aces",
-      "sport": "BASKETBALL",
-      "competitionId": "wnba",
-      "homeTeamId": "espn_17",
-      "awayTeamId": "espn_6",
-      "startTime": "2026-09-23T02:00Z",
-      "endTime": "2026-09-23T04:30:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "tv8",
-        "espn_us"
-      ]
     },
     {
       "id": "espn_tennis_wta_184073",
@@ -2700,6 +2811,20 @@
       ]
     },
     {
+      "id": "espn_401886187",
+      "title": "Cienciano del Cusco at ADT",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_1_peru",
+      "homeTeamId": "espn_21314",
+      "awayTeamId": "espn_3372",
+      "startTime": "2026-09-23T20:00Z",
+      "endTime": "2026-09-23T22:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
       "id": "espn_401857213",
       "title": "Atlanta Dream at New York Liberty",
       "sport": "BASKETBALL",
@@ -2714,6 +2839,20 @@
       "channels": [
         "tv8"
       ]
+    },
+    {
+      "id": "espn_401877777",
+      "title": "Águilas Doradas at América de Cali",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_betplay",
+      "homeTeamId": "espn_8109",
+      "awayTeamId": "espn_9762",
+      "startTime": "2026-09-24T00:30Z",
+      "endTime": "2026-09-24T02:30:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
     },
     {
       "id": "espn_761543",
@@ -2738,6 +2877,412 @@
       "awayTeamId": "espn_3",
       "startTime": "2026-09-24T02:00Z",
       "endTime": "2026-09-24T04:30:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tv8"
+      ]
+    },
+    {
+      "id": "espn_401922311",
+      "title": "Vanuatu at Solomon Islands",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_4861",
+      "awayTeamId": "espn_4864",
+      "startTime": "2026-09-24T04:00Z",
+      "endTime": "2026-09-24T06:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401922332",
+      "title": "New Caledonia at Papua New Guinea",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_4885",
+      "awayTeamId": "espn_4888",
+      "startTime": "2026-09-24T07:00Z",
+      "endTime": "2026-09-24T09:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_600057444",
+      "title": "Qatar Airways Azerbaijan Grand Prix",
+      "sport": "FORMULA_1",
+      "competitionId": "formula_1",
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "startTime": "2026-09-24T08:30Z",
+      "endTime": "2026-09-26T11:00Z",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "espn_401875267",
+      "title": "Melbourne United at South East Melbourne Phoenix",
+      "sport": "BASKETBALL",
+      "competitionId": "nbl",
+      "homeTeamId": "espn_8",
+      "awayTeamId": "espn_5",
+      "startTime": "2026-09-24T09:30Z",
+      "endTime": "2026-09-24T12:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401920058",
+      "title": "New Zealand at Palestine",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_6167",
+      "awayTeamId": "espn_2666",
+      "startTime": "2026-09-24T09:30Z",
+      "endTime": "2026-09-24T11:30:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401905330",
+      "title": "Uruguay at Japan",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_627",
+      "awayTeamId": "espn_212",
+      "startTime": "2026-09-24T10:05Z",
+      "endTime": "2026-09-24T12:05:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401905196",
+      "title": "Ecuador at South Korea",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_451",
+      "awayTeamId": "espn_209",
+      "startTime": "2026-09-24T11:00Z",
+      "endTime": "2026-09-24T13:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401875245",
+      "title": "Adelaide 36ers at Perth Wildcats",
+      "sport": "BASKETBALL",
+      "competitionId": "nbl",
+      "homeTeamId": "espn_7",
+      "awayTeamId": "espn_1",
+      "startTime": "2026-09-24T11:30Z",
+      "endTime": "2026-09-24T14:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401914222",
+      "title": "Palestine at China",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_658",
+      "awayTeamId": "espn_6167",
+      "startTime": "2026-09-24T11:35Z",
+      "endTime": "2026-09-24T13:35:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401915914",
+      "title": "Iran at Uzbekistan",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_2570",
+      "awayTeamId": "espn_469",
+      "startTime": "2026-09-24T14:00Z",
+      "endTime": "2026-09-24T16:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401861047",
+      "title": "Malta at Andorra",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_nations_league",
+      "homeTeamId": "espn_587",
+      "awayTeamId": "espn_453",
+      "startTime": "2026-09-24T16:00Z",
+      "endTime": "2026-09-24T18:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_deutsch",
+        "sport_tv_2_portugal"
+      ]
+    },
+    {
+      "id": "espn_732409",
+      "title": "Belarus U21 at Belgium U21",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_u21_qual",
+      "homeTeamId": "espn_11669",
+      "awayTeamId": "espn_4209",
+      "startTime": "2026-09-24T18:00Z",
+      "endTime": "2026-09-24T20:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_732413",
+      "title": "Kosovo U21 at San Marino U21",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_u21_qual",
+      "homeTeamId": "espn_20943",
+      "awayTeamId": "espn_20926",
+      "startTime": "2026-09-24T18:30Z",
+      "endTime": "2026-09-24T20:30:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401861046",
+      "title": "Denmark at Norway",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_nations_league",
+      "homeTeamId": "espn_464",
+      "awayTeamId": "espn_479",
+      "startTime": "2026-09-24T18:45Z",
+      "endTime": "2026-09-24T20:45:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tv8",
+        "dazn_deutsch",
+        "supersport_football",
+        "bein_sports_mena",
+        "sportklub_2"
+      ]
+    },
+    {
+      "id": "espn_401861041",
+      "title": "Germany at Netherlands",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_nations_league",
+      "homeTeamId": "espn_449",
+      "awayTeamId": "espn_481",
+      "startTime": "2026-09-24T18:45Z",
+      "endTime": "2026-09-24T20:45:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sport_tv_2_portugal",
+        "bein_sports_mena",
+        "sportklub_1"
+      ]
+    },
+    {
+      "id": "espn_401861042",
+      "title": "Greece at Serbia",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_nations_league",
+      "homeTeamId": "espn_6757",
+      "awayTeamId": "espn_455",
+      "startTime": "2026-09-24T18:45Z",
+      "endTime": "2026-09-24T20:45:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_deutsch",
+        "bein_sports_mena",
+        "sportklub_1"
+      ]
+    },
+    {
+      "id": "espn_401861048",
+      "title": "Israel at Austria",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_nations_league",
+      "homeTeamId": "espn_474",
+      "awayTeamId": "espn_461",
+      "startTime": "2026-09-24T18:45Z",
+      "endTime": "2026-09-24T20:45:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_deutsch",
+        "bein_sports_mena"
+      ]
+    },
+    {
+      "id": "espn_401861043",
+      "title": "Lithuania at Liechtenstein",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_nations_league",
+      "homeTeamId": "espn_589",
+      "awayTeamId": "espn_460",
+      "startTime": "2026-09-24T18:45Z",
+      "endTime": "2026-09-24T20:45:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_deutsch",
+        "bein_sports_mena"
+      ]
+    },
+    {
+      "id": "espn_401861045",
+      "title": "Republic of Ireland at Kosovo",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_nations_league",
+      "homeTeamId": "espn_18272",
+      "awayTeamId": "espn_476",
+      "startTime": "2026-09-24T18:45Z",
+      "endTime": "2026-09-24T20:45:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_deutsch",
+        "supersport_action",
+        "bein_sports_mena"
+      ]
+    },
+    {
+      "id": "espn_401861044",
+      "title": "Wales at Portugal",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_nations_league",
+      "homeTeamId": "espn_482",
+      "awayTeamId": "espn_578",
+      "startTime": "2026-09-24T18:45Z",
+      "endTime": "2026-09-24T20:45:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_deutsch",
+        "bein_sports_mena",
+        "supersport_football"
+      ]
+    },
+    {
+      "id": "espn_401857215",
+      "title": "Toronto Tempo at Connecticut Sun",
+      "sport": "BASKETBALL",
+      "competitionId": "wnba",
+      "homeTeamId": "espn_18",
+      "awayTeamId": "espn_131935",
+      "startTime": "2026-09-24T23:00Z",
+      "endTime": "2026-09-25T01:30:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tv8",
+        "nba_tv"
+      ]
+    },
+    {
+      "id": "espn_401857216",
+      "title": "Chicago Sky at Washington Mystics",
+      "sport": "BASKETBALL",
+      "competitionId": "wnba",
+      "homeTeamId": "espn_16",
+      "awayTeamId": "espn_19",
+      "startTime": "2026-09-24T23:30Z",
+      "endTime": "2026-09-25T02:00:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tv8"
+      ]
+    },
+    {
+      "id": "espn_401857217",
+      "title": "Indiana Fever at Minnesota Lynx",
+      "sport": "BASKETBALL",
+      "competitionId": "wnba",
+      "homeTeamId": "espn_8",
+      "awayTeamId": "espn_5",
+      "startTime": "2026-09-25T00:00Z",
+      "endTime": "2026-09-25T02:30:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tv8"
+      ]
+    },
+    {
+      "id": "espn_401878053",
+      "title": "Millonarios at Atlético Nacional",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_betplay",
+      "homeTeamId": "espn_5264",
+      "awayTeamId": "espn_5484",
+      "startTime": "2026-09-25T00:30Z",
+      "endTime": "2026-09-25T02:30:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401857218",
+      "title": "Golden State Valkyries at Los Angeles Sparks",
+      "sport": "BASKETBALL",
+      "competitionId": "wnba",
+      "homeTeamId": "espn_6",
+      "awayTeamId": "espn_129689",
+      "startTime": "2026-09-25T02:00Z",
+      "endTime": "2026-09-25T04:30:00Z",
+      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tv8"
+      ]
+    },
+    {
+      "id": "espn_401857219",
+      "title": "Las Vegas Aces at Phoenix Mercury",
+      "sport": "BASKETBALL",
+      "competitionId": "wnba",
+      "homeTeamId": "espn_11",
+      "awayTeamId": "espn_17",
+      "startTime": "2026-09-25T02:00Z",
+      "endTime": "2026-09-25T04:30:00Z",
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
