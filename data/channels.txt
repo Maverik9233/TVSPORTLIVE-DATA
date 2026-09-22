@@ -4252,6 +4252,35 @@
   ]
 },
     {
+      "id": "viju+_sport",
+      "name": "Viju+ Sport",
+      "country": "RU",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Viju+ Sport HD",
+        "Viju+ Sport",
+        "viju+ Sport"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "viju+_sport_source_1",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2007/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        },
+     {
+          "id": "viju+_sport_source_2",
+          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/160/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
       "id": "fox_sports_australia",
       "name": "Fox Sports Australia",
       "country": "AU",
