@@ -107,6 +107,8 @@ def _event_to_dict(
         "startTime": event.start_time,
         "endTime": event.end_time,
         "status": event.status,
+        "homeLogoUrl": getattr(event, "home_logo_url", None),
+        "awayLogoUrl": getattr(event, "away_logo_url", None),
         "homeScore": event.home_score,
         "awayScore": event.away_score,
         "channels": list(
