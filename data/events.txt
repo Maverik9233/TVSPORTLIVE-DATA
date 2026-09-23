@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T15:07:05Z",
+  "generatedAt": "2026-09-23T16:38:03Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -2142,8 +2142,8 @@
       "awayTeamId": "espn_tennis_4438",
       "startTime": "2026-09-23T14:30:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -2164,8 +2164,8 @@
       "startTime": "2026-09-23T14:50:00Z",
       "endTime": null,
       "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2184,30 +2184,9 @@
       "awayTeamId": "espn_tennis_16558-440",
       "startTime": "2026-09-23T15:05:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_183910",
-      "title": "S. De Stefano / J. Pieri - E. Gorgodze / D. Papamichail",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_17107-3909",
-      "awayTeamId": "espn_tennis_2282-8068",
-      "startTime": "2026-09-23T15:10:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2224,11 +2203,81 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_16692-13779",
       "awayTeamId": "espn_tennis_6823-18673",
-      "startTime": "2026-09-23T15:30:00Z",
+      "startTime": "2026-09-23T16:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_401918083",
+      "title": "Sao Tome and Principe at Gibraltar",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_16721",
+      "awayTeamId": "espn_11808",
+      "startTime": "2026-09-23T16:00Z",
+      "endTime": "2026-09-23T18:00:00Z",
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_401898013",
+      "title": "Tajikistan at Azerbaijan",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_581",
+      "awayTeamId": "espn_6723",
+      "startTime": "2026-09-23T16:00Z",
+      "endTime": "2026-09-23T18:00:00Z",
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "espn_tennis_wta_183880",
+      "title": "Guiomar Maristany Zuleta De Reales - Marta Lombardini",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_12957",
+      "awayTeamId": "espn_tennis_17887",
+      "startTime": "2026-09-23T16:05:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_183910",
+      "title": "S. De Stefano / J. Pieri - E. Gorgodze / D. Papamichail",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_17107-3909",
+      "awayTeamId": "espn_tennis_2282-8068",
+      "startTime": "2026-09-23T16:10:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2245,7 +2294,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_15775-16295",
       "awayTeamId": "espn_tennis_5803-5976",
-      "startTime": "2026-09-23T16:00:00Z",
+      "startTime": "2026-09-23T16:35:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -2266,7 +2315,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_16142-19088",
       "awayTeamId": "espn_tennis_6124-6419",
-      "startTime": "2026-09-23T16:00:00Z",
+      "startTime": "2026-09-23T16:45:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -2278,59 +2327,6 @@
         "eurosport_2",
         "supertennis",
         "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_183880",
-      "title": "Guiomar Maristany Zuleta De Reales - Marta Lombardini",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_12957",
-      "awayTeamId": "espn_tennis_17887",
-      "startTime": "2026-09-23T16:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_401918083",
-      "title": "Sao Tome and Principe at Gibraltar",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly",
-      "homeTeamId": "espn_16721",
-      "awayTeamId": "espn_11808",
-      "startTime": "2026-09-23T16:00Z",
-      "endTime": "2026-09-23T18:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_deutschland"
-      ]
-    },
-    {
-      "id": "espn_401898013",
-      "title": "Tajikistan at Azerbaijan",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly",
-      "homeTeamId": "espn_581",
-      "awayTeamId": "espn_6723",
-      "startTime": "2026-09-23T16:00Z",
-      "endTime": "2026-09-23T18:00:00Z",
-      "status": "SCHEDULED",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_deutschland"
       ]
     },
     {
