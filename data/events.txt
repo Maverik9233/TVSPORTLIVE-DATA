@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T13:02:21Z",
+  "generatedAt": "2026-09-23T13:27:31Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -1911,8 +1911,8 @@
       "awayTeamId": "espn_tennis_8623-5160",
       "startTime": "2026-09-23T11:15:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 1,
       "channels": [
         "sky_sport_uno",
@@ -1932,8 +1932,8 @@
       "awayTeamId": "espn_tennis_3093",
       "startTime": "2026-09-23T11:35:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -1955,7 +1955,7 @@
       "endTime": null,
       "status": "LIVE",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2018,7 +2018,7 @@
       "endTime": null,
       "status": "LIVE",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2058,9 +2058,9 @@
       "awayTeamId": "espn_tennis_2204-4109",
       "startTime": "2026-09-23T13:05:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2079,9 +2079,9 @@
       "awayTeamId": "espn_tennis_19088",
       "startTime": "2026-09-23T13:05:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2100,9 +2100,9 @@
       "awayTeamId": "espn_tennis_2736-5461",
       "startTime": "2026-09-23T13:05:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -3102,7 +3102,10 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "sky_sport_uno"
+        "sky_sport_uno",
+        "sport_tv_2_portugal",
+        "bein_sports_mena",
+        "sportklub_1"
       ]
     },
     {
@@ -3171,7 +3174,11 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "dazn_deutsch",
+        "supersport_action",
+        "bein_sports_mena"
+      ]
     },
     {
       "id": "espn_401861044",
@@ -3185,7 +3192,11 @@
       "status": "SCHEDULED",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "dazn_deutsch",
+        "bein_sports_mena",
+        "supersport_football"
+      ]
     },
     {
       "id": "espn_401857215",
