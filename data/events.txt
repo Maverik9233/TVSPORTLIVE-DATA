@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T10:16:15Z",
+  "generatedAt": "2026-09-23T13:02:21Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -132,7 +132,7 @@
       "id": "espn_tennis_3217-1848",
       "name": "A. Detiuc / I. Khromacheva",
       "shortName": "A. Detiuc / I. Khromacheva",
-      "logoUrl": null,
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -505,6 +505,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_tennis_12295-2050",
+      "name": "E. Chong / E. Hozumi",
+      "shortName": "E. Chong / E. Hozumi",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_tennis_2282-8068",
       "name": "E. Gorgodze / D. Papamichail",
       "shortName": "E. Gorgodze / D. Papamichail",
@@ -653,6 +661,14 @@
       "name": "Hugo Gaston",
       "shortName": "H. Gaston",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_tennis_4432-2751",
+      "name": "I. Gamarra Martins / R. Zarazua",
+      "shortName": "I. Gamarra Martins / R. Zarazua",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1623,9 +1639,9 @@
       "awayTeamId": "espn_tennis_7509",
       "startTime": "2026-09-23T08:20:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 1,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -1644,8 +1660,8 @@
       "awayTeamId": "espn_tennis_2660-3888",
       "startTime": "2026-09-23T08:55:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -1686,9 +1702,9 @@
       "awayTeamId": "espn_10",
       "startTime": "2026-09-23T09:30Z",
       "endTime": "2026-09-23T12:00:00Z",
-      "status": "LIVE",
-      "homeScore": 42,
-      "awayScore": 37,
+      "status": "FINISHED",
+      "homeScore": 93,
+      "awayScore": 87,
       "channels": [
         "sky_sport_uno",
         "sky_sport_basket",
@@ -1706,9 +1722,9 @@
       "awayTeamId": "espn_tennis_3583-2916",
       "startTime": "2026-09-23T09:35:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -1727,9 +1743,9 @@
       "awayTeamId": "espn_tennis_2669-4529",
       "startTime": "2026-09-23T10:05:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -1748,9 +1764,9 @@
       "awayTeamId": "espn_tennis_8699-11452",
       "startTime": "2026-09-23T10:05:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -1769,8 +1785,8 @@
       "awayTeamId": "espn_tennis_18499-18973",
       "startTime": "2026-09-23T10:05:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -1790,9 +1806,9 @@
       "awayTeamId": "espn_tennis_2984",
       "startTime": "2026-09-23T10:05:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -1811,9 +1827,9 @@
       "awayTeamId": "espn_tennis_3490",
       "startTime": "2026-09-23T10:05:00Z",
       "endTime": null,
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -1832,9 +1848,9 @@
       "awayTeamId": "espn_tennis_17104",
       "startTime": "2026-09-23T10:05:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -1852,6 +1868,174 @@
       "homeTeamId": "espn_tennis_19076-16684",
       "awayTeamId": "espn_tennis_19091-19075",
       "startTime": "2026-09-23T10:10:00Z",
+      "endTime": null,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_184095",
+      "title": "Mirra Andreeva - Aliaksandra Sasnovich",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_9820",
+      "awayTeamId": "espn_tennis_1809",
+      "startTime": "2026-09-23T10:35:00Z",
+      "endTime": null,
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_183905",
+      "title": "A. Moratelli / J. Ruggeri - L. Zaar / A. Zantedeschi",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_4295-13529",
+      "awayTeamId": "espn_tennis_8623-5160",
+      "startTime": "2026-09-23T11:15:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 1,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_atp_183367",
+      "title": "Valentin Royer - Adam Walton",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_tennis_4022",
+      "awayTeamId": "espn_tennis_3093",
+      "startTime": "2026-09-23T11:35:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_183939",
+      "title": "Matilde Jorge - Sinja Kraus",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_14578",
+      "awayTeamId": "espn_tennis_7797",
+      "startTime": "2026-09-23T12:00:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_184094",
+      "title": "Alycia Parks - Leylah Fernandez",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_5309",
+      "awayTeamId": "espn_tennis_3641",
+      "startTime": "2026-09-23T12:10:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 1,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_184001",
+      "title": "Elena Pridankina - Ksenia Zaytseva",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_14946",
+      "awayTeamId": "espn_tennis_13737",
+      "startTime": "2026-09-23T12:10:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": 1,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_183962",
+      "title": "Ayana Akli - Gabriela Knutson",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_15775",
+      "awayTeamId": "espn_tennis_13314",
+      "startTime": "2026-09-23T12:15:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_183890",
+      "title": "Jessica Pieri - Leyre Romero Gormaz",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_3909",
+      "awayTeamId": "espn_tennis_10676",
+      "startTime": "2026-09-23T12:40:00Z",
       "endTime": null,
       "status": "LIVE",
       "homeScore": 0,
@@ -1872,196 +2056,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_2506-1809",
       "awayTeamId": "espn_tennis_2204-4109",
-      "startTime": "2026-09-23T10:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_184095",
-      "title": "Mirra Andreeva - Aliaksandra Sasnovich",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_9820",
-      "awayTeamId": "espn_tennis_1809",
-      "startTime": "2026-09-23T10:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_183905",
-      "title": "A. Moratelli / J. Ruggeri - L. Zaar / A. Zantedeschi",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_4295-13529",
-      "awayTeamId": "espn_tennis_8623-5160",
-      "startTime": "2026-09-23T11:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_183962",
-      "title": "Ayana Akli - Gabriela Knutson",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_15775",
-      "awayTeamId": "espn_tennis_13314",
-      "startTime": "2026-09-23T11:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_184001",
-      "title": "Elena Pridankina - Ksenia Zaytseva",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_14946",
-      "awayTeamId": "espn_tennis_13737",
-      "startTime": "2026-09-23T11:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_atp_183367",
-      "title": "Valentin Royer - Adam Walton",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_tennis_4022",
-      "awayTeamId": "espn_tennis_3093",
-      "startTime": "2026-09-23T11:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_184094",
-      "title": "Alycia Parks - Leylah Fernandez",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_5309",
-      "awayTeamId": "espn_tennis_3641",
-      "startTime": "2026-09-23T12:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_183939",
-      "title": "Matilde Jorge - Sinja Kraus",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_14578",
-      "awayTeamId": "espn_tennis_7797",
-      "startTime": "2026-09-23T12:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_183972",
-      "title": "W. Falkowska / A. Smith - V. Kuzmova / K. Kuzmova",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_8681-4720",
-      "awayTeamId": "espn_tennis_2736-5461",
-      "startTime": "2026-09-23T12:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_tennis",
-        "eurosport_1",
-        "eurosport_2",
-        "supertennis",
-        "tennis_channel"
-      ]
-    },
-    {
-      "id": "espn_tennis_wta_183890",
-      "title": "Jessica Pieri - Leyre Romero Gormaz",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_tennis_3909",
-      "awayTeamId": "espn_tennis_10676",
-      "startTime": "2026-09-23T12:30:00Z",
+      "startTime": "2026-09-23T13:05:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -2082,7 +2077,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_3141",
       "awayTeamId": "espn_tennis_19088",
-      "startTime": "2026-09-23T13:00:00Z",
+      "startTime": "2026-09-23T13:05:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -2097,13 +2092,13 @@
       ]
     },
     {
-      "id": "espn_tennis_wta_183930",
-      "title": "M. Bayerlova / J. Gimbrere - M. Brooks / L. Cabrera",
+      "id": "espn_tennis_wta_183972",
+      "title": "W. Falkowska / A. Smith - V. Kuzmova / K. Kuzmova",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_tennis_5197-10674",
-      "awayTeamId": "espn_tennis_16558-440",
-      "startTime": "2026-09-23T13:00:00Z",
+      "homeTeamId": "espn_tennis_8681-4720",
+      "awayTeamId": "espn_tennis_2736-5461",
+      "startTime": "2026-09-23T13:05:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -2124,6 +2119,27 @@
       "competitionId": "wta",
       "homeTeamId": "espn_tennis_19090-18479",
       "awayTeamId": "espn_tennis_4286-4629",
+      "startTime": "2026-09-23T13:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
+    },
+    {
+      "id": "espn_tennis_wta_183930",
+      "title": "M. Bayerlova / J. Gimbrere - M. Brooks / L. Cabrera",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_5197-10674",
+      "awayTeamId": "espn_tennis_16558-440",
       "startTime": "2026-09-23T13:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
@@ -2160,12 +2176,12 @@
       ]
     },
     {
-      "id": "espn_tennis_wta_183933",
-      "title": "A. Akli / A. Voloshchuk - A. Arseneault / R. Lacasse",
+      "id": "espn_tennis_wta_184004",
+      "title": "Shi Han - Ayla Aksu",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_tennis_15775-16295",
-      "awayTeamId": "espn_tennis_5803-5976",
+      "homeTeamId": "espn_tennis_15426",
+      "awayTeamId": "espn_tennis_3185",
       "startTime": "2026-09-23T14:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
@@ -2181,13 +2197,13 @@
       ]
     },
     {
-      "id": "espn_tennis_wta_184004",
-      "title": "Shi Han - Ayla Aksu",
+      "id": "espn_tennis_wta_183933",
+      "title": "A. Akli / A. Voloshchuk - A. Arseneault / R. Lacasse",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_tennis_15426",
-      "awayTeamId": "espn_tennis_3185",
-      "startTime": "2026-09-23T14:30:00Z",
+      "homeTeamId": "espn_tennis_15775-16295",
+      "awayTeamId": "espn_tennis_5803-5976",
+      "startTime": "2026-09-23T15:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -2553,6 +2569,27 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": []
+    },
+    {
+      "id": "espn_tennis_wta_184025",
+      "title": "I. Gamarra Martins / R. Zarazua - E. Chong / E. Hozumi",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_tennis_4432-2751",
+      "awayTeamId": "espn_tennis_12295-2050",
+      "startTime": "2026-09-24T04:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_tennis",
+        "eurosport_1",
+        "eurosport_2",
+        "supertennis",
+        "tennis_channel"
+      ]
     },
     {
       "id": "espn_tennis_atp_183354",
@@ -3000,8 +3037,6 @@
       "awayScore": 0,
       "channels": [
         "dazn_deutsch",
-        "dazn_spain",
-        "dazn_deutschland",
         "sport_tv_2_portugal"
       ]
     },
@@ -3048,11 +3083,10 @@
       "channels": [
         "tv8",
         "dazn_deutsch",
-        "dazn_spain",
         "supersport_football",
-        "dazn_deutschland",
         "bein_sports_mena",
-        "sportklub_2"
+        "sportklub_2",
+        "fox_sports_1_usa"
       ]
     },
     {
@@ -3068,7 +3102,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "dazn_spain"
+        "sky_sport_uno"
       ]
     },
     {
@@ -3085,8 +3119,6 @@
       "awayScore": 0,
       "channels": [
         "dazn_deutsch",
-        "dazn_spain",
-        "dazn_deutschland",
         "bein_sports_mena",
         "sportklub_1"
       ]
@@ -3104,9 +3136,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "sky_sport_uno",
         "dazn_deutsch",
-        "dazn_spain",
-        "dazn_deutschland",
         "bein_sports_mena"
       ]
     },
@@ -3123,9 +3154,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "sky_sport_uno",
         "dazn_deutsch",
-        "dazn_spain",
-        "dazn_deutschland",
         "bein_sports_mena"
       ]
     },
