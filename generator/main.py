@@ -10,6 +10,7 @@ from json_writer import write_all
 from live_builder import build_live
 from liveonsat import get_liveonsat_events
 from sports_sources import fetch_all_events
+from team_logo_cache import ingest_raw_events
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -46,6 +47,13 @@ def run() -> None:
         "Eventi sportivi recuperati: "
         f"{len(raw_events)}"
     )
+
+    print()
+    print("[2b/6] Aggiornamento cache loghi squadre...")
+    try:
+        ingest_raw_events(raw_events)
+    except Exception as error:
+        print(f"[LOGOS] Cache non aggiornata: {error}")
 
     if not raw_events:
         raise RuntimeError(
