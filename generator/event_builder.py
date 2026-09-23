@@ -83,6 +83,10 @@ class BuiltEvent:
 
     channels: tuple[str, ...]
 
+    # Stemmi diretti sull'evento (app non dipende solo da teams[])
+    home_logo_url: str | None = None
+    away_logo_url: str | None = None
+
 
 @dataclass(frozen=True)
 class BuiltEventsDocument:
@@ -756,6 +760,17 @@ def build_event(
         team_name=raw_event.away_team_name,
     )
 
+    home_logo = resolve_team_logo(
+        team_name=raw_event.home_team_name,
+        existing_logo=raw_event.home_team_logo,
+        team_id=home_team_id or raw_event.home_team_id,
+    )
+    away_logo = resolve_team_logo(
+        team_name=raw_event.away_team_name,
+        existing_logo=raw_event.away_team_logo,
+        team_id=away_team_id or raw_event.away_team_id,
+    )
+
     return BuiltEvent(
         id=build_event_id(
             raw_event
@@ -773,6 +788,8 @@ def build_event(
         channels=tuple(
             channel_ids
         ),
+        home_logo_url=home_logo,
+        away_logo_url=away_logo,
     )
 
 
@@ -903,6 +920,26 @@ def build_events_document(
             item.title.casefold(),
         )
     )
+
+    
+    # Riempi loghi mancanti sulle squadre (cache diretta.it)
+    for tid, team in list(teams.items()):
+        if team.logo_url:
+            continue
+        logo = resolve_team_logo(
+            team_name=team.name,
+            existing_logo=None,
+            team_id=tid,
+        )
+        if logo:
+            teams[tid] = BuiltTeam(
+                id=team.id,
+                name=team.name,
+                short_name=team.short_name,
+                logo_url=logo,
+                country=team.country,
+                country_flag_url=team.country_flag_url,
+            )
 
     return BuiltEventsDocument(
         version=JSON_VERSION,
