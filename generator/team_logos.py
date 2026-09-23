@@ -40,10 +40,18 @@ def resolve_team_logo(
 
     if team_id:
         raw = team_id.strip()
+        if raw.lower().startswith("sofascore_") or (
+            not raw.lower().startswith("espn_") and False
+        ):
+            url = sofascore_team_image_url(raw)
+            if url:
+                remember_logo(cache, team_id, team_name, url)
+                return url
         if not raw.lower().startswith("espn_tennis_"):
             if raw.lower().startswith("espn_"):
                 raw = raw[5:]
             if raw.isdigit():
+                # ESPN solo come ultimo fallback numerico
                 url = espn_cdn(raw)
                 remember_logo(cache, team_id, team_name, url)
                 return url
@@ -61,3 +69,15 @@ def flush_logo_cache() -> None:
     global _CACHE
     if _CACHE is not None:
         save_cache(_CACHE)
+
+
+def sofascore_team_image_url(team_id: str | int | None) -> str | None:
+    """URL immagine SofaScore (funziona senza API key)."""
+    if team_id is None:
+        return None
+    tid = str(team_id).strip()
+    if tid.lower().startswith("sofascore_"):
+        tid = tid.split("_", 1)[-1]
+    if not tid.isdigit():
+        return None
+    return f"https://img.sofascore.com/api/v1/team/{tid}/image"
