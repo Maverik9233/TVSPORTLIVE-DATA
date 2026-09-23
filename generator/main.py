@@ -11,6 +11,7 @@ from live_builder import build_live
 from liveonsat import get_liveonsat_events
 from sports_sources import fetch_all_events
 from team_logo_cache import ingest_raw_events
+from diretta_logos_source import update_cache_from_diretta
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -49,11 +50,19 @@ def run() -> None:
     )
 
     print()
-    print("[2b/6] Aggiornamento cache loghi squadre...")
+    print("[2b/6] Loghi da diretta.it (Flashscore CDN)...")
+    try:
+        n = update_cache_from_diretta()
+        print(f"[LOGOS] Diretta: {n} stemmi in cache")
+    except Exception as error:
+        print(f"[LOGOS] Diretta non disponibile: {error}")
+
+    print()
+    print("[2c/6] Integrazione loghi dagli eventi...")
     try:
         ingest_raw_events(raw_events)
     except Exception as error:
-        print(f"[LOGOS] Cache non aggiornata: {error}")
+        print(f"[LOGOS] Cache eventi non aggiornata: {error}")
 
     if not raw_events:
         raise RuntimeError(
