@@ -424,6 +424,7 @@ def build_team(
         team_name=team_name,
         existing_logo=team_logo,
         competition_key=None,
+        team_id=final_id or team_id,
     )
 
     return BuiltTeam(
