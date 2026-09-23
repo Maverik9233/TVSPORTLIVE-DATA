@@ -3253,6 +3253,35 @@
       ]
     },
     {
+      "id": "futboltvtagikistan",
+      "name": "Futbol TV Tagikistan",
+      "country": "TJ",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "futboltvtagikistan",
+        "Futbol TV Tagikistan",
+        "Futbol TV Tagikistan HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "futboltvtagikistan_source_1",
+          "url": "https://iranlivetvs.com/futbol-tv-tajikistan-live/",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        },
+     {
+          "id": "viju+_sport_source_2",
+          "url": "https://atc.hopto.org/iran-Varzesh-Tajikistan-web/index.fmp4.m3u8?token=b6832e690c293878d5fcf361a09dfabcc0767a70-2cb151d621a67b154f2f66d1f9b81e17-1790185354-1790174554",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
       "id": "novasports_1",
       "name": "Nova Sports 1",
       "country": "GR",
