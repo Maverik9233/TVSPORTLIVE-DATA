@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T18:01:10Z",
+  "generatedAt": "2026-09-23T18:40:10Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -2372,7 +2372,7 @@
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": 1,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2391,11 +2391,11 @@
       "awayTeamId": "espn_19256",
       "startTime": "2026-09-23T16:45Z",
       "endTime": "2026-09-23T18:45:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
       "homeScore": 0,
-      "awayScore": 6,
+      "awayScore": 8,
       "channels": [
         "espn_us"
       ]
@@ -2409,7 +2409,7 @@
       "awayTeamId": "espn_21685",
       "startTime": "2026-09-23T16:45Z",
       "endTime": "2026-09-23T18:45:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131423.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
       "homeScore": 0,
@@ -2427,11 +2427,11 @@
       "awayTeamId": "espn_tennis_6124-6419",
       "startTime": "2026-09-23T17:10:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": 0,
-      "awayScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2450,11 +2450,11 @@
       "awayTeamId": "espn_tennis_13219",
       "startTime": "2026-09-23T18:05:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ser.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
