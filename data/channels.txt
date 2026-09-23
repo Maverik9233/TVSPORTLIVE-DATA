@@ -2954,6 +2954,28 @@
         }
       ]
     },
+
+    {
+      "id": "beinsports3",
+      "name": "Bein Sports 3 Malaysia",
+      "country": "MY",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "Bein Sports 3 Malaysia",
+        "Bein Sports 3 Malaysia HD"
+      ],
+      "enabled": true,
+      "sources": [
+    {
+          "id": "beinsports3_source_1",
+          "url": "https://surge-salt.app/videocdn/NS45MS4yMjUuMTc1fDE3OTAyMzEzNzF8L3ZpZGVvY2RuL2xwL3R2L2JlaW5zcG9ydHMzaWQvaW5kZXgubTN1OHxDZ2EwYTFpcnpMVmVpUnR6Um9NMnBYNGx5UnlzWGNaeS11WWN6dkJPX3Mw/lp/tv/beinsports3id/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "espn_international",
       "name": "ESPN International",
