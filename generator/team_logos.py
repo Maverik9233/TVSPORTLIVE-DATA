@@ -20,31 +20,55 @@ def _slug(value: str) -> str:
     return value.strip("_")
 
 
-# Fallback extra (oltre ESPN e Serie C).
-# Aggiungi man mano: slug → URL HTTPS pubblico.
 TEAM_LOGO_FALLBACK: dict[str, str] = {
-    # esempi / placeholder utili; amplia senza rimuovere
+    # amplia senza rimuovere
 }
+
+
+def espn_soccer_logo_url(team_id: str | None) -> str | None:
+    """Costruisce URL stemma ESPN da id numerico (club o nazionale)."""
+    if not team_id:
+        return None
+    raw = team_id.strip()
+    if not raw:
+        return None
+    # espn_347, 347, espn_tennis_… (skip tennis)
+    if raw.lower().startswith("espn_tennis_"):
+        return None
+    if raw.lower().startswith("espn_"):
+        raw = raw[5:]
+    if raw.isdigit():
+        return f"https://a.espncdn.com/i/teamlogos/soccer/500/{raw}.png"
+    return None
 
 
 def resolve_team_logo(
     team_name: str | None,
     existing_logo: str | None = None,
     competition_key: str | None = None,
+    team_id: str | None = None,
 ) -> str | None:
     """
     Priorità:
     1) logo già presente (ESPN / fonte)
-    2) mappa Serie C
-    3) mappa TEAM_LOGO_FALLBACK
+    2) CDN ESPN da id numerico (club + nazionali)
+    3) mappa Serie C
+    4) mappa TEAM_LOGO_FALLBACK
     """
     if existing_logo and existing_logo.strip():
-        return existing_logo.strip()
+        url = existing_logo.strip()
+        # forza https
+        if url.startswith("http://"):
+            url = "https://" + url[len("http://"):]
+        return url
+
+    espn = espn_soccer_logo_url(team_id)
+    if espn:
+        return espn
 
     if not team_name:
         return None
 
-    # Serie C (e nomi italiani generici in mappa)
     url = serie_c_logo(team_name)
     if url:
         return url
