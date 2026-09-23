@@ -1597,15 +1597,29 @@ def extract_logo(
             )
 
             if href:
+                if href.startswith("http://"):
+                    href = "https://" + href[len("http://"):]
                 return href
 
-    logo = team.get(
-        "logo"
+    logo = safe_string(
+        team.get(
+            "logo"
+        )
     )
+    if logo:
+        if logo.startswith("http://"):
+            logo = "https://" + logo[len("http://"):]
+        return logo
 
-    return safe_string(
-        logo
-    )
+    # Fallback: CDN ESPN da id squadra (club e nazionali)
+    tid = safe_string(team.get("id"))
+    if tid and tid.isdigit():
+        return (
+            "https://a.espncdn.com/i/teamlogos/soccer/500/"
+            f"{tid}.png"
+        )
+
+    return None
 
 
 # ============================================================
