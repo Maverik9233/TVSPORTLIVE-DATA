@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T18:40:10Z",
+  "generatedAt": "2026-09-23T19:04:24Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -2368,11 +2368,11 @@
       "awayTeamId": "espn_tennis_5803-5976",
       "startTime": "2026-09-23T16:35:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": 1,
-      "awayScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_tennis",
@@ -2473,7 +2473,7 @@
       "awayTeamId": "espn_131643",
       "startTime": "2026-09-23T19:00Z",
       "endTime": "2026-09-23T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
       "homeScore": 0,
@@ -2491,14 +2491,13 @@
       "awayTeamId": "espn_21640",
       "startTime": "2026-09-23T19:00Z",
       "endTime": "2026-09-23T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tv8",
-        "cbs_golazo"
+        "tv8"
       ]
     },
     {
