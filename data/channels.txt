@@ -35,8 +35,8 @@
         },
         {
           "id": "sky_sport_uno_source_3",
-          "url": "https://premium.hls.st/playlist/premium461.m3u8",
-          "type": "HLS",
+          "url": "https://livelive24.com/?channel=sky-sport-uno",
+          "type": "WEB",
           "enabled": false,
           "priority": 2
         }
@@ -67,14 +67,14 @@
         }, 
         {
           "id": "sky_sport_calcio_source_2",
-          "url": "https://www.htsport.org/calciohd.htm",
-          "type": "HLS",
+          "url": "https://livelive24.com/?channel=sky-sport-calcio",
+          "type": "WEB",
           "enabled": false,
           "priority": 2
         },
         {
           "id": "sky_sport_calcio_source_3",
-          "url": "https://dlive.sx/stream/stream-870.php",
+          "url": "https://www.htsport.org/calciohd.htm",
           "type": "WEB",
           "enabled": false,
           "priority": 2
@@ -238,7 +238,7 @@
         },
         {
           "id": "sky_sport_motogp_source_2",
-          "url": "https://premium.hls.st/playlist/premium575.m3u8",
+          "url": "https://livelive24.com/?channel=sky-sport-motogp",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -267,7 +267,7 @@
       "sources": [
         {
           "id": "sky_sport_tennis_source_1",
-          "url": "https://premium.hls.st/playlist/premium576.m3u8",
+          "url": "https://livelive24.com/?channel=sky-sport-tennis-it",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -302,7 +302,7 @@
       "sources": [
         {
           "id": "sky_sport_basket_source_1",
-          "url": "https://premium.hls.st/playlist/premium875.m3u8",
+          "url": "https://livelive24.com/?channel=sky-sport-nba-it",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -310,6 +310,13 @@
         {
           "id": "sky_sport_basket_source_2",
           "url": "https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI4NzUiLCJ0cyI6MTc4OTU2NzIxNTc5N30",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
+        },
+       {
+          "id": "sky_sport_basket_source_3",
+          "url": "https://www.htsport.org/basket.htm",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
