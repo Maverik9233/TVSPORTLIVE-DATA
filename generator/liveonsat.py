@@ -420,10 +420,13 @@ def looks_like_broadcaster(line: str) -> bool:
         "return nd",
     )
 
-    # Le righe CAPTION contengono il nome canale: lasciamole passare
-    # (normalize_broadcaster le pulisce).
-    if "caption" in lower and ("sky" in lower or "rai" in lower or "dazn" in lower or "now" in lower or "sport" in lower):
-        return True
+    # CAPTION/onmouse*: contengono il nome canale + JS.
+    # Se normalize_broadcaster estrae un nome valido → è un broadcaster.
+    if "caption" in lower or "onmouseover" in lower or "onmouseout" in lower:
+        cleaned = normalize_broadcaster(line)
+        if cleaned and len(cleaned) >= 3:
+            return True
+        return False
 
     if any(item in lower for item in blocked):
         return False
