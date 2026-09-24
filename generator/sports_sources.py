@@ -8,11 +8,36 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from serie_c_source import fetch_serie_c_events
-from diretta_serie_c_source import fetch_diretta_serie_c_events
-from diretta_tennis_source import fetch_diretta_tennis_events
-from tennis_cup_source import fetch_tennis_cup_events
-from motogp_source import fetch_motogp_events
+try:
+    from serie_c_source import fetch_serie_c_events
+except ImportError:
+    def fetch_serie_c_events():
+        return []
+
+try:
+    from diretta_serie_c_source import fetch_diretta_serie_c_events
+except ImportError:
+    def fetch_diretta_serie_c_events():
+        return []
+
+try:
+    from diretta_tennis_source import fetch_diretta_tennis_events
+except ImportError:
+    def fetch_diretta_tennis_events():
+        print("[TENNIS] diretta_tennis_source.py mancante — skip")
+        return []
+
+try:
+    from tennis_cup_source import fetch_tennis_cup_events
+except ImportError:
+    def fetch_tennis_cup_events():
+        return []
+
+try:
+    from motogp_source import fetch_motogp_events
+except ImportError:
+    def fetch_motogp_events():
+        return []
 
 from config import (
     REQUEST_TIMEOUT_SECONDS,
