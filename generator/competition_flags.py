@@ -64,6 +64,8 @@ _COMPETITION_FLAG_CODE: dict[str, str] = {
     "fifa_club_world_cup": "UN",
     "formula_1": "UN",
     "motogp": "UN",
+    "bjk_cup": "EU",
+    "davis_cup": "EU",
     "atp": "UN",
     "wta": "UN",
     "nba": "US",
