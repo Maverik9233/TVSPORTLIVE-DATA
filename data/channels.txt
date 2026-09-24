@@ -21,14 +21,14 @@
       "sources": [
         {
           "id": "sky_sport_uno_source_1",
-          "url": "https://dlive.sx/stream/stream-461.php",
+          "url": "https://www.htsport.org/uno.htm",
           "type": "WEB",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_uno_source_2",
-          "url": "",
+          "url": "https://www.htsport.org/unohd.htm",
           "type": "WEB",
           "enabled": false,
           "priority": 2
@@ -60,14 +60,14 @@
       "sources": [
         {
           "id": "sky_sport_calcio_source_1",
-          "url": "https://dlive.sx/stream/stream-870.php",
+          "url": "https://www.htsport.org/calcio.htm",
           "type": "WEB",
           "enabled": true,
           "priority": 1
         }, 
         {
           "id": "sky_sport_calcio_source_2",
-          "url": "https://premium.hls.st/playlist/premium870.m3u8",
+          "url": "https://www.htsport.org/calciohd.htm",
           "type": "HLS",
           "enabled": false,
           "priority": 2
@@ -368,14 +368,14 @@
       "sources": [
         {
           "id": "sky_sport_max_source_1",
-          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19128/index.m3u8",
+          "url": "https://www.htsport.org/max.htm",
           "type": "HLS",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_max_source_2",
-          "url": "https://dlive.sx/stream/stream-460.php",
+          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19128/index.m3u8",
           "type": "WEB",
           "enabled": false,
           "priority": 2
