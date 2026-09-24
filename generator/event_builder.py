@@ -23,6 +23,7 @@ from config import (
 from liveonsat import (
     LiveOnSatEvent,
     event_titles_match,
+    title_match_score,
 )
 from sports_sources import RawEvent
 from sky_serie_c_channels import (
@@ -453,35 +454,33 @@ def get_matching_liveonsat_event(
     raw_event: RawEvent,
     liveonsat_events: Iterable[LiveOnSatEvent],
 ) -> LiveOnSatEvent | None:
+    """
+    Abbinamento stretto titolo + orario.
+    A parità di orario (es. due Nations League 20:45) vince il
+    punteggio titolo, così i canali non si scambiano tra partite.
+    """
+    from liveonsat import title_match_score
 
-    candidates = list(
-        liveonsat_events
-    )
+    best: LiveOnSatEvent | None = None
+    best_key: tuple[int, int] | None = None  # (-score, time_diff)
 
-    exact_matches: list[
-        LiveOnSatEvent
-    ] = []
+    for candidate in liveonsat_events:
+        score = title_match_score(raw_event.title, candidate.title)
+        if score < 80:
+            continue
+        tdiff = time_difference_seconds(
+            raw_event.start_time,
+            candidate.start_time,
+        )
+        # scarta se orario dista più di 45 minuti
+        if tdiff > 45 * 60:
+            continue
+        key = (-score, tdiff)
+        if best_key is None or key < best_key:
+            best_key = key
+            best = candidate
 
-    for candidate in candidates:
-        if event_titles_match(
-            raw_event.title,
-            candidate.title,
-        ):
-            exact_matches.append(
-                candidate
-            )
-
-    if not exact_matches:
-        return None
-
-    return min(
-        exact_matches,
-        key=lambda candidate:
-            time_difference_seconds(
-                raw_event.start_time,
-                candidate.start_time,
-            ),
-    )
+    return best
 
 
 def time_difference_seconds(
