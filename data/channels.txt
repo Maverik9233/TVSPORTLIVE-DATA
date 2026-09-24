@@ -21,14 +21,14 @@
       "sources": [
         {
           "id": "sky_sport_uno_source_1",
-          "url": "https://dlive.sx/stream/stream-461.php",
+          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://dlive.sx/stream/stream-461.php",
           "type": "WEB",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_uno_source_2",
-          "url": "https://htsport.org/sportuno.htm",
+          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://htsport.org/sportuno.htm",
           "type": "WEB",
           "enabled": false,
           "priority": 2
