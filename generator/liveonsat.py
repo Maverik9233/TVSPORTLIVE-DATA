@@ -779,7 +779,7 @@ def deduplicate_liveonsat_events(
 # ============================================================
 
 def _team_parts_match(first: str, second: str) -> bool:
-    """Confronta due nomi squadra ignorando differenze minori."""
+    """Confronta due nomi squadra in modo stretto (niente falsi match tra nazionali)."""
     a = normalize_text(first).casefold()
     b = normalize_text(second).casefold()
 
@@ -789,88 +789,58 @@ def _team_parts_match(first: str, second: str) -> bool:
     if a == b:
         return True
 
-    if a in b or b in a:
-        return True
+    # Contenance solo se la stringa corta e lunga abbastanza (>= 5)
+    # es. "inter" in "inter milan", NON "den" in "netherlands"
+    shorter, longer = (a, b) if len(a) <= len(b) else (b, a)
+    if len(shorter) >= 5 and shorter in longer:
+        padded = f" {longer} "
+        if (
+            f" {shorter} " in padded
+            or longer.startswith(shorter + " ")
+            or longer.endswith(" " + shorter)
+        ):
+            return True
 
-    a_tokens = set(re.findall(r"[a-z0-9]+", a))
-    b_tokens = set(re.findall(r"[a-z0-9]+", b))
+    a_tokens = {tok for tok in re.findall(r"[a-z0-9]+", a) if len(tok) >= 4}
+    b_tokens = {tok for tok in re.findall(r"[a-z0-9]+", b) if len(tok) >= 4}
 
     if not a_tokens or not b_tokens:
         return False
 
-    # Evita falsi positivi con token troppo generici.
-    meaningful_a = {token for token in a_tokens if len(token) >= 3}
-    meaningful_b = {token for token in b_tokens if len(token) >= 3}
-
-    if not meaningful_a or not meaningful_b:
+    common = a_tokens & b_tokens
+    if not common:
         return False
 
-    common = meaningful_a & meaningful_b
+    # Un token in comune non basta se le squadre hanno nomi diversi
+    # (es. nessun overlap tra norway e netherlands).
+    return a_tokens <= b_tokens or b_tokens <= a_tokens
 
-    return (
-        len(common) >= 1
-        and (
-            common == meaningful_a
-            or common == meaningful_b
-            or len(common) >= 2
-        )
-    )
+
+def title_match_score(first: str, second: str) -> int:
+    """0 = no match, 100 = identico, 80 = ordine invertito, 60 = parti ok."""
+    a = normalize_event_title(first)
+    b = normalize_event_title(second)
+    if not a or not b:
+        return 0
+    if a == b:
+        return 100
+    a_parts = [p.strip() for p in a.split("-") if p.strip()]
+    b_parts = [p.strip() for p in b.split("-") if p.strip()]
+    if len(a_parts) != 2 or len(b_parts) != 2:
+        return 0
+    if _team_parts_match(a_parts[0], b_parts[0]) and _team_parts_match(a_parts[1], b_parts[1]):
+        return 90
+    if _team_parts_match(a_parts[0], b_parts[1]) and _team_parts_match(a_parts[1], b_parts[0]):
+        return 80
+    return 0
 
 
 def event_titles_match(
     first: str,
     second: str,
 ) -> bool:
-    """
-    Confronta i titoli degli eventi anche quando le due fonti
-    usano l'ordine inverso delle squadre.
-
-    Esempio:
-        ESPN:       "AFC Bournemouth at Real Sociedad"
-        LiveOnSat:  "Real Sociedad v Bournemouth"
-    """
-    a = normalize_event_title(first)
-    b = normalize_event_title(second)
-
-    if not a or not b:
-        return False
-
-    if a == b:
-        return True
-
-    # Niente match per sottostringa ("milan" in "inter milan"):
-    # troppo largo e attaccava canali sbagliati.
-
-    a_parts = [
-        part.strip()
-        for part in a.split("-")
-        if part.strip()
-    ]
-
-    b_parts = [
-        part.strip()
-        for part in b.split("-")
-        if part.strip()
-    ]
-
-    if len(a_parts) != 2 or len(b_parts) != 2:
-        return False
-
-    # Ordine normale: casa -> trasferta.
-    if (
-        _team_parts_match(a_parts[0], b_parts[0])
-        and _team_parts_match(a_parts[1], b_parts[1])
-    ):
-        return True
-
-    # Ordine invertito tra le due fonti.
-    if (
-        _team_parts_match(a_parts[0], b_parts[1])
-        and _team_parts_match(a_parts[1], b_parts[0])
-    ):
-        return True
-
-    return False
+    """True se le due fonti descrivono la stessa partita (anche ordine invertito)."""
+    return title_match_score(first, second) >= 80
 
 def find_broadcasters_for_event(
     event_title: str,
