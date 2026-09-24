@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 from serie_c_source import fetch_serie_c_events
 from diretta_serie_c_source import fetch_diretta_serie_c_events
+from diretta_tennis_source import fetch_diretta_tennis_events
 from motogp_source import fetch_motogp_events
 
 from config import (
@@ -2789,16 +2790,27 @@ def fetch_all_events() -> list[RawEvent]:
             )
 
     # --------------------------------------------------------
-    # TENNIS ATP / WTA — partite singole (header ESPN)
+    # TENNIS — diretta.it (ATP, WTA, Challenger, ITF, BJK Cup…)
+    # ESPN header resta solo fallback se diretta fallisce.
     # --------------------------------------------------------
-    for competition in ALL_COMPETITIONS:
-        if competition.key not in {"atp", "wta"}:
-            continue
-        try:
-            tennis_events = fetch_tennis_header_events(competition)
-            all_events.extend(tennis_events)
-        except Exception as error:
-            print(f"[TENNIS] {competition.key} errore: {error}")
+    tennis_ok = False
+    try:
+        tennis_events = fetch_diretta_tennis_events()
+        all_events.extend(tennis_events)
+        tennis_ok = len(tennis_events) > 0
+        print(f"[TENNIS] diretta.it: {len(tennis_events)} incontri")
+    except Exception as error:
+        print(f"[TENNIS] diretta.it errore: {error}")
+
+    if not tennis_ok:
+        for competition in ALL_COMPETITIONS:
+            if competition.key not in {"atp", "wta"}:
+                continue
+            try:
+                tennis_events = fetch_tennis_header_events(competition)
+                all_events.extend(tennis_events)
+            except Exception as error:
+                print(f"[TENNIS] ESPN {competition.key} errore: {error}")
 
     # --------------------------------------------------------
     # SERIE C
