@@ -967,9 +967,7 @@
       "aliases": [
         "TV8.5 HD",
         "TV8.5 Türkiye",
-        "TV8.5",
-        "TV8.5 Turk",
-        "TV8.5 Turchia"
+        "TV8.5"
       ],
       "enabled": true,
       "sources": [
@@ -1389,7 +1387,6 @@
       "logoUrl": null,
       "aliases": [
         "TV8 HD",
-        "TV8 SD",
         "TV8 Italia HD",
         "TV8 Italia",
         "TV 8"
@@ -1552,33 +1549,37 @@
       ]
     },
     {
-      "id": "mediaset_infinity_sport",
-      "name": "Mediaset Infinity Sport",
-      "country": "IT",
-      "priority": 36,
+      "id": "rtl_de",
+      "name": "RTL DE",
+      "country": "DE",
+      "priority": 24,
       "logoUrl": null,
       "aliases": [
-        "Mediaset Infinity Sport HD",
-        "Mediaset Infinity Sport SD"
+        "RTL HD",
+        "RTL Deutsch",
+        "RTL Deutschland HD",
+        "RTL Zwei",
+        "RTL Deutschland"
       ],
       "enabled": true,
       "sources": [
         {
-          "id": "mediaset_infinity_sport_source_1",
-          "url": "",
+          "id": "rtl_de_source_1",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/6062/index.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
-          "id": "mediaset_infinity_sport_source_2",
-          "url": "",
+          "id": "rtl_de_source_2",
+          "url": "http://zybrpjv6.zyntras.top/iptv/27UW3W9CE6C4XGYBWMTWAXNE/6065/index.m3u8",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
         }
       ]
     },
+    {
     {
       "id": "sky_sport_football",
       "name": "Sky Sport Football",
