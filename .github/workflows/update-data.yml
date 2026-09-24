@@ -225,11 +225,24 @@ jobs:
           git config user.name "TVSPORTLIVE Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # Integra eventuali commit remoti (evita push rejected)
+          git fetch origin main
+          git pull --rebase origin main || {
+            echo "Rebase con conflitti: si preferiscono i dati appena generati"
+            git checkout --ours data/events.txt data/live.txt 2>/dev/null || true
+            git add data/events.txt data/live.txt 2>/dev/null || true
+            GIT_EDITOR=true git rebase --continue 2>/dev/null || git rebase --abort || true
+            git pull --rebase origin main || true
+          }
+
           git add data/events.txt data/live.txt
+          # eventuali altri file data (cache loghi)
+          git add data/team_logos_cache.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "Nessuna modifica ai dati."
           else
             git commit -m "Update sports data"
-            git push
+            git pull --rebase origin main || true
+            git push origin main
           fi
