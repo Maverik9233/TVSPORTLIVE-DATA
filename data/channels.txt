@@ -35,7 +35,7 @@
         },
         {
           "id": "sky_sport_uno_source_3",
-          "url": "https://livelive24.com/?channel=sky-sport-uno",
+          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://livelive24.com/?channel=sky-sport-uno",
           "type": "WEB",
           "enabled": false,
           "priority": 2
@@ -67,7 +67,7 @@
         }, 
         {
           "id": "sky_sport_calcio_source_2",
-          "url": "https://livelive24.com/?channel=sky-sport-calcio",
+          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://livelive24.com/?channel=sky-sport-calcio",
           "type": "WEB",
           "enabled": false,
           "priority": 2
@@ -136,7 +136,7 @@
         },
         {
           "id": "sky_sport_arena_source_2",
-          "url": "https://dlive.sx/watch.php?id=462",
+          "url": "https://www.htsport.org/arena.htm",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -238,7 +238,7 @@
         },
         {
           "id": "sky_sport_motogp_source_2",
-          "url": "https://livelive24.com/?channel=sky-sport-motogp",
+          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://livelive24.com/?channel=sky-sport-motogp",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -267,7 +267,7 @@
       "sources": [
         {
           "id": "sky_sport_tennis_source_1",
-          "url": "https://www.htsport.org/tennisb.htm",
+          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://www.htsport.org/tennisb.htm",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
