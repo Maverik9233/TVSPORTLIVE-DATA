@@ -11,6 +11,7 @@ from zoneinfo import ZoneInfo
 from serie_c_source import fetch_serie_c_events
 from diretta_serie_c_source import fetch_diretta_serie_c_events
 from diretta_tennis_source import fetch_diretta_tennis_events
+from tennis_cup_source import fetch_tennis_cup_events
 from motogp_source import fetch_motogp_events
 
 from config import (
@@ -2845,6 +2846,16 @@ def fetch_all_events() -> list[RawEvent]:
     all_events.extend(
         motogp_events
     )
+
+
+    # --------------------------------------------------------
+    # Billie Jean King Cup + Davis Cup (diretta.it)
+    # --------------------------------------------------------
+    try:
+        cup_events = fetch_tennis_cup_events()
+        all_events.extend(cup_events)
+    except Exception as error:
+        print(f"[TENNIS CUP] non disponibile: {error}")
 
     # --------------------------------------------------------
     # DEDUPLICAZIONE
