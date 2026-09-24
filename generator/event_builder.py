@@ -103,6 +103,8 @@ class BuiltEventsDocument:
 # ============================================================
 
 COMPETITION_NAMES = {
+    "bjk_cup": "Billie Jean King Cup",
+    "davis_cup": "Davis Cup",
     "serie_a": "Serie A",
     "serie_b": "Serie B",
     "serie_c": "Serie C",
@@ -199,6 +201,8 @@ COMPETITION_COUNTRIES = {
     "liga_profesional": "Argentina",
     "brasileirao": "Brazil",
     "mls": "USA",
+    "bjk_cup": "International",
+    "davis_cup": "International",
     "super_lig": "Turkey",
     "turkiye_1_lig": "Turkey",
     "ekstraklasa": "Poland",
