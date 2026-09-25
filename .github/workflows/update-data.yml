@@ -225,24 +225,32 @@ jobs:
           git config user.name "TVSPORTLIVE Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Integra eventuali commit remoti (evita push rejected)
+          # I file data/ sono appena generati in questa job: devono sempre
+          # finire su main (altrimenti l'app resta con dati di giorni fa).
           git fetch origin main
-          git pull --rebase origin main || {
-            echo "Rebase con conflitti: si preferiscono i dati appena generati"
-            git checkout --ours data/events.txt data/live.txt 2>/dev/null || true
-            git add data/events.txt data/live.txt 2>/dev/null || true
-            GIT_EDITOR=true git rebase --continue 2>/dev/null || git rebase --abort || true
-            git pull --rebase origin main || true
-          }
 
-          git add data/events.txt data/live.txt
-          # eventuali altri file data (cache loghi)
+          git add -f data/events.txt data/live.txt
           git add data/team_logos_cache.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "Nessuna modifica ai dati."
-          else
-            git commit -m "Update sports data"
-            git pull --rebase origin main || true
-            git push origin main
+            exit 0
           fi
+
+          git commit -m "Update sports data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+          # Se main e avanzato: rebase privilegiando i NOSTRI data/
+          if ! git pull --rebase origin main; then
+            echo "Conflitto rebase: tengo events/live generati ora"
+            git checkout --ours data/events.txt data/live.txt 2>/dev/null || true
+            git add data/events.txt data/live.txt
+            GIT_EDITOR=true git rebase --continue || {
+              git rebase --abort || true
+              git fetch origin main
+              git reset --soft origin/main
+              git add -f data/events.txt data/live.txt
+              git commit -m "Update sports data $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
+            }
+          fi
+
+          git push origin main
