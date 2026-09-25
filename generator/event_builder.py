@@ -260,36 +260,9 @@ COMPETITION_BROADCASTER_OVERRIDES = {
     ),
 }
 
-# Fallback per sport quando LiveOnSat non matcha
-# (tennis/basket spesso hanno titoli torneo, non "A vs B")
-SPORT_BROADCASTER_FALLBACKS: dict[str, tuple[str, ...]] = {
-    "TENNIS": (
-        "Sky Sport Tennis",
-        "Eurosport 1",
-        "Eurosport 2",
-        "SuperTennis",
-        "Sky Sport Uno",
-        "Tennis Channel",
-    ),
-    "BASKETBALL": (
-        "Sky Sport Basket",
-        "NBA TV",
-        "Sky Sport Uno",
-        "DAZN 1 Italia",
-        "Eurosport 1",
-    ),
-    "MOTOGP": (
-        "Sky Sport Uno",
-        "Sky Sport MotoGP",
-        "DAZN 1 Italia",
-        "NOW",
-    ),
-    "FORMULA_1": (
-        "Sky Sport F1",
-        "Sky Sport Uno",
-        "NOW",
-    ),
-}
+# DISABILITATO: non inventare canali se LiveOnSat non ha la partita.
+# Prima metteva Sky/DAZN/TV su TUTTE le WNBA/NBA/tennis → canali a caso.
+SPORT_BROADCASTER_FALLBACKS: dict[str, tuple[str, ...]] = {}
 
 
 # ============================================================
@@ -660,8 +633,8 @@ def get_event_broadcasters(
         ):
             add(broadcaster)
 
-    # 4) Fallback sport (tennis/basket/F1/MotoGP) se ancora vuoto
-    if not broadcasters:
+    # 4) Nessun fallback sport: meglio 0 canali che canali sbagliati (es. TV8 su WNBA)
+    if not broadcasters and SPORT_BROADCASTER_FALLBACKS:
         sport = (raw_event.sport or "").upper()
         for broadcaster in SPORT_BROADCASTER_FALLBACKS.get(sport, ()):
             add(broadcaster)
