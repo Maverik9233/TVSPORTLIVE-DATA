@@ -2795,8 +2795,10 @@ def fetch_f1_header_events() -> list[RawEvent]:
         if not isinstance(item, dict):
             continue
 
-        event_id = safe_string(item.get("id")) or safe_string(
-            item.get("competitionId")
+        # competitionId è unico per sessione (FP1/Qualy/Race);
+        # event id è lo stesso per tutto il weekend GP.
+        event_id = safe_string(item.get("competitionId")) or safe_string(
+            item.get("id")
         )
         if not event_id:
             continue
@@ -2845,10 +2847,15 @@ def fetch_f1_header_events() -> list[RawEvent]:
             if name:
                 broadcasts.append(name)
 
+        session_slug = (
+            safe_string((ctype or {}).get("abbreviation"))
+            or (session or "session")
+        ).replace(" ", "_")
+
         results.append(
             RawEvent(
                 source="ESPN_F1",
-                source_event_id=f"f1_{event_id}",
+                source_event_id=f"f1_{event_id}_{session_slug}",
                 competition_key="formula_1",
                 competition_name="Formula 1",
                 sport="FORMULA_1",
