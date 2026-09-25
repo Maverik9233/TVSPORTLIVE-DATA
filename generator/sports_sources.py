@@ -2746,6 +2746,137 @@ def fetch_tennis_header_events(
     return results
 
 
+
+# ============================================================
+# FORMULA 1 — sessioni via ESPN header API
+#
+# site.api .../racing/f1/scoreboard spesso risponde 403.
+# Header API espone FP1/FP2/FP3/Qualifying/Race per il weekend.
+# ============================================================
+
+
+def fetch_f1_header_events() -> list[RawEvent]:
+    url = (
+        "https://site.web.api.espn.com/apis/v2/scoreboard/header"
+        "?sport=racing&league=f1"
+    )
+
+    try:
+        data = fetch_json(url)
+    except Exception as error:
+        print(f"[F1] header non disponibile: {error}")
+        return []
+
+    sports = data.get("sports") or []
+    if not sports or not isinstance(sports, list):
+        return []
+
+    leagues = sports[0].get("leagues") or []
+    if not leagues or not isinstance(leagues, list):
+        return []
+
+    raw_events = leagues[0].get("events") or []
+    if not isinstance(raw_events, list):
+        return []
+
+    # Solo oggi / domani (config TIMEZONE)
+    now = datetime.now(ZoneInfo(TIMEZONE))
+    allowed_dates: set = set()
+    if SHOW_TODAY:
+        allowed_dates.add(now.date())
+    if SHOW_TOMORROW:
+        allowed_dates.add((now + timedelta(days=1)).date())
+    if not allowed_dates:
+        allowed_dates.add(now.date())
+
+    results: list[RawEvent] = []
+
+    for item in raw_events:
+        if not isinstance(item, dict):
+            continue
+
+        event_id = safe_string(item.get("id")) or safe_string(
+            item.get("competitionId")
+        )
+        if not event_id:
+            continue
+
+        start_time = safe_string(item.get("date"))
+        if not start_time:
+            continue
+
+        try:
+            start_dt = datetime.fromisoformat(
+                start_time.replace("Z", "+00:00")
+            ).astimezone(ZoneInfo("Europe/Rome"))
+        except ValueError:
+            continue
+
+        if start_dt.date() not in allowed_dates:
+            continue
+
+        note = safe_string(item.get("note"))
+        ctype = item.get("competitionType") if isinstance(item.get("competitionType"), dict) else {}
+        session = note or safe_string(ctype.get("text")) or safe_string(
+            ctype.get("abbreviation")
+        ) or "Session"
+
+        gp_name = (
+            safe_string(item.get("name"))
+            or safe_string(item.get("shortName"))
+            or "Formula 1"
+        )
+        title = f"{gp_name} - {session}"
+
+        status_raw = (safe_string(item.get("status")) or "").lower()
+        if status_raw in {"in", "live"}:
+            status = "LIVE"
+        elif status_raw in {"post", "final"}:
+            status = "FINISHED"
+        else:
+            status = "SCHEDULED"
+
+        # broadcasts dalla header se presenti
+        broadcasts: list[str] = []
+        for b in item.get("broadcasts") or []:
+            if not isinstance(b, dict):
+                continue
+            name = safe_string(b.get("name") or b.get("shortName") or b.get("type"))
+            if name:
+                broadcasts.append(name)
+
+        results.append(
+            RawEvent(
+                source="ESPN_F1",
+                source_event_id=f"f1_{event_id}",
+                competition_key="formula_1",
+                competition_name="Formula 1",
+                sport="FORMULA_1",
+                title=title,
+                start_time=start_time,
+                end_time=None,
+                status=status,
+                home_team_id=None,
+                home_team_name=None,
+                home_team_short_name=None,
+                home_team_logo=None,
+                away_team_id=None,
+                away_team_name=None,
+                away_team_short_name=None,
+                away_team_logo=None,
+                home_score=None,
+                away_score=None,
+                period=session,
+                minute=None,
+                country=None,
+                broadcasts=broadcasts or None,
+            )
+        )
+
+    print(f"[F1] header API: {len(results)} sessioni (oggi/domani)")
+    return results
+
+
 def fetch_official_motogp_events() -> list[RawEvent]:
     try:
         events = fetch_motogp_events()
@@ -2777,6 +2908,10 @@ def fetch_all_events() -> list[RawEvent]:
         # MotoGP: ESPN scoreboard non disponibile (HTTP 400).
         # Fonte ufficiale: motogp.com via motogp_source.py
         if competition.key == "motogp":
+            continue
+
+        # F1: scoreboard site.api spesso 403; sessioni da header API
+        if competition.key == "formula_1":
             continue
 
         # ATP / WTA: scoreboard = solo tornei (1 riga per Open).
@@ -2871,6 +3006,15 @@ def fetch_all_events() -> list[RawEvent]:
     all_events.extend(
         motogp_events
     )
+
+    # --------------------------------------------------------
+    # FORMULA 1 — ESPN header (FP / Qualy / Race)
+    # --------------------------------------------------------
+    try:
+        f1_events = fetch_f1_header_events()
+        all_events.extend(f1_events)
+    except Exception as error:
+        print(f"[F1] errore: {error}")
 
 
     # --------------------------------------------------------
