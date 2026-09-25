@@ -34,6 +34,13 @@ except ImportError:
         return []
 
 try:
+    from diretta_youth_intl_source import fetch_diretta_youth_intl_events
+except ImportError:
+    def fetch_diretta_youth_intl_events():
+        print("[DIRETTA YOUTH] modulo mancante — skip")
+        return []
+
+try:
     from motogp_source import fetch_motogp_events
 except ImportError:
     def fetch_motogp_events():
@@ -508,7 +515,24 @@ SOCCER_COMPETITIONS = (
         league="fifa.world.u17",
         name="Mondiale Under 17",
     ),
-
+    SourceCompetition(
+        key="uefa_u21",
+        sport="FOOTBALL",
+        league="uefa.euro.u21",
+        name="Europei Under 21",
+    ),
+    SourceCompetition(
+        key="elite_league_u20",
+        sport="FOOTBALL",
+        league="uefa.elite.u20",
+        name="Elite League U20",
+    ),
+    SourceCompetition(
+        key="fifa_friendly_u19",
+        sport="FOOTBALL",
+        league="fifa.u19.friendly",
+        name="Amichevoli / Youth U19",
+    ),
 )
 
 OTHER_COMPETITIONS = (
@@ -3022,6 +3046,15 @@ def fetch_all_events() -> list[RawEvent]:
         all_events.extend(f1_events)
     except Exception as error:
         print(f"[F1] errore: {error}")
+
+    # --------------------------------------------------------
+    # YOUTH / UNDER 19-20-21 da diretta.it
+    # --------------------------------------------------------
+    try:
+        youth_events = fetch_diretta_youth_intl_events()
+        all_events.extend(youth_events)
+    except Exception as error:
+        print(f"[DIRETTA YOUTH] errore: {error}")
 
 
     # --------------------------------------------------------
