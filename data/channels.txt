@@ -28,7 +28,7 @@
         },
         {
           "id": "sky_sport_uno_source_2",
-          "url": "https://www.htsport.org/calcio.htm",
+          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://www.htsport.org/unohd.htm",
           "type": "WEB",
           "enabled": false,
           "priority": 2
@@ -176,6 +176,13 @@
         },
         {
           "id": "sky_sport_f1_source_2",
+          "url": "https://ntv.st/channel/falcon/Sky-Sport-F1-IT",
+          "type": "WEB",
+          "enabled": false,
+          "priority": 2
+        },
+{
+          "id": "sky_sport_f1_source_3",
           "url": "https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI1NzciLCJ0cyI6MTc4OTkwNzgxMDU0M30",
           "type": "AUTO",
           "enabled": false,
@@ -380,8 +387,15 @@
           "enabled": true,
           "priority": 1
         },
-        {
+       {
           "id": "sky_sport_max_source_2",
+          "url": "https://ntv.st/channel/falcon/Sky-Sport-Max-IT",
+          "type": "WEB",
+          "enabled": false,
+          "priority": 2
+         },
+      {
+          "id": "sky_sport_max_source_3",
           "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19128/index.m3u8",
           "type": "HLS",
           "enabled": false,
@@ -810,7 +824,6 @@
       "logoUrl": null,
       "aliases": [
         "DAZN 1 Italia HD",
-        "DAZN 1 Italia SD",
         "DAZN 1 Italy HD",
         "DAZN 1 Italia",
         "ZONA DAZN Italia",
@@ -824,14 +837,14 @@
       "sources": [
         {
           "id": "dazn_1_italia_source_1",
-          "url": "https://dlive.sx/stream/stream-877.php",
-          "type": "WEB",
+          "url": "https://7nyaler.streamhostingcdn.top/stream/24/index.m3u8",
+          "type": "HLS",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "dazn_1_italia_source_2",
-          "url": "https://dlive.sx/cast/stream-877.php",
+          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://dlive.sx/cast/stream-877.php",
           "type": "WEB",
           "enabled": false,
           "priority": 2
@@ -4378,6 +4391,98 @@
      {
           "id": "viju+_sport_source_2",
           "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/160/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+   {
+      "id": "itv1",
+      "name": "ITV1",
+      "country": "GB",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "ITV1",
+        "ITV1 HD",
+        "ITV1 UK",
+        "ITV 1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "itv1_source_1",
+          "url": "https://ntv.st/channel/titan/ITV-1?code=gb",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "itv2",
+      "name": "ITV2",
+      "country": "GB",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "ITV2",
+        "ITV2 HD",
+        "ITV2 UK",
+        "ITV 2"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "itv2_source_1",
+          "url": "https://ntv.st/channel/titan/ITV-2?code=gb",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "itv3",
+      "name": "ITV3",
+      "country": "GB",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "ITV3",
+        "ITV3 HD",
+        "ITV3 UK",
+        "ITV 3"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "itv3_source_1",
+          "url": "https://ntv.st/channel/titan/ITV-3?code=gb",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "itv4",
+      "name": "ITV4",
+      "country": "GB",
+      "priority": 48,
+      "logoUrl": null,
+      "aliases": [
+        "ITV4",
+        "ITV4 HD",
+        "ITV4 UK",
+        "ITV 4"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "itv4_source_1",
+          "url": "https://ntv.st/channel/titan/ITV-4?code=gb",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
