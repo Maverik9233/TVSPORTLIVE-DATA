@@ -3042,10 +3042,16 @@ def fetch_all_events() -> list[RawEvent]:
     # FORMULA 1 — ESPN header (FP / Qualy / Race)
     # --------------------------------------------------------
     try:
-        f1_events = fetch_f1_header_events()
+        from f1_source import fetch_f1_events
+        f1_events = fetch_f1_events()
         all_events.extend(f1_events)
     except Exception as error:
         print(f"[F1] errore: {error}")
+        try:
+            f1_events = fetch_f1_header_events()
+            all_events.extend(f1_events)
+        except Exception as error2:
+            print(f"[F1] fallback header errore: {error2}")
 
     # --------------------------------------------------------
     # YOUTH / UNDER 19-20-21 da diretta.it
