@@ -21,7 +21,7 @@
       "sources": [
         {
           "id": "sky_sport_uno_source_1",
-          "url": "https://www.htsport.org/max.htm",
+          "url": "https://www.htsport.org/uno.htm",
           "type": "WEB",
           "enabled": true,
           "priority": 1
@@ -254,35 +254,31 @@
     },
     {
       "id": "sky_sport_tennis",
-      "name": "Sky Sport Tennis",
+      "name": "Sky Sport Tennis IT",
       "country": "IT",
       "priority": 6,
       "logoUrl": null,
       "aliases": [
         "Sky Sport Tennis HD",
-        "Sky Sport Tennis SD",
-        "Sky Sport Tennis Italia HD",
+        "Sky Sport Tennis IT HD",
         "Sky Sport Tennis Italy HD",
         "Sky Sport Tennis Italy",
-        "Sky Sport Tennis Italia",
         "Sky Tennis Italy",
-        "Sky Tennis Italia",
-        "SkySport Tennis",
-        "Sky Tennis"
+        "Sky Tennis Italia"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sky_sport_tennis_source_1",
-          "url": "https://www.htsport.org/tennisb.htm",
+          "url": "https://ntv.st/channel/falcon/Sky-Sport-Tennis-IT",
           "type": "WEB",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_tennis_source_2",
-          "url": "https://ds164.bluetier.top/SkySportTennisIT/tracks-a1/mono.m3u8?token=U2t5U3BvcnRUZW5uaXNJVHxub19jaGVja19pcHwxNzg5NTY2NDI4.9abe6e314557b8487ba9e15118dea5dbc702c45d3ab235ff6449f7633a2545bd",
-          "type": "AUTO",
+          "url": "https://www.htsport.org/tennis.htm",
+          "type": "WEB",
           "enabled": false,
           "priority": 2
         }
@@ -400,6 +396,27 @@
           "type": "HLS",
           "enabled": false,
           "priority": 2
+        }
+      ]
+    },
+{
+      "id": "sky_legend",
+      "name": "Sky Sport Legend",
+      "country": "IT",
+      "priority": 16,
+      "logoUrl": null,
+      "aliases": [
+        "Sky Sport Legend HD",
+        "Sky Sport Legend"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "sky_legend_source_1",
+          "url": "https://ntv.st/channel/falcon/Sky-Sport-Legend-IT",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
         }
       ]
     },
