@@ -376,14 +376,14 @@
         {
           "id": "sky_sport_max_source_1",
           "url": "https://www.htsport.org/max.htm",
-          "type": "HLS",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_max_source_2",
           "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19128/index.m3u8",
-          "type": "WEB",
+          "type": "HLS",
           "enabled": false,
           "priority": 2
         }
