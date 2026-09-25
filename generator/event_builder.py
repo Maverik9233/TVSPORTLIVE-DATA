@@ -136,7 +136,7 @@ COMPETITION_NAMES = {
     "formula_1": "Formula 1",
     "uefa_u21": "Europei Under 21",
     "elite_league_u20": "Elite League U20",
-    "fifa_friendly_u19": "Youth U19",,
+    "fifa_friendly_u19": "Youth U19",
     "motogp": "MotoGP",
     "atp": "ATP",
     "wta": "WTA",
