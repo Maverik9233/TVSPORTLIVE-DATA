@@ -431,27 +431,31 @@ def get_matching_liveonsat_event(
     liveonsat_events: Iterable[LiveOnSatEvent],
 ) -> LiveOnSatEvent | None:
     """
-    Abbinamento stretto titolo + orario.
-    A parità di orario (es. due Nations League 20:45) vince il
-    punteggio titolo, così i canali non si scambiano tra partite.
+    Abbinamento stretto titolo + orario per calcio/tennis.
+    F1/MotoGP: match per nome GP (LiveOnSat ha 1 orario per weekend).
     """
     from liveonsat import title_match_score
+
+    sport = (raw_event.sport or "").upper()
+    is_racing = sport in {"FORMULA_1", "MOTOGP"}
 
     best: LiveOnSatEvent | None = None
     best_key: tuple[int, int] | None = None  # (-score, time_diff)
 
     for candidate in liveonsat_events:
         score = title_match_score(raw_event.title, candidate.title)
-        if score < 80:
+        # racing: abbassa soglia (titoli tipo "... Qualifying" vs "Azerbaijan GP")
+        min_score = 55 if is_racing else 80
+        if score < min_score:
             continue
         tdiff = time_difference_seconds(
             raw_event.start_time,
             candidate.start_time,
         )
-        # scarta se orario dista più di 45 minuti
-        if tdiff > 45 * 60:
+        # F1/MotoGP: non filtrare per orario (sessioni diverse, stesso GP)
+        if not is_racing and tdiff > 45 * 60:
             continue
-        key = (-score, tdiff)
+        key = (-score, 0 if is_racing else tdiff)
         if best_key is None or key < best_key:
             best_key = key
             best = candidate
