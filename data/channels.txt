@@ -60,21 +60,21 @@
       "sources": [
         {
           "id": "sky_sport_calcio_source_1",
-          "url": "https://www.htsport.org/calcio.htm",
+          "url": "https://www.htsport.org/calciob.htm",
           "type": "WEB",
           "enabled": true,
           "priority": 1
         }, 
         {
           "id": "sky_sport_calcio_source_2",
-          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://www.htsport.org/calciob.htm",
-          "type": "WEB",
+          "url": "http://109.205.187.150:8008/sunshine/aquN4TfoIvBWqycelQ8dUK8LrTlvuVdbgeCr5_X3-HRxriHyw7auI-CAFLvXCjVMkrJf5ZCVapTZGksQJr5s5Qm1QgAXA1vxekHENw1cDxl5GTwBYxkQE3YsPS_GSDlmVdBTCo9uDtfj1L_S05E0P7nMM3ERO58IfRMDqte99SbwSfVlTwWCsJ9HVR9qG_ynMgrE4alrltDF26kXJoqC0iq06wLJfcQV-gXtJG1m2EOKxJ4wWMak0lWggNQDgd3ZrF8W9pIlt9BAF_VtfOdEudcGQoXsvNfIyPN3_2Qmc3uyWFLgYxm3g4AZOBdyDZTyWRpwft79j6ugp7656HzlUtpZSSb4VMSZZz-cvGpPYXM/hls/index.m3u8",
+          "type": "HLS",
           "enabled": false,
           "priority": 2
         },
         {
           "id": "sky_sport_calcio_source_3",
-          "url": "https://www.htsport.org/calciohd.htm",
+          "url": "http://htsport.org/calcio.htm",
           "type": "WEB",
           "enabled": false,
           "priority": 2
