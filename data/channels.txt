@@ -1072,30 +1072,27 @@
       ]
     },
     {
-      "id": "dazn_1_HD_PT",
-      "name": "DAZN 1 HD PT",
+      "id": "dazn_1_pt",
+      "name": "DAZN 1 PT",
       "country": "PT",
       "priority": 10,
       "logoUrl": null,
       "aliases": [
         "DAZN 1 HD PT",
-        "DAZN 1 FHD PT",
         "DAZN 1 PT",
         "DAZN PT",
         "DAZN1 PT",
         "DAZN 1 Channel PT",
         "DAZN 1 HD PT",
-        "DAZN 1 FHD PT",
         "DAZN 1 Portugal",
-        "DAZN PT",
         "DAZN 1 Portugal HD"
       ],
       "enabled": true,
       "sources": [
         {
-          "id": "dazn_1_HD_PT_source_1",
-          "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/19158/index.m3u8",
-          "type": "AUTO",
+          "id": "dazn_1_pt_source_1",
+          "url": "https://exmxbxe.cfd/3zhczzbl-3478",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         }
@@ -1239,6 +1236,52 @@
           "id": "dazn_6_HD_PT_source_1",
           "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/2536/index.m3u8",
           "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_1_us",
+      "name": "DAZN 1 US",
+      "country": "US",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 1 HD US",
+        "DAZN 1 US",
+        "DAZN1 US",
+        "DAZN 1 HD US",
+        "DAZN 1 US",
+        "DAZN 1 US HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_1_us_source_1",
+          "url": "https://exmxbxe.cfd/jyqzet0b-5285",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_laliga",
+      "name": "DAZN LaLiga",
+      "country": "ES",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN LaLiga",
+        "DAZN La Liga HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_laliga_source_1",
+          "url": "https://exmxbxe.cfd/fw2jrum9-3988",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         }
@@ -3998,7 +4041,7 @@
       "logoUrl": null,
       "aliases": [
         "Sky Sports Cricket UK HD",
-        "Sky Sports Cricket UK SD"
+        "Sky Sports Cricket UK"
       ],
       "enabled": true,
       "sources": [
@@ -4015,29 +4058,101 @@
       "id": "dazn_deutschland",
       "name": "DAZN Deutschland",
       "country": "DE",
-      "priority": 111,
+      "priority": 10,
       "logoUrl": null,
       "aliases": [
-        "DAZN Deutschland HD",
-        "DAZN Deutschland",
-        "DAZN Deutschland HD",
-        "DAZN DE",
-        "DAZN Germany",
+        "DAZN 1 Deutschland HD",
+        "DAZN 1 Deutschland",
+        "DAZN1 Deutschland HD",
+        "DAZN1 DE",
+        "DAZN1 Germany",
         "DAZN 1 Deutschland",
         "DAZN 1 DE",
         "DAZN1 DE",
-        "DAZN DE HD",
-        "DAZN Deutschland SD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN DE",
-        "DAZN Germany"
+        "DAZN 1 DE HD",
+        "DAZN 1 Deutschland SD",
+        "DAZN 1 Deutsch ($/geo/R)",
+        "DAZN 1 DE",
+        "DAZN 1 Germany"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "dazn_deutschland_source_1",
-          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/19042/index.m3u8",
-          "type": "AUTO",
+          "url": "https://exmxbxe.cfd/3dk8rxui-3330",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_1_es",
+      "name": "DAZN 1 ES",
+      "country": "es",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 1 ES HD",
+        "DAZN 1 Spain",
+        "DAZN1 ES",
+        "DAZN1 Spain",
+        "DAZN 1 ESP"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_1_es_source_1",
+          "url": "https://exmxbxe.cfd/sq26inyf-6789",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_2_es",
+      "name": "DAZN 2 ES",
+      "country": "ES",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 2 ES HD",
+        "DAZN 2 Spain",
+        "DAZN2 ES",
+        "DAZN2 Spain",
+        "DAZN 2 ESP"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_2_es_source_1",
+          "url": "https://exmxbxe.cfd/0o3vlabk-6950",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "dazn_F1_es",
+      "name": "DAZN F1 ES",
+      "country": "ES",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN F1 ES HD",
+        "DAZN F1 Spain",
+        "DAZNF1 ES",
+        "DAZN F1 Spain",
+        "DAZN F1 ESP"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_F1_es_source_1",
+          "url": "https://exmxbxe.cfd/5rvazszz-1554",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         }
@@ -4045,7 +4160,7 @@
     },
  {
       "id": "dazn_deutschland2",
-      "name": "DAZN Deutschland 2",
+      "name": "DAZN De 2",
       "country": "DE",
       "priority": 111,
       "logoUrl": null,
@@ -4072,7 +4187,7 @@
       "sources": [
         {
           "id": "dazn_deutschland2_source_1",
-          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/19043/index.m3u8",
+          "url": "https://exmxbxe.cfd/tnifspj6-5937",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
