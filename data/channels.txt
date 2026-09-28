@@ -1324,10 +1324,10 @@
         "Rai 1 Italia",
         "Rai Uno Italia",
         "rai Uno",
-        "raiuno",
+        "RAI 1 Italia",
         "Rai Uno Italy",
         "Rai 1 Italy",
-        "rai uno Italy HD"
+        "RAI 1 Italia HD"
       ],
       "enabled": true,
       "sources": [
@@ -1372,27 +1372,26 @@
     },
     {
       "id": "sportitalia",
-      "name": "Sportitalia",
+      "name": "Sportitalia HD",
       "country": "IT",
-      "priority": 29,
+      "priority": 10,
       "logoUrl": null,
       "aliases": [
-        "Sportitalia HD",
-        "Sportitalia SD",
-        "Sport Italia"
+        "Sportitalia",
+        "Sportitalia HD"
       ],
       "enabled": true,
       "sources": [
         {
           "id": "sportitalia_source_1",
-          "url": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
+          "url": "https://sportitalialive.it/sihd/",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sportitalia_source_2",
-          "url": "",
+          "url": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
@@ -1684,6 +1683,48 @@
           "type": "AUTO",
           "enabled": false,
           "priority": 2
+        }
+      ]
+    },
+{
+      "id": "premiersports1",
+      "name": "Premier Sports 1",
+      "country": "IE",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "Premier Sports 1 HD",
+        "Premier Sports 1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "premiersports1_source_1",
+          "url": "https://exmxbxe.cfd/w3g66pt8-2691",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+   {
+      "id": "premiersports2",
+      "name": "Premier Sports 2",
+      "country": "IE",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "Premier Sports 2 HD",
+        "Premier Sports 2"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "premiersports2_source_1",
+          "url": "https://exmxbxe.cfd/xneh5qi7-1908",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
         }
       ]
     },
@@ -2332,16 +2373,17 @@
         }
       ]
     },
-{
+   {
       "id": "espn_us",
-      "name": "Espn US",
+      "name": "Espn USA",
       "country": "US",
       "priority": 5,
       "logoUrl": null,
       "aliases": [
-        "Espn US",
-        "Espn US HD",
-        "Espn HD US",
+        "Espn USA",
+        "Espn USA HD",
+        "Espn HD USA",
+        "ESPN Deportes",
         "ESPN USA",
         "ESPN USA HD"
       ],
@@ -2349,8 +2391,99 @@
       "sources": [
         {
           "id": "espn_us_source_1",
-          "url": "http://xiu8zjg7.velstraso.top/iptv/D5YS7ZNPNZCUF7QVX9LAEGZY/19060/index.m3u8",
+          "url": "https://exmxbxe.cfd/6trsant7-6421",
           "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+   {
+      "id": "espn2_us",
+      "name": "Espn2 USA",
+      "country": "US",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Espn2 USA",
+        "Espn2 USA HD",
+        "Espn 2 HD USA",
+        "ESPN 2 Deportes",
+        "ESPN 2 USA",
+        "ESPN 2 USA HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "espn2_us_source_1",
+          "url": "https://exmxbxe.cfd/33jhpzfr-9238",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+   {
+      "id": "foxdeportes_us",
+      "name": "Fox Deportes",
+      "country": "US",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Fox Deportes",
+        "Fox Deportes HD",
+        "Fox Deportes USA"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "foxdeportes_us_source_1",
+          "url": "https://exmxbxe.cfd/8p0wjr6t-1011",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+     {
+      "id": "foxsports_1_us",
+      "name": "Fox Sports 1 USA",
+      "country": "US",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Fox Sports 1",
+        "Fox Sports 1 HD USA",
+        "Fox Sports 1 USA HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "foxsports_1_us_source_1",
+          "url": "https://exmxbxe.cfd/f4ijr4sl-1366",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+ {
+      "id": "foxsports_2_us",
+      "name": "Fox Sports 2 USA",
+      "country": "US",
+      "priority": 5,
+      "logoUrl": null,
+      "aliases": [
+        "Fox Sports 2",
+        "Fox Sports 2 HD USA",
+        "Fox Sports 2 USA HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "foxsports_2_us_source_1",
+          "url": "https://exmxbxe.cfd/p5562bwm-7006",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         }
