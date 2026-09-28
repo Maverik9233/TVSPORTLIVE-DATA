@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T22:10:50Z",
+  "generatedAt": "2026-09-28T00:50:25Z",
   "competitions": [
     {
       "id": "atp",
@@ -57,8 +57,17 @@
       "priority": 50
     },
     {
+      "id": "elite_league_u20",
+      "name": "Elite League U20",
+      "sport": "FOOTBALL",
+      "country": null,
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 50
+    },
+    {
       "id": "fifa_u17_world",
-      "name": "Campionati Europei U17 - Femminile - Qualificazione - Round 1 - Lega B",
+      "name": "Europei U17 - Qualificazione - Prima fase",
       "sport": "FOOTBALL",
       "country": null,
       "countryFlagUrl": null,
@@ -93,17 +102,8 @@
       "priority": 50
     },
     {
-      "id": "fifa_u20_world",
-      "name": "Mondiali U20 - Femminile - Play Off",
-      "sport": "FOOTBALL",
-      "country": null,
-      "countryFlagUrl": null,
-      "logoUrl": null,
-      "priority": 50
-    },
-    {
       "id": "fifa_friendly_u20",
-      "name": "Potiguar U20 - Play Off",
+      "name": "Paulista U20 - Play Off",
       "sport": "FOOTBALL",
       "country": null,
       "countryFlagUrl": null,
@@ -139,6 +139,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_bwhBdmIi_a",
+      "name": "Added D./Paris T.",
+      "shortName": "Added D./Paris T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/tYZ6qVRq-j3a2pWiJ.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_r9SYoY3b_h",
       "name": "Agamenone F.",
       "shortName": "Agamenone F.",
@@ -151,6 +159,14 @@
       "name": "Aguiard E.",
       "shortName": "Aguiard E.",
       "logoUrl": "https://static.flashscore.com/res/image/data/GfjLYaAN-MDKT0DUM.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_6H2QPmn3_a",
+      "name": "Aksu A.",
+      "shortName": "Aksu A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/z90ueWU0-SxfAKFH6.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -187,18 +203,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_4dETHlll_a",
-      "name": "Algeria U20",
-      "shortName": "Algeria U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/4tb19akC-KAqUF00e.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_CQayRH9r_a",
       "name": "Altmaier D.",
       "shortName": "Altmaier D.",
       "logoUrl": "https://static.flashscore.com/res/image/data/W4JefFR0-AmS6CjkU.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jBiJyrsp_a",
+      "name": "Alves M./Loureiro J. V. C.",
+      "shortName": "Alves M./Loureiro J. V. C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dEip1N6k-UFZbbL7P.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -219,6 +235,30 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_bwQWjP7d_a",
+      "name": "Andrade A.",
+      "shortName": "Andrade A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/GpiCUKAN-Ec2eUajs.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_vHiD3YGL_h",
+      "name": "Andrade da Silva L.",
+      "shortName": "Andrade da Silva L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/8ElovmA6-Miimi2He.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_beoLe3YF_a",
+      "name": "Andrade da Silva L./Heide G.",
+      "shortName": "Andrade da Silva L./Heide G.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/8ElovmA6-Miimi2He.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_b9jPsryJ_h",
       "name": "Angelini L.",
       "shortName": "Angelini L.",
@@ -235,10 +275,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_jmsHJUR9_h",
+      "name": "Arango E./Ruzic A.",
+      "shortName": "Arango E./Ruzic A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/4CQVysUH-fX9OUm9D.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_Sv17WLED_a",
       "name": "Arends S./Pel D.",
       "shortName": "Arends S./Pel D.",
       "logoUrl": "https://static.flashscore.com/res/image/data/Yc5QG196-jPCLdsVS.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jVsDcP33_a",
+      "name": "Arias B./Carou I.",
+      "shortName": "Arias B./Carou I.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/z79aDMhT-tE9opR74.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -259,6 +315,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_zchreHPE_h",
+      "name": "Arneodo R./Kittay B.",
+      "shortName": "Arneodo R./Kittay B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/W6FyWole-zgMoGdWQ.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_GYGZWhhc_h",
       "name": "Arribage T./Olivetti A.",
       "shortName": "Arribage T./Olivetti A.",
@@ -271,22 +335,6 @@
       "name": "Astakhova D.",
       "shortName": "Astakhova D.",
       "logoUrl": "https://static.flashscore.com/res/image/data/vad145T0-KC2hwMpp.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_Cl6G1yPa_h",
-      "name": "Athletic Club U20",
-      "shortName": "Athletic Club U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/jZRvGJjT-86AAm9zm.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_vscxqDgC_a",
-      "name": "Atl. San Luis U21",
-      "shortName": "Atl. San Luis U21",
-      "logoUrl": "https://static.flashscore.com/res/image/data/bV1r8miT-b7qoHeZc.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -315,6 +363,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_K2Dw5SSQ_a",
+      "name": "Ayeni A./Suarez B.",
+      "shortName": "Ayeni A./Suarez B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ry3evxgT-GOsncUhM.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_Qe46DIjI_a",
       "name": "Azerbaigian U17 D",
       "shortName": "Azerbaigian U17 D",
@@ -331,6 +387,30 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_xM0bv9UQ_a",
+      "name": "Balshaw F.",
+      "shortName": "Balshaw F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Iy6RDFkC-raTtkAm8.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_vHgRh5HG_h",
+      "name": "Balshaw F./Martineau M.",
+      "shortName": "Balshaw F./Martineau M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Iy6RDFkC-raTtkAm8.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_ni6Dfz6m_a",
+      "name": "Bar Biryukov P.",
+      "shortName": "Bar Biryukov P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/8nO5N0gT-CneykJ5M.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_fsygb7FM_a",
       "name": "Baris O.",
       "shortName": "Baris O.",
@@ -339,9 +419,41 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_63g55fn9_h",
+      "name": "Barrena A.",
+      "shortName": "Barrena A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/tE5sZsU0-v9DptTzs.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_rNejgefR_h",
+      "name": "Barrientos N./Walkow S.",
+      "shortName": "Barrientos N./Walkow S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/CfceNihT-QToyzts5.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_63g55fn9_a",
+      "name": "Barrios Vera T.",
+      "shortName": "Barrios Vera T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/bTWKNfBN-Yo9kQcMJ.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_zJmMwVCU_a",
       "name": "Barroso Campos A.",
       "shortName": "Barroso Campos A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IDLri2WH-AmCMgOng.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_f1kj9Q1c_h",
+      "name": "Barroso Campos A./Vega Hernandez D.",
+      "shortName": "Barroso Campos A./Vega Hernandez D.",
       "logoUrl": "https://static.flashscore.com/res/image/data/IDLri2WH-AmCMgOng.png",
       "country": null,
       "countryFlagUrl": null
@@ -379,6 +491,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_Sfc4oN9j_h",
+      "name": "Bass F./Duncan S.",
+      "shortName": "Bass F./Duncan S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/t6i2Iwne-MeRmzQrE.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_E5bIxZnn_a",
       "name": "Bassem Sobhy M.",
       "shortName": "Bassem Sobhy M.",
@@ -395,6 +515,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_vgsMmZHl_h",
+      "name": "Behar A./Paris J.",
+      "shortName": "Behar A./Paris J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/M5lbplU0-f9FuwN12.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_583",
       "name": "Belarus",
       "shortName": "Belarus",
@@ -407,6 +535,14 @@
       "name": "Belarus U21",
       "shortName": "Belarus",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/blr.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_z912uP3e_h",
+      "name": "Belgio U21",
+      "shortName": "Belgio U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/z9KcFNPq-rays7Res.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -435,6 +571,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_vVA4IR77_a",
+      "name": "Bernet H.",
+      "shortName": "Bernet H.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/KWlaxblC-pCcxfvmF.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_CdGVBztB_h",
       "name": "Bertea E. R.",
       "shortName": "Bertea E. R.",
@@ -447,6 +591,14 @@
       "name": "Bertea E. R./Ercan M.",
       "shortName": "Bertea E. R./Ercan M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/2ZAG7Tme-0dNL6Xl2.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Sfc4oN9j_a",
+      "name": "Bertola R./Romano F.",
+      "shortName": "Bertola R./Romano F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0WDZLER0-APkjminL.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -491,6 +643,38 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_bwhBdmIi_h",
+      "name": "Bittoun C./Visker N.",
+      "shortName": "Bittoun C./Visker N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WnvlLQhT-WGXG5PGb.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_ELpG1xSi_h",
+      "name": "Blancaneaux G.",
+      "shortName": "Blancaneaux G.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/GW2dIfjC-CCKiybUa.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_UchDoUVG_h",
+      "name": "Blanch Dar.",
+      "shortName": "Blanch Dar.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/U1x0LHkC-lCGltNVE.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Ob2HcpL0_h",
+      "name": "Blando J./Vasser O.",
+      "shortName": "Blando J./Vasser O.",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_fTeu2pfd_a",
       "name": "Blinkova A.",
       "shortName": "Blinkova A.",
@@ -499,10 +683,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_z7JBIAgc_a",
-      "name": "Boavista U20",
-      "shortName": "Boavista U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/hz4qo1T0-UTr3hJF4.png",
+      "id": "espn_diretta_86b481ZI_a",
+      "name": "Boisson L.",
+      "shortName": "Boisson L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rD8BsAAN-jZ5nqhd6.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_thvtDrME_h",
+      "name": "Bolt A.",
+      "shortName": "Bolt A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/StDhGCCN-I7xw1AtD.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -511,6 +703,30 @@
       "name": "Bonzi B.",
       "shortName": "Bonzi B.",
       "logoUrl": "https://static.flashscore.com/res/image/data/UsWcVF76-K21id9SP.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_dxdQhH23_a",
+      "name": "Boscardin Dias P.",
+      "shortName": "Boscardin Dias P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/xI0nxKRq-UFZbbL7P.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_bFv3c6mf_a",
+      "name": "Bosnia-Erzegovina U17",
+      "shortName": "Bosnia-Erzegovina U17",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6JibrR86-d69ZEjuL.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_KM2cVpue_a",
+      "name": "Bosnia-Erzegovina U21",
+      "shortName": "Bosnia-Erzegovina U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/CQ97t7Qq-ADXkPuzG.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -531,6 +747,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_fRrIYjvp_h",
+      "name": "Bouzas Maneiro J.",
+      "shortName": "Bouzas Maneiro J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dp6eBgBN-b9r7y6DB.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_205",
       "name": "Brazil",
       "shortName": "Brazil",
@@ -539,10 +763,34 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_K2gtE55s_h",
+      "name": "Britto L./Marcondes I.",
+      "shortName": "Britto L./Marcondes I.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Yce3sJkC-nDDHqbHt.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_fs5BTiG8_h",
+      "name": "Broady L.",
+      "shortName": "Broady L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Ii1KJgPq-UyJ6f3ng.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_zui65r1M_a",
       "name": "Broady L./Hudd E.",
       "shortName": "Broady L./Hudd E.",
       "logoUrl": "https://static.flashscore.com/res/image/data/Ii1KJgPq-UyJ6f3ng.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_86b481ZI_h",
+      "name": "Bronzetti L.",
+      "shortName": "Bronzetti L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/txC5egle-OYUtp1Wm.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -579,10 +827,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_zwzb1gD7_a",
-      "name": "CA Bandeirante U20",
-      "shortName": "CA Bandeirante U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/vgmijqjT-ryRtdjf5.png",
+      "id": "espn_diretta_W4H7PvhK_a",
+      "name": "Buyukakcay C.",
+      "shortName": "Buyukakcay C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rqR8cIhT-4fP9CH80.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_0bziNzzR_h",
+      "name": "CA Juventus U20",
+      "shortName": "CA Juventus U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/U7wO0APq-MN1ETII2.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -591,6 +847,22 @@
       "name": "Cabral F./Tracy J.",
       "shortName": "Cabral F./Tracy J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/Y13AVfDN-6m7UO5bG.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_nFhUwZZp_h",
+      "name": "Cadenasso G.",
+      "shortName": "Cadenasso G.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WjhkYhlC-W4kI63iM.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_E5AV6lbE_h",
+      "name": "Carpico B./Filin N.",
+      "shortName": "Carpico B./Filin N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/4db86XmC-jkltiv4D.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -611,10 +883,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_nZlblLQk_a",
+      "name": "Casanova H./Zarate C. M.",
+      "shortName": "Casanova H./Zarate C. M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/h8o2gh5k-dAy9uzPJ.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_4438",
       "name": "Castellón",
       "shortName": "Castellón",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4438.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jX619S1M_a",
+      "name": "Cengiz B.",
+      "shortName": "Cengiz B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dOE41aCN-CxOiWxwJ.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -635,6 +923,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_S8IIRVpL_h",
+      "name": "Chidekh C.",
+      "shortName": "Chidekh C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/W6QYd3UH-rsIYEe1r.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WjjJfRn4_a",
+      "name": "Chidekh C./Maginley J.",
+      "shortName": "Chidekh C./Maginley J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/W6QYd3UH-rsIYEe1r.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_207",
       "name": "Chile",
       "shortName": "Chile",
@@ -651,18 +955,42 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_2Jzf1f9t_a",
-      "name": "Club America U21",
-      "shortName": "Club America U21",
-      "logoUrl": "https://static.flashscore.com/res/image/data/txln7gBN-zPKwxbCa.png",
+      "id": "espn_diretta_hdiNcm5j_h",
+      "name": "Christie F./Silva E.",
+      "shortName": "Christie F./Silva E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ALeFrH7k-jFcXTPjR.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_SzyMZxQP_a",
-      "name": "Corea del Nord U20 D",
-      "shortName": "Corea del Nord U20 D",
-      "logoUrl": "https://static.flashscore.com/res/image/data/WboDQe7k-YHLadYFI.png",
+      "id": "espn_diretta_OYb8bq7L_a",
+      "name": "Cinà F.",
+      "shortName": "Cinà F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/SYacprS0-hhmFux0E.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_GYb9a6jl_a",
+      "name": "Colby R./Zamora N.",
+      "shortName": "Colby R./Zamora N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hCi5ElBN-l2J6KfsN.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_v1wmvDGM_a",
+      "name": "Costoulas S.",
+      "shortName": "Costoulas S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/QwoHLTBN-Q9gg1xg9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_xhqmqabJ_a",
+      "name": "Costoulas S./Martins I.",
+      "shortName": "Costoulas S./Martins I.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/QwoHLTBN-Q9gg1xg9.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -675,10 +1003,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_hGi3RWMa_a",
-      "name": "CRB U20",
-      "shortName": "CRB U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/AgkCMc8k-ngstZbhJ.png",
+      "id": "espn_diretta_29Z2AQld_h",
+      "name": "Crawley F./Daniel J.",
+      "shortName": "Crawley F./Daniel J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rcb9e9VH-dtKSCicj.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_U980n0Nt_h",
+      "name": "Cretu C.",
+      "shortName": "Cretu C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IT7tG5BN-rHUm1CgQ.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -691,34 +1027,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_Cl6G1yPa_a",
-      "name": "Cruzeiro U20",
-      "shortName": "Cruzeiro U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/zeXFBzXH-re7YM05n.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_6uNr72yo_a",
-      "name": "CSA U20",
-      "shortName": "CSA U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/4bd6DeBN-SCxqFMbR.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_6uNr72yo_h",
-      "name": "CSE U20",
-      "shortName": "CSE U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/4ENwu7oe-dY7hwU73.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_CQayRH9r_h",
       "name": "Cui J.",
       "shortName": "Cui J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/UqT7HVUH-rHUiVanF.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_YZrxpiHD_h",
+      "name": "Cukierman D./Romboli F.",
+      "shortName": "Cukierman D./Romboli F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dzTlFNBN-2VUrvKqp.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -795,6 +1115,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_zDndj9OE_a",
+      "name": "De Jong J.",
+      "shortName": "De Jong J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/bDMywESq-WbCq9q1Q.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_0CFLsk54_a",
       "name": "De La Fuente S.",
       "shortName": "De La Fuente S.",
@@ -807,6 +1135,22 @@
       "name": "De La Fuente S./Olivieri G. A.",
       "shortName": "De La Fuente S./Olivieri G. A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/2Jx4Ve6k-nkXa7rPG.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_K44LhEz0_h",
+      "name": "Dellavedova M.",
+      "shortName": "Dellavedova M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/tdEA3z96-Iu0sTlHK.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_fFnKsif2_a",
+      "name": "Dellien Velasco M. A.",
+      "shortName": "Dellien Velasco M. A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/f17q9pXH-U9jawFWp.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -843,6 +1187,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_xhqmqabJ_h",
+      "name": "Detiuc A./Khromacheva I.",
+      "shortName": "Detiuc A./Khromacheva I.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rPnm4F5k-lbsICy6q.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_KWUJxUQp_h",
       "name": "Dhamne M.",
       "shortName": "Dhamne M.",
@@ -855,6 +1207,22 @@
       "name": "Dickerson R.",
       "shortName": "Dickerson R.",
       "logoUrl": "https://static.flashscore.com/res/image/data/04PGXqme-hQtR9cIk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_byeRZLBd_a",
+      "name": "Dickerson R./Rodriguez L. J.",
+      "shortName": "Dickerson R./Rodriguez L. J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/04PGXqme-hQtR9cIk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_dpf5mj14_h",
+      "name": "Dietrich D.",
+      "shortName": "Dietrich D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Uw678mkC-S6kEnG7G.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -907,10 +1275,42 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_YepgZfKh_a",
+      "name": "Domingues J./Torres T.",
+      "shortName": "Domingues J./Torres T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/forSF55k-lljFVyWD.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_hzQDbBm4_h",
       "name": "Donald M.",
       "shortName": "Donald M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/jodKysB6-UHY9OBdF.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_vgm1XYl5_a",
+      "name": "Donski A./Pieczonka F.",
+      "shortName": "Donski A./Pieczonka F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WKPJLUA6-hvW3DFBU.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2sudW7BF_h",
+      "name": "Drazic M./Mattel M.",
+      "shortName": "Drazic M./Mattel M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dbNvpmRq-r9pVoIS5.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_QVtoyHkt_a",
+      "name": "Drzewiecki K./Matuszewski P.",
+      "shortName": "Drzewiecki K./Matuszewski P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/lhWssqme-YsRV6IHP.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -931,10 +1331,42 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_zgd2UR1e_a",
+      "name": "Dzumhur D.",
+      "shortName": "Dzumhur D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WGP865gT-CbgKBsnA.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_zgd2UR1e_h",
+      "name": "Echargui M.",
+      "shortName": "Echargui M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/YRrxT4jT-f936JERo.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_vV0YNRGF_h",
       "name": "Efremova K.",
       "shortName": "Efremova K.",
       "logoUrl": "https://static.flashscore.com/res/image/data/6esSabPq-jLjTbfhD.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_MsbFPD1T_a",
+      "name": "Egorova D.",
+      "shortName": "Egorova D.",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_6RNWjBHP_h",
+      "name": "Egorova D./Ibragimova A.",
+      "shortName": "Egorova D./Ibragimova A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Y9Dw7wB6-lAgyyN8S.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -955,6 +1387,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_pUS55J0l_a",
+      "name": "Ercan M.",
+      "shortName": "Ercan M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/t4A6wF86-zBTVipJ9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_zeifkuU7_a",
+      "name": "Erel Y.",
+      "shortName": "Erel Y.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0QYrNojC-ELhKtxxk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_zJmMwVCU_h",
       "name": "Erhard M.",
       "shortName": "Erhard M.",
@@ -971,6 +1419,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_Wjqz2DjD_h",
+      "name": "Estonia U21",
+      "shortName": "Estonia U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/v3dvvkVH-no5LkQQ6.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_20934",
       "name": "Estonia U21",
       "shortName": "Estonia",
@@ -983,6 +1439,22 @@
       "name": "Falcon U20",
       "shortName": "Falcon U20",
       "logoUrl": "https://static.flashscore.com/res/image/data/pSVddpCN-p05Lmsvq.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WzzutZoA_a",
+      "name": "Falei A.",
+      "shortName": "Falei A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Ma5OhSQq-QkcLOTGC.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jmsHJUR9_a",
+      "name": "Falkowska W./Smith A.",
+      "shortName": "Falkowska W./Smith A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dzNlOvA6-j1SJjtEU.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1019,6 +1491,30 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_URuuoLT6_a",
+      "name": "Feng S./Tian F.",
+      "shortName": "Feng S./Tian F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/b3De0aAN-dQito7e2.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_4xxbkCWi_a",
+      "name": "Fenty A.",
+      "shortName": "Fenty A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rwlgwjWH-OQhaP3L2.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_K2Dw5SSQ_h",
+      "name": "Fenty A./Maloney P.",
+      "shortName": "Fenty A./Maloney P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rwlgwjWH-OQhaP3L2.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_84NtJGmC_a",
       "name": "Ferguson C.",
       "shortName": "Ferguson C.",
@@ -1051,6 +1547,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_86nivnOj_h",
+      "name": "Filin N.",
+      "shortName": "Filin N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/lQgISkjC-tID77Bc2.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_rsGjehv8_h",
       "name": "Fils A.",
       "shortName": "Fils A.",
@@ -1075,6 +1579,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_SSdlCqzf_h",
+      "name": "Forbes M./Petak D.",
+      "shortName": "Forbes M./Petak D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/busXrnU0-Yq6J3Xgo.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_478",
       "name": "France",
       "shortName": "France",
@@ -1087,6 +1599,22 @@
       "name": "France U21",
       "shortName": "France",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_6XbTYUsg_h",
+      "name": "Francia U20",
+      "shortName": "Francia U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/zqBoAXme-hdLkHVh5.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Wjqz2DjD_a",
+      "name": "Francia U21",
+      "shortName": "Francia U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/b35ljhSq-4AglZ3Ej.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1115,6 +1643,38 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_SU7Tjh5C_a",
+      "name": "Galarneau A.",
+      "shortName": "Galarneau A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/K0xS09kC-6wvp1JAN.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_hfWD3cV0_h",
+      "name": "Galfi D.",
+      "shortName": "Galfi D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OMtvMpT0-URFFXTZO.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_IZr9Ljcc_h",
+      "name": "Galfi D./Waltert S.",
+      "shortName": "Galfi D./Waltert S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OMtvMpT0-URFFXTZO.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_z912uP3e_a",
+      "name": "Galles U21",
+      "shortName": "Galles U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Ik9mPWiT-pWJEuGxm.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_GYGZWhhc_a",
       "name": "Galloway R./Goransson A.",
       "shortName": "Galloway R./Goransson A.",
@@ -1139,10 +1699,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_vgm1XYl5_h",
+      "name": "Geerts M./Prashanth V.",
+      "shortName": "Geerts M./Prashanth V.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MVw3FTAN-Sv3m8l2G.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_584",
       "name": "Georgia",
       "shortName": "Georgia",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/geo.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_b7eLziDt_h",
+      "name": "Germania U20",
+      "shortName": "Germania U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/My9LtpgT-vZG58BBc.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1155,6 +1731,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_bFv3c6mf_h",
+      "name": "Gibilterra U17",
+      "shortName": "Gibilterra U17",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Wtl8QriC-4d6PEahE.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_AF2qcE9e_a",
       "name": "Giron M.",
       "shortName": "Giron M.",
@@ -1163,7 +1747,95 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_vVA4IR77_h",
+      "name": "Glinka D.",
+      "shortName": "Glinka D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hAUPYgiT-fRhJCwr0.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_S8IIRVpL_a",
+      "name": "Goffin D.",
+      "shortName": "Goffin D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/l2y6DuRq-O8ViDgXb.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2Rhb74W9_h",
+      "name": "Goffin D./Herbert P.H.",
+      "shortName": "Goffin D./Herbert P.H.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/l2y6DuRq-O8ViDgXb.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WOBYjqnT_a",
+      "name": "Gomez G./Janvier M.",
+      "shortName": "Gomez G./Janvier M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/88cPPQ96-M9EV23Hp.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_n3hX36Pq_a",
+      "name": "Gorgodze E.",
+      "shortName": "Gorgodze E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/CUnVdaVH-jiJHwiud.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_hfWD3cV0_a",
+      "name": "Grabher J.",
+      "shortName": "Grabher J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ChKro2CN-n9wyhJhJ.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WzzutZoA_h",
+      "name": "Grant T. C.",
+      "shortName": "Grant T. C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OAKWtpU0-jHSCix5O.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_6RNWjBHP_a",
+      "name": "Grant T. C./Jones E.",
+      "shortName": "Grant T. C./Jones E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OAKWtpU0-jHSCix5O.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_CrlTpT3l_h",
+      "name": "Grecia U17",
+      "shortName": "Grecia U17",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0WyWVJPq-z7L3x1Ya.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_0bziNzzR_a",
+      "name": "Gremio Prudente U20",
+      "shortName": "Gremio Prudente U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rN11JGRq-jPY7Gq7o.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_GQ68pvhg_h",
+      "name": "Grenier H.",
+      "shortName": "Grenier H.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/nN4vaq6k-pM4mnS6M.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_QwgrwDvA_h",
       "name": "Grenier H.",
       "shortName": "Grenier H.",
       "logoUrl": "https://static.flashscore.com/res/image/data/nN4vaq6k-pM4mnS6M.png",
@@ -1203,6 +1875,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_jHvPl3Us_a",
+      "name": "Guo M./Yang Y.",
+      "shortName": "Guo M./Yang Y.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MJBv48VH-YoPmXINC.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_hnCDqBzh_a",
       "name": "Hance K.",
       "shortName": "Hance K.",
@@ -1211,10 +1891,42 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_WOBYjqnT_h",
+      "name": "Hands T./Summers M.",
+      "shortName": "Hands T./Summers M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/4t2On2AN-zuNIhWLg.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_h41iNZ87_h",
       "name": "Hanfmann Y.",
       "shortName": "Hanfmann Y.",
       "logoUrl": "https://static.flashscore.com/res/image/data/r5ui8ujC-EX8p71Ag.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_xM0bv9UQ_h",
+      "name": "Harris B.",
+      "shortName": "Harris B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dzV1sF76-GbEtjnOc.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_vHgRh5HG_a",
+      "name": "Harris B./Whitehouse M.",
+      "shortName": "Harris B./Whitehouse M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dzV1sF76-GbEtjnOc.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_SU7Tjh5C_h",
+      "name": "Harris L.",
+      "shortName": "Harris L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/SMuvnU7k-O8ViDgXb.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1231,6 +1943,14 @@
       "name": "Heide G.",
       "shortName": "Heide G.",
       "logoUrl": "https://static.flashscore.com/res/image/data/jNHzPeRq-SMqfYKur.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_0KVRLuc2_h",
+      "name": "Henning P.",
+      "shortName": "Henning P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/v9kENcRq-nXRIOBzM.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1255,6 +1975,14 @@
       "name": "Hijikata R.",
       "shortName": "Hijikata R.",
       "logoUrl": "https://static.flashscore.com/res/image/data/l2gl0xBN-vatznZpf.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_YZrxpiHD_a",
+      "name": "Hilderbrand T./Pavel B.",
+      "shortName": "Hilderbrand T./Pavel B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/nocyIwB6-fHJaPqOD.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1291,9 +2019,25 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_dEsXnsaf_h",
+      "name": "Hozumi E./Sorribes Tormo S.",
+      "shortName": "Hozumi E./Sorribes Tormo S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/nTKk2aCN-AyImIjQT.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_0tedAN46_h",
       "name": "Hruncakova V.",
       "shortName": "Hruncakova V.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MeACJRle-fivZot2C.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2sudW7BF_a",
+      "name": "Hruncakova V./Siskova A.",
+      "shortName": "Hruncakova V./Siskova A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/MeACJRle-fivZot2C.png",
       "country": null,
       "countryFlagUrl": null
@@ -1310,6 +2054,14 @@
       "id": "espn_diretta_tp657Euo_a",
       "name": "Huang Yujia",
       "shortName": "Huang Yujia",
+      "logoUrl": "https://static.flashscore.com/res/image/data/lbsA3bjC-n9RQ2K55.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_dEsXnsaf_a",
+      "name": "Huang Yujia/Kawaguchi N.",
+      "shortName": "Huang Yujia/Kawaguchi N.",
       "logoUrl": "https://static.flashscore.com/res/image/data/lbsA3bjC-n9RQ2K55.png",
       "country": null,
       "countryFlagUrl": null
@@ -1339,6 +2091,30 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_n3hX36Pq_h",
+      "name": "Iatcenko P.",
+      "shortName": "Iatcenko P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rXhQVX5k-8jQolbF7.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_UeyeCnKq_a",
+      "name": "Iatcenko P./Karamoko N.",
+      "shortName": "Iatcenko P./Karamoko N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rXhQVX5k-8jQolbF7.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WGqoKiPj_h",
+      "name": "Ibragimova A.",
+      "shortName": "Ibragimova A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Y9Dw7wB6-lAgyyN8S.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_470",
       "name": "Iceland",
       "shortName": "Iceland",
@@ -1351,6 +2127,22 @@
       "name": "Iceland U21",
       "shortName": "Iceland",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/isl.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_K44LhEz0_a",
+      "name": "Ilagan A.",
+      "shortName": "Ilagan A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rymwJUQq-xpN5xc8b.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_ni6Dfz6m_h",
+      "name": "Imamura M.",
+      "shortName": "Imamura M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/AowMmbjC-zuqHwg6o.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1379,18 +2171,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_EkCNV0d3_h",
-      "name": "Inglis M.",
-      "shortName": "Inglis M.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/dCwg0QWH-QHqtum7I.png",
+      "id": "espn_diretta_6XbTYUsg_a",
+      "name": "Inghilterra U20",
+      "shortName": "Inghilterra U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WliC78Rq-j1Ih2sWe.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_hGi3RWMa_h",
-      "name": "Inter Arabia U20",
-      "shortName": "Inter Arabia U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/v9uLJblC-vivPIlv8.png",
+      "id": "espn_diretta_EkCNV0d3_h",
+      "name": "Inglis M.",
+      "shortName": "Inglis M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dCwg0QWH-QHqtum7I.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1411,6 +2203,30 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_ny1sxsvK_h",
+      "name": "Irlanda U21",
+      "shortName": "Irlanda U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/KtnelnWH-hSmK3D6n.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_CrlTpT3l_a",
+      "name": "Islanda U17",
+      "shortName": "Islanda U17",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0YbbWBoe-lfZlm1uk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_6NCt5Ei2_h",
+      "name": "Islanda U21",
+      "shortName": "Islanda U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/zLCQ5kXH-rays7Res.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_14290",
       "name": "Israel U21",
       "shortName": "Israel",
@@ -1419,10 +2235,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_6w15TO97_a",
+      "name": "Israele U21",
+      "shortName": "Israele U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dAgPvmme-88LAtdNt.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_2Lg8gtz8_a",
       "name": "Itabaiana U20",
       "shortName": "Itabaiana U20",
       "logoUrl": "https://static.flashscore.com/res/image/data/xKziERoe-CzPwSqjf.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_b7eLziDt_a",
+      "name": "Italia U20",
+      "shortName": "Italia U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Yq0j7Qne-xhH46umt.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1451,10 +2283,34 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_bDpPH8dM_h",
+      "name": "Jakupovic D./Salden L.",
+      "shortName": "Jakupovic D./Salden L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/O0kD5xCN-d4lqsL96.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_f1kj9Q1c_a",
+      "name": "Jans J./Vliegen J.",
+      "shortName": "Jans J./Vliegen J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WhZ7Nqle-YTV5FXl1.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_627",
       "name": "Japan",
       "shortName": "Japan",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WO5PeOkD_a",
+      "name": "Jarvis R./Vance J.",
+      "shortName": "Jarvis R./Vance J.",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1471,6 +2327,14 @@
       "name": "Jeanjean L.",
       "shortName": "Jeanjean L.",
       "logoUrl": "https://static.flashscore.com/res/image/data/jTE88Y96-URgkDeSN.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_QVtoyHkt_h",
+      "name": "Jecan M. A./Kielan S.",
+      "shortName": "Jecan M. A./Kielan S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ttEql7T0-UD2dNsfl.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1499,10 +2363,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_CfepsiOO_a",
-      "name": "Juarez U21",
-      "shortName": "Juarez U21",
-      "logoUrl": "https://static.flashscore.com/res/image/data/8SwTKWU0-jeyTggcd.png",
+      "id": "espn_diretta_zDndj9OE_h",
+      "name": "Jorda Sanchis D.",
+      "shortName": "Jorda Sanchis D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/reHvpGme-SfP94SfB.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1519,6 +2383,14 @@
       "name": "Kaji H.",
       "shortName": "Kaji H.",
       "logoUrl": "https://static.flashscore.com/res/image/data/0ICIDURq-Gr0viDEo.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_vgsMmZHl_a",
+      "name": "Kalender A./Serdarusic N.",
+      "shortName": "Kalender A./Serdarusic N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0z2Yv4gT-fRhW6RrJ.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1555,10 +2427,58 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_ny1sxsvK_a",
+      "name": "Kazakistan U21",
+      "shortName": "Kazakistan U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/zgEZ5A5k-YkZoQLK9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_8fY3qQP9_h",
       "name": "Kecmanovic M.",
       "shortName": "Kecmanovic M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/6iVSfhne-vmtNCDo1.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_00Zx2kGc_a",
+      "name": "Kennedy J.",
+      "shortName": "Kennedy J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dlQZm8gT-8CyGbGof.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_beoLe3YF_h",
+      "name": "Kestelboim M./Zormann Da Silva M.",
+      "shortName": "Kestelboim M./Zormann Da Silva M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/jsCzqJoe-8G7XTYJp.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WGqoKiPj_a",
+      "name": "Khomutsianskaya D.",
+      "shortName": "Khomutsianskaya D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MgIfTb6k-4AanOGhU.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_OGHIESa3_a",
+      "name": "Kim A.",
+      "shortName": "Kim A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/A9Dfs2jC-fXVEBoV2.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_OIhBJRsK_a",
+      "name": "Kim A./Nakashima B.",
+      "shortName": "Kim A./Nakashima B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/A9Dfs2jC-fXVEBoV2.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1603,10 +2523,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_jX619S1M_h",
+      "name": "Kostovic T.",
+      "shortName": "Kostovic T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/r9QR8ime-0zWSjZrD.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_MTxGFssK_a",
       "name": "Kovacevic A.",
       "shortName": "Kovacevic A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/YethBL86-GGXaEedO.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_OGHIESa3_h",
+      "name": "Kozlov S.",
+      "shortName": "Kozlov S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/8KlPmQ96-GrC8LYlg.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1651,10 +2587,42 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_2c92okum_h",
+      "name": "Kuwata H./Zheng W.",
+      "shortName": "Kuwata H./Zheng W.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/CUna6XA6-lYw2dmle.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_ELpG1xSi_a",
+      "name": "Kuzmanov D.",
+      "shortName": "Kuzmanov D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IcKrYd8k-MN13qqbo.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_Ig7OyA9L_h",
       "name": "Kym J.",
       "shortName": "Kym J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/6TlUAeCN-0WZbqqxh.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_6724",
+      "name": "Kyrgyz Republic",
+      "shortName": "Kyrgyz Rep.",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kgz.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_482jtVaE_h",
+      "name": "Lajal M.",
+      "shortName": "Lajal M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/fLRWsZjT-p6x6d4qQ.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1683,10 +2651,34 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_KEcaYsp1_a",
+      "name": "Lansere S.",
+      "shortName": "Lansere S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OGytMt7k-nZY2wfpn.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_URuuoLT6_h",
+      "name": "Lansere S./Shubladze A.",
+      "shortName": "Lansere S./Shubladze A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OGytMt7k-nZY2wfpn.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_17",
       "name": "Las Vegas Aces",
       "shortName": "Aces",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Q9uUoDn1_h",
+      "name": "Latinovic S./Poljicak M.",
+      "shortName": "Latinovic S./Poljicak M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/fJCOs3WH-Q5FflsgT.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1703,6 +2695,14 @@
       "name": "Lazaro Garcia A.",
       "shortName": "Lazaro Garcia A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/hInViEAN-OAEWs32m.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jHvPl3Us_h",
+      "name": "Lee Y./Ye Q.",
+      "shortName": "Lee Y./Ye Q.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/b3Zv2WmC-ziwvSGtD.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1731,18 +2731,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_CfepsiOO_h",
-      "name": "Leon U21",
-      "shortName": "Leon U21",
-      "logoUrl": "https://static.flashscore.com/res/image/data/dKrlOl86-b9YjyeaD.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_4zTgDoHj_a",
       "name": "Leong M. W. K.",
       "shortName": "Leong M. W. K.",
       "logoUrl": "https://static.flashscore.com/res/image/data/E3yYfL7k-MuaOUlO9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Q9uUoDn1_a",
+      "name": "Leote Prata V./Morais D.",
+      "shortName": "Leote Prata V./Morais D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/r1OSbejC-6yVBpp6n.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1771,10 +2771,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_4dETHlll_h",
-      "name": "Libia U20",
-      "shortName": "Libia U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/xpt21p96-YsaTGac2.png",
+      "id": "espn_diretta_61YHq466_a",
+      "name": "Lokoli L.",
+      "shortName": "Lokoli L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/lOlEsbSq-ptRBPiMT.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1827,18 +2827,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_ruZJAndo_h",
-      "name": "Madaras N.",
-      "shortName": "Madaras N.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/lzqm2fPq-SneUq5V0.png",
+      "id": "espn_diretta_K2gtE55s_a",
+      "name": "MacKinlay J./Okonkwo O.",
+      "shortName": "MacKinlay J./Okonkwo O.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/UcCmRZBN-lOpPnzDD.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_n1HjVmw3_a",
-      "name": "Madureira U20",
-      "shortName": "Madureira U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/MZOxs25k-CM3ZnPc0.png",
+      "id": "espn_diretta_ruZJAndo_h",
+      "name": "Madaras N.",
+      "shortName": "Madaras N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/lzqm2fPq-SneUq5V0.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1851,6 +2851,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_4390",
+      "name": "Maldives",
+      "shortName": "Maldives",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/mdv.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_UchDoUVG_a",
+      "name": "Maloney P.",
+      "shortName": "Maloney P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ULjjV8AN-jJowm7Pk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_8fY3qQP9_a",
       "name": "Mannarino A.",
       "shortName": "Mannarino A.",
@@ -1859,10 +2875,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_xACyGSI0_a",
-      "name": "Marocco U20",
-      "shortName": "Marocco U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/WteXveAN-CEPH9Bbd.png",
+      "id": "espn_diretta_4xxbkCWi_h",
+      "name": "Marcondes I.",
+      "shortName": "Marcondes I.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/YDT8y6iT-vFpLtYy9.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1875,6 +2891,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_UBXlb3La_a",
+      "name": "Martin A.",
+      "shortName": "Martin A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/zcYlUfkC-6VeGr856.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_j3wB5oTP_a",
       "name": "Martin Manzano J. C.",
       "shortName": "Martin Manzano J. C.",
@@ -1883,10 +2907,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_61YHq466_h",
+      "name": "Martin Tiffon P.",
+      "shortName": "Martin Tiffon P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/82I6PnPq-dpr1Bmwg.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_hfSJN1Sk_a",
       "name": "Martineau M.",
       "shortName": "Martineau M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/OWa1AN86-YX9MjDDa.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Ob2HcpL0_a",
+      "name": "Martinez L. D./Trotter J. K.",
+      "shortName": "Martinez L. D./Trotter J. K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6Nlpki6k-vqG0pvtq.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1923,10 +2963,50 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_86nivnOj_a",
+      "name": "Mayo A.",
+      "shortName": "Mayo A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/xxHE4TBN-nXsuseHU.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_SSdlCqzf_a",
+      "name": "Mayo A./Vance J.",
+      "shortName": "Mayo A./Vance J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/xxHE4TBN-nXsuseHU.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_OYb8bq7L_h",
+      "name": "McCabe J.",
+      "shortName": "McCabe J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/4ADZr2Sq-hdobysve.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_SShfWmXr_a",
+      "name": "McDonald M.",
+      "shortName": "McDonald M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/2Thl5UT0-2c5aEGXh.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_bFunN7SO_a",
       "name": "McDonald N.",
       "shortName": "McDonald N.",
       "logoUrl": "https://static.flashscore.com/res/image/data/6VFECHS0-6kChThXg.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_29Z2AQld_a",
+      "name": "McGiffin T./Micic E.",
+      "shortName": "McGiffin T./Micic E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dSAZKwB6-Q9FXMvbI.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1955,10 +3035,42 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_IPoidj9e_a",
+      "name": "Mena F.",
+      "shortName": "Mena F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/2LglRnAN-za7YjLTk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_203",
       "name": "Mexico",
       "shortName": "Mexico",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jJctkZ1S_a",
+      "name": "Midon L.",
+      "shortName": "Midon L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Qq2xR4U0-nHyT9ZLp.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_IPoidj9e_h",
+      "name": "Miguel L. A.",
+      "shortName": "Miguel L. A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Mw6Lh9hT-MclxLVk9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_6LUofjcB_a",
+      "name": "Miguel L. A./Ribeiro E.",
+      "shortName": "Miguel L. A./Ribeiro E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Mw6Lh9hT-MclxLVk9.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1971,9 +3083,25 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_jVsDcP33_h",
+      "name": "Milani B./Scheidt A.",
+      "shortName": "Milani B./Scheidt A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WOOHTbSq-KtCfnbWp.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_xOeLq80T_h",
       "name": "Milavsky D.",
       "shortName": "Milavsky D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6JXOcoA6-Wz084Lge.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_OIhBJRsK_h",
+      "name": "Milavsky D./Shick B.",
+      "shortName": "Milavsky D./Shick B.",
       "logoUrl": "https://static.flashscore.com/res/image/data/6JXOcoA6-Wz084Lge.png",
       "country": null,
       "countryFlagUrl": null
@@ -2011,6 +3139,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_E5AV6lbE_a",
+      "name": "Mitsui S./Tu L.",
+      "shortName": "Mitsui S./Tu L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/GO71faSq-rFmdRa0q.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_v1wmvDGM_h",
+      "name": "Mladenovic K.",
+      "shortName": "Mladenovic K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/lfN8aTPq-jX0SdYnI.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_EcYjSdxP_h",
       "name": "Mmoh M.",
       "shortName": "Mmoh M.",
@@ -2043,6 +3187,30 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_MoUt0Pjm_a",
+      "name": "Moller E.",
+      "shortName": "Moller E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/jeuY9K76-nenAzaqn.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_W4H7PvhK_h",
+      "name": "Monnet C.",
+      "shortName": "Monnet C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6Fc6br8k-hhmDzIFI.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_hdiNcm5j_a",
+      "name": "Monnet C./Riera J.",
+      "shortName": "Monnet C./Riera J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6Fc6br8k-hhmDzIFI.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_6775",
       "name": "Montenegro",
       "shortName": "Montenegro",
@@ -2067,6 +3235,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_IZr9Ljcc_a",
+      "name": "Moratelli A./Valdmannova V.",
+      "shortName": "Moratelli A./Valdmannova V.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IF1ZY67k-MV5VZdqC.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_84sOI7gT_a",
       "name": "Moriya H.",
       "shortName": "Moriya H.",
@@ -2083,10 +3259,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_IXkoXXrR_a",
-      "name": "Mozambico U20",
-      "shortName": "Mozambico U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/pCoO7DhT-bZwMpPQJ.png",
+      "id": "espn_diretta_YwgiVHXi_h",
+      "name": "Morvayova V.",
+      "shortName": "Morvayova V.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/A5Z4YEPq-6eay9NTb.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2099,18 +3275,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_E3yHRB6l_a",
-      "name": "Namibia U20",
-      "shortName": "Namibia U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/hjLpzyDN-ldWGNVVE.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_2Jzf1f9t_h",
-      "name": "Necaxa U21",
-      "shortName": "Necaxa U21",
-      "logoUrl": "https://static.flashscore.com/res/image/data/v1BYPmQq-IeCsbXZl.png",
+      "id": "espn_diretta_00Zx2kGc_h",
+      "name": "Nakashima B.",
+      "shortName": "Nakashima B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Gl36iJle-Wp5GKODI.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2119,6 +3287,14 @@
       "name": "Nesterov P.",
       "shortName": "Nesterov P.",
       "logoUrl": "https://static.flashscore.com/res/image/data/SlUx8iiT-ET69Ybst.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WjjJfRn4_h",
+      "name": "Neuchrist M./Poljak D.",
+      "shortName": "Neuchrist M./Poljak D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rJyw93kC-I3vxtblK.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2163,6 +3339,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_bDpPH8dM_a",
+      "name": "Noha Akugue N./Wagner A.",
+      "shortName": "Noha Akugue N./Wagner A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ObdgeOjT-zJwSL6PK.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_463",
       "name": "North Macedonia",
       "shortName": "North Macedonia",
@@ -2187,6 +3371,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_KM2cVpue_h",
+      "name": "Norvegia U21",
+      "shortName": "Norvegia U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hYjIqzQq-pWJEuGxm.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_14253",
       "name": "Norway U21",
       "shortName": "Norway",
@@ -2195,18 +3387,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_n1HjVmw3_h",
-      "name": "Nova Iguacu U20",
-      "shortName": "Nova Iguacu U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/Ohn3ngU0-r7w9RYBa.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_IJv4CJL8_h",
-      "name": "Novorizontino U20",
-      "shortName": "Novorizontino U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/4GmijJR0-Kjg6GrcS.png",
+      "id": "espn_diretta_2c92okum_a",
+      "name": "Nugroho P. M./Yashina E.",
+      "shortName": "Nugroho P. M./Yashina E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/xpa59EjC-K8by9gno.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2219,10 +3403,42 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_lUa7RZWG_h",
+      "name": "Okamura K.",
+      "shortName": "Okamura K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/2Zh9fa8k-Eqi6v1u3.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_WO5PeOkD_h",
+      "name": "Okonkwo A./Stearns P.",
+      "shortName": "Okonkwo A./Stearns P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dYVJXFVH-EJLOdFDR.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_MkheSeQi_h",
       "name": "Okonkwo O.",
       "shortName": "Okonkwo O.",
       "logoUrl": "https://static.flashscore.com/res/image/data/O6K8gcjC-YRIVfpKk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_nZlblLQk_h",
+      "name": "Oliveira B./Rodrigues N.",
+      "shortName": "Oliveira B./Rodrigues N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/E31sc5gT-f9PK2kF5.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_vHiD3YGL_a",
+      "name": "Olivieri G. A.",
+      "shortName": "Olivieri G. A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rR3vbeme-CSpGzAec.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2251,10 +3467,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_QaU2stBL_a",
+      "name": "Ostapenkov D.",
+      "shortName": "Ostapenkov D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_AeUQmfZo_h",
       "name": "Ovcharenko O.",
       "shortName": "Ovcharenko O.",
       "logoUrl": "https://static.flashscore.com/res/image/data/MqBHZBme-dl6K7abD.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_QwgrwDvA_a",
+      "name": "Overbeck C. E.",
+      "shortName": "Overbeck C. E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MegeAfiT-t84nIInS.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2291,10 +3523,34 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_thvtDrME_a",
+      "name": "Pankin S.",
+      "shortName": "Pankin S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/bVNFabjC-4OSyXRjm.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_4rLiaTLO_h",
       "name": "Panova A.",
       "shortName": "Panova A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/YDJPUdVH-bF32Z20a.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_rNejgefR_a",
+      "name": "Paul J./Vocel M.",
+      "shortName": "Paul J./Vocel M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/M3s2ETQq-QPsxT8Cr.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jL0005x9_a",
+      "name": "Pavlovic L.",
+      "shortName": "Pavlovic L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/SfsHMZoe-4WIOrVom.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2331,6 +3587,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_86fAS5W7_a",
+      "name": "Pereira T.",
+      "shortName": "Pereira T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WhZ0PtB6-2BxtFqht.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_zchreHPE_a",
+      "name": "Pereira T./Rocha F.",
+      "shortName": "Pereira T./Rocha F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WhZ0PtB6-2BxtFqht.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_Y7WwdCSb_a",
       "name": "Perez B./Saraiva Dos Santos P. A.",
       "shortName": "Perez B./Saraiva Dos Santos P. A.",
@@ -2359,6 +3631,14 @@
       "name": "Petkovic M.",
       "shortName": "Petkovic M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/4MX1AtVH-WhwZ2y4F.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_UBXlb3La_h",
+      "name": "Pieri S.",
+      "shortName": "Pieri S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/GvdsName-nZnF4QdT.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2395,6 +3675,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_2Rhb74W9_a",
+      "name": "Poling K./Sheehy J.",
+      "shortName": "Poling K./Sheehy J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/nXadOIjT-zsxxFW4q.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_QgTSX08m_a",
       "name": "Poljicak M.",
       "shortName": "Poljicak M.",
@@ -2403,10 +3691,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_IJv4CJL8_a",
-      "name": "Portuguesa Santista U20",
-      "shortName": "Portuguesa Santista U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/UmsWxAR0-dYq2047l.png",
+      "id": "espn_diretta_zVH3I9cC_h",
+      "name": "Polonia U20",
+      "shortName": "Polonia U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/KxAbiIoe-vZG58BBc.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_reLBGmSO_h",
+      "name": "Portogallo U20",
+      "shortName": "Portogallo U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/QPy3ERVH-nkBpaHJn.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2415,6 +3711,14 @@
       "name": "Potenza L.",
       "shortName": "Potenza L.",
       "logoUrl": "https://static.flashscore.com/res/image/data/SbL9hDoe-8bxR8um3.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_482jtVaE_a",
+      "name": "Poullain L.",
+      "shortName": "Poullain L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/dKtijKWH-tMTnwvaj.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2435,6 +3739,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_6H2QPmn3_h",
+      "name": "Pridankina E.",
+      "shortName": "Pridankina E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/23W0ZxU0-QuluFZ8a.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_UeyeCnKq_h",
+      "name": "Pridankina E./Tikhonova A.",
+      "shortName": "Pridankina E./Tikhonova A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/23W0ZxU0-QuluFZ8a.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_6XUrUI7C_h",
       "name": "Prizmic D.",
       "shortName": "Prizmic D.",
@@ -2451,18 +3771,26 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_E3kE08Xp_h",
-      "name": "Rawat S.",
-      "shortName": "Rawat S.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/0GeNdhjT-OtwHA4Ar.png",
+      "id": "espn_diretta_pUS55J0l_h",
+      "name": "Radivojevic L.",
+      "shortName": "Radivojevic L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rLxd7e7k-tIJg4HAd.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_zwzb1gD7_h",
-      "name": "RB Bragantino U20",
-      "shortName": "RB Bragantino U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/rLzbzW76-zV7mJUhj.png",
+      "id": "espn_diretta_SvsQWU8d_h",
+      "name": "Rajecki A.",
+      "shortName": "Rajecki A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OSilRnjC-88k3XKh9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_E3kE08Xp_h",
+      "name": "Rawat S.",
+      "shortName": "Rawat S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0GeNdhjT-OtwHA4Ar.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2475,9 +3803,25 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_fFnKsif2_h",
+      "name": "Reis Da Silva J.",
+      "shortName": "Reis Da Silva J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rg2owjVH-xExxtgs7.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_AgcJMifT_a",
       "name": "Remondy Pagotto V. H.",
       "shortName": "Remondy Pagotto V. H.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MyNz0fgT-zNcLBA67.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_6LUofjcB_h",
+      "name": "Remondy Pagotto V. H./Roveri Sidney G.",
+      "shortName": "Remondy Pagotto V. H./Roveri Sidney G.",
       "logoUrl": "https://static.flashscore.com/res/image/data/MyNz0fgT-zNcLBA67.png",
       "country": null,
       "countryFlagUrl": null
@@ -2491,10 +3835,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_zVH3I9cC_a",
+      "name": "Repubblica Ceca U20",
+      "shortName": "Repubblica Ceca U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/AVfhkhiT-zPOppuN2.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_20003",
       "name": "Republic of Ireland U21",
       "shortName": "Rep Ireland",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/irl.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_YepgZfKh_h",
+      "name": "Reymond A./Sanchez L.",
+      "shortName": "Reymond A./Sanchez L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Q7xK2q6k-re3M7WvN.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2519,6 +3879,14 @@
       "name": "Rincon D.",
       "shortName": "Rincon D.",
       "logoUrl": "https://static.flashscore.com/res/image/data/v1asZ1le-WKPKQZr7.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_U980n0Nt_a",
+      "name": "Rocha H.",
+      "shortName": "Rocha H.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/xWypujkC-jXYWnpzD.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2558,6 +3926,14 @@
       "id": "espn_diretta_rgfYjeXF_a",
       "name": "Roncadelli F.",
       "shortName": "Roncadelli F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OKk5XO5k-65SbkYvC.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jBiJyrsp_h",
+      "name": "Roncadelli F./Villanueva G.",
+      "shortName": "Roncadelli F./Villanueva G.",
       "logoUrl": "https://static.flashscore.com/res/image/data/OKk5XO5k-65SbkYvC.png",
       "country": null,
       "countryFlagUrl": null
@@ -2627,6 +4003,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_GYb9a6jl_h",
+      "name": "Rybakov A./Smith K.",
+      "shortName": "Rybakov A./Smith K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IsmXTYne-fV2jmY70.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_nZrOaGd4_a",
       "name": "Sachko V.",
       "shortName": "Sachko V.",
@@ -2639,6 +4023,14 @@
       "name": "Safiullin R.",
       "shortName": "Safiullin R.",
       "logoUrl": "https://static.flashscore.com/res/image/data/hUjvV7kC-xbQlHtXi.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2BxKhCVF_a",
+      "name": "Saigo R.",
+      "shortName": "Saigo R.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/E1lEU4hT-8rjMZHLm.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2675,10 +4067,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_z7JBIAgc_h",
-      "name": "Sampaio Correa FE U20",
-      "shortName": "Sampaio Correa FE U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/ADF6iZme-Q3jaLYCh.png",
+      "id": "espn_diretta_fHkvgNUr_h",
+      "name": "Sakellaridis S.",
+      "shortName": "Sakellaridis S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/8KFuoIle-Mq1nVMWl.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_SShfWmXr_h",
+      "name": "Samuel T.",
+      "shortName": "Samuel T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/zuJ0LG5k-4hIBlAr6.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2691,10 +4091,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_nFhUwZZp_a",
+      "name": "Sanchez Martinez B.",
+      "shortName": "Sanchez Martinez B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/vHTznT96-fJz8s04G.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_CS2HKzl2_a",
       "name": "Sanchez Quilez A.",
       "shortName": "Sanchez Quilez A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/pIOz3Mme-bJ5j90u7.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_jL0005x9_h",
+      "name": "Santillan A.",
+      "shortName": "Santillan A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2731,6 +4147,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_0KVRLuc2_a",
+      "name": "Schoolkate T.",
+      "shortName": "Schoolkate T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/UgvWQE7k-4jeUHOYa.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_j3wB5oTP_h",
       "name": "Sciahbasi M.",
       "shortName": "Sciahbasi M.",
@@ -2751,6 +4175,14 @@
       "name": "Seggerman R.",
       "shortName": "Seggerman R.",
       "logoUrl": "https://static.flashscore.com/res/image/data/rVHykPle-dIsZrv1I.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_dxdQhH23_h",
+      "name": "Seyboth Wild T.",
+      "shortName": "Seyboth Wild T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hx9OQrDN-lx8ifqQ1.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2787,6 +4219,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_fHkvgNUr_a",
+      "name": "Shimizu Y.",
+      "shortName": "Shimizu Y.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/f5cX9AR0-Kjoz0W83.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_ENu8Mkf4_a",
       "name": "Shiraishi H.",
       "shortName": "Shiraishi H.",
@@ -2795,10 +4235,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_2BxKhCVF_h",
+      "name": "Shubladze A.",
+      "shortName": "Shubladze A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hh9jL7Sq-MuV11dpr.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_n9mlG8YN_h",
       "name": "Shvangiradze A.",
       "shortName": "Shvangiradze A.",
       "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_MsbFPD1T_h",
+      "name": "Sidorova K.",
+      "shortName": "Sidorova K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/4bikTNle-AkmLHmMI.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2827,6 +4283,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_6w15TO97_h",
+      "name": "Slovenia U21",
+      "shortName": "Slovenia U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/xrU63rlC-IuvzgF4s.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_20844",
       "name": "Slovenia U21",
       "shortName": "Slovenia",
@@ -2843,18 +4307,34 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_451",
-      "name": "South Korea",
-      "shortName": "South Korea",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "id": "espn_diretta_YwgiVHXi_a",
+      "name": "Sorribes Tormo S.",
+      "shortName": "Sorribes Tormo S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/8dwwhzWH-8EbzeCHU.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_SzyMZxQP_h",
-      "name": "Spagna U20 D",
-      "shortName": "Spagna U20 D",
-      "logoUrl": "https://static.flashscore.com/res/image/data/4AQveeDN-MayHMmvd.png",
+      "id": "espn_diretta_jJctkZ1S_h",
+      "name": "Soto M.",
+      "shortName": "Soto M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/QXy4S06k-EikNkEfd.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_byeRZLBd_h",
+      "name": "Soto M./Zeballos F.",
+      "shortName": "Soto M./Zeballos F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/QXy4S06k-EikNkEfd.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_451",
+      "name": "South Korea",
+      "shortName": "South Korea",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2899,10 +4379,26 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_IXkoXXrR_h",
-      "name": "Sudafrica U20",
-      "shortName": "Sudafrica U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/dd8I1T7k-xQxQqqtQ.png",
+      "id": "espn_diretta_fs5BTiG8_a",
+      "name": "Stricker D.",
+      "shortName": "Stricker D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MiiS5AjC-Cr7x5z1L.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2sgni1ae_a",
+      "name": "Sun F.",
+      "shortName": "Sun F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6VpCPOhT-2FhpQx2q.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_bwQWjP7d_h",
+      "name": "Svajda T.",
+      "shortName": "Svajda T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/AadMjj7k-4YaHNN2r.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2911,6 +4407,22 @@
       "name": "Svajda Z.",
       "shortName": "Svajda Z.",
       "logoUrl": "https://static.flashscore.com/res/image/data/nubOtpkC-jc8Hax9s.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_reLBGmSO_a",
+      "name": "Svizzera U20",
+      "shortName": "Svizzera U20",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0tqUsS96-MBqljUeT.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_6NCt5Ei2_a",
+      "name": "Svizzera U21",
+      "shortName": "Svizzera U21",
+      "logoUrl": "https://static.flashscore.com/res/image/data/htPPFojC-no5LkQQ6.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2947,6 +4459,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_MoUt0Pjm_h",
+      "name": "Taberner C.",
+      "shortName": "Taberner C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/S2ejI6Sq-MuaMOCzc.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_hfSJN1Sk_h",
       "name": "Tabur C.",
       "shortName": "Tabur C.",
@@ -2979,6 +4499,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_fRrIYjvp_a",
+      "name": "Tian F.",
+      "shortName": "Tian F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/GQYVCnRq-QoN6TFkr.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_4WCNDdBb_h",
+      "name": "Tikhonova A.",
+      "shortName": "Tikhonova A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/K04hNpU0-xnYae4aa.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_xhivT4uT_h",
       "name": "Tiukaev R.",
       "shortName": "Tiukaev R.",
@@ -2995,6 +4531,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_AarqbCvq_h",
+      "name": "Tobon M.",
+      "shortName": "Tobon M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6XxelSA6-61rwz9Vg.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2sgni1ae_h",
+      "name": "Tomic B.",
+      "shortName": "Tomic B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/h6cy1Bme-AB2yvllh.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_tIamxIyQ_a",
       "name": "Topo M.",
       "shortName": "Topo M.",
@@ -3003,10 +4555,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_AarqbCvq_a",
+      "name": "Torres J. B.",
+      "shortName": "Torres J. B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IJCCHmS0-b3oyZbiL.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_Ig7OyA9L_a",
       "name": "Torres T.",
       "shortName": "Torres T.",
       "logoUrl": "https://static.flashscore.com/res/image/data/xCurlCPq-Q1D0GVK3.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_IZQfq2t9_h",
+      "name": "Trotter J. K.",
+      "shortName": "Trotter J. K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/CtK1LihT-OUMi2nSr.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3027,10 +4595,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_xACyGSI0_h",
-      "name": "Tunisia U20",
-      "shortName": "Tunisia U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/rqVuT3WH-xlTjBOZ0.png",
+      "id": "espn_diretta_IZQfq2t9_a",
+      "name": "Tu L.",
+      "shortName": "Tu L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MsdV2nQq-2REdaxXb.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3047,14 +4615,6 @@
       "name": "Türkiye",
       "shortName": "Türkiye",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_vscxqDgC_h",
-      "name": "U.N.A.M. U21",
-      "shortName": "U.N.A.M. U21",
-      "logoUrl": "https://static.flashscore.com/res/image/data/8pDVq6kC-v9D5c3Pm.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3115,6 +4675,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_QaU2stBL_h",
+      "name": "Vandecasteele Q.",
+      "shortName": "Vandecasteele Q.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/v7bqBfUH-SQeSWXM9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_213",
       "name": "Venezuela",
       "shortName": "Venezuela",
@@ -3135,6 +4703,14 @@
       "name": "Villoslada E.",
       "shortName": "Villoslada E.",
       "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_86fAS5W7_h",
+      "name": "Virtanen O.",
+      "shortName": "Virtanen O.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IZERCySq-WMdj1jfA.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3163,6 +4739,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_4WCNDdBb_a",
+      "name": "Waltert S.",
+      "shortName": "Waltert S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/fe0qIHBN-CIeRE4aj.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_ENu8Mkf4_h",
       "name": "Walton A.",
       "shortName": "Walton A.",
@@ -3175,6 +4759,22 @@
       "name": "Wang J.",
       "shortName": "Wang J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/GfnWiDCN-zJ9QqCbf.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_SvsQWU8d_a",
+      "name": "Wang Y.",
+      "shortName": "Wang Y.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/xA8cEo86-0QEX3Vra.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_zeifkuU7_h",
+      "name": "Weber A.",
+      "shortName": "Weber A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WvSYzzAN-vNMsZnih.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3195,10 +4795,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_dpf5mj14_a",
+      "name": "Wolf J.J.",
+      "shortName": "Wolf J.J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/EZkSPlXH-GhaUFZhi.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_65UcAgUP_a",
       "name": "Wolff V.",
       "shortName": "Wolff V.",
       "logoUrl": "https://static.flashscore.com/res/image/data/CCr5Bc96-Q3QdnBUF.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_lUa7RZWG_a",
+      "name": "Wu R. X.",
+      "shortName": "Wu R. X.",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -3267,14 +4883,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_E3yHRB6l_h",
-      "name": "Zambia U20",
-      "shortName": "Zambia U20",
-      "logoUrl": "https://static.flashscore.com/res/image/data/bgApkeme-fomCGwjD.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_nJdQzDHb_h",
       "name": "Zamora N.",
       "shortName": "Zamora N.",
@@ -3291,10 +4899,26 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_KEcaYsp1_h",
+      "name": "Zavatska K.",
+      "shortName": "Zavatska K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Wd9LRUBN-GUKxWLP3.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_GvGT4Xim_a",
       "name": "Zaytseva K.",
       "shortName": "Zaytseva K.",
       "logoUrl": "https://static.flashscore.com/res/image/data/6yBrEFlC-GYrmLyLg.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_KxQzkWZO_a",
+      "name": "Zeng Y.",
+      "shortName": "Zeng Y.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MXEGK6Pq-x87NELBQ.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3319,6 +4943,14 @@
       "name": "Zhao C.",
       "shortName": "Zhao C.",
       "logoUrl": "https://static.flashscore.com/res/image/data/fRlMNmiC-hdcD0YpE.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_KxQzkWZO_h",
+      "name": "Zheng M.",
+      "shortName": "Zheng M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hUWkrxkC-vydAhFYf.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3373,198 +5005,6 @@
   ],
   "events": [
     {
-      "id": "diretta_dir_E3yHRB6l",
-      "title": "Zambia U20 - Namibia U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_E3yHRB6l_h",
-      "awayTeamId": "espn_diretta_E3yHRB6l_a",
-      "startTime": "2026-09-27T09:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/bgApkeme-fomCGwjD.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hjLpzyDN-ldWGNVVE.png",
-      "homeScore": 3,
-      "awayScore": 0,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_IXkoXXrR",
-      "title": "Sudafrica U20 - Mozambico U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_IXkoXXrR_h",
-      "awayTeamId": "espn_diretta_IXkoXXrR_a",
-      "startTime": "2026-09-27T12:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dd8I1T7k-xQxQqqtQ.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/pCoO7DhT-bZwMpPQJ.png",
-      "homeScore": 2,
-      "awayScore": 1,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_Cl6G1yPa",
-      "title": "Athletic Club U20 - Cruzeiro U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_Cl6G1yPa_h",
-      "awayTeamId": "espn_diretta_Cl6G1yPa_a",
-      "startTime": "2026-09-27T13:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/jZRvGJjT-86AAm9zm.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zeXFBzXH-re7YM05n.png",
-      "homeScore": 2,
-      "awayScore": 1,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_n1HjVmw3",
-      "title": "Nova Iguacu U20 - Madureira U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_n1HjVmw3_h",
-      "awayTeamId": "espn_diretta_n1HjVmw3_a",
-      "startTime": "2026-09-27T13:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Ohn3ngU0-r7w9RYBa.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MZOxs25k-CM3ZnPc0.png",
-      "homeScore": 2,
-      "awayScore": 2,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_IJv4CJL8",
-      "title": "Novorizontino U20 - Portuguesa Santista U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_IJv4CJL8_h",
-      "awayTeamId": "espn_diretta_IJv4CJL8_a",
-      "startTime": "2026-09-27T13:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4GmijJR0-Kjg6GrcS.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/UmsWxAR0-dYq2047l.png",
-      "homeScore": 1,
-      "awayScore": 1,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_4dETHlll",
-      "title": "Libia U20 - Algeria U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_4dETHlll_h",
-      "awayTeamId": "espn_diretta_4dETHlll_a",
-      "startTime": "2026-09-27T13:30:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/xpt21p96-YsaTGac2.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/4tb19akC-KAqUF00e.png",
-      "homeScore": 1,
-      "awayScore": 3,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_CfepsiOO",
-      "title": "Leon U21 - Juarez U21",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u21",
-      "homeTeamId": "espn_diretta_CfepsiOO_h",
-      "awayTeamId": "espn_diretta_CfepsiOO_a",
-      "startTime": "2026-09-27T15:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dKrlOl86-b9YjyeaD.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/8SwTKWU0-jeyTggcd.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_2Jzf1f9t",
-      "title": "Necaxa U21 - Club America U21",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u21",
-      "homeTeamId": "espn_diretta_2Jzf1f9t_h",
-      "awayTeamId": "espn_diretta_2Jzf1f9t_a",
-      "startTime": "2026-09-27T15:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/v1BYPmQq-IeCsbXZl.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/txln7gBN-zPKwxbCa.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_vscxqDgC",
-      "title": "U.N.A.M. U21 - Atl. San Luis U21",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u21",
-      "homeTeamId": "espn_diretta_vscxqDgC_h",
-      "awayTeamId": "espn_diretta_vscxqDgC_a",
-      "startTime": "2026-09-27T15:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/8pDVq6kC-v9D5c3Pm.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bV1r8miT-b7qoHeZc.png",
-      "homeScore": 1,
-      "awayScore": 2,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_SzyMZxQP",
-      "title": "Spagna U20 D - Corea del Nord U20 D",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_u20_world",
-      "homeTeamId": "espn_diretta_SzyMZxQP_h",
-      "awayTeamId": "espn_diretta_SzyMZxQP_a",
-      "startTime": "2026-09-27T16:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4AQveeDN-MayHMmvd.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WboDQe7k-YHLadYFI.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_xACyGSI0",
-      "title": "Tunisia U20 - Marocco U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_xACyGSI0_h",
-      "awayTeamId": "espn_diretta_xACyGSI0_a",
-      "startTime": "2026-09-27T17:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rqVuT3WH-xlTjBOZ0.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WteXveAN-CEPH9Bbd.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_6uNr72yo",
-      "title": "CSE U20 - CSA U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_6uNr72yo_h",
-      "awayTeamId": "espn_diretta_6uNr72yo_a",
-      "startTime": "2026-09-27T18:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4ENwu7oe-dY7hwU73.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/4bd6DeBN-SCxqFMbR.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "channels": []
-    },
-    {
       "id": "diretta_dir_CEVX91Kl",
       "title": "Desportiva Aracaju U20 - Falcon U20",
       "sport": "FOOTBALL",
@@ -3597,51 +5037,19 @@
       "channels": []
     },
     {
-      "id": "diretta_dir_hGi3RWMa",
-      "title": "Inter Arabia U20 - CRB U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_hGi3RWMa_h",
-      "awayTeamId": "espn_diretta_hGi3RWMa_a",
-      "startTime": "2026-09-27T18:00:00Z",
+      "id": "diretta_tennis_t0btXUGN",
+      "title": "Palavestra I. - Ostapenkov D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_t0btXUGN_h",
+      "awayTeamId": "espn_diretta_t0btXUGN_a",
+      "startTime": "2026-09-27T22:40:00Z",
       "endTime": null,
       "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/v9uLJblC-vivPIlv8.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/AgkCMc8k-ngstZbhJ.png",
-      "homeScore": 1,
-      "awayScore": 1,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_zwzb1gD7",
-      "title": "RB Bragantino U20 - CA Bandeirante U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_zwzb1gD7_h",
-      "awayTeamId": "espn_diretta_zwzb1gD7_a",
-      "startTime": "2026-09-27T18:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rLzbzW76-zV7mJUhj.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/vgmijqjT-ryRtdjf5.png",
-      "homeScore": 5,
-      "awayScore": 1,
-      "channels": []
-    },
-    {
-      "id": "diretta_dir_z7JBIAgc",
-      "title": "Sampaio Correa FE U20 - Boavista U20",
-      "sport": "FOOTBALL",
-      "competitionId": "fifa_friendly_u20",
-      "homeTeamId": "espn_diretta_z7JBIAgc_h",
-      "awayTeamId": "espn_diretta_z7JBIAgc_a",
-      "startTime": "2026-09-27T18:00:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ADF6iZme-Q3jaLYCh.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hz4qo1T0-UTr3hJF4.png",
-      "homeScore": 3,
-      "awayScore": 1,
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4rBxR4R0-EXAuP9cb.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": []
     },
     {
@@ -3651,29 +5059,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_nJdQzDHb_h",
       "awayTeamId": "espn_diretta_nJdQzDHb_a",
-      "startTime": "2026-09-27T22:30:00Z",
+      "startTime": "2026-09-27T23:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/hpkhv5Qq-C2qawcxk.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Q3ApwqDN-nNteDkQ5.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "diretta_tennis_t0btXUGN",
-      "title": "Palavestra I. - Ostapenkov D.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_t0btXUGN_h",
-      "awayTeamId": "espn_diretta_t0btXUGN_a",
-      "startTime": "2026-09-27T23:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4rBxR4R0-EXAuP9cb.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": []
     },
     {
@@ -3685,11 +5077,11 @@
       "awayTeamId": "espn_diretta_E5bIxZnn_a",
       "startTime": "2026-09-28T00:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/ry3evxgT-GOsncUhM.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/QmA2AlSq-WQGJlJFR.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": []
     },
     {
@@ -5821,6 +7213,22 @@
       "channels": []
     },
     {
+      "id": "diretta_tennis_IZQfq2t9",
+      "title": "Trotter J. K. - Tu L.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_IZQfq2t9_h",
+      "awayTeamId": "espn_diretta_IZQfq2t9_a",
+      "startTime": "2026-09-28T15:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/CtK1LihT-OUMi2nSr.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MsdV2nQq-2REdaxXb.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
       "id": "diretta_tennis_zui65r1M",
       "title": "Poullain L./Reco A. - Broady L./Hudd E.",
       "sport": "TENNIS",
@@ -5962,6 +7370,22 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/CpM05JRq-t0pbs3oK.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/8Q6S2hWH-jimhBHo2.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_QaU2stBL",
+      "title": "Vandecasteele Q. - Ostapenkov D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_QaU2stBL_h",
+      "awayTeamId": "espn_diretta_QaU2stBL_a",
+      "startTime": "2026-09-28T17:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/v7bqBfUH-SQeSWXM9.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -6229,6 +7653,22 @@
       "channels": []
     },
     {
+      "id": "espn_401919572",
+      "title": "Maldives at Kyrgyz Republic",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly",
+      "homeTeamId": "espn_6724",
+      "awayTeamId": "espn_4390",
+      "startTime": "2026-09-28T22:00Z",
+      "endTime": "2026-09-29T00:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/kgz.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/mdv.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
       "id": "espn_401923659",
       "title": "Albion FC at Montevideo Wanderers",
       "sport": "FOOTBALL",
@@ -6242,6 +7682,1206 @@
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21403.png",
       "homeScore": 0,
       "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_thvtDrME",
+      "title": "Bolt A. - Pankin S.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_thvtDrME_h",
+      "awayTeamId": "espn_diretta_thvtDrME_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/StDhGCCN-I7xw1AtD.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bVNFabjC-4OSyXRjm.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_fRrIYjvp",
+      "title": "Bouzas Maneiro J. - Tian F.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_fRrIYjvp_h",
+      "awayTeamId": "espn_diretta_fRrIYjvp_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dp6eBgBN-b9r7y6DB.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/GQYVCnRq-QoN6TFkr.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_K44LhEz0",
+      "title": "Dellavedova M. - Ilagan A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_K44LhEz0_h",
+      "awayTeamId": "espn_diretta_K44LhEz0_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/tdEA3z96-Iu0sTlHK.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rymwJUQq-xpN5xc8b.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_xhqmqabJ",
+      "title": "Detiuc A./Khromacheva I. - Costoulas S./Martins I.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_xhqmqabJ_h",
+      "awayTeamId": "espn_diretta_xhqmqabJ_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rPnm4F5k-lbsICy6q.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/QwoHLTBN-Q9gg1xg9.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_6RNWjBHP",
+      "title": "Egorova D./Ibragimova A. - Grant T. C./Jones E.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_6RNWjBHP_h",
+      "awayTeamId": "espn_diretta_6RNWjBHP_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Y9Dw7wB6-lAgyyN8S.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/OAKWtpU0-jHSCix5O.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_WzzutZoA",
+      "title": "Grant T. C. - Falei A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_WzzutZoA_h",
+      "awayTeamId": "espn_diretta_WzzutZoA_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/OAKWtpU0-jHSCix5O.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Ma5OhSQq-QkcLOTGC.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_SU7Tjh5C",
+      "title": "Harris L. - Galarneau A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_SU7Tjh5C_h",
+      "awayTeamId": "espn_diretta_SU7Tjh5C_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/SMuvnU7k-O8ViDgXb.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/K0xS09kC-6wvp1JAN.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_dEsXnsaf",
+      "title": "Hozumi E./Sorribes Tormo S. - Huang Yujia/Kawaguchi N.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_dEsXnsaf_h",
+      "awayTeamId": "espn_diretta_dEsXnsaf_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nTKk2aCN-AyImIjQT.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/lbsA3bjC-n9RQ2K55.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_WGqoKiPj",
+      "title": "Ibragimova A. - Khomutsianskaya D.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_WGqoKiPj_h",
+      "awayTeamId": "espn_diretta_WGqoKiPj_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Y9Dw7wB6-lAgyyN8S.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MgIfTb6k-4AanOGhU.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_ni6Dfz6m",
+      "title": "Imamura M. - Bar Biryukov P.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_ni6Dfz6m_h",
+      "awayTeamId": "espn_diretta_ni6Dfz6m_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/AowMmbjC-zuqHwg6o.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/8nO5N0gT-CneykJ5M.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_2c92okum",
+      "title": "Kuwata H./Zheng W. - Nugroho P. M./Yashina E.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_2c92okum_h",
+      "awayTeamId": "espn_diretta_2c92okum_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/CUna6XA6-lYw2dmle.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/xpa59EjC-K8by9gno.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_URuuoLT6",
+      "title": "Lansere S./Shubladze A. - Feng S./Tian F.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_URuuoLT6_h",
+      "awayTeamId": "espn_diretta_URuuoLT6_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/OGytMt7k-nZY2wfpn.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/b3De0aAN-dQito7e2.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_jHvPl3Us",
+      "title": "Lee Y./Ye Q. - Guo M./Yang Y.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_jHvPl3Us_h",
+      "awayTeamId": "espn_diretta_jHvPl3Us_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/b3Zv2WmC-ziwvSGtD.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MJBv48VH-YoPmXINC.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_OYb8bq7L",
+      "title": "McCabe J. - Cinà F.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_OYb8bq7L_h",
+      "awayTeamId": "espn_diretta_OYb8bq7L_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4ADZr2Sq-hdobysve.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SYacprS0-hhmFux0E.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_v1wmvDGM",
+      "title": "Mladenovic K. - Costoulas S.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_v1wmvDGM_h",
+      "awayTeamId": "espn_diretta_v1wmvDGM_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/lfN8aTPq-jX0SdYnI.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/QwoHLTBN-Q9gg1xg9.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_YwgiVHXi",
+      "title": "Morvayova V. - Sorribes Tormo S.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_YwgiVHXi_h",
+      "awayTeamId": "espn_diretta_YwgiVHXi_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/A5Z4YEPq-6eay9NTb.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/8dwwhzWH-8EbzeCHU.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_lUa7RZWG",
+      "title": "Okamura K. - Wu R. X.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_lUa7RZWG_h",
+      "awayTeamId": "espn_diretta_lUa7RZWG_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/2Zh9fa8k-Eqi6v1u3.png",
+      "awayLogoUrl": null,
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_SvsQWU8d",
+      "title": "Rajecki A. - Wang Y.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_SvsQWU8d_h",
+      "awayTeamId": "espn_diretta_SvsQWU8d_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/OSilRnjC-88k3XKh9.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/xA8cEo86-0QEX3Vra.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_fHkvgNUr",
+      "title": "Sakellaridis S. - Shimizu Y.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_fHkvgNUr_h",
+      "awayTeamId": "espn_diretta_fHkvgNUr_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/8KFuoIle-Mq1nVMWl.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/f5cX9AR0-Kjoz0W83.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_jL0005x9",
+      "title": "Santillan A. - Pavlovic L.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_jL0005x9_h",
+      "awayTeamId": "espn_diretta_jL0005x9_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SfsHMZoe-4WIOrVom.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_2BxKhCVF",
+      "title": "Shubladze A. - Saigo R.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_2BxKhCVF_h",
+      "awayTeamId": "espn_diretta_2BxKhCVF_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hh9jL7Sq-MuV11dpr.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/E1lEU4hT-8rjMZHLm.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_MsbFPD1T",
+      "title": "Sidorova K. - Egorova D.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_MsbFPD1T_h",
+      "awayTeamId": "espn_diretta_MsbFPD1T_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4bikTNle-AkmLHmMI.png",
+      "awayLogoUrl": null,
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_2sgni1ae",
+      "title": "Tomic B. - Sun F.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_2sgni1ae_h",
+      "awayTeamId": "espn_diretta_2sgni1ae_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/h6cy1Bme-AB2yvllh.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6VpCPOhT-2FhpQx2q.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_zeifkuU7",
+      "title": "Weber A. - Erel Y.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_zeifkuU7_h",
+      "awayTeamId": "espn_diretta_zeifkuU7_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WvSYzzAN-vNMsZnih.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0QYrNojC-ELhKtxxk.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_KEcaYsp1",
+      "title": "Zavatska K. - Lansere S.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_KEcaYsp1_h",
+      "awayTeamId": "espn_diretta_KEcaYsp1_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Wd9LRUBN-GUKxWLP3.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/OGytMt7k-nZY2wfpn.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_KxQzkWZO",
+      "title": "Zheng M. - Zeng Y.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_KxQzkWZO_h",
+      "awayTeamId": "espn_diretta_KxQzkWZO_a",
+      "startTime": "2026-09-29T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hUWkrxkC-vydAhFYf.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MXEGK6Pq-x87NELBQ.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_jmsHJUR9",
+      "title": "Arango E./Ruzic A. - Falkowska W./Smith A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_jmsHJUR9_h",
+      "awayTeamId": "espn_diretta_jmsHJUR9_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4CQVysUH-fX9OUm9D.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/dzNlOvA6-j1SJjtEU.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_vHgRh5HG",
+      "title": "Balshaw F./Martineau M. - Harris B./Whitehouse M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_vHgRh5HG_h",
+      "awayTeamId": "espn_diretta_vHgRh5HG_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Iy6RDFkC-raTtkAm8.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/dzV1sF76-GbEtjnOc.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_f1kj9Q1c",
+      "title": "Barroso Campos A./Vega Hernandez D. - Jans J./Vliegen J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_f1kj9Q1c_h",
+      "awayTeamId": "espn_diretta_f1kj9Q1c_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IDLri2WH-AmCMgOng.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WhZ7Nqle-YTV5FXl1.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_Sfc4oN9j",
+      "title": "Bass F./Duncan S. - Bertola R./Romano F.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_Sfc4oN9j_h",
+      "awayTeamId": "espn_diretta_Sfc4oN9j_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/t6i2Iwne-MeRmzQrE.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0WDZLER0-APkjminL.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_bwhBdmIi",
+      "title": "Bittoun C./Visker N. - Added D./Paris T.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_bwhBdmIi_h",
+      "awayTeamId": "espn_diretta_bwhBdmIi_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WnvlLQhT-WGXG5PGb.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/tYZ6qVRq-j3a2pWiJ.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_ELpG1xSi",
+      "title": "Blancaneaux G. - Kuzmanov D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_ELpG1xSi_h",
+      "awayTeamId": "espn_diretta_ELpG1xSi_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/GW2dIfjC-CCKiybUa.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IcKrYd8k-MN13qqbo.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_fs5BTiG8",
+      "title": "Broady L. - Stricker D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_fs5BTiG8_h",
+      "awayTeamId": "espn_diretta_fs5BTiG8_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Ii1KJgPq-UyJ6f3ng.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MiiS5AjC-Cr7x5z1L.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_86b481ZI",
+      "title": "Bronzetti L. - Boisson L.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_86b481ZI_h",
+      "awayTeamId": "espn_diretta_86b481ZI_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/txC5egle-OYUtp1Wm.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rD8BsAAN-jZ5nqhd6.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_nFhUwZZp",
+      "title": "Cadenasso G. - Sanchez Martinez B.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_nFhUwZZp_h",
+      "awayTeamId": "espn_diretta_nFhUwZZp_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WjhkYhlC-W4kI63iM.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/vHTznT96-fJz8s04G.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_S8IIRVpL",
+      "title": "Chidekh C. - Goffin D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_S8IIRVpL_h",
+      "awayTeamId": "espn_diretta_S8IIRVpL_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/W6QYd3UH-rsIYEe1r.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/l2y6DuRq-O8ViDgXb.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_hdiNcm5j",
+      "title": "Christie F./Silva E. - Monnet C./Riera J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_hdiNcm5j_h",
+      "awayTeamId": "espn_diretta_hdiNcm5j_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ALeFrH7k-jFcXTPjR.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6Fc6br8k-hhmDzIFI.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_29Z2AQld",
+      "title": "Crawley F./Daniel J. - McGiffin T./Micic E.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_29Z2AQld_h",
+      "awayTeamId": "espn_diretta_29Z2AQld_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rcb9e9VH-dtKSCicj.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/dSAZKwB6-Q9FXMvbI.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_2sudW7BF",
+      "title": "Drazic M./Mattel M. - Hruncakova V./Siskova A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_2sudW7BF_h",
+      "awayTeamId": "espn_diretta_2sudW7BF_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dbNvpmRq-r9pVoIS5.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MeACJRle-fivZot2C.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_hfWD3cV0",
+      "title": "Galfi D. - Grabher J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_hfWD3cV0_h",
+      "awayTeamId": "espn_diretta_hfWD3cV0_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/OMtvMpT0-URFFXTZO.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/ChKro2CN-n9wyhJhJ.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_IZr9Ljcc",
+      "title": "Galfi D./Waltert S. - Moratelli A./Valdmannova V.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_IZr9Ljcc_h",
+      "awayTeamId": "espn_diretta_IZr9Ljcc_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/OMtvMpT0-URFFXTZO.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IF1ZY67k-MV5VZdqC.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_vVA4IR77",
+      "title": "Glinka D. - Bernet H.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_vVA4IR77_h",
+      "awayTeamId": "espn_diretta_vVA4IR77_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hAUPYgiT-fRhJCwr0.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/KWlaxblC-pCcxfvmF.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_2Rhb74W9",
+      "title": "Goffin D./Herbert P.H. - Poling K./Sheehy J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_2Rhb74W9_h",
+      "awayTeamId": "espn_diretta_2Rhb74W9_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/l2y6DuRq-O8ViDgXb.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nXadOIjT-zsxxFW4q.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_WOBYjqnT",
+      "title": "Hands T./Summers M. - Gomez G./Janvier M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_WOBYjqnT_h",
+      "awayTeamId": "espn_diretta_WOBYjqnT_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4t2On2AN-zuNIhWLg.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/88cPPQ96-M9EV23Hp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_xM0bv9UQ",
+      "title": "Harris B. - Balshaw F.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_xM0bv9UQ_h",
+      "awayTeamId": "espn_diretta_xM0bv9UQ_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dzV1sF76-GbEtjnOc.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Iy6RDFkC-raTtkAm8.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_0KVRLuc2",
+      "title": "Henning P. - Schoolkate T.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_0KVRLuc2_h",
+      "awayTeamId": "espn_diretta_0KVRLuc2_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/v9kENcRq-nXRIOBzM.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/UgvWQE7k-4jeUHOYa.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_n3hX36Pq",
+      "title": "Iatcenko P. - Gorgodze E.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_n3hX36Pq_h",
+      "awayTeamId": "espn_diretta_n3hX36Pq_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rXhQVX5k-8jQolbF7.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/CUnVdaVH-jiJHwiud.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_bDpPH8dM",
+      "title": "Jakupovic D./Salden L. - Noha Akugue N./Wagner A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_bDpPH8dM_h",
+      "awayTeamId": "espn_diretta_bDpPH8dM_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/O0kD5xCN-d4lqsL96.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/ObdgeOjT-zJwSL6PK.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_jX619S1M",
+      "title": "Kostovic T. - Cengiz B.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_jX619S1M_h",
+      "awayTeamId": "espn_diretta_jX619S1M_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/r9QR8ime-0zWSjZrD.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/dOE41aCN-CxOiWxwJ.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_482jtVaE",
+      "title": "Lajal M. - Poullain L.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_482jtVaE_h",
+      "awayTeamId": "espn_diretta_482jtVaE_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/fLRWsZjT-p6x6d4qQ.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/dKtijKWH-tMTnwvaj.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_61YHq466",
+      "title": "Martin Tiffon P. - Lokoli L.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_61YHq466_h",
+      "awayTeamId": "espn_diretta_61YHq466_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/82I6PnPq-dpr1Bmwg.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/lOlEsbSq-ptRBPiMT.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_W4H7PvhK",
+      "title": "Monnet C. - Buyukakcay C.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_W4H7PvhK_h",
+      "awayTeamId": "espn_diretta_W4H7PvhK_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6Fc6br8k-hhmDzIFI.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rqR8cIhT-4fP9CH80.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_WjjJfRn4",
+      "title": "Neuchrist M./Poljak D. - Chidekh C./Maginley J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_WjjJfRn4_h",
+      "awayTeamId": "espn_diretta_WjjJfRn4_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rJyw93kC-I3vxtblK.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/W6QYd3UH-rsIYEe1r.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_UBXlb3La",
+      "title": "Pieri S. - Martin A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_UBXlb3La_h",
+      "awayTeamId": "espn_diretta_UBXlb3La_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/GvdsName-nZnF4QdT.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zcYlUfkC-6VeGr856.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_6H2QPmn3",
+      "title": "Pridankina E. - Aksu A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_6H2QPmn3_h",
+      "awayTeamId": "espn_diretta_6H2QPmn3_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/23W0ZxU0-QuluFZ8a.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/z90ueWU0-SxfAKFH6.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_UeyeCnKq",
+      "title": "Pridankina E./Tikhonova A. - Iatcenko P./Karamoko N.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_UeyeCnKq_h",
+      "awayTeamId": "espn_diretta_UeyeCnKq_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/23W0ZxU0-QuluFZ8a.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rXhQVX5k-8jQolbF7.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_pUS55J0l",
+      "title": "Radivojevic L. - Ercan M.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_pUS55J0l_h",
+      "awayTeamId": "espn_diretta_pUS55J0l_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rLxd7e7k-tIJg4HAd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/t4A6wF86-zBTVipJ9.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_MoUt0Pjm",
+      "title": "Taberner C. - Moller E.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_MoUt0Pjm_h",
+      "awayTeamId": "espn_diretta_MoUt0Pjm_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/S2ejI6Sq-MuaMOCzc.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/jeuY9K76-nenAzaqn.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_4WCNDdBb",
+      "title": "Tikhonova A. - Waltert S.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_4WCNDdBb_h",
+      "awayTeamId": "espn_diretta_4WCNDdBb_a",
+      "startTime": "2026-09-29T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/K04hNpU0-xnYae4aa.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/fe0qIHBN-CIeRE4aj.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_zchreHPE",
+      "title": "Arneodo R./Kittay B. - Pereira T./Rocha F.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_zchreHPE_h",
+      "awayTeamId": "espn_diretta_zchreHPE_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/W6FyWole-zgMoGdWQ.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WhZ0PtB6-2BxtFqht.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_rNejgefR",
+      "title": "Barrientos N./Walkow S. - Paul J./Vocel M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_rNejgefR_h",
+      "awayTeamId": "espn_diretta_rNejgefR_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/CfceNihT-QToyzts5.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/M3s2ETQq-QPsxT8Cr.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_vgsMmZHl",
+      "title": "Behar A./Paris J. - Kalender A./Serdarusic N.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_vgsMmZHl_h",
+      "awayTeamId": "espn_diretta_vgsMmZHl_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/M5lbplU0-f9FuwN12.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0z2Yv4gT-fRhW6RrJ.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_U980n0Nt",
+      "title": "Cretu C. - Rocha H.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_U980n0Nt_h",
+      "awayTeamId": "espn_diretta_U980n0Nt_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IT7tG5BN-rHUm1CgQ.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/xWypujkC-jXYWnpzD.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_YZrxpiHD",
+      "title": "Cukierman D./Romboli F. - Hilderbrand T./Pavel B.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_YZrxpiHD_h",
+      "awayTeamId": "espn_diretta_YZrxpiHD_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dzTlFNBN-2VUrvKqp.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nocyIwB6-fHJaPqOD.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_zgd2UR1e",
+      "title": "Echargui M. - Dzumhur D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_zgd2UR1e_h",
+      "awayTeamId": "espn_diretta_zgd2UR1e_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/YRrxT4jT-f936JERo.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WGP865gT-CbgKBsnA.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_vgm1XYl5",
+      "title": "Geerts M./Prashanth V. - Donski A./Pieczonka F.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_vgm1XYl5_h",
+      "awayTeamId": "espn_diretta_vgm1XYl5_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/MVw3FTAN-Sv3m8l2G.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WKPJLUA6-hvW3DFBU.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_QwgrwDvA",
+      "title": "Grenier H. - Overbeck C. E.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_QwgrwDvA_h",
+      "awayTeamId": "espn_diretta_QwgrwDvA_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nN4vaq6k-pM4mnS6M.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MegeAfiT-t84nIInS.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_QVtoyHkt",
+      "title": "Jecan M. A./Kielan S. - Drzewiecki K./Matuszewski P.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_QVtoyHkt_h",
+      "awayTeamId": "espn_diretta_QVtoyHkt_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ttEql7T0-UD2dNsfl.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/lhWssqme-YsRV6IHP.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_zDndj9OE",
+      "title": "Jorda Sanchis D. - De Jong J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_zDndj9OE_h",
+      "awayTeamId": "espn_diretta_zDndj9OE_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/reHvpGme-SfP94SfB.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bDMywESq-WbCq9q1Q.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_Q9uUoDn1",
+      "title": "Latinovic S./Poljicak M. - Leote Prata V./Morais D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_Q9uUoDn1_h",
+      "awayTeamId": "espn_diretta_Q9uUoDn1_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/fJCOs3WH-Q5FflsgT.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/r1OSbejC-6yVBpp6n.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_YepgZfKh",
+      "title": "Reymond A./Sanchez L. - Domingues J./Torres T.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_YepgZfKh_h",
+      "awayTeamId": "espn_diretta_YepgZfKh_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Q7xK2q6k-re3M7WvN.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/forSF55k-lljFVyWD.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_SShfWmXr",
+      "title": "Samuel T. - McDonald M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_SShfWmXr_h",
+      "awayTeamId": "espn_diretta_SShfWmXr_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zuJ0LG5k-4hIBlAr6.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2Thl5UT0-2c5aEGXh.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_86fAS5W7",
+      "title": "Virtanen O. - Pereira T.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_86fAS5W7_h",
+      "awayTeamId": "espn_diretta_86fAS5W7_a",
+      "startTime": "2026-09-29T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IZERCySq-WMdj1jfA.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WhZ0PtB6-2BxtFqht.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_6XbTYUsg",
+      "title": "Francia U20 - Inghilterra U20",
+      "sport": "FOOTBALL",
+      "competitionId": "elite_league_u20",
+      "homeTeamId": "espn_diretta_6XbTYUsg_h",
+      "awayTeamId": "espn_diretta_6XbTYUsg_a",
+      "startTime": "2026-09-29T09:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zqBoAXme-hdLkHVh5.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WliC78Rq-j1Ih2sWe.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_reLBGmSO",
+      "title": "Portogallo U20 - Svizzera U20",
+      "sport": "FOOTBALL",
+      "competitionId": "elite_league_u20",
+      "homeTeamId": "espn_diretta_reLBGmSO_h",
+      "awayTeamId": "espn_diretta_reLBGmSO_a",
+      "startTime": "2026-09-29T10:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/QPy3ERVH-nkBpaHJn.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0tqUsS96-MBqljUeT.png",
+      "homeScore": null,
+      "awayScore": null,
       "channels": []
     },
     {
@@ -6261,6 +8901,502 @@
       "channels": []
     },
     {
+      "id": "diretta_dir_bFv3c6mf",
+      "title": "Gibilterra U17 - Bosnia-Erzegovina U17",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_u17_world",
+      "homeTeamId": "espn_diretta_bFv3c6mf_h",
+      "awayTeamId": "espn_diretta_bFv3c6mf_a",
+      "startTime": "2026-09-29T12:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Wtl8QriC-4d6PEahE.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6JibrR86-d69ZEjuL.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_CrlTpT3l",
+      "title": "Grecia U17 - Islanda U17",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_u17_world",
+      "homeTeamId": "espn_diretta_CrlTpT3l_h",
+      "awayTeamId": "espn_diretta_CrlTpT3l_a",
+      "startTime": "2026-09-29T12:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0WyWVJPq-z7L3x1Ya.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0YbbWBoe-lfZlm1uk.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_vHiD3YGL",
+      "title": "Andrade da Silva L. - Olivieri G. A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_vHiD3YGL_h",
+      "awayTeamId": "espn_diretta_vHiD3YGL_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/8ElovmA6-Miimi2He.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rR3vbeme-CSpGzAec.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_63g55fn9",
+      "title": "Barrena A. - Barrios Vera T.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_63g55fn9_h",
+      "awayTeamId": "espn_diretta_63g55fn9_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/tE5sZsU0-v9DptTzs.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bTWKNfBN-Yo9kQcMJ.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_beoLe3YF",
+      "title": "Kestelboim M./Zormann Da Silva M. - Andrade da Silva L./Heide G.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_beoLe3YF_h",
+      "awayTeamId": "espn_diretta_beoLe3YF_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/jsCzqJoe-8G7XTYJp.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/8ElovmA6-Miimi2He.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_IPoidj9e",
+      "title": "Miguel L. A. - Mena F.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_IPoidj9e_h",
+      "awayTeamId": "espn_diretta_IPoidj9e_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Mw6Lh9hT-MclxLVk9.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2LglRnAN-za7YjLTk.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_jVsDcP33",
+      "title": "Milani B./Scheidt A. - Arias B./Carou I.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_jVsDcP33_h",
+      "awayTeamId": "espn_diretta_jVsDcP33_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WOOHTbSq-KtCfnbWp.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/z79aDMhT-tE9opR74.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_nZlblLQk",
+      "title": "Oliveira B./Rodrigues N. - Casanova H./Zarate C. M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_nZlblLQk_h",
+      "awayTeamId": "espn_diretta_nZlblLQk_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/E31sc5gT-f9PK2kF5.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/h8o2gh5k-dAy9uzPJ.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_fFnKsif2",
+      "title": "Reis Da Silva J. - Dellien Velasco M. A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_fFnKsif2_h",
+      "awayTeamId": "espn_diretta_fFnKsif2_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rg2owjVH-xExxtgs7.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/f17q9pXH-U9jawFWp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_6LUofjcB",
+      "title": "Remondy Pagotto V. H./Roveri Sidney G. - Miguel L. A./Ribeiro E.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_6LUofjcB_h",
+      "awayTeamId": "espn_diretta_6LUofjcB_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/MyNz0fgT-zNcLBA67.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Mw6Lh9hT-MclxLVk9.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_jBiJyrsp",
+      "title": "Roncadelli F./Villanueva G. - Alves M./Loureiro J. V. C.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_jBiJyrsp_h",
+      "awayTeamId": "espn_diretta_jBiJyrsp_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/OKk5XO5k-65SbkYvC.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/dEip1N6k-UFZbbL7P.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_dxdQhH23",
+      "title": "Seyboth Wild T. - Boscardin Dias P.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_dxdQhH23_h",
+      "awayTeamId": "espn_diretta_dxdQhH23_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hx9OQrDN-lx8ifqQ1.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/xI0nxKRq-UFZbbL7P.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_jJctkZ1S",
+      "title": "Soto M. - Midon L.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_jJctkZ1S_h",
+      "awayTeamId": "espn_diretta_jJctkZ1S_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/QXy4S06k-EikNkEfd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Qq2xR4U0-nHyT9ZLp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_byeRZLBd",
+      "title": "Soto M./Zeballos F. - Dickerson R./Rodriguez L. J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_byeRZLBd_h",
+      "awayTeamId": "espn_diretta_byeRZLBd_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/QXy4S06k-EikNkEfd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/04PGXqme-hQtR9cIk.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_AarqbCvq",
+      "title": "Tobon M. - Torres J. B.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_AarqbCvq_h",
+      "awayTeamId": "espn_diretta_AarqbCvq_a",
+      "startTime": "2026-09-29T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6XxelSA6-61rwz9Vg.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IJCCHmS0-b3oyZbiL.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_UchDoUVG",
+      "title": "Blanch Dar. - Maloney P.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_UchDoUVG_h",
+      "awayTeamId": "espn_diretta_UchDoUVG_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/U1x0LHkC-lCGltNVE.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/ULjjV8AN-jJowm7Pk.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_Ob2HcpL0",
+      "title": "Blando J./Vasser O. - Martinez L. D./Trotter J. K.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_Ob2HcpL0_h",
+      "awayTeamId": "espn_diretta_Ob2HcpL0_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": null,
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6Nlpki6k-vqG0pvtq.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_K2gtE55s",
+      "title": "Britto L./Marcondes I. - MacKinlay J./Okonkwo O.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_K2gtE55s_h",
+      "awayTeamId": "espn_diretta_K2gtE55s_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Yce3sJkC-nDDHqbHt.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/UcCmRZBN-lOpPnzDD.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_E5AV6lbE",
+      "title": "Carpico B./Filin N. - Mitsui S./Tu L.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_E5AV6lbE_h",
+      "awayTeamId": "espn_diretta_E5AV6lbE_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4db86XmC-jkltiv4D.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/GO71faSq-rFmdRa0q.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_dpf5mj14",
+      "title": "Dietrich D. - Wolf J.J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_dpf5mj14_h",
+      "awayTeamId": "espn_diretta_dpf5mj14_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Uw678mkC-S6kEnG7G.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/EZkSPlXH-GhaUFZhi.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_K2Dw5SSQ",
+      "title": "Fenty A./Maloney P. - Ayeni A./Suarez B.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_K2Dw5SSQ_h",
+      "awayTeamId": "espn_diretta_K2Dw5SSQ_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rwlgwjWH-OQhaP3L2.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/ry3evxgT-GOsncUhM.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_86nivnOj",
+      "title": "Filin N. - Mayo A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_86nivnOj_h",
+      "awayTeamId": "espn_diretta_86nivnOj_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/lQgISkjC-tID77Bc2.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/xxHE4TBN-nXsuseHU.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_SSdlCqzf",
+      "title": "Forbes M./Petak D. - Mayo A./Vance J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_SSdlCqzf_h",
+      "awayTeamId": "espn_diretta_SSdlCqzf_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/busXrnU0-Yq6J3Xgo.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/xxHE4TBN-nXsuseHU.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_OGHIESa3",
+      "title": "Kozlov S. - Kim A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_OGHIESa3_h",
+      "awayTeamId": "espn_diretta_OGHIESa3_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/8KlPmQ96-GrC8LYlg.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/A9Dfs2jC-fXVEBoV2.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_4xxbkCWi",
+      "title": "Marcondes I. - Fenty A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_4xxbkCWi_h",
+      "awayTeamId": "espn_diretta_4xxbkCWi_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/YDT8y6iT-vFpLtYy9.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rwlgwjWH-OQhaP3L2.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_OIhBJRsK",
+      "title": "Milavsky D./Shick B. - Kim A./Nakashima B.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_OIhBJRsK_h",
+      "awayTeamId": "espn_diretta_OIhBJRsK_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6JXOcoA6-Wz084Lge.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/A9Dfs2jC-fXVEBoV2.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_00Zx2kGc",
+      "title": "Nakashima B. - Kennedy J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_00Zx2kGc_h",
+      "awayTeamId": "espn_diretta_00Zx2kGc_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Gl36iJle-Wp5GKODI.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/dlQZm8gT-8CyGbGof.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_WO5PeOkD",
+      "title": "Okonkwo A./Stearns P. - Jarvis R./Vance J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_WO5PeOkD_h",
+      "awayTeamId": "espn_diretta_WO5PeOkD_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dYVJXFVH-EJLOdFDR.png",
+      "awayLogoUrl": null,
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_GYb9a6jl",
+      "title": "Rybakov A./Smith K. - Colby R./Zamora N.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_GYb9a6jl_h",
+      "awayTeamId": "espn_diretta_GYb9a6jl_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IsmXTYne-fV2jmY70.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hCi5ElBN-l2J6KfsN.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_6w15TO97",
+      "title": "Slovenia U21 - Israele U21",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_u21",
+      "homeTeamId": "espn_diretta_6w15TO97_h",
+      "awayTeamId": "espn_diretta_6w15TO97_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/xrU63rlC-IuvzgF4s.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/dAgPvmme-88LAtdNt.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_bwQWjP7d",
+      "title": "Svajda T. - Andrade A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_bwQWjP7d_h",
+      "awayTeamId": "espn_diretta_bwQWjP7d_a",
+      "startTime": "2026-09-29T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/AadMjj7k-4YaHNN2r.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/GpiCUKAN-Ec2eUajs.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
       "id": "espn_732427",
       "title": "Israel U21 at Slovenia U21",
       "sport": "FOOTBALL",
@@ -6277,6 +9413,22 @@
       "channels": []
     },
     {
+      "id": "diretta_dir_6NCt5Ei2",
+      "title": "Islanda U21 - Svizzera U21",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_u21",
+      "homeTeamId": "espn_diretta_6NCt5Ei2_h",
+      "awayTeamId": "espn_diretta_6NCt5Ei2_a",
+      "startTime": "2026-09-29T15:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zLCQ5kXH-rays7Res.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/htPPFojC-no5LkQQ6.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
       "id": "espn_732429",
       "title": "Switzerland U21 at Iceland U21",
       "sport": "FOOTBALL",
@@ -6290,6 +9442,70 @@
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "homeScore": 0,
       "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_b7eLziDt",
+      "title": "Germania U20 - Italia U20",
+      "sport": "FOOTBALL",
+      "competitionId": "elite_league_u20",
+      "homeTeamId": "espn_diretta_b7eLziDt_h",
+      "awayTeamId": "espn_diretta_b7eLziDt_a",
+      "startTime": "2026-09-29T15:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/My9LtpgT-vZG58BBc.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Yq0j7Qne-xhH46umt.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_Wjqz2DjD",
+      "title": "Estonia U21 - Francia U21",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_u21",
+      "homeTeamId": "espn_diretta_Wjqz2DjD_h",
+      "awayTeamId": "espn_diretta_Wjqz2DjD_a",
+      "startTime": "2026-09-29T16:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/v3dvvkVH-no5LkQQ6.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/b35ljhSq-4AglZ3Ej.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_KM2cVpue",
+      "title": "Norvegia U21 - Bosnia-Erzegovina U21",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_u21",
+      "homeTeamId": "espn_diretta_KM2cVpue_h",
+      "awayTeamId": "espn_diretta_KM2cVpue_a",
+      "startTime": "2026-09-29T16:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hYjIqzQq-pWJEuGxm.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/CQ97t7Qq-ADXkPuzG.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_zVH3I9cC",
+      "title": "Polonia U20 - Repubblica Ceca U20",
+      "sport": "FOOTBALL",
+      "competitionId": "elite_league_u20",
+      "homeTeamId": "espn_diretta_zVH3I9cC_h",
+      "awayTeamId": "espn_diretta_zVH3I9cC_a",
+      "startTime": "2026-09-29T16:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/KxAbiIoe-vZG58BBc.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/AVfhkhiT-zPOppuN2.png",
+      "homeScore": null,
+      "awayScore": null,
       "channels": []
     },
     {
@@ -6375,6 +9591,54 @@
       "channels": [
         "match_tv_russia"
       ]
+    },
+    {
+      "id": "diretta_dir_z912uP3e",
+      "title": "Belgio U21 - Galles U21",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_u21",
+      "homeTeamId": "espn_diretta_z912uP3e_h",
+      "awayTeamId": "espn_diretta_z912uP3e_a",
+      "startTime": "2026-09-29T18:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/z9KcFNPq-rays7Res.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Ik9mPWiT-pWJEuGxm.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_0bziNzzR",
+      "title": "CA Juventus U20 - Gremio Prudente U20",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_friendly_u20",
+      "homeTeamId": "espn_diretta_0bziNzzR_h",
+      "awayTeamId": "espn_diretta_0bziNzzR_a",
+      "startTime": "2026-09-29T18:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/U7wO0APq-MN1ETII2.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rN11JGRq-jPY7Gq7o.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_dir_ny1sxsvK",
+      "title": "Irlanda U21 - Kazakistan U21",
+      "sport": "FOOTBALL",
+      "competitionId": "uefa_u21",
+      "homeTeamId": "espn_diretta_ny1sxsvK_h",
+      "awayTeamId": "espn_diretta_ny1sxsvK_a",
+      "startTime": "2026-09-29T18:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/KtnelnWH-hSmK3D6n.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zgEZ5A5k-YkZoQLK9.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
     },
     {
       "id": "espn_732425",
