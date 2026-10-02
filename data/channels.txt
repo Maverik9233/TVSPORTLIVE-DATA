@@ -3598,9 +3598,9 @@
     },
     {
       "id": "canal_plus_sport_france",
-      "name": "Canal+ Sport France",
+      "name": "Canal+ Sport",
       "country": "FR",
-      "priority": 82,
+      "priority": 10,
       "logoUrl": null,
       "aliases": [
         "Canal+ Sport France HD",
@@ -3611,7 +3611,7 @@
       "sources": [
         {
           "id": "canal_plus_sport_france_source_1",
-          "url": "",
+          "url": "http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -4417,7 +4417,7 @@
       "id": "canal_plus_sport_360",
       "name": "Canal+ Sport 360",
       "country": "FR",
-      "priority": 119,
+      "priority": 10,
       "logoUrl": null,
       "aliases": [
         "Canal+ Sport 360 HD",
@@ -4428,10 +4428,31 @@
       "sources": [
         {
           "id": "canal_plus_sport_360_source_1",
-          "url": "",
+          "url": "https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
+        }
+      ]
+    },
+{
+      "id": "eurosport_4k",
+      "name": "Eurosport 4K",
+      "country": "CZ",
+      "priority": 26,
+      "logoUrl": null,
+      "aliases": [
+        "Eurosport 4K",
+        "Eurosport  CZ"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "eurosport_4k_source_2",
+          "url": "http://88.212.15.19/live/esp_4k_atk/playlist.m3u8",
+          "type": "AUTO",
+          "enabled": false,
+          "priority": 2
         }
       ]
     },
@@ -4579,14 +4600,14 @@
 {
   "id": "setanta_sports_1",
   "name": "Setanta Sports 1",
-  "country": "INTERNATIONAL",
+  "country": "IE",
   "priority": 88,
   "logoUrl": null,
   "aliases": [
     "Setanta Sports 1 HD",
-    "Setanta Sports 1 SD",
-    "Setanta Sport 1",
-    "Setanta Sport 1 HD",
+    "Setanta Sports 1 Eurasia",
+    "Setanta Sports 1",
+    "Setanta Sports 1 HD",
     "Setanta Sports1",
     "Setanta Sports1 HD"
   ],
@@ -4598,20 +4619,57 @@
       "type": "AUTO",
       "enabled": true,
       "priority": 1
+    },
+   {
+      "id": "setanta_sports_1_source_2",
+      "url": "https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    },
+  {
+      "id": "setanta_sports_1_source_3",
+      "url": "http://stream.mcquack.net/234/index.m3u8",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "setanta_sports_1",
+  "name": "Setanta Sports 1",
+  "country": "GE",
+  "priority": 88,
+  "logoUrl": null,
+  "aliases": [
+    "Setanta Sports 1 HD",
+    "Setanta Sports 1",
+    "Setanta Sports HD 1",
+    "Setanta Sports1",
+    "Setanta Sports1 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "setanta_sports_1_source_1",
+      "url": "http://158.101.222.193:88/georgia_play.php?id=setanta_georgia",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
     }
   ]
 },
 {
   "id": "setanta_sports_2",
   "name": "Setanta Sports 2",
-  "country": "INTERNATIONAL",
-  "priority": 90,
+  "country": "GE",
+  "priority": 88,
   "logoUrl": null,
   "aliases": [
     "Setanta Sports 2 HD",
-    "Setanta Sports 2 SD",
-    "Setanta Sport 2",
-    "Setanta Sport 2 HD",
+    "Setanta Sports 2",
+    "Setanta Sports HD 2",
     "Setanta Sports2",
     "Setanta Sports2 HD"
   ],
@@ -4619,7 +4677,56 @@
   "sources": [
     {
       "id": "setanta_sports_2_source_1",
-      "url": "http://o6rq8csy.nexeraso.top/iptv/5AQRWASYSBHDPK33Z9RZT3NG/6544/index.m3u8",
+      "url": "http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "setanta_sports_2",
+  "name": "Setanta Sports 2",
+  "country": "IE",
+  "priority": 88,
+  "logoUrl": null,
+  "aliases": [
+    "Setanta Sports 2 HD",
+    "Setanta Sports 2 Eurasia",
+    "Setanta Sports HD 2",
+    "Setanta Sports2",
+    "Setanta Sports2 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "setanta_sports_2_source_1",
+      "url": "http://stream.mcquack.net/235/index.m3u8",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "setanta_sports_3",
+  "name": "Setanta Sports 2",
+  "country": "GE",
+  "priority": 90,
+  "logoUrl": null,
+  "aliases": [
+    "Setanta Sports3 HD",
+    "Setanta Sports 3 SD",
+    "Setanta Sport 3",
+    "Setanta Sport 3 HD",
+    "Setanta Sports3",
+    "Setanta Sports3 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "setanta_sports_3_source_1",
+      "url": "http://stream.mcquack.net/313/index.m3u8",
       "type": "AUTO",
       "enabled": true,
       "priority": 1
