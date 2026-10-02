@@ -203,15 +203,37 @@ def _normalize(value: str) -> str:
 
     value = value.casefold().strip()
 
+    # LiveOnSat: "DAZN Deutsch ($/geo/R)", "Megogo ... 📺"
+    value = re.sub(
+        r"\(\s*\$?\s*/?\s*geo\s*/?\s*R?\s*\)",
+        " ",
+        value,
+        flags=re.I,
+    )
+    value = re.sub(r"\(\$/?geo[^)]*\)", " ", value, flags=re.I)
+    value = re.sub(r"\$/?geo/?r?", " ", value, flags=re.I)
+
     value = re.sub(
         r"[^a-z0-9]+",
         " ",
         value,
     )
 
-    return " ".join(
-        value.split()
-    )
+    tokens = value.split()
+    # sinonimi frequenti LiveOnSat ↔ channels.txt
+    synonyms = {
+        "deutsch": "deutschland",
+        "deutschland": "deutschland",
+        "espana": "spain",
+        "espana": "spain",
+        "espaa": "spain",  # after ascii strip ñ
+    }
+    tokens = [synonyms.get(tok, tok) for tok in tokens]
+    # togli token inutili
+    noise = {"hd", "sd", "fhd", "uhd", "geo", "r"}
+    tokens = [tok for tok in tokens if tok not in noise]
+
+    return " ".join(tokens)
 
 
 def _compact(value: str) -> str:
@@ -318,6 +340,14 @@ def find_best_channel(
 ) -> ChannelMatch | None:
     best_match: ChannelMatch | None = None
     best_channel: Channel | None = None
+    b_low = (broadcaster or "").lower()
+
+    # Canali IT non devono matchare versioni estere (TV8 Turkiye ≠ TV8 Italia)
+    foreign_markers = (
+        "turkiye", "turkey", "turk", "deutschland", "deutsch",
+        "espana", "españa", "france", "uk", "usa", "brazil",
+        "portugal", "nederland", "serbia", "croatia", "romania",
+    )
 
     for channel in channels:
         if not channel.enabled:
@@ -333,6 +363,22 @@ def find_best_channel(
 
         if score <= 0:
             continue
+
+        # Se il nome LiveOnSat ha un paese estero e il canale è IT
+        # senza quel paese negli alias → scarta
+        ch_country = (getattr(channel, "country", None) or "").upper()
+        if ch_country in {"IT", "ITA", "ITALY"} or channel.id in {
+            "tv8", "italia_1", "italia_2", "rai_1", "rai_2", "cielo",
+            "canale_20_mediaset", "canale_5_mediaset",
+        }:
+            if any(m in b_low for m in foreign_markers):
+                # eccezione: "Italia" / "Italy" nel nome broadcaster è ok
+                if not any(x in b_low for x in ("italia", "italy", " italian")):
+                    # TV8 Turkiye, DAZN Deutsch as only signal for italian dazn, etc.
+                    if channel.id == "tv8" and ("turk" in b_low or "turkiye" in b_low):
+                        continue
+                    if channel.id.startswith("rai") and "turk" in b_low:
+                        continue
 
         candidate = ChannelMatch(
             channel_id=channel.id,
