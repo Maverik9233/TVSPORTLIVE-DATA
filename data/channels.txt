@@ -910,7 +910,7 @@
     {
       "id": "dazn_1_bar DE",
       "name": "DAZN 1 Bar DE",
-      "country": "IT",
+      "country": "DE",
       "priority": 24,
       "logoUrl": null,
       "aliases": [
@@ -923,17 +923,10 @@
       "sources": [
         {
           "id": "dazn_1_bar_source_1",
-          "url": "https://st.chatango.com/pcache/sounds/message_received.mp3?1",
-          "type": "AUTO",
+          "url": "https://dlive.sx/watch.php?id=426",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
-        },
-        {
-          "id": "dazn_1_bar_source_2",
-          "url": "https://premium.hls.st/playlist/premium426.m3u8",
-          "type": "AUTO",
-          "enabled": false,
-          "priority": 2
         }
       ]
     },
@@ -1333,7 +1326,7 @@
       "sources": [
         {
           "id": "rai_1_source_1",
-          "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=16",
+          "url": "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -1721,7 +1714,7 @@
       "sources": [
         {
           "id": "premiersports2_source_1",
-          "url": "https://exmxbxe.cfd/xneh5qi7-1908",
+          "url": "https://dlive.sx/watch.php?id=799",
           "type": "WEB",
           "enabled": true,
           "priority": 1
