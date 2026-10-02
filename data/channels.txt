@@ -169,29 +169,21 @@
       "sources": [
         {
           "id": "sky_sport_f1_source_1",
-          "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11222/skysportweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+          "url": "https://ntv.st/channel/falcon/Sky-Sport-F1-IT",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "sky_sport_f1_source_2",
-          "url": "https://ntv.st/channel/falcon/Sky-Sport-F1-IT",
+          "url": "",
           "type": "WEB",
-          "enabled": false,
-          "priority": 2
-        },
-{
-          "id": "sky_sport_f1_source_3",
-          "url": "https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI1NzciLCJ0cyI6MTc4OTkwNzgxMDU0M30",
-          "type": "AUTO",
           "enabled": false,
           "priority": 2
         }
       ]
     },
-
-{
+    {
       "id": "sky_sports_f1_uk",
       "name": "Sky Sports F1 UK",
       "country": "GB",
