@@ -3160,7 +3160,27 @@
         }
       ]
     },
-
+{
+      "id": "go3sport_1",
+      "name": "Go3 Sport 1",
+      "country": "EE",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "Go3 Sport 1 HD",
+        "Go3 Sport 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "go3sport_1_source_1",
+          "url": "http://stream.mcquack.net/416/index.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "beinsports3",
       "name": "Bein Sports 3 Malaysia",
