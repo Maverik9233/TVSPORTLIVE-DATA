@@ -267,6 +267,17 @@ COMPETITION_BROADCASTER_OVERRIDES = {
 # Prima metteva Sky/DAZN/TV su TUTTE le WNBA/NBA/tennis → canali a caso.
 SPORT_BROADCASTER_FALLBACKS: dict[str, tuple[str, ...]] = {}
 
+# Canali digitali terrestri IT spesso usati per Nazionale / Nations League
+# (LiveOnSat a volte omette o sbaglia orario → match perso)
+ITALY_NATIONAL_FTA: tuple[str, ...] = (
+    "Rai 1",
+    "Rai 2",
+    "Canale 20 Mediaset",
+    "TV8",
+    "Cielo",
+)
+
+
 
 # ============================================================
 # TEAM ID
@@ -431,20 +442,20 @@ def get_matching_liveonsat_event(
     liveonsat_events: Iterable[LiveOnSatEvent],
 ) -> LiveOnSatEvent | None:
     """
-    Abbinamento stretto titolo + orario per calcio/tennis.
-    F1/MotoGP: match per nome GP (LiveOnSat ha 1 orario per weekend).
+    Abbinamento titolo + orario.
+    Se LiveOnSat ha PIÙ righe per la stessa partita (es. France v Italy
+    e Italy v France con liste canali diverse), unisce i broadcaster.
+    F1/MotoGP: match per nome GP senza filtro orario stretto.
     """
-    from liveonsat import title_match_score
+    from liveonsat import title_match_score, LiveOnSatEvent as LOSEvent
 
     sport = (raw_event.sport or "").upper()
     is_racing = sport in {"FORMULA_1", "MOTOGP"}
 
-    best: LiveOnSatEvent | None = None
-    best_key: tuple[int, int] | None = None  # (-score, time_diff)
+    candidates: list[tuple[int, int, object]] = []  # score, tdiff, event
 
     for candidate in liveonsat_events:
         score = title_match_score(raw_event.title, candidate.title)
-        # racing: abbassa soglia (titoli tipo "... Qualifying" vs "Azerbaijan GP")
         min_score = 55 if is_racing else 80
         if score < min_score:
             continue
@@ -452,15 +463,75 @@ def get_matching_liveonsat_event(
             raw_event.start_time,
             candidate.start_time,
         )
-        # F1/MotoGP: non filtrare per orario (sessioni diverse, stesso GP)
-        if not is_racing and tdiff > 45 * 60:
-            continue
-        key = (-score, 0 if is_racing else tdiff)
-        if best_key is None or key < best_key:
-            best_key = key
-            best = candidate
+        if is_racing:
+            tdiff = 0
+        elif score >= 80:
+            # LiveOnSat spesso ha orario sbagliato vs ESPN (es. 14:45 vs 20:45)
+            # Per score buono (stesse squadre) accetta fino a 8 ore
+            if tdiff > 8 * 3600:
+                continue
+        else:
+            if tdiff > 45 * 60:
+                continue
+        candidates.append((score, tdiff, candidate))
 
-    return best
+    if not candidates:
+        return None
+
+    # Ordina: miglior score, poi orario più vicino
+    candidates.sort(key=lambda x: (-x[0], x[1]))
+    best = candidates[0][2]
+    best_score = candidates[0][0]
+
+    def _team_tokens(title: str) -> set[str]:
+        from liveonsat import title_match_score as _
+        # token significative (>2) senza vs/at/v
+        stop = {"vs", "v", "at", "vs.", "the", "fc", "cf"}
+        parts = []
+        for w in (title or "").lower().replace("-", " ").replace(".", " ").split():
+            w = "".join(c for c in w if c.isalnum())
+            if len(w) > 2 and w not in stop:
+                parts.append(w)
+        return set(parts)
+
+    best_teams = _team_tokens(best.title)
+    raw_teams = _team_tokens(raw_event.title)
+
+    # Unisci TUTTE le righe LiveOnSat che condividono le stesse 2 squadre
+    # (es. "France v Italy" + "Italy v France" → RAI 1 + altri)
+    merged: list[str] = []
+    seen: set[str] = set()
+    for score, tdiff, cand in candidates:
+        cand_teams = _team_tokens(cand.title)
+        # stessa coppia squadre: intersezione >= 2 token rilevanti
+        shared = (cand_teams & best_teams) if best_teams else set()
+        shared_raw = (cand_teams & raw_teams) if raw_teams else set()
+        same_fixture = (
+            len(shared) >= 2
+            or len(shared_raw) >= 2
+            or score >= 90
+        )
+        if not same_fixture:
+            continue
+        for b in getattr(cand, "broadcasters", ()) or ():
+            key = (b or "").strip().lower()
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            merged.append(b)
+
+    if not merged:
+        return best
+
+    try:
+        return LOSEvent(
+            title=best.title,
+            start_time=best.start_time,
+            competition=getattr(best, "competition", "") or "",
+            broadcasters=tuple(merged),
+        )
+    except TypeError:
+        return best
 
 
 def time_difference_seconds(
@@ -640,11 +711,47 @@ def get_event_broadcasters(
         ):
             add(broadcaster)
 
-    # 4) Nessun fallback sport: meglio 0 canali che canali sbagliati (es. TV8 su WNBA)
+    # 4) Nessun fallback sport generico (evita canali a caso su WNBA ecc.)
     if not broadcasters and SPORT_BROADCASTER_FALLBACKS:
         sport = (raw_event.sport or "").upper()
         for broadcaster in SPORT_BROADCASTER_FALLBACKS.get(sport, ()):
             add(broadcaster)
+
+    # 5) Nazionale italiana (Nations League / amichevoli):
+    # se in titolo c'è Italy/Italia e manca qualunque canale IT noto,
+    # aggiungi i digitali terrestri tipici (Rai / 20 / TV8 / Cielo).
+    title_l = (raw_event.title or "").lower()
+    is_italy_match = (
+        (raw_event.sport or "").upper() == "FOOTBALL"
+        and (
+            "italy" in title_l
+            or "italia" in title_l
+        )
+        and raw_event.competition_key
+        in {
+            "uefa_nations_league",
+            "fifa_friendly",
+            "fifa_world_cup",
+            "uefa_euro",
+            "uefa_u21",
+        }
+    )
+    if is_italy_match:
+        blob = " ".join(broadcasters).lower()
+        has_it = any(
+            x in blob
+            for x in (
+                "rai",
+                "tv8",
+                "cielo",
+                "canale 20",
+                "20 mediaset",
+                "mediaset",
+            )
+        )
+        if not has_it:
+            for broadcaster in ITALY_NATIONAL_FTA:
+                add(broadcaster)
 
     return broadcasters
 
