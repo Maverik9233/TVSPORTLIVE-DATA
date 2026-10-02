@@ -443,77 +443,125 @@ def get_matching_liveonsat_event(
 ) -> LiveOnSatEvent | None:
     """
     Abbinamento titolo + orario.
-    Se LiveOnSat ha PIÙ righe per la stessa partita (es. France v Italy
-    e Italy v France con liste canali diverse), unisce i broadcaster.
-    F1/MotoGP: match per nome GP senza filtro orario stretto.
+    Liste LiveOnSat >35 canali = spesso inquinate: si tengono solo
+    i nomi FTA/Sky italiani riconosciuti, se le squadre coincidono.
+    F1/MotoGP: match sede GP, una sola riga.
     """
     from liveonsat import title_match_score, LiveOnSatEvent as LOSEvent
 
     sport = (raw_event.sport or "").upper()
     is_racing = sport in {"FORMULA_1", "MOTOGP"}
+    raw_title = raw_event.title or ""
+    raw_low = raw_title.lower()
 
-    candidates: list[tuple[int, int, object]] = []  # score, tdiff, event
+    # Da liste LiveOnSat "inquinate" (>35 canali) teniamo solo
+    # canali IT chiari. Sky Calcio/Uno sì; TV8 solo se "Italia"
+    # (mai TV8 Turkiye / TV8 generico senza paese).
+    ITA_KEEP = (
+        "rai 1", "rai 2", "rai uno", "rai due", "rai sport",
+        "italia 1", "italia uno", "italia 2",
+        "tv8 italia", "tv 8 italia", "tv8 italy",
+        "canale 20", "20 mediaset", "canale 5",
+        "cielo",
+        "sky sport calcio", "sky sport uno", "sky calcio",
+        "dazn 1 italia", "dazn 2 italia", "zona dazn",
+    )
+
+    def racing_score(cand_title: str) -> int:
+        c = (cand_title or "").lower()
+        for place in (
+            "bahrain", "saudi", "jeddah", "australia", "melbourne", "japan",
+            "suzuka", "china", "shanghai", "miami", "monaco", "spain",
+            "barcelona", "canada", "montreal", "austria", "spielberg",
+            "britain", "silverstone", "hungary", "budapest", "belgium",
+            "spa", "netherlands", "zandvoort", "monza", "azerbaijan",
+            "baku", "singapore", "austin", "mexico", "brazil", "sao paulo",
+            "las vegas", "qatar", "abu dhabi", "malaysia", "imola",
+        ):
+            if place in raw_low and place in c:
+                return 100
+        return title_match_score(raw_title, cand_title)
+
+    def team_tokens(title: str) -> set[str]:
+        stop = {"vs", "v", "at", "the", "fc", "cf", "u21", "u20", "u19"}
+        out = set()
+        for w in (title or "").lower().replace("-", " ").split():
+            w = "".join(ch for ch in w if ch.isalnum())
+            if len(w) > 2 and w not in stop:
+                out.add(w)
+        return out
+
+    def clean_bc(broadcasters, n_bc: int) -> list[str]:
+        bl = list(broadcasters or ())
+        if n_bc <= 35:
+            return bl
+        # lista inquinata: solo canali IT rilevanti
+        kept = []
+        for b in bl:
+            low = (b or "").lower()
+            if not any(k in low for k in ITA_KEEP):
+                continue
+            # TV8 solo se esplicitamente Italia (non Turkiye / generico)
+            if "tv8" in low.replace(" ", "") or "tv 8" in low:
+                if "turk" in low or "turkiye" in low:
+                    continue
+                if "italia" not in low and "italy" not in low:
+                    continue
+            kept.append(b)
+        return kept
+
+    raw_teams = team_tokens(raw_title)
+    candidates: list[tuple[int, int, list, object]] = []
 
     for candidate in liveonsat_events:
-        score = title_match_score(raw_event.title, candidate.title)
-        min_score = 55 if is_racing else 80
-        if score < min_score:
+        raw_bc = list(getattr(candidate, "broadcasters", ()) or ())
+        n_bc = len(raw_bc)
+
+        if is_racing:
+            score = racing_score(candidate.title)
+            if score < 70:
+                continue
+            candidates.append((score, 0, raw_bc, candidate))
+            continue
+
+        score = title_match_score(raw_title, candidate.title)
+        if score < 80:
             continue
         tdiff = time_difference_seconds(
             raw_event.start_time,
             candidate.start_time,
         )
-        if is_racing:
-            tdiff = 0
-        elif score >= 80:
-            # LiveOnSat spesso ha orario sbagliato vs ESPN (es. 14:45 vs 20:45)
-            # Per score buono (stesse squadre) accetta fino a 8 ore
+        cand_teams = team_tokens(candidate.title)
+        same = len(raw_teams & cand_teams) >= 2
+
+        if same:
             if tdiff > 8 * 3600:
                 continue
+            bc = clean_bc(raw_bc, n_bc)
         else:
-            if tdiff > 45 * 60:
+            if score < 95 or tdiff > 45 * 60:
                 continue
-        candidates.append((score, tdiff, candidate))
+            if n_bc > 35:
+                continue
+            bc = raw_bc
+
+        if not bc and n_bc > 35:
+            continue
+        candidates.append((score, tdiff, bc if bc else raw_bc, candidate))
 
     if not candidates:
         return None
 
-    # Ordina: miglior score, poi orario più vicino
     candidates.sort(key=lambda x: (-x[0], x[1]))
-    best = candidates[0][2]
-    best_score = candidates[0][0]
+    best = candidates[0][3]
 
-    def _team_tokens(title: str) -> set[str]:
-        from liveonsat import title_match_score as _
-        # token significative (>2) senza vs/at/v
-        stop = {"vs", "v", "at", "vs.", "the", "fc", "cf"}
-        parts = []
-        for w in (title or "").lower().replace("-", " ").replace(".", " ").split():
-            w = "".join(c for c in w if c.isalnum())
-            if len(w) > 2 and w not in stop:
-                parts.append(w)
-        return set(parts)
+    if is_racing:
+        return best
 
-    best_teams = _team_tokens(best.title)
-    raw_teams = _team_tokens(raw_event.title)
-
-    # Unisci TUTTE le righe LiveOnSat che condividono le stesse 2 squadre
-    # (es. "France v Italy" + "Italy v France" → RAI 1 + altri)
     merged: list[str] = []
     seen: set[str] = set()
-    for score, tdiff, cand in candidates:
-        cand_teams = _team_tokens(cand.title)
-        # stessa coppia squadre: intersezione >= 2 token rilevanti
-        shared = (cand_teams & best_teams) if best_teams else set()
-        shared_raw = (cand_teams & raw_teams) if raw_teams else set()
-        same_fixture = (
-            len(shared) >= 2
-            or len(shared_raw) >= 2
-            or score >= 90
-        )
-        if not same_fixture:
-            continue
-        for b in getattr(cand, "broadcasters", ()) or ():
+    for score, tdiff, bc, cand in candidates:
+        for b in bc:
             key = (b or "").strip().lower()
             if not key or key in seen:
                 continue
@@ -532,6 +580,7 @@ def get_matching_liveonsat_event(
         )
     except TypeError:
         return best
+
 
 
 def time_difference_seconds(
