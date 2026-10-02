@@ -2806,6 +2806,90 @@
         }
       ]
     },
+   {
+      "id": "maxsport1",
+      "name": "Max Sport 1",
+      "country": "BG",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "Max Sport 1 HD",
+        "Max Sport 1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "maxsport1_source_1",
+          "url": "http://hls127.freeott.top:8080/BG_MAX_Sport_1_HD/video.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+   {
+      "id": "maxsport2",
+      "name": "Max Sport 2",
+      "country": "BG",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "Max Sport 2 HD",
+        "Max Sport 2"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "maxsport2_source_1",
+          "url": "http://hls127.freeott.top:8080/BG_MAX_Sport_2_HD/video.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "maxsport3",
+      "name": "Max Sport 3",
+      "country": "BG",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "Max Sport 3 HD",
+        "Max Sport 3"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "maxsport3_source_1",
+          "url": "http://hls127.freeott.top:8080/BG_MAX_Sport_3_HD/video.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+     {
+      "id": "maxsport4",
+      "name": "Max Sport 4",
+      "country": "BG",
+      "priority": 10,
+      "logoUrl": null,
+      "aliases": [
+        "Max Sport 4 HD",
+        "Max Sport 4"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "maxsport4_source_1",
+          "url": "http://hls127.freeott.top:8080/BG_MAX_Sport_4_HD/video.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "dazn_deutsch",
       "name": "DAZN Deutsch",
