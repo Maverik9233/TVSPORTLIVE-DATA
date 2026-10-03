@@ -22,7 +22,7 @@
         {
           "id": "sky_sport_uno_source_1",
           "url": "https://justkidding.junksonus.party/main/secure/17e0f3fb17151b02587f63adbe1c544b73e173a9831ceb61858a1ae0e521313e/1791015477/skysportuno-it.m3u8",
-          "type": "WEB",
+          "type": "AUTO",
           "enabled": true,
           "priority": 1
         }
@@ -46,24 +46,10 @@
       "sources": [
         {
           "id": "sky_sport_calcio_source_1",
-          "url": "https://jack43eo.mpgreatestclgczbmiddle.my/it/football/italian-serie-c-4461947/us-casertana-1908-vs-catania-fc.html?icg=SVQ",
-          "type": "WEB",
+          "url": "https://ds164.bluetier.top/SkySportCalcioIT/index.m3u8?token=U2t5U3BvcnRDYWxjaW9JVHxub19jaGVja19pcHwxNzkxMDA3NDYx.a18fa412d5e1739980cb681993dfa9b85514fbec3e7c9326915210fe69b817af",
+          "type": "AUTO",
           "enabled": true,
           "priority": 1
-        }, 
-        {
-          "id": "sky_sport_calcio_source_2",
-          "url": "https://www.htsport.org/calciob.htm",
-          "type": "WEB",
-          "enabled": false,
-          "priority": 2
-        },
-        {
-          "id": "sky_sport_calcio_source_3",
-          "url": "http://htsport.org/calcio.htm",
-          "type": "WEB",
-          "enabled": false,
-          "priority": 2
         }
       ]
     },
