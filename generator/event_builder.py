@@ -267,6 +267,15 @@ COMPETITION_BROADCASTER_OVERRIDES = {
 # Prima metteva Sky/DAZN/TV su TUTTE le WNBA/NBA/tennis → canali a caso.
 SPORT_BROADCASTER_FALLBACKS: dict[str, tuple[str, ...]] = {}
 
+# MotoGP Italia: LiveOnSat non ha pagina affidabile.
+# Diritti fissi: Sky Sport MotoGP / Uno / NOW; TV8 spesso Sprint/qualifiche in chiaro.
+MOTOGP_ITALY_BROADCASTERS: tuple[str, ...] = (
+    "Sky Sport MotoGP",
+    "Sky Sport Uno",
+    "NOW",
+    "TV8",
+)
+
 # Canali digitali terrestri IT spesso usati per Nazionale / Nations League
 # (LiveOnSat a volte omette o sbaglia orario → match perso)
 ITALY_NATIONAL_FTA: tuple[str, ...] = (
@@ -748,6 +757,11 @@ def get_event_broadcasters(
     espn_bc = getattr(raw_event, "broadcasts", None) or []
     for broadcaster in espn_bc:
         add(broadcaster)
+
+    # 2d) MotoGP Italia — fonte diritti (LiveOnSat non copre MotoGP)
+    if (raw_event.sport or "").upper() == "MOTOGP":
+        for broadcaster in MOTOGP_ITALY_BROADCASTERS:
+            add(broadcaster)
 
     # 3) Override Serie C se ancora vuoto
     if (
