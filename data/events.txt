@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T06:24:00Z",
+  "generatedAt": "2026-10-03T06:59:31Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -314,6 +314,14 @@
     },
     {
       "id": "espn_diretta_A5DQZFCU_h",
+      "name": "Alcaraz C.",
+      "shortName": "Alcaraz C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WIUhxKlC-hGuiBKos.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2gXEXG5c_h",
       "name": "Alcaraz C.",
       "shortName": "Alcaraz C.",
       "logoUrl": "https://static.flashscore.com/res/image/data/WIUhxKlC-hGuiBKos.png",
@@ -4689,6 +4697,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_2gXEXG5c_a",
+      "name": "Shapovalov D.",
+      "shortName": "Shapovalov D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0pJDiOUH-8tZx1kbA.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_Khvij7a3_a",
       "name": "Sharma A.",
       "shortName": "Sharma A.",
@@ -5846,7 +5862,7 @@
       "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/fij.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/van.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "channels": []
     },
@@ -5878,38 +5894,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_lhEtm6om",
-      "title": "Lee H. E. - Sun Y.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_lhEtm6om_h",
-      "awayTeamId": "espn_diretta_lhEtm6om_a",
-      "startTime": "2026-10-03T04:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0dcEKPiT-IBKII3vf.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0p9Z4v8k-IVnsq0lK.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "diretta_tennis_UqVeqOpC",
-      "title": "Luo X. - Jiang Z.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_UqVeqOpC_h",
-      "awayTeamId": "espn_diretta_UqVeqOpC_a",
-      "startTime": "2026-10-03T04:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/2ROtSoXH-pxkkgtQh.png",
-      "awayLogoUrl": null,
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
       "id": "diretta_tennis_A5DQZFCU",
       "title": "Alcaraz C. - Arnaldi M.",
       "sport": "TENNIS",
@@ -5918,11 +5902,11 @@
       "awayTeamId": "espn_diretta_A5DQZFCU_a",
       "startTime": "2026-10-03T04:40:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/WIUhxKlC-hGuiBKos.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/GvOhkOle-Cb5l6dVL.png",
-      "homeScore": 1,
-      "awayScore": 1,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": []
     },
     {
@@ -5998,7 +5982,7 @@
       "awayTeamId": "espn_diretta_8KL3sE0B_a",
       "startTime": "2026-10-03T05:15:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/A7GnzFBN-zFPRPJwC.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/hh9jL7Sq-MuV11dpr.png",
       "homeScore": 0,
@@ -6033,24 +6017,40 @@
       "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/EmuBDTU0-WKDLSwTO.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/vF2rLJS0-8flCKcnt.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
-      "id": "diretta_tennis_0Mpp2AhM",
-      "title": "Erel Y. - Bellucci M.",
+      "id": "diretta_tennis_lhEtm6om",
+      "title": "Lee H. E. - Sun Y.",
       "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_0Mpp2AhM_h",
-      "awayTeamId": "espn_diretta_0Mpp2AhM_a",
-      "startTime": "2026-10-03T05:40:00Z",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_lhEtm6om_h",
+      "awayTeamId": "espn_diretta_lhEtm6om_a",
+      "startTime": "2026-10-03T05:45:00Z",
       "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0QYrNojC-ELhKtxxk.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0dcEKPiT-IBKII3vf.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0p9Z4v8k-IVnsq0lK.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_UqVeqOpC",
+      "title": "Luo X. - Jiang Z.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_UqVeqOpC_h",
+      "awayTeamId": "espn_diretta_UqVeqOpC_a",
+      "startTime": "2026-10-03T05:45:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/2ROtSoXH-pxkkgtQh.png",
+      "awayLogoUrl": null,
+      "homeScore": null,
+      "awayScore": null,
       "channels": []
     },
     {
@@ -6065,8 +6065,8 @@
       "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/dp6eBgBN-b9r7y6DB.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Ma5OhSQq-QkcLOTGC.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -6142,27 +6142,11 @@
       "awayTeamId": "espn_diretta_baJdYyqf_a",
       "startTime": "2026-10-03T06:25:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/UL2HWMjC-noagZ2wS.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/tUGFhF5k-WCqsXbkh.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "diretta_tennis_OheotcYA",
-      "title": "Rakhimova K. - Fernandez L.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_OheotcYA_h",
-      "awayTeamId": "espn_diretta_OheotcYA_a",
-      "startTime": "2026-10-03T06:45:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0Y23KdT0-EgnkERlR.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/ATkDeukC-tjuCBoTQ.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -6193,22 +6177,6 @@
       "status": "SCHEDULED",
       "homeLogoUrl": null,
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/0xiIDaS0-xnYae4aa.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "diretta_tennis_OQ2FljEU",
-      "title": "Huang Yujia - Khomutsianskaya D.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_OQ2FljEU_h",
-      "awayTeamId": "espn_diretta_OQ2FljEU_a",
-      "startTime": "2026-10-03T07:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/lbsA3bjC-n9RQ2K55.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MgIfTb6k-4AanOGhU.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -6246,22 +6214,6 @@
       "channels": []
     },
     {
-      "id": "diretta_tennis_ALmhffpg",
-      "title": "Shi H. - Yuan C.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_ALmhffpg_h",
-      "awayTeamId": "espn_diretta_ALmhffpg_a",
-      "startTime": "2026-10-03T07:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zkAsTF8k-tAu0OEai.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Iiv0EsU0-W2Ww3y3f.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
       "id": "diretta_tennis_Iomv8Opm",
       "title": "Strombachs R. - Jubb P.",
       "sport": "TENNIS",
@@ -6273,22 +6225,6 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/zycCxt8k-ELhKtxxk.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/pWBeT1U0-4IcI7SQQ.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "diretta_tennis_rm1ahYE5",
-      "title": "Yang Y. - Saigo R.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_rm1ahYE5_h",
-      "awayTeamId": "espn_diretta_rm1ahYE5_a",
-      "startTime": "2026-10-03T07:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/tMBFGw86-KUwV0300.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/E1lEU4hT-8rjMZHLm.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -6326,6 +6262,54 @@
       "channels": []
     },
     {
+      "id": "diretta_tennis_OQ2FljEU",
+      "title": "Huang Yujia - Khomutsianskaya D.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_OQ2FljEU_h",
+      "awayTeamId": "espn_diretta_OQ2FljEU_a",
+      "startTime": "2026-10-03T07:05:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/lbsA3bjC-n9RQ2K55.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MgIfTb6k-4AanOGhU.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_ALmhffpg",
+      "title": "Shi H. - Yuan C.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_ALmhffpg_h",
+      "awayTeamId": "espn_diretta_ALmhffpg_a",
+      "startTime": "2026-10-03T07:05:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zkAsTF8k-tAu0OEai.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Iiv0EsU0-W2Ww3y3f.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_rm1ahYE5",
+      "title": "Yang Y. - Saigo R.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_rm1ahYE5_h",
+      "awayTeamId": "espn_diretta_rm1ahYE5_a",
+      "startTime": "2026-10-03T07:05:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/tMBFGw86-KUwV0300.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/E1lEU4hT-8rjMZHLm.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
       "id": "diretta_tennis_hMSAhSNP",
       "title": "Arends S./Pel D. - Zhang Z./Zhou Y.",
       "sport": "TENNIS",
@@ -6342,33 +6326,33 @@
       "channels": []
     },
     {
+      "id": "diretta_tennis_0Mpp2AhM",
+      "title": "Erel Y. - Bellucci M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_0Mpp2AhM_h",
+      "awayTeamId": "espn_diretta_0Mpp2AhM_a",
+      "startTime": "2026-10-03T07:10:00Z",
+      "endTime": null,
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0QYrNojC-ELhKtxxk.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
       "id": "diretta_tennis_ngBDRcJH",
       "title": "Bencic B. - Zakharova A.",
       "sport": "TENNIS",
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_ngBDRcJH_h",
       "awayTeamId": "espn_diretta_ngBDRcJH_a",
-      "startTime": "2026-10-03T07:15:00Z",
+      "startTime": "2026-10-03T07:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/K2yK2ST0-CzsoFbbA.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Cpp23gS0-bcxe1lB5.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "diretta_tennis_nNjFioBC",
-      "title": "Escobar G./Kaliyanda Poonacha N. - Reyes-Varela M. A./Stalder R.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_nNjFioBC_h",
-      "awayTeamId": "espn_diretta_nNjFioBC_a",
-      "startTime": "2026-10-03T07:15:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/YudfhkhT-tWjVoSmM.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zsAfJ9me-hYbmh1wp.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -6401,6 +6385,22 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/tSKouC96-MuwyhC51.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/xGR8vcSq-Cj3PBPqt.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_OheotcYA",
+      "title": "Rakhimova K. - Fernandez L.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_OheotcYA_h",
+      "awayTeamId": "espn_diretta_OheotcYA_a",
+      "startTime": "2026-10-03T07:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0Y23KdT0-EgnkERlR.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/ATkDeukC-tjuCBoTQ.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -6609,17 +6609,17 @@
       "channels": []
     },
     {
-      "id": "diretta_tennis_KS24sykK",
-      "title": "Sun X. - Bucsa C.",
+      "id": "diretta_tennis_nNjFioBC",
+      "title": "Escobar G./Kaliyanda Poonacha N. - Reyes-Varela M. A./Stalder R.",
       "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_KS24sykK_h",
-      "awayTeamId": "espn_diretta_KS24sykK_a",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_nNjFioBC_h",
+      "awayTeamId": "espn_diretta_nNjFioBC_a",
       "startTime": "2026-10-03T08:15:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/pxNwvA6k-nci0LuUS.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/baFE6Moe-zTnucLE3.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/YudfhkhT-tWjVoSmM.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zsAfJ9me-hYbmh1wp.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -6748,22 +6748,6 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/Y13AVfDN-6m7UO5bG.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/boUakh7k-QkTorjmO.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
-      "id": "diretta_tennis_6moVpyMG",
-      "title": "Lansere S./Shubladze A. - Brooks M./Rajecki A.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_6moVpyMG_h",
-      "awayTeamId": "espn_diretta_6moVpyMG_a",
-      "startTime": "2026-10-03T08:45:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/OGytMt7k-nZY2wfpn.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MR9WeORq-ttU1zwtm.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -6993,6 +6977,22 @@
       "channels": []
     },
     {
+      "id": "diretta_tennis_KS24sykK",
+      "title": "Sun X. - Bucsa C.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_KS24sykK_h",
+      "awayTeamId": "espn_diretta_KS24sykK_a",
+      "startTime": "2026-10-03T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/pxNwvA6k-nci0LuUS.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/baFE6Moe-zTnucLE3.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
       "id": "diretta_tennis_fqWQYGhd",
       "title": "van Wyk K. - Verwerft L. G.",
       "sport": "TENNIS",
@@ -7057,17 +7057,17 @@
       "channels": []
     },
     {
-      "id": "diretta_tennis_A934PW3F",
-      "title": "Cerundolo F. - Mensik J.",
+      "id": "diretta_tennis_6moVpyMG",
+      "title": "Lansere S./Shubladze A. - Brooks M./Rajecki A.",
       "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_A934PW3F_h",
-      "awayTeamId": "espn_diretta_A934PW3F_a",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_6moVpyMG_h",
+      "awayTeamId": "espn_diretta_6moVpyMG_a",
       "startTime": "2026-10-03T09:45:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/UqyOgWA6-pOTe4nSM.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SUqNcDSq-ELzts6wg.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/OGytMt7k-nZY2wfpn.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MR9WeORq-ttU1zwtm.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -7212,6 +7212,22 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/0Ap6TsA6-OOBkFrQm.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/riVQ0niC-fkse17BE.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_A934PW3F",
+      "title": "Cerundolo F. - Mensik J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_A934PW3F_h",
+      "awayTeamId": "espn_diretta_A934PW3F_a",
+      "startTime": "2026-10-03T10:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/UqyOgWA6-pOTe4nSM.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SUqNcDSq-ELzts6wg.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
@@ -8875,8 +8891,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tv8",
-        "dazn_deutschland"
+        "tv8"
       ]
     },
     {
@@ -8893,9 +8908,7 @@
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": [
-        "dazn_deutschland"
-      ]
+      "channels": []
     },
     {
       "id": "espn_401861117",
@@ -8911,9 +8924,7 @@
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/svn.png",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": [
-        "dazn_deutschland"
-      ]
+      "channels": []
     },
     {
       "id": "diretta_tennis_Eei5S37d",
@@ -9373,6 +9384,22 @@
       "channels": [
         "tv8"
       ]
+    },
+    {
+      "id": "diretta_tennis_2gXEXG5c",
+      "title": "Alcaraz C. - Shapovalov D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_2gXEXG5c_h",
+      "awayTeamId": "espn_diretta_2gXEXG5c_a",
+      "startTime": "2026-10-04T01:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WIUhxKlC-hGuiBKos.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0pJDiOUH-8tZx1kbA.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
     },
     {
       "id": "diretta_tennis_xUS4LN7s",
