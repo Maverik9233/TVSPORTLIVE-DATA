@@ -115,9 +115,13 @@ def build_session_events(
         if "TEST" in title.upper():
             return []
 
-    # Giorno gara = giorno di fine weekend (di solito domenica)
-    race_day = weekend_end.astimezone(ROME).date()
+    # Fuso del circuito (es. Giappone +09:00) — NON forzare Europe/Rome
+    circuit_tz = weekend_start.tzinfo or ROME
+
+    # Giorno gara / sprint in ORA LOCALE del circuito
+    race_day = weekend_end.astimezone(circuit_tz).date()
     sprint_day = race_day - timedelta(days=1)
+    friday = race_day - timedelta(days=2)
 
     results: list[MotoGPEvent] = []
 
@@ -128,25 +132,26 @@ def build_session_events(
         minute: int,
         duration_h: float,
     ) -> MotoGPEvent | None:
-        if day not in requested_dates:
-            return None
+        # Orari tipici MotoGP in ora del circuito (Sprint ~15:00, Race ~14:00)
         start = datetime(
             day.year,
             day.month,
             day.day,
             hour,
             minute,
-            tzinfo=ROME,
+            tzinfo=circuit_tz,
         )
         end = start + timedelta(hours=duration_h)
+        # Filtra oggi/domani in fuso app (Rome)
+        if start.astimezone(ROME).date() not in requested_dates:
+            return None
+
         sid = f"motogp_{_slug(title)}_{session_name.lower()}_{day.isoformat()}"
-        event_status = _map_status(status_raw, weekend_start, weekend_end, now)
-        # Se la sessione è già passata oggi
         if end < now:
             event_status = "FINISHED"
         elif start <= now <= end:
             event_status = "LIVE"
-        elif event_status == "LIVE" and now < start:
+        else:
             event_status = "SCHEDULED"
 
         display = f"MotoGP - {title}"
@@ -165,12 +170,9 @@ def build_session_events(
             kind=session_name or kind,
         )
 
-    # Sprint sabato ~15:00, Race domenica ~14:00 (orari Europa tipici)
+    # Sprint sabato ~15:00 locale, Race domenica ~14:00 locale
     sprint = make("Sprint", sprint_day, 15, 0, 1.0)
     race = make("Race", race_day, 14, 0, 1.5)
-
-    # Se il weekend è "CURRENT" e oggi è venerdì, mostra un evento Practice
-    friday = race_day - timedelta(days=2)
     practice = make("Practice", friday, 15, 0, 1.5)
 
     for item in (practice, sprint, race):
