@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T23:53:38Z",
+  "generatedAt": "2026-10-04T00:14:15Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -5200,22 +5200,6 @@
       "channels": []
     },
     {
-      "id": "diretta_tennis_0nKoN8VG",
-      "title": "Brengle M. - Pareja J.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_0nKoN8VG_h",
-      "awayTeamId": "espn_diretta_0nKoN8VG_a",
-      "startTime": "2026-10-04T00:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IFp7iclC-Iy6C0Gmg.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/YXqfp2jC-Gl5vqUaa.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": []
-    },
-    {
       "id": "diretta_tennis_MolPyaRQ",
       "title": "Maria T. - McDonald E.",
       "sport": "TENNIS",
@@ -5224,7 +5208,7 @@
       "awayTeamId": "espn_diretta_MolPyaRQ_a",
       "startTime": "2026-10-04T00:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/fqE10DBN-xAI115Gc.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gh3cLTUH-CjuJY5mt.png",
       "homeScore": null,
@@ -5238,11 +5222,27 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_GGyW2pq9_h",
       "awayTeamId": "espn_diretta_GGyW2pq9_a",
-      "startTime": "2026-10-04T00:00:00Z",
+      "startTime": "2026-10-04T00:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/4dG7MmiT-6Lh2o9rN.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": []
+    },
+    {
+      "id": "diretta_tennis_0nKoN8VG",
+      "title": "Brengle M. - Pareja J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_0nKoN8VG_h",
+      "awayTeamId": "espn_diretta_0nKoN8VG_a",
+      "startTime": "2026-10-04T00:20:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IFp7iclC-Iy6C0Gmg.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/YXqfp2jC-Gl5vqUaa.png",
       "homeScore": null,
       "awayScore": null,
       "channels": []
