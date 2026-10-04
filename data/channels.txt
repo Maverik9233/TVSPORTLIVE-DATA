@@ -6364,10 +6364,24 @@
       "sources": [
         {
           "id": "dazn_F1_es_source_1",
-          "url": "https://livelive24.com/?legacy=dazn-f1",
-          "type": "WEB",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/59587.m3u8",
+          "type": "AUTO",
           "enabled": true,
           "priority": 1
+        },
+       {
+          "id": "dazn_F1_es_source_2",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/199539.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 2
+        },
+     {
+          "id": "dazn_F1_es_source_3",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/531500.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 3
         }
       ]
     },
