@@ -132,10 +132,7 @@
         "Sky Sport F1 HD",
         "Sky Sport F1 Italia HD",
         "Sky Sport F1 Italia",
-        "Sky Sport F1 Italy",
-        "Sky Sport Formula 1 IT",
-        "SkySport F1 IT",
-        "Sky F1 IT"
+        "Sky Sport F1 Italy"
       ],
       "enabled": true,
       "sources": [
@@ -145,6 +142,13 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 1
+        },
+        {
+          "id": "sky_sport_f1_source_3",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/215426.ts",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 2
         }
       ]
     },
