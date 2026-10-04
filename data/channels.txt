@@ -1014,22 +1014,22 @@
       "sources": [
         {
           "id": "dazn_1_italia_source_1",
-          "url": "https://7nyaler.streamhostingcdn.top/stream/24/index.m3u8",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/215437.m3u8",
           "type": "HLS",
           "enabled": true,
           "priority": 1
         },
         {
           "id": "dazn_1_italia_source_2",
-          "url": "https://premium.hls.st/playlist/premium877.m3u8",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/215439.m3u8",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
         },
         {
           "id": "dazn_1_italia_source_3",
-          "url": "https://streamproxy.mauriziot.workers.dev/?url=https://dlive.sx/cast/stream-877.php",
-          "type": "WEB",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/554888.m3u8",
+          "type": "AUTO",
           "enabled": false,
           "priority": 3
         }
@@ -1039,19 +1039,29 @@
       "id": "dazn_2_italia",
       "name": "DAZN 2 Italia",
       "country": "IT",
-      "priority": 25,
+      "priority": 24,
       "logoUrl": null,
       "aliases": [
         "DAZN 2 Italia HD",
-        "DAZN 2 Italia SD",
-        "DAZN 2",
-        "DAZN2",
+        "DAZN 2 Italy HD",
+        "ZONA DAZN 2 Italia",
         "Zona DAZN 2",
-        "DAZN 2 HD"
+        "DAZN 2 Italia",
+        "DAZN 2 Italy",
+        "DAZN 2 IT",
+        "DAZN 2 Italy"
       ],
       "enabled": true,
-      "sources": []
-    },
+      "sources": [
+        {
+          "id": "dazn_2_italia_source_1",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/215439.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+       ]
+     },
     {
       "id": "dazn_1_bar DE",
       "name": "DAZN 1 Bar DE",
@@ -1068,8 +1078,31 @@
       "sources": [
         {
           "id": "dazn_1_bar_source_1",
-          "url": "https://dlive.sx/watch.php?id=426",
-          "type": "WEB",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/554626.m3u8",
+          "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_2_bar DE",
+      "name": "DAZN 2 Bar DE",
+      "country": "DE",
+      "priority": 24,
+      "logoUrl": null,
+      "aliases": [
+        "DAZN 2 Bar Deutsch HD",
+        "DAZN 2 Bar Deutsch",
+        "DAZN 2 Bar DE HD",
+        "DAZN 2 Bar DE SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_2_bar_source_1",
+          "url": "http://livetv-plus.com:80/live/tafari07/8jw8sqJGz9/554395.m3u8",
+          "type": "AUTO",
           "enabled": true,
           "priority": 1
         }
