@@ -30109,6 +30109,98 @@
         }
       ]
     },
+       {
+      "id": "supertennis_plus_1",
+      "name": "SuperTennis+ 1 HD",
+      "country": "IT",
+      "priority": 6,
+      "logoUrl": "https://www.sportnetwork.it/wp-content/uploads/2014/12/supertennis-big.png",
+      "aliases": [
+        "Supertennis+ 1 HD",
+        "SuperTennis Plus 1",
+        "SuperTennis+1",
+        "ST+ 1"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "supertennis_plus_1_source_1",
+          "url": "https://streamcdng1-421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd",
+          "type": "DASH",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "supertennis_plus_2",
+      "name": "SuperTennis+ 2 HD",
+      "country": "IT",
+      "priority": 6,
+      "logoUrl": "https://www.sportnetwork.it/wp-content/uploads/2014/12/supertennis-big.png",
+      "aliases": [
+        "Supertennis+ 2 HD",
+        "SuperTennis Plus 2",
+        "SuperTennis+2",
+        "ST+ 2"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "supertennis_plus_2_source_1",
+          "url": "https://streamcdng1-421b2081187a40368f24e4fb496bfc26.msvdn.net/channel2/manifest.mpd",
+          "type": "DASH",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "supertennis_plus_3",
+      "name": "SuperTennis+ 3 HD",
+      "country": "IT",
+      "priority": 6,
+      "logoUrl": "https://www.sportnetwork.it/wp-content/uploads/2014/12/supertennis-big.png",
+      "aliases": [
+        "Supertennis+ 3 HD",
+        "SuperTennis Plus 3",
+        "SuperTennis+3",
+        "ST+ 3"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "supertennis_plus_3_source_1",
+          "url": "https://streamcdng1-421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest.mpd",
+          "type": "DASH",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "supertennis_plus_4",
+      "name": "SuperTennis+ 4 HD",
+      "country": "IT",
+      "priority": 6,
+      "logoUrl": "https://www.sportnetwork.it/wp-content/uploads/2014/12/supertennis-big.png",
+      "aliases": [
+        "Supertennis+ 4 HD",
+        "SuperTennis Plus 4",
+        "SuperTennis+4",
+        "ST+ 4"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "supertennis_plus_4_source_1",
+          "url": "https://streamcdng1-421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd",
+          "type": "DASH",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
     {
       "id": "como_dice_el_dicho_2011_s11_e107",
       "name": "Como dice el dicho (2011) S11 E107",
