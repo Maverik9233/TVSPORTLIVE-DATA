@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T00:37:37Z",
+  "generatedAt": "2026-10-04T01:26:16Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -3374,6 +3374,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_tr5AbulC_h",
+      "name": "Nijkamp R. M.",
+      "shortName": "Nijkamp R. M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/d4fugkU0-b3oFkKU3.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_SbizrI36_h",
       "name": "Nikles J.",
       "shortName": "Nikles J.",
@@ -4350,6 +4358,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_tr5AbulC_a",
+      "name": "Sharma A.",
+      "shortName": "Sharma A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/fJS2IaRq-KOY52ACB.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_MLMiW5n4_h",
       "name": "Sheehy J.",
       "shortName": "Sheehy J.",
@@ -5227,8 +5243,8 @@
       "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/4dG7MmiT-6Lh2o9rN.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -5240,11 +5256,11 @@
       "awayTeamId": "espn_diretta_0nKoN8VG_a",
       "startTime": "2026-10-04T00:40:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/IFp7iclC-Iy6C0Gmg.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/YXqfp2jC-Gl5vqUaa.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": []
     },
     {
@@ -7877,6 +7893,22 @@
       "channels": []
     },
     {
+      "id": "diretta_tennis_tr5AbulC",
+      "title": "Nijkamp R. M. - Sharma A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_tr5AbulC_h",
+      "awayTeamId": "espn_diretta_tr5AbulC_a",
+      "startTime": "2026-10-04T15:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/d4fugkU0-b3oFkKU3.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/fJS2IaRq-KOY52ACB.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": []
+    },
+    {
       "id": "espn_401902894",
       "title": "Arsenal at Manchester City",
       "sport": "FOOTBALL",
@@ -8213,7 +8245,9 @@
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": []
+      "channels": [
+        "tyc_sports"
+      ]
     },
     {
       "id": "espn_401922273",
