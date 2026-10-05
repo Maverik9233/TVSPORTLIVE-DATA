@@ -50,6 +50,7 @@ _COMPETITION_FLAG_CODE: dict[str, str] = {
     "la_liga_2": "ES",
     "bundesliga": "DE",
     "bundesliga_2": "DE",
+    "bundesliga_3": "DE",
     "ligue_1": "FR",
     "ligue_2": "FR",
     "primeira_liga": "PT",

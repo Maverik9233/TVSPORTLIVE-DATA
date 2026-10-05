@@ -46,6 +46,14 @@ except ImportError:
     def fetch_motogp_events():
         return []
 
+try:
+    from diretta_extra_leagues_source import fetch_diretta_extra_league_events
+except Exception:
+    def fetch_diretta_extra_league_events():
+        print("[DIRETTA EXTRA] diretta_extra_leagues_source.py mancante — skip")
+        return []
+
+
 from config import (
     REQUEST_TIMEOUT_SECONDS,
     SHOW_TODAY,
@@ -2964,6 +2972,64 @@ def fetch_official_motogp_events() -> list[RawEvent]:
     return [convert_motogp_event(event) for event in events]
 
 
+
+def convert_diretta_extra_event(event) -> RawEvent:
+    """Converte DirettaLeagueEvent (3. Liga / Coppa Italia C) in RawEvent."""
+    from datetime import timezone as _tz
+
+    def _iso(dt):
+        if dt is None:
+            return None
+        if hasattr(dt, "astimezone"):
+            try:
+                return dt.astimezone(_tz.utc).isoformat().replace("+00:00", "Z")
+            except Exception:
+                pass
+        if hasattr(dt, "isoformat"):
+            return dt.isoformat().replace("+00:00", "Z")
+        return str(dt)
+
+    return RawEvent(
+        source="DIRETTA",
+        source_event_id=str(event.source_event_id),
+        competition_key=event.competition_key,
+        competition_name=event.competition_name,
+        sport="FOOTBALL",
+        title=event.title,
+        start_time=_iso(event.start_time),
+        end_time=_iso(event.end_time),
+        status=event.status,
+        home_team_id=event.home_team_id,
+        home_team_name=event.home_team_name,
+        home_team_short_name=event.home_team_short_name or event.home_team_name,
+        away_team_id=event.away_team_id,
+        away_team_name=event.away_team_name,
+        away_team_short_name=event.away_team_short_name or event.away_team_name,
+        home_score=event.home_score,
+        away_score=event.away_score,
+        country=getattr(event, "country", None),
+    )
+
+
+def fetch_diretta_extra_leagues_as_raw() -> list[RawEvent]:
+    raw: list[RawEvent] = []
+    try:
+        events = list(fetch_diretta_extra_league_events())
+    except Exception as error:
+        print(f"[DIRETTA EXTRA] errore: {error}")
+        return raw
+    for ev in events:
+        try:
+            raw.append(convert_diretta_extra_event(ev))
+        except Exception as error:
+            print(
+                f"[DIRETTA EXTRA] convert error "
+                f"{getattr(ev, 'source_event_id', '?')}: {error}"
+            )
+    print(f"[DIRETTA EXTRA] RawEvent pronti: {len(raw)}")
+    return raw
+
+
 def fetch_all_events() -> list[RawEvent]:
     dates = get_requested_dates()
 
@@ -3070,6 +3136,14 @@ def fetch_all_events() -> list[RawEvent]:
     all_events.extend(
         serie_c_events
     )
+
+    # 3. Liga + Coppa Italia Serie C (diretta.it)
+    try:
+        extra_league_events = fetch_diretta_extra_leagues_as_raw()
+        all_events.extend(extra_league_events)
+    except Exception as error:
+        print(f"[DIRETTA EXTRA] non disponibile: {error}")
+
 
     # --------------------------------------------------------
     # MOTOGP
