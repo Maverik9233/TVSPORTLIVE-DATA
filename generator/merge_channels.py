@@ -1,23 +1,20 @@
 """
-Unisce più liste canali in data/channels.txt.
+Unisce le liste canali modificabili in data/channels.txt (output).
 
-Scoperta automatica (nessun limite sul numero di parti):
-  data/channels.txt           → lista base (priorità massima)
-  data/channels_part1.txt     → opzionale
-  data/channels_part2.txt     → opzionale
-  data/channels_part3.txt     → opzionale
-  data/channels_partN.txt     → qualsiasi N
-  data/channels_extra*.txt    → eventuali altre liste
+Workflow consigliato (file leggeri su GitHub):
+  data/channels_part1.txt   → lista IT / principale (ex channels.txt)
+  data/channels_part2.txt   → seconda lista
+  data/channels_part3.txt   → terza lista
+  data/channels_partN.txt   → quante ne vuoi
 
-Ordine: channels.txt prima, poi channels_part*.txt ordinati
-per numero (part2, part3, part10…), poi altri channels_*.txt.
+  data/channels.txt         → SOLO OUTPUT del generatore (può essere 4MB+)
+                              Non modificarlo a mano; l'app scarica questo.
 
-Regole:
-  - Nessuna fonte viene rimossa
-  - Stesso canale (id / nome / alias) → un solo canale, sources unite
-  - URL des-tro.com normalizzati: ...:80/USER/PASS/ID → ...:80/live/USER/PASS/ID.m3u8
-  - URL già presenti non vengono duplicati
-  - Titoli categoria #### ... #### ignorati
+Regole merge:
+  - Nessuna fonte rimossa
+  - Stesso id/nome/alias → un canale, sources unite
+  - URL des-tro normalizzati
+  - Titoli #### categoria ignorati
 """
 
 from __future__ import annotations
@@ -37,17 +34,24 @@ OUTPUT_FILE = DATA_DIR / "channels.txt"
 
 def discover_channel_files(data_dir: Path | None = None) -> list[Path]:
     """
-    Trova tutte le liste canali in data/ senza elencarle a mano.
-    - channels.txt (base) sempre prima se esiste
-    - channels_partN.txt ordinati per N numerico
-    - altri channels_*.txt (es. channels_extra_uk.txt) in coda, alfabetico
-    Esclude il file di output temporaneo e backup.
+    Solo file di INPUT (liste modificabili su GitHub).
+
+    NON usa channels.txt come input: quello è solo OUTPUT del merge
+    (può superare 2–4 MB e non si edita a mano).
+
+    Input accettati, in ordine:
+      data/channels_part1.txt
+      data/channels_part2.txt
+      data/channels_partN.txt   (qualsiasi N)
+      data/channels_extra*.txt  (opzionale)
+
+    Se non c'è nessuna part*, in fallback legge channels.txt
+    (compatibilità vecchi repo).
     """
     d = data_dir or DATA_DIR
     if not d.is_dir():
         return []
 
-    base = d / "channels.txt"
     part_re = re.compile(r"^channels_part(\d+)\.txt$", re.I)
     parts: list[tuple[int, Path]] = []
     extras: list[Path] = []
@@ -58,29 +62,32 @@ def discover_channel_files(data_dir: Path | None = None) -> list[Path]:
         name = path.name
         if name.endswith(".tmp") or name.endswith(".bak"):
             continue
+        low = name.lower()
+        if low == "channels.txt":
+            # output only — skip as input
+            continue
         m = part_re.match(name)
         if m:
             parts.append((int(m.group(1)), path))
-            continue
-        low = name.lower()
-        if low == "channels.txt":
             continue
         if low.startswith("channels_") or low.startswith("channels-"):
             extras.append(path)
 
     parts.sort(key=lambda x: x[0])
     extras.sort(key=lambda p: p.name.lower())
+    ordered = [p for _, p in parts] + extras
 
-    ordered: list[Path] = []
-    if base.is_file():
-        ordered.append(base)
-    ordered.extend(p for _, p in parts)
-    ordered.extend(extras)
+    if not ordered:
+        # fallback legacy: un solo channels.txt editabile
+        base = d / "channels.txt"
+        if base.is_file() and base.stat().st_size > 50:
+            print(
+                "[CHANNELS] Nessuna channels_part*.txt: "
+                "uso channels.txt come input (legacy)."
+            )
+            return [base]
+
     return ordered
-
-
-# Compatibilità: tuple usata se qualcuno importa CHANNEL_PART_FILES
-CHANNEL_PART_FILES = tuple(discover_channel_files())
 
 
 def _now() -> str:
