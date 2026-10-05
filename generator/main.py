@@ -83,7 +83,7 @@ def run() -> None:
     )
 
     print()
-    print("[4/6] Unione liste canali (channels + part2 + part3)...")
+    print("[4/6] Unione liste canali (solo se part* cambiate)...")
 
     try:
         merged_path = run_merge()

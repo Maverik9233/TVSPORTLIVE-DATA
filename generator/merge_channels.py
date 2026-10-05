@@ -19,6 +19,7 @@ Regole merge:
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from datetime import datetime, timezone
@@ -30,6 +31,37 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
 OUTPUT_FILE = DATA_DIR / "channels.txt"
+
+HASH_FILE = DATA_DIR / ".channels_merge_hash"
+
+
+def _hash_inputs(paths: list[Path]) -> str:
+    """Hash stabile di nomi + contenuto di tutte le liste input."""
+    h = hashlib.sha256()
+    for path in sorted(paths, key=lambda p: p.name.lower()):
+        h.update(path.name.encode("utf-8"))
+        h.update(b"\0")
+        h.update(path.read_bytes())
+        h.update(b"\0")
+    return h.hexdigest()
+
+
+def _read_saved_hash() -> str | None:
+    if not HASH_FILE.is_file():
+        return None
+    try:
+        return HASH_FILE.read_text(encoding="utf-8").strip() or None
+    except OSError:
+        return None
+
+
+def _write_saved_hash(value: str) -> None:
+    try:
+        HASH_FILE.write_text(value + "\n", encoding="utf-8")
+    except OSError as error:
+        print(f"[CHANNELS] Impossibile salvare hash merge: {error}")
+
+
 
 
 def discover_channel_files(data_dir: Path | None = None) -> list[Path]:
@@ -246,13 +278,45 @@ def _merge_channel(
 def merge_channel_files(
     part_files: tuple[Path, ...] | list[Path] | None = None,
     output_file: Path | None = None,
+    force: bool = False,
 ) -> Path:
     """
     Legge le parti, unisce, scrive channels.txt.
-    Ritorna il path del file scritto.
+    Se le part non sono cambiate (hash) e channels.txt esiste, salta il merge.
+    Ritorna il path del file channels.txt (esistente o appena scritto).
     """
     parts = list(part_files) if part_files else discover_channel_files()
     out = output_file or OUTPUT_FILE
+
+    if not parts:
+        if out.is_file() and out.stat().st_size > 100:
+            print("[CHANNELS] Nessuna part da unire: uso channels.txt esistente.")
+            return out
+        raise RuntimeError(
+            "Nessun file canali trovato in data/ "
+            "(channels_part*.txt) e channels.txt assente/vuoto."
+        )
+
+    current_hash = _hash_inputs(parts)
+    saved_hash = _read_saved_hash()
+
+    if (
+        not force
+        and saved_hash
+        and saved_hash == current_hash
+        and out.is_file()
+        and out.stat().st_size > 100
+    ):
+        print(
+            "[CHANNELS] Liste part invariate: merge saltato "
+            f"(channels.txt già ok, {out.stat().st_size // 1024} KB)."
+        )
+        return out
+
+    if saved_hash != current_hash:
+        print("[CHANNELS] Liste part modificate (o primo merge): unisco…")
+    else:
+        print("[CHANNELS] channels.txt mancante/vuoto: unisco…")
 
     # Per non leggere due volte channels.txt come input e output:
     # se part2/part3 esistono, la base è channels.txt SOLO se non stiamo
@@ -358,11 +422,16 @@ def merge_channel_files(
         f"[CHANNELS] Uniti: {len(final)} canali, "
         f"{total_sources} sorgenti → {out}"
     )
+    try:
+        _write_saved_hash(_hash_inputs(parts))
+    except Exception as error:
+        print(f"[CHANNELS] Hash non salvato: {error}")
     return out
 
 
-def run_merge() -> Path:
-    return merge_channel_files()
+def run_merge(force: bool = False) -> Path:
+    """Unisce le part. force=True rifà sempre il merge."""
+    return merge_channel_files(force=force)
 
 
 if __name__ == "__main__":
