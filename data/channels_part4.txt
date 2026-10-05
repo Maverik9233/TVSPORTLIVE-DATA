@@ -1,0 +1,4244 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-04T14:23:41Z",
+  "channels": [
+{
+  "id": "rai_3",
+  "name": "RAI 3",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/9kuQCIi.png",
+  "aliases": [
+    "RAI 3",
+    "RAI 3 HD",
+    "RAI 3 FHD",
+    "RAI 3 4K",
+    "Rai 3 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_3_source_1",
+      "url": "https://raitre1-dash-live.akamaized.net/dash/live/663957/raitre1/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rete_4",
+  "name": "RETE 4",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/GWx2Fkl.png",
+  "aliases": [
+    "RETE 4",
+    "RETE 4 SD",
+    "RETE 4 HD",
+    "RETE 4 FHD",
+    "Rete 4",
+    "Rete4",
+    "Rete 4 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rete_4_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest_hd.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rete_4_source_2",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "rete_4_source_3",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 3
+    }
+  ]
+},
+{
+  "id": "canale_5",
+  "name": "CANALE 5",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/p6YdiR1.png",
+  "aliases": [
+    "CANALE 5",
+    "CANALE 5 SD",
+    "CANALE 5 HD",
+    "CANALE 5 FHD",
+    "Canale 5",
+    "Canale5",
+    "Canale 5 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canale_5_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hd.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "canale_5_source_2",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "italia_1",
+  "name": "ITALIA 1",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/oCiOxBG.png",
+  "aliases": [
+    "ITALIA 1",
+    "ITALIA 1 SD",
+    "ITALIA 1 HD",
+    "ITALIA 1 FHD",
+    "Italia 1",
+    "Italia1",
+    "Italia 1 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "italia_1_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "italia_1_source_2",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "italia_1_source_3",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hd.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 3
+    }
+  ]
+},
+{
+  "id": "la7",
+  "name": "LA7",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/F90mpSa.png",
+  "aliases": [
+    "LA7",
+    "LA7 SD",
+    "LA7 HD",
+    "LA7 FHD",
+    "La7",
+    "La 7",
+    "LA7 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "la7_source_1",
+      "url": "https://d1chghleocc9sm.cloudfront.net/Live_1280x720_.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "la7_source_2",
+      "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7/DASH/Live.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "la7_source_3",
+      "url": "https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 3
+    }
+  ]
+},
+{
+  "id": "tv8",
+  "name": "TV8",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShn5Y04DpzcEigc4jZsRpv_c9i0ZRVjczemQ&s",
+  "aliases": [
+    "TV8",
+    "TV8 HD",
+    "TV8 FHD",
+    "TV8 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tv8_source_1",
+      "url": "https://mytivu.it/Application/Channels/TV8.php",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "nove",
+  "name": "NOVE",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.tvdream.net/img/nove.png",
+  "aliases": [
+    "NOVE",
+    "NOVE TV",
+    "NOVE TV HD",
+    "NOVE HD",
+    "NOVE Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "nove_source_1",
+      "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "telecolor",
+  "name": "Telecolor",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/rfNg6fw.png",
+  "aliases": [
+    "Telecolor",
+    "Telecolor SD",
+    "Telecolor HD",
+    "Telecolor Sicilia",
+    "Telecolor Sicilia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "telecolor_source_1",
+      "url": "https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/telecolor/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "antenna_sicilia",
+  "name": "Antenna Sicilia",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/8DOdqsE.png",
+  "aliases": [
+    "Antenna Sicilia",
+    "Antenna Sicilia SD",
+    "Antenna Sicilia HD",
+    "AntennaSicilia",
+    "Antenna Sicilia Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "antenna_sicilia_source_1",
+      "url": "https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/antennasicilia/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "video_regione",
+  "name": "VIDEO REGIONE 14",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/0szwnR3.png",
+  "aliases": [
+    "VIDEO REGIONE 14",
+    "VIDEO REGIONE 14 SD",
+    "VIDEO REGIONE 14 HD",
+    "Video Regione Sicilia",
+    "Video Regione"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "video_regione_source_1",
+      "url": "https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "tvr_xenon",
+  "name": "TVR XENON",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tse2.mm.bing.net/th?id=OIP.coHKroMQishKFVI47zOmOgHaD3&pid=Api&P=0&h=180",
+  "aliases": [
+    "TVR XENON",
+    "TVR Xenon",
+    "TVR XENON SD",
+    "TVR Xenon Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tvr_xenon_source_1",
+      "url": "https://load-balancer.azotosolutions.com/cdnedge4/smil:live4.smil/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "sicilia24",
+  "name": "SICILIA24",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tse1.mm.bing.net/th?id=OIP.uAfLrVWN7I8YR3qgQ4C3UwHaD3&pid=Api&P=0&h=180",
+  "aliases": [
+    "SICILIA24",
+    "SICILIA 24",
+    "SICILIA24 SD",
+    "Sicilia 24 TV",
+    "Sicilia24 TV"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sicilia24_source_1",
+      "url": "https://5f22d76e220e1.streamlock.net/sicilia24/sicilia24/chunklist_w1360196924.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rei_tv",
+  "name": "REI TV",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tse4.mm.bing.net/th?id=OIP.RXb7VQ2FHsPyFmJws1RcigHaD3&pid=Api&P=0&h=180",
+  "aliases": [
+    "REI TV",
+    "REI TV SD",
+    "REI",
+    "REITV",
+    "REI TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rei_tv_source_1",
+      "url": "https://64b16f23efbee.streamlock.net/reitv/reitv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "prima_tv_sicilia",
+  "name": "PRIMA TV SICILIA",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/HE9c8Sk.png",
+  "aliases": [
+    "PRIMA TV SICILIA",
+    "Prima TV Sicilia",
+    "Prima TV",
+    "Prima TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "prima_tv_sicilia_source_1",
+      "url": "https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "etna_channel",
+  "name": "ETNA CHANNEL",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_l_JYPGPnLRl_cJyuJobJ97VmK2ceJkZ8EoqM3WSk7kVjY=s900-c-k-c0x00ffffff-no-rj",
+  "aliases": [
+    "ETNA CHANNEL",
+    "Etna Channel",
+    "ETNA CHANNEL SD",
+    "EtnaChannel",
+    "Etna Channel Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "etna_channel_source_1",
+      "url": "https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "20_mediaset",
+  "name": "20 MEDIASET",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/It13jwX.png",
+  "aliases": [
+    "20 MEDIASET",
+    "20 Mediaset",
+    "20 MEDIASET SD",
+    "20 MEDIASET HD",
+    "20 MEDIASET FHD",
+    "20Mediaset",
+    "20 Mediaset HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "20_mediaset_source_1",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "20_mediaset_source_2",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest_hd.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "rai_4",
+  "name": "RAI 4",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/XFkZRfv.png",
+  "aliases": [
+    "RAI 4",
+    "RAI 4 SD",
+    "RAI 4 HD",
+    "RAI 4 FHD",
+    "Rai 4",
+    "Rai4",
+    "Rai 4 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_4_source_1",
+      "url": "https://raiquattro1-push.cdn.netrw.it/rai/dash/live/rai4/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rai_4_source_2",
+      "url": "https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "rai_4_source_3",
+      "url": "https://raiquattro3-live.akamaized.net/hls/live/2018003/raiquattro3/raiquattro3/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 3
+    },
+    {
+      "id": "rai_4_source_4",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=rainet/4.0.5",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 4
+    }
+  ]
+},
+{
+  "id": "iris_mediaset",
+  "name": "IRIS MEDIASET",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://dgtv-app.pages.dev/logos/Iris.png",
+  "aliases": [
+    "IRIS MEDIASET",
+    "IRIS",
+    "IRIS MEDIASET SD",
+    "IRIS MEDIASET HD",
+    "Iris HD",
+    "Iris Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "iris_mediaset_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "iris_mediaset_source_2",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "rai_5",
+  "name": "RAI 5",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/Leu2zTO.png",
+  "aliases": [
+    "RAI 5",
+    "Rai 5",
+    "Rai 5 SD",
+    "Rai 5 HD",
+    "Rai 5 FHD",
+    "Rai5",
+    "Rai 5 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_5_source_1",
+      "url": "https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rai_5_source_2",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=rainet/4.0.5",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "rai_movie",
+  "name": "RAI MOVIE",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/RKpO8CE.png",
+  "aliases": [
+    "RAI MOVIE",
+    "Rai Movie",
+    "Rai Movie SD",
+    "Rai Movie HD",
+    "Rai Movie FHD",
+    "RaiMovie",
+    "Rai Movie Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_movie_source_1",
+      "url": "https://raimovie1-push.cdn.netrw.it/@syna-token=st=1784286808~hmac=f80cd19e16796f8005f610e0f9f88ca235b9780bbe83b2a207c953bd6d025b3c/rai/hls-enc/movie/raimovie/playlist_ma.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rai_movie_source_2",
+      "url": "https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "rai_movie_source_3",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=rainet/4.0.5",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 3
+    }
+  ]
+},
+{
+  "id": "rai_premium",
+  "name": "RAI PREMIUM",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/RKI4nFy.png",
+  "aliases": [
+    "RAI PREMIUM",
+    "Rai Premium",
+    "Rai Premium SD",
+    "Rai Premium HD",
+    "Rai Premium FHD",
+    "RaiPremium",
+    "Rai Premium Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_premium_source_1",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rai_premium_source_2",
+      "url": "https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "rai_premium_source_3",
+      "url": "https://ilglobotv-live.akamaized.net/channels/RAIPremium/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 3
+    },
+    {
+      "id": "rai_premium_source_4",
+      "url": "https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 4
+    }
+  ]
+},
+{
+  "id": "rai_world_premium",
+  "name": "RAI WORLD PREMIUM",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tinyurl.com/5t3an4rz",
+  "aliases": [
+    "RAI WORLD PREMIUM",
+    "Rai World Premium",
+    "Rai World Premium SD",
+    "RAI WORLD",
+    "Rai Premium World"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_world_premium_source_1",
+      "url": "https://ilglobotv-live.akamaized.net/channels/RAIPremium/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rai_world_premium_source_2",
+      "url": "https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "cielo",
+  "name": "CIELO",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/cPluF03.png",
+  "aliases": [
+    "CIELO",
+    "CIELO TV",
+    "CIELO TV SD",
+    "CIELO TV HD",
+    "Cielo HD",
+    "Cielo Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "cielo_source_1",
+      "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "27_twentyseven",
+  "name": "27 TWENTYSEVEN",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://dgtv-app.pages.dev/logos/27.png",
+  "aliases": [
+    "27 TWENTYSEVEN",
+    "27 Twentyseven",
+    "Twentyseven",
+    "27",
+    "27 MEDIASET",
+    "27 Mediaset"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "27_twentyseven_source_1",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "tv2000",
+  "name": "TV 2000",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.ildecoder.com/wp/wp-content/uploads/2017/04/tv2000-768x768.jpg",
+  "aliases": [
+    "TV 2000",
+    "TV2000",
+    "TV 2000 SD",
+    "TV2000 Italia",
+    "TV 2000 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tv2000_source_1",
+      "url": "https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "la7_cinema",
+  "name": "LA7 CINEMA",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://dgtv-app.pages.dev/logos/La7Cinema.png",
+  "aliases": [
+    "LA7 CINEMA",
+    "LA7 Cinema",
+    "LA7 CINEMA HD",
+    "La7 Cinema",
+    "LA7D",
+    "LA7 D"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "la7_cinema_source_1",
+      "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH/Live.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "la7_cinema_source_2",
+      "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH-B/Live.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "la5_mediaset",
+  "name": "LA5 MEDIASET",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/UNyJaho.png",
+  "aliases": [
+    "LA5 MEDIASET",
+    "LA5",
+    "LA5 MEDIASET HD",
+    "La5",
+    "La 5",
+    "LA5 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "la5_mediaset_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest_hd.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "la5_mediaset_source_2",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "real_time",
+  "name": "Real Time IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://dgtv-app.pages.dev/logos/rtime.png",
+  "aliases": [
+    "Real Time",
+    "Real Time IT",
+    "Real Time Italia",
+    "Real Time HD",
+    "Real Time SD",
+    "REAL TIME"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "real_time_source_1",
+      "url": "https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "real_time_source_2",
+      "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "qvc",
+  "name": "QVC Italia",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/qvc.png",
+  "aliases": [
+    "QVC",
+    "QVC Italia",
+    "QVC HD",
+    "QVC Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "qvc_source_1",
+      "url": "https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "food_network",
+  "name": "Food Network IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png",
+  "aliases": [
+    "Food Network",
+    "Food Network IT",
+    "Food Network Italia",
+    "Food Network HD",
+    "Food Network Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "food_network_source_1",
+      "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "cine34",
+  "name": "Cine34 Mediaset",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/YyldwhI.png",
+  "aliases": [
+    "Cine34",
+    "Cine 34",
+    "Cine34 Mediaset",
+    "Cine34 HD",
+    "Cine34 Mediaset HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "cine34_source_1",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "focus_mediaset",
+  "name": "Focus Mediaset",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/M4smqpF.png",
+  "aliases": [
+    "Focus",
+    "Focus Mediaset",
+    "Focus Italia",
+    "Focus HD",
+    "Focus Mediaset HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "focus_mediaset_source_1",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rtl_1025",
+  "name": "RTL 102.5",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/KdissvS.png",
+  "aliases": [
+    "RTL 102.5",
+    "RTL102.5",
+    "RTL 102.5 SD",
+    "RTL 102.5 HD",
+    "RTL1025"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rtl_1025_source_1",
+      "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "giallo",
+  "name": "Giallo",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/1280px-Giallo_-_Logo_2014.svg.png",
+  "aliases": [
+    "Giallo",
+    "Giallo HD",
+    "Giallo Italia",
+    "Giallo Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "giallo_source_1",
+      "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "top_crime",
+  "name": "Top Crime",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/RFIwv9O.png",
+  "aliases": [
+    "Top Crime",
+    "Top Crime HD",
+    "TopCrime",
+    "TopCrime HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "top_crime_source_1",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "boing",
+  "name": "Boing",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/niSlrqT.png",
+  "aliases": [
+    "Boing",
+    "Boing HD",
+    "Boing SD",
+    "Boing Italia",
+    "Boing Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "boing_source_1",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "boing_source_2",
+      "url": "https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/IMxOkQxkyG42hSFvhPb6tZDXRt6iUQzd0AfWZct4OVM67b9AkuTt2JisQZ9_vqK9FzstH4xPqIUDU-DqDR4uXDcFQy83wC5m4CmFV1T0jDFOzbhx5nnAxtxrMzzldQGydoBiTYyl6Z7POAsnF-NiS3-zBmWRvHjos0SN7nesIP_ldAoZpd005P9nLrBQAPw_UQQY0FzkHNlmDAN4LavkDOQLunmd6VdCkRODm4bYZWrGzYUK5OrGMO-lAZroYywi/hls/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "boing_plus",
+  "name": "Boing Plus",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Boing_Plus_Logo.png",
+  "aliases": [
+    "Boing Plus",
+    "Boing Plus SD",
+    "Boing Plus HD",
+    "Boing+",
+    "Boing+ SD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "boing_plus_source_1",
+      "url": "https://uvotv.zappr.stream/101.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "man_ga",
+  "name": "MAN-GA",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9iFpt-KP4q46SrecyoFZCxfizYkFp2hSlZUm3YUNGlA&s=10.png",
+  "aliases": [
+    "MAN-GA",
+    "Manga",
+    "MAN GA",
+    "MAN-GA HD",
+    "MAN-GA Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "man_ga_source_1",
+      "url": "https://c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/playlist.m3u",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "k2",
+  "name": "K2",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://img.favpng.com/20/3/15/k2-italy-television-channel-discovery-networks-emea-png-favpng-HTKixJrF7C1JVmuu5kJ5uBmLi.jpg",
+  "aliases": [
+    "K2",
+    "K2 HD",
+    "K2 Italia",
+    "K2 Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "k2_source_1",
+      "url": "https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "frisbee",
+  "name": "Frisbee",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/9y1zIAe.png",
+  "aliases": [
+    "Frisbee",
+    "Frisbee HD",
+    "Frisbee Italia",
+    "Frisbee Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "frisbee_source_1",
+      "url": "https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_gulp",
+  "name": "Rai Gulp",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/raigulp.png",
+  "aliases": [
+    "Rai Gulp",
+    "Rai Gulp HD",
+    "Rai Gulp FHD",
+    "Rai Gulp Italia",
+    "RAIGULP"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_gulp_source_1",
+      "url": "https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rai_gulp_source_2",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=rainet/4.0.5",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "rai_yoyo",
+  "name": "Rai Yoyo",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/raiyoyo.png",
+  "aliases": [
+    "Rai Yoyo",
+    "Rai YoYo",
+    "Rai Yoyo HD",
+    "Rai Yoyo Italia",
+    "RAIYOYO"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_yoyo_source_1",
+      "url": "https://raiyoyo1-dash-live.akamaized.net/dash/live/663949/raiyoyo1/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "cartoonito",
+  "name": "Cartoonito",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://play-lh.googleusercontent.com/rlxooZ1FOBJ3YlXGuLr2Y02dE0eo6B5-1wy9X7vCPBXM7sVc5YFqSyGgUGGwfHpw3xI",
+  "aliases": [
+    "Cartoonito",
+    "Cartoonito HD",
+    "Cartoonito Italia",
+    "Cartoonito Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "cartoonito_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest_hr.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "super",
+  "name": "Super!",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Super%21_logo_2025.png",
+  "aliases": [
+    "Super!",
+    "Super",
+    "Super HD",
+    "Super! HD",
+    "Super Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "super_source_1",
+      "url": "https://streamcdng21-495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/manifest_dvr.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_news_24",
+  "name": "Rai News 24",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/gdzGwB6.png",
+  "aliases": [
+    "Rai News 24",
+    "Rai News24",
+    "Rai News 24 HD",
+    "RaiNews24",
+    "RAI NEWS 24",
+    "RAI_NEWS24"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_news_24_source_1",
+      "url": "https://rainews2-live.akamaized.net/hls/live/598327/rainews2/rainews2/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rai_news_24_source_2",
+      "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "tgcom24",
+  "name": "TGCOM24",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/it/thumb/e/eb/TGcom24_sigla_%282019%29.png/960px-TGcom24_sigla_%282019%29.png?20220612131008.png",
+  "aliases": [
+    "TGCOM24",
+    "TG Com 24",
+    "TGCom24",
+    "TGCOM 24",
+    "TGCOM24 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tgcom24_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "sky_tg24",
+  "name": "Sky TG24",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://videoplatform.sky.it/livestream/images/pre/2022/08/31/1661935220453_prodpreviewsocialskytg24.jpg",
+  "aliases": [
+    "Sky TG24",
+    "Sky TG 24",
+    "Sky TG24 HD",
+    "Sky TG 24 HD",
+    "SKY TG24",
+    "SKY TG 24"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sky_tg24_source_1",
+      "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "dmax",
+  "name": "DMAX",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.dmax.com.tr/img/logo.png",
+  "aliases": [
+    "DMAX",
+    "DMAX HD",
+    "DMAX Italia",
+    "DMAX Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "dmax_source_1",
+      "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "tele_romagna",
+  "name": "Tele Romagna",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/4jWadI8.png",
+  "aliases": [
+    "Tele Romagna",
+    "TeleRomagna",
+    "Tele Romagna SD",
+    "TeleRomagna SD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tele_romagna_source_1",
+      "url": "https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "top_calcio_24",
+  "name": "Top Calcio 24",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.litaliaindigitale.it/wp-content/uploads/2022/04/75-G-1.png",
+  "aliases": [
+    "Top Calcio 24",
+    "TopCalcio24",
+    "Top Calcio",
+    "Top Calcio 24 SD",
+    "Top Calcio 24 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "top_calcio_24_source_1",
+      "url": "https://telelombardia.video/video/embed?wv_id=RqhUo7mywPtkUqZ1z7ajlvUrX1AzopotJ0LHzPFTL06Shiyk0gNv8KVrB1LP9v4AfQyAwdNzcRGAjewOK1yO4A",
+      "type": "WEB",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "top_calcio_24_source_2",
+      "url": "https://vercel-api.zappr.stream/api?https://telelombardia.video/video/viewlivestreaming?rel=2497&cntr=0",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "rai_storia",
+  "name": "Rai Storia",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tse4.mm.bing.net/th?id=OIP.GajSWkqdg0Mf77QJTaTVSgHaCy&pid=Api&P=0&h=180",
+  "aliases": [
+    "Rai Storia",
+    "Rai Storia HD",
+    "Rai Storia Italia",
+    "RAISTORIA"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_storia_source_1",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "mediaset_extra",
+  "name": "Mediaset Extra",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbWJAuXgY5ibMgfjScSm7CCPO_a1Zh-NwdX1n-nnF72Q&s",
+  "aliases": [
+    "Mediaset Extra",
+    "Mediaset Extra HD",
+    "Mediaset Extra Italia",
+    "MediasetExtra"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "mediaset_extra_source_1",
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "hg_tv",
+  "name": "HGTV",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/emLNC0U.png",
+  "aliases": [
+    "HGTV",
+    "HGTV HD",
+    "HGTV Italia",
+    "HGTV Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "hg_tv_source_1",
+      "url": "https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_scuola",
+  "name": "Rai Scuola",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/tmtJW6s.png",
+  "aliases": [
+    "Rai Scuola",
+    "Rai Scuola HD",
+    "Rai Scuola Italia",
+    "RAISCUOLA"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_scuola_source_1",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=16",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_sport",
+  "name": "Rai Sport",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/xsGljsb.png",
+  "aliases": [
+    "Rai Sport",
+    "Rai Sport HD",
+    "Rai Sport Italia",
+    "RAISPORT",
+    "Rai Sport + HD",
+    "Rai Sport Plus"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_sport_source_1",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=16",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_play_sport_1",
+  "name": "Rai Play Sport 1",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RaiPlay_2023_logo.svg/1280px-RaiPlay_2023_logo.svg.png?utm_source=it.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+  "aliases": [
+    "Rai Play Sport 1",
+    "RaiPlay Sport 1",
+    "Rai Play Sport 1 HD",
+    "RaiPlay Sport 1 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_play_sport_1_source_1",
+      "url": "https://streamcdng19-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay4/hls/raiplay4_1800/chunklist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_play_sport_2",
+  "name": "Rai Play Sport 2",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RaiPlay_2023_logo.svg/1280px-RaiPlay_2023_logo.svg.png?utm_source=it.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+  "aliases": [
+    "Rai Play Sport 2",
+    "RaiPlay Sport 2",
+    "Rai Play Sport 2 HD",
+    "RaiPlay Sport 2 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_play_sport_2_source_1",
+      "url": "https://streamcdng19-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay5/hls/raiplay5_1800/chunklist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_play_sport_3",
+  "name": "Rai Play Sport 3",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RaiPlay_2023_logo.svg/1280px-RaiPlay_2023_logo.svg.png?utm_source=it.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+  "aliases": [
+    "Rai Play Sport 3",
+    "RaiPlay Sport 3",
+    "Rai Play Sport 3 HD",
+    "RaiPlay Sport 3 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_play_sport_3_source_1",
+      "url": "https://streamcdng19-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay6/hls/raiplay6_1800/chunklist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "motor_trend_turbo",
+  "name": "Motor Trend Turbo",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/TjjVjV0.png",
+  "aliases": [
+    "Motor Trend Turbo",
+    "Motor Trend Turbo HD",
+    "Motor Trend",
+    "Turbo",
+    "MotorTrend Turbo"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "motor_trend_turbo_source_1",
+      "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "sportitalia_solo_calcio",
+  "name": "Sportitalia Solo Calcio",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tse4.mm.bing.net/th?id=OIP.WxUyUu6ua1_5ot-vo48wtgHaD3&pid=Api&P=0&h=180",
+  "aliases": [
+    "Sportitalia Solo Calcio",
+    "Sportitalia Solo Calcio HD",
+    "Solo Calcio",
+    "Sportitalia Calcio",
+    "SI Solo Calcio",
+    "Sportitalia SoloCalcio"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sportitalia_solo_calcio_source_1",
+      "url": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "sportitalia_solo_calcio_source_2",
+      "url": "https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "sportitalia_live",
+  "name": "Sportitalia Live",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://sportitalia.s3.eu-west-par.io.cloud.ovh.net/wp-content/uploads/2024/02/si_hd.png",
+  "aliases": [
+    "Sportitalia Live",
+    "Sportitalia Live HD",
+    "Sportitalia",
+    "Sportitalia HD",
+    "Sportitalia TV",
+    "SI Live"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sportitalia_live_source_1",
+      "url": "https://distribution.sportitalialive.it/sportitalia/sihd_abr2/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "sportitalia_live_source_2",
+      "url": "https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "primavera_tv",
+  "name": "Primavera TV",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.tvdream.net/img/primavera-tv-cover.jpg",
+  "aliases": [
+    "Primavera TV",
+    "Primavera TV HD",
+    "Primavera",
+    "Primavera TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "primavera_tv_source_1",
+      "url": "https://distribution.sportitalialive.it/sportitalia/silive24_abr/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "lazio_style",
+  "name": "Lazio Style",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://sportitalia.s3.eu-west-par.io.cloud.ovh.net/wp-content/uploads/2024/02/lazio_style.jpg",
+  "aliases": [
+    "Lazio Style",
+    "Lazio Style HD",
+    "Lazio Style Channel",
+    "Lazio Style TV",
+    "Lazio Style HD Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "lazio_style_source_1",
+      "url": "https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "sportitalia_25fps",
+  "name": "Sportitalia 25fps",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA2200010O1_20230412T042536SQUARE.png_20230412042536.png",
+  "aliases": [
+    "Sportitalia 25fps",
+    "Sportitalia 25 fps",
+    "Sportitalia SD",
+    "Sportitalia 25fps SD",
+    "Sportitalia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sportitalia_25fps_source_1",
+      "url": "https://sportsitalia-samsungitaly.amagi.tv/playlist1080p.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "solocalcio_25fps",
+  "name": "SoloCalcio 25fps",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4700002CO_20230412T042559SQUARE.png_20230412042559.png",
+  "aliases": [
+    "SoloCalcio",
+    "Solo Calcio",
+    "SoloCalcio 25fps",
+    "SoloCalcio 25 fps",
+    "SoloCalcio SD",
+    "Solo Calcio 25fps"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "solocalcio_25fps_source_1",
+      "url": "https://italiansport-solocalcio-samsung.amagi.tv/playlist1080p.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "donna_tv",
+  "name": "Donna TV",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://massimoemanuelli.com/wp-content/uploads/2023/11/donna-tv.jpg",
+  "aliases": [
+    "Donna TV",
+    "DonnaTV",
+    "Donna TV HD",
+    "Donna TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "donna_tv_source_1",
+      "url": "https://streaming.softwarecreation.it/DonnaTv/DonnaTv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "7_gold",
+  "name": "7 Gold",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpqrA5dNu_S4dOiv5rqZI5acDSQhFRHijG_w&s",
+  "aliases": [
+    "7 Gold",
+    "7Gold",
+    "7 Gold SD",
+    "7Gold SD",
+    "Sette Gold"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "7_gold_source_1",
+      "url": "https://streamcdnl6-dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S58803518/OOZape6Nxp4H/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "super_six",
+  "name": "Super Six",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tinyurl.com/46fvdr5u",
+  "aliases": [
+    "Super Six",
+    "SuperSix",
+    "Super Six SD",
+    "SuperSix SD",
+    "Super Six Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "super_six_source_1",
+      "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/chunklist_w1242117019.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "iunior_tv",
+  "name": "Iunior TV",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tse3.mm.bing.net/th?id=OIP.PgsuQMk82axaoPb4p6iYSwHaEK&pid=Api&P=0&h=180",
+  "aliases": [
+    "Iunior TV",
+    "Junior TV",
+    "IuniorTV",
+    "Iunior TV SD",
+    "Junior TV SD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "iunior_tv_source_1",
+      "url": "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "go_tv",
+  "name": "GO-TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.tvdream.net/img/go-tv.png",
+  "aliases": [
+    "GO-TV",
+    "GO TV",
+    "GO-TV SD",
+    "GO TV SD",
+    "GO-TV Italia",
+    "GO TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "go_tv_source_1",
+      "url": "https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/chunks.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "supertennis",
+  "name": "Supertennis IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/GzsPlbX.png",
+  "aliases": [
+    "Supertennis",
+    "Super Tennis",
+    "Supertennis SD",
+    "Supertennis HD",
+    "Super Tennis HD",
+    "Supertennis Italia",
+    "Supertennis Italy"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "supertennis_source_1",
+      "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "alma_tv",
+  "name": "Alma TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://static.wikia.nocookie.net/logopedia/images/d/df/AlmaTV-Logo.png/revision/latest?cb=20200526211928.png",
+  "aliases": [
+    "Alma TV",
+    "AlmaTV",
+    "Alma TV SD",
+    "AlmaTV SD",
+    "Alma TV Italia",
+    "AlmaTV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "alma_tv_source_1",
+      "url": "https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "radio_105_tv",
+  "name": "Radio 105TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/3NiLKvj.png",
+  "aliases": [
+    "Radio 105TV",
+    "Radio 105 TV",
+    "Radio 105TV SD",
+    "Radio 105 TV SD",
+    "105 TV",
+    "Radio 105 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "radio_105_tv_source_1",
+      "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "r101_tv",
+  "name": "R101 television IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/mWeEa9T.png",
+  "aliases": [
+    "R101 television",
+    "R101 TV",
+    "R101 Television SD",
+    "R101 TV SD",
+    "R101",
+    "R101 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "r101_tv_source_1",
+      "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "boom_channel",
+  "name": "BOOM Channel IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/bomchannel.png",
+  "aliases": [
+    "BOOM Channel",
+    "BOOM channel",
+    "BOOM Channel SD",
+    "BOOM SD",
+    "Boom Channel Italia",
+    "BOOM Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "boom_channel_source_1",
+      "url": "https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "deejay_tv",
+  "name": "DeejayTV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/deejaytv.png",
+  "aliases": [
+    "DeejayTV",
+    "Deejay TV",
+    "DeejayTV SD",
+    "DeejayTV HD",
+    "Deejay TV SD",
+    "Deejay TV HD",
+    "Deejay Italia",
+    "Radio Deejay TV"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "deejay_tv_source_1",
+      "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "deejay_tv_source_2",
+      "url": "https://streamcdng4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b764000.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "gambero_rosso",
+  "name": "Gambero Rosso IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://db.247x.io/uploads/large_gambero_rosso_logo_247x_04c4bb691f.png",
+  "aliases": [
+    "Gambero Rosso",
+    "Gambero Rosso HD",
+    "Gambero Rosso TV",
+    "Gambero Rosso Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "gambero_rosso_source_1",
+      "url": "https://2018f6355a15442ebb37007fa4f6c064.msvdn.net/live/S7530969/XWerenuxbSdW/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "radio_italia_tv",
+  "name": "RadioItaliaTV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radioitaliatv.png",
+  "aliases": [
+    "RadioItaliaTV",
+    "Radio Italia TV",
+    "RadioItalia TV",
+    "RadioItaliaTV SD",
+    "Radio Italia TV SD",
+    "Radio Italia Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "radio_italia_tv_source_1",
+      "url": "https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "radio_freccia",
+  "name": "RADIOFRECCIA IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Logo-freccia-no-claim-black.png",
+  "aliases": [
+    "RADIOFRECCIA",
+    "Radiofreccia",
+    "RADIOFRECCIA SD",
+    "Radio Freccia",
+    "Radiofreccia TV",
+    "Radio Freccia Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "radio_freccia_source_1",
+      "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rds_tv_social",
+  "name": "RDS TV Social IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rdssocialtv.png",
+  "aliases": [
+    "RDS TV Social",
+    "RDS TV",
+    "RDS Social TV",
+    "RDS TV Social SD",
+    "RDS",
+    "RDS Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rds_tv_social_source_1",
+      "url": "https://stream.rdstv.radio/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "radio_zeta",
+  "name": "RADIO ZETA IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiozetatv.png",
+  "aliases": [
+    "RADIO ZETA",
+    "Radio Zeta",
+    "RADIO ZETA SD",
+    "Radio Zeta TV",
+    "Radio Zeta Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "radio_zeta_source_1",
+      "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "radio_capital_tv",
+  "name": "Radio Capital TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiocapitaltv.png",
+  "aliases": [
+    "Radio Capital TV",
+    "RadioCapital TV",
+    "Radio Capital",
+    "Radio Capital TV SD",
+    "Radio Capital Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "radio_capital_tv_source_1",
+      "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "m2o_tv",
+  "name": "M2O TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiom2otv.png",
+  "aliases": [
+    "M2O TV",
+    "M2OTV",
+    "M2O",
+    "M2O TV SD",
+    "M2OTV SD",
+    "M2O Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "m2o_tv_source_1",
+      "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "radio_montecarlo_tv",
+  "name": "Radio Montecarlo TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/it/4/4e/RMC1_Logo.png",
+  "aliases": [
+    "Radio Montecarlo TV",
+    "Radio Monte Carlo TV",
+    "RMC TV",
+    "RMC1",
+    "Radio Montecarlo TV SD",
+    "Radio Montecarlo Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "radio_montecarlo_tv_source_1",
+      "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "reggio_tv",
+  "name": "REGGIO TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Reggio_TV_logo.png?utm_source=it.wikipedia.org&utm_campaign=index&utm_content=original",
+  "aliases": [
+    "REGGIO TV",
+    "Reggio TV",
+    "REGGIO TV SD",
+    "ReggioTV",
+    "Reggio Calabria TV",
+    "Reggio TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "reggio_tv_source_1",
+      "url": "https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/chunklist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "radio_tv_serie_a",
+  "name": "Radio TV Serie A con RDS IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiotvseriea.png",
+  "aliases": [
+    "Radio TV Serie A con RDS",
+    "Radio TV Serie A",
+    "RadioTV Serie A",
+    "Radio TV Serie A con RDS SD",
+    "Serie A TV",
+    "Serie A Radio TV",
+    "Radio Serie A"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "radio_tv_serie_a_source_1",
+      "url": "https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_4k",
+  "name": "Rai 4K IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tse4.mm.bing.net/th?id=OIP.n-2Wv9jbipyww4oimCDFmwHaEB&pid=Api&P=0&h=180",
+  "aliases": [
+    "Rai 4K",
+    "Rai4K",
+    "Rai 4K SD",
+    "Rai4K SD",
+    "Rai 4K HD",
+    "Rai 4K Italia",
+    "RAI4K.it"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_4k_source_1",
+      "url": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "wedding_tv",
+  "name": "WEDDING TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.weddingtv.it/wp-content/uploads/2021/12/weddingtv_logo_black.png",
+  "aliases": [
+    "WEDDING TV",
+    "Wedding TV",
+    "WEDDING TV SD",
+    "WeddingTV",
+    "Wedding TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "wedding_tv_source_1",
+      "url": "https://604e46ac2bdee.streamlock.net:1936/marcorenzi/marcorenzi/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "giocabet_tv",
+  "name": "GiocaBet TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.tvdream.net/img/giocabet-tv-cover.jpg",
+  "aliases": [
+    "GiocaBet TV",
+    "GiocaBet Tv",
+    "GiocaBet TV SD",
+    "GiocaBet",
+    "GiocaBet Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "giocabet_tv_source_1",
+      "url": "https://live1.giocabet.tv/stream/1/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "tmw_radio_tv",
+  "name": "TMW Radio TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXHXSB1ycMPPXXt3QT50hIB2IETAKBifzWeg&s",
+  "aliases": [
+    "TMW Radio TV",
+    "TMW Radio Tv",
+    "TMW Radio",
+    "TuttoMercatoWeb TV",
+    "TMW TV",
+    "TMW Radio TV SD",
+    "TuttoMercatoWeb"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tmw_radio_tv_source_1",
+      "url": "https://5e53c5849c731.streamlock.net/TMWRadioTV/smil:TMWRadioTV.smil/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "gf_vip_regia_1",
+  "name": "GF VIP Regia 1 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tinyurl.com/yhxxj5pu",
+  "aliases": [
+    "GF VIP Regia 1",
+    "GF vip regia 1 HD",
+    "GF VIP 1",
+    "Grande Fratello VIP Regia 1",
+    "Grande Fratello VIP 1"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "gf_vip_regia_1_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-b7/b7-clr.isml/manifest_hr.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "gf_vip_regia_2",
+  "name": "GF VIP Regia 2 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tinyurl.com/yhxxj5pu",
+  "aliases": [
+    "GF VIP Regia 2",
+    "GF vip regia 2 HD",
+    "GF VIP 2",
+    "Grande Fratello VIP Regia 2",
+    "Grande Fratello VIP 2"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "gf_vip_regia_2_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-b8/b8-clr.isml/manifest_hr.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "gf_vip_un_ora_fa",
+  "name": "GF VIP Un'ora fa IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tinyurl.com/yhxxj5pu",
+  "aliases": [
+    "GF VIP Un'ora fa",
+    "GF vip un'ora fa HD",
+    "GF VIP Un Ora Fa",
+    "Grande Fratello VIP Un'ora fa",
+    "GF VIP Replay"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "gf_vip_un_ora_fa_source_1",
+      "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-b9/b9-clr.isml/manifest_hr.mpd",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "uninettuno",
+  "name": "Uninettuno IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHLqd4O6MsraR2n-FyGw7FeWizpp3ZipFbQ&s",
+  "aliases": [
+    "Uninettuno",
+    "Uninettuno SD",
+    "UniNettuno",
+    "UniNettuno TV",
+    "Università Telematica Internazionale Uninettuno"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "uninettuno_source_1",
+      "url": "https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_play_1",
+  "name": "RaiPlay 1 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RaiPlay_2023_logo.svg/250px-RaiPlay_2023_logo.svg.png",
+  "aliases": [
+    "RaiPlay 1",
+    "Rai Play 1",
+    "RaiPlay 1 HD",
+    "Rai Play 1 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_play_1_source_1",
+      "url": "https://tivusto.org/sh/raiplay1",
+      "type": "WEB",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_play_2",
+  "name": "RaiPlay 2 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RaiPlay_2023_logo.svg/250px-RaiPlay_2023_logo.svg.png",
+  "aliases": [
+    "RaiPlay 2",
+    "Rai Play 2",
+    "RaiPlay 2 HD",
+    "Rai Play 2 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_play_2_source_1",
+      "url": "https://tivusto.org/sh/raiplay2",
+      "type": "WEB",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_play_3",
+  "name": "RaiPlay 3 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RaiPlay_2023_logo.svg/250px-RaiPlay_2023_logo.svg.png",
+  "aliases": [
+    "RaiPlay 3",
+    "Rai Play 3",
+    "RaiPlay 3 HD",
+    "Rai Play 3 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_play_3_source_1",
+      "url": "https://tivusto.org/sh/raiplay3",
+      "type": "WEB",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "gambero_rosso",
+  "name": "Gambero Rosso IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/RApMW5x.png",
+  "aliases": [
+    "Gambero Rosso",
+    "Gambero Rosso SD",
+    "Gambero Rosso HD",
+    "Gambero Rosso TV",
+    "Gambero Rosso Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "gambero_rosso_source_1",
+      "url": "https://cdndirector.dailymotion.com/cdn/live/video/x9us6y4.m3u8?sec=h5bGwJYFZy9AO66NpfTxbhTni9e637DUu_SUPhn3MewWKmiD4Rmw0UuwfufSVb3G",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "gambero_rosso_source_2",
+      "url": "https://www.dailymotion.com/cdn/live/video/x9u215s.mpd?sec=3FE6qHnAR5mSywqiY3XmMw",
+      "type": "DASH",
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+},
+{
+  "id": "hg_tv",
+  "name": "HG TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/HGTV_logo.png/800px-HGTV_logo.png",
+  "aliases": [
+    "HG TV",
+    "HGTV",
+    "HG TV Italia",
+    "HGTV Italia",
+    "HG TV HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "hg_tv_source_1",
+      "url": "https://d1tidto9vz737l.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/c6830ee1-ef92-4011-86f7-c29e430ea724/0.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "euro_tv",
+  "name": "Euro TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/it/9/93/Eurotv.png",
+  "aliases": [
+    "Euro TV",
+    "EuroTV",
+    "Euro TV SD",
+    "EuroTV SD",
+    "Euro TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "euro_tv_source_1",
+      "url": "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "teatro_tv",
+  "name": "Teatro TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.teatrotv.it/assets/images/logo-teatro-tv-prova1-tricolore4-1400x905-15.png",
+  "aliases": [
+    "Teatro TV",
+    "TeatroTV",
+    "Teatro TV SD",
+    "TeatroTV SD",
+    "Teatro TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "teatro_tv_source_1",
+      "url": "https://teatrotv.iostream.it/teatrotv.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "casa_italia_53",
+  "name": "Casa Italia 53 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRayVT5b6I5PWoF_AJEntK20vV-I4VOJGx4IA&usqp=CAU",
+  "aliases": [
+    "Casa Italia 53",
+    "Casa Italia",
+    "Casa Italia 53 SD",
+    "CasaItalia 53",
+    "Casa Italia TV"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "casa_italia_53_source_1",
+      "url": "https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "la_c_news_24",
+  "name": "La C News 24 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/LaCnews24_2021.jpg",
+  "aliases": [
+    "La C News 24",
+    "LaC News 24",
+    "La C News24",
+    "LaC News24",
+    "La C News 24 SD",
+    "LaC News 24 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "la_c_news_24_source_1",
+      "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "arte",
+  "name": "Arte IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.artenetwork.it/wp-content/uploads/2022/09/artenetworklogo.png",
+  "aliases": [
+    "Arte",
+    "Arte SD",
+    "Arte Network",
+    "Arte Network SD",
+    "Arte Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "arte_source_1",
+      "url": "https://tsw.streamingwebtv24.it:1936/artenetwork/artenetwork/chunklist_w628734045.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "arte_2",
+  "name": "Arte 2 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.artenetwork.it/wp-content/uploads/2022/09/artenetworklogo.png",
+  "aliases": [
+    "Arte 2",
+    "Arte2",
+    "Arte 2 SD",
+    "Arte2 SD",
+    "Arte Per Tutti",
+    "Artepertutti"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "arte_2_source_1",
+      "url": "https://tsw.streamingwebtv24.it:1936/artepertutti/artepertutti/chunklist_w1805700011.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "gold_tv",
+  "name": "Gold TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/Yzc47k9.png",
+  "aliases": [
+    "Gold TV",
+    "GoldTV",
+    "Gold TV SD",
+    "GoldTV SD",
+    "Gold TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "gold_tv_source_1",
+      "url": "https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rete_tv_italia",
+  "name": "Rete TV Italia IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEPLdgDWprgX5bCSIzws92OVdu80emGnRYXffudQdGg&s",
+  "aliases": [
+    "Rete TV Italia",
+    "ReteTV Italia",
+    "Rete TV Italia SD",
+    "ReteTV Italia SD",
+    "Rete TV",
+    "Rete TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rete_tv_italia_source_1",
+      "url": "https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "telecampione",
+  "name": "Telecampione IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.tvdream.net/img/telecampione.png",
+  "aliases": [
+    "Telecampione",
+    "Telecampione SD",
+    "Tele Campione",
+    "Telecampione Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "telecampione_source_1",
+      "url": "https://64b16f23efbee.streamlock.net/telecampione/telecampione/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "orler_tv",
+  "name": "Orler TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3SljwdpyZYcFL4i7Z2BLz85E2zt4tFsFXA&s.png",
+  "aliases": [
+    "Orler TV",
+    "Orler Tv",
+    "Orler TV SD",
+    "Orler",
+    "Orler Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "orler_tv_source_1",
+      "url": "https://w1.mediastreaming.it/orlertv/livestream/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "padre_pio_tv",
+  "name": "Padre Pio TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/padrepiotv.png",
+  "aliases": [
+    "Padre Pio TV",
+    "Padre Pio Tv",
+    "Padre Pio TV SD",
+    "Padre Pio",
+    "PadrePioTV",
+    "Padre Pio Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "padre_pio_tv_source_1",
+      "url": "https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_radio_2",
+  "name": "Rai Radio 2 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rai_Radio_2_-_Logo_2017.svg/1280px-Rai_Radio_2_-_Logo_2017.svg.png",
+  "aliases": [
+    "Rai Radio 2",
+    "RaiRadio 2",
+    "Rai Radio2",
+    "Rai Radio 2 SD",
+    "RaiRadio2 SD",
+    "Radio Rai 2"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_radio_2_source_1",
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=rainet/4.0.5",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "virgin_radio",
+  "name": "VIRGIN RADIO IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/virginradiotv.png",
+  "aliases": [
+    "VIRGIN RADIO",
+    "Virgin Radio",
+    "Virgin Radio TV",
+    "VIRGIN RADIO SD",
+    "Virgin Radio Italia",
+    "Virgin Radio TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "virgin_radio_source_1",
+      "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_sudtirol",
+  "name": "Rai Südtirol IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgnDS0Dw4Ypzd1aRJElD9-YP9vTGLMW62cYA&s.png",
+  "aliases": [
+    "Rai Sudtirol",
+    "Rai Südtirol",
+    "Rai Sudtirol SD",
+    "Rai Südtirol SD",
+    "Rai Alto Adige",
+    "Rai Suedtirol"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_sudtirol_source_1",
+      "url": "https://wzstreaming.rai.it/TVlive/smil:liveStream.smil/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rsi_la1",
+  "name": "RSI La1 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1280px-RSI_La_1_2012.svg.png",
+  "aliases": [
+    "RSI La1",
+    "RSI La 1",
+    "RSI La1 SD",
+    "RSI La1 HD",
+    "RSI La 1 HD",
+    "RSI 1",
+    "RSI La1 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rsi_la1_source_1",
+      "url": "https://juventusonair.com/channels/rsila1.php",
+      "type": "WEB",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rsi_la2",
+  "name": "RSI La2 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1280px-RSI_La_2_2012.svg.png",
+  "aliases": [
+    "RSI La2",
+    "RSI La 2",
+    "RSI La2 SD",
+    "RSI La2 HD",
+    "RSI La 2 HD",
+    "RSI 2",
+    "RSI La2 Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rsi_la2_source_1",
+      "url": "https://juventusonair.com/channels/rsila2z.php",
+      "type": "WEB",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rai_italia",
+  "name": "Rai Italia IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSigijjvC4cHyrU_5a2V00fCZFDKVzzarcKfA&s",
+  "aliases": [
+    "Rai Italia",
+    "RaiItalia",
+    "Rai Italia SD",
+    "Rai Italia HD",
+    "Rai Italia FHD",
+    "Rai Italia Italy",
+    "Rai Italia Sud Africa",
+    "Rai Italia Sud America",
+    "Rai Italia Australia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rai_italia_source_1",
+      "url": "https://d3k8wzt41aflvx.cloudfront.net/RAISA/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "rai_italia_source_2",
+      "url": "https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "rai_italia_source_3",
+      "url": "https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 3
+    },
+    {
+      "id": "rai_italia_source_4",
+      "url": "https://ilglobotv-live.akamaized.net/channels/RAIItaliaAustralia/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 4
+    }
+  ]
+},
+{
+  "id": "mediaset_italia",
+  "name": "Mediaset Italia IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tinyurl.com/e7vwbr74",
+  "aliases": [
+    "Mediaset Italia",
+    "MediasetItalia",
+    "Mediaset Italia SD",
+    "Mediaset Italia HD",
+    "Mediaset Italia TV",
+    "Mediaset Italia Italy"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "mediaset_italia_source_1",
+      "url": "https://d3k8wzt41aflvx.cloudfront.net/Mediaset_AU/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "inter_tv",
+  "name": "Inter TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Inter_TV_-_Logo_2021.png",
+  "aliases": [
+    "Inter TV",
+    "InterTV",
+    "Inter Tv SD",
+    "Inter Tv HD",
+    "Inter TV HD",
+    "Inter Channel",
+    "Inter Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "inter_tv_source_1",
+      "url": "https://amg27604-amg27604c2-amgplt0148.playout.now3.amagi.tv/playlist/amg27604-amg27604c2-amgplt0148/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "inter_tv_source_2",
+      "url": "https://ilglobotv-live.akamaized.net/channels/InterTV/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "inter_tv_source_3",
+      "url": "https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 3
+    }
+  ]
+},
+{
+  "id": "inter_24_7",
+  "name": "INTER 24/7 IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaa71facFISBgeymdk2th1R1prvTbHfW78O8Ml5jyGY-jjPuHAJLzJBOA&s=10",
+  "aliases": [
+    "INTER 24/7",
+    "INTER 24 7",
+    "Inter 24/7 HD",
+    "Inter 24/7",
+    "Inter TV 24/7",
+    "Inter Channel 24/7"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "inter_24_7_source_1",
+      "url": "https://amg27604-amg27604c2-amgplt0148.playout.now3.amagi.tv/playlist/amg27604-amg27604c2-amgplt0148/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "italian_fishing_tv",
+  "name": "Italian Fishing TV IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.italianfishingtv.it/wp-content/uploads/2025/02/immagine.png",
+  "aliases": [
+    "Italian Fishing TV",
+    "Italian Fishing",
+    "Italian Fishing TV HD",
+    "Italian Fishing HD",
+    "Fishing TV Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "italian_fishing_tv_source_1",
+      "url": "https://fms.premio.link/fishingtv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "fifa_plus",
+  "name": "FIFA+ IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://cdn-bgp.bluestacks.com/BGP/id/gametiles_com.fifa.plus.android.jpg",
+  "aliases": [
+    "FIFA+",
+    "FIFA Plus",
+    "FIFA+ HD",
+    "FIFA Plus HD",
+    "FIFA TV",
+    "FIFA Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "fifa_plus_source_1",
+      "url": "https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "serially",
+  "name": "Serially IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://play-lh.googleusercontent.com/-b6NhYyCYiVO2Dj5_52XrrsIU45fvACw5cQRc9mniX-bzIHtj-wwz2PJdTz81JT4DfY=w240-h480-rw",
+  "aliases": [
+    "Serially",
+    "Serially HD",
+    "Serially Italia",
+    "Serially TV",
+    "Serially TV HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "serially_source_1",
+      "url": "https://ixmediasrl-serially-1-it.lg.wurl.tv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "telelombardia",
+  "name": "Telelombardia IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://www.mediapason.it/wp-content/uploads/2016/09/lLOGO-TL-MENU.png",
+  "aliases": [
+    "Telelombardia",
+    "Tele Lombardia",
+    "Telelombardia SD",
+    "Tele Lombardia SD",
+    "TL",
+    "Telelombardia Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "telelombardia_source_1",
+      "url": "https://vercel-api.zappr.stream/api?https://telelombardia.video/video/viewlivestreaming?rel=66074&cntr=0",
+      "type": "AUTO",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "sky_sport",
+  "name": "Sky Sport IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sky_Sport_-_Logo_2026.svg/3840px-Sky_Sport_-_Logo_2026.svg.png",
+  "aliases": [
+    "Sky Sport",
+    "Sky Sport HD",
+    "Sky Sport Italia",
+    "Sky Sport IT",
+    "Sky Sport Italia HD",
+    "Sky Sport HD Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sky_sport_source_1",
+      "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11222/skysportweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "euronews_italia",
+  "name": "EuroNews Italia IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://images.pluto.tv/channels/61b86ea479a4390007c6d5fc/colorLogoPNG.png",
+  "aliases": [
+    "EuroNews Italia",
+    "Euronews Italia",
+    "EuroNews",
+    "Euronews",
+    "EuroNews Italia SD",
+    "Euronews Italia HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "euronews_italia_source_1",
+      "url": "https://amg00882-amg00882c4-wedotv-eu-4536.playouts.now.amagi.tv/playlist1080p.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "radio_italia_live",
+  "name": "Radio Italia Live IT",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA2200008IM_20251111T012413SQUARE.png",
+  "aliases": [
+    "Radio Italia Live",
+    "RadioItalia Live",
+    "Radio Italia Live TV",
+    "Radio Italia Live SD",
+    "Radio Italia Live HD",
+    "Radio Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "radio_italia_live_source_1",
+      "url": "https://radioitalia-samsungitaly.amagi.tv/playlist720p.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "sportface",
+  "name": "Sportface",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT16000070D_20260528T053649SQUARE.png",
+  "aliases": [
+    "Sportface",
+    "Sportface SD",
+    "Sportface HD",
+    "Sportface FHD",
+    "Sportface Italia"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sportface_source_1",
+      "url": "https://9b7788ca.wurl.com/U2Ftc3VuZy1pdF9TcG9ydEZhY2VfSExT/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "juventus_play",
+  "name": "Juventus Play",
+  "country": "IT",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcqAPxajmaKNi8qDmGyu_3_yWsZ5bnfPdqEf4NCbYVmQ&s=10",
+  "aliases": [
+    "Juventus Play",
+    "JuventusPlay",
+    "Juve Play",
+    "Juventus TV"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "juventus_play_source_1",
+      "url": "https://amg27604-amg27604c3-amgplt0148.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg27604-amg27604c3-amgplt0148/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "carac_tv_1",
+  "name": "Carac TV 1",
+  "country": "CH",
+  "priority": 5,
+  "logoUrl": "https://entremont.netplus.ch/media/image/0/square/carac1-neg.jpg?80b8288a0303afd736a104388affa9a7",
+  "aliases": [
+    "Carac TV 1",
+    "Carac tv 1",
+    "Carac TV 1 HD",
+    "Carac 1",
+    "Carac 1 geo"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "carac_tv_1_source_1",
+      "url": "https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "carac_tv_2",
+  "name": "Carac TV 2",
+  "country": "CH",
+  "priority": 5,
+  "logoUrl": "https://entremont.netplus.ch/media/image/0/square/carac2-neg.jpg?80b8288a0303afd736a104388affa9a7",
+  "aliases": [
+    "Carac TV 2",
+    "Carac tv 2",
+    "Carac TV 2 HD",
+    "Carac 2",
+    "Carac 2 geo"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "carac_tv_2_source_1",
+      "url": "https://onefmhd.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "carac_tv_3",
+  "name": "Carac TV 3",
+  "country": "CH",
+  "priority": 5,
+  "logoUrl": "https://entremont.netplus.ch/media/image/0/square/carac3-neg.jpg?80b8288a0303afd736a104388affa9a7",
+  "aliases": [
+    "Carac TV 3",
+    "Carac tv 3",
+    "Carac TV 3 HD",
+    "Carac 3",
+    "Carac 3 geo"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "carac_tv_3_source_1",
+      "url": "https://edge20.vedge.infomaniak.com/livecast/lfmhd/chunklist_w823847496.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "carac_tv_4",
+  "name": "Carac TV 4",
+  "country": "CH",
+  "priority": 5,
+  "logoUrl": "https://entremont.netplus.ch/media/image/0/square/carac4-neg.jpg?80b8288a0303afd736a104388affa9a7",
+  "aliases": [
+    "Carac TV 4",
+    "Carac tv 4",
+    "Carac TV 4 HD",
+    "Carac 4",
+    "Carac 4 geo"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "carac_tv_4_source_1",
+      "url": "https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "drita_tv",
+  "name": "Drita TV",
+  "country": "CH",
+  "priority": 5,
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7tQQVRh1D2w_FakRhVgyJE9mwzNrjOvbh1ebI8dnNZpxiUqfoY0NGuJ4ILu4EaIox_U",
+  "aliases": [
+    "Drita TV",
+    "Drita tv",
+    "Drita TV HD",
+    "Drita",
+    "Drita TV geo"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "drita_tv_source_1",
+      "url": "https://dritatv.protokolldns.xyz/dritaweb5587989/tracks-v1a1/mono.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "die_neue_zeit",
+  "name": "Die Neue Zeit",
+  "country": "CH",
+  "priority": 5,
+  "logoUrl": "https://www.coolstreaming.us/img/ch/image36070335470.jpg",
+  "aliases": [
+    "Die Neue Zeit",
+    "Die Neue Zeit TV",
+    "Die Neue Zeit HD",
+    "DNZ",
+    "Die Neue Zeit geo"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "die_neue_zeit_source_1",
+      "url": "https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/chunklist_w108628258_b2000000_slde.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "kanal_9_deutsch",
+  "name": "Kanal 9 auf Deutsch",
+  "country": "CH",
+  "priority": 5,
+  "logoUrl": "https://lh4.googleusercontent.com/proxy/ojmYFBeWuE6BSeLBaCP4U1QoU39FNl5a8y39zC5eEXyOicbIC0CMhW_yo7a0BYUttC6d2bVKy0Ye_ynBhuCZrkdSIs-KW-k-RVSBOulCRP87Bsh7v4TB",
+  "aliases": [
+    "Kanal 9 auf Deutsch",
+    "Kanal 9",
+    "Kanal9",
+    "Kanal 9 Deutsch",
+    "Canal 9 Deutsch",
+    "Kanal 9 auf Deutsch HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "kanal_9_deutsch_source_1",
+      "url": "https://edge21.vedge.infomaniak.com/livecast/ik:livesd2/chunklist_w239813329.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "rtp_africa",
+  "name": "RTP Africa",
+  "country": "PT",
+  "priority": 5,
+  "logoUrl": "https://www.tvdream.net/img/rtp-africa.png",
+  "aliases": [
+    "RTP Africa",
+    "RTP AFRICA",
+    "RTP África",
+    "RTP Africa HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "rtp_africa_source_1",
+      "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "star_tv",
+  "name": "STAR TV",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://www.tvdream.net/img/startv.png",
+  "aliases": [
+    "STAR TV",
+    "Star TV",
+    "STAR TV Turkey",
+    "Star TV Turkey",
+    "Star TV Türkiye"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "star_tv_source_1",
+      "url": "https://dogus-live.daioncdn.net/startv/startv.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "tv8_5",
+  "name": "TV8.5",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/dgj3MTh/tv85.png",
+  "aliases": [
+    "TV8.5",
+    "TV8 5",
+    "TV8,5",
+    "TV8.5 Turkey",
+    "TV8.5 Türkiye"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tv8_5_source_1",
+      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "galatasaray_tv",
+  "name": "Galatasaray TV",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/SwwjnF5/gstv.png",
+  "aliases": [
+    "Galatasaray TV",
+    "GALATASARAY TV",
+    "Galatasaray TV HD",
+    "GSTV",
+    "GS TV"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "galatasaray_tv_source_1",
+      "url": "http://owifavo5.rocketcdn.com/gstv/gstv.smil/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "sports_tv_tr",
+  "name": "Sports TV",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/4Rm7Z6Z/sports22.png",
+  "aliases": [
+    "Sports TV",
+    "SPORTS TV",
+    "Sports TV Turkey",
+    "Sports TV Türkiye",
+    "SportsTV"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "sports_tv_tr_source_1",
+      "url": "https://live.sportstv.com.tr/hls/low/sportstv_hd/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "trt_haber",
+  "name": "TRT Haber",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/Bt6frts/trthaber.png",
+  "aliases": [
+    "TRT Haber",
+    "TRT HABER",
+    "TRT Haber HD",
+    "TRT News"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "trt_haber_source_1",
+      "url": "https://ensonhaber-live.ercdn.net/trthaber/trthaber.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "trt_1",
+  "name": "TRT 1",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/d6c87Km/trt122.png",
+  "aliases": [
+    "TRT 1",
+    "TRT1",
+    "TRT 1 HD",
+    "TRT1 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "trt_1_source_1",
+      "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "trt_2",
+  "name": "TRT 2",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/TB5N8cN/trt2.png",
+  "aliases": [
+    "TRT 2",
+    "TRT2",
+    "TRT 2 HD",
+    "TRT2 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "trt_2_source_1",
+      "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "trt_belgesel",
+  "name": "TRT Belgesel",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/N1h8m96/trtbelgesel.png",
+  "aliases": [
+    "TRT Belgesel",
+    "TRT BELGESEL",
+    "TRT Belgesel HD",
+    "TRT Documentary"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "trt_belgesel_source_1",
+      "url": "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "kanal_d",
+  "name": "Kanal D",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/s9mVqWH/kanald.png",
+  "aliases": [
+    "Kanal D",
+    "KANAL D",
+    "Kanal D HD",
+    "Kanal D Turkey",
+    "Kanal D Türkiye"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "kanal_d_source_1",
+      "url": "https://demiroren-live.daioncdn.net/kanald/kanald.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "tv8_turkey",
+  "name": "TV8 Turkey",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/tXKXNDz/tv8.png",
+  "aliases": [
+    "TV8 Turkey",
+    "Tv8 TURK SD",
+    "TV8 TURK",
+    "TV8",
+    "TV8 Turkey SD",
+    "TV8 Türkiye",
+    "TV8 HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tv8_turkey_source_1",
+      "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "atv_turkey",
+  "name": "ATV",
+  "country": "TR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/n1SCYqN/atv.png",
+  "aliases": [
+    "ATV",
+    "ATV Turkey",
+    "ATV Türkiye",
+    "ATV HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "atv_turkey_source_1",
+      "url": "https://izle.canlitvapp.com/aytv/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "tv_brazil",
+  "name": "TV Brazil",
+  "country": "BR",
+  "priority": 5,
+  "logoUrl": null,
+  "aliases": [
+    "TV Brazil",
+    "TV Brasil",
+    "TV Brazil HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "tv_brazil_source_1",
+      "url": "https://srv5.zcast.com.br/paulo4100/paulo4100/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "5tv_corrientes",
+  "name": "5TV Corrientes",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/mSn7ACs.png",
+  "aliases": [
+    "5TV Corrientes",
+    "5TV",
+    "Canal 5 Corrientes",
+    "5 TV Corrientes"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "5tv_corrientes_source_1",
+      "url": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "13max_television",
+  "name": "13Max Televisión",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/QvF4l2t.png",
+  "aliases": [
+    "13Max Televisión",
+    "13Max",
+    "13 Max Televisión",
+    "Canal 13 Corrientes",
+    "13Max TV"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "13max_television_source_1",
+      "url": "http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "24_horas_internacional",
+  "name": "24 Horas Internacional",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/IUVRm5L.png",
+  "aliases": [
+    "24 Horas Internacional",
+    "24 Horas",
+    "24H Internacional",
+    "24 Horas Internacional HD",
+    "TVE 24 Horas"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "24_horas_internacional_source_1",
+      "url": "https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "a24",
+  "name": "A24",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/LnXQkIU.png",
+  "aliases": [
+    "A24",
+    "A 24",
+    "A24 Argentina",
+    "A24 HD",
+    "A24 iPhone"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "a24_source_1",
+      "url": "https://g1.vxral-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/a24-100056.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "argentinisima_satelital",
+  "name": "Argentinísima Satelital",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/xFgJawa.png",
+  "aliases": [
+    "Argentinísima Satelital",
+    "Argentinisima Satelital",
+    "Argentinísima",
+    "Argentinisima",
+    "Argentinísima TV"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "argentinisima_satelital_source_1",
+      "url": "https://stream1.sersat.com/hls/argentinisima.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "azahares_radio_multimedia",
+  "name": "Azahares Radio Multimedia",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/g1BFoSs.png",
+  "aliases": [
+    "Azahares Radio Multimedia",
+    "Azahares Radio",
+    "Azahares FM",
+    "Azahares"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "azahares_radio_multimedia_source_1",
+      "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "cadena_103",
+  "name": "Cadena 103",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/vBsry35.png",
+  "aliases": [
+    "Cadena 103",
+    "Cadena103",
+    "Cadena 103 Argentina"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "cadena_103_source_1",
+      "url": "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_2_ushuaia",
+  "name": "Canal 2 de Ushuaia",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/q5NPdK2/canal2-logo.png",
+  "aliases": [
+    "Canal 2 de Ushuaia",
+    "Canal 2 Ushuaia",
+    "Canal 2 de Ushuaia HD",
+    "Canal 2 Ushuaia Argentina"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_2_ushuaia_source_1",
+      "url": "https://nd106.republicaservers.com:4433/hls/c6611/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_2_misiones",
+  "name": "Canal 2 Misiones",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/YqTNXDf.png",
+  "aliases": [
+    "Canal 2 Misiones",
+    "Canal 2 de Misiones",
+    "Canal 2 Misiones HD",
+    "Canal 2 Posadas"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_2_misiones_source_1",
+      "url": "https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_3_la_pampa",
+  "name": "Canal 3 La Pampa",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/SsNFudZ.png",
+  "aliases": [
+    "Canal 3 La Pampa",
+    "Canal 3 de La Pampa",
+    "Canal 3 La Pampa HD",
+    "C3 La Pampa"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_3_la_pampa_source_1",
+      "url": "https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_3_las_heras",
+  "name": "Canal 3 Las Heras",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/bd2afET.png",
+  "aliases": [
+    "Canal 3 Las Heras",
+    "Canal 3 de Las Heras",
+    "Canal 3 Las Heras HD"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_3_las_heras_source_1",
+      "url": "https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_4_posadas",
+  "name": "Canal 4 Posadas",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/tElJr3e.png",
+  "aliases": [
+    "Canal 4 Posadas",
+    "Canal 4 de Posadas",
+    "Canal 4 Posadas HD",
+    "C4 Posadas"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_4_posadas_source_1",
+      "url": "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_4_san_juan",
+  "name": "Canal 4 San Juan",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/MsCnwRA.png",
+  "aliases": [
+    "Canal 4 San Juan",
+    "Canal 4 de San Juan",
+    "Canal 4 San Juan HD",
+    "C4 San Juan"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_4_san_juan_source_1",
+      "url": "https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_7_neuquen",
+  "name": "Canal 7 Neuquén",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.ibb.co/BrvQsWm/C7neuquenlogo2023.png",
+  "aliases": [
+    "Canal 7 Neuquén",
+    "Canal 7 Neuquen",
+    "Canal 7 de Neuquén",
+    "Canal 7 Neuquén HD",
+    "C7 Neuquén",
+    "C7 Neuquen"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_7_neuquen_source_1",
+      "url": "https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_7_salta",
+  "name": "Canal 7 Salta",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/CudG6sl.png",
+  "aliases": [
+    "Canal 7 Salta",
+    "Canal 7 de Salta",
+    "Canal 7 Salta HD",
+    "C7 Salta"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_7_salta_source_1",
+      "url": "https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_7_santiago_del_estero",
+  "name": "Canal 7 Santiago del Estero",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i.imgur.com/iJMH0UK.png",
+  "aliases": [
+    "Canal 7 Santiago del Estero",
+    "Canal 7 Santiago",
+    "Canal 7 de Santiago del Estero",
+    "Canal7TV.ar",
+    "C7 Santiago del Estero"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_7_santiago_del_estero_source_1",
+      "url": "https://stream.arcast.com.ar/envivo/castv/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
+  "id": "canal_9_litoral",
+  "name": "Canal 9 Litoral",
+  "country": "AR",
+  "priority": 5,
+  "logoUrl": "https://i2.paste.pics/216f13d3a32f35802881b19c2fa39554.png",
+  "aliases": [
+    "Canal 9 Litoral",
+    "Canal 9 del Litoral",
+    "Canal 9 Litoral HD",
+    "Canal 9"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "canal_9_litoral_source_1",
+      "url": "https://stream.arcast.live/ahora/ahora/playlist.m3u8",
+      "type": "HLS",
+      "enabled": true,
+      "priority": 1
+    }
+   ]
+  }
+ ]
+}
