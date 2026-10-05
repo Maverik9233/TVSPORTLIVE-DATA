@@ -270,6 +270,9 @@ APP_SUPPORTED_SPORTS = {
     "MOTOGP",
     "TENNIS",
     "BASKETBALL",
+    "MMA",
+    "HOCKEY",
+    "WRESTLING",
 }
 
 

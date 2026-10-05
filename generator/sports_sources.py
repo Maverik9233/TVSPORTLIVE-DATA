@@ -3200,6 +3200,7 @@ def fetch_all_events() -> list[RawEvent]:
     # MMA/HOCKEY senza update app → crash "Impossibile caricare i dati remoti".
     APP_SAFE_SPORTS = {
         "FOOTBALL", "FORMULA_1", "MOTOGP", "TENNIS", "BASKETBALL",
+        "MMA", "HOCKEY", "WRESTLING",
     }
     before = len(all_events)
     all_events = [
