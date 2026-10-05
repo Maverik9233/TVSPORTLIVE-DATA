@@ -3196,6 +3196,23 @@ def fetch_all_events() -> list[RawEvent]:
     # DEDUPLICAZIONE
     # --------------------------------------------------------
 
+    # Solo sport supportati dall'app (enum SportType).
+    # MMA/HOCKEY senza update app → crash "Impossibile caricare i dati remoti".
+    APP_SAFE_SPORTS = {
+        "FOOTBALL", "FORMULA_1", "MOTOGP", "TENNIS", "BASKETBALL",
+    }
+    before = len(all_events)
+    all_events = [
+        ev for ev in all_events
+        if (getattr(ev, "sport", None) or "").upper() in APP_SAFE_SPORTS
+    ]
+    skipped = before - len(all_events)
+    if skipped:
+        print(
+            f"[SPORTS] Saltati {skipped} eventi sport non supportati "
+            f"dall'app (MMA/HOCKEY/…)."
+        )
+
     return deduplicate_events(
         all_events
     )

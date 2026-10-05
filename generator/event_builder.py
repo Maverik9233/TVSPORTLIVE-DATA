@@ -261,6 +261,18 @@ COMPETITION_COUNTRIES = {
 # BROADCASTER OVERRIDES
 # ============================================================
 
+# Sport che l'app Android sa deserializzare (enum SportType).
+# Se ne escono di nuovi (MMA, HOCKEY, …) senza aggiornare l'app,
+# kotlinx.serialization fallisce e l'app mostra "Impossibile caricare i dati remoti".
+APP_SUPPORTED_SPORTS = {
+    "FOOTBALL",
+    "FORMULA_1",
+    "MOTOGP",
+    "TENNIS",
+    "BASKETBALL",
+}
+
+
 COMPETITION_BROADCASTER_OVERRIDES = {
     # Solo leghe dove senza override non avremmo MAI un canale IT
     # e i diritti sono noti a livello di competizione (non di singola gara).
@@ -1168,6 +1180,12 @@ def build_events_document(
     ] = []
 
     for raw_event in raw_events_list:
+        if (raw_event.sport or "").upper() not in APP_SUPPORTED_SPORTS:
+            print(
+                f"[EVENTS] Skip sport non supportato app: "
+                f"{raw_event.sport} — {raw_event.title[:60]}"
+            )
+            continue
         competition = build_competition(
             raw_event
         )
