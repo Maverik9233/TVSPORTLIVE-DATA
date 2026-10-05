@@ -230,7 +230,7 @@ jobs:
           # finire su main (altrimenti l'app resta con dati di giorni fa).
           git fetch origin main
 
-          git add -f data/events.txt data/live.txt data/channels.txt
+          git add -f data/events.txt data/live.txt data/channels.txt data/.channels_merge_hash 2>/dev/null || git add -f data/events.txt data/live.txt data/channels.txt
           git add data/team_logos_cache.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
@@ -249,7 +249,7 @@ jobs:
               git rebase --abort || true
               git fetch origin main
               git reset --soft origin/main
-              git add -f data/events.txt data/live.txt data/channels.txt
+              git add -f data/events.txt data/live.txt data/channels.txt data/.channels_merge_hash 2>/dev/null || git add -f data/events.txt data/live.txt data/channels.txt
               git commit -m "Update sports data $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
             }
           fi
