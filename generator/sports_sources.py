@@ -218,6 +218,36 @@ SOCCER_COMPETITIONS = (
         name="2. Bundesliga",
     ),
     SourceCompetition(
+        key="league_one",
+        sport="FOOTBALL",
+        league="eng.3",
+        name="League One",
+    ),
+    SourceCompetition(
+        key="league_two",
+        sport="FOOTBALL",
+        league="eng.4",
+        name="League Two",
+    ),
+    SourceCompetition(
+        key="national_league",
+        sport="FOOTBALL",
+        league="eng.5",
+        name="National League",
+    ),
+    SourceCompetition(
+        key="ligue_2",
+        sport="FOOTBALL",
+        league="fra.2",
+        name="Ligue 2",
+    ),
+    SourceCompetition(
+        key="supercoppa_italiana",
+        sport="FOOTBALL",
+        league="ita.super_cup",
+        name="Supercoppa Italiana",
+    ),
+    SourceCompetition(
         key="liga_profesional",
         sport="FOOTBALL",
         league="arg.1",
