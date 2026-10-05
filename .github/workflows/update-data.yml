@@ -39,6 +39,7 @@ jobs:
           test -f generator/sports_sources.py
           test -f generator/liveonsat.py
           test -f generator/channel_matcher.py
+          test -f generator/merge_channels.py
           test -f generator/event_builder.py
           test -f generator/live_builder.py
           test -f generator/json_writer.py
@@ -229,7 +230,7 @@ jobs:
           # finire su main (altrimenti l'app resta con dati di giorni fa).
           git fetch origin main
 
-          git add -f data/events.txt data/live.txt
+          git add -f data/events.txt data/live.txt data/channels.txt
           git add data/team_logos_cache.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
@@ -242,13 +243,13 @@ jobs:
           # Se main e avanzato: rebase privilegiando i NOSTRI data/
           if ! git pull --rebase origin main; then
             echo "Conflitto rebase: tengo events/live generati ora"
-            git checkout --ours data/events.txt data/live.txt 2>/dev/null || true
-            git add data/events.txt data/live.txt
+            git checkout --ours data/events.txt data/live.txt data/channels.txt 2>/dev/null || true
+            git add data/events.txt data/live.txt data/channels.txt
             GIT_EDITOR=true git rebase --continue || {
               git rebase --abort || true
               git fetch origin main
               git reset --soft origin/main
-              git add -f data/events.txt data/live.txt
+              git add -f data/events.txt data/live.txt data/channels.txt
               git commit -m "Update sports data $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
             }
           fi
