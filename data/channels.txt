@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-05T21:17:05Z",
+  "generatedAt": "2026-10-06T01:33:56Z",
   "channels": [
     {
       "id": "sky_sport_uno",
@@ -1522,7 +1522,7 @@
       "sources": [
         {
           "id": "rai_1_source_1",
-          "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=rainet/4.0.5.m3u8",
+          "url": "https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u8",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
@@ -1660,7 +1660,7 @@
       ]
     },
     {
-      "id": "tv8",
+      "id": "tv8_it",
       "name": "TV8",
       "country": "IT",
       "priority": 31,
@@ -1680,28 +1680,28 @@
       "enabled": true,
       "sources": [
         {
-          "id": "tv8_source_1",
+          "id": "tv8_it_source_1",
           "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
           "type": "AUTO",
           "enabled": true,
           "priority": 1
         },
         {
-          "id": "tv8_source_2",
+          "id": "tv8_it_source_2",
           "url": "https://www.mytivu.it/Application/Channels/TV8.php",
           "type": "AUTO",
           "enabled": false,
           "priority": 2
         },
         {
-          "id": "tv8_src_3",
+          "id": "tv8_it_src_3",
           "url": "https://mytivu.it/Application/Channels/TV8.php",
           "type": "AUTO",
           "enabled": true,
           "priority": 3
         },
         {
-          "id": "tv8_src_4",
+          "id": "tv8_it_src_4",
           "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788",
           "type": "HLS",
           "enabled": true,
