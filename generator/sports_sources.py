@@ -2552,33 +2552,34 @@ def is_italy_in_event(event: RawEvent) -> bool:
 
 def keep_youth_event(event: RawEvent) -> bool:
     """
-    Youth tenuti solo se guardabili in IT con i canali tipici:
+    Youth tenuti solo se guardabili in IT:
     - UEFA Youth League (club) → Sky
-    - U19/U20/U21 nazionali con Italia (o club IT in Youth League)
-    - Scarta campionati U19 esteri (Ucraina ecc.) e amichevoli youth senza Italia
+    - U19/U20/U21 con Italia (nazionale o club IT)
+    - Tutto il resto youth → scartato
     """
     if not is_youth_related(event):
-        return True  # non-youth: non filtrare qui
+        return True
 
     key = (event.competition_key or "").lower()
     title = (event.title or "").lower()
     name = (event.competition_name or "").lower()
+    blob = f"{key} {title} {name}"
 
-    # UEFA Youth League / path club
+    # UEFA Youth League (club U19 europei)
     if any(
-        x in key or x in name or x in title
+        x in blob
         for x in (
             "youth_league", "youth league", "uefa youth",
-            "uyl", "primavera",
+            "uyl", "primavera", "champions league path",
+            "domestic champions path",
         )
     ):
         return True
 
-    # Nazionali U19/U20/U21: solo con Italia
+    # Solo se c'è Italia / club italiano chiaro
     if is_italy_in_event(event):
         return True
 
-    # Tutto il resto youth (U19 Ucraina, Georgia–Bulgaria, ecc.) → fuori
     return False
 
 
@@ -3345,6 +3346,8 @@ def fetch_all_events() -> list[RawEvent]:
             f"[SPORTS] Saltati {skipped} eventi sport non supportati "
             f"dall'app (MMA/HOCKEY/…)."
         )
+
+    all_events = filter_youth_for_italy_tv(all_events)
 
     return deduplicate_events(
         all_events

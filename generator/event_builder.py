@@ -1249,6 +1249,15 @@ def build_events_document(
             livesoccertv_events=livesoccertv_list,
         )
 
+        # PASSO 2: niente eventi senza almeno un canale collegato
+        chans = getattr(built_event, "channels", None) or []
+        if not chans:
+            print(
+                f"[NO CHANNEL] Skip: {raw_event.title[:70]} "
+                f"({raw_event.competition_key})"
+            )
+            continue
+
         events.append(
             built_event
         )
