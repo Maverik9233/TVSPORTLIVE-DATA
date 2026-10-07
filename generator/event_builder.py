@@ -294,6 +294,19 @@ COMPETITION_BROADCASTER_OVERRIDES = {
         "Sky Go Italy",
         "NOW",
     ),
+    # UEFA Youth League (club U19): diritti Italia = Sky
+    "uefa_youth_league": (
+        "Sky Sport Calcio",
+        "Sky Sport Uno",
+        "Sky Go Italy",
+        "NOW",
+    ),
+    "youth_league": (
+        "Sky Sport Calcio",
+        "Sky Sport Uno",
+        "Sky Go Italy",
+        "NOW",
+    ),
 }
 
 # DISABILITATO: non inventare canali se LiveOnSat non ha la partita.
@@ -312,12 +325,18 @@ MOTOGP_ITALY_BROADCASTERS: tuple[str, ...] = (
 # Tennis Italia: LiveOnSat spesso non elenca SuperTennis+ / campi multipli
 TENNIS_ITALY_BROADCASTERS: tuple[str, ...] = (
     "SuperTennis",
+    "SuperTennis+",
+    "SuperTennis+ 1",
     "SuperTennis+ 1 HD",
+    "SuperTennis+ 2",
     "SuperTennis+ 2 HD",
+    "SuperTennis+ 3",
     "SuperTennis+ 3 HD",
+    "SuperTennis+ 4",
     "SuperTennis+ 4 HD",
     "Sky Sport Tennis",
     "Sky Sport Tennis IT",
+    "Sky Sport Arena",
     "Sky Sport Uno",
     "NOW",
 )
@@ -947,15 +966,13 @@ def get_event_broadcasters(
         for broadcaster in NHL_BROADCASTERS:
             add(broadcaster)
 
-    # 3) Override Serie C se ancora vuoto
-    if (
-        not broadcasters
-        and raw_event.competition_key == "serie_c"
-    ):
-        for broadcaster in COMPETITION_BROADCASTER_OVERRIDES.get(
-            "serie_c",
-            (),
-        ):
+    # 3) Override competizione se ancora vuoto (Serie C, Youth League)
+    if not broadcasters:
+        ck = (raw_event.competition_key or "").lower()
+        # Youth League anche se key contiene youth
+        if "youth" in ck and ck not in COMPETITION_BROADCASTER_OVERRIDES:
+            ck = "uefa_youth_league"
+        for broadcaster in COMPETITION_BROADCASTER_OVERRIDES.get(ck, ()):
             add(broadcaster)
 
     # 4) Nessun fallback sport generico (evita canali a caso su WNBA ecc.)

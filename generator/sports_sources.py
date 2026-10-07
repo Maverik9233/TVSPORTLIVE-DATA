@@ -2516,6 +2516,84 @@ def fetch_competition_date(
 # ============================================================
 
 
+
+def is_youth_related(event: RawEvent) -> bool:
+    """True se è under 17–21 / youth league / primavera."""
+    key = (event.competition_key or "").lower()
+    title = (event.title or "").lower()
+    name = (event.competition_name or "").lower()
+    blob = f"{key} {title} {name}"
+    markers = (
+        "u17", "u-17", "u19", "u-19", "u20", "u-20", "u21", "u-21",
+        "under 17", "under 19", "under 20", "under 21",
+        "youth", "primavera", "juvenil", "academy",
+    )
+    return any(m in blob for m in markers)
+
+
+def is_italy_in_event(event: RawEvent) -> bool:
+    title = (event.title or "").lower()
+    home = (event.home_team_name or "").lower()
+    away = (event.away_team_name or "").lower()
+    blob = f"{title} {home} {away}"
+    return any(
+        x in blob
+        for x in (
+            "italy", "italia", "azzurr", "primavera",
+            # club italiani frequenti in Youth League
+            "inter ", " inter", "milan", "juventus", "juve ",
+            "napoli", "roma ", "roma", "lazio", "fiorentina",
+            "atalanta", "torino", "bologna", "sassuolo",
+            "genoa", "sampdoria", "empoli", "udinese",
+            "cagliari", "verona", "lecce", "monza", "como ",
+        )
+    )
+
+
+def keep_youth_event(event: RawEvent) -> bool:
+    """
+    Youth tenuti solo se guardabili in IT con i canali tipici:
+    - UEFA Youth League (club) → Sky
+    - U19/U20/U21 nazionali con Italia (o club IT in Youth League)
+    - Scarta campionati U19 esteri (Ucraina ecc.) e amichevoli youth senza Italia
+    """
+    if not is_youth_related(event):
+        return True  # non-youth: non filtrare qui
+
+    key = (event.competition_key or "").lower()
+    title = (event.title or "").lower()
+    name = (event.competition_name or "").lower()
+
+    # UEFA Youth League / path club
+    if any(
+        x in key or x in name or x in title
+        for x in (
+            "youth_league", "youth league", "uefa youth",
+            "uyl", "primavera",
+        )
+    ):
+        return True
+
+    # Nazionali U19/U20/U21: solo con Italia
+    if is_italy_in_event(event):
+        return True
+
+    # Tutto il resto youth (U19 Ucraina, Georgia–Bulgaria, ecc.) → fuori
+    return False
+
+
+def filter_youth_for_italy_tv(events: list[RawEvent]) -> list[RawEvent]:
+    before = len(events)
+    kept = [e for e in events if keep_youth_event(e)]
+    dropped = before - len(kept)
+    if dropped:
+        print(
+            f"[YOUTH FILTER] Rimossi {dropped} eventi under/youth "
+            f"non trasmissibili in IT (restano {len(kept)})."
+        )
+    return kept
+
+
 def deduplicate_events(
     events: list[RawEvent],
 ) -> list[RawEvent]:
