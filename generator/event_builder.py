@@ -633,23 +633,33 @@ def get_matching_liveonsat_event(
     if not candidates:
         return None
 
+    # Solo il MIGLIOR match: unire i canali di più candidati
+    # mescolava Rai1/TV8 di altre partite Italia sullo stesso orario.
     candidates.sort(key=lambda x: (-x[0], x[1]))
-    best = candidates[0][3]
+    best_score, best_tdiff, best_bc, best = candidates[0]
 
     if is_racing:
         return best
 
-    merged: list[str] = []
-    seen: set[str] = set()
-    for score, tdiff, bc, cand in candidates:
-        for b in bc:
-            key = (b or "").strip().lower()
-            if not key or key in seen:
-                continue
-            seen.add(key)
-            merged.append(b)
+    # Eventuale 2° candidato solo se stesso score e stesso orario (±5 min)
+    # e stesse squadre — altrimenti solo best.
+    bc_final = list(best_bc or [])
+    seen_bc = {(b or "").strip().lower() for b in bc_final if b}
 
-    if not merged:
+    if len(candidates) > 1:
+        s2, td2, bc2, cand2 = candidates[1]
+        if (
+            s2 >= best_score - 2
+            and abs(td2 - best_tdiff) <= 5 * 60
+            and len(team_tokens(best.title) & team_tokens(cand2.title)) >= 2
+        ):
+            for b in bc2 or []:
+                key = (b or "").strip().lower()
+                if key and key not in seen_bc:
+                    seen_bc.add(key)
+                    bc_final.append(b)
+
+    if not bc_final:
         return best
 
     try:
@@ -657,7 +667,7 @@ def get_matching_liveonsat_event(
             title=best.title,
             start_time=best.start_time,
             competition=getattr(best, "competition", "") or "",
-            broadcasters=tuple(merged),
+            broadcasters=tuple(bc_final),
         )
     except TypeError:
         return best
@@ -954,41 +964,30 @@ def get_event_broadcasters(
         for broadcaster in SPORT_BROADCASTER_FALLBACKS.get(sport, ()):
             add(broadcaster)
 
-    # 5) Nazionale italiana (Nations League / amichevoli):
-    # se in titolo c'è Italy/Italia e manca qualunque canale IT noto,
-    # aggiungi i digitali terrestri tipici (Rai / 20 / TV8 / Cielo).
+    # 5) Nazionale Italia MAGGIORE: SOLO se non c'è ancora nessun broadcaster.
+    # NON applicare a U21/U20/U19 (spesso solo Rai 2 / un canale).
+    # NON aggiungere tutta la lista FTA se LiveOnSat ha già almeno un canale.
     title_l = (raw_event.title or "").lower()
-    is_italy_match = (
+    is_youth = any(
+        x in title_l
+        for x in ("u21", "u-21", "u20", "u-20", "u19", "u-19", "under 21", "under 20", "under 19")
+    )
+    is_italy_senior = (
         (raw_event.sport or "").upper() == "FOOTBALL"
-        and (
-            "italy" in title_l
-            or "italia" in title_l
-        )
+        and not is_youth
+        and ("italy" in title_l or "italia" in title_l)
         and raw_event.competition_key
         in {
             "uefa_nations_league",
             "fifa_friendly",
             "fifa_world_cup",
             "uefa_euro",
-            "uefa_u21",
         }
     )
-    if is_italy_match:
-        blob = " ".join(broadcasters).lower()
-        has_it = any(
-            x in blob
-            for x in (
-                "rai",
-                "tv8",
-                "cielo",
-                "canale 20",
-                "20 mediaset",
-                "mediaset",
-            )
-        )
-        if not has_it:
-            for broadcaster in ITALY_NATIONAL_FTA:
-                add(broadcaster)
+    if is_italy_senior and not broadcasters:
+        # Solo se LiveOnSat/LSTV non hanno dato nulla — fallback minimale
+        for broadcaster in ITALY_NATIONAL_FTA:
+            add(broadcaster)
 
     return broadcasters
 

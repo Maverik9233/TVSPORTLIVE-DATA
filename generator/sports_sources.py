@@ -2519,34 +2519,88 @@ def fetch_competition_date(
 def deduplicate_events(
     events: list[RawEvent],
 ) -> list[RawEvent]:
-    unique: dict[
-        tuple[str, str],
-        RawEvent,
-    ] = {}
+    """
+    1) Chiave sorgente+id
+    2) Stessa partita da fonti diverse (ESPN + diretta + youth):
+       stesso sport + orario (±30 min) + squadre nel titolo.
+    """
+    import re
+    from datetime import datetime
 
+    unique: dict[tuple[str, str], RawEvent] = {}
     for event in events:
-
-        key = (
-            event.source,
-            event.source_event_id,
-        )
-
+        key = (event.source, event.source_event_id)
         if key not in unique:
             unique[key] = event
 
-    result = list(
-        unique.values()
-    )
+    result = list(unique.values())
 
-    result.sort(
+    def team_key(title: str) -> frozenset[str]:
+        stop = {
+            "vs", "v", "at", "the", "fc", "cf", "u21", "u20", "u19",
+            "under", "italy", "italia", "calcio",
+        }
+        words = []
+        for w in re.sub(r"[^a-z0-9\s]", " ", (title or "").lower()).split():
+            if len(w) > 2 and w not in stop:
+                words.append(w)
+        return frozenset(words)
+
+    def parse_start(s: str):
+        try:
+            return datetime.fromisoformat((s or "").replace("Z", "+00:00"))
+        except ValueError:
+            return None
+
+    # Preferisci ESPN > DIRETTA > altro se doppione
+    source_rank = {
+        "ESPN": 0,
+        "ESPN_TENNIS": 0,
+        "DIRETTA": 1,
+        "diretta": 1,
+    }
+
+    kept: list[RawEvent] = []
+    used: set[int] = set()
+    for i, a in enumerate(result):
+        if i in used:
+            continue
+        group = [a]
+        ta = team_key(a.title)
+        sa = parse_start(a.start_time)
+        for j, b in enumerate(result):
+            if j <= i or j in used:
+                continue
+            if (a.sport or "").upper() != (b.sport or "").upper():
+                continue
+            tb = team_key(b.title)
+            if len(ta) >= 1 and len(tb) >= 1 and len(ta & tb) >= min(2, len(ta), len(tb)):
+                sb = parse_start(b.start_time)
+                if sa and sb and abs((sa - sb).total_seconds()) <= 30 * 60:
+                    group.append(b)
+                    used.add(j)
+                elif sa is None or sb is None:
+                    if (a.title or "").lower() == (b.title or "").lower():
+                        group.append(b)
+                        used.add(j)
+        used.add(i)
+        group.sort(
+            key=lambda e: (
+                source_rank.get(e.source, 50),
+                0 if e.home_score is not None else 1,
+                e.source_event_id,
+            )
+        )
+        kept.append(group[0])
+
+    kept.sort(
         key=lambda item: (
             item.start_time,
             item.competition_key,
             item.title,
         )
     )
-
-    return result
+    return kept
 
 
 # ============================================================
