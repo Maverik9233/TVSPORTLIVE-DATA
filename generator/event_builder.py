@@ -377,12 +377,28 @@ NHL_BROADCASTERS: tuple[str, ...] = (
 
 # Canali digitali terrestri IT spesso usati per Nazionale / Nations League
 # (LiveOnSat a volte omette o sbaglia orario → match perso)
+
+# Nomi broadcaster FTA IT → come compaiono su LiveOnSat / guide TV
+# (match_broadcasters li collega agli id in channels.txt via name/aliases)
+ITALY_FTA_BROADCASTER_NAMES: tuple[str, ...] = (
+    "Rai 1", "Rai 2", "Rai 3", "Rai Sport",
+    "Italia 1", "Italia 2", "Canale 5", "Rete 4",
+    "Canale 20", "Canale 20 Mediaset",
+    "TV8", "TV 8", "Cielo", "Nove", "NOVE", "La7", "La 7",
+)
+
 ITALY_NATIONAL_FTA: tuple[str, ...] = (
     "Rai 1",
     "Rai 2",
+    "Rai 3",
+    "Rai Sport",
+    "Italia 1",
+    "Canale 5",
     "Canale 20 Mediaset",
     "TV8",
     "Cielo",
+    "Nove",
+    "La7",
 )
 
 
@@ -566,13 +582,18 @@ def get_matching_liveonsat_event(
     # canali IT chiari. Sky Calcio/Uno sì; TV8 solo se "Italia"
     # (mai TV8 Turkiye / TV8 generico senza paese).
     ITA_KEEP = (
-        "rai 1", "rai 2", "rai uno", "rai due", "rai sport",
-        "italia 1", "italia uno", "italia 2",
-        "tv8 italia", "tv 8 italia", "tv8 italy",
-        "canale 20", "20 mediaset", "canale 5",
+        "rai 1", "rai 2", "rai 3", "rai uno", "rai due", "rai tre",
+        "rai sport", "rai 4",
+        "italia 1", "italia uno", "italia 2", "italia due",
+        "canale 5", "canale5", "rete 4", "rete4",
+        "canale 20", "20 mediaset",
+        "tv8", "tv 8", "tv8 italia", "tv 8 italia", "tv8 italy",
         "cielo",
+        "nove", "n9ve", "channel 9",
+        "la7", "la 7",
         "sky sport calcio", "sky sport uno", "sky calcio",
         "dazn 1 italia", "dazn 2 italia", "zona dazn",
+        "supertennis", "super tennis",
     )
 
     def racing_score(cand_title: str) -> int:
@@ -851,11 +872,18 @@ def filter_channel_ids_for_sport(
     }
     BASKET = {"sky_sport_basket", "nba_tv", "nba_league_pass"}
     CALCIO_IT = {
-        "sky_sport_calcio", "rai_1", "rai_2", "italia_1", "italia_2",
-        "cielo", "canale_20_mediaset", "canale_5_mediaset", "tv8",
+        "sky_sport_calcio",
+        "rai_1", "rai_2", "rai_3", "rai_sport",
+        "italia_1", "italia_2", "canale_5", "canale_5_mediaset", "rete_4",
+        "cielo", "canale_20_mediaset", "tv8", "nove", "la7",
     }
     # TV8 a volte ha MotoGP/F1 in chiaro → permesso solo football + motogp
-    FTA_IT = {"tv8", "rai_1", "rai_2", "cielo", "italia_1", "canale_20_mediaset"}
+    FTA_IT = {
+        "tv8", "nove", "cielo", "la7",
+        "rai_1", "rai_2", "rai_3", "rai_sport",
+        "italia_1", "italia_2", "canale_5", "rete_4",
+        "canale_20_mediaset",
+    }
 
     blocked: set[str] = set()
 
@@ -863,9 +891,12 @@ def filter_channel_ids_for_sport(
         blocked |= F1 | MOTO | TENNIS | CALCIO_IT | FTA_IT
         blocked |= {"sky_sport_calcio", "sky_sport_f1", "sky_sports_f1_uk"}
     elif sport == "TENNIS":
-        blocked |= F1 | MOTO | BASKET | CALCIO_IT | FTA_IT
-        blocked -= TENNIS  # keep tennis channels
-        blocked |= {"sky_sport_calcio", "sky_sport_basket"}
+        # FTA (Rai/TV8/Nove) a volte hanno tennis: non bloccarle
+        blocked |= F1 | MOTO | BASKET
+        blocked |= {
+            "sky_sport_calcio", "sky_sport_basket", "nba_tv",
+            "sky_sport_f1", "sky_sports_f1_uk", "sky_sport_motogp",
+        }
     elif sport == "FORMULA_1":
         # TV8 OK in Italia (Sprint/qualifiche in chiaro) — non bloccarla
         blocked |= MOTO | TENNIS | BASKET

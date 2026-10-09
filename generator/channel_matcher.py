@@ -204,6 +204,25 @@ def load_channels() -> list[Channel]:
     return channels
 
 
+
+# Alias extra per digitali terrestri IT (LiveOnSat / guide TV → id canale)
+FTA_NAME_ALIASES: dict[str, tuple[str, ...]] = {
+    "rai 1": ("rai 1", "rai uno", "rai1", "rai uno hd"),
+    "rai 2": ("rai 2", "rai due", "rai2", "rai due hd"),
+    "rai 3": ("rai 3", "rai tre", "rai3"),
+    "rai sport": ("rai sport", "raisport", "rai sport hd"),
+    "italia 1": ("italia 1", "italia uno", "italia1"),
+    "italia 2": ("italia 2", "italia due", "italia2"),
+    "canale 5": ("canale 5", "canale5", "c5"),
+    "rete 4": ("rete 4", "rete4"),
+    "canale 20": ("canale 20", "20 mediaset", "canale 20 mediaset"),
+    "tv8": ("tv8", "tv 8", "tv8 italia", "tv8 hd"),
+    "cielo": ("cielo", "cielo tv", "cielo hd"),
+    "nove": ("nove", "n9ve", "channel 9"),
+    "la7": ("la7", "la 7", "la7 hd"),
+}
+
+
 def _normalize(value: str) -> str:
     value = unicodedata.normalize(
         "NFKD",
