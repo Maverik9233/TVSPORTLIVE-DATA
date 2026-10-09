@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T01:33:56Z",
+  "generatedAt": "2026-10-09T16:32:57Z",
   "channels": [
     {
       "id": "sky_sport_uno",
@@ -5018,10 +5018,20 @@
       "logoUrl": null,
       "aliases": [
         "Cosmote Sport 1 HD",
-        "Cosmote Sport 1 SD"
+        "Cosmote Sport 1 SD",
+        "Cosmote Sport 1",
+        "Cosmote Sport HD 1"
       ],
       "enabled": true,
-      "sources": []
+      "sources": [
+        {
+          "id": "cosmote_sport_1_src_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-1",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
     },
     {
       "id": "cosmote_sport_2",
@@ -5031,10 +5041,20 @@
       "logoUrl": null,
       "aliases": [
         "Cosmote Sport 2 HD",
-        "Cosmote Sport 2 SD"
+        "Cosmote Sport 2 SD",
+        "Cosmote Sport 2",
+        "Cosmote Sport HD 2"
       ],
       "enabled": true,
-      "sources": []
+      "sources": [
+        {
+          "id": "cosmote_sport_2_src_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-2",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
     },
     {
       "id": "futbol_tv_tajikistan",
@@ -142875,6 +142895,160 @@
           "id": "canal_7_santiago_del_estero_source_1",
           "url": "https://stream.arcast.com.ar/envivo/castv/playlist.m3u8",
           "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport3",
+      "name": "Cosmote Sport 3",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": "",
+      "aliases": [
+        "Cosmote Sport 3",
+        "Cosmote Sport 3 HD",
+        "Cosmote Sport HD 3"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport3_source_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-3",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport4",
+      "name": "Cosmote Sport 4",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": "",
+      "aliases": [
+        "Cosmote Sport 4",
+        "Cosmote Sport 4 HD",
+        "Cosmote Sport HD 4"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport4_source_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-4",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport5",
+      "name": "Cosmote Sport 5",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": "",
+      "aliases": [
+        "Cosmote Sport 5",
+        "Cosmote Sport 5 HD",
+        "Cosmote Sport HD 5"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport5_source_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-5",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport6",
+      "name": "Cosmote Sport 6",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": "",
+      "aliases": [
+        "Cosmote Sport 6",
+        "Cosmote Sport 6 HD",
+        "Cosmote Sport HD 6"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport6_source_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-6",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport7",
+      "name": "Cosmote Sport 7",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": "",
+      "aliases": [
+        "Cosmote Sport 7",
+        "Cosmote Sport 7 HD",
+        "Cosmote Sport HD 7"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport7_source_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-7",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport8",
+      "name": "Cosmote Sport 8",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": "",
+      "aliases": [
+        "Cosmote Sport 8",
+        "Cosmote Sport 8 HD",
+        "Cosmote Sport HD 8"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport8_source_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-8",
+          "type": "WEB",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "cosmote_sport9",
+      "name": "Cosmote Sport 9",
+      "country": "INTERNATIONAL",
+      "priority": 5,
+      "logoUrl": "",
+      "aliases": [
+        "Cosmote Sport 9",
+        "Cosmote Sport 9 HD",
+        "Cosmote Sport HD 9"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "cosmote_sport9_source_1",
+          "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-9",
+          "type": "WEB",
           "enabled": true,
           "priority": 1
         }
