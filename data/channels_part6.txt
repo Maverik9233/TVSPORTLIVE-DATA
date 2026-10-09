@@ -4218,6 +4218,28 @@
   ]
 },
 {
+  "id": "cosmote_sport1",
+  "name": "Cosmote Sport 1",
+  "country": "GR",
+  "priority": 5,
+  "logoUrl": "",
+  "aliases": [
+    "Cosmote Sport 1",
+    "Cosmote Sport 1 HD",
+    "Cosmote Sport HD 1"
+  ],
+  "enabled": true,
+  "sources": [
+    {
+      "id": "cosmote_sport1_source_1",
+      "url": "https://ntv.st/channel/falcon/COSMOTE-SPORT-1",
+      "type": "WEB",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+},
+{
   "id": "canal_9_litoral",
   "name": "Canal 9 Litoral",
   "country": "AR",
