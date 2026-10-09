@@ -322,6 +322,14 @@ MOTOGP_ITALY_BROADCASTERS: tuple[str, ...] = (
     "TV8",
 )
 
+# F1 Italia: Sky sempre; TV8 in chiaro su Sprint / qualifiche (e a volte gara differita)
+F1_ITALY_BROADCASTERS: tuple[str, ...] = (
+    "Sky Sport F1",
+    "Sky Sport Uno",
+    "NOW",
+    "TV8",
+)
+
 # Tennis Italia: LiveOnSat spesso non elenca SuperTennis+ / campi multipli
 TENNIS_ITALY_BROADCASTERS: tuple[str, ...] = (
     "SuperTennis",
@@ -859,8 +867,14 @@ def filter_channel_ids_for_sport(
         blocked -= TENNIS  # keep tennis channels
         blocked |= {"sky_sport_calcio", "sky_sport_basket"}
     elif sport == "FORMULA_1":
-        blocked |= MOTO | TENNIS | BASKET | CALCIO_IT | FTA_IT
-        blocked |= {"sky_sport_calcio", "nba_tv", "tv8"}
+        # TV8 OK in Italia (Sprint/qualifiche in chiaro) — non bloccarla
+        blocked |= MOTO | TENNIS | BASKET
+        blocked |= {
+            "sky_sport_calcio", "nba_tv",
+            "rai_1", "rai_2", "italia_1", "italia_2",
+            "cielo", "canale_20_mediaset", "canale_5_mediaset",
+            "sky_sport_motogp", "sky_sport_tennis", "sky_sport_basket",
+        }
     elif sport == "MOTOGP":
         blocked |= F1 | TENNIS | BASKET
         blocked |= {"sky_sport_calcio", "nba_tv", "sky_sports_f1_uk"}
@@ -937,6 +951,11 @@ def get_event_broadcasters(
     # 2d) MotoGP Italia — fonte diritti (LiveOnSat non copre MotoGP)
     if (raw_event.sport or "").upper() == "MOTOGP":
         for broadcaster in MOTOGP_ITALY_BROADCASTERS:
+            add(broadcaster)
+
+    # 2d2) F1 Italia — Sky + TV8 (in chiaro su molte sessioni Sprint/qualy)
+    if (raw_event.sport or "").upper() == "FORMULA_1":
+        for broadcaster in F1_ITALY_BROADCASTERS:
             add(broadcaster)
 
     # 2e) Tennis Italia — SuperTennis + Sky anche se LiveOnSat è vuoto
