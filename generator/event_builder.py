@@ -293,6 +293,23 @@ COMPETITION_BROADCASTER_OVERRIDES = {
         "Sky Sport 259",
         "Sky Go Italy",
         "NOW",
+        "Rai Sport",
+    ),
+    # Coppa Italia Serie C: Sky + Rai Sport (in chiaro / digitale)
+    "coppa_italia_serie_c": (
+        "Sky Sport Calcio",
+        "Sky Sport 251",
+        "Sky Sport 252",
+        "Sky Sport 253",
+        "Sky Sport 254",
+        "Sky Sport 255",
+        "Sky Sport 256",
+        "Sky Sport 257",
+        "Sky Sport 258",
+        "Sky Sport 259",
+        "Sky Go Italy",
+        "NOW",
+        "Rai Sport",
     ),
     # UEFA Youth League (club U19): diritti Italia = Sky
     "uefa_youth_league": (
