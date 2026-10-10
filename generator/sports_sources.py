@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 import json
 import urllib.error
 import urllib.parse
@@ -2352,28 +2354,24 @@ def normalize_event(
         away
     )
 
-    title = safe_string(
-        event.get(
-            "name"
-        )
-    )
-
-    if not title:
-
-        if (
-            home_name
-            and away_name
-        ):
-            title = (
-                f"{home_name} - "
-                f"{away_name}"
-            )
-
+    # ESPN "name" è spesso "Away at Home" (Parma at Inter) → in IT sembra invertito.
+    # Titolo sempre Casa - Ospite dai campi homeAway.
+    if home_name and away_name:
+        title = f"{home_name} - {away_name}"
+    else:
+        title = safe_string(event.get("name"))
+        if not title:
+            title = competition.name or competition.key
         else:
-            title = (
-                competition.name
-                or competition.key
+            # Se resta "X at Y", inverti in "Y - X" (Y=casa in formato ESPN)
+            m = re.match(
+                r"^(.+?)\s+at\s+(.+)$",
+                title,
+                flags=re.IGNORECASE,
             )
+            if m:
+                away_n, home_n = m.group(1).strip(), m.group(2).strip()
+                title = f"{home_n} - {away_n}"
 
     status = normalize_status(
         event
