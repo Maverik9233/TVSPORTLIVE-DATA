@@ -164,6 +164,23 @@ def fix_stream_url(url: str) -> str:
         if user.lower() not in ("live", "play", "hls", "iptv"):
             return f"{base}/live/{user}/{passwd}/{cid}.m3u8"
 
+    # Xtream generico: host:port/user/pass/id → /live/user/pass/id.m3u8
+    if "/movie/" not in u and "/series/" not in u:
+        m = re.match(
+            r"(https?://[^/\s]+)/([^/\s]+)/([^/\s]+)/(\d+)(?:\.m3u8)?/?$",
+            u,
+        )
+        if m and "/live/" not in u:
+            base, user, passwd, cid = m.groups()
+            return f"{base}/live/{user}/{passwd}/{cid}.m3u8"
+        m2 = re.match(
+            r"(https?://[^/\s]+)/live/([^/\s]+)/([^/\s]+)/(\d+)/?$",
+            u,
+        )
+        if m2 and not u.rstrip("/").endswith(".m3u8"):
+            base, user, passwd, cid = m2.groups()
+            return f"{base}/live/{user}/{passwd}/{cid}.m3u8"
+
     return u
 
 
