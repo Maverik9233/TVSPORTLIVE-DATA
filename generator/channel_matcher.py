@@ -267,7 +267,7 @@ def _normalize(value: str) -> str:
     }
     tokens = [synonyms.get(tok, tok) for tok in tokens]
     # togli token inutili
-    noise = {"hd", "sd", "fhd", "uhd", "geo", "r"}
+    noise = {"hd", "sd", "fhd", "uhd", "geo", "r", "$", "online", "app"}
     tokens = [tok for tok in tokens if tok not in noise]
 
     return " ".join(tokens)
@@ -370,6 +370,35 @@ def _match_score(
             channel_tokens,
         ):
             best_score = max(best_score, 85)
+
+        # DAZN Italia ↔ DAZN 1 Italia / DAZN 2 Italia (numero in mezzo)
+        # Stesso per Sky Sport Calcio ↔ Sky Sport Calcio HD, ecc.
+        if len(broadcaster_tokens) >= 2:
+            bset = set(broadcaster_tokens)
+            cset = set(channel_tokens)
+            # tutti i token del broadcaster presenti nel canale (non obbligatoriamente contigui)
+            if bset <= cset:
+                # evita match deboli 1 token brand alone già escluso
+                # evita Sky Sport 2 ⊂ Sky Sport 252: se needle ha un numero, deve combaciare
+                nums_b = {t for t in broadcaster_tokens if t.isdigit()}
+                nums_c = {t for t in channel_tokens if t.isdigit()}
+                if not nums_b or nums_b & nums_c:
+                    best_score = max(best_score, 93)
+            # caso speciale: broadcaster "dazn italia" e canale contiene dazn + italia
+            if (
+                "dazn" in bset
+                and ("italia" in bset or "italy" in bset)
+                and "dazn" in cset
+                and ("italia" in cset or "italy" in cset)
+            ):
+                best_score = max(best_score, 95)
+            if (
+                "sky" in bset
+                and "calcio" in bset
+                and "sky" in cset
+                and "calcio" in cset
+            ):
+                best_score = max(best_score, 94)
 
     return best_score
 

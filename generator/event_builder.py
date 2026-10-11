@@ -280,6 +280,22 @@ COMPETITION_BROADCASTER_OVERRIDES = {
     # Solo leghe dove senza override non avremmo MAI un canale IT
     # e i diritti sono noti a livello di competizione (non di singola gara).
     # Per tutto il resto: SOLO LiveOnSat / Sky articoli Serie C.
+    "serie_a": (
+        "DAZN 1 Italia",
+        "DAZN 2 Italia",
+        "DAZN Italia",
+        "Zona DAZN",
+        "Sky Sport Calcio",
+        "Sky Sport Uno",
+        "Sky Go Italy",
+        "NOW",
+    ),
+    "serie_b": (
+        "DAZN 1 Italia",
+        "DAZN 2 Italia",
+        "DAZN Italia",
+        "Zona DAZN",
+    ),
     "serie_c": (
         "Sky Sport Calcio",
         "Sky Sport 251",
@@ -1033,12 +1049,16 @@ def get_event_broadcasters(
         for broadcaster in NHL_BROADCASTERS:
             add(broadcaster)
 
-    # 3) Override competizione se ancora vuoto (Serie C, Youth League)
-    if not broadcasters:
-        ck = (raw_event.competition_key or "").lower()
-        # Youth League anche se key contiene youth
-        if "youth" in ck and ck not in COMPETITION_BROADCASTER_OVERRIDES:
-            ck = "uefa_youth_league"
+    # 3) Override competizione
+    ck = (raw_event.competition_key or "").lower()
+    if "youth" in ck and ck not in COMPETITION_BROADCASTER_OVERRIDES:
+        ck = "uefa_youth_league"
+    # Serie A/B: diritti noti → aggiungi sempre DAZN (e Sky) anche se LiveOnSat
+    # ha messo solo Paramount/esteri
+    if ck in {"serie_a", "serie_b"}:
+        for broadcaster in COMPETITION_BROADCASTER_OVERRIDES.get(ck, ()):
+            add(broadcaster)
+    elif not broadcasters:
         for broadcaster in COMPETITION_BROADCASTER_OVERRIDES.get(ck, ()):
             add(broadcaster)
 
