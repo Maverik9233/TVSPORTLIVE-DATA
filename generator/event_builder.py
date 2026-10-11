@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Iterable
@@ -1100,6 +1102,136 @@ def get_event_broadcasters(
 # EVENT
 # ============================================================
 
+
+def _team_tokens_for_channel_match(name: str | None) -> set[str]:
+    """Token utili per match canale DAZN SERIE A/B … SQUADRA."""
+    if not name:
+        return set()
+    stop = {
+        "fc", "cf", "ac", "as", "us", "ss", "calcio", "club", "the",
+        "hd", "sd", "fhd", "italy", "italia", "it", "serie", "a", "b",
+        "dazn", "sky", "sport",
+    }
+    aliases_map = {
+        "juve": "juventus",
+        "inter": "inter",
+        "milan": "milan",
+        "roma": "roma",
+        "lazio": "lazio",
+        "napoli": "napoli",
+        "fiore": "fiorentina",
+        "fiorentina": "fiorentina",
+        "atalanta": "atalanta",
+        "verona": "verona",
+        "hellas": "verona",
+        "bologna": "bologna",
+        "torino": "torino",
+        "genoa": "genoa",
+        "cagliari": "cagliari",
+        "empoli": "empoli",
+        "monza": "monza",
+        "lecce": "lecce",
+        "udinese": "udinese",
+        "sassuolo": "sassuolo",
+        "parma": "parma",
+        "como": "como",
+        "venezia": "venezia",
+        "cremonese": "cremonese",
+        "pisa": "pisa",
+        "palermo": "palermo",
+        "bari": "bari",
+        "spezia": "spezia",
+        "modena": "modena",
+        "cesena": "cesena",
+        "catanzaro": "catanzaro",
+        "cittadella": "cittadella",
+        "frosinone": "frosinone",
+        "brescia": "brescia",
+        "sampdoria": "sampdoria",
+        "salernitana": "salernitana",
+        "reggiana": "reggiana",
+        "mantova": "mantova",
+        "sudtirol": "sudtirol",
+        "carrarese": "carrarese",
+        "avellino": "avellino",
+        "padova": "padova",
+        "juve": "juventus",
+        "stabia": "stabia",
+    }
+    raw = re.sub(r"[^a-z0-9\s]", " ", (name or "").lower())
+    out: set[str] = set()
+    for w in raw.split():
+        if len(w) < 3 or w in stop or w.isdigit():
+            continue
+        out.add(aliases_map.get(w, w))
+        if w in aliases_map:
+            out.add(w)
+    return out
+
+
+def find_dazn_serie_team_channels(
+    competition_key: str | None,
+    home_name: str | None,
+    away_name: str | None,
+    channels: list,
+) -> list[str]:
+    """
+    Canali tipo "IT - DAZN SERIE A 1 JUVENTUS" / "DAZN SERIE B 17 SAMPDORIA"
+    associati se casa o ospite compare nel nome/alias del canale.
+    Il numero del canale è indifferente.
+    """
+    ck = (competition_key or "").lower()
+    if ck == "serie_a":
+        markers = ("dazn serie a", "dazn serie-a")
+    elif ck == "serie_b":
+        markers = ("dazn serie b", "dazn serie-b")
+    else:
+        return []
+
+    team_toks = _team_tokens_for_channel_match(home_name) | _team_tokens_for_channel_match(
+        away_name
+    )
+    if not team_toks:
+        return []
+
+    found: list[str] = []
+    seen: set[str] = set()
+
+    for ch in channels:
+        cid = getattr(ch, "id", None) or (ch.get("id") if isinstance(ch, dict) else None)
+        if not cid or cid in seen:
+            continue
+        names = []
+        if isinstance(ch, dict):
+            names.append(str(ch.get("name") or ""))
+            names.extend(str(a) for a in (ch.get("aliases") or []))
+        else:
+            names.append(str(getattr(ch, "name", "") or ""))
+            names.extend(str(a) for a in (getattr(ch, "aliases", None) or []))
+
+        blob = " ".join(names).lower()
+        blob_norm = re.sub(r"[^a-z0-9\s]", " ", blob)
+        if not any(m in blob_norm for m in markers):
+            continue
+
+        ch_toks = set(blob_norm.split())
+        hit = False
+        for t in team_toks:
+            if len(t) >= 4 and t in blob_norm:
+                hit = True
+                break
+            if len(t) >= 3 and t in ch_toks:
+                hit = True
+                break
+        if not hit:
+            continue
+
+        seen.add(cid)
+        found.append(cid)
+
+    return found
+
+
 def build_event(
     raw_event: RawEvent,
     liveonsat_events: Iterable[LiveOnSatEvent],
@@ -1169,6 +1301,22 @@ def build_event(
         channel_ids = filter_channel_ids_for_sport(
             raw_event.sport,
             channel_ids,
+        )
+
+    # DAZN Serie A/B per-squadra (numero canale indifferente)
+    team_ch = find_dazn_serie_team_channels(
+        competition_key=raw_event.competition_key,
+        home_name=raw_event.home_team_name,
+        away_name=raw_event.away_team_name,
+        channels=channels_list,
+    )
+    if team_ch:
+        for cid in team_ch:
+            if cid not in channel_ids:
+                channel_ids.append(cid)
+        print(
+            f"[EVENT] {raw_event.title} -> DAZN team channels: "
+            f"{', '.join(team_ch)}"
         )
 
     if channel_ids:
