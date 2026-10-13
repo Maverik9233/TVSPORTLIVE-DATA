@@ -781,10 +781,32 @@ def deduplicate_liveonsat_events(
 # MATCHING
 # ============================================================
 
+def _canonicalize_club_name(name: str) -> str:
+    """Sinonimi club: Internazionale ↔ Inter, ecc."""
+    n = (name or "").strip().casefold()
+    n = re.sub(r"\s+", " ", n)
+    # Inter Milan / FC Internazionale → inter
+    replacements = (
+        (r"\bfc internazionale\b", "inter"),
+        (r"\binternazionale\b", "inter"),
+        (r"\binter milan\b", "inter"),
+        (r"\binter milano\b", "inter"),
+        (r"\bman united\b", "manchester united"),
+        (r"\bman city\b", "manchester city"),
+        (r"\bpsg\b", "paris saint germain"),
+        (r"\batletico madrid\b", "atletico madrid"),
+        (r"\bbayern munich\b", "bayern munchen"),
+        (r"\bbayern munchen\b", "bayern munchen"),
+    )
+    for pat, rep in replacements:
+        n = re.sub(pat, rep, n)
+    return n
+
+
 def _team_parts_match(first: str, second: str) -> bool:
     """Confronta due nomi squadra in modo stretto (niente falsi match tra nazionali)."""
-    a = normalize_text(first).casefold()
-    b = normalize_text(second).casefold()
+    a = _canonicalize_club_name(normalize_text(first))
+    b = _canonicalize_club_name(normalize_text(second))
 
     if not a or not b:
         return False

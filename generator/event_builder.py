@@ -282,6 +282,32 @@ COMPETITION_BROADCASTER_OVERRIDES = {
     # Solo leghe dove senza override non avremmo MAI un canale IT
     # e i diritti sono noti a livello di competizione (non di singola gara).
     # Per tutto il resto: SOLO LiveOnSat / Sky articoli Serie C.
+    "champions_league": (
+        "Sky Sport Uno",
+        "Sky Sport Calcio",
+        "Sky Go Italy",
+        "NOW",
+        "Prime Video",
+        "Amazon Prime Video",
+        "Paramount+",
+        "Paramount Plus",
+    ),
+    "europa_league": (
+        "Sky Sport Uno",
+        "Sky Sport Calcio",
+        "Sky Go Italy",
+        "NOW",
+        "Prime Video",
+        "Amazon Prime Video",
+        "TV8",
+    ),
+    "conference_league": (
+        "Sky Sport Uno",
+        "Sky Sport Calcio",
+        "Sky Go Italy",
+        "NOW",
+        "TV8",
+    ),
     "serie_a": (
         "DAZN 1 Italia",
         "DAZN 2 Italia",
@@ -1057,7 +1083,13 @@ def get_event_broadcasters(
         ck = "uefa_youth_league"
     # Serie A/B: diritti noti → aggiungi sempre DAZN (e Sky) anche se LiveOnSat
     # ha messo solo Paramount/esteri
-    if ck in {"serie_a", "serie_b"}:
+    if ck in {
+        "serie_a",
+        "serie_b",
+        "champions_league",
+        "europa_league",
+        "conference_league",
+    }:
         for broadcaster in COMPETITION_BROADCASTER_OVERRIDES.get(ck, ()):
             add(broadcaster)
     elif not broadcasters:
@@ -1115,6 +1147,8 @@ def _team_tokens_for_channel_match(name: str | None) -> set[str]:
     aliases_map = {
         "juve": "juventus",
         "inter": "inter",
+        "internazionale": "inter",
+        "inter milan": "inter",
         "milan": "milan",
         "roma": "roma",
         "lazio": "lazio",
