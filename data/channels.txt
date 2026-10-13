@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T11:52:51Z",
+  "generatedAt": "2026-10-13T14:05:07Z",
   "channels": [
     {
       "id": "sky_sport_uno",
@@ -75161,6 +75161,48 @@
           "type": "HLS",
           "enabled": true,
           "priority": 15
+        },
+        {
+          "id": "it_eurosport_1_uhd_src_16",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lMZ-uj73_WsQWLrE5TufRM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 16
+        },
+        {
+          "id": "it_eurosport_1_uhd_src_17",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gTJlqnXwFBusSOIdPhBGdY/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 17
+        },
+        {
+          "id": "it_eurosport_1_uhd_src_18",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pVSHcuR76qVP33l3aOjuxk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 18
+        },
+        {
+          "id": "it_eurosport_1_uhd_src_19",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rvXVrIg9ilsq_LKJuXsx84/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 19
+        },
+        {
+          "id": "it_eurosport_1_uhd_src_20",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0synq-uyfgAfPWz7I_KvtWs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 20
+        },
+        {
+          "id": "it_eurosport_1_uhd_src_21",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ozxDxqNDxr3OHSfMcqtQr4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 21
         }
       ]
     },
@@ -75260,6 +75302,48 @@
           "type": "HLS",
           "enabled": true,
           "priority": 11
+        },
+        {
+          "id": "it_eurosport_2_uhd_src_12",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lmWCg-5NucsNa3xrSkuZtk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 12
+        },
+        {
+          "id": "it_eurosport_2_uhd_src_13",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mLO8MiPUKba1WHhQyDsGik/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 13
+        },
+        {
+          "id": "it_eurosport_2_uhd_src_14",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lTdQ2e9Zac6NC-vuKT8chs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 14
+        },
+        {
+          "id": "it_eurosport_2_uhd_src_15",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qq-SAZ8eGDZqTml2zc-r9k/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 15
+        },
+        {
+          "id": "it_eurosport_2_uhd_src_16",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jlCvQjg-vswWa4-jdFSbXw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 16
+        },
+        {
+          "id": "it_eurosport_2_uhd_src_17",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0joXGv5DJkSMztMfhec29ts/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 17
         }
       ]
     },
@@ -77511,6 +77595,34 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 4
+        },
+        {
+          "id": "es_dazn_laliga_fhd_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qe0pZ_5BunZ915byQdeYkk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
+        },
+        {
+          "id": "es_dazn_laliga_fhd_src_6",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qMUFZACRUPVBpOmhgbfuJU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 6
+        },
+        {
+          "id": "es_dazn_laliga_fhd_src_7",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qZ2zq_OSIQnd6U5vtNnUvU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 7
+        },
+        {
+          "id": "es_dazn_laliga_fhd_src_8",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jZDyUxsy2Qq62l1YcYYYyg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 8
         }
       ]
     },
@@ -77575,6 +77687,20 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 4
+        },
+        {
+          "id": "fr_dazn_laliga_2_fhd_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0npQQSa3zdVjsdOS8v-iVdw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
+        },
+        {
+          "id": "fr_dazn_laliga_2_fhd_src_6",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iWjMz1ucDdPWsxDpMmNCvI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 6
         }
       ]
     },
@@ -78239,6 +78365,13 @@
           "type": "HLS",
           "enabled": true,
           "priority": 6
+        },
+        {
+          "id": "de_dazn_1_4k_src_7",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kiHTpae1WBtAkrngQnSj00/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 7
         }
       ]
     },
@@ -78283,6 +78416,13 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 4
+        },
+        {
+          "id": "fr_dazn_2_fhd_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iM_G1shtYUDSyFdoUbWfhY/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
         }
       ]
     },
@@ -85031,6 +85171,13 @@
           "type": "HLS",
           "enabled": true,
           "priority": 5
+        },
+        {
+          "id": "de_red_bull_tv_fhd_src_6",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mf4eA26HiL5yeGIJNAlYnU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 6
         }
       ]
     },
@@ -87249,6 +87396,20 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 2
+        },
+        {
+          "id": "es_m_liga_de_campeones_2_fhd_src_3",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0i-zvJfQ_mr_37L456E0mRQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 3
+        },
+        {
+          "id": "es_m_liga_de_campeones_2_fhd_src_4",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0miGlGLLaw5yTi1awu9fVP4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 4
         }
       ]
     },
@@ -87285,6 +87446,20 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 3
+        },
+        {
+          "id": "es_m_liga_de_campeones_3_fhd_src_4",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0l0NGMNXn7bsXRHMBVoMZpo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 4
+        },
+        {
+          "id": "es_m_liga_de_campeones_3_fhd_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pba0RsGIHfeoW6U5z2kr04/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
         }
       ]
     },
@@ -87330,6 +87505,20 @@
           "type": "HLS",
           "enabled": true,
           "priority": 4
+        },
+        {
+          "id": "es_m_liga_de_campeones_4_fhd_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lJ1y4HsrVSqanF_moXvPpw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
+        },
+        {
+          "id": "es_m_liga_de_campeones_4_fhd_src_6",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0trqlw8GzAHU-HzBsqJVsmA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 6
         }
       ]
     },
@@ -87367,6 +87556,20 @@
           "type": "HLS",
           "enabled": true,
           "priority": 3
+        },
+        {
+          "id": "es_m_liga_de_campeones_5_fhd_src_4",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vkloO-V33D4-byEKKHB4lg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 4
+        },
+        {
+          "id": "es_m_liga_de_campeones_5_fhd_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uwmwT4XMdOaGeUS11HJOvQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
         }
       ]
     },
@@ -87396,6 +87599,13 @@
           "type": "HLS",
           "enabled": true,
           "priority": 2
+        },
+        {
+          "id": "es_m_liga_de_campeones_7_hd_src_3",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rKmDo6KCZ_SpwNM7qDNZOs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 3
         }
       ]
     },
@@ -87425,6 +87635,13 @@
           "type": "HLS",
           "enabled": true,
           "priority": 2
+        },
+        {
+          "id": "es_m_liga_de_campeones_8_hd_src_3",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vgMrWrHZvV86TTHAhrZW74/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 3
         }
       ]
     },
@@ -87454,6 +87671,13 @@
           "type": "HLS",
           "enabled": true,
           "priority": 2
+        },
+        {
+          "id": "es_m_liga_de_campeones_9_hd_src_3",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kP2QVjMc_pu9XYH4hIJlfM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 3
         }
       ]
     },
@@ -87483,6 +87707,13 @@
           "type": "HLS",
           "enabled": true,
           "priority": 2
+        },
+        {
+          "id": "es_m_liga_de_campeones_13_fhd_src_3",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hjudtLZ6bBNkgUSajZhFXk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 3
         }
       ]
     },
@@ -88780,6 +89011,27 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 4
+        },
+        {
+          "id": "es_dazn_f1_fhd_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jXYw2ZnHO1YmRsP9cvgND0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
+        },
+        {
+          "id": "es_dazn_f1_fhd_src_6",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qSrcqFLe_iGSXBmj5NHlcA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 6
+        },
+        {
+          "id": "es_dazn_f1_fhd_src_7",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kfjdeQCbUZtSv0giDpRAsc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 7
         }
       ]
     },
@@ -88860,6 +89112,27 @@
           "type": "HLS",
           "enabled": true,
           "priority": 4
+        },
+        {
+          "id": "es_dazn_motogp_fhd_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tDQZN9q71nUyedk5pJijg8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
+        },
+        {
+          "id": "es_dazn_motogp_fhd_src_6",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uenflqzQfEk4M5Bc22y-Aw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 6
+        },
+        {
+          "id": "es_dazn_motogp_fhd_src_7",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pqW--rkUh5BySI4smC1aD0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 7
         }
       ]
     },
@@ -164722,6 +164995,4364 @@
           "id": "the_netflix_slam_source_1",
           "url": "http://neqyfzw.top:8080/movie/50176883507542/q4vikzhfcrj2/60635.mkv",
           "type": "AUTO",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_eventos_ppv_hoy",
+      "name": "DAZN EVENTOS PPV HOY",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/V12h3OKhgHitTXh398esJUGlmxMa5LJye2Y8BpSGQFWbj3a9DuZOWI-n4IduheCv.png",
+      "aliases": [
+        "DAZN EVENTOS PPV HOY"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_eventos_ppv_hoy_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0s1S0AXxuvywarAogHr9Rqc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_ppv_1_12_carvajal_fichado_qui_n_es_la_siguiente_bomba_trending",
+      "name": "DAZN PPV 1 | #12 ¡Carvajal fichado! ¿Quién es la siguiente bomba? | Trending (2026-10-13 15:00:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/371l861y070dff4uxl75303wi_image-header_pEs_1791888127000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "DAZN PPV 1 | #12 ¡Carvajal fichado! ¿Quién es la siguiente bomba? | Trending",
+        "DAZN PPV 1 | #12 ¡Carvajal fichado! ¿Quién es la siguiente bomba? | Trending (2026-10-13 15:00:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_ppv_1_12_carvajal_fichado_qui_n_es_la_siguiente_bomba_trending_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ls851s8y-NgCifdcySEJcs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "ppv_spare_90845464",
+      "name": "DAZN PPV (No Event)",
+      "country": "INTERNATIONAL",
+      "priority": 400,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/dazn-ppv-uk.png?raw=true",
+      "aliases": [
+        "No Event",
+        "DAZN PPV (No Event)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "ppv_spare_90845464_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0o14RCztO9wk60PpzEWGeFI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "ppv_spare_90845464_src_2",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ocaMUgg9JOLp5T-KNIRwCw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 2
+        },
+        {
+          "id": "ppv_spare_90845464_src_3",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mewvrnw6Hq1DpG1oEtrQOE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 3
+        },
+        {
+          "id": "ppv_spare_90845464_src_4",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uxCuFZq2d849bmcbvlraOQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 4
+        },
+        {
+          "id": "ppv_spare_90845464_src_5",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vgSdplqr_BqrV2MTrH0dyM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 5
+        },
+        {
+          "id": "ppv_spare_90845464_src_6",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kdtupAMUdKSgpy1O2Tph2g/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 6
+        },
+        {
+          "id": "ppv_spare_90845464_src_7",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qT03l5QtDGtUVdMcRIXop0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 7
+        },
+        {
+          "id": "ppv_spare_90845464_src_8",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qWuPAlSzhRl8TcMCAG39rU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 8
+        },
+        {
+          "id": "ppv_spare_90845464_src_9",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nERKnV2_mR3L-ZhzoNdOzg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 9
+        },
+        {
+          "id": "ppv_spare_90845464_src_10",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pb8s-F3K_2zzhUFMfWfV74/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 10
+        },
+        {
+          "id": "ppv_spare_90845464_src_11",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nqBbxJgzftEvEtmUOLrY_g/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 11
+        },
+        {
+          "id": "ppv_spare_90845464_src_12",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sIay7r3A0JcNKacKWi9NBY/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 12
+        },
+        {
+          "id": "ppv_spare_90845464_src_13",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gh-W4dHyxHLjsPJrLiWSz0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 13
+        },
+        {
+          "id": "ppv_spare_90845464_src_14",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gvCbmyY-S6bRuiazZT7bfM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 14
+        },
+        {
+          "id": "ppv_spare_90845464_src_15",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mjetzHF8kY8BStDpeCrzi4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 15
+        },
+        {
+          "id": "ppv_spare_90845464_src_16",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hbRAeGPo_lVshySQ5BvNBc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 16
+        },
+        {
+          "id": "ppv_spare_90845464_src_17",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kmZ-YwN1cUMs5z2oPB-Vg8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 17
+        },
+        {
+          "id": "ppv_spare_90845464_src_18",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iD5eiP_8ukSrWD30y8chNs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 18
+        },
+        {
+          "id": "ppv_spare_90845464_src_19",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0j-XnHef8QVMm8DIskH67nM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 19
+        },
+        {
+          "id": "ppv_spare_90845464_src_20",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ni2o3IOovtTeLYPZLmrFOA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 20
+        },
+        {
+          "id": "ppv_spare_90845464_src_21",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0trvdVAzEo-IrC4QHbsjMF4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 21
+        },
+        {
+          "id": "ppv_spare_90845464_src_22",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mU7mGZ1jv_oin0Q1iBgs4Y/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 22
+        },
+        {
+          "id": "ppv_spare_90845464_src_23",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iLnHnBmTnwRwzkB4OC-5uI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 23
+        },
+        {
+          "id": "ppv_spare_90845464_src_24",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hHxCz_XO66v_vh4k6ivo54/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 24
+        },
+        {
+          "id": "ppv_spare_90845464_src_25",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gukwt3nVi09csWtVrTKUcE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 25
+        },
+        {
+          "id": "ppv_spare_90845464_src_26",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0n_Rt2XrlbL__0NiJNnrbWU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 26
+        },
+        {
+          "id": "ppv_spare_90845464_src_27",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kpztHj6hS4OWvSmlP6aCIg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 27
+        },
+        {
+          "id": "ppv_spare_90845464_src_28",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lgVQ_zP6-ZqtFgtJVHQVsY/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 28
+        },
+        {
+          "id": "ppv_spare_90845464_src_29",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nR95oZJI9yWQgN-d7tvZbA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 29
+        },
+        {
+          "id": "ppv_spare_90845464_src_30",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ok5FSlAi5H1Ozp5M7Cia44/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 30
+        },
+        {
+          "id": "ppv_spare_90845464_src_31",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uRj3DClkR7Q5jwUJ_m_Y8I/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 31
+        },
+        {
+          "id": "ppv_spare_90845464_src_32",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hCsyTGH987m-gK1ONO6nqg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 32
+        },
+        {
+          "id": "ppv_spare_90845464_src_33",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sC9tzoLCJQ6kOdWZ20uArc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 33
+        },
+        {
+          "id": "ppv_spare_90845464_src_34",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ohYgFrZsp5cV8h26MdgaLg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 34
+        },
+        {
+          "id": "ppv_spare_90845464_src_35",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mM7VEiNF9fYLx8eeuSRA8c/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 35
+        },
+        {
+          "id": "ppv_spare_90845464_src_36",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0oSD3ctMJgnb2K1SYSAusQs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 36
+        },
+        {
+          "id": "ppv_spare_90845464_src_37",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tJme-G-S3z4P9Ce3rE1Lu4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 37
+        },
+        {
+          "id": "ppv_spare_90845464_src_38",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rkdb3xEXRsL4iZtGoaOGn8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 38
+        },
+        {
+          "id": "ppv_spare_90845464_src_39",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0s3EwuCbU9XElHe5okKbFOk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 39
+        },
+        {
+          "id": "ppv_spare_90845464_src_40",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tAvZ4_9cNYGt4_s9kHwtaM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 40
+        },
+        {
+          "id": "ppv_spare_90845464_src_41",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qvzEsbxzA83DFUz5Hmfq-Q/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 41
+        },
+        {
+          "id": "ppv_spare_90845464_src_42",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uPCKbaipOZfKcW1xGfEq3o/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 42
+        },
+        {
+          "id": "ppv_spare_90845464_src_43",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0valm80Dl4qxBnzI-qzR4ig/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 43
+        },
+        {
+          "id": "ppv_spare_90845464_src_44",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hdqp6SR3LZRnjjCPqgnLrs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 44
+        },
+        {
+          "id": "ppv_spare_90845464_src_45",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pfw0TZjdFAus8GnFEebWus/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 45
+        },
+        {
+          "id": "ppv_spare_90845464_src_46",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0m7BYEy9HfynWaUQcOeGy9U/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 46
+        },
+        {
+          "id": "ppv_spare_90845464_src_47",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0oZtZ9I8URlmwQ30IGGOz9o/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 47
+        },
+        {
+          "id": "ppv_spare_90845464_src_48",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ivdBgTc5oHeitSK4wFKIjQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 48
+        },
+        {
+          "id": "ppv_spare_90845464_src_49",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mXlPSuIt9efr8WS1cfvFM0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 49
+        },
+        {
+          "id": "ppv_spare_90845464_src_50",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gPP3ZajYpUCO5R2JXFATPk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 50
+        },
+        {
+          "id": "ppv_spare_90845464_src_51",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gCUSZWmtQbxggC7bBp9n_A/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 51
+        },
+        {
+          "id": "ppv_spare_90845464_src_52",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rYUmD6TKPJcNd9drOYkdSg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 52
+        },
+        {
+          "id": "ppv_spare_90845464_src_53",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kZrPMdRsaeunRjHqn0-Wjs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 53
+        },
+        {
+          "id": "ppv_spare_90845464_src_54",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tuRr9KSPd-W8MzafULxHvs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 54
+        },
+        {
+          "id": "ppv_spare_90845464_src_55",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0v4lTN_ftR82cTVWN6zopX4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 55
+        },
+        {
+          "id": "ppv_spare_90845464_src_56",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ni7wzSTJ9fuJSPrdZFQ1ac/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 56
+        },
+        {
+          "id": "ppv_spare_90845464_src_57",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0g4u5F0HB9kH3eOptAhIUoI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 57
+        },
+        {
+          "id": "ppv_spare_90845464_src_58",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sdLit0KmoADQT7aAfkhZJ0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 58
+        },
+        {
+          "id": "ppv_spare_90845464_src_59",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0owW5N9K_06vc20b8KicccM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 59
+        },
+        {
+          "id": "ppv_spare_90845464_src_60",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0r2b7mHH85WKbuRIvKhLjB8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 60
+        },
+        {
+          "id": "ppv_spare_90845464_src_61",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nvKJL7OyeSVk_Pn9jpWBNQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 61
+        },
+        {
+          "id": "ppv_spare_90845464_src_62",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0n8rltZRdCn8JE9a62XGTvo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 62
+        },
+        {
+          "id": "ppv_spare_90845464_src_63",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qR0RFe4TKHQdKXAYnkxgis/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 63
+        },
+        {
+          "id": "ppv_spare_90845464_src_64",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0s2Xxm7pccKqY6xXFnzSqkI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 64
+        },
+        {
+          "id": "ppv_spare_90845464_src_65",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0oaHHqqrmhe1U5W9991BEK8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 65
+        },
+        {
+          "id": "ppv_spare_90845464_src_66",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ujWmIT9POHy7zqYJlrB3yw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 66
+        },
+        {
+          "id": "ppv_spare_90845464_src_67",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qcetifva_Q7rCCb0X1LlLs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 67
+        },
+        {
+          "id": "ppv_spare_90845464_src_68",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vdtj3pbhW2OfT3Ykk4_mwI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 68
+        }
+      ]
+    },
+    {
+      "id": "bc_d_a_1_sesi_n_1_grand_slam_of_curling",
+      "name": "BC | Día 1 - Sesión 1 | Grand Slam of Curling (2026-10-13 17:30:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/hcg2iebp7tot1gshvqcbfjy69_image-header_pEs_1791302407000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "BC | Día 1 - Sesión 1 | Grand Slam of Curling",
+        "BC | Día 1 - Sesión 1 | Grand Slam of Curling (2026-10-13 17:30:00)",
+        "DAZN PPV 7 | Victoria, BC | Día 1 - Sesión 1 | Grand Slam of Curling (2026-10-13 17:30:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bc_d_a_1_sesi_n_1_grand_slam_of_curling_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qhE_QMOiNgUoNAhwltHWUE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bc_d_a_1_sesi_n_2_grand_slam_of_curling",
+      "name": "BC | Día 1 - Sesión 2 | Grand Slam of Curling (2026-10-13 21:00:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/1rj9dhhkocp5e1suir203sk5fu_image-header_pEs_1791302407000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "BC | Día 1 - Sesión 2 | Grand Slam of Curling",
+        "BC | Día 1 - Sesión 2 | Grand Slam of Curling (2026-10-13 21:00:00)",
+        "DAZN PPV 8 | Victoria, BC | Día 1 - Sesión 2 | Grand Slam of Curling (2026-10-13 21:00:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bc_d_a_1_sesi_n_2_grand_slam_of_curling_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lWhy-G0ih3wmXbN4h08Agw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bc_d_a_1_sesi_n_3_grand_slam_of_curling",
+      "name": "BC | Día 1 - Sesión 3 | Grand Slam of Curling (2026-10-14 00:30:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/1h92fpotoh9su14aprjj5zob6n_image-header_pEs_1791302407000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "BC | Día 1 - Sesión 3 | Grand Slam of Curling",
+        "BC | Día 1 - Sesión 3 | Grand Slam of Curling (2026-10-14 00:30:00)",
+        "DAZN PPV 10 | Victoria, BC | Día 1 - Sesión 3 | Grand Slam of Curling (2026-10-14 00:30:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bc_d_a_1_sesi_n_3_grand_slam_of_curling_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uXuouiZzwtNOLlPc950jbg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bc_d_a_1_sesi_n_4_grand_slam_of_curling",
+      "name": "BC | Día 1 - Sesión 4 | Grand Slam of Curling (2026-10-14 04:00:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/190bk1ro59kg21nfujyiolvknr_image-header_pEs_1791302407000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "BC | Día 1 - Sesión 4 | Grand Slam of Curling",
+        "BC | Día 1 - Sesión 4 | Grand Slam of Curling (2026-10-14 04:00:00)",
+        "DAZN PPV 11 | Victoria, BC | Día 1 - Sesión 4 | Grand Slam of Curling (2026-10-14 04:00:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bc_d_a_1_sesi_n_4_grand_slam_of_curling_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0i4MIFA6leVyrXpDNSCzgJ4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_ppv_12_programa_13_laliga_ea_sports",
+      "name": "DAZN PPV 12 | Programa #13 | LALIGA EA SPORTS (2026-10-14 15:00:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/3kmgm4e77hjhfcig26ya5yyxb_image-header_pEs_1790347752000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "DAZN PPV 12 | Programa #13 | LALIGA EA SPORTS",
+        "DAZN PPV 12 | Programa #13 | LALIGA EA SPORTS (2026-10-14 15:00:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_ppv_12_programa_13_laliga_ea_sports_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vguwSxBFZiJ0sRks-jT0ac/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bc_d_a_2_sesi_n_1_grand_slam_of_curling",
+      "name": "BC | Día 2 - Sesión 1 | Grand Slam of Curling (2026-10-14 17:30:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/1lgn16hde7vbv18k4wlhnsv4m9_image-header_pEs_1791302407000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "BC | Día 2 - Sesión 1 | Grand Slam of Curling",
+        "BC | Día 2 - Sesión 1 | Grand Slam of Curling (2026-10-14 17:30:00)",
+        "DAZN PPV 13 | Victoria, BC | Día 2 - Sesión 1 | Grand Slam of Curling (2026-10-14 17:30:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bc_d_a_2_sesi_n_1_grand_slam_of_curling_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lp0lSKra7VOnN0z6KvygZ8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_ppv_14_asisa_joventut_morabanc_andorra_liga_endesa",
+      "name": "DAZN PPV 14 | Asisa Joventut - MoraBanc Andorra | Liga Endesa (2026-10-14 20:00:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/2fv5s4d1rb3i2vj2utrtad6j3_image-header_pEs_1787757535000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "DAZN PPV 14 | Asisa Joventut - MoraBanc Andorra | Liga Endesa",
+        "DAZN PPV 14 | Asisa Joventut - MoraBanc Andorra | Liga Endesa (2026-10-14 20:00:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_ppv_14_asisa_joventut_morabanc_andorra_liga_endesa_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0t4i7EBEcmLbqFEj2ShMAR4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "bc_d_a_2_sesi_n_2_grand_slam_of_curling",
+      "name": "BC | Día 2 - Sesión 2 | Grand Slam of Curling (2026-10-14 21:00:00)",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://image.discovery.indazn.com/eu/v3/eu/none/gt84sj9mp7w312cgr483cavd1_image-header_pEs_1791302407000/fill/none/top/none/85/668/374/png/image",
+      "aliases": [
+        "BC | Día 2 - Sesión 2 | Grand Slam of Curling",
+        "BC | Día 2 - Sesión 2 | Grand Slam of Curling (2026-10-14 21:00:00)",
+        "DAZN PPV 15 | Victoria, BC | Día 2 - Sesión 2 | Grand Slam of Curling (2026-10-14 21:00:00)"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "bc_d_a_2_sesi_n_2_grand_slam_of_curling_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pozgfcfwruEhvpsF5sqOro/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_fhd",
+      "name": "ES MV| M+ Baloncesto FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmwtkWA89nRNOP3mfp_LNJdwpyftt4otArH4JylBjwOT.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0m_IQ6tD3Vvd3pIAWhJ5eKU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_hd",
+      "name": "ES MV| M+ Baloncesto HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmwtkWA89nRNOP3mfp_LNJdwpyftt4otArH4JylBjwOT.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sy2HL7SpEScvfDhk08RtrQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_sd",
+      "name": "ES MV| M+ Baloncesto SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmwtkWA89nRNOP3mfp_LNJdwpyftt4otArH4JylBjwOT.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0m6KEByFVRVPrhE3x5SKvbc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_2_fhd",
+      "name": "ES MV| M+ Baloncesto 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmwtkWA89nRNOP3mfp_LNJd5LlLpHONzeKRqZhClLYt-.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vQLF5SoAyVlwPcdLYRICpc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_2_hd",
+      "name": "ES MV| M+ Baloncesto 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmwtkWA89nRNOP3mfp_LNJd5LlLpHONzeKRqZhClLYt-.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qBIi9V-zgjXq29pPGCk954/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_2_sd",
+      "name": "ES MV| M+ Baloncesto 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmwtkWA89nRNOP3mfp_LNJd5LlLpHONzeKRqZhClLYt-.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iu_I7ins5rluZMbz4qwqxk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_3_fhd",
+      "name": "ES MV| M+ Baloncesto 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4Iq8tRK3mUsI3wUvtEH-FKQ.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uO4OLwVVbOknSWB5QQXR7o/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_3_hd",
+      "name": "ES MV| M+ Baloncesto 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4Iq8tRK3mUsI3wUvtEH-FKQ.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lgwAntNPIhakx9jiFxm_5c/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_3_sd",
+      "name": "ES MV| M+ Baloncesto 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4Iq8tRK3mUsI3wUvtEH-FKQ.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gRu1s1zDqIH3XxH0o3CGow/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_4_fhd",
+      "name": "ES MV| M+ Baloncesto 4 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4WGDatvImlge4K3O9M2iCmQ.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 4 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_4_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mt0iMS3JFaTOyKgiztC7l8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_4_hd",
+      "name": "ES MV| M+ Baloncesto 4 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4WGDatvImlge4K3O9M2iCmQ.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 4 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_4_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ozPd50AGuaAvk1Y-KwN94s/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_4_sd",
+      "name": "ES MV| M+ Baloncesto 4 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4WGDatvImlge4K3O9M2iCmQ.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 4 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_4_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tfAafRnlr0MyZxzUQD-q64/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_5_fhd",
+      "name": "ES MV| M+ Baloncesto 5 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4Y-d8WIoROEqZka0rONA5ag.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 5 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_5_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jwudeONwJUsm7vQebsL1JQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_5_hd",
+      "name": "ES MV| M+ Baloncesto 5 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4Y-d8WIoROEqZka0rONA5ag.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 5 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_5_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jKlSbJUYoXuVSFPCilz6OM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_baloncesto_5_sd",
+      "name": "ES MV| M+ Baloncesto 5 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/z_IHH7QDygvLbdKR2QJSjxalTf96ve4lZ6Yt_HVHa9LD_Hzd9rRTxAH1jIpNWGU4Y-d8WIoROEqZka0rONA5ag.png",
+      "aliases": [
+        "ES MV| M+ Baloncesto 5 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_baloncesto_5_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ootw52frpZN2oBYuHxyfFA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_fhd",
+      "name": "ES MV| M+ Deportes FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1bSdaHYbE-DQN2E1-HrS2g2.png",
+      "aliases": [
+        "ES MV| M+ Deportes FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rTrXIbJdEz4uqMW-T7IJ1U/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_hd",
+      "name": "ES MV| M+ Deportes HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1bSdaHYbE-DQN2E1-HrS2g2.png",
+      "aliases": [
+        "ES MV| M+ Deportes HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rUcuAwDjWSLRGlFKq86LQU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_sd",
+      "name": "ES MV| M+ Deportes SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1bSdaHYbE-DQN2E1-HrS2g2.png",
+      "aliases": [
+        "ES MV| M+ Deportes SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0p7B2HtYRnPfHD-dUeDyTBA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_2_fhd",
+      "name": "ES MV| M+ Deportes 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1b8UXcM7BXMbZaVGnBuAag3.png",
+      "aliases": [
+        "ES MV| M+ Deportes 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0q-XwdccMWNtDQnyM-o394U/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_2_hd",
+      "name": "ES MV| M+ Deportes 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1b8UXcM7BXMbZaVGnBuAag3.png",
+      "aliases": [
+        "ES MV| M+ Deportes 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nPJfXQ36m7HjJh32a8f6Uo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_2_sd",
+      "name": "ES MV| M+ Deportes 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1b8UXcM7BXMbZaVGnBuAag3.png",
+      "aliases": [
+        "ES MV| M+ Deportes 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kHZrUKMacrW0qIZOmYABB8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_vamos_fhd",
+      "name": "ES | M+ Vamos FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m5q2Ht_3ktRKaJ-_ET1P57t.png",
+      "aliases": [
+        "ES | M+ Vamos FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_vamos_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vj2nuJUINhTbSPddofGfzg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_vamos_hd",
+      "name": "ES | M+ Vamos HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m5q2Ht_3ktRKaJ-_ET1P57t.png",
+      "aliases": [
+        "ES | M+ Vamos HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_vamos_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0voGJtw0mi4T9LaeS1MMtv8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_vamos_sd",
+      "name": "ES | M+ Vamos SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m5q2Ht_3ktRKaJ-_ET1P57t.png",
+      "aliases": [
+        "ES | M+ Vamos SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_vamos_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pkSvdPWVl7AJH47iqpJXnU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_vamos_2_fhd",
+      "name": "ES MV| M+ Vamos 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m421w8_EmwePMgdx98-oWBC.png",
+      "aliases": [
+        "ES MV| M+ Vamos 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_vamos_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0i___xQi1Raj6HrmZ7PEFdE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_vamos_2_hd",
+      "name": "ES MV| M+ Vamos 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m421w8_EmwePMgdx98-oWBC.png",
+      "aliases": [
+        "ES MV| M+ Vamos 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_vamos_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vVfFp7Z8dgdVuW-w0_j-EU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_vamos_2_sd",
+      "name": "ES MV| M+ Vamos 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m421w8_EmwePMgdx98-oWBC.png",
+      "aliases": [
+        "ES MV| M+ Vamos 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_vamos_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pSu3eKZM6B8MPDrreVuH_s/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_vamos_3_fhd",
+      "name": "ES MV| M+ Vamos 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m6_OUqjX0BZoFqGKJvit9WW.png",
+      "aliases": [
+        "ES MV| M+ Vamos 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_vamos_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mKJCWTXA6j4aV2z80FbjzI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_vamos_3_hd",
+      "name": "ES MV| M+ Vamos 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m6_OUqjX0BZoFqGKJvit9WW.png",
+      "aliases": [
+        "ES MV| M+ Vamos 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_vamos_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kNBlRJaOxipzeq1hlPB-tg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_vamos_3_sd",
+      "name": "ES MV| M+ Vamos 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFq24EMC9XobATVinnOF_3m6_OUqjX0BZoFqGKJvit9WW.png",
+      "aliases": [
+        "ES MV| M+ Vamos 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_vamos_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nihXwxjc5KCjNtB7Zi54zE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_3_fhd",
+      "name": "ES MV| M+ Deportes 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1bwJ7KpsTGtAjPYIEmWJFJd.png",
+      "aliases": [
+        "ES MV| M+ Deportes 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0oxQMHj1n3ZU0zIMmGFK7jE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_3_hd",
+      "name": "ES MV| M+ Deportes 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1bwJ7KpsTGtAjPYIEmWJFJd.png",
+      "aliases": [
+        "ES MV| M+ Deportes 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qyOgKLadY9WXWbwXjgqzYc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_3_sd",
+      "name": "ES MV| M+ Deportes 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1bwJ7KpsTGtAjPYIEmWJFJd.png",
+      "aliases": [
+        "ES MV| M+ Deportes 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nKIaKlsCSCKv8_hGizAfPQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_4_fhd",
+      "name": "ES MV| M+ Deportes 4 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1YQG8qqa0hFEQX3_EV8FpDT.png",
+      "aliases": [
+        "ES MV| M+ Deportes 4 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_4_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hljZpWNt6w-sSuSysco4zw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_4_hd",
+      "name": "ES MV| M+ Deportes 4 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1YQG8qqa0hFEQX3_EV8FpDT.png",
+      "aliases": [
+        "ES MV| M+ Deportes 4 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_4_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ihFlqgRa7kiCTdHLEXtmeU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_4_sd",
+      "name": "ES MV| M+ Deportes 4 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1YQG8qqa0hFEQX3_EV8FpDT.png",
+      "aliases": [
+        "ES MV| M+ Deportes 4 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_4_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rtjtO-dZd2E8Qz4yrd3Fsg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_5_fhd",
+      "name": "ES MV| M+ Deportes 5 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1YoOezViacGTfXOv4CZmsWj.png",
+      "aliases": [
+        "ES MV| M+ Deportes 5 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_5_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lXiKbkioRHVvVUBd8y00vM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_5_hd",
+      "name": "ES MV| M+ Deportes 5 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1YoOezViacGTfXOv4CZmsWj.png",
+      "aliases": [
+        "ES MV| M+ Deportes 5 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_5_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iwPp3JpOFerbQYdpjscvgU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_5_sd",
+      "name": "ES MV| M+ Deportes 5 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1YoOezViacGTfXOv4CZmsWj.png",
+      "aliases": [
+        "ES MV| M+ Deportes 5 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_5_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nOVNigMIPWDAK3XA2wwopQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_6_hd",
+      "name": "ES MV| M+ Deportes 6 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1ZGtFnI_dIJKMtxl9lmpXFw.png",
+      "aliases": [
+        "ES MV| M+ Deportes 6 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_6_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rC0VoFyrswvdGBYB0OjoJ8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_deportes_6_sd",
+      "name": "ES MV| M+ Deportes 6 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFn1JvmEOf7O_wdX29qiwk1ZGtFnI_dIJKMtxl9lmpXFw.png",
+      "aliases": [
+        "ES MV| M+ Deportes 6 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_deportes_6_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iVe7r-f8L83g4PomdF-rqo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_hdr",
+      "name": "ES| M Liga de Campeones HDR",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFEeFjer7-ef-TznginLlcDw.png",
+      "aliases": [
+        "ES| M Liga de Campeones HDR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_hdr_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rOmBzZDAq8t-DlW27S-qQE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_2_hdr",
+      "name": "ES| M Liga de Campeones 2 HDR",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFHNnXVHitG1mSlc9N__iW6UrhabY000fmw9rttTxZ0Ps.png",
+      "aliases": [
+        "ES| M Liga de Campeones 2 HDR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_2_hdr_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sCQvkL7hqES0wMQjMv6OzI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_fhd",
+      "name": "ES| M Liga de Campeones FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/raw/main/countries/spain/liga-de-campeones-por-movistar-plus-es.png",
+      "aliases": [
+        "ES| M Liga de Campeones FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mV5r9DA1UuTdQ7psgP6KKY/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_hd",
+      "name": "ES| M Liga de Campeones HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/raw/main/countries/spain/liga-de-campeones-por-movistar-plus-es.png",
+      "aliases": [
+        "ES| M Liga de Campeones HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pwjtFXAPvCN0zBLJ5-_zAM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_sd",
+      "name": "ES| M Liga de Campeones SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/raw/main/countries/spain/liga-de-campeones-por-movistar-plus-es.png",
+      "aliases": [
+        "ES| M Liga de Campeones SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0thxH7ZTKOiMyYXILpzosRQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_2_sd",
+      "name": "ES| M Liga de Campeones 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFxLDuW3LKaUbGkvxEURjGYA.png",
+      "aliases": [
+        "ES| M Liga de Campeones 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uLYUyYrN65PYXbItDYcORo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_3_sd",
+      "name": "ES| M Liga de Campeones 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/raw/main/countries/spain/liga-de-campeones-3-por-movistar-plus-es.png",
+      "aliases": [
+        "ES| M Liga de Campeones 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mdTtY9HvpU9fDK39PqZpAg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_4_sd",
+      "name": "ES| M Liga de Campeones 4 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-4-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 4 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_4_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pwy1vwiHEOmokJ6zygLNT0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_5_sd",
+      "name": "ES| M Liga de Campeones 5 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-5-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 5 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_5_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rZ5wg4ykrL8yKUhlaYwu58/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_6_fhd",
+      "name": "ES| M Liga de Campeones 6 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-6-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 6 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_6_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qhaR_JE9qw2lel2-UzSFyo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_6_hd",
+      "name": "ES| M Liga de Campeones 6 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-6-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 6 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_6_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hv13HXYzoAxEkDNXOB2M74/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_6_sd",
+      "name": "ES| M Liga de Campeones 6 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-6-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 6 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_6_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0t2G92CoiJMFz8BWQoQFEk0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_7_fhd",
+      "name": "ES| M Liga de Campeones 7 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-7-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 7 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_7_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lxw0mWRnriEk4G9SO8h6bE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_7_sd",
+      "name": "ES| M Liga de Campeones 7 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-7-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 7 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_7_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0imO2pZK7ERzzEof68j82z4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_8_fhd",
+      "name": "ES| M Liga de Campeones 8 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-8-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 8 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_8_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jsnMqx710ZmlMTv-jHUgdg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_8_sd",
+      "name": "ES| M Liga de Campeones 8 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-8-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 8 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_8_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vjga0xNEDqIiHc8yA7YG-k/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_9_fhd",
+      "name": "ES| M Liga de Campeones 9 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-9-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 9 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_9_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ojby6Ho8HmhJ1Sb2Jr1gMk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_9_sd",
+      "name": "ES| M Liga de Campeones 9 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-9-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 9 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_9_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kbFMIzPDrljrqcufjRAP1g/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_10_fhd",
+      "name": "ES| M Liga de Campeones 10 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-10-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 10 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_10_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0uvZJ8hgfeVym7TghM-q7-0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_10_hd",
+      "name": "ES| M Liga de Campeones 10 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-10-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 10 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_10_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rWc2amzV319DwMFYMLPVRI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_10_sd",
+      "name": "ES| M Liga de Campeones 10 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-10-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 10 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_10_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0t_XQ_7gr36s00ZwpDFdwpo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_11_fhd",
+      "name": "ES| M Liga de Campeones 11 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-11-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 11 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_11_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qPKax8UoYR8lDOYIv_Z_H0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_11_hd",
+      "name": "ES| M Liga de Campeones 11 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-11-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 11 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_11_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hdIri0fzgV_VuctNOvdwLQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_11_sd",
+      "name": "ES| M Liga de Campeones 11 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-11-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 11 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_11_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gzplPmYt84aFCjiOKAsctU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_12_fhd",
+      "name": "ES| M Liga de Campeones 12 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-12-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 12 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_12_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sCCXK4ENM0TwoJ6hGo0gf4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_12_hd",
+      "name": "ES| M Liga de Campeones 12 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-12-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 12 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_12_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0u9ptzB5ZCrRfDclK3-zA7k/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_12_sd",
+      "name": "ES| M Liga de Campeones 12 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-12-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 12 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_12_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0oOQmKo7JGheAFK0p7LTFAE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_13_hd",
+      "name": "ES| M Liga de Campeones 13 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-13-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 13 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_13_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0poDKRwMRhJ_bTNlaw75glE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_13_sd",
+      "name": "ES| M Liga de Campeones 13 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-13-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 13 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_13_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hnwh_KP4fSqXKSAw80yw_Q/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_14",
+      "name": "ES| M Liga de Campeones 14",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-14-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 14"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_14_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tBcNm_2_61ssmIJ3Wy5RSc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_15",
+      "name": "ES| M Liga de Campeones 15",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-15-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 15"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_15_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0i_P-wIb9ggYjPUeo95XqF0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_16",
+      "name": "ES| M Liga de Campeones 16",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-16-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 16"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_16_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kjTQnx8XxHfZdG_RManqTc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_17",
+      "name": "ES| M Liga de Campeones 17",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/liga-de-campeones-17-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M Liga de Campeones 17"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_17_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0p90P4oMNis2kOhmmhCZCNI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_18",
+      "name": "ES| M Liga de Campeones 18",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/V12h3OKhgHitTXh398esJcYlYOG-SxvrvU8yCCtU8CQ.png",
+      "aliases": [
+        "ES| M Liga de Campeones 18"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_18_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0o_gnD5jWaUKywhnKuNtOmU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_liga_de_campeones_19",
+      "name": "ES| M Liga de Campeones 19",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/V12h3OKhgHitTXh398esJbWa__kJ2RYLwRq2b9Fhs4M.png",
+      "aliases": [
+        "ES| M Liga de Campeones 19"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_liga_de_campeones_19_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0stdxPR000d6xpnU_cR1Nfc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_hdr",
+      "name": "ES MV| M+ LALIGA HDR",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr1ODv6xc0keOm3lk6MZ2AIt.png",
+      "aliases": [
+        "ES MV| M+ LALIGA HDR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_hdr_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0swsXkEpkCdv4b1IGVb745Y/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_fhd",
+      "name": "ES MV| M+ LALIGA TV FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr230ia-xBI9EIMO0cnDAfNo.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sEr5nOBA_IiPvXrB-llqD8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_hd",
+      "name": "ES MV| M+ LALIGA TV HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr230ia-xBI9EIMO0cnDAfNo.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0llp1gJnsCYC6WTaa7Mwib8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_sd",
+      "name": "ES MV| M+ LALIGA TV SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr230ia-xBI9EIMO0cnDAfNo.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0s7KlGVcVtT5pMZWaxyThhU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_2_hdr",
+      "name": "ES MV| M+ LALIGA 2 HDR",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr38yoO26FNlo9bpTnNGIn7lcZqOBagfFEku2GBEiIRygg.png",
+      "aliases": [
+        "ES MV| M+ LALIGA 2 HDR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_2_hdr_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iU92xh68kgazP_EO8mnU0I/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_2_fhd",
+      "name": "ES MV| M+ LALIGA TV 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr0k6cyL7DJS-WntXzcdZNYe.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pctRWr193MtGMgohPuEePI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_2_hd",
+      "name": "ES MV| M+ LALIGA TV 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr0k6cyL7DJS-WntXzcdZNYe.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0o_nRqCwILiErelVcFpzINA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_2_sd",
+      "name": "ES MV| M+ LALIGA TV 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr0k6cyL7DJS-WntXzcdZNYe.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pIVLjAjZeSbQfE0jNVUeCs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_laliga_fhd",
+      "name": "ES MV| DAZN LALIGA FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iYlVNbI0zmxW9VZbCkQPOYz.png",
+      "aliases": [
+        "ES MV| DAZN LALIGA FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_laliga_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0oHSBt3Qnlsbs1axyHcxT2I/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_laliga_hd",
+      "name": "ES MV| DAZN LALIGA HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iYlVNbI0zmxW9VZbCkQPOYz.png",
+      "aliases": [
+        "ES MV| DAZN LALIGA HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_laliga_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sP0tbFfM9q5hoBzQGjC9sM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_laliga_sd",
+      "name": "ES MV| DAZN LALIGA SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iYlVNbI0zmxW9VZbCkQPOYz.png",
+      "aliases": [
+        "ES MV| DAZN LALIGA SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_laliga_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kPGZQI8OLh8WkcfWUV43i4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_laliga_2_fhd",
+      "name": "ES MV| DAZN LALIGA 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iaAnC1iW2c_ykZY_LWqw0hF.png",
+      "aliases": [
+        "ES MV| DAZN LALIGA 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_laliga_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nZB3dc7XaVuj2GoCADfFpE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_laliga_2_hd",
+      "name": "ES MV| DAZN LALIGA 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iaAnC1iW2c_ykZY_LWqw0hF.png",
+      "aliases": [
+        "ES MV| DAZN LALIGA 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_laliga_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0r0YcusVhe9jpPOw3MHi8LY/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_laliga_2_sd",
+      "name": "ES MV| DAZN LALIGA 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iaAnC1iW2c_ykZY_LWqw0hF.png",
+      "aliases": [
+        "ES MV| DAZN LALIGA 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_laliga_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qJ0HLITpq_WbiyNTXAtmOg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_3_fhd",
+      "name": "ES MV| M+ LALIGA TV 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2VlzhHFPXkKvnW-x_KvgZ9.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0l3_FieayDJMrEa4urg7ZB0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_3_hd",
+      "name": "ES MV| M+ LALIGA TV 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2VlzhHFPXkKvnW-x_KvgZ9.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rVJJerjWPf7khj5FNIM1JQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_laliga_tv_3_sd",
+      "name": "ES MV| M+ LALIGA TV 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2VlzhHFPXkKvnW-x_KvgZ9.png",
+      "aliases": [
+        "ES MV| M+ LALIGA TV 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_laliga_tv_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lLs0xneNcPGx4lkgIFcQHo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_laliga_tv_hypermotion_fhd",
+      "name": "ES MV| LALIGA TV HYPERMOTION FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-es.png?raw=true",
+      "aliases": [
+        "ES MV| LALIGA TV HYPERMOTION FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_laliga_tv_hypermotion_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0r7MZ7qdQttSwDqnR4rKBl4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_laliga_tv_hypermotion_hd",
+      "name": "ES MV| LALIGA TV HYPERMOTION HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-es.png?raw=true",
+      "aliases": [
+        "ES MV| LALIGA TV HYPERMOTION HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_laliga_tv_hypermotion_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0shcKbFGpdGRgrMcax0-68c/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_laliga_tv_hypermotion_sd",
+      "name": "ES MV| LALIGA TV HYPERMOTION SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-es.png?raw=true",
+      "aliases": [
+        "ES MV| LALIGA TV HYPERMOTION SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_laliga_tv_hypermotion_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qYNIj2MLwzf1PAIh3kpXjk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_laliga_tv_hypermotion_2_fhd",
+      "name": "ES MV| LALIGA TV HYPERMOTION 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-2-es.png?raw=true",
+      "aliases": [
+        "ES MV| LALIGA TV HYPERMOTION 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_laliga_tv_hypermotion_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gIbueh5z7pA8x0mVe_yWsA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_laliga_tv_hypermotion_2_hd",
+      "name": "ES MV| LALIGA TV HYPERMOTION 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-2-es.png?raw=true",
+      "aliases": [
+        "ES MV| LALIGA TV HYPERMOTION 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_laliga_tv_hypermotion_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rv5AvhY_nxD9Jb1SGhuqPs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_laliga_tv_hypermotion_2_sd",
+      "name": "ES MV| LALIGA TV HYPERMOTION 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-2-es.png?raw=true",
+      "aliases": [
+        "ES MV| LALIGA TV HYPERMOTION 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_laliga_tv_hypermotion_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gZq9XXOMgzmglJ_NoSr_o4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_primera_federaci_n_fhd",
+      "name": "ES MV| Primera Federación FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFjrf4gov_2mQBwm58lK85PdCNby49lMRc-sH5R5P9GGTxPwUN_q1dY5xV9NqNUDbqg.png",
+      "aliases": [
+        "ES MV| Primera Federación FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_primera_federaci_n_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qUrELWwtdOTomNTaD_qDVU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_primera_federaci_n_hd",
+      "name": "ES MV| Primera Federación HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFjrf4gov_2mQBwm58lK85PdCNby49lMRc-sH5R5P9GGTxPwUN_q1dY5xV9NqNUDbqg.png",
+      "aliases": [
+        "ES MV| Primera Federación HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_primera_federaci_n_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hHpbNxuFd_XvOQGPMcT5nI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_primera_federaci_n_sd",
+      "name": "ES MV| Primera Federación SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFjrf4gov_2mQBwm58lK85PdCNby49lMRc-sH5R5P9GGTxPwUN_q1dY5xV9NqNUDbqg.png",
+      "aliases": [
+        "ES MV| Primera Federación SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_primera_federaci_n_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0oZzKQEdrwJ3BGVPkCcnosk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_laliga_sd",
+      "name": "ES | DAZN LALIGA SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iYlVNbI0zmxW9VZbCkQPOYz.png",
+      "aliases": [
+        "ES | DAZN LALIGA SD",
+        "ES| DAZN LALIGA SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_laliga_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tLQpUqJ-v4B_is58eKK49U/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "es_dazn_laliga_sd_source_2",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vxqVlCfx2a85hYu_Fi9HC4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_1_fhd",
+      "name": "ES- DAZN 1 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-1-es.png?raw=true",
+      "aliases": [
+        "ES-  DAZN 1 FHD",
+        "ES- DAZN 1 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_1_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0toLe-JxFnn4Nt8bItUemi4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_1_sd",
+      "name": "ES- DAZN 1 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-1-es.png?raw=true",
+      "aliases": [
+        "ES-  DAZN 1 SD",
+        "ES- DAZN 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_1_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kRPcyU3GkfSAm24oKjSa-s/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_2_fhd",
+      "name": "ES- DAZN 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-2-es.png?raw=true",
+      "aliases": [
+        "ES-  DAZN 2 FHD",
+        "ES- DAZN 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vR_qE6XRUnYRYfIdVmETIU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_2_sd",
+      "name": "ES- DAZN 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-2-es.png?raw=true",
+      "aliases": [
+        "ES-  DAZN 2 SD",
+        "ES- DAZN 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0scgE1OP4tRFixdlZRUE0jQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_laliga_tv_hypermotion_fhd",
+      "name": "ES- LALIGA TV HYPERMOTION FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-es.png?raw=true",
+      "aliases": [
+        "ES- LALIGA TV HYPERMOTION FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laliga_tv_hypermotion_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nR3JvAkCnguc2Z3pwzUkIs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "es_laliga_tv_hypermotion_fhd_src_2",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nisXU9S4BERYa96JOMqB5Y/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "es_laliga_tv_hypermotion_hd",
+      "name": "ES- LALIGA TV HYPERMOTION HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-es.png?raw=true",
+      "aliases": [
+        "ES- LALIGA TV HYPERMOTION HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laliga_tv_hypermotion_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qeN9dJvkF2h75RDG8-xOHI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "es_laliga_tv_hypermotion_hd_src_2",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0v9TSTziH4KR6qN_VzuJCJA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "es_laliga_tv_hypermotion_sd",
+      "name": "ES- LALIGA TV HYPERMOTION SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-es.png?raw=true",
+      "aliases": [
+        "ES- LALIGA TV HYPERMOTION SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laliga_tv_hypermotion_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gur3o-uxFL5gTtBOMsCZUE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "es_laliga_tv_hypermotion_sd_src_2",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mnUnODj5ntUeBvCaAvcyh4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "es_nfl_network_fhd",
+      "name": "ES- NFL Network FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-network-hz-us.png?raw=true",
+      "aliases": [
+        "ES- NFL Network FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_nfl_network_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0osCZ8mMbQuaJH-Col9gNyE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_nfl_network_hd",
+      "name": "ES- NFL Network HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-network-hz-us.png?raw=true",
+      "aliases": [
+        "ES- NFL Network HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_nfl_network_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pEADy_OgogoqAhPX1j9Kjk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_nfl_network_sd",
+      "name": "ES- NFL Network SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-network-hz-us.png?raw=true",
+      "aliases": [
+        "ES- NFL Network SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_nfl_network_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kNBnTo84KaO2A9IfWNQ2BE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_red_bull_tv_fhd",
+      "name": "ES- Red Bull TV FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/international/red-bull-tv-int.png?raw=true",
+      "aliases": [
+        "ES- Red Bull TV FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_red_bull_tv_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rgpgN4e8mfiS5F1_0c9qmg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_red_bull_tv_sd",
+      "name": "ES- Red Bull TV SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/international/red-bull-tv-int.png?raw=true",
+      "aliases": [
+        "ES- Red Bull TV SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_red_bull_tv_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sBxGy3H4vd0P9ga4BSNjdI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_unbeaten_fhd",
+      "name": "ES- Unbeaten FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/V12h3OKhgHitTXh398esJfGgBOm55qusTymlaQBrn20.png",
+      "aliases": [
+        "ES- Unbeaten FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_unbeaten_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0i3H8D30A5CDz6T8flxZiyE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_unbeaten_hd",
+      "name": "ES- Unbeaten HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/V12h3OKhgHitTXh398esJfGgBOm55qusTymlaQBrn20.png",
+      "aliases": [
+        "ES- Unbeaten HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_unbeaten_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jzNtJp0yt-wS7q_rr2qEgc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_unbeaten_sd",
+      "name": "ES- Unbeaten SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/V12h3OKhgHitTXh398esJfGgBOm55qusTymlaQBrn20.png",
+      "aliases": [
+        "ES- Unbeaten SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_unbeaten_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iLrZDICd_sUtOQOO7GcZSY/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_f1_res_fhd",
+      "name": "ES| DAZN F1 Res FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-f1-es.png?raw=true",
+      "aliases": [
+        "ES| DAZN F1 Res FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_f1_res_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jlnDKu-VK6AGE04mKCrn9Y/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_f1_res_hd",
+      "name": "ES| DAZN F1 Res HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-f1-es.png?raw=true",
+      "aliases": [
+        "ES| DAZN F1 Res HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_f1_res_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0usQKdMw0dPX5OK5lekWJ3A/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_f1_res_sd",
+      "name": "ES| DAZN F1 Res SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-f1-es.png?raw=true",
+      "aliases": [
+        "ES| DAZN F1 Res SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_f1_res_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lNhnZDClOLFQ0pe2OLZYAs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_hdr",
+      "name": "ES MV| M+ Liga de Campeones HDR",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFEeFjer7-ef-TznginLlcDw.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones HDR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_hdr_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hxvF7zCPU2GxAgBnj1AFRc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones2_hdr",
+      "name": "ES MV| M+ Liga de Campeones2 HDR",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFHNnXVHitG1mSlc9N__iW6UrhabY000fmw9rttTxZ0Ps.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones2 HDR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones2_hdr_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qdKvwK0wQy5HsPagjMfvVU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_fhd",
+      "name": "ES MV| M+ Liga de Campeones FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFNlXdCfos0oerc7ePwi-39Q.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ntsrEpSggO4UWXf6Blagp8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_hd",
+      "name": "ES MV| M+ Liga de Campeones HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFNlXdCfos0oerc7ePwi-39Q.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hLITyEePaW39x-6a0uRKWI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_sd",
+      "name": "ES MV| M+ Liga de Campeones SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFNlXdCfos0oerc7ePwi-39Q.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0seGkjdY3WK1EfFLpI9DY7E/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_2_fhd",
+      "name": "ES MV| M+ Liga de Campeones 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFxLDuW3LKaUbGkvxEURjGYA.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0oPD5zoEAMEmraZPoIl0QEA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_2_hd",
+      "name": "ES MV| M+ Liga de Campeones 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFxLDuW3LKaUbGkvxEURjGYA.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rmxdt11-w_TaLTyQO7OMVI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_2_sd",
+      "name": "ES MV| M+ Liga de Campeones 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFxLDuW3LKaUbGkvxEURjGYA.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pQd5QlkMEProjoyVw-g3mM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_3_fhd",
+      "name": "ES MV| M+ Liga de Campeones 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFaaOlyz67hEXWCjXY22NEaw.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0p8ALSupd-62uydMuE9Ph5M/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_3_hd",
+      "name": "ES MV| M+ Liga de Campeones 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFaaOlyz67hEXWCjXY22NEaw.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0m2c9FYXfp3vgUxfyA9xauA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_m_liga_de_campeones_3_sd",
+      "name": "ES MV| M+ Liga de Campeones 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFmCfXVOesVIksOnzoTNO2td3OMhqcesuKe9KwHQV8xwFaaOlyz67hEXWCjXY22NEaw.png",
+      "aliases": [
+        "ES MV| M+ Liga de Campeones 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_m_liga_de_campeones_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0m2yzRPIUGJBJhXvdWusmUo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_hdr",
+      "name": "ES| M LALIGA HDR",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-hdr-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M LALIGA HDR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_hdr_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0j38QBjhXImht2YItBpb5wI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_fhd",
+      "name": "ES| M LALIGA FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr230ia-xBI9EIMO0cnDAfNo.png",
+      "aliases": [
+        "ES| M LALIGA FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0juGsd-Uf4nKbhGTmpZbSGI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_hd",
+      "name": "ES| M LALIGA HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr230ia-xBI9EIMO0cnDAfNo.png",
+      "aliases": [
+        "ES| M LALIGA HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rRmHgVJqiE4RyPXwEty4Bw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_sd",
+      "name": "ES| M LALIGA SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr230ia-xBI9EIMO0cnDAfNo.png",
+      "aliases": [
+        "ES| M LALIGA SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mBkqA-fVDcEAhbsO8qHA0I/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_laliga_2_sd",
+      "name": "ES| DAZN LALIGA 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iaAnC1iW2c_ykZY_LWqw0hF.png",
+      "aliases": [
+        "ES| DAZN LALIGA 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_laliga_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tkgyH86HZAL5ZBgQsr_Z2o/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_laliga_3_fhd",
+      "name": "ES| DAZN LALIGA 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iZntihMZgLl_ewO5Zn5b5kI.png",
+      "aliases": [
+        "ES| DAZN LALIGA 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_laliga_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ubkuGMyWwJ4PccfFA8wTj4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_laliga_3_hd",
+      "name": "ES| DAZN LALIGA 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iZntihMZgLl_ewO5Zn5b5kI.png",
+      "aliases": [
+        "ES| DAZN LALIGA 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_laliga_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0iYkj39K4MdSxIPVY-41CNQ/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_dazn_laliga_3_sd",
+      "name": "ES| DAZN LALIGA 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvLyYNIAMDfgueHWJGVq-iZntihMZgLl_ewO5Zn5b5kI.png",
+      "aliases": [
+        "ES| DAZN LALIGA 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_dazn_laliga_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qPAg0AcjP9T45CYrrIMSsM/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_2_hdr",
+      "name": "ES| M LALIGA 2 HDR",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-hdr-2-por-movistar-plus-es.png?raw=true",
+      "aliases": [
+        "ES| M LALIGA 2 HDR"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_2_hdr_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ke-LVfy2uZe7UDA-rF0uLI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_2_fhd",
+      "name": "ES| M LALIGA 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr0k6cyL7DJS-WntXzcdZNYe.png",
+      "aliases": [
+        "ES| M LALIGA 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0r-6JV-8RhtUwSzemQKDYCc/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_2_hd",
+      "name": "ES| M LALIGA 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr0k6cyL7DJS-WntXzcdZNYe.png",
+      "aliases": [
+        "ES| M LALIGA 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lk5OXA53JrPFvy1xyOjaQ4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_2_sd",
+      "name": "ES| M LALIGA 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr0k6cyL7DJS-WntXzcdZNYe.png",
+      "aliases": [
+        "ES| M LALIGA 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tcpu6OzCGhmFwWwOeckRys/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_3_fhd",
+      "name": "ES| M LALIGA 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2VlzhHFPXkKvnW-x_KvgZ9.png",
+      "aliases": [
+        "ES| M LALIGA 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ggQi-1PpIh3L1f6lEKr4ko/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_3_hd",
+      "name": "ES| M LALIGA 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2VlzhHFPXkKvnW-x_KvgZ9.png",
+      "aliases": [
+        "ES| M LALIGA 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nZlxfESa1co8W7jA2HYGzY/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_3_sd",
+      "name": "ES| M LALIGA 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2VlzhHFPXkKvnW-x_KvgZ9.png",
+      "aliases": [
+        "ES| M LALIGA 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0rPeBpXvnjSnDBObA6SZm1o/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_4_fhd",
+      "name": "ES| M LALIGA 4 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2axXq9qnKtX5RNn4Vbz8MW.png",
+      "aliases": [
+        "ES| M LALIGA 4 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_4_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ot65mJo2f1CqoxDkW19xLw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_4_hd",
+      "name": "ES| M LALIGA 4 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2axXq9qnKtX5RNn4Vbz8MW.png",
+      "aliases": [
+        "ES| M LALIGA 4 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_4_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0ozWFKW0HcAm5y99JAOFCHw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_4_sd",
+      "name": "ES| M LALIGA 4 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr2axXq9qnKtX5RNn4Vbz8MW.png",
+      "aliases": [
+        "ES| M LALIGA 4 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_4_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kh0HECuSc-4MQYG0f-2Vj4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_5_fhd",
+      "name": "ES| M LALIGA 5 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr3JSgESd06mZNe2gpiRRc_X.png",
+      "aliases": [
+        "ES| M LALIGA 5 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_5_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mkHIPpLDO1HmaSPzq2EpNg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_5_hd",
+      "name": "ES| M LALIGA 5 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr3JSgESd06mZNe2gpiRRc_X.png",
+      "aliases": [
+        "ES| M LALIGA 5 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_5_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sB0-5OZz4DmNOC5QU0rfS8/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_5_sd",
+      "name": "ES| M LALIGA 5 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr3JSgESd06mZNe2gpiRRc_X.png",
+      "aliases": [
+        "ES| M LALIGA 5 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_5_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vKNQ0OTeIKXUjJmLMlGHdk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_6_fhd",
+      "name": "ES| M LALIGA 6 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr07lltq__ef05UdpWOXzFVq.png",
+      "aliases": [
+        "ES| M LALIGA 6 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_6_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pypv9E_89lHPzK00OU8u_k/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_6_hd",
+      "name": "ES| M LALIGA 6 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr07lltq__ef05UdpWOXzFVq.png",
+      "aliases": [
+        "ES| M LALIGA 6 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_6_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0k6d77H_d7eEKfg4uZwglAI/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_m_laliga_6_sd",
+      "name": "ES| M LALIGA 6 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnuu4ycYtOen9Ln38Iv0xr07lltq__ef05UdpWOXzFVq.png",
+      "aliases": [
+        "ES| M LALIGA 6 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_m_laliga_6_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qV1eNCrAaSoTRFw9FU1rsg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_laligatv_hypermotion_2_fhd",
+      "name": "ES| LALIGATV HYPERMOTION 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-2-es.png?raw=true",
+      "aliases": [
+        "ES| LALIGATV HYPERMOTION 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laligatv_hypermotion_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0jhtt33QexAWIvimSGsS_9w/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_laligatv_hypermotion_2_hd",
+      "name": "ES| LALIGATV HYPERMOTION 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-2-es.png?raw=true",
+      "aliases": [
+        "ES| LALIGATV HYPERMOTION 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laligatv_hypermotion_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0gwDC5Aai9-A4-nsJL15G8o/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_laligatv_hypermotion_2_sd",
+      "name": "ES| LALIGATV HYPERMOTION 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-2-es.png?raw=true",
+      "aliases": [
+        "ES| LALIGATV HYPERMOTION 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laligatv_hypermotion_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kjWNJwLbEAtgyvJk7vsYAg/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_laligatv_hypermotion_3_fhd",
+      "name": "ES| LALIGATV HYPERMOTION 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-3-es.png?raw=true",
+      "aliases": [
+        "ES| LALIGATV HYPERMOTION 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laligatv_hypermotion_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sa8m1hgRch2RzlZzh-Cpmk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_laligatv_hypermotion_3_hd",
+      "name": "ES| LALIGATV HYPERMOTION 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-3-es.png?raw=true",
+      "aliases": [
+        "ES| LALIGATV HYPERMOTION 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laligatv_hypermotion_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kcOs4qI9GGkb7M1jZ6R1jE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_laligatv_hypermotion_3_sd",
+      "name": "ES| LALIGATV HYPERMOTION 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/laliga-tv-hypermotion-3-es.png?raw=true",
+      "aliases": [
+        "ES| LALIGATV HYPERMOTION 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_laligatv_hypermotion_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0nLafSbnPYK_nSC8xwhgOIA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_1_fhd",
+      "name": "ES MV| DAZN 1 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-1-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 1 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_1_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0tBpaKHYvkBawjgU503yNds/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_1_hd",
+      "name": "ES MV| DAZN 1 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-1-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 1 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_1_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0sG4cFFOzQY8VZ6H30tXjvE/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_1_sd",
+      "name": "ES MV| DAZN 1 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-1-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_1_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0k8DtHETP6U8EtzVfTNhcx4/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_2_fhd",
+      "name": "ES MV| DAZN 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-2-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 2 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_2_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0l8hvWtfqMKROA5vPisHLiU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_2_hd",
+      "name": "ES MV| DAZN 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-2-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 2 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_2_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qncqbZcX3BLEmXzSMaybQk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_2_sd",
+      "name": "ES MV| DAZN 2 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-2-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 2 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_2_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qjcVoK0FYxMZEAjLkEkOTA/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_3_fhd",
+      "name": "ES MV| DAZN 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-3-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 3 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_3_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lz2_pUaSlt_VRYZW6RcKBo/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_3_hd",
+      "name": "ES MV| DAZN 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-3-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 3 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_3_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0pY01sGxzMb-WK8xBbr5tPs/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_3_sd",
+      "name": "ES MV| DAZN 3 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-3-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 3 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_3_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0s6Qk8Fbd_bXo88etfFIUNk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_4_fhd",
+      "name": "ES MV| DAZN 4 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-4-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 4 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_4_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0n8mDKOVT7YsXhJ3RsRwl1U/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_4_hd",
+      "name": "ES MV| DAZN 4 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-4-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 4 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_4_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hel4Cr6HuYlICfOFr4-FOk/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_4_sd",
+      "name": "ES MV| DAZN 4 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-4-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN 4 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_4_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0r_xJJErhGfeiv5IgEXofgU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_rally_tv_es",
+      "name": "ES- Rally Tv ES",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFvrFvHm9el43pFlSXNPjjpgMN9TLBu77_1HP1RrzGTTx.png",
+      "aliases": [
+        "ES- Rally Tv ES"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_rally_tv_es_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0lPilfHHM7y01w-X1iAz4yU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_motogp_fhd",
+      "name": "ES MV| DAZN MotoGP FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnWvu-h7DCGP6m35jQa2d0QloGAhWQ4RTp0UCFPaAtIC.png",
+      "aliases": [
+        "ES MV| DAZN MotoGP FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_motogp_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0riNb0KMNKqD8hh2bNmalA0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_motogp_hd",
+      "name": "ES MV| DAZN MotoGP HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnWvu-h7DCGP6m35jQa2d0QloGAhWQ4RTp0UCFPaAtIC.png",
+      "aliases": [
+        "ES MV| DAZN MotoGP HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_motogp_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0kgSYudG_UgibCWlVo1FaFU/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_motogp_sd",
+      "name": "ES MV| DAZN MotoGP SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "http://legacy4k.pro:8000/images/Bs4zcrVSn48d-ML1POlO8SLyAEXackaBMLPMzJv8p0QQw_4YmGp1Urz2SCIITOnMVyhAo_zTWKHgcGQ0i-kqFnWvu-h7DCGP6m35jQa2d0QloGAhWQ4RTp0UCFPaAtIC.png",
+      "aliases": [
+        "ES MV| DAZN MotoGP SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_motogp_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0hcoI4N_pTEK1M6EgGNP5fw/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_f1_fhd",
+      "name": "ES MV| DAZN F1 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-f1-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN F1 FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_f1_fhd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0mozT-YRcjHJu8D3nJQmoC0/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_f1_hd",
+      "name": "ES MV| DAZN F1 HD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-f1-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN F1 HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_f1_hd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0qAeUbiGuAUUzgV1ezkAP1Y/m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "es_mv_dazn_f1_sd",
+      "name": "ES MV| DAZN F1 SD",
+      "country": "INTERNATIONAL",
+      "priority": 200,
+      "logoUrl": "https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dazn-f1-es.png?raw=true",
+      "aliases": [
+        "ES MV| DAZN F1 SD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "es_mv_dazn_f1_sd_source_1",
+          "url": "http://legacy4k.pro:8000/play/Zg9sPRBdPA_42tqbAByZ0vGVfsw_7Tc5eT6PqYPkONY/m3u8",
+          "type": "HLS",
           "enabled": true,
           "priority": 1
         }
