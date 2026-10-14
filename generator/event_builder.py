@@ -282,31 +282,68 @@ COMPETITION_BROADCASTER_OVERRIDES = {
     # Solo leghe dove senza override non avremmo MAI un canale IT
     # e i diritti sono noti a livello di competizione (non di singola gara).
     # Per tutto il resto: SOLO LiveOnSat / Sky articoli Serie C.
+    # --- Coppe UEFA Italia 2026/27 ---
+    # CL: Sky (quasi tutte) + Prime (1 big mercoledì) + TV8 (1 in chiaro a serata)
+    # EL/ECL: Sky (tutte) + TV8 (spesso 1 in chiaro giovedì)
+    # DAZN non ha i diritti principali delle coppe UEFA in Italia
     "champions_league": (
         "Sky Sport Uno",
         "Sky Sport Calcio",
+        "Sky Sport Arena",
+        "Sky Sport 251",
+        "Sky Sport 252",
+        "Sky Sport 253",
+        "Sky Sport 254",
+        "Sky Sport 255",
+        "Sky Sport 256",
+        "Sky Sport 257",
+        "Sky Sport 258",
+        "Sky Sport 259",
         "Sky Go Italy",
+        "Sky Go",
         "NOW",
         "Prime Video",
         "Amazon Prime Video",
-        "Paramount+",
-        "Paramount Plus",
+        "TV8",
+        "TV 8",
     ),
     "europa_league": (
         "Sky Sport Uno",
         "Sky Sport Calcio",
+        "Sky Sport Arena",
+        "Sky Sport 251",
+        "Sky Sport 252",
+        "Sky Sport 253",
+        "Sky Sport 254",
+        "Sky Sport 255",
+        "Sky Sport 256",
+        "Sky Sport 257",
+        "Sky Sport 258",
+        "Sky Sport 259",
         "Sky Go Italy",
+        "Sky Go",
         "NOW",
-        "Prime Video",
-        "Amazon Prime Video",
         "TV8",
+        "TV 8",
     ),
     "conference_league": (
         "Sky Sport Uno",
         "Sky Sport Calcio",
+        "Sky Sport Arena",
+        "Sky Sport 251",
+        "Sky Sport 252",
+        "Sky Sport 253",
+        "Sky Sport 254",
+        "Sky Sport 255",
+        "Sky Sport 256",
+        "Sky Sport 257",
+        "Sky Sport 258",
+        "Sky Sport 259",
         "Sky Go Italy",
+        "Sky Go",
         "NOW",
         "TV8",
+        "TV 8",
     ),
     "serie_a": (
         "DAZN 1 Italia",
@@ -1413,6 +1450,95 @@ def build_event(
 # DOCUMENT
 # ============================================================
 
+
+# ============================================================
+# TENNIS FILTER — solo top / italiani / con interesse TV
+# ============================================================
+# Cognomi top (ATP+WTA, aggiornabili). Match se compare nel titolo/nome.
+TENNIS_TOP_SURNAMES: frozenset[str] = frozenset({
+    # ATP top
+    "sinner", "alcaraz", "djokovic", "medvedev", "zverev", "ruud",
+    "rublev", "tsitsipas", "hurkacz", "de minaur", "deminaur",
+    "fritz", "paul", "tabilo", "bublik", "khachanov", "rublev",
+    "shelton", "dimitrov", "rune", "auger-aliassime", "aa",
+    "cerundolo", "musetti", "draper", "popyrin", "navone",
+    "lehecka", "machac", "struff", "korda", "thompson",
+    # WTA top
+    "swiatek", "sabalenka", "gauff", "rybakina", "pegula",
+    "paolini", "collins", "keys", "bencic", "andreeva",
+    "muchova", "kasatkina", "ostapenko", "vondrousova",
+    "sakkari", "krejcikova", "samsonova", "potapova",
+    "noskova", "zheng", "qinwen", "raducanu", "jabeur",
+})
+
+# Italiani (oltre a chi è già in top)
+TENNIS_ITALIAN_SURNAMES: frozenset[str] = frozenset({
+    "sinner", "musetti", "cobolli", "berrettini", "sonego",
+    "arnaldi", "nardi", "passerini", "bellucci", "passaro",
+    "paolini", "errani", "bronzetti", "trevisan", "cocciaretto",
+    "stefanini", "schiavone", "giorgi", "vavassori", "bolelli",
+})
+
+
+def _tennis_text_blob(raw_event) -> str:
+    parts = [
+        getattr(raw_event, "title", None) or "",
+        getattr(raw_event, "home_team_name", None) or "",
+        getattr(raw_event, "away_team_name", None) or "",
+        getattr(raw_event, "competition_name", None) or "",
+    ]
+    return " ".join(parts).lower()
+
+
+def tennis_event_is_interesting(raw_event) -> bool:
+    """True se top player, italiano, o coppa/davis rilevante."""
+    if (getattr(raw_event, "sport", None) or "").upper() != "TENNIS":
+        return True
+
+    blob = _tennis_text_blob(raw_event)
+    ck = (getattr(raw_event, "competition_key", None) or "").lower()
+    cn = (getattr(raw_event, "competition_name", None) or "").lower()
+
+    # Coppe / nazionali spesso in TV
+    if any(
+        x in ck or x in cn
+        for x in (
+            "davis",
+            "billie",
+            "bjk",
+            "united cup",
+            "atp finals",
+            "wta finals",
+            "next gen",
+        )
+    ):
+        return True
+
+    # Qualsiasi cognome top o italiano nel testo
+    for s in TENNIS_TOP_SURNAMES | TENNIS_ITALIAN_SURNAMES:
+        if len(s) >= 4 and s in blob:
+            return True
+
+    return False
+
+
+def filter_tennis_raw_events(events: list) -> list:
+    """Riduce il tennis a top/italiani/coppe (meno incontri senza senso)."""
+    kept = []
+    dropped = 0
+    for ev in events:
+        if (getattr(ev, "sport", None) or "").upper() != "TENNIS":
+            kept.append(ev)
+            continue
+        if tennis_event_is_interesting(ev):
+            kept.append(ev)
+        else:
+            dropped += 1
+    if dropped:
+        print(f"[TENNIS] filtro top/IT: tenuti {sum(1 for e in kept if (getattr(e,'sport',None) or '').upper()=='TENNIS')}, scartati {dropped}")
+    return kept
+
+
 def build_events_document(
     raw_events: Iterable[RawEvent],
     liveonsat_events: Iterable[LiveOnSatEvent],
@@ -1423,6 +1549,8 @@ def build_events_document(
     raw_events_list = list(
         raw_events
     )
+    # Tennis: solo top ranking / italiani / coppe (niente Challenger sconosciuti)
+    raw_events_list = filter_tennis_raw_events(raw_events_list)
 
     liveonsat_list = list(
         liveonsat_events
