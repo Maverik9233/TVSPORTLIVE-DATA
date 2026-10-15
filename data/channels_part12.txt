@@ -1,0 +1,3852 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-15T11:01:47Z",
+  "channels": [
+    {
+      "id": "uk_sky_sports_hd",
+      "name": "UK - SKY SPORTS+ HD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ HD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/973139.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_1_fhd",
+      "name": "UK - SKY SPORTS+ 1 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 1 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_1_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974989.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_2_fhd",
+      "name": "UK - SKY SPORTS+ 2 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 2 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_2_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974990.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_3_fhd",
+      "name": "UK - SKY SPORTS+ 3 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 3 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_3_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974991.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_4_fhd",
+      "name": "UK - SKY SPORTS+ 4 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 4 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_4_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974992.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_5_fhd",
+      "name": "UK - SKY SPORTS+ 5 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 5 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_5_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974993.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_6_fhd",
+      "name": "UK - SKY SPORTS+ 6 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 6 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_6_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974994.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_7_fhd",
+      "name": "UK - SKY SPORTS+ 7 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 7 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_7_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974995.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_8_fhd",
+      "name": "UK - SKY SPORTS+ 8 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 8 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_8_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974996.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_9_fhd",
+      "name": "UK - SKY SPORTS+ 9 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 9 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_9_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974997.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_10_fhd",
+      "name": "UK - SKY SPORTS+ 10 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 10 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_10_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974998.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_11_fhd",
+      "name": "UK - SKY SPORTS+ 11 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 11 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_11_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/974999.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_12_fhd",
+      "name": "UK - SKY SPORTS+ 12 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 12 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_12_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975000.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_13_fhd",
+      "name": "UK - SKY SPORTS+ 13 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 13 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_13_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975001.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_14_fhd",
+      "name": "UK - SKY SPORTS+ 14 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 14 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_14_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975002.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_15_fhd",
+      "name": "UK - SKY SPORTS+ 15 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 15 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_15_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975003.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_16_fhd",
+      "name": "UK - SKY SPORTS+ 16 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 16 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_16_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975004.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_17_fhd",
+      "name": "UK - SKY SPORTS+ 17 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 17 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_17_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975005.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_18_fhd",
+      "name": "UK - SKY SPORTS+ 18 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 18 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_18_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975006.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_19_fhd",
+      "name": "UK - SKY SPORTS+ 19 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 19 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_19_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975007.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_20_fhd",
+      "name": "UK - SKY SPORTS+ 20 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 20 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_20_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975008.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_21_fhd",
+      "name": "UK - SKY SPORTS+ 21 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 21 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_21_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975009.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_22_fhd",
+      "name": "UK - SKY SPORTS+ 22 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 22 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_22_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975010.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_23_fhd",
+      "name": "UK - SKY SPORTS+ 23 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 23 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_23_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975011.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_24_fhd",
+      "name": "UK - SKY SPORTS+ 24 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 24 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_24_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975012.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_25_fhd",
+      "name": "UK - SKY SPORTS+ 25 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 25 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_25_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975013.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_26_fhd",
+      "name": "UK - SKY SPORTS+ 26 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 26 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_26_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975014.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_27_fhd",
+      "name": "UK - SKY SPORTS+ 27 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 27 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_27_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975015.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_28_fhd",
+      "name": "UK - SKY SPORTS+ 28 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 28 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_28_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975016.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_29_fhd",
+      "name": "UK - SKY SPORTS+ 29 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 29 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_29_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975017.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_30_fhd",
+      "name": "UK - SKY SPORTS+ 30 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 30 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_30_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975018.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_31_fhd",
+      "name": "UK - SKY SPORTS+ 31 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 31 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_31_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975019.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_32_fhd",
+      "name": "UK - SKY SPORTS+ 32 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 32 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_32_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975020.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_33_fhd",
+      "name": "UK - SKY SPORTS+ 33 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 33 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_33_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975021.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_34_fhd",
+      "name": "UK - SKY SPORTS+ 34 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 34 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_34_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975022.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_35_fhd",
+      "name": "UK - SKY SPORTS+ 35 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 35 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_35_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975023.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_36_fhd",
+      "name": "UK - SKY SPORTS+ 36 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 36 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_36_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975024.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_37_fhd",
+      "name": "UK - SKY SPORTS+ 37 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 37 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_37_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975025.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_38_fhd",
+      "name": "UK - SKY SPORTS+ 38 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 38 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_38_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975026.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_39_fhd",
+      "name": "UK - SKY SPORTS+ 39 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 39 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_39_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975027.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_sky_sports_40_fhd",
+      "name": "UK - SKY SPORTS+ 40 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/skyspns.png",
+      "aliases": [
+        "UK",
+        "UK - SKY SPORTS+ 40 FHD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_sky_sports_40_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/975028.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_1_fhd",
+      "name": "UK - TNT SPORTS 1 FHD ◉",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 1",
+        "TNT Sports 1 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 1 FHD ◉",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_1_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/17281.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_2_fhd",
+      "name": "UK - TNT SPORTS 2 FHD ◉",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 2",
+        "TNT Sports 2 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 2 FHD ◉",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_2_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/980406.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_3_fhd",
+      "name": "UK - TNT SPORTS 3 FHD ◉",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 3",
+        "TNT Sports 3 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 3 FHD ◉",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_3_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/980407.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_4_fhd",
+      "name": "UK - TNT SPORTS 4 FHD ◉",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 4",
+        "TNT Sports 4 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 4 FHD ◉",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_4_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/311556.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_5_fhd",
+      "name": "UK - TNT SPORTS 5 FHD ◉",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 5",
+        "TNT Sports 5 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 5 FHD ◉",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_5_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/311558.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sport_1_hevc",
+      "name": "UK - TNT SPORT 1 HEVC",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 1",
+        "TNT Sports 1 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORT 1 HEVC",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sport_1_hevc_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/846012.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sport_2_hevc",
+      "name": "UK - TNT SPORT 2 HEVC",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 2",
+        "TNT Sports 2 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORT 2 HEVC",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sport_2_hevc_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/846013.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sport_3_hevc",
+      "name": "UK - TNT SPORT 3 HEVC",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 3",
+        "TNT Sports 3 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORT 3 HEVC",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sport_3_hevc_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/846014.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sport_4_hevc",
+      "name": "UK - TNT SPORT 4 HEVC",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 4",
+        "TNT Sports 4 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORT 4 HEVC",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sport_4_hevc_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/846015.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_1_hd",
+      "name": "UK - TNT SPORTS 1 HD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 1",
+        "TNT Sports 1 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 1 HD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_1_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/348297.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_2_hd",
+      "name": "UK - TNT SPORTS 2 HD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 2",
+        "TNT Sports 2 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 2 HD",
+        "UK - TNT SPORTS 2 HD²",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_2_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/348298.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "uk_tnt_sports_2_hd_source_2",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/17280.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_3_hd",
+      "name": "UK - TNT SPORTS 3 HD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 3",
+        "TNT Sports 3 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 3 HD",
+        "UK - TNT SPORTS 3 HD²",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_3_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/17279.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        },
+        {
+          "id": "uk_tnt_sports_3_hd_source_2",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/348299.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_4_hd",
+      "name": "UK - TNT SPORTS 4 HD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 4",
+        "TNT Sports 4 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 4 HD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_4_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/311555.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_5_hd",
+      "name": "UK - TNT SPORTS 5 HD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 5",
+        "TNT Sports 5 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS 5 HD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_5_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/311557.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_1_hd",
+      "name": "UK - TNT SPORTS | EVENT 1 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 1",
+        "TNT Sports 1 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 1 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_1_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955971.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_2_hd",
+      "name": "UK - TNT SPORTS | EVENT 2 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 2",
+        "TNT Sports 2 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 2 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_2_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955970.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_3_hd",
+      "name": "UK - TNT SPORTS | EVENT 3 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 3",
+        "TNT Sports 3 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 3 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_3_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955969.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_4_hd",
+      "name": "UK - TNT SPORTS | EVENT 4 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 4",
+        "TNT Sports 4 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 4 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_4_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955968.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_5_hd",
+      "name": "UK - TNT SPORTS | EVENT 5 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 5",
+        "TNT Sports 5 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 5 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_5_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955967.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_6_hd",
+      "name": "UK - TNT SPORTS | EVENT 6 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 6",
+        "TNT Sports 6 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 6 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_6_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955966.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_7_hd",
+      "name": "UK - TNT SPORTS | EVENT 7 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 7",
+        "TNT Sports 7 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 7 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_7_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955965.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_8_hd",
+      "name": "UK - TNT SPORTS | EVENT 8 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 8",
+        "TNT Sports 8 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 8 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_8_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955963.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_9_hd",
+      "name": "UK - TNT SPORTS | EVENT 9 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 9",
+        "TNT Sports 9 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 9 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_9_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1297854.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_10_hd",
+      "name": "UK - TNT SPORTS | EVENT 10 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 10",
+        "TNT Sports 10 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 10 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_10_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955962.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_11_hd",
+      "name": "UK - TNT SPORTS | EVENT 11 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 11",
+        "TNT Sports 11 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 11 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_11_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955961.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_12_hd",
+      "name": "UK - TNT SPORTS | EVENT 12 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 12",
+        "TNT Sports 12 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 12 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_12_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955960.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_13_hd",
+      "name": "UK - TNT SPORTS | EVENT 13 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 13",
+        "TNT Sports 13 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 13 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_13_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955959.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_14_hd",
+      "name": "UK - TNT SPORTS | EVENT 14 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 14",
+        "TNT Sports 14 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 14 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_14_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955958.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_15_hd",
+      "name": "UK - TNT SPORTS | EVENT 15 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 15",
+        "TNT Sports 15 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 15 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_15_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955957.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_16_hd",
+      "name": "UK - TNT SPORTS | EVENT 16 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 16",
+        "TNT Sports 16 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 16 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_16_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955956.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_17_hd",
+      "name": "UK - TNT SPORTS | EVENT 17 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 17",
+        "TNT Sports 17 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 17 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_17_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955955.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_tnt_sports_event_18_hd",
+      "name": "UK - TNT SPORTS | EVENT 18 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/tntsports.png",
+      "aliases": [
+        "TNT Sports",
+        "TNT Sports 18",
+        "TNT Sports 18 HD",
+        "TNT Sports HD",
+        "UK",
+        "UK - TNT SPORTS | EVENT 18 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_tnt_sports_event_18_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/955954.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_01_hd",
+      "name": "UK - DAZN EVENT 01 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 01 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_01_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428582.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_02_hd",
+      "name": "UK - DAZN EVENT 02 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 02 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_02_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428581.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_03_hd",
+      "name": "UK - DAZN EVENT 03 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 03 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_03_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428580.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_04_hd",
+      "name": "UK - DAZN EVENT 04 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 04 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_04_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428579.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_05_hd",
+      "name": "UK - DAZN EVENT 05 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 05 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_05_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428578.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_06_hd",
+      "name": "UK - DAZN EVENT 06 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 06 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_06_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428577.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_07_hd",
+      "name": "UK - DAZN EVENT 07 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 07 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_07_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428576.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_08_hd",
+      "name": "UK - DAZN EVENT 08 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 08 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_08_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428575.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_09_hd",
+      "name": "UK - DAZN EVENT 09 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 09 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_09_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428574.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_10_hd",
+      "name": "UK - DAZN EVENT 10 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 10 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_10_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428573.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_11_hd",
+      "name": "UK - DAZN EVENT 11 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 11 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_11_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428572.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_event_12_hd",
+      "name": "UK - DAZN EVENT 12 HD :",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN EVENT 12 HD :",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_event_12_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428571.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "uk_dazn_red_bull_tv_hd",
+      "name": "UK - DAZN RED BULL TV HD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "UK",
+        "UK - DAZN RED BULL TV HD",
+        "UK FHD",
+        "UK HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "uk_dazn_red_bull_tv_hd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/428583.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "dazn_uk_1_linear",
+      "name": "DAZN UK 1 Linear",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/AMERICA/USA/DAZNSPORT1.png",
+      "aliases": [
+        "DAZN UK 1 Linear",
+        "DAZN UK 1 Linear FHD",
+        "DAZN UK 1 Linear HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "dazn_uk_1_linear_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1469263.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_4k_01_fhd",
+      "name": "EPL - 4K 01 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/PL4K.png",
+      "aliases": [
+        "EPL",
+        "EPL - 4K 01 FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_4k_01_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979906.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_4k_02_fhd",
+      "name": "EPL - 4K 02 FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/PL4K.png",
+      "aliases": [
+        "EPL",
+        "EPL - 4K 02 FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_4k_02_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979907.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_afc_bournemouth_fhd",
+      "name": "EPL - AFC BOURNEMOUTH FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Bournemouth.png",
+      "aliases": [
+        "EPL",
+        "EPL - AFC BOURNEMOUTH FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_afc_bournemouth_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979901.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_arsenal_fhd",
+      "name": "EPL - ARSENAL FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/ARSENAL.png",
+      "aliases": [
+        "EPL",
+        "EPL - ARSENAL FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_arsenal_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/348374.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_aston_villa_fhd",
+      "name": "EPL - ASTON VILLA FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/AstonVilla.png",
+      "aliases": [
+        "EPL",
+        "EPL - ASTON VILLA FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_aston_villa_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979902.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_brentford_fhd",
+      "name": "EPL - BRENTFORD FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Brentford.png",
+      "aliases": [
+        "EPL",
+        "EPL - BRENTFORD FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_brentford_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979900.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_brighton_fhd",
+      "name": "EPL - BRIGHTON FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Brighton.png",
+      "aliases": [
+        "EPL",
+        "EPL - BRIGHTON FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_brighton_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979899.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_chelsea_fhd",
+      "name": "EPL - CHELSEA FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Chelsea.png",
+      "aliases": [
+        "EPL",
+        "EPL - CHELSEA FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_chelsea_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979898.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_coventry_city_fhd",
+      "name": "EPL - COVENTRY CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/coventry.png",
+      "aliases": [
+        "EPL",
+        "EPL - COVENTRY CITY FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_coventry_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979889.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_crystal_palace_fhd",
+      "name": "EPL - CRYSTAL PALACE FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/CrystalPalace.png",
+      "aliases": [
+        "EPL",
+        "EPL - CRYSTAL PALACE FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_crystal_palace_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979897.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_everton_fhd",
+      "name": "EPL - EVERTON FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Everton.png",
+      "aliases": [
+        "EPL",
+        "EPL - EVERTON FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_everton_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979896.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_fulham_fhd",
+      "name": "EPL - FULHAM FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Fulham.png",
+      "aliases": [
+        "EPL",
+        "EPL - FULHAM FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_fulham_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979895.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_hull_city_fhd",
+      "name": "EPL - HULL CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/hull.png",
+      "aliases": [
+        "EPL",
+        "EPL - HULL CITY FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_hull_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979890.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_ipswich_town_fhd",
+      "name": "EPL - IPSWICH TOWN FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Ipswich.png",
+      "aliases": [
+        "EPL",
+        "EPL - IPSWICH TOWN FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_ipswich_town_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979904.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_leeds_united_fhd",
+      "name": "EPL - LEEDS UNITED FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/led.png",
+      "aliases": [
+        "EPL",
+        "EPL - LEEDS UNITED FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_leeds_united_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979905.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_liverpool_fhd",
+      "name": "EPL - LIVERPOOL FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/LIVERPOOL.png",
+      "aliases": [
+        "EPL",
+        "EPL - LIVERPOOL FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_liverpool_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/348384.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_manchester_city_fhd",
+      "name": "EPL - MANCHESTER CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/ManchesterCity.png",
+      "aliases": [
+        "EPL",
+        "EPL - MANCHESTER CITY FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_manchester_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979894.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_manchester_utd_fhd",
+      "name": "EPL - MANCHESTER UTD FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Manchesterutd.png",
+      "aliases": [
+        "EPL",
+        "EPL - MANCHESTER UTD FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_manchester_utd_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/985136.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_newcastle_utd_fhd",
+      "name": "EPL - NEWCASTLE UTD FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/NewcastleUtd.png",
+      "aliases": [
+        "EPL",
+        "EPL - NEWCASTLE UTD FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_newcastle_utd_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979893.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_nottingham_forest_fhd",
+      "name": "EPL - NOTTINGHAM FOREST FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/NottinghamForest.png",
+      "aliases": [
+        "EPL",
+        "EPL - NOTTINGHAM FOREST FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_nottingham_forest_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979892.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_sunderland_fhd",
+      "name": "EPL - SUNDERLAND FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/champ/Sunderland.png",
+      "aliases": [
+        "EPL",
+        "EPL - SUNDERLAND FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_sunderland_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979903.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "epl_tottenham_fhd",
+      "name": "EPL - TOTTENHAM FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Tottenham.png",
+      "aliases": [
+        "EPL",
+        "EPL - TOTTENHAM FHD",
+        "EPL FHD",
+        "EPL HD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "epl_tottenham_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/979891.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_birmingham_city_fhd",
+      "name": "EFL-CHAMP - BIRMINGHAM CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/champ/BIRMINGHAM.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - BIRMINGHAM CITY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_birmingham_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276506.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_blackburn_rovers_fhd",
+      "name": "EFL-CHAMP - BLACKBURN ROVERS FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/blackburn.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - BLACKBURN ROVERS FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_blackburn_rovers_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276505.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_bolton_fhd",
+      "name": "EFL-CHAMP - BOLTON FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/bolton.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - BOLTON FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_bolton_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276489.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_bristol_city_fhd",
+      "name": "EFL-CHAMP - BRISTOL CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/bristol.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - BRISTOL CITY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_bristol_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276504.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_burnley_fhd",
+      "name": "EFL-CHAMP - BURNLEY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/bur.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - BURNLEY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_burnley_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276499.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_cardiff_city_fhd",
+      "name": "EFL-CHAMP - CARDIFF CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/cardiff.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - CARDIFF CITY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_cardiff_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276498.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_charlton_athletic_fhd",
+      "name": "EFL-CHAMP - CHARLTON ATHLETIC FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/charlton.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - CHARLTON ATHLETIC FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_charlton_athletic_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276503.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_derby_county_fhd",
+      "name": "EFL-CHAMP - DERBY COUNTY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/der.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - DERBY COUNTY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_derby_county_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276501.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_lincoln_city_fhd",
+      "name": "EFL-CHAMP - LINCOLN CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/lincoln.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - LINCOLN CITY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_lincoln_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276493.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_middlesbrough_fhd",
+      "name": "EFL-CHAMP - MIDDLESBROUGH FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/middlesbrough.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - MIDDLESBROUGH FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_middlesbrough_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276496.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_millwall_fhd",
+      "name": "EFL-CHAMP - MILLWALL FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/champ/WILLWALL.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - MILLWALL FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_millwall_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276495.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_norwich_city_fhd",
+      "name": "EFL-CHAMP - NORWICH CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/nor.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - NORWICH CITY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_norwich_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276494.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_portsmouth_fhd",
+      "name": "EFL-CHAMP - PORTSMOUTH FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/rotherham.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - PORTSMOUTH FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_portsmouth_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276490.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_preston_north_end_fhd",
+      "name": "EFL-CHAMP - PRESTON NORTH END FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/preston.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - PRESTON NORTH END FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_preston_north_end_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276492.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_queens_park_rangers_fhd",
+      "name": "EFL-CHAMP - QUEENS PARK RANGERS FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/queens.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - QUEENS PARK RANGERS FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_queens_park_rangers_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276491.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_sheffield_united_fhd",
+      "name": "EFL-CHAMP - SHEFFIELD UNITED FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/shee.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - SHEFFIELD UNITED FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_sheffield_united_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276486.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_southampton_fhd",
+      "name": "EFL-CHAMP - SOUTHAMPTON FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Southampton.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - SOUTHAMPTON FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_southampton_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276488.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_stoke_city_fhd",
+      "name": "EFL-CHAMP - STOKE CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/stokc.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - STOKE CITY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_stoke_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276487.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_swansea_city_fhd",
+      "name": "EFL-CHAMP - SWANSEA CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/swansea.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - SWANSEA CITY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_swansea_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276485.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_watford_fhd",
+      "name": "EFL-CHAMP - WATFORD FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/watf.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - WATFORD FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_watford_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276484.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_west_bromwich_albion_fhd",
+      "name": "EFL-CHAMP - WEST BROMWICH ALBION FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/westb.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - WEST BROMWICH ALBION FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_west_bromwich_albion_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276483.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_west_ham_fhd",
+      "name": "EFL-CHAMP - WEST HAM FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/WestHam.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - WEST HAM FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_west_ham_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276500.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_wolves_fhd",
+      "name": "EFL-CHAMP - WOLVES FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Wolverhampton.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - WOLVES FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_wolves_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276502.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_champ_wrexham_fhd",
+      "name": "EFL-CHAMP - WREXHAM FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/wex.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-CHAMP - WREXHAM FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_champ_wrexham_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1276497.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_afc_wimbledon_fhd",
+      "name": "EFL-L1 - AFC WIMBLEDON FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/wimbledon.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - AFC WIMBLEDON FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_afc_wimbledon_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278345.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_barnsley_fhd",
+      "name": "EFL-L1 - BARNSLEY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/barnsley.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - BARNSLEY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_barnsley_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278344.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_blackpool_fhd",
+      "name": "EFL-L1 - BLACKPOOL FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/pool.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - BLACKPOOL FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_blackpool_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278343.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_bradford_city_fhd",
+      "name": "EFL-L1 - BRADFORD CITY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/bradford.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - BRADFORD CITY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_bradford_city_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278341.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_bromley_fhd",
+      "name": "EFL-L1 - BROMLEY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/BROMLEY.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - BROMLEY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_bromley_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278337.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_burton_albion_fhd",
+      "name": "EFL-L1 - BURTON ALBION FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/burton.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - BURTON ALBION FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_burton_albion_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278340.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_cambridge_united_fhd",
+      "name": "EFL-L1 - CAMBRIDGE UNITED FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/CAMBRIDGE.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - CAMBRIDGE UNITED FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_cambridge_united_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278326.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_doncaster_rovers_fhd",
+      "name": "EFL-L1 - DONCASTER ROVERS FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/doncaster.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - DONCASTER ROVERS FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_doncaster_rovers_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278338.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_huddersfield_town_fhd",
+      "name": "EFL-L1 - HUDDERSFIELD TOWN FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/hudd.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - HUDDERSFIELD TOWN FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_huddersfield_town_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278336.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_leicester_fhd",
+      "name": "EFL-L1 - LEICESTER FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/LeicesterCity.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - LEICESTER FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_leicester_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278339.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_leyton_orient_fhd",
+      "name": "EFL-L1 - LEYTON ORIENT FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/leyton.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - LEYTON ORIENT FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_leyton_orient_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278335.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_luton_town_fhd",
+      "name": "EFL-L1 - LUTON TOWN FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/luton.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - LUTON TOWN FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_luton_town_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278333.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_mansfield_town_fhd",
+      "name": "EFL-L1 - MANSFIELD TOWN FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/mansfield.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - MANSFIELD TOWN FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_mansfield_town_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278332.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_mk_dons_fhd",
+      "name": "EFL-L1 - MK DONS FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/MK.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - MK DONS FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_mk_dons_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278328.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_notts_county_fhd",
+      "name": "EFL-L1 - NOTTS COUNTY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/NOTTSCOUNTY.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - NOTTS COUNTY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_notts_county_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278331.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_oxford_fhd",
+      "name": "EFL-L1 - OXFORD FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/oxf.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - OXFORD FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_oxford_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278334.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_peterborough_united_fhd",
+      "name": "EFL-L1 - PETERBOROUGH UNITED FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/peter.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - PETERBOROUGH UNITED FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_peterborough_united_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278330.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_plymouth_argyle_fhd",
+      "name": "EFL-L1 - PLYMOUTH ARGYLE FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/pllymouth.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - PLYMOUTH ARGYLE FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_plymouth_argyle_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278329.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_reading_fhd",
+      "name": "EFL-L1 - READING FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/reading.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - READING FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_reading_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278327.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_sheffield_wednesday_fhd",
+      "name": "EFL-L1 - SHEFFIELD WEDNESDAY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/Sheffield1.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - SHEFFIELD WEDNESDAY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_sheffield_wednesday_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278342.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_stevenage_fhd",
+      "name": "EFL-L1 - STEVENAGE FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/stevenage.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - STEVENAGE FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_stevenage_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278325.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_stockport_county_fhd",
+      "name": "EFL-L1 - STOCKPORT COUNTY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/stockport.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - STOCKPORT COUNTY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_stockport_county_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278324.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_wigan_athletic_fhd",
+      "name": "EFL-L1 - WIGAN ATHLETIC FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/wigan.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - WIGAN ATHLETIC FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_wigan_athletic_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278323.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l1_wycombe_wanderers_fhd",
+      "name": "EFL-L1 - WYCOMBE WANDERERS FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/wycombe.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L1 - WYCOMBE WANDERERS FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l1_wycombe_wanderers_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278322.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l2_accrington_stanley_fhd",
+      "name": "EFL-L2 - ACCRINGTON STANLEY FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/ACCRINGTON.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L2 - ACCRINGTON STANLEY FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l2_accrington_stanley_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278369.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l2_barnet_fhd",
+      "name": "EFL-L2 - BARNET FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/BARNET.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L2 - BARNET FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l2_barnet_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278368.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l2_bristol_rovers_fhd",
+      "name": "EFL-L2 - BRISTOL ROVERS FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/BRISTOL.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L2 - BRISTOL ROVERS FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l2_bristol_rovers_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278366.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "id": "efl_l2_cheltenham_town_fhd",
+      "name": "EFL-L2 - CHELTENHAM TOWN FHD",
+      "country": "INTERNATIONAL",
+      "priority": 220,
+      "logoUrl": "https://go4.pw/UK/CHELTENHAM.png",
+      "aliases": [
+        "EFL",
+        "EFL FHD",
+        "EFL HD",
+        "EFL-L2 - CHELTENHAM TOWN FHD"
+      ],
+      "enabled": true,
+      "sources": [
+        {
+          "id": "efl_l2_cheltenham_town_fhd_source_1",
+          "url": "http://des-tro.com:80/live/MAG4XNTG3M/MAGWMFW81R/1278363.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 1
+        }
+      ]
+    }
+  ]
+}
