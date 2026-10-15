@@ -499,6 +499,59 @@ def find_best_channel(
     return best_match
 
 
+
+def _expand_sky_calcio_names(name: str) -> list[str]:
+    """Calcio N ↔ Sky Sport (250+N). LiveOnSat / EPG / liste IPTV.
+
+    Esempi:
+      Sky Calcio 1 / Calcio 1  →  Sky Sport 251
+      Sky Sport 252            →  Calcio 2, SKY CALCIO 2
+    """
+    out = [name]
+    n = _normalize(name)
+    if not n:
+        return out
+
+    m = re.search(r"(?:sky\s+)?(?:sport\s+)?calcio\s+(\d+)", n)
+    if m:
+        num = int(m.group(1))
+        sky = 250 + num
+        if 251 <= sky <= 269:
+            out.extend(
+                [
+                    f"Sky Sport {sky}",
+                    f"Sky Sport {sky} HD",
+                    f"Sky Calcio {num}",
+                    f"Calcio {num}",
+                    f"SKY CALCIO {num}",
+                    f"Sky Sport Calcio {num}",
+                ]
+            )
+
+    m2 = re.search(r"sky\s+sport\s+(25[1-9]|26\d)\b", n)
+    if m2:
+        sky = int(m2.group(1))
+        num = sky - 250
+        out.extend(
+            [
+                f"Calcio {num}",
+                f"Sky Calcio {num}",
+                f"SKY CALCIO {num}",
+                f"Sky Sport Calcio {num}",
+                f"Sky Sport {sky}",
+            ]
+        )
+
+    seen: set[str] = set()
+    uniq: list[str] = []
+    for x in out:
+        k = x.casefold().strip()
+        if k and k not in seen:
+            seen.add(k)
+            uniq.append(x)
+    return uniq
+
+
 def match_broadcasters(
     broadcasters: list[str],
     channels: list[Channel],
