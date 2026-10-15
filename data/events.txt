@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T12:41:41Z",
+  "generatedAt": "2026-10-15T13:16:13Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -2596,11 +2596,11 @@
       "awayTeamId": "espn_diretta_no7WxyMq_a",
       "startTime": "2026-10-15T11:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/WO34Nkme-G2zyx4Vd.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/chn.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2621,7 +2621,7 @@
       "awayTeamId": "espn_diretta_nVGrJfNM_a",
       "startTime": "2026-10-15T11:25:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/tQDMPh8k-f7v3Inzp.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/dvwRt5jT-tOt4Rhy2.png",
       "homeScore": 0,
@@ -2663,17 +2663,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_YHcyJLDD",
-      "title": "Drzewiecki K./Matuszewski P. - Karol M./Paulson A.",
+      "id": "diretta_tennis_zugPMOVo",
+      "title": "Behar A./Paris J. - Paul J./Vocel M.",
       "sport": "TENNIS",
       "competitionId": "atp",
-      "homeTeamId": "espn_diretta_YHcyJLDD_h",
-      "awayTeamId": "espn_diretta_YHcyJLDD_a",
-      "startTime": "2026-10-15T13:00:00Z",
+      "homeTeamId": "espn_diretta_zugPMOVo_h",
+      "awayTeamId": "espn_diretta_zugPMOVo_a",
+      "startTime": "2026-10-15T13:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/lhWssqme-YsRV6IHP.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/M5lbplU0-f9FuwN12.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/M3s2ETQq-QPsxT8Cr.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2688,17 +2688,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_zugPMOVo",
-      "title": "Behar A./Paris J. - Paul J./Vocel M.",
+      "id": "diretta_tennis_YHcyJLDD",
+      "title": "Drzewiecki K./Matuszewski P. - Karol M./Paulson A.",
       "sport": "TENNIS",
       "competitionId": "atp",
-      "homeTeamId": "espn_diretta_zugPMOVo_h",
-      "awayTeamId": "espn_diretta_zugPMOVo_a",
+      "homeTeamId": "espn_diretta_YHcyJLDD_h",
+      "awayTeamId": "espn_diretta_YHcyJLDD_a",
       "startTime": "2026-10-15T13:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/M5lbplU0-f9FuwN12.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/M3s2ETQq-QPsxT8Cr.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/lhWssqme-YsRV6IHP.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2756,7 +2756,7 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
-        "claro_sports_hd",
+        "claro_sports_2_hd",
         "paramount"
       ]
     },
@@ -2802,9 +2802,7 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
-        "digi_sport_1_ro",
-        "paramount",
-        "dazn_1_pt"
+        "paramount"
       ]
     },
     {
@@ -2961,6 +2959,7 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
+        "claro_sports_hd",
         "paramount",
         "cbs_ssports_network"
       ]
@@ -3077,7 +3076,8 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
-        "paramount"
+        "paramount",
+        "dazn_1_pt"
       ]
     },
     {
@@ -3190,8 +3190,7 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
-        "paramount",
-        "dazn_4_HD_PT"
+        "paramount"
       ]
     },
     {
@@ -3235,6 +3234,7 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
+        "claro_sports_hd",
         "paramount",
         "cbs_ssports_network"
       ]
@@ -3280,6 +3280,7 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
+        "claro_sports_hd",
         "paramount"
       ]
     },
@@ -4147,25 +4148,8 @@
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
+        "exyu_arena_sport_7_hd_hr",
         "it_dazn_serie_b_4_catanzaro"
-      ]
-    },
-    {
-      "id": "espn_401883158",
-      "title": "Leganés - Córdoba",
-      "sport": "FOOTBALL",
-      "competitionId": "la_liga_2",
-      "homeTeamId": "espn_17534",
-      "awayTeamId": "espn_8447",
-      "startTime": "2026-10-16T18:30Z",
-      "endTime": "2026-10-16T20:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/8447.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "tyc_sports"
       ]
     },
     {
@@ -4497,24 +4481,6 @@
         "sky_sport_uno",
         "sky_sport_basket",
         "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401841627",
-      "title": "Boca Juniors - Talleres (Córdoba)",
-      "sport": "FOOTBALL",
-      "competitionId": "liga_profesional",
-      "homeTeamId": "espn_5",
-      "awayTeamId": "espn_19",
-      "startTime": "2026-10-17T00:30Z",
-      "endTime": "2026-10-17T02:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "tyc_sports"
       ]
     },
     {

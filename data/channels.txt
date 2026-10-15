@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T12:41:41Z",
+  "generatedAt": "2026-10-15T13:16:13Z",
   "channels": [
     {
       "id": "sky_sport_uno",
@@ -100935,6 +100935,13 @@
           "type": "AUTO",
           "enabled": true,
           "priority": 2
+        },
+        {
+          "id": "it_sky_calcio_1_uhd_src_3",
+          "url": "http://line.ottbolt.com:80/live/ERWINP/713547/105976.m3u8",
+          "type": "HLS",
+          "enabled": true,
+          "priority": 3
         }
       ]
     },
