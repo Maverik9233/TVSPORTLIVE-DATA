@@ -511,28 +511,29 @@ def match_broadcasters(
         if not broadcaster:
             continue
 
-        match = find_best_channel(
-            broadcaster=broadcaster,
-            channels=channels,
-        )
+        # Prova nome originale + varianti Sky Calcio N ↔ Sky Sport 25x
+        candidates = _expand_sky_calcio_names(broadcaster)
+        best: ChannelMatch | None = None
+        for cand in candidates:
+            match = find_best_channel(
+                broadcaster=cand,
+                channels=channels,
+            )
+            if match is None:
+                continue
+            if match.score < 90:
+                continue
+            if best is None or match.score > best.score:
+                best = match
 
-        if match is None:
+        if best is None:
             continue
 
-        # Soglia alta: evita abbinamenti deboli tipo DAZN→PT
-        if match.score < 90:
+        if best.channel_id in seen_ids:
             continue
 
-        if match.channel_id in seen_ids:
-            continue
-
-        seen_ids.add(
-            match.channel_id
-        )
-
-        matches.append(
-            match
-        )
+        seen_ids.add(best.channel_id)
+        matches.append(best)
 
     return matches
 

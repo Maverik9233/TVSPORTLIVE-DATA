@@ -287,9 +287,11 @@ COMPETITION_BROADCASTER_OVERRIDES = {
     # EL/ECL: Sky (tutte) + TV8 (spesso 1 in chiaro giovedì)
     # DAZN non ha i diritti principali delle coppe UEFA in Italia
     "champions_league": (
-        # Diritti IT generici — NON Sky 251-259 (variano per partita → LiveOnSat)
+        # Sky base + TV8/Prime. I 251-259/Calcio N arrivano da LiveOnSat
+        # (match Calcio N ↔ Sky Sport 25x in channel_matcher).
         "Sky Sport Uno",
         "Sky Sport Calcio",
+        "Sky Calcio",
         "Sky Sport Arena",
         "Sky Go Italy",
         "Sky Go",
