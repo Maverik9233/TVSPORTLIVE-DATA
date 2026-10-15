@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T00:07:40Z",
+  "generatedAt": "2026-10-15T04:37:14Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -905,6 +905,14 @@
       "name": "Errani S./Paolini J.",
       "shortName": "Errani S./Paolini J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Cju9Z59E_h",
+      "name": "Escurra Isnardi H. J.",
+      "shortName": "Escurra Isnardi H. J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ENcgA0T0-0dFUBVOc.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2077,6 +2085,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_Cju9Z59E_a",
+      "name": "Vertberger I.",
+      "shortName": "Vertberger I.",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_11706",
       "name": "Viktoria Plzen",
       "shortName": "Viktoria Plzen",
@@ -2157,38 +2173,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_Q3fQfAg2_h",
       "awayTeamId": "espn_diretta_Q3fQfAg2_a",
-      "startTime": "2026-10-15T03:00:00Z",
+      "startTime": "2026-10-15T03:05:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/h2MtYH6k-b9SLPqcf.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/IJbRrmXH-8jUzGsE1.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_h0DD5fGs",
-      "title": "Pohankova M. - Sakkari M.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_h0DD5fGs_h",
-      "awayTeamId": "espn_diretta_h0DD5fGs_a",
-      "startTime": "2026-10-15T03:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vVlqThWH-KAJDugA4.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2226,17 +2217,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_hlyAs8k4",
-      "title": "Sueoka Y./Zheng B. - Shao Z./Song Y.",
+      "id": "diretta_tennis_h0DD5fGs",
+      "title": "Pohankova M. - Sakkari M.",
       "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_hlyAs8k4_h",
-      "awayTeamId": "espn_diretta_hlyAs8k4_a",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_h0DD5fGs_h",
+      "awayTeamId": "espn_diretta_h0DD5fGs_a",
       "startTime": "2026-10-15T05:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nXub2a6k-MwSNCCyI.png",
-      "awayLogoUrl": null,
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vVlqThWH-KAJDugA4.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2276,17 +2267,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_fqCwH0A4",
-      "title": "Paolini J. - Kartal S.",
+      "id": "diretta_tennis_hlyAs8k4",
+      "title": "Sueoka Y./Zheng B. - Shao Z./Song Y.",
       "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_fqCwH0A4_h",
-      "awayTeamId": "espn_diretta_fqCwH0A4_a",
-      "startTime": "2026-10-15T06:00:00Z",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_hlyAs8k4_h",
+      "awayTeamId": "espn_diretta_hlyAs8k4_a",
+      "startTime": "2026-10-15T05:40:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nLTqTYA6-0fhNJLOt.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MyLQCyS0-8tgRkrmo.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nXub2a6k-MwSNCCyI.png",
+      "awayLogoUrl": null,
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2337,6 +2328,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/QoFo2GlC-jBHR7D3h.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/UTQWjIAN-IXgB6M5i.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_fqCwH0A4",
+      "title": "Paolini J. - Kartal S.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_fqCwH0A4_h",
+      "awayTeamId": "espn_diretta_fqCwH0A4_a",
+      "startTime": "2026-10-15T07:50:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nLTqTYA6-0fhNJLOt.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MyLQCyS0-8tgRkrmo.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2965,7 +2981,8 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
-        "paramount"
+        "paramount",
+        "dazn_1_pt"
       ]
     },
     {
@@ -3031,8 +3048,32 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
-        "paramount",
-        "dazn_1_pt"
+        "paramount"
+      ]
+    },
+    {
+      "id": "diretta_tennis_Cju9Z59E",
+      "title": "Escurra Isnardi H. J. - Vertberger I.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_Cju9Z59E_h",
+      "awayTeamId": "espn_diretta_Cju9Z59E_a",
+      "startTime": "2026-10-15T18:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ENcgA0T0-0dFUBVOc.png",
+      "awayLogoUrl": null,
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
