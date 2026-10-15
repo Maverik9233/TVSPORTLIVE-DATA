@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T04:37:14Z",
+  "generatedAt": "2026-10-15T09:28:09Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -405,14 +405,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_2680",
-      "name": "Alianza Lima",
-      "shortName": "Alianza Lima",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2680.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_WKVrDuOq_h",
       "name": "Alvarez Valdes L. C./Massucco S.",
       "shortName": "Alvarez Valdes L. C./Massucco S.",
@@ -493,14 +485,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_20293",
-      "name": "Atlético Grau",
-      "shortName": "Atlético Grau",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20293.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_248",
       "name": "Ayr United",
       "shortName": "Ayr",
@@ -534,6 +518,14 @@
     },
     {
       "id": "espn_diretta_nmp9so1e_a",
+      "name": "Bellucci M.",
+      "shortName": "Bellucci M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_4Ec4Ht7C_a",
       "name": "Bellucci M.",
       "shortName": "Bellucci M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
@@ -729,6 +721,14 @@
       "name": "Chicago Bulls",
       "shortName": "Bulls",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_YBrRGOYi_h",
+      "name": "Chwalinska M.",
+      "shortName": "Chwalinska M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hbtCjYjC-lIFEp2GI.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1797,6 +1797,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_YBrRGOYi_a",
+      "name": "Sakkari M.",
+      "shortName": "Sakkari M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_24",
       "name": "San Antonio Spurs",
       "shortName": "Spurs",
@@ -1849,6 +1857,14 @@
       "name": "Shao Z./Song Y.",
       "shortName": "Shao Z./Song Y.",
       "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_4Ec4Ht7C_h",
+      "name": "Shevchenko A.",
+      "shortName": "Shevchenko A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6Vq4Nome-IRUQLRO7.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2175,7 +2191,7 @@
       "awayTeamId": "espn_diretta_Q3fQfAg2_a",
       "startTime": "2026-10-15T03:05:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/h2MtYH6k-b9SLPqcf.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/IJbRrmXH-8jUzGsE1.png",
       "homeScore": 0,
@@ -2200,36 +2216,11 @@
       "awayTeamId": "espn_diretta_j7aM6QXa_a",
       "startTime": "2026-10-15T04:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/2ROtSoXH-pxkkgtQh.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_h0DD5fGs",
-      "title": "Pohankova M. - Sakkari M.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_h0DD5fGs_h",
-      "awayTeamId": "espn_diretta_h0DD5fGs_a",
-      "startTime": "2026-10-15T05:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vVlqThWH-KAJDugA4.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2248,13 +2239,38 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_nmp9so1e_h",
       "awayTeamId": "espn_diretta_nmp9so1e_a",
-      "startTime": "2026-10-15T05:30:00Z",
+      "startTime": "2026-10-15T06:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/SfsHMZoe-4WIOrVom.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_h0DD5fGs",
+      "title": "Pohankova M. - Sakkari M.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_h0DD5fGs_h",
+      "awayTeamId": "espn_diretta_h0DD5fGs_a",
+      "startTime": "2026-10-15T06:25:00Z",
+      "endTime": null,
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vVlqThWH-KAJDugA4.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2273,38 +2289,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_hlyAs8k4_h",
       "awayTeamId": "espn_diretta_hlyAs8k4_a",
-      "startTime": "2026-10-15T05:40:00Z",
+      "startTime": "2026-10-15T06:25:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/nXub2a6k-MwSNCCyI.png",
       "awayLogoUrl": null,
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_OQrVaKPa",
-      "title": "Fernandez L. - Ostapenko J.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_OQrVaKPa_h",
-      "awayTeamId": "espn_diretta_OQrVaKPa_a",
-      "startTime": "2026-10-15T07:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ATkDeukC-tjuCBoTQ.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/4CrmvQiT-zmgTzryp.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2323,13 +2314,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_xnIWM9Qs_h",
       "awayTeamId": "espn_diretta_xnIWM9Qs_a",
-      "startTime": "2026-10-15T07:00:00Z",
+      "startTime": "2026-10-15T07:35:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/QoFo2GlC-jBHR7D3h.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/UTQWjIAN-IXgB6M5i.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2342,19 +2333,19 @@
       ]
     },
     {
-      "id": "diretta_tennis_fqCwH0A4",
-      "title": "Paolini J. - Kartal S.",
+      "id": "diretta_tennis_OQrVaKPa",
+      "title": "Fernandez L. - Ostapenko J.",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_diretta_fqCwH0A4_h",
-      "awayTeamId": "espn_diretta_fqCwH0A4_a",
-      "startTime": "2026-10-15T07:50:00Z",
+      "homeTeamId": "espn_diretta_OQrVaKPa_h",
+      "awayTeamId": "espn_diretta_OQrVaKPa_a",
+      "startTime": "2026-10-15T07:40:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nLTqTYA6-0fhNJLOt.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MyLQCyS0-8tgRkrmo.png",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ATkDeukC-tjuCBoTQ.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/4CrmvQiT-zmgTzryp.png",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2453,6 +2444,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_fqCwH0A4",
+      "title": "Paolini J. - Kartal S.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_fqCwH0A4_h",
+      "awayTeamId": "espn_diretta_fqCwH0A4_a",
+      "startTime": "2026-10-15T09:45:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nLTqTYA6-0fhNJLOt.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MyLQCyS0-8tgRkrmo.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2567,31 +2583,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_OjvjLq9b",
-      "title": "Elamin A./Stice T. - Tsitsipas Pa./Tsitsipas Pe.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_OjvjLq9b_h",
-      "awayTeamId": "espn_diretta_OjvjLq9b_a",
-      "startTime": "2026-10-15T12:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Ao9yAnU0-ENJtfsdM.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/A9L9R8T0-EX6Qfl6M.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "diretta_tennis_YHcyJLDD",
       "title": "Drzewiecki K./Matuszewski P. - Karol M./Paulson A.",
       "sport": "TENNIS",
@@ -2628,6 +2619,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/M5lbplU0-f9FuwN12.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/M3s2ETQq-QPsxT8Cr.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_OjvjLq9b",
+      "title": "Elamin A./Stice T. - Tsitsipas Pa./Tsitsipas Pe.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_OjvjLq9b_h",
+      "awayTeamId": "espn_diretta_OjvjLq9b_a",
+      "startTime": "2026-10-15T14:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Ao9yAnU0-ENJtfsdM.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/A9L9R8T0-EX6Qfl6M.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2981,8 +2997,7 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
-        "paramount",
-        "dazn_1_pt"
+        "paramount"
       ]
     },
     {
@@ -3739,6 +3754,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_YBrRGOYi",
+      "title": "Chwalinska M. - Sakkari M.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_YBrRGOYi_h",
+      "awayTeamId": "espn_diretta_YBrRGOYi_a",
+      "startTime": "2026-10-16T02:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hbtCjYjC-lIFEp2GI.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "diretta_tennis_pfCnaQC7",
       "title": "Errani S./Paolini J. - Danilina A./Zhang S.",
       "sport": "TENNIS",
@@ -3800,6 +3840,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/6yqVVl7k-6Z1AkBdk.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/8vGNRdkC-pQ0ElVBe.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_4Ec4Ht7C",
+      "title": "Shevchenko A. - Bellucci M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_4Ec4Ht7C_h",
+      "awayTeamId": "espn_diretta_4Ec4Ht7C_a",
+      "startTime": "2026-10-16T02:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6Vq4Nome-IRUQLRO7.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
