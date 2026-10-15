@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T11:17:07Z",
+  "generatedAt": "2026-10-15T12:41:41Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -1389,6 +1389,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_CUweDn0d_a",
+      "name": "Li Y./Liu L. Y.",
+      "shortName": "Li Y./Liu L. Y.",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_987",
       "name": "Lillestrom",
       "shortName": "Lillestrom",
@@ -2229,6 +2237,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_CUweDn0d_h",
+      "name": "Zhang J./Zheng W.",
+      "shortName": "Zhang J./Zheng W.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_ERN0r0Qp_h",
       "name": "Zverev A.",
       "shortName": "Zverev A.",
@@ -2530,11 +2546,11 @@
       "awayTeamId": "espn_diretta_ERN0r0Qp_a",
       "startTime": "2026-10-15T10:10:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/lU8NIJlC-2DqYxEbl.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/jV0hnbme-CID30mRm.png",
-      "homeScore": 1,
-      "awayScore": 1,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2555,11 +2571,11 @@
       "awayTeamId": "espn_diretta_WKVrDuOq_a",
       "startTime": "2026-10-15T10:25:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/bi7Z4ame-2NKHYeEQ.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/480JTFle-p4D85lD2.png",
-      "homeScore": 1,
-      "awayScore": 1,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2603,13 +2619,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_nVGrJfNM_h",
       "awayTeamId": "espn_diretta_nVGrJfNM_a",
-      "startTime": "2026-10-15T11:15:00Z",
+      "startTime": "2026-10-15T11:25:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/tQDMPh8k-f7v3Inzp.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/dvwRt5jT-tOt4Rhy2.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2630,11 +2646,11 @@
       "awayTeamId": "espn_diretta_tAowG2uH_a",
       "startTime": "2026-10-15T11:40:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/ClGOXh5k-xrnIKwNd.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/vuKx9C6k-4OY2Xru5.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3918,31 +3934,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_fgcEznNt",
-      "title": "Sueoka Y./Zheng B. - Huang T./Lu C.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_fgcEznNt_h",
-      "awayTeamId": "espn_diretta_fgcEznNt_a",
-      "startTime": "2026-10-16T02:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nXub2a6k-MwSNCCyI.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6LWOyYRq-GQEJAJ70.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "espn_401892516",
       "title": "Vegas Golden Knights - Calgary Flames",
       "sport": "HOCKEY",
@@ -3976,6 +3967,56 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/6Vq4Nome-IRUQLRO7.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_CUweDn0d",
+      "title": "Zhang J./Zheng W. - Li Y./Liu L. Y.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_CUweDn0d_h",
+      "awayTeamId": "espn_diretta_CUweDn0d_a",
+      "startTime": "2026-10-16T04:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
+      "awayLogoUrl": null,
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_fgcEznNt",
+      "title": "Sueoka Y./Zheng B. - Huang T./Lu C.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_fgcEznNt_h",
+      "awayTeamId": "espn_diretta_fgcEznNt_a",
+      "startTime": "2026-10-16T05:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nXub2a6k-MwSNCCyI.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6LWOyYRq-GQEJAJ70.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
