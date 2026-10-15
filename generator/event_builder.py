@@ -655,6 +655,7 @@ def get_matching_liveonsat_event(
     # Da liste LiveOnSat "inquinate" (>35 canali) teniamo solo
     # canali IT chiari. Sky Calcio/Uno sì; TV8 solo se "Italia"
     # (mai TV8 Turkiye / TV8 generico senza paese).
+    # IT + multi-evento Sky + brand esteri utili (coppe UEFA)
     ITA_KEEP = (
         "rai 1", "rai 2", "rai 3", "rai uno", "rai due", "rai tre",
         "rai sport", "rai 4",
@@ -666,8 +667,32 @@ def get_matching_liveonsat_event(
         "nove", "n9ve", "channel 9",
         "la7", "la 7",
         "sky sport calcio", "sky sport uno", "sky calcio",
-        "dazn 1 italia", "dazn 2 italia", "zona dazn",
+        "sky sport arena", "sky sport 24",
+        "sky go", "now",
+        "prime video", "amazon prime",
+        "dazn 1 italia", "dazn 2 italia", "zona dazn", "dazn italia",
         "supertennis", "super tennis",
+        # Sky multi-evento / Calcio N (= 251-259)
+        "sky sport 251", "sky sport 252", "sky sport 253", "sky sport 254",
+        "sky sport 255", "sky sport 256", "sky sport 257", "sky sport 258",
+        "sky sport 259", "sky sport 260", "sky sport 261", "sky sport 262",
+        "sky sport 263",
+        "calcio 1", "calcio 2", "calcio 3", "calcio 4", "calcio 5",
+        "calcio 6", "calcio 7", "calcio 8", "calcio 9",
+        "sky calcio 1", "sky calcio 2", "sky calcio 3", "sky calcio 4",
+        "sky calcio 5", "sky calcio 6", "sky calcio 7", "sky calcio 8",
+        "sky calcio 9",
+    )
+    # Brand internazionali tipici coppe (se presenti in channels)
+    INTL_KEEP = (
+        "arena sport", "arena premium", "arena m",
+        "bein sports", "bein connect", "be in sports",
+        "tnt sports", "tnt sport", "bt sport",
+        "rsi la", "rsi la2", "rsi la 2", "rsi la1", "rsi la 1",
+        "digi sport", "sportklub", "sport klub",
+        "canal+ sport", "canal plus",
+        "dazn", "viaplay", "ziggo",
+        "fox sports", "supersport",
     )
 
     def racing_score(cand_title: str) -> int:
@@ -698,19 +723,30 @@ def get_matching_liveonsat_event(
         bl = list(broadcasters or ())
         if n_bc <= 35:
             return bl
-        # lista inquinata: solo canali IT rilevanti
+        # Lista lunga (tipica UEFA): tieni IT + Sky 251-259/Calcio N
+        # + brand esteri noti (Arena/beIN/TNT/RSI…), non tutto il mondo.
         kept = []
         for b in bl:
             low = (b or "").lower()
-            if not any(k in low for k in ITA_KEEP):
-                continue
-            # TV8 solo se esplicitamente Italia (non Turkiye / generico)
+            # TV8: ok se non Turkiye (LiveOnSat spesso scrive solo "TV8")
             if "tv8" in low.replace(" ", "") or "tv 8" in low:
                 if "turk" in low or "turkiye" in low:
                     continue
-                if "italia" not in low and "italy" not in low:
-                    continue
-            kept.append(b)
+                kept.append(b)
+                continue
+            if any(k in low for k in ITA_KEEP):
+                kept.append(b)
+                continue
+            if any(k in low for k in INTL_KEEP):
+                kept.append(b)
+                continue
+            # Sky Sport 25x / 26x anche se non in lista fissa
+            if "sky sport" in low and any(
+                f" {n} " in f" {low} " or low.endswith(f" {n}") or f" {n}" in low
+                for n in range(251, 270)
+            ):
+                kept.append(b)
+                continue
         return kept
 
     raw_teams = team_tokens(raw_title)
