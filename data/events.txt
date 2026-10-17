@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T13:02:43Z",
+  "generatedAt": "2026-10-17T14:00:21Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -1733,6 +1733,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_ger3_dusseldorf",
+      "name": "Dusseldorf",
+      "shortName": "Dusseldorf",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_21175",
       "name": "Dux Logroño",
       "shortName": "Dux Logroño",
@@ -2221,6 +2229,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_ger3_grossaspach",
+      "name": "Grossaspach",
+      "shortName": "Grossaspach",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_6273",
       "name": "Grêmio",
       "shortName": "Grêmio",
@@ -2385,6 +2401,14 @@
       "name": "Independiente Santa Fe",
       "shortName": "Santa Fe",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_ger3_ingolstadt",
+      "name": "Ingolstadt",
+      "shortName": "Ingolstadt",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21314.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3025,6 +3049,14 @@
       "name": "Motherwell",
       "shortName": "Motherwell",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/266.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_ger3_munster",
+      "name": "Munster",
+      "shortName": "Munster",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -3733,6 +3765,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_ger3_regensburg",
+      "name": "Regensburg",
+      "shortName": "Regensburg",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_serie_c_reggiana",
       "name": "REGGIANA",
       "shortName": "REGGIANA",
@@ -3801,6 +3841,22 @@
       "name": "Rubin Kazan",
       "shortName": "Rubin Kazan",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3851.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_ger3_rw_essen",
+      "name": "RW Essen",
+      "shortName": "RW Essen",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_ger3_saarbrucken",
+      "name": "Saarbrucken",
+      "shortName": "Saarbrucken",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -4645,6 +4701,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_ger3_wehen",
+      "name": "Wehen",
+      "shortName": "Wehen",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_137",
       "name": "Werder Bremen",
       "shortName": "Bremen",
@@ -4941,7 +5005,7 @@
       "awayTeamId": "espn_347",
       "startTime": "2026-10-17T11:30Z",
       "endTime": "2026-10-17T13:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
       "homeScore": 2,
@@ -4959,10 +5023,10 @@
       "awayTeamId": "espn_372",
       "startTime": "2026-10-17T11:30Z",
       "endTime": "2026-10-17T13:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "paramount"
@@ -4977,7 +5041,7 @@
       "awayTeamId": "espn_diretta_GjUtJfr9_a",
       "startTime": "2026-10-17T11:40:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/dvwRt5jT-tOt4Rhy2.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/hbtCjYjC-lIFEp2GI.png",
       "homeScore": 0,
@@ -5002,10 +5066,10 @@
       "awayTeamId": "espn_19968",
       "startTime": "2026-10-17T11:45Z",
       "endTime": "2026-10-17T13:45:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19968.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
       "channels": [
         "paramount"
@@ -5020,11 +5084,11 @@
       "awayTeamId": "espn_1068",
       "startTime": "2026-10-17T12:00Z",
       "endTime": "2026-10-17T14:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "espn_us",
         "espn"
@@ -5042,8 +5106,8 @@
       "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/ClGOXh5k-xrnIKwNd.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/0fUCPyWH-hlFNheQI.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5064,11 +5128,11 @@
       "awayTeamId": "espn_2574",
       "startTime": "2026-10-17T13:00Z",
       "endTime": "2026-10-17T15:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3346.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2574.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia"
@@ -5083,10 +5147,10 @@
       "awayTeamId": "espn_120",
       "startTime": "2026-10-17T13:00Z",
       "endTime": "2026-10-17T15:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4059.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/120.png",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia",
@@ -5102,10 +5166,10 @@
       "awayTeamId": "espn_2573",
       "startTime": "2026-10-17T13:00Z",
       "endTime": "2026-10-17T15:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3988.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2573.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia",
@@ -5123,10 +5187,10 @@
       "awayTeamId": "espn_11137",
       "startTime": "2026-10-17T13:00Z",
       "endTime": "2026-10-17T15:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3952.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11137.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "dazn_1_italia",
@@ -5142,7 +5206,7 @@
       "awayTeamId": "espn_114",
       "startTime": "2026-10-17T13:00Z",
       "endTime": "2026-10-17T15:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
       "homeScore": 0,
@@ -5152,84 +5216,28 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "arena_sport_2_bih",
-        "Arena_Premium_3",
-        "arena_premium_5_srbija_HD",
-        "supersport_football",
         "paramount",
-        "bein_sports_1_france",
-        "ziggo_sport",
-        "dazn_2",
         "it_dazn_serie_a_4_hd_napoli",
         "it_dazn_serie_a_17_hd_venezia"
       ]
     },
     {
-      "id": "diretta_tennis_OY07VqkT",
-      "title": "Hunter S./Siniakova K. - Errani S./Paolini J.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_OY07VqkT_h",
-      "awayTeamId": "espn_diretta_OY07VqkT_a",
-      "startTime": "2026-10-17T13:20:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/xbezaZoe-EiVqZ6xJ.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "espn_401884769",
-      "title": "1. FC Union Berlin - Borussia Dortmund",
+      "id": "espn_401884766",
+      "title": "Werder Bremen - SC Paderborn 07",
       "sport": "FOOTBALL",
       "competitionId": "bundesliga",
-      "homeTeamId": "espn_598",
-      "awayTeamId": "espn_124",
+      "homeTeamId": "espn_137",
+      "awayTeamId": "espn_3307",
       "startTime": "2026-10-17T13:30Z",
       "endTime": "2026-10-17T15:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+      "status": "LIVE",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
-      ]
-    },
-    {
-      "id": "diretta_tennis_YT1CMl6b",
-      "title": "Pereira T./Winter Lopez B. - Karol M./Paulson A.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_YT1CMl6b_h",
-      "awayTeamId": "espn_diretta_YT1CMl6b_a",
-      "startTime": "2026-10-17T14:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WhZ0PtB6-2BxtFqht.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
+        "dazn_deutschland",
+        "gr_magenta_sport_league_1_fhd"
       ]
     },
     {
@@ -5362,6 +5370,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_OY07VqkT",
+      "title": "Hunter S./Siniakova K. - Errani S./Paolini J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_OY07VqkT_h",
+      "awayTeamId": "espn_diretta_OY07VqkT_a",
+      "startTime": "2026-10-17T14:15:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/xbezaZoe-EiVqZ6xJ.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401883178",
       "title": "Eibar - Mallorca",
       "sport": "FOOTBALL",
@@ -5410,7 +5443,7 @@
       "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/4db86XmC-jkltiv4D.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/bZZj3WBN-x4BBSEWp.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
       "channels": [
         "it_sky_calcio_6_uhd"
@@ -5428,8 +5461,8 @@
       "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/APNv7D8k-zFFGIwi8.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/C6R1il6k-plwBfqHG.png",
-      "homeScore": 1,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "it_sky_calcio_4_uhd"
       ]
@@ -5447,7 +5480,7 @@
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/fLNbBiQq-O8c8nWOb.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/zHxTiVjC-Sl2pAhM7.png",
       "homeScore": 1,
-      "awayScore": 2,
+      "awayScore": 3,
       "channels": [
         "sky_sport_calcio",
         "sky_sport_258",
@@ -5492,7 +5525,7 @@
       "status": "LIVE",
       "homeLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Reggiana.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/S04EiG8k-ImfBTABB.png",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "sky_sport_max",
@@ -5529,6 +5562,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/fXgpPxCN-f3EdnubO.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/pfjCQ2oe-4CMGVvSD.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_YT1CMl6b",
+      "title": "Pereira T./Winter Lopez B. - Karol M./Paulson A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_YT1CMl6b_h",
+      "awayTeamId": "espn_diretta_YT1CMl6b_a",
+      "startTime": "2026-10-17T14:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WhZ0PtB6-2BxtFqht.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -5955,16 +6013,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "it_sky_calcio_1_uhd",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_ireland",
-        "supersport_football",
-        "supersport_maximo_1",
         "paramount",
-        "bein_sports_1_france",
-        "ziggo_sport",
-        "dazn_1",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_5_hd_roma",
         "it_dazn_serie_a_10_hd_genoa"
@@ -6676,15 +6725,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_1_bar DE",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_ireland",
-        "supersport_football",
-        "supersport_maximo_1",
         "paramount",
-        "bein_sports_1_france",
-        "ziggo_sport",
         "it_dazn_serie_a_14_hd_udinese",
         "it_dazn_serie_a_18_hd_lecce"
       ]
@@ -6856,14 +6897,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "arena_sport_2_bih",
-        "Arena_Premium_3",
-        "Arena_Premium_4",
-        "dazn_ireland",
-        "arena_premium_5_srbija_HD",
         "paramount",
-        "bein_sports_1_france",
-        "ziggo_sport",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_7_hd_como",
         "it_dazn_serie_a_11_hd_fiorentina"
@@ -7240,17 +7274,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "it_sky_calcio_1_uhd",
-        "dazn_1_bar DE",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "Arena_Premium_3",
-        "dazn_ireland",
-        "supersport_football",
         "paramount",
-        "bein_sports_1_france",
-        "ziggo_sport",
-        "dazn_1",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_3_hd_milan",
         "it_dazn_serie_a_8_hd_atalanta"
@@ -7366,6 +7390,34 @@
       ]
     },
     {
+      "id": "seriec_20261018_1730_ospitaletto_f_pergolettese",
+      "title": "OSPITALETTO F. - PERGOLETTESE",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_ospitaletto_f",
+      "awayTeamId": "espn_serie_c_pergolettese",
+      "startTime": "2026-10-18T17:30:00+02:00",
+      "endTime": "2026-10-18T19:40:00+02:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hf6EOijC-pSqNd0nH.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MsPodHPq-IF6oPsUG.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
       "id": "seriec_20261018_1730_pescara_ostiamare",
       "title": "PESCARA - OSTIAMARE",
       "sport": "FOOTBALL",
@@ -7437,7 +7489,6 @@
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
-        "exyu_arena_sport_7_hd_hr",
         "de_blue_sport_1_fhd",
         "it_dazn_serie_b_17_sampdoria"
       ]
@@ -7500,16 +7551,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_2_bar DE",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_ireland",
-        "supersport_football",
-        "supersport_maximo_1",
         "paramount",
-        "ziggo_sport_extra_2",
-        "bein_sports_1_france",
-        "dazn_2",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_1_hd_juventus"
       ]
