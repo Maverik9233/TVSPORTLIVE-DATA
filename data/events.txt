@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T06:08:38Z",
+  "generatedAt": "2026-10-17T10:43:23Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -4878,13 +4878,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_p6vrmH7e_h",
       "awayTeamId": "espn_diretta_p6vrmH7e_a",
-      "startTime": "2026-10-17T06:10:00Z",
+      "startTime": "2026-10-17T06:20:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/nXub2a6k-MwSNCCyI.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/GxsWj26k-b1SGarCm.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4903,13 +4903,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_nwLAixbl_h",
       "awayTeamId": "espn_diretta_nwLAixbl_a",
-      "startTime": "2026-10-17T07:30:00Z",
+      "startTime": "2026-10-17T08:20:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/xMCoyUoe-IgkNkNBS.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4928,13 +4928,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_rZ1iEDSa_h",
       "awayTeamId": "espn_diretta_rZ1iEDSa_a",
-      "startTime": "2026-10-17T08:30:00Z",
+      "startTime": "2026-10-17T08:40:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/lU8NIJlC-2DqYxEbl.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Od5ZNuDN-SbT3RDiH.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4953,38 +4953,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_r1Ik4Fsf_h",
       "awayTeamId": "espn_diretta_r1Ik4Fsf_a",
-      "startTime": "2026-10-17T09:00:00Z",
+      "startTime": "2026-10-17T09:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/MyLQCyS0-8tgRkrmo.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/4CrmvQiT-zmgTzryp.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_GjUtJfr9",
-      "title": "Swiatek I. - Chwalinska M.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_GjUtJfr9_h",
-      "awayTeamId": "espn_diretta_GjUtJfr9_a",
-      "startTime": "2026-10-17T10:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dvwRt5jT-tOt4Rhy2.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hbtCjYjC-lIFEp2GI.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5008,6 +4983,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/zqkYjime-bJuw1oYE.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/6yqVVl7k-6Z1AkBdk.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_GjUtJfr9",
+      "title": "Swiatek I. - Chwalinska M.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_GjUtJfr9_h",
+      "awayTeamId": "espn_diretta_GjUtJfr9_a",
+      "startTime": "2026-10-17T11:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/dvwRt5jT-tOt4Rhy2.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hbtCjYjC-lIFEp2GI.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -5102,31 +5102,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_OY07VqkT",
-      "title": "Hunter S./Siniakova K. - Errani S./Paolini J.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_OY07VqkT_h",
-      "awayTeamId": "espn_diretta_OY07VqkT_a",
-      "startTime": "2026-10-17T12:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/xbezaZoe-EiVqZ6xJ.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "diretta_diretta_bundesliga_3_t8h18CT6",
       "title": "Ingolstadt - RW Essen",
       "sport": "FOOTBALL",
@@ -5197,6 +5172,31 @@
       "awayScore": 0,
       "channels": [
         "bein_sports_1_france"
+      ]
+    },
+    {
+      "id": "diretta_tennis_OY07VqkT",
+      "title": "Hunter S./Siniakova K. - Errani S./Paolini J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_OY07VqkT_h",
+      "awayTeamId": "espn_diretta_OY07VqkT_a",
+      "startTime": "2026-10-17T12:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/xbezaZoe-EiVqZ6xJ.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -6482,6 +6482,24 @@
         "tnt_sports_1",
         "espn_2",
         "espn"
+      ]
+    },
+    {
+      "id": "espn_401878048",
+      "title": "Millonarios - Jaguares de Córdoba",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_betplay",
+      "homeTeamId": "espn_5484",
+      "awayTeamId": "espn_10309",
+      "startTime": "2026-10-17T23:00Z",
+      "endTime": "2026-10-18T01:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10309.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "foxdeportes_us"
       ]
     },
     {
@@ -7831,6 +7849,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "foxdeportes_us",
         "tyc_sports"
       ]
     },
@@ -7872,6 +7891,24 @@
         "tnt_sports_1",
         "espn_2",
         "espn"
+      ]
+    },
+    {
+      "id": "espn_401877905",
+      "title": "Deportivo Cali - Atlético Junior",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_betplay",
+      "homeTeamId": "espn_2672",
+      "awayTeamId": "espn_4815",
+      "startTime": "2026-10-19T01:10Z",
+      "endTime": "2026-10-19T03:10:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "foxdeportes_us"
       ]
     }
   ]
