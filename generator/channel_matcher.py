@@ -525,6 +525,9 @@ def _expand_sky_calcio_names(name: str) -> list[str]:
                     f"Calcio {num}",
                     f"SKY CALCIO {num}",
                     f"Sky Sport Calcio {num}",
+                    f"IT - SKY CALCIO {num}",
+                    f"IT - SKY CALCIO {num} HD",
+                    f"IT - SKY CALCIO {num} UHD",
                 ]
             )
 
@@ -539,6 +542,9 @@ def _expand_sky_calcio_names(name: str) -> list[str]:
                 f"SKY CALCIO {num}",
                 f"Sky Sport Calcio {num}",
                 f"Sky Sport {sky}",
+                f"IT - SKY CALCIO {num}",
+                f"IT - SKY CALCIO {num} HD",
+                f"IT - SKY CALCIO {num} UHD",
             ]
         )
 
@@ -578,6 +584,17 @@ def match_broadcasters(
                 continue
             if best is None or match.score > best.score:
                 best = match
+            elif match.score == best.score:
+                # Preferisci IT SKY CALCIO N (stream utili) a sky_sport_25x
+                def _prefer_calcio(mid: str) -> int:
+                    x = (mid or "").lower()
+                    if "calcio" in x:
+                        return 0
+                    if "sky_sport_25" in x or "sky_sport_26" in x:
+                        return 2
+                    return 1
+                if _prefer_calcio(match.channel_id) < _prefer_calcio(best.channel_id):
+                    best = match
 
         if best is None:
             continue

@@ -1176,6 +1176,44 @@ def get_event_broadcasters(
         for broadcaster in ITALY_NATIONAL_FTA:
             add(broadcaster)
 
+    # Sky Sport 25x ↔ IT - SKY CALCIO N (stesso multi-evento, URL diversi in lista)
+    expanded: list[str] = []
+    seen_b: set[str] = set()
+    for b in broadcasters:
+        variants = [b]
+        low = b.lower()
+        m = re.search(r"sky\s*sport\s*(25[1-9]|26\d)", low)
+        if m:
+            sky = int(m.group(1))
+            n = sky - 250
+            variants += [
+                f"Sky Sport {sky}",
+                f"SKY CALCIO {n}",
+                f"Sky Calcio {n}",
+                f"Calcio {n}",
+                f"IT - SKY CALCIO {n}",
+                f"IT - SKY CALCIO {n} HD",
+                f"IT - SKY CALCIO {n} UHD",
+            ]
+        m2 = re.search(r"(?:sky\s*)?calcio\s*(\d+)", low)
+        if m2:
+            n = int(m2.group(1))
+            sky = 250 + n
+            if 251 <= sky <= 269:
+                variants += [
+                    f"Sky Sport {sky}",
+                    f"SKY CALCIO {n}",
+                    f"Calcio {n}",
+                    f"IT - SKY CALCIO {n}",
+                    f"IT - SKY CALCIO {n} HD",
+                ]
+        for v in variants:
+            k = v.casefold().strip()
+            if k and k not in seen_b:
+                seen_b.add(k)
+                expanded.append(v)
+    broadcasters = expanded
+
     return broadcasters
 
 
