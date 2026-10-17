@@ -1297,15 +1297,20 @@ def find_dazn_serie_team_channels(
     channels: list,
 ) -> list[str]:
     """
-    Canali tipo "IT - DAZN SERIE A 1 JUVENTUS" / "DAZN SERIE B 17 SAMPDORIA"
-    associati se casa o ospite compare nel nome/alias del canale.
+    Canali tipo:
+      "IT - DAZN SERIE A 1 JUVENTUS"
+      "DAZN SERIE B 17 SAMPDORIA"
+      "DAZN Inter" / "IT - DAZN Milan"
+    associati se casa o ospite compare nel nome/alias.
     Il numero del canale è indifferente.
     """
     ck = (competition_key or "").lower()
     if ck == "serie_a":
-        markers = ("dazn serie a", "dazn serie-a")
+        league_ok = ("serie a", "serie-a", "seriea")
+        league_block = ("serie b", "serie-b", "serieb")
     elif ck == "serie_b":
-        markers = ("dazn serie b", "dazn serie-b")
+        league_ok = ("serie b", "serie-b", "serieb")
+        league_block = ("serie a", "serie-a", "seriea")
     else:
         return []
 
@@ -1332,20 +1337,29 @@ def find_dazn_serie_team_channels(
 
         blob = " ".join(names).lower()
         blob_norm = re.sub(r"[^a-z0-9\s]", " ", blob)
-        if not any(m in blob_norm for m in markers):
+        if "dazn" not in blob_norm:
             continue
-
-        ch_toks = set(blob_norm.split())
-        hit = False
-        for t in team_toks:
-            if len(t) >= 4 and t in blob_norm:
-                hit = True
-                break
-            if len(t) >= 3 and t in ch_toks:
-                hit = True
-                break
-        if not hit:
+        # escludi lega sbagliata
+        if any(b in blob_norm for b in league_block):
             continue
+        # accetta: "dazn serie a …" OPPURE "dazn inter" senza altra lega
+        has_league = any(x in blob_norm for x in league_ok)
+        has_team_style = any(
+            (len(t) >= 4 and t in blob_norm) or (len(t) >= 3 and t in blob_norm.split())
+            for t in team_toks
+        )
+        if not has_team_style:
+            continue
+        if not has_league:
+            # "DAZN Inter" ok; evita DAZN Liga / DAZN 1 PT generici
+            if any(
+                x in blob_norm
+                for x in (
+                    "liga", "premier", "bundesliga", "ligue", "portugal",
+                    "espana", "spain", "deutsch", "f1", "motogp",
+                )
+            ):
+                continue
 
         seen.add(cid)
         found.append(cid)
