@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T01:31:11Z",
+  "generatedAt": "2026-10-17T06:08:38Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -1817,6 +1817,14 @@
       "name": "Erzurum BB",
       "shortName": "Erzurum",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19267.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Ak5w4yJq_a",
+      "name": "Escurra Isnardi H. J.",
+      "shortName": "Escurra Isnardi H. J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ENcgA0T0-0dFUBVOc.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3869,6 +3877,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_Ak5w4yJq_h",
+      "name": "Sakamoto P.",
+      "shortName": "Sakamoto P.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MwCHjJhT-OvlWubWh.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_serie_c_salernitana",
       "name": "SALERNITANA",
       "shortName": "SALERNITANA",
@@ -4839,11 +4855,11 @@
       "awayTeamId": "espn_diretta_CYR7gYnI_a",
       "startTime": "2026-10-17T02:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/OG36CJle-tfkdeYNA.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4862,7 +4878,7 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_p6vrmH7e_h",
       "awayTeamId": "espn_diretta_p6vrmH7e_a",
-      "startTime": "2026-10-17T06:00:00Z",
+      "startTime": "2026-10-17T06:10:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/nXub2a6k-MwSNCCyI.png",
@@ -5757,6 +5773,31 @@
       "awayScore": 0,
       "channels": [
         "bein_sports_1_france"
+      ]
+    },
+    {
+      "id": "diretta_tennis_Ak5w4yJq",
+      "title": "Sakamoto P. - Escurra Isnardi H. J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_Ak5w4yJq_h",
+      "awayTeamId": "espn_diretta_Ak5w4yJq_a",
+      "startTime": "2026-10-17T15:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/MwCHjJhT-OvlWubWh.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/ENcgA0T0-0dFUBVOc.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -7150,8 +7191,7 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "espn",
-        "gr_magenta_sport_league_1_fhd"
+        "espn"
       ]
     },
     {
