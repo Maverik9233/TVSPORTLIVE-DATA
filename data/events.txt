@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T17:03:27Z",
+  "generatedAt": "2026-10-17T19:19:54Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -1254,8 +1254,8 @@
     },
     {
       "id": "espn_serie_c_catania",
-      "name": "CATANIA",
-      "shortName": "CATANIA",
+      "name": "Catania",
+      "shortName": "Catania",
       "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/CATANIA.png",
       "country": null,
       "countryFlagUrl": null
@@ -2086,8 +2086,8 @@
     },
     {
       "id": "espn_serie_c_folgore_caratese",
-      "name": "FOLGORE CARATESE",
-      "shortName": "FOLGORE CARATESE",
+      "name": "Folgore Caratese",
+      "shortName": "Folgore Caratese",
       "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/folgorecaratese-trasp-logo.png",
       "country": null,
       "countryFlagUrl": null
@@ -3558,8 +3558,8 @@
     },
     {
       "id": "espn_serie_c_potenza",
-      "name": "POTENZA",
-      "shortName": "POTENZA",
+      "name": "Potenza",
+      "shortName": "Potenza",
       "logoUrl": "https://static.flashscore.com/res/image/data/EiTbkNCN-tfP9H5ON.png",
       "country": null,
       "countryFlagUrl": null
@@ -3918,8 +3918,8 @@
     },
     {
       "id": "espn_serie_c_salernitana",
-      "name": "SALERNITANA",
-      "shortName": "SALERNITANA",
+      "name": "Salernitana",
+      "shortName": "Salernitana",
       "logoUrl": "https://static.flashscore.com/res/image/data/xIvN1djT-dvgFSUQH.png",
       "country": null,
       "countryFlagUrl": null
@@ -4038,8 +4038,8 @@
     },
     {
       "id": "espn_serie_c_scafatese",
-      "name": "SCAFATESE",
-      "shortName": "SCAFATESE",
+      "name": "Scafatese",
+      "shortName": "Scafatese",
       "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/scafatese-trasp-logo.png",
       "country": null,
       "countryFlagUrl": null
@@ -4486,8 +4486,8 @@
     },
     {
       "id": "espn_serie_c_treviso",
-      "name": "TREVISO",
-      "shortName": "TREVISO",
+      "name": "Treviso",
+      "shortName": "Treviso",
       "logoUrl": "https://static.flashscore.com/res/image/data/SS2NILCN-K8pmulQ5.png",
       "country": null,
       "countryFlagUrl": null
@@ -5248,7 +5248,14 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
+        "arena_sport_2_bih",
+        "Arena_Premium_3",
+        "arena_premium_5_srbija_HD",
+        "supersport_football",
         "paramount",
+        "bein_sports_1_france",
+        "ziggo_sport",
+        "dazn_2",
         "it_dazn_serie_a_4_hd_napoli",
         "it_dazn_serie_a_17_hd_venezia"
       ]
@@ -5556,25 +5563,6 @@
       ]
     },
     {
-      "id": "espn_401882491",
-      "title": "Athletic Club - Valencia",
-      "sport": "FOOTBALL",
-      "competitionId": "liga_f",
-      "homeTeamId": "espn_21372",
-      "awayTeamId": "espn_21374",
-      "startTime": "2026-10-17T14:30Z",
-      "endTime": "2026-10-17T16:30:00Z",
-      "status": "FINISHED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21372.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21374.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "channels": [
-        "espn_us",
-        "espn"
-      ]
-    },
-    {
       "id": "diretta_tennis_j3gFLNwe",
       "title": "Fearnley J. - Nardi L.",
       "sport": "TENNIS",
@@ -5633,11 +5621,11 @@
       "awayTeamId": "espn_2923",
       "startTime": "2026-10-17T15:15Z",
       "endTime": "2026-10-17T17:15:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3991.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2923.png",
       "homeScore": 0,
-      "awayScore": 1,
+      "awayScore": 2,
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
@@ -5654,11 +5642,11 @@
       "awayTeamId": "espn_160",
       "startTime": "2026-10-17T15:15Z",
       "endTime": "2026-10-17T17:15:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "homeScore": 1,
-      "awayScore": 2,
+      "awayScore": 3,
       "channels": [
         "bein_sports_1_france"
       ]
@@ -5672,11 +5660,11 @@
       "awayTeamId": "espn_diretta_Ak5w4yJq_a",
       "startTime": "2026-10-17T15:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/MwCHjJhT-OvlWubWh.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/ENcgA0T0-0dFUBVOc.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5697,11 +5685,11 @@
       "awayTeamId": "espn_110",
       "startTime": "2026-10-17T16:00Z",
       "endTime": "2026-10-17T18:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
       "homeScore": 1,
-      "awayScore": 1,
+      "awayScore": 3,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
@@ -5721,11 +5709,11 @@
       "awayTeamId": "espn_83",
       "startTime": "2026-10-17T16:30Z",
       "endTime": "2026-10-17T18:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "homeScore": 1,
-      "awayScore": 1,
+      "homeScore": 2,
+      "awayScore": 5,
       "channels": [
         "espn_us",
         "espn"
@@ -5740,10 +5728,10 @@
       "awayTeamId": "espn_15364",
       "startTime": "2026-10-17T16:30Z",
       "endTime": "2026-10-17T18:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "paramount"
@@ -5758,11 +5746,11 @@
       "awayTeamId": "espn_11",
       "startTime": "2026-10-17T17:00Z",
       "endTime": "2026-10-17T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 4,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5772,55 +5760,55 @@
       ]
     },
     {
-      "id": "seriec_20261017_1730_folgore_caratese_treviso",
-      "title": "FOLGORE CARATESE - TREVISO",
+      "id": "seriec_diretta_l0vK3sH0",
+      "title": "Folgore Caratese - Treviso",
       "sport": "FOOTBALL",
       "competitionId": "serie_c",
       "homeTeamId": "espn_serie_c_folgore_caratese",
       "awayTeamId": "espn_serie_c_treviso",
       "startTime": "2026-10-17T17:30:00+02:00",
       "endTime": "2026-10-17T19:40:00+02:00",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/folgorecaratese-trasp-logo.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/SS2NILCN-K8pmulQ5.png",
       "homeScore": 0,
-      "awayScore": 2,
+      "awayScore": 1,
       "channels": [
         "it_sky_calcio_3_uhd"
       ]
     },
     {
-      "id": "seriec_20261017_1730_potenza_catania",
-      "title": "POTENZA - CATANIA",
+      "id": "seriec_diretta_OEprCYZ8",
+      "title": "Potenza - Catania",
       "sport": "FOOTBALL",
       "competitionId": "serie_c",
       "homeTeamId": "espn_serie_c_potenza",
       "awayTeamId": "espn_serie_c_catania",
       "startTime": "2026-10-17T17:30:00+02:00",
       "endTime": "2026-10-17T19:40:00+02:00",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/EiTbkNCN-tfP9H5ON.png",
       "awayLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/CATANIA.png",
-      "homeScore": 2,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "it_sky_calcio_1_uhd"
       ]
     },
     {
-      "id": "seriec_20261017_1730_salernitana_scafatese",
-      "title": "SALERNITANA - SCAFATESE",
+      "id": "seriec_diretta_dtbkAC4L",
+      "title": "Salernitana - Scafatese",
       "sport": "FOOTBALL",
       "competitionId": "serie_c",
       "homeTeamId": "espn_serie_c_salernitana",
       "awayTeamId": "espn_serie_c_scafatese",
       "startTime": "2026-10-17T17:30:00+02:00",
       "endTime": "2026-10-17T19:40:00+02:00",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/xIvN1djT-dvgFSUQH.png",
       "awayLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/scafatese-trasp-logo.png",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
       "channels": [
         "de_sky_sport_mix_8k"
@@ -5835,35 +5823,16 @@
       "awayTeamId": "espn_4050",
       "startTime": "2026-10-17T17:30Z",
       "endTime": "2026-10-17T19:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
         "it_dazn_serie_b_8_cremonese",
         "it_dazn_serie_b_14_pisa"
-      ]
-    },
-    {
-      "id": "espn_401876721",
-      "title": "Red Star FC 93 - Saint-Étienne",
-      "sport": "FOOTBALL",
-      "competitionId": "ligue_2",
-      "homeTeamId": "espn_11884",
-      "awayTeamId": "espn_178",
-      "startTime": "2026-10-17T18:00Z",
-      "endTime": "2026-10-17T20:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11884.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "Arena_Premium_3",
-        "bein_sports_1_france"
       ]
     },
     {
@@ -5875,14 +5844,13 @@
       "awayTeamId": "espn_142",
       "startTime": "2026-10-17T18:00Z",
       "endTime": "2026-10-17T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 4,
       "channels": [
-        "espn",
-        "sportsnet_world"
+        "espn"
       ]
     },
     {
@@ -5894,7 +5862,7 @@
       "awayTeamId": "espn_21154",
       "startTime": "2026-10-17T18:30Z",
       "endTime": "2026-10-17T20:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21154.png",
       "homeScore": 0,
@@ -5913,7 +5881,7 @@
       "awayTeamId": "espn_3263",
       "startTime": "2026-10-17T18:45Z",
       "endTime": "2026-10-17T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
       "homeScore": 0,
@@ -5923,8 +5891,16 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
+        "it_sky_calcio_1_uhd",
+        "arena_sport_1_hr",
+        "arena_sport_2_bih",
+        "dazn_ireland",
+        "supersport_football",
+        "supersport_maximo_1",
         "paramount",
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
+        "bein_sports_1_france",
+        "ziggo_sport",
+        "dazn_1",
         "it_dazn_serie_a_5_hd_roma",
         "it_dazn_serie_a_10_hd_genoa"
       ]
@@ -5938,53 +5914,13 @@
       "awayTeamId": "espn_6997",
       "startTime": "2026-10-17T18:45Z",
       "endTime": "2026-10-17T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
       "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "bein_sports_1_france",
-        "pt_tv5_monde_hd"
-      ]
-    },
-    {
-      "id": "espn_401876431",
-      "title": "Troyes - Lens",
-      "sport": "FOOTBALL",
-      "competitionId": "ligue_1",
-      "homeTeamId": "espn_170",
-      "awayTeamId": "espn_175",
-      "startTime": "2026-10-17T18:45Z",
-      "endTime": "2026-10-17T20:45:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "bein_sports_1_france"
-      ]
-    },
-    {
-      "id": "espn_401878366",
-      "title": "Dundee - Rangers",
-      "sport": "FOOTBALL",
-      "competitionId": "scottish_premiership",
-      "homeTeamId": "espn_261",
-      "awayTeamId": "espn_257",
-      "startTime": "2026-10-17T19:00Z",
-      "endTime": "2026-10-17T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/261.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/257.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "arena_sport_1_hr",
-        "paramount",
-        "de_sport_digital_fussball_fhd",
-        "uk_rangers_fc_tv_hd"
       ]
     },
     {
@@ -5996,31 +5932,12 @@
       "awayTeamId": "espn_4438",
       "startTime": "2026-10-17T19:00Z",
       "endTime": "2026-10-17T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4438.png",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "espn"
-      ]
-    },
-    {
-      "id": "espn_401875579",
-      "title": "Sparta Rotterdam - Willem II",
-      "sport": "FOOTBALL",
-      "competitionId": "eredivisie",
-      "homeTeamId": "espn_151",
-      "awayTeamId": "espn_156",
-      "startTime": "2026-10-17T19:00Z",
-      "endTime": "2026-10-17T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "espn_extra_hd",
         "espn"
       ]
     },
@@ -6033,7 +5950,7 @@
       "awayTeamId": "espn_93",
       "startTime": "2026-10-17T19:00Z",
       "endTime": "2026-10-17T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
       "homeScore": 0,
@@ -6616,7 +6533,15 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
+        "dazn_1_bar DE",
+        "arena_sport_1_hr",
+        "arena_sport_2_bih",
+        "dazn_ireland",
+        "supersport_football",
+        "supersport_maximo_1",
         "paramount",
+        "bein_sports_1_france",
+        "ziggo_sport",
         "it_dazn_serie_a_14_hd_udinese",
         "it_dazn_serie_a_18_hd_lecce"
       ]
@@ -6813,7 +6738,14 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
+        "arena_sport_2_bih",
+        "Arena_Premium_3",
+        "Arena_Premium_4",
+        "dazn_ireland",
+        "arena_premium_5_srbija_HD",
         "paramount",
+        "bein_sports_1_france",
+        "ziggo_sport",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_7_hd_como",
         "it_dazn_serie_a_11_hd_fiorentina"
@@ -7190,7 +7122,17 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
+        "it_sky_calcio_1_uhd",
+        "dazn_1_bar DE",
+        "arena_sport_1_hr",
+        "arena_sport_2_bih",
+        "Arena_Premium_3",
+        "dazn_ireland",
+        "supersport_football",
         "paramount",
+        "bein_sports_1_france",
+        "ziggo_sport",
+        "dazn_1",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_3_hd_milan",
         "it_dazn_serie_a_8_hd_atalanta"
@@ -7306,34 +7248,6 @@
       ]
     },
     {
-      "id": "seriec_20261018_1730_ospitaletto_f_pergolettese",
-      "title": "OSPITALETTO F. - PERGOLETTESE",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_ospitaletto_f",
-      "awayTeamId": "espn_serie_c_pergolettese",
-      "startTime": "2026-10-18T17:30:00+02:00",
-      "endTime": "2026-10-18T19:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hf6EOijC-pSqNd0nH.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MsPodHPq-IF6oPsUG.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_calcio",
-        "sky_sport_258",
-        "sky_sport_259",
-        "rai_sport",
-        "it_sky_calcio_1_uhd",
-        "it_sky_calcio_2_uhd",
-        "it_sky_calcio_3_uhd",
-        "it_sky_calcio_4_uhd",
-        "it_sky_calcio_5_uhd",
-        "it_sky_calcio_6_uhd",
-        "it_sky_calcio_7_uhd"
-      ]
-    },
-    {
       "id": "seriec_20261018_1730_pescara_ostiamare",
       "title": "PESCARA - OSTIAMARE",
       "sport": "FOOTBALL",
@@ -7405,6 +7319,7 @@
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
+        "exyu_arena_sport_7_hd_hr",
         "de_blue_sport_1_fhd",
         "it_dazn_serie_b_17_sampdoria"
       ]
@@ -7467,7 +7382,16 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
+        "dazn_2_bar DE",
+        "arena_sport_1_hr",
+        "arena_sport_2_bih",
+        "dazn_ireland",
+        "supersport_football",
+        "supersport_maximo_1",
         "paramount",
+        "ziggo_sport_extra_2",
+        "bein_sports_1_france",
+        "dazn_2",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_1_hd_juventus"
       ]
