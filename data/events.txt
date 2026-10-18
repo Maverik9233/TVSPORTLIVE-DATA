@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T17:51:55Z",
+  "generatedAt": "2026-10-18T19:57:48Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -1448,6 +1448,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_ger3_havelse",
+      "name": "Havelse",
+      "shortName": "Havelse",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_262",
       "name": "Heart of Midlothian",
       "shortName": "Hearts",
@@ -1724,6 +1732,14 @@
       "name": "Melbourne United",
       "shortName": "United",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/nbl/500/mel.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_ger3_meppen",
+      "name": "Meppen",
+      "shortName": "Meppen",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -3093,7 +3109,7 @@
       "awayTeamId": "espn_105",
       "startTime": "2026-10-18T16:00Z",
       "endTime": "2026-10-18T18:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
       "homeScore": 3,
@@ -3128,7 +3144,7 @@
       "awayTeamId": "espn_20179",
       "startTime": "2026-10-18T16:30Z",
       "endTime": "2026-10-18T18:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20179.png",
       "homeScore": 2,
@@ -3146,11 +3162,11 @@
       "awayTeamId": "espn_89",
       "startTime": "2026-10-18T16:30Z",
       "endTime": "2026-10-18T18:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "homeScore": 1,
-      "awayScore": 3,
+      "homeScore": 2,
+      "awayScore": 5,
       "channels": [
         "espn_us",
         "espn"
@@ -3165,11 +3181,11 @@
       "awayTeamId": "espn_7320",
       "startTime": "2026-10-18T16:30Z",
       "endTime": "2026-10-18T18:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/95.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7320.png",
-      "homeScore": 1,
-      "awayScore": 2,
+      "homeScore": 2,
+      "awayScore": 3,
       "channels": [
         "espn"
       ]
@@ -3292,55 +3308,16 @@
       "awayTeamId": "espn_3345",
       "startTime": "2026-10-18T17:30Z",
       "endTime": "2026-10-18T19:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2734.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3345.png",
       "homeScore": 1,
-      "awayScore": 1,
+      "awayScore": 2,
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
         "exyu_arena_sport_7_hd_hr",
         "it_dazn_serie_b_17_sampdoria"
-      ]
-    },
-    {
-      "id": "espn_401875577",
-      "title": "FC Twente - FC Utrecht",
-      "sport": "FOOTBALL",
-      "competitionId": "eredivisie",
-      "homeTeamId": "espn_152",
-      "awayTeamId": "espn_153",
-      "startTime": "2026-10-18T18:00Z",
-      "endTime": "2026-10-18T20:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/153.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "espn_2",
-        "espn_extra_hd",
-        "espn"
-      ]
-    },
-    {
-      "id": "espn_401875581",
-      "title": "NEC Nijmegen - Fortuna Sittard",
-      "sport": "FOOTBALL",
-      "competitionId": "eredivisie",
-      "homeTeamId": "espn_147",
-      "awayTeamId": "espn_143",
-      "startTime": "2026-10-18T18:00Z",
-      "endTime": "2026-10-18T20:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "espn",
-        "espn_extra_hd"
       ]
     },
     {
@@ -3352,11 +3329,11 @@
       "awayTeamId": "espn_112",
       "startTime": "2026-10-18T18:45Z",
       "endTime": "2026-10-18T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
@@ -3370,11 +3347,9 @@
         "supersport_football",
         "supersport_maximo_1",
         "paramount",
-        "viva_hd",
         "ziggo_sport_extra_2",
         "bein_sports_1_france",
         "dazn_2",
-        "fubo_sports_network",
         "it_dazn_serie_a_1_hd_juventus"
       ]
     },
@@ -3387,11 +3362,11 @@
       "awayTeamId": "espn_2502",
       "startTime": "2026-10-18T18:45Z",
       "endTime": "2026-10-18T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "bein_sports_1_france"
       ]
@@ -3405,7 +3380,7 @@
       "awayTeamId": "espn_11487",
       "startTime": "2026-10-18T19:00Z",
       "endTime": "2026-10-18T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11487.png",
       "homeScore": 0,
@@ -3423,15 +3398,14 @@
       "awayTeamId": "espn_243",
       "startTime": "2026-10-18T19:00Z",
       "endTime": "2026-10-18T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "channels": [
         "espn_us",
-        "espn",
-        "tsn_2"
+        "espn"
       ]
     },
     {
@@ -3441,7 +3415,7 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_4E9mWByP_h",
       "awayTeamId": "espn_diretta_4E9mWByP_a",
-      "startTime": "2026-10-18T20:00:00Z",
+      "startTime": "2026-10-18T20:15:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/v7Qyjs86-nJdaoohq.png",
@@ -3457,24 +3431,6 @@
         "supertennis_plus_3",
         "supertennis_plus_4",
         "supertennis"
-      ]
-    },
-    {
-      "id": "espn_401878059",
-      "title": "Atlético Bucaramanga - América de Cali",
-      "sport": "FOOTBALL",
-      "competitionId": "liga_betplay",
-      "homeTeamId": "espn_6137",
-      "awayTeamId": "espn_8109",
-      "startTime": "2026-10-18T21:00Z",
-      "endTime": "2026-10-18T23:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "viju+_sport"
       ]
     },
     {
@@ -3532,6 +3488,25 @@
       "awayScore": 0,
       "channels": [
         "espn_premium_hd"
+      ]
+    },
+    {
+      "id": "espn_761889",
+      "title": "FC Cincinnati - Columbus Crew",
+      "sport": "FOOTBALL",
+      "competitionId": "mls",
+      "homeTeamId": "espn_18267",
+      "awayTeamId": "espn_183",
+      "startTime": "2026-10-18T21:00Z",
+      "endTime": "2026-10-18T23:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "maxsport3",
+        "sky_sport_2_DE"
       ]
     },
     {
@@ -3753,7 +3728,7 @@
       "awayTeamId": "espn_diretta_rkdZqhN5_a",
       "startTime": "2026-10-19T08:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/MamwNzme-tSf4B4RM.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/MTAmEnjC-Ecj4yk6A.png",
       "homeScore": null,
@@ -3937,7 +3912,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "fox_soccer_plus"
+        "fox_soccer_plus",
+        "dazn_deutschland"
       ]
     },
     {
@@ -3964,7 +3940,7 @@
         "dazn_ireland",
         "paramount",
         "bein_sports_1_france",
-        "fubo_sports_network",
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_16_hd_torino",
         "it_dazn_serie_a_20_hd_parma"
       ]
@@ -4004,7 +3980,7 @@
       "awayScore": 0,
       "channels": [
         "005_usa_nfl_network",
-        "fubo_sports_network"
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
       ]
     },
     {
@@ -4101,22 +4077,21 @@
       ]
     },
     {
-      "id": "espn_401841620",
-      "title": "Newell's Old Boys - Central Córdoba (Santiago del Estero)",
+      "id": "espn_401841617",
+      "title": "Sarmiento (Junín) - Barracas Central",
       "sport": "FOOTBALL",
       "competitionId": "liga_profesional",
-      "homeTeamId": "espn_14",
-      "awayTeamId": "espn_11989",
+      "homeTeamId": "espn_10158",
+      "awayTeamId": "espn_10060",
       "startTime": "2026-10-19T22:00Z",
       "endTime": "2026-10-20T00:00:00Z",
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tyc_sports",
-        "tnt_sports_1"
+        "tyc_sports"
       ]
     },
     {
