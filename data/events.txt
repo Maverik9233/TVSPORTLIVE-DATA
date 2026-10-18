@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T23:26:37Z",
+  "generatedAt": "2026-10-18T01:27:51Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -1952,6 +1952,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_4E9mWByP_a",
+      "name": "Ostapenkov D.",
+      "shortName": "Ostapenkov D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_serie_c_ostiamare",
       "name": "OSTIAMARE",
       "shortName": "OSTIAMARE",
@@ -2004,6 +2012,14 @@
       "name": "PEC Zwolle",
       "shortName": "PEC Zwolle",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_4E9mWByP_h",
+      "name": "Pedrico Kravtsov A.",
+      "shortName": "Pedrico Kravtsov A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/v7Qyjs86-nJdaoohq.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3195,6 +3211,31 @@
         "it_sky_calcio_5_uhd",
         "it_sky_calcio_6_uhd",
         "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
+      "id": "diretta_tennis_4E9mWByP",
+      "title": "Pedrico Kravtsov A. - Ostapenkov D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_4E9mWByP_h",
+      "awayTeamId": "espn_diretta_4E9mWByP_a",
+      "startTime": "2026-10-18T15:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/v7Qyjs86-nJdaoohq.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
