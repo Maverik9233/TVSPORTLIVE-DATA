@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T00:24:07Z",
+  "generatedAt": "2026-10-19T05:06:40Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -2056,13 +2056,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_Y17jCgCd_h",
       "awayTeamId": "espn_diretta_Y17jCgCd_a",
-      "startTime": "2026-10-19T02:30:00Z",
+      "startTime": "2026-10-19T02:35:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/rs2lZKle-WSmy41FP.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/f3pacTVH-rkx09pZH.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2172,6 +2172,24 @@
         "supertennis_plus_3",
         "supertennis_plus_4",
         "supertennis"
+      ]
+    },
+    {
+      "id": "espn_401900897",
+      "title": "Al Fayha - Al Ahli",
+      "sport": "FOOTBALL",
+      "competitionId": "saudi_pro_league",
+      "homeTeamId": "espn_21827",
+      "awayTeamId": "espn_8346",
+      "startTime": "2026-10-19T15:05Z",
+      "endTime": "2026-10-19T17:05:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21827.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "foxdeportes_us"
       ]
     },
     {
@@ -3674,7 +3692,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "foxdeportes_us"
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
       ]
     }
   ]
