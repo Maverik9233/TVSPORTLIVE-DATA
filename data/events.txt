@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T17:15:11Z",
+  "generatedAt": "2026-10-19T21:37:25Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -416,9 +416,9 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_arzignano_v",
-      "name": "ARZIGNANO V.",
-      "shortName": "ARZIGNANO V.",
+      "id": "espn_serie_c_arzignano",
+      "name": "Arzignano",
+      "shortName": "Arzignano",
       "logoUrl": "https://static.flashscore.com/res/image/data/zNCymWmC-MiZyhUzt.png",
       "country": null,
       "countryFlagUrl": null
@@ -600,6 +600,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_serie_c_brescia",
+      "name": "Brescia",
+      "shortName": "Brescia",
+      "logoUrl": "https://static.flashscore.com/res/image/data/QLui3k7k-ULn9ffkC.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_308",
       "name": "Bristol Rovers",
       "shortName": "Bristol Rovers",
@@ -705,8 +713,8 @@
     },
     {
       "id": "espn_serie_c_cittadella",
-      "name": "CITTADELLA",
-      "shortName": "CITTADELLA",
+      "name": "Cittadella",
+      "shortName": "Cittadella",
       "logoUrl": "https://static.flashscore.com/res/image/data/pbxGNBT0-x89Kdsb3.png",
       "country": null,
       "countryFlagUrl": null
@@ -849,8 +857,8 @@
     },
     {
       "id": "espn_serie_c_dolomiti_bellunesi",
-      "name": "DOLOMITI BELLUNESI",
-      "shortName": "DOLOMITI BELLUNESI",
+      "name": "Dolomiti Bellunesi",
+      "shortName": "Dolomiti Bellunesi",
       "logoUrl": "https://static.flashscore.com/res/image/data/vsHRPGjT-GfC4FMXT.png",
       "country": null,
       "countryFlagUrl": null
@@ -945,8 +953,8 @@
     },
     {
       "id": "espn_serie_c_foggia",
-      "name": "FOGGIA",
-      "shortName": "FOGGIA",
+      "name": "Foggia",
+      "shortName": "Foggia",
       "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/foggia-calcio.png",
       "country": null,
       "countryFlagUrl": null
@@ -977,8 +985,8 @@
     },
     {
       "id": "espn_serie_c_giana_erminio",
-      "name": "GIANA ERMINIO",
-      "shortName": "GIANA ERMINIO",
+      "name": "Giana Erminio",
+      "shortName": "Giana Erminio",
       "logoUrl": "https://static.flashscore.com/res/image/data/bXy6R096-MJw8SsU0.png",
       "country": null,
       "countryFlagUrl": null
@@ -1009,8 +1017,8 @@
     },
     {
       "id": "espn_serie_c_giugliano",
-      "name": "GIUGLIANO",
-      "shortName": "GIUGLIANO",
+      "name": "Giugliano",
+      "shortName": "Giugliano",
       "logoUrl": "https://static.flashscore.com/res/image/data/bsUNe3BN-KbyStBWu.png",
       "country": null,
       "countryFlagUrl": null
@@ -1104,10 +1112,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_juventus_next_gen",
-      "name": "JUVENTUS NEXT GEN",
-      "shortName": "JUVENTUS NEXT GEN",
-      "logoUrl": "https://static.flashscore.com/res/image/data/AufWJrhT-0nz5yHcE.png",
+      "id": "espn_serie_c_juventus_u23",
+      "name": "Juventus U23",
+      "shortName": "Juventus U23",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IgZqxJ6k-EXzXDYgS.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1593,8 +1601,8 @@
     },
     {
       "id": "espn_serie_c_renate",
-      "name": "RENATE",
-      "shortName": "RENATE",
+      "name": "Renate",
+      "shortName": "Renate",
       "logoUrl": "https://static.flashscore.com/res/image/data/IFh5p8S0-boEYzhiI.png",
       "country": null,
       "countryFlagUrl": null
@@ -1881,8 +1889,8 @@
     },
     {
       "id": "espn_serie_c_trento",
-      "name": "TRENTO",
-      "shortName": "TRENTO",
+      "name": "Trento",
+      "shortName": "Trento",
       "logoUrl": "https://static.flashscore.com/res/image/data/fizrpR5k-l4rv6VQk.png",
       "country": null,
       "countryFlagUrl": null
@@ -1892,14 +1900,6 @@
       "name": "Tsitsipas S.",
       "shortName": "Tsitsipas S.",
       "logoUrl": "https://static.flashscore.com/res/image/data/rVaClcVH-hbIQr8HQ.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_union_brescia",
-      "name": "UNION BRESCIA",
-      "shortName": "UNION BRESCIA",
-      "logoUrl": "https://static.flashscore.com/res/image/data/QLui3k7k-ULn9ffkC.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2151,10 +2151,10 @@
       "awayTeamId": "espn_2925",
       "startTime": "2026-10-19T16:30Z",
       "endTime": "2026-10-19T18:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-      "homeScore": 1,
+      "homeScore": 4,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -2185,11 +2185,11 @@
       "awayTeamId": "espn_diretta_AHJeoU63_a",
       "startTime": "2026-10-19T16:45:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/UqyOgWA6-pOTe4nSM.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/QVSd6whT-CjJMTqHK.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2210,55 +2210,11 @@
       "awayTeamId": "espn_diretta_0v6zb2EL_a",
       "startTime": "2026-10-19T17:00:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/Ol1A9QQq-xYdWWVqk.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Kf3KE4T0-zVXCiK4m.png",
       "homeScore": 0,
       "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "espn_401900896",
-      "title": "Al Hilal - Al Hazem",
-      "sport": "FOOTBALL",
-      "competitionId": "saudi_pro_league",
-      "homeTeamId": "espn_929",
-      "awayTeamId": "espn_21964",
-      "startTime": "2026-10-19T18:00Z",
-      "endTime": "2026-10-19T20:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/929.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21964.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "fox_soccer_plus",
-        "dazn_deutschland"
-      ]
-    },
-    {
-      "id": "diretta_tennis_U738HyQO",
-      "title": "Collins K. - Abbagnato A.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_U738HyQO_h",
-      "awayTeamId": "espn_diretta_U738HyQO_a",
-      "startTime": "2026-10-19T18:10:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nw9Ab3Qq-CA9eZZwC.png",
-      "homeScore": null,
-      "awayScore": null,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2279,11 +2235,11 @@
       "awayTeamId": "espn_239",
       "startTime": "2026-10-19T18:45Z",
       "endTime": "2026-10-19T20:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 3,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
@@ -2298,7 +2254,6 @@
         "supersport_football",
         "paramount",
         "bein_sports_1_france",
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_16_hd_torino",
         "it_dazn_serie_a_20_hd_parma"
       ]
@@ -2312,104 +2267,110 @@
       "awayTeamId": "espn_101",
       "startTime": "2026-10-19T19:00Z",
       "endTime": "2026-10-19T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "espn_us",
         "espn"
       ]
     },
     {
-      "id": "espn_401879257",
-      "title": "Tottenham Hotspur - Coventry City",
-      "sport": "FOOTBALL",
-      "competitionId": "premier_league",
-      "homeTeamId": "espn_367",
-      "awayTeamId": "espn_388",
-      "startTime": "2026-10-19T19:00Z",
-      "endTime": "2026-10-19T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "id": "diretta_tennis_U738HyQO",
+      "title": "Collins K. - Abbagnato A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_U738HyQO_h",
+      "awayTeamId": "espn_diretta_U738HyQO_a",
+      "startTime": "2026-10-19T20:25:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nw9Ab3Qq-CA9eZZwC.png",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
-        "005_usa_nfl_network",
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
-      "id": "seriec_20261019_2030_cittadella_arzignano_v",
-      "title": "CITTADELLA - ARZIGNANO V.",
+      "id": "seriec_diretta_p4ktBPOQ",
+      "title": "Cittadella - Arzignano",
       "sport": "FOOTBALL",
       "competitionId": "serie_c",
       "homeTeamId": "espn_serie_c_cittadella",
-      "awayTeamId": "espn_serie_c_arzignano_v",
+      "awayTeamId": "espn_serie_c_arzignano",
       "startTime": "2026-10-19T20:30:00+02:00",
       "endTime": "2026-10-19T22:40:00+02:00",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/pbxGNBT0-x89Kdsb3.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/zNCymWmC-MiZyhUzt.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 0,
       "channels": [
         "it_sky_calcio_5_uhd"
       ]
     },
     {
-      "id": "seriec_20261019_2030_dolomiti_bellunesi_trento",
-      "title": "DOLOMITI BELLUNESI - TRENTO",
+      "id": "seriec_diretta_tzyC53nl",
+      "title": "Dolomiti Bellunesi - Trento",
       "sport": "FOOTBALL",
       "competitionId": "serie_c",
       "homeTeamId": "espn_serie_c_dolomiti_bellunesi",
       "awayTeamId": "espn_serie_c_trento",
       "startTime": "2026-10-19T20:30:00+02:00",
       "endTime": "2026-10-19T22:40:00+02:00",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/vsHRPGjT-GfC4FMXT.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/fizrpR5k-l4rv6VQk.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 1,
       "channels": [
         "it_sky_calcio_6_uhd"
       ]
     },
     {
-      "id": "seriec_20261019_2030_giana_erminio_union_brescia",
-      "title": "GIANA ERMINIO - UNION BRESCIA",
+      "id": "seriec_diretta_dQsS1LoD",
+      "title": "Giana Erminio - Brescia",
       "sport": "FOOTBALL",
       "competitionId": "serie_c",
       "homeTeamId": "espn_serie_c_giana_erminio",
-      "awayTeamId": "espn_serie_c_union_brescia",
+      "awayTeamId": "espn_serie_c_brescia",
       "startTime": "2026-10-19T20:30:00+02:00",
       "endTime": "2026-10-19T22:40:00+02:00",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/bXy6R096-MJw8SsU0.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/QLui3k7k-ULn9ffkC.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_max",
         "it_sky_calcio_2_uhd"
       ]
     },
     {
-      "id": "seriec_20261019_2030_giugliano_foggia",
-      "title": "GIUGLIANO - FOGGIA",
+      "id": "seriec_diretta_OffljiDk",
+      "title": "Giugliano - Foggia",
       "sport": "FOOTBALL",
       "competitionId": "serie_c",
       "homeTeamId": "espn_serie_c_giugliano",
       "awayTeamId": "espn_serie_c_foggia",
       "startTime": "2026-10-19T20:30:00+02:00",
       "endTime": "2026-10-19T22:40:00+02:00",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/bsUNe3BN-KbyStBWu.png",
       "awayLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/foggia-calcio.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 0,
       "channels": [
         "it_sky_calcio_4_uhd",
         "sky_sport_4k",
@@ -2417,41 +2378,49 @@
       ]
     },
     {
-      "id": "seriec_20261019_2030_juventus_next_gen_renate",
-      "title": "JUVENTUS NEXT GEN - RENATE",
+      "id": "seriec_diretta_nggw9xgt",
+      "title": "Juventus U23 - Renate",
       "sport": "FOOTBALL",
       "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_juventus_next_gen",
+      "homeTeamId": "espn_serie_c_juventus_u23",
       "awayTeamId": "espn_serie_c_renate",
       "startTime": "2026-10-19T20:30:00+02:00",
       "endTime": "2026-10-19T22:40:00+02:00",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/AufWJrhT-0nz5yHcE.png",
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IgZqxJ6k-EXzXDYgS.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/IFh5p8S0-boEYzhiI.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 0,
       "channels": [
-        "sky_sport_uno",
-        "it_sky_calcio_3_uhd"
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
       ]
     },
     {
-      "id": "espn_401841620",
-      "title": "Newell's Old Boys - Central Córdoba (Santiago del Estero)",
+      "id": "espn_401841617",
+      "title": "Sarmiento (Junín) - Barracas Central",
       "sport": "FOOTBALL",
       "competitionId": "liga_profesional",
-      "homeTeamId": "espn_14",
-      "awayTeamId": "espn_11989",
+      "homeTeamId": "espn_10158",
+      "awayTeamId": "espn_10060",
       "startTime": "2026-10-19T22:00Z",
       "endTime": "2026-10-20T00:00:00Z",
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tyc_sports",
-        "tnt_sports_1"
+        "tyc_sports"
       ]
     },
     {
@@ -2734,31 +2703,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_h0c1LQnQ",
-      "title": "Passaro F. - Elias G.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_h0c1LQnQ_h",
-      "awayTeamId": "espn_diretta_h0c1LQnQ_a",
-      "startTime": "2026-10-20T09:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ClGOXh5k-xrnIKwNd.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/KSGjYIA6-zobYbbv1.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "diretta_tennis_6kC1Vh8C",
       "title": "Navone M. - Cerundolo J. M.",
       "sport": "TENNIS",
@@ -2870,6 +2814,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/ni465kBN-txzDfNHp.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/0Our0Sle-dd4aJYkB.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_h0c1LQnQ",
+      "title": "Passaro F. - Elias G.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_h0c1LQnQ_h",
+      "awayTeamId": "espn_diretta_h0c1LQnQ_a",
+      "startTime": "2026-10-20T13:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ClGOXh5k-xrnIKwNd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/KSGjYIA6-zobYbbv1.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
