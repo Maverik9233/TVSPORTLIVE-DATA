@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T00:40:56Z",
+  "generatedAt": "2026-10-20T05:24:28Z",
   "competitions": [
     {
       "id": "champions_league",
@@ -2088,13 +2088,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_UZ5H1FHd_h",
       "awayTeamId": "espn_diretta_UZ5H1FHd_a",
-      "startTime": "2026-10-20T03:00:00Z",
+      "startTime": "2026-10-20T04:50:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/CpKxRCAN-MJyPCFvL.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2113,7 +2113,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_EaH6X7sS_h",
       "awayTeamId": "espn_diretta_EaH6X7sS_a",
-      "startTime": "2026-10-20T05:00:00Z",
+      "startTime": "2026-10-20T05:25:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/xpa59EjC-K8by9gno.png",
@@ -3604,8 +3604,9 @@
         "tv8_5",
         "it_sky_sport_calcio_uhd",
         "it_sky_sport_bar_primevideo_fhd",
-        "cbs_golazo",
-        "paramount"
+        "Arena_Premium_4",
+        "paramount",
+        "dazn_1_pt"
       ]
     },
     {
@@ -4075,24 +4076,6 @@
       ]
     },
     {
-      "id": "espn_401876932",
-      "title": "Atlas - América",
-      "sport": "FOOTBALL",
-      "competitionId": "liga_mx",
-      "homeTeamId": "espn_216",
-      "awayTeamId": "espn_227",
-      "startTime": "2026-10-22T01:00Z",
-      "endTime": "2026-10-22T03:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "canal_5"
-      ]
-    },
-    {
       "id": "espn_401876933",
       "title": "Puebla - Monterrey",
       "sport": "FOOTBALL",
@@ -4108,6 +4091,25 @@
       "awayScore": 0,
       "channels": [
         "espn"
+      ]
+    },
+    {
+      "id": "espn_401876931",
+      "title": "Toluca - Tijuana",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_mx",
+      "homeTeamId": "espn_223",
+      "awayTeamId": "espn_10125",
+      "startTime": "2026-10-22T01:00Z",
+      "endTime": "2026-10-22T03:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "fox_sports_mexico",
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
       ]
     },
     {
