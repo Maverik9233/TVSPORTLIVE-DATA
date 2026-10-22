@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T01:03:40Z",
+  "generatedAt": "2026-10-22T06:06:44Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -701,6 +701,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_d2XlF4LU_h",
+      "name": "Aulia C./Britez Risso L. F.",
+      "shortName": "Aulia C./Britez Risso L. F.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/CrJDA5jT-UJmDBlYq.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_140",
       "name": "AZ Alkmaar",
       "shortName": "AZ Alkmaar",
@@ -1245,6 +1253,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_4IXJnhGj_a",
+      "name": "Giordania D",
+      "shortName": "Giordania D",
+      "logoUrl": "https://static.flashscore.com/res/image/data/4KlF2zRq-juJswvvj.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_3706",
       "name": "Go Ahead Eagles",
       "shortName": "Go Ahead Eagles",
@@ -1409,6 +1425,14 @@
       "name": "Ipswich Town",
       "shortName": "Ipswich",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_4IXJnhGj_h",
+      "name": "Iran D",
+      "shortName": "Iran D",
+      "logoUrl": "https://static.flashscore.com/res/image/data/W0W5lOkC-AsDr9Xdn.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2373,6 +2397,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_d2XlF4LU_a",
+      "name": "Stevens A./Thompson B.",
+      "shortName": "Stevens A./Thompson B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_366",
       "name": "Sunderland",
       "shortName": "Sunderland",
@@ -2685,13 +2717,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_IZtFJQGF_h",
       "awayTeamId": "espn_diretta_IZtFJQGF_a",
-      "startTime": "2026-10-22T02:05:00Z",
+      "startTime": "2026-10-22T02:45:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2804,19 +2836,19 @@
       ]
     },
     {
-      "id": "diretta_tennis_IeCkca86",
-      "title": "Zheng W. - Nugroho P. M.",
+      "id": "diretta_tennis_AkHLyOmL",
+      "title": "Jovic I. - Paolini J.",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_diretta_IeCkca86_h",
-      "awayTeamId": "espn_diretta_IeCkca86_a",
-      "startTime": "2026-10-22T03:00:00Z",
+      "homeTeamId": "espn_diretta_AkHLyOmL_h",
+      "awayTeamId": "espn_diretta_AkHLyOmL_a",
+      "startTime": "2026-10-22T05:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/xpa59EjC-K8by9gno.png",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "LIVE",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/S2cK4m7k-tjoxv74H.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nLTqTYA6-0fhNJLOt.png",
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2829,17 +2861,42 @@
       ]
     },
     {
-      "id": "diretta_tennis_AkHLyOmL",
-      "title": "Jovic I. - Paolini J.",
+      "id": "diretta_tennis_IeCkca86",
+      "title": "Zheng W. - Nugroho P. M.",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_diretta_AkHLyOmL_h",
-      "awayTeamId": "espn_diretta_AkHLyOmL_a",
-      "startTime": "2026-10-22T05:00:00Z",
+      "homeTeamId": "espn_diretta_IeCkca86_h",
+      "awayTeamId": "espn_diretta_IeCkca86_a",
+      "startTime": "2026-10-22T05:30:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/xpa59EjC-K8by9gno.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_4IXJnhGj",
+      "title": "Iran D - Giordania D",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_4IXJnhGj_h",
+      "awayTeamId": "espn_diretta_4IXJnhGj_a",
+      "startTime": "2026-10-22T06:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/S2cK4m7k-tjoxv74H.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nLTqTYA6-0fhNJLOt.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/W0W5lOkC-AsDr9Xdn.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/4KlF2zRq-juJswvvj.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2910,7 +2967,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_4MJKiasC_h",
       "awayTeamId": "espn_diretta_4MJKiasC_a",
-      "startTime": "2026-10-22T06:30:00Z",
+      "startTime": "2026-10-22T06:45:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/dAKvqUhT-jqX5MBQM.png",
@@ -2954,17 +3011,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_AsaMH4oS",
-      "title": "Nugroho P. M./Zheng W. - Hou Y./Wang J.",
+      "id": "diretta_tennis_UoKpKt5c",
+      "title": "Santillan A./Zheng B. - Pankin S./Ymer E.",
       "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_AsaMH4oS_h",
-      "awayTeamId": "espn_diretta_AsaMH4oS_a",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_UoKpKt5c_h",
+      "awayTeamId": "espn_diretta_UoKpKt5c_a",
       "startTime": "2026-10-22T07:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/xpa59EjC-K8by9gno.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2iEYa2me-IRIlrVPt.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bVNFabjC-4OSyXRjm.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2979,17 +3036,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_UoKpKt5c",
-      "title": "Santillan A./Zheng B. - Pankin S./Ymer E.",
+      "id": "diretta_tennis_AsaMH4oS",
+      "title": "Nugroho P. M./Zheng W. - Hou Y./Wang J.",
       "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_UoKpKt5c_h",
-      "awayTeamId": "espn_diretta_UoKpKt5c_a",
-      "startTime": "2026-10-22T07:00:00Z",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_AsaMH4oS_h",
+      "awayTeamId": "espn_diretta_AsaMH4oS_a",
+      "startTime": "2026-10-22T07:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bVNFabjC-4OSyXRjm.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/xpa59EjC-K8by9gno.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2iEYa2me-IRIlrVPt.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -3906,7 +3963,7 @@
         "sky_sport_arena",
         "tv8_5",
         "paramount",
-        "dazn_1_pt"
+        "dazn_4_HD_PT"
       ]
     },
     {
@@ -4257,6 +4314,31 @@
         "tv8_5",
         "paramount",
         "dazn_1_pt"
+      ]
+    },
+    {
+      "id": "diretta_tennis_d2XlF4LU",
+      "title": "Aulia C./Britez Risso L. F. - Stevens A./Thompson B.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_d2XlF4LU_h",
+      "awayTeamId": "espn_diretta_d2XlF4LU_a",
+      "startTime": "2026-10-22T23:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/CrJDA5jT-UJmDBlYq.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -4932,21 +5014,21 @@
       ]
     },
     {
-      "id": "espn_401841638",
-      "title": "Gimnasia La Plata - Sarmiento (Junín)",
+      "id": "espn_401841637",
+      "title": "Gimnasia (Mendoza) - Platense",
       "sport": "FOOTBALL",
       "competitionId": "liga_profesional",
-      "homeTeamId": "espn_9",
-      "awayTeamId": "espn_10158",
-      "startTime": "2026-10-23T21:00Z",
-      "endTime": "2026-10-23T23:00:00Z",
+      "homeTeamId": "espn_11972",
+      "awayTeamId": "espn_7764",
+      "startTime": "2026-10-23T21:30Z",
+      "endTime": "2026-10-23T23:30:00Z",
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tyc_sports"
+        "tnt_sports_1"
       ]
     },
     {
@@ -5112,8 +5194,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tyc_sports",
-        "tnt_sports_1"
+        "tyc_sports"
       ]
     },
     {
