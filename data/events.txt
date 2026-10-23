@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T23:23:45Z",
+  "generatedAt": "2026-10-23T01:46:22Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -1563,6 +1563,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_fN2U93IG_h",
+      "name": "Collins K./McDonald E.",
+      "shortName": "Collins K./McDonald E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_184",
       "name": "Colorado Rapids",
       "shortName": "Colorado",
@@ -2663,6 +2671,14 @@
       "name": "La Serena",
       "shortName": "La Serena",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4137.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_fN2U93IG_a",
+      "name": "Lahey A./Vagramov A.",
+      "shortName": "Lahey A./Vagramov A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/O2zitCjT-OdqpwoiR.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3988,7 +4004,7 @@
     },
     {
       "id": "espn_15515",
-      "name": "Shanghai Port",
+      "name": "Shanghai Port FC",
       "shortName": "Shanghai Port",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15515.png",
       "country": null,
@@ -3997,7 +4013,7 @@
     {
       "id": "espn_977",
       "name": "Shanghai Shenhua",
-      "shortName": "Shanghai Sh.",
+      "shortName": "Shanghai Shenhua",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/977.png",
       "country": null,
       "countryFlagUrl": null
@@ -4837,7 +4853,7 @@
       "awayTeamId": "espn_diretta_x0J8GaaE_a",
       "startTime": "2026-10-22T22:15:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/tfLbBRTH-dI70dBo8.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
       "homeScore": 1,
@@ -4860,7 +4876,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_EkhOgiSI_h",
       "awayTeamId": "espn_diretta_EkhOgiSI_a",
-      "startTime": "2026-10-22T23:30:00Z",
+      "startTime": "2026-10-23T01:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/CjNEQX86-48AoGcdd.png",
@@ -4885,7 +4901,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_d2XlF4LU_h",
       "awayTeamId": "espn_diretta_d2XlF4LU_a",
-      "startTime": "2026-10-23T01:00:00Z",
+      "startTime": "2026-10-23T01:50:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/CrJDA5jT-UJmDBlYq.png",
@@ -5279,6 +5295,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/t6RvwrA6-4rBjn5Su.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Ao55Oc7k-I3vxtblK.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_fN2U93IG",
+      "title": "Collins K./McDonald E. - Lahey A./Vagramov A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_fN2U93IG_h",
+      "awayTeamId": "espn_diretta_fN2U93IG_a",
+      "startTime": "2026-10-23T17:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/O2zitCjT-OdqpwoiR.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
