@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T23:27:26Z",
+  "generatedAt": "2026-10-24T01:55:41Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -5587,38 +5587,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_hYtQAbL0_h",
       "awayTeamId": "espn_diretta_hYtQAbL0_a",
-      "startTime": "2026-10-24T01:00:00Z",
+      "startTime": "2026-10-24T01:50:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/QiYolI86-OrvS4WMa.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_hd91RnBO",
-      "title": "Samsonova L. - Watson H.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_hd91RnBO_h",
-      "awayTeamId": "espn_diretta_hd91RnBO_a",
-      "startTime": "2026-10-24T01:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/f3pacTVH-rkx09pZH.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zaaVhbWH-0tHV5im7.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5731,17 +5706,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_88qBojdt",
-      "title": "Ma Y. - Kasatkina D.",
+      "id": "diretta_tennis_hd91RnBO",
+      "title": "Samsonova L. - Watson H.",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_diretta_88qBojdt_h",
-      "awayTeamId": "espn_diretta_88qBojdt_a",
-      "startTime": "2026-10-24T04:30:00Z",
+      "homeTeamId": "espn_diretta_hd91RnBO_h",
+      "awayTeamId": "espn_diretta_hd91RnBO_a",
+      "startTime": "2026-10-24T03:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WMOwC3kC-6maeopfp.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gj21H08k-Sjqf47A4.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/f3pacTVH-rkx09pZH.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zaaVhbWH-0tHV5im7.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -5792,6 +5767,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/U1bU3OlC-Qk5E2iNe.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/GAWdJI6k-WYYPybxM.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_88qBojdt",
+      "title": "Ma Y. - Kasatkina D.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_88qBojdt_h",
+      "awayTeamId": "espn_diretta_88qBojdt_a",
+      "startTime": "2026-10-24T06:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WMOwC3kC-6maeopfp.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gj21H08k-Sjqf47A4.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -6170,6 +6170,7 @@
       "awayScore": 0,
       "channels": [
         "espn",
+        "tyc_sports",
         "espn_premium_hd"
       ]
     },
@@ -6242,6 +6243,7 @@
         "dazn_spain",
         "dazn_france",
         "dazn_ireland",
+        "supersport_football",
         "match_tv_russia",
         "prima_sport",
         "eleven_sports_4_hd",
@@ -7278,6 +7280,7 @@
         "dazn_ireland",
         "digi_sport_2_ro",
         "tnt_sports_1",
+        "supersport_football",
         "de_sky_sport_mix_8k",
         "ziggo_sport",
         "dazn_1"
@@ -7453,6 +7456,7 @@
         "dazn_france",
         "dazn_ireland",
         "digi_sport_4_ro",
+        "supersport_football",
         "paramount",
         "ziggo_sport_extra_2",
         "bein_sports_1_france",
@@ -7626,6 +7630,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "tyc_sports",
         "espn_premium_hd"
       ]
     },
@@ -7704,6 +7709,24 @@
         "sky_sport_basket",
         "nba_tv_usa",
         "us_nba_league_pass_01_fhd"
+      ]
+    },
+    {
+      "id": "espn_401841632",
+      "title": "San Lorenzo - Newell's Old Boys",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_profesional",
+      "homeTeamId": "espn_18",
+      "awayTeamId": "espn_14",
+      "startTime": "2026-10-24T22:15Z",
+      "endTime": "2026-10-25T00:15:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tyc_sports"
       ]
     },
     {
@@ -8053,7 +8076,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "sportitalia"
+        "tyc_sports"
       ]
     },
     {
