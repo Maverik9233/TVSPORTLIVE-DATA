@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T18:59:26Z",
+  "generatedAt": "2026-10-25T21:41:00Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -1554,6 +1554,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_ger3_hoffenheim_ii",
+      "name": "Hoffenheim II",
+      "shortName": "Hoffenheim II",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IyZBMF7k-n7lWn9DL.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_7884",
       "name": "Holstein Kiel",
       "shortName": "Holstein Kiel",
@@ -1914,6 +1922,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_ger3_mannheim",
+      "name": "Mannheim",
+      "shortName": "Mannheim",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_nNv30i1b_h",
       "name": "Marozsan F.",
       "shortName": "Marozsan F.",
@@ -2147,6 +2163,14 @@
     },
     {
       "id": "espn_diretta_G2rBjESk_h",
+      "name": "Ostapenkov D.",
+      "shortName": "Ostapenkov D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_xx389XfB_a",
       "name": "Ostapenkov D.",
       "shortName": "Ostapenkov D.",
       "logoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
@@ -2758,6 +2782,14 @@
       "name": "Winnipeg Jets",
       "shortName": "Jets",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_xx389XfB_h",
+      "name": "Young G.",
+      "shortName": "Young G.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/nwLOpHne-xbnIwfK4.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3582,7 +3614,7 @@
       "awayTeamId": "espn_111",
       "startTime": "2026-10-25T17:00Z",
       "endTime": "2026-10-25T19:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
       "homeScore": 0,
@@ -3693,10 +3725,10 @@
       "awayTeamId": "espn_3788",
       "startTime": "2026-10-25T17:30Z",
       "endTime": "2026-10-25T19:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4438.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3788.png",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
       "channels": [
         "espn"
@@ -3711,7 +3743,7 @@
       "awayTeamId": "espn_1538",
       "startTime": "2026-10-25T17:30Z",
       "endTime": "2026-10-25T19:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
       "homeScore": 2,
@@ -3730,11 +3762,11 @@
       "awayTeamId": "espn_diretta_G2rBjESk_a",
       "startTime": "2026-10-25T17:40:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/v7bqBfUH-SQeSWXM9.png",
-      "homeScore": 1,
-      "awayScore": 1,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3755,11 +3787,11 @@
       "awayTeamId": "espn_19257",
       "startTime": "2026-10-25T18:00Z",
       "endTime": "2026-10-25T20:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20061.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "paramount"
       ]
@@ -3773,14 +3805,13 @@
       "awayTeamId": "espn_152",
       "startTime": "2026-10-25T19:00Z",
       "endTime": "2026-10-25T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
-        "espn",
-        "sportsnet_world"
+        "espn"
       ]
     },
     {
@@ -3792,11 +3823,11 @@
       "awayTeamId": "espn_26",
       "startTime": "2026-10-25T19:00Z",
       "endTime": "2026-10-25T22:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3814,11 +3845,11 @@
       "awayTeamId": "espn_103",
       "startTime": "2026-10-25T19:45Z",
       "endTime": "2026-10-25T21:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_calcio",
@@ -3837,7 +3868,6 @@
         "supersport_football",
         "paramount",
         "ziggo_sport_extra_2",
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_3_hd_milan",
         "it_dazn_serie_a_14_hd_udinese"
       ]
@@ -3851,7 +3881,7 @@
       "awayTeamId": null,
       "startTime": "2026-10-25T20:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -3871,52 +3901,14 @@
       "awayTeamId": "espn_86",
       "startTime": "2026-10-25T20:00Z",
       "endTime": "2026-10-25T22:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "espn_us",
         "espn"
-      ]
-    },
-    {
-      "id": "espn_401841636",
-      "title": "Independiente - Boca Juniors",
-      "sport": "FOOTBALL",
-      "competitionId": "liga_profesional",
-      "homeTeamId": "espn_11",
-      "awayTeamId": "espn_5",
-      "startTime": "2026-10-25T20:00Z",
-      "endTime": "2026-10-25T22:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "foxdeportes_us",
-        "tyc_sports"
-      ]
-    },
-    {
-      "id": "espn_401885413",
-      "title": "Sporting CP - Académico de Viseu",
-      "sport": "FOOTBALL",
-      "competitionId": "primeira_liga",
-      "homeTeamId": "espn_2250",
-      "awayTeamId": "espn_21607",
-      "startTime": "2026-10-25T20:30Z",
-      "endTime": "2026-10-25T22:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "bein_sports_1_france",
-        "claro_sports_hd"
       ]
     },
     {
@@ -3928,11 +3920,11 @@
       "awayTeamId": "espn_15365",
       "startTime": "2026-10-25T21:00Z",
       "endTime": "2026-10-25T23:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "channels": [
         "espn_us",
         "espn"
@@ -3947,11 +3939,11 @@
       "awayTeamId": "espn_13",
       "startTime": "2026-10-25T21:00Z",
       "endTime": "2026-10-25T23:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 37,
+      "awayScore": 20,
       "channels": [
         "sky_sport_uno",
         "sky_sport_basket",
@@ -4467,21 +4459,28 @@
       ]
     },
     {
-      "id": "espn_401888267",
-      "title": "Caykur Rizespor - Trabzonspor",
-      "sport": "FOOTBALL",
-      "competitionId": "super_lig",
-      "homeTeamId": "espn_7656",
-      "awayTeamId": "espn_997",
-      "startTime": "2026-10-26T16:00Z",
-      "endTime": "2026-10-26T18:00:00Z",
+      "id": "diretta_tennis_xx389XfB",
+      "title": "Young G. - Ostapenkov D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_xx389XfB_h",
+      "awayTeamId": "espn_diretta_xx389XfB_a",
+      "startTime": "2026-10-26T15:00:00Z",
+      "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nwLOpHne-xbnIwfK4.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
+      "homeScore": null,
+      "awayScore": null,
       "channels": [
-        "bein_sports_1_france"
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -4560,17 +4559,17 @@
       ]
     },
     {
-      "id": "espn_401876718",
-      "title": "Boulogne - Stade de Reims",
+      "id": "espn_401876714",
+      "title": "Montpellier - Red Star FC 93",
       "sport": "FOOTBALL",
       "competitionId": "ligue_2",
-      "homeTeamId": "espn_7869",
-      "awayTeamId": "espn_3243",
+      "homeTeamId": "espn_274",
+      "awayTeamId": "espn_11884",
       "startTime": "2026-10-26T19:45Z",
       "endTime": "2026-10-26T21:45:00Z",
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7869.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3243.png",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/274.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11884.png",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
