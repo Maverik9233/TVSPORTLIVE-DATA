@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T01:44:51Z",
+  "generatedAt": "2026-10-26T07:05:56Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -703,14 +703,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_A78Ib6SH_a",
-      "name": "Danilina A./Jiang X.",
-      "shortName": "Danilina A./Jiang X.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/bcmMf5lC-21kVa2O5.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_lx6qy7c6_h",
       "name": "Darderi L.",
       "shortName": "Darderi L.",
@@ -787,14 +779,6 @@
       "name": "Empoli",
       "shortName": "Empoli",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2574.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_A78Ib6SH_h",
-      "name": "Errani S./Paolini J.",
-      "shortName": "Errani S./Paolini J.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1943,38 +1927,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_MBZZUhcE_h",
       "awayTeamId": "espn_diretta_MBZZUhcE_a",
-      "startTime": "2026-10-26T03:00:00Z",
+      "startTime": "2026-10-26T03:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/Gj21H08k-Sjqf47A4.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/bJeqAhAN-QTNGgCPR.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_A78Ib6SH",
-      "title": "Errani S./Paolini J. - Danilina A./Jiang X.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_A78Ib6SH_h",
-      "awayTeamId": "espn_diretta_A78Ib6SH_a",
-      "startTime": "2026-10-26T05:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bcmMf5lC-21kVa2O5.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2638,56 +2597,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_GCidnxwe",
-      "title": "Osaka N. - Paolini J.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_GCidnxwe_h",
-      "awayTeamId": "espn_diretta_GCidnxwe_a",
-      "startTime": "2026-10-27T02:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/naegY9me-YgRjYWBf.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nLTqTYA6-0fhNJLOt.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_KOdrP29e",
-      "title": "Putintseva Y. - Sakkari M.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_KOdrP29e_h",
-      "awayTeamId": "espn_diretta_KOdrP29e_a",
-      "startTime": "2026-10-27T02:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rR1ZusjT-UNaWeh2O.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "diretta_tennis_nuK76ru9",
       "title": "Santillan A./Zheng B. - Betov S./Ymer E.",
       "sport": "TENNIS",
@@ -2730,6 +2639,56 @@
         "sky_sport_uno",
         "sky_sport_basket",
         "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "diretta_tennis_KOdrP29e",
+      "title": "Putintseva Y. - Sakkari M.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_KOdrP29e_h",
+      "awayTeamId": "espn_diretta_KOdrP29e_a",
+      "startTime": "2026-10-27T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rR1ZusjT-UNaWeh2O.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_GCidnxwe",
+      "title": "Osaka N. - Paolini J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_GCidnxwe_h",
+      "awayTeamId": "espn_diretta_GCidnxwe_a",
+      "startTime": "2026-10-27T08:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/naegY9me-YgRjYWBf.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nLTqTYA6-0fhNJLOt.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
