@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T23:17:40Z",
+  "generatedAt": "2026-10-28T02:27:27Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -913,6 +913,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_4Sz2ryjg_h",
+      "name": "Draxl L.",
+      "shortName": "Draxl L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IV0Wf7Pq-h2fAi42i.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_261",
       "name": "Dundee",
       "shortName": "Dundee",
@@ -1601,6 +1609,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_WbW1HzT6_h",
+      "name": "Ostapenkov D.",
+      "shortName": "Ostapenkov D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_vkBu2DTa_h",
       "name": "Ostapenkov D.",
       "shortName": "Ostapenkov D.",
@@ -1609,7 +1625,7 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_WbW1HzT6_h",
+      "id": "espn_diretta_4Sz2ryjg_a",
       "name": "Ostapenkov D.",
       "shortName": "Ostapenkov D.",
       "logoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
@@ -2163,31 +2179,6 @@
   ],
   "events": [
     {
-      "id": "diretta_tennis_vkBu2DTa",
-      "title": "Ostapenkov D. - Baris O.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_vkBu2DTa_h",
-      "awayTeamId": "espn_diretta_vkBu2DTa_a",
-      "startTime": "2026-10-27T23:15:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/tlECcUR0-IZKSS5Zp.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "diretta_tennis_WbW1HzT6",
       "title": "Ostapenkov D. - Maloney P.",
       "sport": "TENNIS",
@@ -2213,19 +2204,19 @@
       ]
     },
     {
-      "id": "diretta_tennis_lKAOfclB",
-      "title": "Thompson B. - Nishimoto S.",
+      "id": "diretta_tennis_vkBu2DTa",
+      "title": "Ostapenkov D. - Baris O.",
       "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_lKAOfclB_h",
-      "awayTeamId": "espn_diretta_lKAOfclB_a",
-      "startTime": "2026-10-28T01:30:00Z",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_vkBu2DTa_h",
+      "awayTeamId": "espn_diretta_vkBu2DTa_a",
+      "startTime": "2026-10-27T23:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/AgaJHx7k-O0ebEQc0.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rP2QUWUH-AV0p1MWF.png",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/tlECcUR0-IZKSS5Zp.png",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2249,6 +2240,31 @@
       "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/K2yK2ST0-CzsoFbbA.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/4l4lCyiT-SfcmK5PO.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_lKAOfclB",
+      "title": "Thompson B. - Nishimoto S.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_lKAOfclB_h",
+      "awayTeamId": "espn_diretta_lKAOfclB_a",
+      "startTime": "2026-10-28T02:15:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/AgaJHx7k-O0ebEQc0.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rP2QUWUH-AV0p1MWF.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2853,6 +2869,7 @@
         "dazn_ireland",
         "digi_sport_4_ro",
         "tnt_sports_1",
+        "supersport_maximo_1",
         "paramount",
         "ziggo_sport",
         "dazn_2",
@@ -3265,6 +3282,7 @@
         "dazn_ireland",
         "digi_sport_3_ro",
         "arena_premium_5_srbija_HD",
+        "supersport_football",
         "paramount",
         "ziggo_sport",
         "dazn_1",
@@ -3302,6 +3320,7 @@
         "tnt_sports_1",
         "arena_premium_5_srbija_HD",
         "exyu_arena_sport_9_hd_hr",
+        "supersport_maximo_1",
         "paramount",
         "ziggo_sport_extra_2",
         "dazn_2",
@@ -3953,6 +3972,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/fFt3Scme-IgwSh9ZH.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_4Sz2ryjg",
+      "title": "Draxl L. - Ostapenkov D.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_4Sz2ryjg_h",
+      "awayTeamId": "espn_diretta_4Sz2ryjg_a",
+      "startTime": "2026-10-29T15:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IV0Wf7Pq-h2fAi42i.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Gvzgjd8k-SEotSwLF.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
