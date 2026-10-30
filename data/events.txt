@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T09:09:19Z",
+  "generatedAt": "2026-10-30T15:58:49Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -2056,6 +2056,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_zquc67o2_a",
+      "name": "Hsieh C./Uchida K.",
+      "shortName": "Hsieh C./Uchida K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0G3rmoT0-dYX8ab30.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_Cz1AzR8b_h",
       "name": "Huang Yujia/Zelinskaya D.",
       "shortName": "Huang Yujia/Zelinskaya D.",
@@ -3296,6 +3304,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_zquc67o2_h",
+      "name": "Santillan A./Zheng B.",
+      "shortName": "Santillan A./Zheng B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_10158",
       "name": "Sarmiento (Junín)",
       "shortName": "Sarmiento (J)",
@@ -4322,11 +4338,11 @@
       "awayTeamId": "espn_diretta_KAmBSWgn_a",
       "startTime": "2026-10-30T09:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/8h7wr2Sq-CKzyVN09.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/WO34Nkme-G2zyx4Vd.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4345,13 +4361,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_KlU9sAIk_h",
       "awayTeamId": "espn_diretta_KlU9sAIk_a",
-      "startTime": "2026-10-30T09:30:00Z",
+      "startTime": "2026-10-30T10:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/j3mgvLU0-G6MoCci2.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4370,13 +4386,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_b7Jvjcf2_h",
       "awayTeamId": "espn_diretta_b7Jvjcf2_a",
-      "startTime": "2026-10-30T12:00:00Z",
+      "startTime": "2026-10-30T12:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/AeTHwNlC-YceWMHvj.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/GKoLzl96-t2BPoquO.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4395,13 +4411,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_rgIUGvHG_h",
       "awayTeamId": "espn_diretta_rgIUGvHG_a",
-      "startTime": "2026-10-30T12:30:00Z",
+      "startTime": "2026-10-30T12:40:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/db9aQQoe-4AguOuCD.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/6yqVVl7k-6Z1AkBdk.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4420,13 +4436,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_xntwYHUH_h",
       "awayTeamId": "espn_diretta_xntwYHUH_a",
-      "startTime": "2026-10-30T13:00:00Z",
+      "startTime": "2026-10-30T13:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/MamwNzme-tSf4B4RM.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/QZQcSqA6-6VJ5WJfp.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4445,38 +4461,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_ph3qGUOE_h",
       "awayTeamId": "espn_diretta_ph3qGUOE_a",
-      "startTime": "2026-10-30T13:30:00Z",
+      "startTime": "2026-10-30T14:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/OzNPiQ6k-ljRxwUUm.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/UqyOgWA6-pOTe4nSM.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_zmXAbF6m",
-      "title": "Neos E./Tsitsipas Pe. - Maric M./Radovanovic T.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_zmXAbF6m_h",
-      "awayTeamId": "espn_diretta_zmXAbF6m_a",
-      "startTime": "2026-10-30T14:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Qk5MIqWH-6wtISK9S.png",
-      "awayLogoUrl": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4495,38 +4486,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_4KdJITqK_h",
       "awayTeamId": "espn_diretta_4KdJITqK_a",
-      "startTime": "2026-10-30T14:00:00Z",
+      "startTime": "2026-10-30T14:40:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/8vGNRdkC-pQ0ElVBe.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/WIUhxKlC-hGuiBKos.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_4YgR87Yo",
-      "title": "Fritz T. - Fils A.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_4YgR87Yo_h",
-      "awayTeamId": "espn_diretta_4YgR87Yo_a",
-      "startTime": "2026-10-30T14:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nNp7KtAN-8AMTtzu5.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6m3gojRq-SQeH6w5H.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4556,6 +4522,31 @@
         "sky_sport_uno",
         "sky_sport_motogp",
         "tv8_5"
+      ]
+    },
+    {
+      "id": "diretta_tennis_4YgR87Yo",
+      "title": "Fritz T. - Fils A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_4YgR87Yo_h",
+      "awayTeamId": "espn_diretta_4YgR87Yo_a",
+      "startTime": "2026-10-30T15:35:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nNp7KtAN-8AMTtzu5.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6m3gojRq-SQeH6w5H.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -4620,6 +4611,31 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/0UWFSKkC-r9rkfxv3.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/xrWNMFWH-Mc0Ip3ar.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_zmXAbF6m",
+      "title": "Neos E./Tsitsipas Pe. - Maric M./Radovanovic T.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_zmXAbF6m_h",
+      "awayTeamId": "espn_diretta_zmXAbF6m_a",
+      "startTime": "2026-10-30T18:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Qk5MIqWH-6wtISK9S.png",
+      "awayLogoUrl": null,
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -4835,7 +4851,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "bein_sports_1_france"
+        "bein_sports_1_france",
+        "fox_sports_mexico"
       ]
     },
     {
@@ -4913,17 +4930,17 @@
       ]
     },
     {
-      "id": "espn_401841655",
-      "title": "Estudiantes de Río Cuarto - Gimnasia La Plata",
+      "id": "espn_401841653",
+      "title": "Huracán - Tigre",
       "sport": "FOOTBALL",
       "competitionId": "liga_profesional",
-      "homeTeamId": "espn_19685",
-      "awayTeamId": "espn_9",
+      "homeTeamId": "espn_10",
+      "awayTeamId": "espn_7767",
       "startTime": "2026-10-30T22:00Z",
       "endTime": "2026-10-31T00:00:00Z",
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19685.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
@@ -5223,8 +5240,25 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tyc_sports",
-        "tnt_sports_1"
+        "tyc_sports"
+      ]
+    },
+    {
+      "id": "espn_401876918",
+      "title": "FC Juárez - Querétaro",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_mx",
+      "homeTeamId": "espn_17851",
+      "awayTeamId": "espn_222",
+      "startTime": "2026-10-31T01:00Z",
+      "endTime": "2026-10-31T03:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/222.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
       ]
     },
     {
@@ -5295,6 +5329,49 @@
       ]
     },
     {
+      "id": "espn_401876917",
+      "title": "Puebla - Pumas UNAM",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_mx",
+      "homeTeamId": "espn_231",
+      "awayTeamId": "espn_233",
+      "startTime": "2026-10-31T03:00Z",
+      "endTime": "2026-10-31T05:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
+      ]
+    },
+    {
+      "id": "diretta_tennis_zquc67o2",
+      "title": "Santillan A./Zheng B. - Hsieh C./Uchida K.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_zquc67o2_h",
+      "awayTeamId": "espn_diretta_zquc67o2_a",
+      "startTime": "2026-10-31T05:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0G3rmoT0-dYX8ab30.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "diretta_tennis_hE2QWr8N",
       "title": "Mihalikova T./Nicholls O. - Errani S./Paolini J.",
       "sport": "TENNIS",
@@ -5338,25 +5415,6 @@
       ]
     },
     {
-      "id": "espn_401889222",
-      "title": "Forest Green Rovers - Harrogate Town",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_282",
-      "awayTeamId": "espn_19262",
-      "startTime": "2026-10-31T12:30Z",
-      "endTime": "2026-10-31T14:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/282.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19262.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
-      ]
-    },
-    {
       "id": "espn_401880194",
       "title": "Lincoln City - Birmingham City",
       "sport": "FOOTBALL",
@@ -5390,78 +5448,6 @@
       "awayScore": 0,
       "channels": [
         "paramount"
-      ]
-    },
-    {
-      "id": "diretta_diretta_bundesliga_3_YuvoQdC6",
-      "title": "Havelse - Ingolstadt",
-      "sport": "FOOTBALL",
-      "competitionId": "bundesliga_3",
-      "homeTeamId": "espn_ger3_havelse",
-      "awayTeamId": "espn_ger3_ingolstadt",
-      "startTime": "2026-10-31T13:00:00Z",
-      "endTime": "2026-10-31T15:10:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": null,
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21314.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "gr_magenta_sport_league_1_fhd"
-      ]
-    },
-    {
-      "id": "diretta_diretta_bundesliga_3_b5GQXmEF",
-      "title": "Hoffenheim II - Viktoria Colonia",
-      "sport": "FOOTBALL",
-      "competitionId": "bundesliga_3",
-      "homeTeamId": "espn_ger3_hoffenheim_ii",
-      "awayTeamId": "espn_ger3_viktoria_colonia",
-      "startTime": "2026-10-31T13:00:00Z",
-      "endTime": "2026-10-31T15:10:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IyZBMF7k-n7lWn9DL.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/KMphsCCN-86lnAaq9.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "gr_magenta_sport_league_1_fhd"
-      ]
-    },
-    {
-      "id": "diretta_diretta_bundesliga_3_h2xVTvDs",
-      "title": "Regensburg - Rostock",
-      "sport": "FOOTBALL",
-      "competitionId": "bundesliga_3",
-      "homeTeamId": "espn_ger3_regensburg",
-      "awayTeamId": "espn_ger3_rostock",
-      "startTime": "2026-10-31T13:00:00Z",
-      "endTime": "2026-10-31T15:10:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": null,
-      "awayLogoUrl": null,
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "gr_magenta_sport_league_1_fhd"
-      ]
-    },
-    {
-      "id": "diretta_diretta_bundesliga_3_n3AcnmT8",
-      "title": "Verl - Wehen",
-      "sport": "FOOTBALL",
-      "competitionId": "bundesliga_3",
-      "homeTeamId": "espn_ger3_verl",
-      "awayTeamId": "espn_ger3_wehen",
-      "startTime": "2026-10-31T13:00:00Z",
-      "endTime": "2026-10-31T15:10:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0CXiWrlC-6ghGF0v9.png",
-      "awayLogoUrl": null,
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "gr_magenta_sport_league_1_fhd"
       ]
     },
     {
@@ -5631,24 +5617,6 @@
       ]
     },
     {
-      "id": "espn_401884753",
-      "title": "Bayer Leverkusen - VfB Stuttgart",
-      "sport": "FOOTBALL",
-      "competitionId": "bundesliga",
-      "homeTeamId": "espn_131",
-      "awayTeamId": "espn_134",
-      "startTime": "2026-10-31T14:30Z",
-      "endTime": "2026-10-31T16:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
-      ]
-    },
-    {
       "id": "motogp_official_motogp_petronas_grand_prix_of_malaysia_sprint_2026-10-31",
       "title": "MotoGP - PETRONAS GRAND PRIX OF MALAYSIA (Sprint)",
       "sport": "MOTOGP",
@@ -5669,82 +5637,6 @@
       ]
     },
     {
-      "id": "espn_401889221",
-      "title": "Aldershot Town - Gateshead",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_632",
-      "awayTeamId": "espn_3138",
-      "startTime": "2026-10-31T15:00Z",
-      "endTime": "2026-10-31T17:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/632.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3138.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
-      ]
-    },
-    {
-      "id": "espn_401889220",
-      "title": "Altrincham - Carlisle United",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_633",
-      "awayTeamId": "espn_322",
-      "startTime": "2026-10-31T15:00Z",
-      "endTime": "2026-10-31T17:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/633.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/322.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
-      ]
-    },
-    {
-      "id": "espn_401889219",
-      "title": "Barrow - Eastleigh",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_642",
-      "awayTeamId": "espn_3897",
-      "startTime": "2026-10-31T15:00Z",
-      "endTime": "2026-10-31T17:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/642.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3897.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
-      ]
-    },
-    {
-      "id": "espn_401889218",
-      "title": "Boreham Wood - Hartlepool United",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_2595",
-      "awayTeamId": "espn_323",
-      "startTime": "2026-10-31T15:00Z",
-      "endTime": "2026-10-31T17:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2595.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/323.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
-      ]
-    },
-    {
       "id": "espn_401879249",
       "title": "Brentford - Nottingham Forest",
       "sport": "FOOTBALL",
@@ -5759,8 +5651,27 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "tnt_sports_1",
         "005_usa_nfl_network",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
+      ]
+    },
+    {
+      "id": "espn_401879245",
+      "title": "Manchester City - Brighton & Hove Albion",
+      "sport": "FOOTBALL",
+      "competitionId": "premier_league",
+      "homeTeamId": "espn_382",
+      "awayTeamId": "espn_331",
+      "startTime": "2026-10-31T15:00Z",
+      "endTime": "2026-10-31T17:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "fox_sports_mexico"
       ]
     },
     {
@@ -5800,25 +5711,6 @@
       ]
     },
     {
-      "id": "espn_401889217",
-      "title": "Solihull Moors - Kidderminster Harriers",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_13061",
-      "awayTeamId": "espn_319",
-      "startTime": "2026-10-31T15:00Z",
-      "endTime": "2026-10-31T17:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/13061.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/319.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
-      ]
-    },
-    {
       "id": "espn_401880189",
       "title": "Southampton - Queens Park Rangers",
       "sport": "FOOTBALL",
@@ -5834,44 +5726,6 @@
       "awayScore": 0,
       "channels": [
         "paramount"
-      ]
-    },
-    {
-      "id": "espn_401889216",
-      "title": "Tamworth - Woking",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_645",
-      "awayTeamId": "espn_290",
-      "startTime": "2026-10-31T15:00Z",
-      "endTime": "2026-10-31T17:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/645.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/290.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
-      ]
-    },
-    {
-      "id": "espn_401889215",
-      "title": "Wealdstone - Southend United",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_3887",
-      "awayTeamId": "espn_310",
-      "startTime": "2026-10-31T15:00Z",
-      "endTime": "2026-10-31T17:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3887.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/310.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
       ]
     },
     {
@@ -5909,25 +5763,6 @@
       "awayScore": 0,
       "channels": [
         "paramount"
-      ]
-    },
-    {
-      "id": "espn_401889214",
-      "title": "Worthing - Sutton United",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_128663",
-      "awayTeamId": "espn_3231",
-      "startTime": "2026-10-31T15:00Z",
-      "endTime": "2026-10-31T17:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/128663.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3231.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
       ]
     },
     {
@@ -5983,6 +5818,24 @@
       "awayScore": 0,
       "channels": [
         "espn"
+      ]
+    },
+    {
+      "id": "espn_401931238",
+      "title": "Cerro - Central Español Fútbol Club",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_uruguaya",
+      "homeTeamId": "espn_5490",
+      "awayTeamId": "espn_131688",
+      "startTime": "2026-10-31T16:00Z",
+      "endTime": "2026-10-31T18:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5490.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131688.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "directv_sports_sd"
       ]
     },
     {
@@ -6070,26 +5923,9 @@
         "dazn_1_italia",
         "dazn_2_italia",
         "paramount",
+        "espn",
         "it_dazn_serie_a_5_hd_roma",
         "it_dazn_serie_a_14_hd_udinese"
-      ]
-    },
-    {
-      "id": "espn_401878953",
-      "title": "Standard Liege - KV Kortrijk",
-      "sport": "FOOTBALL",
-      "competitionId": "jupiler_pro",
-      "homeTeamId": "espn_559",
-      "awayTeamId": "espn_5786",
-      "startTime": "2026-10-31T17:15Z",
-      "endTime": "2026-10-31T19:15:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/559.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5786.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "be_dazn_pro_league_1_fr_fhd"
       ]
     },
     {
@@ -6174,27 +6010,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "005_usa_nfl_network",
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
-      ]
-    },
-    {
-      "id": "espn_401889213",
-      "title": "Boston United - Scunthorpe United",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_3256",
-      "awayTeamId": "espn_313",
-      "startTime": "2026-10-31T17:30Z",
-      "endTime": "2026-10-31T19:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3256.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/313.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
+        "fox_sports_mexico",
+        "005_usa_nfl_network"
       ]
     },
     {
@@ -6249,7 +6066,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
+        "tnt_sports_1"
       ]
     },
     {
@@ -6285,27 +6102,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "espn",
-        "sportsnet_world"
-      ]
-    },
-    {
-      "id": "espn_401900883",
-      "title": "Al Hilal - Al Fateh",
-      "sport": "FOOTBALL",
-      "competitionId": "saudi_pro_league",
-      "homeTeamId": "espn_929",
-      "awayTeamId": "espn_13033",
-      "startTime": "2026-10-31T18:00Z",
-      "endTime": "2026-10-31T20:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/929.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/13033.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "fox_soccer_plus",
-        "dazn_deutschland"
+        "espn"
       ]
     },
     {
@@ -6388,28 +6185,8 @@
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
-        "de_blue_sport_1_fhd",
-        "fr_l_equipe_live_5_fhd_event_only",
         "event_vip_blue_sport_3_live_4k",
         "it_dazn_serie_b_17_sampdoria"
-      ]
-    },
-    {
-      "id": "espn_401876707",
-      "title": "Guingamp - Saint-Étienne",
-      "sport": "FOOTBALL",
-      "competitionId": "ligue_2",
-      "homeTeamId": "espn_171",
-      "awayTeamId": "espn_178",
-      "startTime": "2026-10-31T19:00Z",
-      "endTime": "2026-10-31T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "bein_sports_1_france"
       ]
     },
     {
@@ -6431,8 +6208,25 @@
         "sky_sport_basket",
         "nba_tv_usa",
         "espn",
-        "sportsnet_world",
         "us_nba_league_pass_01_fhd"
+      ]
+    },
+    {
+      "id": "espn_401931258",
+      "title": "Peñarol - Montevideo Wanderers",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_uruguaya",
+      "homeTeamId": "espn_2683",
+      "awayTeamId": "espn_5501",
+      "startTime": "2026-10-31T19:30Z",
+      "endTime": "2026-10-31T21:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5501.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "directv_sports_sd"
       ]
     },
     {
@@ -6455,27 +6249,9 @@
         "dazn_1_italia",
         "dazn_2_italia",
         "paramount",
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
+        "espn",
         "it_dazn_serie_a_2_hd_inter",
         "it_dazn_serie_a_3_hd_milan"
-      ]
-    },
-    {
-      "id": "espn_401878960",
-      "title": "Anderlecht - KVC Westerlo",
-      "sport": "FOOTBALL",
-      "competitionId": "jupiler_pro",
-      "homeTeamId": "espn_441",
-      "awayTeamId": "espn_606",
-      "startTime": "2026-10-31T19:45Z",
-      "endTime": "2026-10-31T21:45:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/606.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_deutschland"
       ]
     },
     {
@@ -6511,8 +6287,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "espn",
-        "sportsnet_world"
+        "espn"
       ]
     },
     {
@@ -6531,6 +6306,24 @@
       "awayScore": 0,
       "channels": [
         "dazn_spain"
+      ]
+    },
+    {
+      "id": "espn_401879250",
+      "title": "Aston Villa - Fulham",
+      "sport": "FOOTBALL",
+      "competitionId": "premier_league",
+      "homeTeamId": "espn_362",
+      "awayTeamId": "espn_370",
+      "startTime": "2026-10-31T20:00Z",
+      "endTime": "2026-10-31T22:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "fox_sports_mexico"
       ]
     },
     {
@@ -6713,24 +6506,6 @@
         "sky_sport_uno",
         "sky_sport_basket",
         "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401841646",
-      "title": "Vélez Sarsfield - San Lorenzo",
-      "sport": "FOOTBALL",
-      "competitionId": "liga_profesional",
-      "homeTeamId": "espn_21",
-      "awayTeamId": "espn_18",
-      "startTime": "2026-10-31T22:15Z",
-      "endTime": "2026-11-01T00:15:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "foxdeportes_us"
       ]
     },
     {
@@ -6919,7 +6694,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "espn_premium_hd"
+        "dazn_spain"
       ]
     },
     {
@@ -6957,7 +6732,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "paramount"
+        "canal_5",
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
       ]
     },
     {
@@ -6975,6 +6751,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "it_sky_sport_bar_primevideo_fhd",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
       ]
     },
@@ -7016,7 +6793,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "paramount"
+        "canal_5",
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
       ]
     }
   ]
