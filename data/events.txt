@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T00:10:23Z",
+  "generatedAt": "2026-10-31T05:46:32Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -1554,6 +1554,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_2uh9mLwh_h",
+      "name": "Collins K./Penickova K.",
+      "shortName": "Collins K./Penickova K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_184",
       "name": "Colorado Rapids",
       "shortName": "Colorado",
@@ -1886,6 +1894,14 @@
       "name": "Eintracht Frankfurt",
       "shortName": "Frankfurt",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2uh9mLwh_a",
+      "name": "El Jardi D./Frodin T.",
+      "shortName": "El Jardi D./Frodin T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/MiZcKO7k-Ya0ZuBS4.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2902,6 +2918,14 @@
       "name": "León",
       "shortName": "León",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_hnGqXagB_h",
+      "name": "Lin Y. J.",
+      "shortName": "Lin Y. J.",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -5018,6 +5042,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_hnGqXagB_a",
+      "name": "Zheng W.",
+      "shortName": "Zheng W.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_lpSI6lAl_h",
       "name": "Zverev A.",
       "shortName": "Zverev A.",
@@ -5052,11 +5084,11 @@
       "awayTeamId": "espn_diretta_WME2kZ1T_a",
       "startTime": "2026-10-30T23:10:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/6m56ozCN-828GCg23.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/AgaJHx7k-O0ebEQc0.png",
-      "homeScore": 1,
-      "awayScore": 1,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5077,11 +5109,11 @@
       "awayTeamId": "espn_diretta_fwwoBkOk_a",
       "startTime": "2026-10-31T03:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/8WwZh9Qq-Y9N8Qc6K.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5100,7 +5132,7 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_zquc67o2_h",
       "awayTeamId": "espn_diretta_zquc67o2_a",
-      "startTime": "2026-10-31T05:30:00Z",
+      "startTime": "2026-10-31T05:35:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
@@ -5125,7 +5157,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_hE2QWr8N_h",
       "awayTeamId": "espn_diretta_hE2QWr8N_a",
-      "startTime": "2026-10-31T07:30:00Z",
+      "startTime": "2026-10-31T08:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/8AQcv8UH-Spf5pawK.png",
@@ -6106,6 +6138,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_2uh9mLwh",
+      "title": "Collins K./Penickova K. - El Jardi D./Frodin T.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_2uh9mLwh_h",
+      "awayTeamId": "espn_diretta_2uh9mLwh_a",
+      "startTime": "2026-10-31T16:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/MiZcKO7k-Ya0ZuBS4.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401892614",
       "title": "Boston Bruins - Chicago Blackhawks",
       "sport": "HOCKEY",
@@ -7021,8 +7078,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tyc_sports",
-        "espn_premium_hd"
+        "tyc_sports"
       ]
     },
     {
@@ -7079,6 +7135,31 @@
       "awayScore": 0,
       "channels": [
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
+      ]
+    },
+    {
+      "id": "diretta_tennis_hnGqXagB",
+      "title": "Lin Y. J. - Zheng W.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_hnGqXagB_h",
+      "awayTeamId": "espn_diretta_hnGqXagB_a",
+      "startTime": "2026-11-01T02:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": null,
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -7160,16 +7241,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_deutschland",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
-        "digi_sport_3_ro",
         "paramount",
-        "ziggo_sport_extra_2",
-        "bein_sports_1_france",
         "it_dazn_serie_a_7_hd_como",
         "it_dazn_serie_a_17_hd_venezia"
       ]
@@ -7255,7 +7327,17 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_calcio"
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
       ]
     },
     {
@@ -7445,12 +7527,6 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_deutschland",
-        "arena_sport_1_hr",
-        "Arena_Premium_4",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
         "paramount",
         "it_dazn_serie_a_16_hd_torino"
       ]
@@ -7474,16 +7550,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_deutschland",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
-        "digi_sport_3_ro",
         "paramount",
-        "ziggo_sport_extra_2",
-        "bein_sports_1_france",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_19_hd_cagliari"
       ]
@@ -7559,7 +7626,101 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_4k"
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261101_1430_dolomiti_bellunesi_lecco",
+      "title": "DOLOMITI BELLUNESI - LECCO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_dolomiti_bellunesi",
+      "awayTeamId": "espn_serie_c_lecco",
+      "startTime": "2026-11-01T14:30:00+01:00",
+      "endTime": "2026-11-01T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vsHRPGjT-GfC4FMXT.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6mRuKqRq-A5NQVAWs.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261101_1430_gubbio_vis_pesaro",
+      "title": "GUBBIO - VIS PESARO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_gubbio",
+      "awayTeamId": "espn_serie_c_vis_pesaro",
+      "startTime": "2026-11-01T14:30:00+01:00",
+      "endTime": "2026-11-01T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/by51a8le-0lwy4Ij1.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nHSB3fCN-2y40txw3.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261101_1430_ravenna_pineto",
+      "title": "RAVENNA - PINETO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_ravenna",
+      "awayTeamId": "espn_serie_c_pineto",
+      "startTime": "2026-11-01T14:30:00+01:00",
+      "endTime": "2026-11-01T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/80wjP4AN-SEDyoIQg.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/EJIqOF76-88kdtlrt.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
       ]
     },
     {
@@ -7577,7 +7738,17 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_uno"
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
       ]
     },
     {
@@ -7806,20 +7977,8 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "it_sky_calcio_1_uhd",
-        "dazn_deutschland",
         "cbs_golazo",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "Arena_Premium_3",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
-        "digi_sport_4_ro",
-        "exyu_arena_sport_6_hd_hr",
         "paramount",
-        "ziggo_sport_extra_2",
-        "bein_sports_1_france",
         "it_dazn_serie_a_10_hd_genoa",
         "it_dazn_serie_a_18_hd_lecce"
       ]
@@ -7836,6 +7995,62 @@
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/lARr7w7k-0fb2aiv1.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/C6R1il6k-plwBfqHG.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261101_1730_carpi_renate",
+      "title": "CARPI - RENATE",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_carpi",
+      "awayTeamId": "espn_serie_c_renate",
+      "startTime": "2026-11-01T17:30:00+01:00",
+      "endTime": "2026-11-01T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4db86XmC-jkltiv4D.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IFh5p8S0-boEYzhiI.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261101_1730_latina_pianese",
+      "title": "LATINA - PIANESE",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_latina",
+      "awayTeamId": "espn_serie_c_pianese",
+      "startTime": "2026-11-01T17:30:00+01:00",
+      "endTime": "2026-11-01T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Qs3seRiT-8j2Mq7Nm.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/C0lnQw6k-ClzPj7qp.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -7881,6 +8096,34 @@
       ]
     },
     {
+      "id": "seriec_20261101_1730_lumezzane_arzignano_v",
+      "title": "LUMEZZANE - ARZIGNANO V.",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_lumezzane",
+      "awayTeamId": "espn_serie_c_arzignano_v",
+      "startTime": "2026-11-01T17:30:00+01:00",
+      "endTime": "2026-11-01T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/bZZj3WBN-x4BBSEWp.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zNCymWmC-MiZyhUzt.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
       "id": "seriec_20261101_1730_potenza_crotone",
       "title": "POTENZA - CROTONE",
       "sport": "FOOTBALL",
@@ -7895,7 +8138,17 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_arena"
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
       ]
     },
     {
@@ -8071,17 +8324,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_deutschland",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
-        "digi_sport_2_ro",
-        "tnt_sports_1",
         "paramount",
-        "ziggo_sport_extra_2",
-        "bein_sports_1_france",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_1_hd_juventus",
         "it_dazn_serie_a_4_hd_napoli"
@@ -8491,6 +8734,24 @@
       ]
     },
     {
+      "id": "espn_401878061",
+      "title": "Independiente Medellín - Alianza FC",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_betplay",
+      "homeTeamId": "espn_2690",
+      "awayTeamId": "espn_9761",
+      "startTime": "2026-11-01T23:10Z",
+      "endTime": "2026-11-02T01:10:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9761.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "foxdeportes_us"
+      ]
+    },
+    {
       "id": "espn_401841651",
       "title": "Lanús - Gimnasia (Mendoza)",
       "sport": "FOOTBALL",
@@ -8505,8 +8766,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tyc_sports",
-        "tnt_sports_1"
+        "tyc_sports"
       ]
     },
     {
