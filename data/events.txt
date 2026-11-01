@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T02:26:25Z",
+  "generatedAt": "2026-11-01T09:37:20Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -1876,6 +1876,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_4E9nD2jt_h",
+      "name": "Lee C. Y.",
+      "shortName": "Lee C. Y.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/IJ8WnjA6-Kf50K1yk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_17534",
       "name": "Leganés",
       "shortName": "Leganés",
@@ -2644,6 +2652,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_4E9nD2jt_a",
+      "name": "Sakkari M.",
+      "shortName": "Sakkari M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_serie_c_salernitana",
       "name": "SALERNITANA",
       "shortName": "SALERNITANA",
@@ -3222,11 +3238,11 @@
       "awayTeamId": "espn_diretta_hnGqXagB_a",
       "startTime": "2026-11-01T02:10:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3245,13 +3261,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_C6NvAl9C_h",
       "awayTeamId": "espn_diretta_C6NvAl9C_a",
-      "startTime": "2026-11-01T04:30:00Z",
+      "startTime": "2026-11-01T06:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/0zpz52BN-YRAAMohq.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3270,36 +3286,11 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_UFB4b13U_h",
       "awayTeamId": "espn_diretta_UFB4b13U_a",
-      "startTime": "2026-11-01T10:00:00Z",
+      "startTime": "2026-11-01T10:10:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/vVlKDxDN-StAs6lCm.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_dKM3pTen",
-      "title": "Cerundolo J. M. - Kecmanovic M.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_dKM3pTen_h",
-      "awayTeamId": "espn_diretta_dKM3pTen_a",
-      "startTime": "2026-11-01T11:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/pdi7TWmC-Ol58Nc7B.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6iVSfhne-vmtNCDo1.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -3330,6 +3321,31 @@
       "channels": [
         "espn_us",
         "espn"
+      ]
+    },
+    {
+      "id": "diretta_tennis_dKM3pTen",
+      "title": "Cerundolo J. M. - Kecmanovic M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_dKM3pTen_h",
+      "awayTeamId": "espn_diretta_dKM3pTen_a",
+      "startTime": "2026-11-01T11:10:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/pdi7TWmC-Ol58Nc7B.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6iVSfhne-vmtNCDo1.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -3501,31 +3517,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_dAVeKtyB",
-      "title": "De Minaur A. - Alcaraz C.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_dAVeKtyB_h",
-      "awayTeamId": "espn_diretta_dAVeKtyB_a",
-      "startTime": "2026-11-01T13:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/jV0hnbme-CID30mRm.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WIUhxKlC-KjZlrI8i.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "espn_401883124",
       "title": "Eldense - Granada",
       "sport": "FOOTBALL",
@@ -3581,6 +3572,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_dAVeKtyB",
+      "title": "De Minaur A. - Alcaraz C.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_dAVeKtyB_h",
+      "awayTeamId": "espn_diretta_dAVeKtyB_a",
+      "startTime": "2026-11-01T13:10:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/jV0hnbme-CID30mRm.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WIUhxKlC-KjZlrI8i.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401885650",
       "title": "Paris FC - Paris Saint-Germain",
       "sport": "FOOTBALL",
@@ -3607,7 +3623,7 @@
       "awayTeamId": null,
       "startTime": "2026-11-01T14:00:00+08:00",
       "endTime": "2026-11-01T15:30:00+08:00",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -5083,6 +5099,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_4E9nD2jt",
+      "title": "Lee C. Y. - Sakkari M.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_4E9nD2jt_h",
+      "awayTeamId": "espn_diretta_4E9nD2jt_a",
+      "startTime": "2026-11-02T07:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/IJ8WnjA6-Kf50K1yk.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "diretta_tennis_hxR2etO8",
       "title": "Djokovic N. - Vacherot V.",
       "sport": "TENNIS",
@@ -5537,24 +5578,6 @@
       "channels": [
         "005_usa_nfl_network",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
-      ]
-    },
-    {
-      "id": "espn_401885403",
-      "title": "Benfica - Alverca",
-      "sport": "FOOTBALL",
-      "competitionId": "primeira_liga",
-      "homeTeamId": "espn_1929",
-      "awayTeamId": "espn_21613",
-      "startTime": "2026-11-02T20:15Z",
-      "endTime": "2026-11-02T22:15:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "bein_sports_1_france"
       ]
     },
     {
