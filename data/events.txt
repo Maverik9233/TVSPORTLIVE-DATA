@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T23:58:22Z",
+  "generatedAt": "2026-11-02T05:49:06Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -2171,6 +2171,24 @@
       ]
     },
     {
+      "id": "espn_401883146",
+      "title": "Real Oviedo - Las Palmas",
+      "sport": "FOOTBALL",
+      "competitionId": "la_liga_2",
+      "homeTeamId": "espn_92",
+      "awayTeamId": "espn_98",
+      "startTime": "2026-11-02T15:15Z",
+      "endTime": "2026-11-02T17:15:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_spain"
+      ]
+    },
+    {
       "id": "diretta_tennis_Ms0Ki8y9",
       "title": "Jeanjean L. - Bronzetti L.",
       "sport": "TENNIS",
@@ -2233,11 +2251,15 @@
         "dazn_1_italia",
         "dazn_2_italia",
         "dazn_deutschland",
+        "dazn_2_bar DE",
         "arena_sport_1_hr",
+        "arena_sport_2_bih",
         "Arena_Premium_4",
         "dazn_spain",
         "dazn_france",
         "dazn_ireland",
+        "supersport_football",
+        "supersport_maximo_1",
         "paramount",
         "ziggo_sport_extra_2",
         "bein_sports_1_france",
@@ -2289,6 +2311,7 @@
         "dazn_1_italia",
         "dazn_2_italia",
         "dazn_deutschland",
+        "dazn_2_bar DE",
         "cbs_golazo",
         "arena_sport_1_hr",
         "arena_sport_2_bih",
@@ -2296,6 +2319,8 @@
         "dazn_france",
         "dazn_ireland",
         "tnt_sports_1",
+        "supersport_football",
+        "supersport_maximo_1",
         "paramount",
         "ziggo_sport_extra_2",
         "bein_sports_1_france",
