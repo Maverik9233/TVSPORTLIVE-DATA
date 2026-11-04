@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T23:44:06Z",
+  "generatedAt": "2026-11-04T03:24:03Z",
   "competitions": [
     {
       "id": "champions_league",
@@ -585,6 +585,14 @@
       "name": "Club Brugge",
       "shortName": "Club Brugge",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_lxEESfQ0_h",
+      "name": "Colombo K./Gaines Jr J.",
+      "shortName": "Colombo K./Gaines Jr J.",
+      "logoUrl": null,
       "country": null,
       "countryFlagUrl": null
     },
@@ -1557,6 +1565,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_lxEESfQ0_a",
+      "name": "Secord J./Thompson K.",
+      "shortName": "Secord J./Thompson K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/j9vYcSlC-xC75VyXc.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_936",
       "name": "Sint-Truidense",
       "shortName": "Sint-Truidense",
@@ -1855,11 +1871,11 @@
       "awayTeamId": "espn_diretta_OfzwjLVG_a",
       "startTime": "2026-11-03T23:30:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/CtK1LihT-OUMi2nSr.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/hUWkrxkC-vydAhFYf.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2551,6 +2567,31 @@
       "awayScore": 0,
       "channels": [
         "paramount"
+      ]
+    },
+    {
+      "id": "diretta_tennis_lxEESfQ0",
+      "title": "Colombo K./Gaines Jr J. - Secord J./Thompson K.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_lxEESfQ0_h",
+      "awayTeamId": "espn_diretta_lxEESfQ0_a",
+      "startTime": "2026-11-04T20:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": null,
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/j9vYcSlC-xC75VyXc.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -3285,7 +3326,7 @@
         "sky_sport_calcio",
         "sky_sport_arena",
         "tv8_5",
-        "sky_sport_austria_1",
+        "claro_sports_hd",
         "paramount",
         "dazn_1_pt"
       ]
@@ -3381,6 +3422,7 @@
         "sky_sport_arena",
         "tv8_5",
         "sky_sport_austria_1",
+        "claro_sports_hd",
         "paramount",
         "dazn_1_pt"
       ]
@@ -3521,6 +3563,7 @@
         "sky_sport_arena",
         "tv8_5",
         "sky_sport_austria_1",
+        "claro_sports_hd",
         "paramount",
         "dazn_1_pt"
       ]
@@ -3636,7 +3679,7 @@
         "sky_sport_arena",
         "tv8_5",
         "sky_sport_2_hd",
-        "sky_sport_austria_1",
+        "claro_sports_hd",
         "paramount",
         "dazn_1_pt"
       ]
