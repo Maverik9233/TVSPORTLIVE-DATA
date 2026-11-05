@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T23:59:52Z",
+  "generatedAt": "2026-11-05T06:31:03Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -889,6 +889,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_vggn4p8e_h",
+      "name": "Cundom J./Escurra Isnardi H. J.",
+      "shortName": "Cundom J./Escurra Isnardi H. J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ANW05R86-GpiZTBq7.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_CxO4Hyno_h",
+      "name": "Cundom J./Escurra Isnardi H. J.",
+      "shortName": "Cundom J./Escurra Isnardi H. J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ANW05R86-GpiZTBq7.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_11995",
       "name": "Cusco FC",
       "shortName": "Cusco",
@@ -901,6 +917,14 @@
       "name": "Dallas Mavericks",
       "shortName": "Mavericks",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_vggn4p8e_a",
+      "name": "De Almeida Santos P. A./Ortenblad Nogueira H.",
+      "shortName": "De Almeida Santos P. A./Ortenblad Nogueira H.",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1769,6 +1793,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_CxO4Hyno_a",
+      "name": "Renner G. B./Wendler Filho J.",
+      "shortName": "Renner G. B./Wendler Filho J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/KhSfJASq-OOcQRWV3.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_xOyZaJbe_h",
       "name": "Reyes-Varela M. A./Stalder R.",
       "shortName": "Reyes-Varela M. A./Stalder R.",
@@ -2258,6 +2290,31 @@
     }
   ],
   "events": [
+    {
+      "id": "diretta_tennis_vggn4p8e",
+      "title": "Cundom J./Escurra Isnardi H. J. - De Almeida Santos P. A./Ortenblad Nogueira H.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_vggn4p8e_h",
+      "awayTeamId": "espn_diretta_vggn4p8e_a",
+      "startTime": "2026-11-04T23:20:00Z",
+      "endTime": null,
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ANW05R86-GpiZTBq7.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
+      "homeScore": 2,
+      "awayScore": 2,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
     {
       "id": "diretta_tennis_dKA0oIvI",
       "title": "Wang Y./Zheng B. - Chen X./Te R.",
@@ -3034,6 +3091,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_CxO4Hyno",
+      "title": "Cundom J./Escurra Isnardi H. J. - Renner G. B./Wendler Filho J.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_CxO4Hyno_h",
+      "awayTeamId": "espn_diretta_CxO4Hyno_a",
+      "startTime": "2026-11-05T20:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ANW05R86-GpiZTBq7.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/KhSfJASq-OOcQRWV3.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401915824",
       "title": "AS Monaco - FC Nordsjælland",
       "sport": "FOOTBALL",
@@ -3782,10 +3864,7 @@
       "channels": [
         "sky_sport_uno",
         "sky_sport_motogp",
-        "tv8_5",
-        "dazn_spain",
-        "supersport_motorsport",
-        "f1_f1_tv_race_tracker_feed_fhd"
+        "tv8_5"
       ]
     },
     {
@@ -3935,8 +4014,6 @@
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
-        "exyu_arena_sport_8_hd_hr",
-        "event_vip_blue_sport_3_live_4k",
         "it_dazn_serie_b_13_palermo"
       ]
     },
@@ -3995,36 +4072,28 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "it_sky_calcio_1_uhd",
-        "dazn_deutschland",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
         "paramount",
-        "bein_sports_1_france",
         "it_dazn_serie_a_14_hd_udinese",
         "it_dazn_serie_a_17_hd_venezia"
       ]
     },
     {
-      "id": "espn_401900442",
-      "title": "Al Hazem - Al Nassr",
+      "id": "espn_401900873",
+      "title": "Al Ittihad - Neom SC",
       "sport": "FOOTBALL",
       "competitionId": "saudi_pro_league",
-      "homeTeamId": "espn_21964",
-      "awayTeamId": "espn_817",
+      "homeTeamId": "espn_2276",
+      "awayTeamId": "espn_130899",
       "startTime": "2026-11-06T20:00Z",
       "endTime": "2026-11-06T22:00:00Z",
       "status": "FINISHED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21964.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2276.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/130899.png",
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "foxsports_2_us",
-        "de_sport_digital_fussball_fhd"
+        "de_blue_sport_1_fhd",
+        "de_sportdigital_fussball_2"
       ]
     },
     {
@@ -4084,6 +4153,34 @@
       ]
     },
     {
+      "id": "seriec_20261106_2030_alcione_milano_lumezzane",
+      "title": "ALCIONE MILANO - LUMEZZANE",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_alcione_milano",
+      "awayTeamId": "espn_serie_c_lumezzane",
+      "startTime": "2026-11-06T20:30:00+01:00",
+      "endTime": "2026-11-06T22:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WnUOt98k-nVlzfdm2.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bZZj3WBN-x4BBSEWp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
       "id": "seriec_20261106_2030_union_brescia_arzignano_v",
       "title": "UNION BRESCIA - ARZIGNANO V.",
       "sport": "FOOTBALL",
@@ -4098,7 +4195,17 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_uno"
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
       ]
     },
     {
