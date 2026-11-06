@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T01:47:20Z",
+  "generatedAt": "2026-11-06T08:36:42Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -4280,6 +4280,24 @@
       ]
     },
     {
+      "id": "seriec_20261106_2030_alcione_milano_lumezzane",
+      "title": "ALCIONE MILANO - LUMEZZANE",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_alcione_milano",
+      "awayTeamId": "espn_serie_c_lumezzane",
+      "startTime": "2026-11-06T20:30:00+01:00",
+      "endTime": "2026-11-06T22:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/WnUOt98k-nVlzfdm2.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bZZj3WBN-x4BBSEWp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_3_uhd"
+      ]
+    },
+    {
       "id": "seriec_20261106_2030_union_brescia_arzignano_v",
       "title": "UNION BRESCIA - ARZIGNANO V.",
       "sport": "FOOTBALL",
@@ -4330,7 +4348,6 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "movistar_liga_de_campeones",
         "tyc_sports"
       ]
     },
@@ -4995,11 +5012,8 @@
         "dazn_spain",
         "dazn_france",
         "dazn_ireland",
-        "match_tv_russia",
-        "go3sport_1",
-        "ziggo_sport",
-        "prima_sport",
         "paramount",
+        "ziggo_sport",
         "it_dazn_serie_a_16_hd_torino",
         "it_dazn_serie_a_18_hd_lecce"
       ]
@@ -5030,6 +5044,42 @@
         "it_sky_calcio_5_uhd",
         "it_sky_calcio_6_uhd",
         "it_sky_calcio_7_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261107_1430_casertana_casarano",
+      "title": "CASERTANA - CASARANO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_casertana",
+      "awayTeamId": "espn_serie_c_casarano",
+      "startTime": "2026-11-07T14:30:00+01:00",
+      "endTime": "2026-11-07T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/AyrNNTVH-r1GddVEp.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/OvpVW496-Cb9oELdi.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_5_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261107_1430_crotone_giugliano",
+      "title": "CROTONE - GIUGLIANO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_crotone",
+      "awayTeamId": "espn_serie_c_giugliano",
+      "startTime": "2026-11-07T14:30:00+01:00",
+      "endTime": "2026-11-07T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/06kkEqQq-OfO7OVIe.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bsUNe3BN-KbyStBWu.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_4_uhd"
       ]
     },
     {
@@ -5075,17 +5125,25 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_calcio",
-        "sky_sport_258",
-        "sky_sport_259",
-        "rai_sport",
-        "it_sky_calcio_1_uhd",
-        "it_sky_calcio_2_uhd",
-        "it_sky_calcio_3_uhd",
-        "it_sky_calcio_4_uhd",
-        "it_sky_calcio_5_uhd",
-        "it_sky_calcio_6_uhd",
-        "it_sky_calcio_7_uhd"
+        "it_sky_calcio_2_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261107_1430_pro_vercelli_dolomiti_bellunesi",
+      "title": "PRO VERCELLI - DOLOMITI BELLUNESI",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_pro_vercelli",
+      "awayTeamId": "espn_serie_c_dolomiti_bellunesi",
+      "startTime": "2026-11-07T14:30:00+01:00",
+      "endTime": "2026-11-07T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/j1qsBwjC-AyUdrJUN.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/vsHRPGjT-GfC4FMXT.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_6_uhd"
       ]
     },
     {
@@ -5381,11 +5439,8 @@
         "dazn_spain",
         "dazn_france",
         "dazn_ireland",
-        "match_tv_russia",
-        "ziggo_sport",
-        "eleven_sports_2_hd",
-        "prima_sport",
         "paramount",
+        "ziggo_sport",
         "it_dazn_serie_a_9_hd_bologna",
         "it_dazn_serie_a_20_hd_parma"
       ]
@@ -5405,17 +5460,61 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_calcio",
-        "sky_sport_258",
-        "sky_sport_259",
-        "rai_sport",
-        "it_sky_calcio_1_uhd",
-        "it_sky_calcio_2_uhd",
-        "it_sky_calcio_3_uhd",
-        "it_sky_calcio_4_uhd",
-        "it_sky_calcio_5_uhd",
-        "it_sky_calcio_6_uhd",
-        "it_sky_calcio_7_uhd"
+        "it_sky_calcio_2_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261107_1730_pergolettese_renate",
+      "title": "PERGOLETTESE - RENATE",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_pergolettese",
+      "awayTeamId": "espn_serie_c_renate",
+      "startTime": "2026-11-07T17:30:00+01:00",
+      "endTime": "2026-11-07T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/MsPodHPq-IF6oPsUG.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IFh5p8S0-boEYzhiI.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_5_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261107_1730_scafatese_audace_cerignola",
+      "title": "SCAFATESE - AUDACE CERIGNOLA",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_scafatese",
+      "awayTeamId": "espn_serie_c_audace_cerignola",
+      "startTime": "2026-11-07T17:30:00+01:00",
+      "endTime": "2026-11-07T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/scafatese-trasp-logo.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/I7vyAriC-QLHjJNgD.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_3_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261107_1730_trento_albinoleffe",
+      "title": "TRENTO - ALBINOLEFFE",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_trento",
+      "awayTeamId": "espn_serie_c_albinoleffe",
+      "startTime": "2026-11-07T17:30:00+01:00",
+      "endTime": "2026-11-07T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/fizrpR5k-l4rv6VQk.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/CKdbkF96-z5AfsT8K.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_4_uhd"
       ]
     },
     {
@@ -5433,7 +5532,8 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_max"
+        "sky_sport_max",
+        "it_sky_calcio_1_uhd"
       ]
     },
     {
