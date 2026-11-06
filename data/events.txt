@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T08:36:42Z",
+  "generatedAt": "2026-11-06T16:19:28Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -1382,6 +1382,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_zwYQlKbC_a",
+      "name": "Eala A.",
+      "shortName": "Eala A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/f7rf4dWH-44Oegl12.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_6",
       "name": "Edmonton Oilers",
       "shortName": "Oilers",
@@ -1991,6 +1999,14 @@
     },
     {
       "id": "espn_diretta_EXh8b95t_a",
+      "name": "Karol M./Paulson A.",
+      "shortName": "Karol M./Paulson A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_8EI8fFBi_a",
       "name": "Karol M./Paulson A.",
       "shortName": "Karol M./Paulson A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
@@ -2878,6 +2894,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_8EI8fFBi_h",
+      "name": "Rojer J-J./Winegar T.",
+      "shortName": "Rojer J-J./Winegar T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/vBs0TCT0-Kfov921n.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_ger3_rostock",
       "name": "Rostock",
       "shortName": "Rostock",
@@ -2943,6 +2967,14 @@
     },
     {
       "id": "espn_diretta_0xR5nM8C_a",
+      "name": "Sakkari M.",
+      "shortName": "Sakkari M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_zwYQlKbC_h",
       "name": "Sakkari M.",
       "shortName": "Sakkari M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
@@ -3712,36 +3744,11 @@
       "awayTeamId": "espn_diretta_zVVffNZr_a",
       "startTime": "2026-11-06T06:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/xA8cEo86-0QEX3Vra.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/4rPKzS7k-raFpDVo0.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_WKRH15s9",
-      "title": "Perez Ramos P./Wright M. - Neos E./Tsitsipas Pe.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_WKRH15s9_h",
-      "awayTeamId": "espn_diretta_WKRH15s9_a",
-      "startTime": "2026-11-06T09:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zy34JL8k-Aswge7l9.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Qk5MIqWH-6wtISK9S.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3760,13 +3767,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_0xR5nM8C_h",
       "awayTeamId": "espn_diretta_0xR5nM8C_a",
-      "startTime": "2026-11-06T10:30:00Z",
+      "startTime": "2026-11-06T10:40:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/IwP5JokC-WG9mEH7U.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3785,13 +3792,38 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_EXh8b95t_h",
       "awayTeamId": "espn_diretta_EXh8b95t_a",
-      "startTime": "2026-11-06T11:00:00Z",
+      "startTime": "2026-11-06T11:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/6qV131AN-KMoYr5W7.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_WKRH15s9",
+      "title": "Perez Ramos P./Wright M. - Neos E./Tsitsipas Pe.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_WKRH15s9_h",
+      "awayTeamId": "espn_diretta_WKRH15s9_a",
+      "startTime": "2026-11-06T11:15:00Z",
+      "endTime": null,
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zy34JL8k-Aswge7l9.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Qk5MIqWH-6wtISK9S.png",
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3810,38 +3842,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_dnsgwGt1_h",
       "awayTeamId": "espn_diretta_dnsgwGt1_a",
-      "startTime": "2026-11-06T13:00:00Z",
+      "startTime": "2026-11-06T13:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/xMdjRiVH-fgTOwTv9.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/8vGNRdkC-pQ0ElVBe.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_dKUfkyhn",
-      "title": "Zakharova A. - Stefanini L.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_dKUfkyhn_h",
-      "awayTeamId": "espn_diretta_dKUfkyhn_a",
-      "startTime": "2026-11-06T14:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Cpp23gS0-bcxe1lB5.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SCKD0tRq-YVdKjcre.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3887,7 +3894,7 @@
       "awayTeamId": null,
       "startTime": "2026-11-06T15:00:00+03:00",
       "endTime": "2026-11-06T16:30:00+03:00",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -3910,7 +3917,7 @@
       "awayTeamId": null,
       "startTime": "2026-11-06T15:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -3919,6 +3926,31 @@
         "sky_sport_uno",
         "sky_sport_f1",
         "tv8_5"
+      ]
+    },
+    {
+      "id": "diretta_tennis_dKUfkyhn",
+      "title": "Zakharova A. - Stefanini L.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_dKUfkyhn_h",
+      "awayTeamId": "espn_diretta_dKUfkyhn_a",
+      "startTime": "2026-11-06T16:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Cpp23gS0-bcxe1lB5.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SCKD0tRq-YVdKjcre.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -4057,31 +4089,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_bTUKcCQp",
-      "title": "Blancaneaux G./Zheng M. - Milavsky D./Shick B.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_bTUKcCQp_h",
-      "awayTeamId": "espn_diretta_bTUKcCQp_a",
-      "startTime": "2026-11-06T19:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/GW2dIfjC-CCKiybUa.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6JXOcoA6-Wz084Lge.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "diretta_tennis_WEYLHXHG",
       "title": "Braga V./Mouilleron Salvo M. - Cundom J./Escurra Isnardi H. J.",
       "sport": "TENNIS",
@@ -4148,8 +4155,6 @@
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
-        "exyu_arena_sport_8_hd_hr",
-        "event_vip_blue_sport_3_live_4k",
         "it_dazn_serie_b_13_palermo"
       ]
     },
@@ -4208,19 +4213,34 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "it_sky_calcio_1_uhd",
-        "dazn_deutschland",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
-        "supersport_football",
-        "supersport_maximo_1",
         "paramount",
-        "bein_sports_1_france",
         "it_dazn_serie_a_14_hd_udinese",
         "it_dazn_serie_a_17_hd_venezia"
+      ]
+    },
+    {
+      "id": "diretta_tennis_bTUKcCQp",
+      "title": "Blancaneaux G./Zheng M. - Milavsky D./Shick B.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_bTUKcCQp_h",
+      "awayTeamId": "espn_diretta_bTUKcCQp_a",
+      "startTime": "2026-11-06T20:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/GW2dIfjC-CCKiybUa.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6JXOcoA6-Wz084Lge.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -4312,7 +4332,17 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_uno"
+        "sky_sport_calcio",
+        "sky_sport_258",
+        "sky_sport_259",
+        "rai_sport",
+        "it_sky_calcio_1_uhd",
+        "it_sky_calcio_2_uhd",
+        "it_sky_calcio_3_uhd",
+        "it_sky_calcio_4_uhd",
+        "it_sky_calcio_5_uhd",
+        "it_sky_calcio_6_uhd",
+        "it_sky_calcio_7_uhd"
       ]
     },
     {
@@ -4691,6 +4721,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_zwYQlKbC",
+      "title": "Sakkari M. - Eala A.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_zwYQlKbC_h",
+      "awayTeamId": "espn_diretta_zwYQlKbC_a",
+      "startTime": "2026-11-07T07:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rBFyHwBN-65ljy5se.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/f7rf4dWH-44Oegl12.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401880170",
       "title": "Bristol City - Norwich City",
       "sport": "FOOTBALL",
@@ -4800,6 +4855,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_8EI8fFBi",
+      "title": "Rojer J-J./Winegar T. - Karol M./Paulson A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_8EI8fFBi_h",
+      "awayTeamId": "espn_diretta_8EI8fFBi_a",
+      "startTime": "2026-11-07T13:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vBs0TCT0-Kfov921n.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "diretta_diretta_bundesliga_3_jaJIvdRa",
       "title": "RW Essen - Aachen",
       "sport": "FOOTBALL",
@@ -4891,17 +4971,6 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_deutschland",
-        "Arena_Premium_4",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
-        "arena_premium_5_srbija_HD",
-        "exyu_arena_sport_7_hd_hr",
-        "digi_sport_1_ro",
-        "match_tv_russia",
-        "prima_sport",
-        "eleven_sports_4_hd",
         "paramount",
         "it_dazn_serie_a_19_hd_cagliari"
       ]
@@ -5005,15 +5074,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_deutschland",
-        "arena_sport_2_bih",
-        "Arena_Premium_3",
-        "Arena_Premium_4",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
         "paramount",
-        "ziggo_sport",
         "it_dazn_serie_a_16_hd_torino",
         "it_dazn_serie_a_18_hd_lecce"
       ]
@@ -5409,7 +5470,6 @@
         "dazn_1_italia",
         "dazn_2_italia",
         "fox_soccer_plus",
-        "event_vip_blue_sport_1_live_4k",
         "it_dazn_serie_b_11_mantova"
       ]
     },
@@ -5432,15 +5492,8 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "dazn_deutschland",
         "cbs_golazo",
-        "arena_sport_2_bih",
-        "Arena_Premium_3",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
         "paramount",
-        "ziggo_sport",
         "it_dazn_serie_a_9_hd_bologna",
         "it_dazn_serie_a_20_hd_parma"
       ]
@@ -5534,6 +5587,24 @@
       "channels": [
         "sky_sport_max",
         "it_sky_calcio_1_uhd"
+      ]
+    },
+    {
+      "id": "espn_401883143",
+      "title": "Córdoba - Ceuta",
+      "sport": "FOOTBALL",
+      "competitionId": "la_liga_2",
+      "homeTeamId": "espn_8447",
+      "awayTeamId": "espn_5404",
+      "startTime": "2026-11-07T17:30Z",
+      "endTime": "2026-11-07T19:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/8447.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tyc_sports"
       ]
     },
     {
@@ -5713,6 +5784,24 @@
       ]
     },
     {
+      "id": "espn_401841661",
+      "title": "Talleres (Córdoba) - Estudiantes de La Plata",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_profesional",
+      "homeTeamId": "espn_19",
+      "awayTeamId": "espn_8",
+      "startTime": "2026-11-07T18:00Z",
+      "endTime": "2026-11-07T20:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "tyc_sports"
+      ]
+    },
+    {
       "id": "espn_401899558",
       "title": "Benevento - US Avellino",
       "sport": "FOOTBALL",
@@ -5787,16 +5876,7 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
-        "it_sky_calcio_1_uhd",
-        "dazn_deutschland",
-        "arena_sport_1_hr",
-        "arena_sport_2_bih",
-        "dazn_spain",
-        "dazn_france",
-        "dazn_ireland",
-        "digi_sport_3_ro",
         "paramount",
-        "ziggo_sport",
         "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_5_hd_roma"
       ]
@@ -5949,6 +6029,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
+        "rds_tv_social",
         "tsn_4"
       ]
     },
@@ -6211,6 +6292,24 @@
         "sky_sport_uno",
         "sky_sport_basket",
         "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401876906",
+      "title": "Tigres UANL - Cruz Azul",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_mx",
+      "homeTeamId": "espn_232",
+      "awayTeamId": "espn_218",
+      "startTime": "2026-11-08T01:00Z",
+      "endTime": "2026-11-08T03:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet"
       ]
     },
     {
