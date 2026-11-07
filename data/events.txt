@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T18:54:33Z",
+  "generatedAt": "2026-11-07T22:33:06Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -2494,6 +2494,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_Mg4rL6T8_h",
+      "name": "Kostyuk M.",
+      "shortName": "Kostyuk M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/APFeiBoe-xEW6m27i.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_11336",
       "name": "Krasnodar",
       "shortName": "Krasnodar",
@@ -3114,6 +3122,14 @@
       "name": "Norwich City",
       "shortName": "Norwich City",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_Mg4rL6T8_a",
+      "name": "Noskova L.",
+      "shortName": "Noskova L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/WCHL9bT0-4UiukU0n.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -5250,25 +5266,6 @@
       ]
     },
     {
-      "id": "espn_401882468",
-      "title": "Athletic Club - Real Madrid",
-      "sport": "FOOTBALL",
-      "competitionId": "liga_f",
-      "homeTeamId": "espn_21372",
-      "awayTeamId": "espn_21128",
-      "startTime": "2026-11-07T15:00Z",
-      "endTime": "2026-11-07T17:00:00Z",
-      "status": "FINISHED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21372.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
-      "homeScore": 1,
-      "awayScore": 1,
-      "channels": [
-        "espn_us",
-        "espn"
-      ]
-    },
-    {
       "id": "espn_401880172",
       "title": "Birmingham City - Swansea City",
       "sport": "FOOTBALL",
@@ -5433,7 +5430,7 @@
       "awayTeamId": "espn_107",
       "startTime": "2026-11-07T17:00Z",
       "endTime": "2026-11-07T19:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
       "homeScore": 1,
@@ -5556,11 +5553,11 @@
       "awayTeamId": "espn_93",
       "startTime": "2026-11-07T17:30Z",
       "endTime": "2026-11-07T19:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "espn_us",
         "espn"
@@ -5575,11 +5572,11 @@
       "awayTeamId": "espn_26",
       "startTime": "2026-11-07T17:30Z",
       "endTime": "2026-11-07T20:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
-      "homeScore": 2,
-      "awayScore": 2,
+      "homeScore": 4,
+      "awayScore": 3,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5597,7 +5594,7 @@
       "awayTeamId": null,
       "startTime": "2026-11-07T18:00:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -5617,11 +5614,11 @@
       "awayTeamId": "espn_6851",
       "startTime": "2026-11-07T18:00Z",
       "endTime": "2026-11-07T20:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "channels": [
         "bein_sports_1_france"
       ]
@@ -5635,10 +5632,10 @@
       "awayTeamId": "espn_19",
       "startTime": "2026-11-07T18:00Z",
       "endTime": "2026-11-07T21:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 1,
       "channels": [
         "sky_sport_uno",
@@ -5657,51 +5654,14 @@
       "awayTeamId": "espn_4055",
       "startTime": "2026-11-07T18:30Z",
       "endTime": "2026-11-07T20:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4059.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4055.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia"
-      ]
-    },
-    {
-      "id": "espn_401876694",
-      "title": "Pau - Nantes",
-      "sport": "FOOTBALL",
-      "competitionId": "ligue_2",
-      "homeTeamId": "espn_10678",
-      "awayTeamId": "espn_165",
-      "startTime": "2026-11-07T19:00Z",
-      "endTime": "2026-11-07T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10678.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "bein_sports_1_france"
-      ]
-    },
-    {
-      "id": "espn_401876693",
-      "title": "Saint-Étienne - Stade Laval",
-      "sport": "FOOTBALL",
-      "competitionId": "ligue_2",
-      "homeTeamId": "espn_178",
-      "awayTeamId": "espn_3266",
-      "startTime": "2026-11-07T19:00Z",
-      "endTime": "2026-11-07T21:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3266.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "es_be_mad_hd",
-        "bein_sports_1_france"
       ]
     },
     {
@@ -5713,10 +5673,10 @@
       "awayTeamId": "espn_3997",
       "startTime": "2026-11-07T19:45Z",
       "endTime": "2026-11-07T21:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0,
       "channels": [
         "sky_sport_uno",
@@ -5734,28 +5694,7 @@
         "supersport_football",
         "paramount",
         "ziggo_sport",
-        "event_en_k_ge_vs_servette_chenois_feminin_16_45_cet",
         "it_dazn_serie_a_5_hd_roma"
-      ]
-    },
-    {
-      "id": "espn_401878340",
-      "title": "St Mirren - Rangers",
-      "sport": "FOOTBALL",
-      "competitionId": "scottish_premiership",
-      "homeTeamId": "espn_250",
-      "awayTeamId": "espn_257",
-      "startTime": "2026-11-07T20:00Z",
-      "endTime": "2026-11-07T22:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/250.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/257.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "arena_sport_2_bih",
-        "paramount",
-        "pl_polsat_sport_2"
       ]
     },
     {
@@ -5767,11 +5706,11 @@
       "awayTeamId": "espn_86",
       "startTime": "2026-11-07T20:00Z",
       "endTime": "2026-11-07T22:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 3,
       "channels": [
         "espn_us",
         "espn"
@@ -5786,71 +5725,13 @@
       "awayTeamId": "espn_170",
       "startTime": "2026-11-07T20:05Z",
       "endTime": "2026-11-07T22:05:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "channels": [
         "bein_sports_1_france"
-      ]
-    },
-    {
-      "id": "espn_401841672",
-      "title": "Argentinos Juniors - Huracán",
-      "sport": "FOOTBALL",
-      "competitionId": "liga_profesional",
-      "homeTeamId": "espn_3",
-      "awayTeamId": "espn_10",
-      "startTime": "2026-11-07T20:30Z",
-      "endTime": "2026-11-07T22:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "tyc_sports"
-      ]
-    },
-    {
-      "id": "espn_401885395",
-      "title": "Sporting CP - Moreirense",
-      "sport": "FOOTBALL",
-      "competitionId": "primeira_liga",
-      "homeTeamId": "espn_2250",
-      "awayTeamId": "espn_3696",
-      "startTime": "2026-11-07T20:30Z",
-      "endTime": "2026-11-07T22:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3696.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_spain",
-        "claro_sports_hd",
-        "bein_sports_1_france"
-      ]
-    },
-    {
-      "id": "espn_761941",
-      "title": "Philadelphia Union - Toronto FC",
-      "sport": "FOOTBALL",
-      "competitionId": "mls",
-      "homeTeamId": "espn_10739",
-      "awayTeamId": "espn_7318",
-      "startTime": "2026-11-07T21:00Z",
-      "endTime": "2026-11-07T23:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "rds_tv_social",
-        "tsn_4"
       ]
     },
     {
@@ -5862,11 +5743,11 @@
       "awayTeamId": "espn_7",
       "startTime": "2026-11-07T22:00Z",
       "endTime": "2026-11-08T00:30:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 13,
+      "awayScore": 21,
       "channels": [
         "sky_sport_uno",
         "sky_sport_basket",
@@ -5882,11 +5763,11 @@
       "awayTeamId": "espn_13",
       "startTime": "2026-11-07T22:00Z",
       "endTime": "2026-11-08T01:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png",
       "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5907,7 +5788,7 @@
       "awayTeamId": null,
       "startTime": "2026-11-07T22:00Z",
       "endTime": "2026-11-08T01:00:00Z",
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -7526,6 +7407,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_Mg4rL6T8",
+      "title": "Kostyuk M. - Noskova L.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_Mg4rL6T8_h",
+      "awayTeamId": "espn_diretta_Mg4rL6T8_a",
+      "startTime": "2026-11-08T20:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/APFeiBoe-xEW6m27i.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WCHL9bT0-4UiukU0n.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "diretta_tennis_MLzq2AZ9",
       "title": "Rybakina E. - Noskova L.",
       "sport": "TENNIS",
@@ -7534,7 +7440,7 @@
       "awayTeamId": "espn_diretta_MLzq2AZ9_a",
       "startTime": "2026-11-08T20:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/f57yCpiT-2wyL104C.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/WCHL9bT0-4UiukU0n.png",
       "homeScore": null,
@@ -7548,6 +7454,24 @@
         "supertennis_plus_3",
         "supertennis_plus_4",
         "supertennis"
+      ]
+    },
+    {
+      "id": "espn_401932957",
+      "title": "Washington Spirit - Portland Thorns FC",
+      "sport": "FOOTBALL",
+      "competitionId": "nwsl",
+      "homeTeamId": "espn_15365",
+      "awayTeamId": "espn_15362",
+      "startTime": "2026-11-08T20:00Z",
+      "endTime": "2026-11-08T22:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15362.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "espn"
       ]
     },
     {
