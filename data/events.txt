@@ -1,16 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T21:01:29Z",
+  "generatedAt": "2026-11-10T03:29:36Z",
   "competitions": [
-    {
-      "id": "serie_c",
-      "name": "Serie C",
-      "sport": "FOOTBALL",
-      "country": "Italy",
-      "countryFlagUrl": "https://flagsapi.com/IT/flat/64.png",
-      "logoUrl": "https://flagsapi.com/IT/flat/64.png",
-      "priority": 90
-    },
     {
       "id": "nba",
       "name": "NBA",
@@ -39,36 +30,54 @@
       "priority": 80
     },
     {
-      "id": "la_liga_2",
-      "name": "La Liga 2",
-      "sport": "FOOTBALL",
-      "country": "Spain",
-      "countryFlagUrl": "https://flagsapi.com/ES/flat/64.png",
-      "logoUrl": "https://flagsapi.com/ES/flat/64.png",
-      "priority": 65
+      "id": "nbl",
+      "name": "NBL",
+      "sport": "BASKETBALL",
+      "country": "Australia",
+      "countryFlagUrl": "https://flagsapi.com/AU/flat/64.png",
+      "logoUrl": "https://flagsapi.com/AU/flat/64.png",
+      "priority": 60
     },
     {
-      "id": "liga_betplay",
-      "name": "Liga BetPlay",
+      "id": "fifa_friendly",
+      "name": "Amichevoli",
       "sport": "FOOTBALL",
-      "country": "Colombia",
-      "countryFlagUrl": "https://flagsapi.com/CO/flat/64.png",
-      "logoUrl": "https://flagsapi.com/CO/flat/64.png",
+      "country": null,
+      "countryFlagUrl": null,
+      "logoUrl": null,
       "priority": 50
     },
     {
-      "id": "liga_f",
-      "name": "Liga F",
+      "id": "fifa_u17_world",
+      "name": "Europei U17 - Qualificazione - Prima fase",
       "sport": "FOOTBALL",
       "country": null,
-      "countryFlagUrl": "https://flagsapi.com/HTTPS://FLAGCDN.COM/W40/ES.PNG/flat/64.png",
-      "logoUrl": "https://flagsapi.com/HTTPS://FLAGCDN.COM/W40/ES.PNG/flat/64.png",
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 50
+    },
+    {
+      "id": "uefa_u19",
+      "name": "Europei U19 - Qualificazione - Round 2 - Lega A",
+      "sport": "FOOTBALL",
+      "country": null,
+      "countryFlagUrl": "https://flagcdn.com/w40/eu.png",
+      "logoUrl": "https://flagcdn.com/w40/eu.png",
       "priority": 50
     },
     {
       "id": "nhl",
       "name": "NHL",
       "sport": "HOCKEY",
+      "country": null,
+      "countryFlagUrl": null,
+      "logoUrl": null,
+      "priority": 50
+    },
+    {
+      "id": "premiere_ligue_f",
+      "name": "Première Ligue",
+      "sport": "FOOTBALL",
       "country": null,
       "countryFlagUrl": null,
       "logoUrl": null,
@@ -86,15 +95,31 @@
   ],
   "teams": [
     {
-      "id": "espn_serie_c_altamura",
-      "name": "ALTAMURA",
-      "shortName": "ALTAMURA",
-      "logoUrl": "https://static.flashscore.com/res/image/data/CY3YDjjC-63urVQ98.png",
+      "id": "espn_diretta_lrkIVe43_a",
+      "name": "Abe H./Zheng W.",
+      "shortName": "Abe H./Zheng W.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Cn7osoVH-dEJOqb52.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_Olq4fJX0_h",
+      "id": "espn_diretta_fNrGs22b_h",
+      "name": "Aguilar L.",
+      "shortName": "Aguilar L.",
+      "logoUrl": null,
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_25",
+      "name": "Anaheim Ducks",
+      "shortName": "Ducks",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_EeiI3NAE_a",
       "name": "Andreeva M.",
       "shortName": "Andreeva M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/rRZxZsRq-xE40e4KN.png",
@@ -102,26 +127,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_1",
-      "name": "Atlanta Hawks",
-      "shortName": "Hawks",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_4815",
-      "name": "Atlético Junior",
-      "shortName": "Atl. Junior",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_20093",
-      "name": "Atlético Madrid",
-      "shortName": "Atlético Madrid",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20093.png",
+      "id": "espn_131643",
+      "name": "Austria Vienna",
+      "shortName": "Vienna",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -130,22 +139,6 @@
       "name": "Bai Z.",
       "shortName": "Bai Z.",
       "logoUrl": "https://static.flashscore.com/res/image/data/KjFyvQBN-8taomgFe.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_bari",
-      "name": "BARI",
-      "shortName": "BARI",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Bari.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_barletta",
-      "name": "BARLETTA",
-      "shortName": "BARLETTA",
-      "logoUrl": "https://static.flashscore.com/res/image/data/AajibnRq-t4GQxEM5.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -162,6 +155,14 @@
       "name": "Bellucci M.",
       "shortName": "Bellucci M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/GYG4IwjC-6gIp2vmt.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_20830",
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -190,14 +191,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_2",
-      "name": "Boston Celtics",
-      "shortName": "Celtics",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_S8Ufxmnn_a",
       "name": "Bougouffa H.",
       "shortName": "Bougouffa H.",
@@ -210,6 +203,14 @@
       "name": "Bronzetti L.",
       "shortName": "Bronzetti L.",
       "logoUrl": "https://static.flashscore.com/res/image/data/txC5egle-OYUtp1Wm.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_17",
+      "name": "Brooklyn Nets",
+      "shortName": "Nets",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -254,18 +255,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_cavese",
-      "name": "CAVESE",
-      "shortName": "CAVESE",
-      "logoUrl": "https://static.flashscore.com/res/image/data/hKDTHR6k-lQsonYNp.png",
+      "id": "espn_diretta_6FPyE4Uj_h",
+      "name": "Bucsa C./Melichar-Martinez N.",
+      "shortName": "Bucsa C./Melichar-Martinez N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/baFE6Moe-zTnucLE3.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_11487",
-      "name": "CD Sabadell",
-      "shortName": "CD Sabadell",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11487.png",
+      "id": "espn_2",
+      "name": "Buffalo Sabres",
+      "shortName": "Sabres",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -286,18 +287,34 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_17",
-      "name": "Colorado Avalanche",
-      "shortName": "Avalanche",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
+      "id": "espn_4",
+      "name": "Chicago Bulls",
+      "shortName": "Bulls",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_29",
-      "name": "Columbus Blue Jackets",
-      "shortName": "Blue Jackets",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png",
+      "id": "espn_14561",
+      "name": "Chinese Taipei",
+      "shortName": "Taipei",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/14561.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_5",
+      "name": "Cleveland Cavaliers",
+      "shortName": "Cavaliers",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_IL9Kt7aE_a",
+      "name": "Collins K.",
+      "shortName": "Collins K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -310,10 +327,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_6101",
-      "name": "Cúcuta Deportivo",
-      "shortName": "Cúcuta",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/6101.png",
+      "id": "espn_diretta_S4Oy9Inf_h",
+      "name": "Dabrowski G./Stefani L.",
+      "shortName": "Dabrowski G./Stefani L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0zpz52BN-YRAAMohq.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -326,22 +343,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_21145",
-      "name": "Deportivo",
-      "shortName": "Deportivo",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21145.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_5",
-      "name": "Detroit Red Wings",
-      "shortName": "Red Wings",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_6",
       "name": "Edmonton Oilers",
       "shortName": "Oilers",
@@ -350,15 +351,15 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_7320",
-      "name": "Eldense",
-      "shortName": "Eldense",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7320.png",
+      "id": "espn_diretta_G8V1tXvR_a",
+      "name": "Ellis B./Tu L.",
+      "shortName": "Ellis B./Tu L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/lQJTLRVH-6ThKBEkP.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_S2adYYF5_a",
+      "id": "espn_diretta_6FPyE4Uj_a",
       "name": "Errani S./Paolini J.",
       "shortName": "Errani S./Paolini J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
@@ -366,18 +367,26 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_21149",
-      "name": "FC Badalona",
-      "shortName": "Badalona",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21149.png",
+      "id": "espn_diretta_YLHNy8Mc_a",
+      "name": "Errani S./Paolini J.",
+      "shortName": "Errani S./Paolini J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_foggia",
-      "name": "FOGGIA",
-      "shortName": "FOGGIA",
-      "logoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/foggia-calcio.png",
+      "id": "espn_21637",
+      "name": "FC Fleury 91",
+      "shortName": "Fleury",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21637.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_KYcuzESh_h",
+      "name": "Fritz T.",
+      "shortName": "Fritz T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/nNp7KtAN-8AMTtzu5.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -394,14 +403,6 @@
       "name": "Gauff C.",
       "shortName": "Gauff C.",
       "logoUrl": "https://static.flashscore.com/res/image/data/2PLrxuB6-j3eqe4HM.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_ziBgiofE_a",
-      "name": "Gojo B.",
-      "shortName": "Gojo B.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/SOf0nW76-x8kc72PE.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -430,10 +431,58 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_21127",
+      "name": "HB Køge",
+      "shortName": "HB Køge",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_10",
+      "name": "Houston Rockets",
+      "shortName": "Rockets",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_WYI8NH1m_a",
       "name": "Hsieh S-W./Ostapenko J.",
       "shortName": "Hsieh S-W./Ostapenko J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/hUdMNAR0-l8AYjazT.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_S4Oy9Inf_a",
+      "name": "Hsieh S-W./Ostapenko J.",
+      "shortName": "Hsieh S-W./Ostapenko J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hUdMNAR0-l8AYjazT.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_AqKOJZ0C_h",
+      "name": "Hsieh S-W./Ostapenko J.",
+      "shortName": "Hsieh S-W./Ostapenko J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hUdMNAR0-l8AYjazT.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2e8tMaas_h",
+      "name": "Hussey G.",
+      "shortName": "Hussey G.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/YBdePpU0-v3b2P2ke.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_11",
+      "name": "Indiana Pacers",
+      "shortName": "Pacers",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -446,10 +495,66 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_z1BkFVEd_a",
+      "name": "Italia U17",
+      "shortName": "Italia U17",
+      "logoUrl": "https://static.flashscore.com/res/image/data/O47rq8Qq-nZlXitYn.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_nizWLlnT_h",
+      "name": "Italia U19",
+      "shortName": "Italia U19",
+      "logoUrl": "https://static.flashscore.com/res/image/data/jgS0TD86-nZlXitYn.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_IL9Kt7aE_h",
+      "name": "Jauffret C.",
+      "shortName": "Jauffret C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/vZ0tV096-GxJE8pk3.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_20092",
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20092.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_x4infZEO_a",
+      "name": "Karol M./Paulson A.",
+      "shortName": "Karol M./Paulson A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_W6lvdepC_h",
+      "name": "Kittay B./Yuzuki T.",
+      "shortName": "Kittay B./Yuzuki T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/2LNNX7T0-bwncmtsq.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_63XVbGC6_h",
       "name": "Kostyuk M.",
       "shortName": "Kostyuk M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/APFeiBoe-xEW6m27i.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_pp7l2ieA_a",
+      "name": "Kravchenko G./Mashtakov N.",
+      "shortName": "Kravchenko G./Mashtakov N.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/OGkmpkme-0MCqiuNA.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -462,18 +567,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_98",
-      "name": "Las Palmas",
-      "shortName": "Las Palmas",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_j9pwFJlL_a",
       "name": "Laskutova K.",
       "shortName": "Laskutova K.",
       "logoUrl": "https://static.flashscore.com/res/image/data/hjSoCKle-40hc0d8F.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_x4infZEO_h",
+      "name": "Latinovic S./Molchanov D.",
+      "shortName": "Latinovic S./Molchanov D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/fJCOs3WH-Q5FflsgT.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -486,18 +591,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_8",
-      "name": "Los Angeles Kings",
-      "shortName": "Kings",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
+      "id": "espn_13",
+      "name": "Los Angeles Lakers",
+      "shortName": "Lakers",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_ziBgiofE_h",
-      "name": "Machac T.",
-      "shortName": "Machac T.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/QoFo2GlC-jBHR7D3h.png",
+      "id": "espn_diretta_z1BkFVEd_h",
+      "name": "Lussemburgo U17",
+      "shortName": "Lussemburgo U17",
+      "logoUrl": "https://static.flashscore.com/res/image/data/vqQGcg8k-dKzotcE0.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -518,6 +623,22 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_29",
+      "name": "Memphis Grizzlies",
+      "shortName": "Grizzlies",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_AqKOJZ0C_a",
+      "name": "Mertens E./Zhang S.",
+      "shortName": "Mertens E./Zhang S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hI8vcLoe-jX0SdYnI.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_14",
       "name": "Miami Heat",
       "shortName": "Heat",
@@ -530,14 +651,6 @@
       "name": "Michelsen A.",
       "shortName": "Michelsen A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/QoBO1c6k-M7yChA9J.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_15",
-      "name": "Milwaukee Bucks",
-      "shortName": "Bucks",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -558,15 +671,7 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_10",
-      "name": "Montreal Canadiens",
-      "shortName": "Canadiens",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_Iitddu3l_a",
+      "id": "espn_diretta_O8ZcG0fK_a",
       "name": "Muchova K.",
       "shortName": "Muchova K.",
       "logoUrl": "https://static.flashscore.com/res/image/data/h2MtYH6k-b9SLPqcf.png",
@@ -574,10 +679,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_bZi4QZZi_h",
-      "name": "Nardi L.",
-      "shortName": "Nardi L.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/pfjCQ2oe-4CMGVvSD.png",
+      "id": "espn_diretta_2NKvAvld_h",
+      "name": "Musetti L.",
+      "shortName": "Musetti L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6JFNTZjC-dO8eBuOC.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -598,14 +703,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_11",
-      "name": "New Jersey Devils",
-      "shortName": "Devils",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_3",
       "name": "New Orleans Pelicans",
       "shortName": "Pelicans",
@@ -614,18 +711,10 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_18",
-      "name": "New York Knicks",
-      "shortName": "Knicks",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_13",
-      "name": "New York Rangers",
-      "shortName": "Rangers",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
+      "id": "espn_diretta_KYcuzESh_a",
+      "name": "Norrie C.",
+      "shortName": "Norrie C.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/r9djg886-2BGSRmDE.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -638,10 +727,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_25",
-      "name": "Oklahoma City Thunder",
-      "shortName": "Thunder",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+      "id": "espn_131423",
+      "name": "OH Leuven",
+      "shortName": "OH Leuven",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131423.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_19256",
+      "name": "OL Lyonnes",
+      "shortName": "Lyonnes",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -678,6 +775,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_W6lvdepC_a",
+      "name": "Paul J./Vocel M.",
+      "shortName": "Paul J./Vocel M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/M3s2ETQq-QPsxT8Cr.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_EeXz4W4c_a",
       "name": "Pegula J.",
       "shortName": "Pegula J.",
@@ -694,10 +799,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_20",
-      "name": "Philadelphia 76ers",
-      "shortName": "76ers",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+      "id": "espn_diretta_YLHNy8Mc_h",
+      "name": "Perez E./Schuurs D.",
+      "shortName": "Perez E./Schuurs D.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/YBTnXilC-jwlPwLQL.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_15",
+      "name": "Philadelphia Flyers",
+      "shortName": "Flyers",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -710,26 +823,18 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_picerno",
-      "name": "PICERNO",
-      "shortName": "PICERNO",
-      "logoUrl": "https://static.flashscore.com/res/image/data/fLL9crU0-bVwIsq6I.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_serie_c_pineto",
-      "name": "PINETO",
-      "shortName": "PINETO",
-      "logoUrl": "https://static.flashscore.com/res/image/data/EJIqOF76-88kdtlrt.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_URuTK9ho_h",
       "name": "Piros Z.",
       "shortName": "Piros Z.",
       "logoUrl": "https://static.flashscore.com/res/image/data/vc9FoakC-UD2dNsfl.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_16",
+      "name": "Pittsburgh Penguins",
+      "shortName": "Penguins",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -750,22 +855,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_20983",
-      "name": "Real Sociedad II",
-      "shortName": "Real Sociedad II",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20983.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_diretta_bZi4QZZi_a",
-      "name": "Ritschard A.",
-      "shortName": "Ritschard A.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/phqTvPQq-dOvJAObS.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_UaoMtiF4_a",
       "name": "Rolland de Ravel C.",
       "shortName": "Rolland de Ravel C.",
@@ -778,6 +867,14 @@
       "name": "Roma",
       "shortName": "Roma",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_nizWLlnT_a",
+      "name": "Romania U19",
+      "shortName": "Romania U19",
+      "logoUrl": "https://static.flashscore.com/res/image/data/fFjLMDA6-tKviOc0q.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -806,7 +903,7 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_Iitddu3l_h",
+      "id": "espn_diretta_EeiI3NAE_h",
       "name": "Sabalenka A.",
       "shortName": "Sabalenka A.",
       "logoUrl": "https://static.flashscore.com/res/image/data/Uot6mqRq-I9HZAz1R.png",
@@ -822,10 +919,34 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_2NKvAvld_a",
+      "name": "Samuel T.",
+      "shortName": "Samuel T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/zuJ0LG5k-4hIBlAr6.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_24",
       "name": "San Antonio Spurs",
       "shortName": "Spurs",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_18",
+      "name": "San Jose Sharks",
+      "shortName": "Sharks",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_G8V1tXvR_h",
+      "name": "Santillan A./Zheng B.",
+      "shortName": "Santillan A./Zheng B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -838,14 +959,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_S2adYYF5_h",
-      "name": "Siniakova K./Townsend T.",
-      "shortName": "Siniakova K./Townsend T.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/UL2HWMjC-noagZ2wS.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_Y3Kseouq_h",
       "name": "Sonego L.",
       "shortName": "Sonego L.",
@@ -854,10 +967,34 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_diretta_Olq4fJX0_a",
+      "id": "espn_8",
+      "name": "South East Melbourne Phoenix",
+      "shortName": "Phoenix",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nbl/500/pnx.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_lrkIVe43_h",
+      "name": "Stevens A./Thompson B.",
+      "shortName": "Stevens A./Thompson B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_O8ZcG0fK_h",
       "name": "Svitolina E.",
       "shortName": "Svitolina E.",
       "logoUrl": "https://static.flashscore.com/res/image/data/tUGFhF5k-WCqsXbkh.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_20",
+      "name": "Tampa Bay Lightning",
+      "shortName": "Lightning",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -870,10 +1007,34 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_fNrGs22b_a",
+      "name": "Thompson K.",
+      "shortName": "Thompson K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/2cNtgLU0-nF0IeFpr.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_SKfe1Oee_h",
       "name": "Toma M.",
       "shortName": "Toma M.",
       "logoUrl": "https://static.flashscore.com/res/image/data/2cTQIzB6-8SVc7ce9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_28",
+      "name": "Toronto Raptors",
+      "shortName": "Raptors",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_131876",
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131876.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -894,6 +1055,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_pp7l2ieA_h",
+      "name": "Tsitsipas Pa./Tsitsipas Pe.",
+      "shortName": "Tsitsipas Pa./Tsitsipas Pe.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/A9L9R8T0-EX6Qfl6M.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_26",
       "name": "Utah Jazz",
       "shortName": "Jazz",
@@ -902,26 +1071,34 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_21374",
-      "name": "Valencia",
-      "shortName": "Valencia",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21374.png",
+      "id": "espn_129764",
+      "name": "Utah Mammoth",
+      "shortName": "Mammoth",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_serie_c_vis_pesaro",
-      "name": "VIS PESARO",
-      "shortName": "VIS PESARO",
-      "logoUrl": "https://static.flashscore.com/res/image/data/nHSB3fCN-2y40txw3.png",
+      "id": "espn_37",
+      "name": "Vegas Golden Knights",
+      "shortName": "Golden Knights",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
       "country": null,
       "countryFlagUrl": null
     },
     {
-      "id": "espn_28",
-      "name": "Winnipeg Jets",
-      "shortName": "Jets",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
+      "id": "espn_7349",
+      "name": "Vietnam",
+      "shortName": "Vietnam",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/vie.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_2e8tMaas_a",
+      "name": "Zheng M.",
+      "shortName": "Zheng M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/hUWkrxkC-vydAhFYf.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -936,298 +1113,19 @@
   ],
   "events": [
     {
-      "id": "diretta_tennis_S2adYYF5",
-      "title": "Siniakova K./Townsend T. - Errani S./Paolini J.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_S2adYYF5_h",
-      "awayTeamId": "espn_diretta_S2adYYF5_a",
-      "startTime": "2026-11-09T01:10:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/UL2HWMjC-noagZ2wS.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
-      "homeScore": 1,
-      "awayScore": 1,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_ziBgiofE",
-      "title": "Machac T. - Gojo B.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_ziBgiofE_h",
-      "awayTeamId": "espn_diretta_ziBgiofE_a",
-      "startTime": "2026-11-09T13:15:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/QoFo2GlC-jBHR7D3h.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SOf0nW76-x8kc72PE.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_bZi4QZZi",
-      "title": "Nardi L. - Ritschard A.",
-      "sport": "TENNIS",
-      "competitionId": "atp",
-      "homeTeamId": "espn_diretta_bZi4QZZi_h",
-      "awayTeamId": "espn_diretta_bZi4QZZi_a",
-      "startTime": "2026-11-09T14:50:00Z",
-      "endTime": null,
-      "status": "FINISHED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/pfjCQ2oe-4CMGVvSD.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/phqTvPQq-dOvJAObS.png",
-      "homeScore": 2,
-      "awayScore": 2,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "espn_401883140",
-      "title": "Las Palmas - Eldense",
-      "sport": "FOOTBALL",
-      "competitionId": "la_liga_2",
-      "homeTeamId": "espn_98",
-      "awayTeamId": "espn_7320",
-      "startTime": "2026-11-09T19:30Z",
-      "endTime": "2026-11-09T21:30:00Z",
-      "status": "LIVE",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7320.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "espn"
-      ]
-    },
-    {
-      "id": "diretta_tennis_Iitddu3l",
-      "title": "Sabalenka A. - Muchova K.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_Iitddu3l_h",
-      "awayTeamId": "espn_diretta_Iitddu3l_a",
-      "startTime": "2026-11-09T20:15:00Z",
-      "endTime": null,
-      "status": "LIVE",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Uot6mqRq-I9HZAz1R.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/h2MtYH6k-b9SLPqcf.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "seriec_20261109_2030_altamura_cavese",
-      "title": "ALTAMURA - CAVESE",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_altamura",
-      "awayTeamId": "espn_serie_c_cavese",
-      "startTime": "2026-11-09T20:30:00+01:00",
-      "endTime": "2026-11-09T22:40:00+01:00",
-      "status": "LIVE",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/CY3YDjjC-63urVQ98.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hKDTHR6k-lQsonYNp.png",
-      "homeScore": 2,
-      "awayScore": 1,
-      "channels": [
-        "it_sky_calcio_3_uhd"
-      ]
-    },
-    {
-      "id": "seriec_20261109_2030_foggia_barletta",
-      "title": "FOGGIA - BARLETTA",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_foggia",
-      "awayTeamId": "espn_serie_c_barletta",
-      "startTime": "2026-11-09T20:30:00+01:00",
-      "endTime": "2026-11-09T22:40:00+01:00",
-      "status": "LIVE",
-      "homeLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/foggia-calcio.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/AajibnRq-t4GQxEM5.png",
-      "homeScore": 0,
-      "awayScore": 1,
-      "channels": [
-        "sky_sport_arena",
-        "it_sky_calcio_2_uhd"
-      ]
-    },
-    {
-      "id": "seriec_20261109_2030_pineto_vis_pesaro",
-      "title": "PINETO - VIS PESARO",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_pineto",
-      "awayTeamId": "espn_serie_c_vis_pesaro",
-      "startTime": "2026-11-09T20:30:00+01:00",
-      "endTime": "2026-11-09T22:40:00+01:00",
-      "status": "LIVE",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/EJIqOF76-88kdtlrt.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/nHSB3fCN-2y40txw3.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "channels": [
-        "it_sky_calcio_4_uhd",
-        "sky_sport_4k",
-        "de_sky_sport_mix_8k"
-      ]
-    },
-    {
-      "id": "seriec_20261109_2045_picerno_bari",
-      "title": "PICERNO - BARI",
-      "sport": "FOOTBALL",
-      "competitionId": "serie_c",
-      "homeTeamId": "espn_serie_c_picerno",
-      "awayTeamId": "espn_serie_c_bari",
-      "startTime": "2026-11-09T20:45:00+01:00",
-      "endTime": "2026-11-09T22:55:00+01:00",
-      "status": "LIVE",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/fLL9crU0-bVwIsq6I.png",
-      "awayLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Bari.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_calcio",
-        "it_sky_calcio_1_uhd"
-      ]
-    },
-    {
-      "id": "diretta_tennis_Olq4fJX0",
-      "title": "Andreeva M. - Svitolina E.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_Olq4fJX0_h",
-      "awayTeamId": "espn_diretta_Olq4fJX0_a",
-      "startTime": "2026-11-09T21:30:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/rRZxZsRq-xE40e4KN.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/tUGFhF5k-WCqsXbkh.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "espn_401909952",
-      "title": "Atlanta Hawks - Los Angeles Lakers",
-      "sport": "BASKETBALL",
-      "competitionId": "nba",
-      "homeTeamId": "espn_1",
-      "awayTeamId": "espn_13",
-      "startTime": "2026-11-10T00:00Z",
-      "endTime": "2026-11-10T02:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_basket",
-        "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401909953",
-      "title": "Charlotte Hornets - Cleveland Cavaliers",
-      "sport": "BASKETBALL",
-      "competitionId": "nba",
-      "homeTeamId": "espn_30",
-      "awayTeamId": "espn_5",
-      "startTime": "2026-11-10T00:00Z",
-      "endTime": "2026-11-10T02:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_basket",
-        "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401909954",
-      "title": "Detroit Pistons - Washington Wizards",
-      "sport": "BASKETBALL",
-      "competitionId": "nba",
-      "homeTeamId": "espn_8",
-      "awayTeamId": "espn_27",
-      "startTime": "2026-11-10T00:00Z",
-      "endTime": "2026-11-10T02:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_basket",
-        "nba_tv_usa"
-      ]
-    },
-    {
       "id": "diretta_tennis_WYI8NH1m",
       "title": "Guo H./Mladenovic K. - Hsieh S-W./Ostapenko J.",
       "sport": "TENNIS",
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_WYI8NH1m_h",
       "awayTeamId": "espn_diretta_WYI8NH1m_a",
-      "startTime": "2026-11-10T00:30:00Z",
+      "startTime": "2026-11-10T02:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/hdBlzRA6-Aw9ngUYA.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/hUdMNAR0-l8AYjazT.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -1237,131 +1135,6 @@
         "supertennis_plus_3",
         "supertennis_plus_4",
         "supertennis"
-      ]
-    },
-    {
-      "id": "espn_401909955",
-      "title": "Toronto Raptors - Memphis Grizzlies",
-      "sport": "BASKETBALL",
-      "competitionId": "nba",
-      "homeTeamId": "espn_28",
-      "awayTeamId": "espn_29",
-      "startTime": "2026-11-10T00:30Z",
-      "endTime": "2026-11-10T03:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_basket",
-        "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401909956",
-      "title": "Dallas Mavericks - Indiana Pacers",
-      "sport": "BASKETBALL",
-      "competitionId": "nba",
-      "homeTeamId": "espn_6",
-      "awayTeamId": "espn_11",
-      "startTime": "2026-11-10T01:00Z",
-      "endTime": "2026-11-10T03:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_basket",
-        "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401892680",
-      "title": "Edmonton Oilers - New York Rangers",
-      "sport": "HOCKEY",
-      "competitionId": "nhl",
-      "homeTeamId": "espn_6",
-      "awayTeamId": "espn_13",
-      "startTime": "2026-11-10T01:00Z",
-      "endTime": "2026-11-10T04:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "tnt_sports_1",
-        "espn_2",
-        "espn",
-        "msg"
-      ]
-    },
-    {
-      "id": "espn_401909957",
-      "title": "Houston Rockets - Denver Nuggets",
-      "sport": "BASKETBALL",
-      "competitionId": "nba",
-      "homeTeamId": "espn_10",
-      "awayTeamId": "espn_7",
-      "startTime": "2026-11-10T01:30Z",
-      "endTime": "2026-11-10T04:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_basket",
-        "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401909958",
-      "title": "Phoenix Suns - San Antonio Spurs",
-      "sport": "BASKETBALL",
-      "competitionId": "nba",
-      "homeTeamId": "espn_21",
-      "awayTeamId": "espn_24",
-      "startTime": "2026-11-10T02:00Z",
-      "endTime": "2026-11-10T04:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_basket",
-        "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401892681",
-      "title": "Vancouver Canucks - Philadelphia Flyers",
-      "sport": "HOCKEY",
-      "competitionId": "nhl",
-      "homeTeamId": "espn_22",
-      "awayTeamId": "espn_15",
-      "startTime": "2026-11-10T02:30Z",
-      "endTime": "2026-11-10T05:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "tnt_sports_1",
-        "espn_2",
-        "espn"
       ]
     },
     {
@@ -1371,13 +1144,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_2g57nopJ_h",
       "awayTeamId": "espn_diretta_2g57nopJ_a",
-      "startTime": "2026-11-10T03:00:00Z",
+      "startTime": "2026-11-10T03:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/IeKavFhT-tvVEzhU4.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/KjFyvQBN-8taomgFe.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -1387,48 +1160,6 @@
         "supertennis_plus_3",
         "supertennis_plus_4",
         "supertennis"
-      ]
-    },
-    {
-      "id": "espn_401909959",
-      "title": "Golden State Warriors - New Orleans Pelicans",
-      "sport": "BASKETBALL",
-      "competitionId": "nba",
-      "homeTeamId": "espn_9",
-      "awayTeamId": "espn_3",
-      "startTime": "2026-11-10T03:00Z",
-      "endTime": "2026-11-10T05:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_basket",
-        "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401892682",
-      "title": "San Jose Sharks - New York Islanders",
-      "sport": "HOCKEY",
-      "competitionId": "nhl",
-      "homeTeamId": "espn_18",
-      "awayTeamId": "espn_12",
-      "startTime": "2026-11-10T03:00Z",
-      "endTime": "2026-11-10T06:00:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "tnt_sports_1",
-        "espn_2",
-        "espn"
       ]
     },
     {
@@ -1707,6 +1438,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_lrkIVe43",
+      "title": "Stevens A./Thompson B. - Abe H./Zheng W.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_lrkIVe43_h",
+      "awayTeamId": "espn_diretta_lrkIVe43_a",
+      "startTime": "2026-11-10T14:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Cn7osoVH-dEJOqb52.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "diretta_tennis_URuTK9ho",
       "title": "Piros Z. - Nardi L.",
       "sport": "TENNIS",
@@ -1816,9 +1572,7 @@
       "awayScore": 0,
       "channels": [
         "espn_us",
-        "espn",
-        "paramount",
-        "cbs_ssports_network"
+        "paramount"
       ]
     },
     {
@@ -1858,6 +1612,31 @@
       "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/f57yCpiT-2wyL104C.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/WxVr9ERq-nRUkF0Ol.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_2NKvAvld",
+      "title": "Musetti L. - Samuel T.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_2NKvAvld_h",
+      "awayTeamId": "espn_diretta_2NKvAvld_a",
+      "startTime": "2026-11-10T18:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6JFNTZjC-dO8eBuOC.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zuJ0LG5k-4hIBlAr6.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -1979,6 +1758,81 @@
       ]
     },
     {
+      "id": "diretta_tennis_2e8tMaas",
+      "title": "Hussey G. - Zheng M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_2e8tMaas_h",
+      "awayTeamId": "espn_diretta_2e8tMaas_a",
+      "startTime": "2026-11-10T21:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/YBdePpU0-v3b2P2ke.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hUWkrxkC-vydAhFYf.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_fNrGs22b",
+      "title": "Aguilar L. - Thompson K.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_fNrGs22b_h",
+      "awayTeamId": "espn_diretta_fNrGs22b_a",
+      "startTime": "2026-11-10T23:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": null,
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2cNtgLU0-nF0IeFpr.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_G8V1tXvR",
+      "title": "Santillan A./Zheng B. - Ellis B./Tu L.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_G8V1tXvR_h",
+      "awayTeamId": "espn_diretta_G8V1tXvR_a",
+      "startTime": "2026-11-11T00:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/lQJTLRVH-6ThKBEkP.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401892684",
       "title": "Montreal Canadiens - Minnesota Wild",
       "sport": "HOCKEY",
@@ -2065,6 +1919,31 @@
         "tnt_sports_1",
         "espn_2",
         "espn"
+      ]
+    },
+    {
+      "id": "diretta_tennis_6FPyE4Uj",
+      "title": "Bucsa C./Melichar-Martinez N. - Errani S./Paolini J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_6FPyE4Uj_h",
+      "awayTeamId": "espn_diretta_6FPyE4Uj_a",
+      "startTime": "2026-11-11T00:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/baFE6Moe-zTnucLE3.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
@@ -2252,6 +2131,650 @@
         "sky_sport_uno",
         "sky_sport_basket",
         "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "diretta_tennis_W6lvdepC",
+      "title": "Kittay B./Yuzuki T. - Paul J./Vocel M.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_W6lvdepC_h",
+      "awayTeamId": "espn_diretta_W6lvdepC_a",
+      "startTime": "2026-11-11T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/2LNNX7T0-bwncmtsq.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/M3s2ETQq-QPsxT8Cr.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_x4infZEO",
+      "title": "Latinovic S./Molchanov D. - Karol M./Paulson A.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_x4infZEO_h",
+      "awayTeamId": "espn_diretta_x4infZEO_a",
+      "startTime": "2026-11-11T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/fJCOs3WH-Q5FflsgT.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_pp7l2ieA",
+      "title": "Tsitsipas Pa./Tsitsipas Pe. - Kravchenko G./Mashtakov N.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_pp7l2ieA_h",
+      "awayTeamId": "espn_diretta_pp7l2ieA_a",
+      "startTime": "2026-11-11T09:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/A9L9R8T0-EX6Qfl6M.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/OGkmpkme-0MCqiuNA.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_KYcuzESh",
+      "title": "Fritz T. - Norrie C.",
+      "sport": "TENNIS",
+      "competitionId": "atp",
+      "homeTeamId": "espn_diretta_KYcuzESh_h",
+      "awayTeamId": "espn_diretta_KYcuzESh_a",
+      "startTime": "2026-11-11T10:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nNp7KtAN-8AMTtzu5.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/r9djg886-2BGSRmDE.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_IL9Kt7aE",
+      "title": "Jauffret C. - Collins K.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_IL9Kt7aE_h",
+      "awayTeamId": "espn_diretta_IL9Kt7aE_a",
+      "startTime": "2026-11-11T15:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vZ0tV096-GxJE8pk3.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "espn_401916985",
+      "title": "OH Leuven - HB Køge",
+      "sport": "FOOTBALL",
+      "competitionId": "uwcl",
+      "homeTeamId": "espn_131423",
+      "awayTeamId": "espn_21127",
+      "startTime": "2026-11-11T17:45Z",
+      "endTime": "2026-11-11T19:45:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131423.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "espn_us",
+        "paramount"
+      ]
+    },
+    {
+      "id": "diretta_tennis_S4Oy9Inf",
+      "title": "Dabrowski G./Stefani L. - Hsieh S-W./Ostapenko J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_S4Oy9Inf_h",
+      "awayTeamId": "espn_diretta_S4Oy9Inf_a",
+      "startTime": "2026-11-11T18:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0zpz52BN-YRAAMohq.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hUdMNAR0-l8AYjazT.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_AqKOJZ0C",
+      "title": "Hsieh S-W./Ostapenko J. - Mertens E./Zhang S.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_AqKOJZ0C_h",
+      "awayTeamId": "espn_diretta_AqKOJZ0C_a",
+      "startTime": "2026-11-11T18:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hUdMNAR0-l8AYjazT.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/hI8vcLoe-jX0SdYnI.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_YLHNy8Mc",
+      "title": "Perez E./Schuurs D. - Errani S./Paolini J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_YLHNy8Mc_h",
+      "awayTeamId": "espn_diretta_YLHNy8Mc_a",
+      "startTime": "2026-11-11T18:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/YBTnXilC-jwlPwLQL.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_O8ZcG0fK",
+      "title": "Svitolina E. - Muchova K.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_O8ZcG0fK_h",
+      "awayTeamId": "espn_diretta_O8ZcG0fK_a",
+      "startTime": "2026-11-11T20:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/tUGFhF5k-WCqsXbkh.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/h2MtYH6k-b9SLPqcf.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "espn_401916983",
+      "title": "Benfica - Austria Vienna",
+      "sport": "FOOTBALL",
+      "competitionId": "uwcl",
+      "homeTeamId": "espn_20830",
+      "awayTeamId": "espn_131643",
+      "startTime": "2026-11-11T20:00Z",
+      "endTime": "2026-11-11T22:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "espn",
+        "paramount"
+      ]
+    },
+    {
+      "id": "espn_401916984",
+      "title": "Juventus - OL Lyonnes",
+      "sport": "FOOTBALL",
+      "competitionId": "uwcl",
+      "homeTeamId": "espn_20092",
+      "awayTeamId": "espn_19256",
+      "startTime": "2026-11-11T20:00Z",
+      "endTime": "2026-11-11T22:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20092.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "espn_us",
+        "paramount"
+      ]
+    },
+    {
+      "id": "diretta_tennis_EeiI3NAE",
+      "title": "Sabalenka A. - Andreeva M.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_EeiI3NAE_h",
+      "awayTeamId": "espn_diretta_EeiI3NAE_a",
+      "startTime": "2026-11-11T21:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Uot6mqRq-I9HZAz1R.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/rRZxZsRq-xE40e4KN.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "espn_401892690",
+      "title": "Buffalo Sabres - Tampa Bay Lightning",
+      "sport": "HOCKEY",
+      "competitionId": "nhl",
+      "homeTeamId": "espn_2",
+      "awayTeamId": "espn_20",
+      "startTime": "2026-11-12T00:00Z",
+      "endTime": "2026-11-12T03:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "tnt_sports_1",
+        "espn_2",
+        "espn",
+        "tnt_hd"
+      ]
+    },
+    {
+      "id": "espn_401909966",
+      "title": "Indiana Pacers - Washington Wizards",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_11",
+      "awayTeamId": "espn_27",
+      "startTime": "2026-11-12T00:00Z",
+      "endTime": "2026-11-12T02:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401909967",
+      "title": "New York Knicks - Cleveland Cavaliers",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_18",
+      "awayTeamId": "espn_5",
+      "startTime": "2026-11-12T00:00Z",
+      "endTime": "2026-11-12T02:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa",
+        "espn"
+      ]
+    },
+    {
+      "id": "espn_401909968",
+      "title": "Toronto Raptors - Boston Celtics",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_28",
+      "awayTeamId": "espn_2",
+      "startTime": "2026-11-12T00:00Z",
+      "endTime": "2026-11-12T02:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401892691",
+      "title": "Calgary Flames - New York Rangers",
+      "sport": "HOCKEY",
+      "competitionId": "nhl",
+      "homeTeamId": "espn_3",
+      "awayTeamId": "espn_13",
+      "startTime": "2026-11-12T00:30Z",
+      "endTime": "2026-11-12T03:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "tnt_sports_1",
+        "espn_2",
+        "espn"
+      ]
+    },
+    {
+      "id": "espn_401909969",
+      "title": "Chicago Bulls - San Antonio Spurs",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_4",
+      "awayTeamId": "espn_24",
+      "startTime": "2026-11-12T01:00Z",
+      "endTime": "2026-11-12T03:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401909970",
+      "title": "Memphis Grizzlies - Denver Nuggets",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_29",
+      "awayTeamId": "espn_7",
+      "startTime": "2026-11-12T01:00Z",
+      "endTime": "2026-11-12T03:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401909971",
+      "title": "Milwaukee Bucks - Los Angeles Lakers",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_15",
+      "awayTeamId": "espn_13",
+      "startTime": "2026-11-12T01:00Z",
+      "endTime": "2026-11-12T03:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401909972",
+      "title": "New Orleans Pelicans - Brooklyn Nets",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_3",
+      "awayTeamId": "espn_17",
+      "startTime": "2026-11-12T01:00Z",
+      "endTime": "2026-11-12T03:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401892692",
+      "title": "Edmonton Oilers - Philadelphia Flyers",
+      "sport": "HOCKEY",
+      "competitionId": "nhl",
+      "homeTeamId": "espn_6",
+      "awayTeamId": "espn_15",
+      "startTime": "2026-11-12T02:00Z",
+      "endTime": "2026-11-12T05:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "tnt_sports_1",
+        "espn_2",
+        "espn"
+      ]
+    },
+    {
+      "id": "espn_401909973",
+      "title": "Utah Jazz - Orlando Magic",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_26",
+      "awayTeamId": "espn_19",
+      "startTime": "2026-11-12T02:00Z",
+      "endTime": "2026-11-12T04:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401909974",
+      "title": "Houston Rockets - Golden State Warriors",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_10",
+      "awayTeamId": "espn_9",
+      "startTime": "2026-11-12T02:30Z",
+      "endTime": "2026-11-12T05:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa",
+        "espn"
+      ]
+    },
+    {
+      "id": "espn_401892693",
+      "title": "Vegas Golden Knights - Utah Mammoth",
+      "sport": "HOCKEY",
+      "competitionId": "nhl",
+      "homeTeamId": "espn_37",
+      "awayTeamId": "espn_129764",
+      "startTime": "2026-11-12T02:30Z",
+      "endTime": "2026-11-12T05:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "tnt_sports_1",
+        "espn_2",
+        "espn",
+        "tnt_hd"
+      ]
+    },
+    {
+      "id": "espn_401892694",
+      "title": "Anaheim Ducks - Nashville Predators",
+      "sport": "HOCKEY",
+      "competitionId": "nhl",
+      "homeTeamId": "espn_25",
+      "awayTeamId": "espn_27",
+      "startTime": "2026-11-12T03:00Z",
+      "endTime": "2026-11-12T06:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "it_sky_sport_bar_primevideo_fhd",
+        "tnt_sports_1",
+        "espn_2",
+        "espn"
+      ]
+    },
+    {
+      "id": "espn_401909975",
+      "title": "Portland Trail Blazers - Oklahoma City Thunder",
+      "sport": "BASKETBALL",
+      "competitionId": "nba",
+      "homeTeamId": "espn_22",
+      "awayTeamId": "espn_25",
+      "startTime": "2026-11-12T03:00Z",
+      "endTime": "2026-11-12T05:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_basket",
+        "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "espn_401892695",
+      "title": "San Jose Sharks - Pittsburgh Penguins",
+      "sport": "HOCKEY",
+      "competitionId": "nhl",
+      "homeTeamId": "espn_18",
+      "awayTeamId": "espn_16",
+      "startTime": "2026-11-12T03:00Z",
+      "endTime": "2026-11-12T06:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "tnt_sports_1",
+        "espn_2",
+        "espn"
       ]
     }
   ]
