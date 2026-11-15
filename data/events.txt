@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T02:12:38Z",
+  "generatedAt": "2026-11-15T09:33:52Z",
   "competitions": [
     {
       "id": "serie_c",
@@ -615,6 +615,14 @@
     },
     {
       "id": "espn_diretta_xEvsx6Yo_a",
+      "name": "Errani S./Paolini J.",
+      "shortName": "Errani S./Paolini J.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_MRwBId5M_a",
       "name": "Errani S./Paolini J.",
       "shortName": "Errani S./Paolini J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
@@ -1350,6 +1358,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_MRwBId5M_h",
+      "name": "Siniakova K./Townsend T.",
+      "shortName": "Siniakova K./Townsend T.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/UL2HWMjC-noagZ2wS.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_468",
       "name": "Slovakia",
       "shortName": "Slovakia",
@@ -1576,7 +1592,7 @@
       "awayTeamId": "espn_diretta_xEvsx6Yo_a",
       "startTime": "2026-11-15T01:40:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/hdBlzRA6-Aw9ngUYA.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
       "homeScore": 0,
@@ -1599,13 +1615,13 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_IXVqYefm_h",
       "awayTeamId": "espn_diretta_IXVqYefm_a",
-      "startTime": "2026-11-15T09:00:00Z",
+      "startTime": "2026-11-15T09:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/pfjCQ2oe-4CMGVvSD.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/SEk6ZhWH-Y7Q27BiR.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -2373,6 +2389,31 @@
         "sky_sport_uno",
         "sky_sport_basket",
         "nba_tv_usa"
+      ]
+    },
+    {
+      "id": "diretta_tennis_MRwBId5M",
+      "title": "Siniakova K./Townsend T. - Errani S./Paolini J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_MRwBId5M_h",
+      "awayTeamId": "espn_diretta_MRwBId5M_a",
+      "startTime": "2026-11-15T22:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/UL2HWMjC-noagZ2wS.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/zskTOrDN-pdyG2pzp.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
       ]
     },
     {
