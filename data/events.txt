@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T23:37:42Z",
+  "generatedAt": "2026-11-20T04:20:51Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -1412,6 +1412,14 @@
     },
     {
       "id": "espn_diretta_jHv6jeMH_a",
+      "name": "Collins K.",
+      "shortName": "Collins K.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_4SGCUON6_a",
       "name": "Collins K.",
       "shortName": "Collins K.",
       "logoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
@@ -3555,6 +3563,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_4SGCUON6_h",
+      "name": "Reami A.",
+      "shortName": "Reami A.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/469zSZT0-QogtKbhj.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_GOgIdOfn_a",
       "name": "Reasco Gonzalez M. E.",
       "shortName": "Reasco Gonzalez M. E.",
@@ -4589,7 +4605,7 @@
       "awayTeamId": null,
       "startTime": "2026-11-20T00:30:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -4604,6 +4620,7 @@
         "sky_sports_f1_uk",
         "dazn_5_HD_PT",
         "dazn_F1_es",
+        "rtl_de",
         "bein_sports_1_france",
         "dazn_spain",
         "canal_plus_france",
@@ -4619,17 +4636,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_2cZZw1rA",
-      "title": "Kawaguchi N./Zheng W. - Abe H./Naito Y.",
+      "id": "diretta_tennis_jHv6jeMH",
+      "title": "Plekhanova D. - Collins K.",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_diretta_2cZZw1rA_h",
-      "awayTeamId": "espn_diretta_2cZZw1rA_a",
-      "startTime": "2026-11-20T02:00:00Z",
+      "homeTeamId": "espn_diretta_jHv6jeMH_h",
+      "awayTeamId": "espn_diretta_jHv6jeMH_a",
+      "startTime": "2026-11-20T03:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0OJ5WMA6-Cj3zwxAa.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Cn7osoVH-dEJOqb52.png",
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zkvgykRq-IJEkY5Wr.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -4644,19 +4661,44 @@
       ]
     },
     {
-      "id": "diretta_tennis_jHv6jeMH",
-      "title": "Plekhanova D. - Collins K.",
+      "id": "diretta_tennis_4SGCUON6",
+      "title": "Reami A. - Collins K.",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_diretta_jHv6jeMH_h",
-      "awayTeamId": "espn_diretta_jHv6jeMH_a",
+      "homeTeamId": "espn_diretta_4SGCUON6_h",
+      "awayTeamId": "espn_diretta_4SGCUON6_a",
       "startTime": "2026-11-20T03:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/zkvgykRq-IJEkY5Wr.png",
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/469zSZT0-QogtKbhj.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_2cZZw1rA",
+      "title": "Kawaguchi N./Zheng W. - Abe H./Naito Y.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_2cZZw1rA_h",
+      "awayTeamId": "espn_diretta_2cZZw1rA_a",
+      "startTime": "2026-11-20T03:35:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/0OJ5WMA6-Cj3zwxAa.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Cn7osoVH-dEJOqb52.png",
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -4677,7 +4719,7 @@
       "awayTeamId": null,
       "startTime": "2026-11-20T04:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -4692,6 +4734,7 @@
         "sky_sports_f1_uk",
         "dazn_5_HD_PT",
         "dazn_F1_es",
+        "rtl_de",
         "bein_sports_1_france",
         "dazn_spain",
         "canal_plus_france",
@@ -5002,6 +5045,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_KtGA0V6s",
+      "title": "Mettraux M. - Perez Alarcon L.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_KtGA0V6s_h",
+      "awayTeamId": "espn_diretta_KtGA0V6s_a",
+      "startTime": "2026-11-20T15:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/MueSO57k-MRLSjkQ7.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IN80PEPq-bXpTVKTn.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401873524",
       "title": "Italy U17 - Jamaica U17",
       "sport": "FOOTBALL",
@@ -5045,17 +5113,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_KtGA0V6s",
-      "title": "Mettraux M. - Perez Alarcon L.",
+      "id": "diretta_tennis_cup_bjk_cup_h4PNFIJE",
+      "title": "Feistel G. - Rinaldo Persson K.",
       "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_KtGA0V6s_h",
-      "awayTeamId": "espn_diretta_KtGA0V6s_a",
-      "startTime": "2026-11-20T15:30:00Z",
+      "competitionId": "bjk_cup",
+      "homeTeamId": "team_feistel_g.",
+      "awayTeamId": "team_rinaldo_persson_k.",
+      "startTime": "2026-11-20T16:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/MueSO57k-MRLSjkQ7.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IN80PEPq-bXpTVKTn.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vmKngQR0-KU30Bhih.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2eSFwMA6-6XK3SnRB.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -5070,17 +5138,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_cup_bjk_cup_h4PNFIJE",
-      "title": "Feistel G. - Rinaldo Persson K.",
+      "id": "diretta_tennis_WYIL9aA7",
+      "title": "Konishi Silva J./Pereira R. - Candiotto A./Mi L.",
       "sport": "TENNIS",
-      "competitionId": "bjk_cup",
-      "homeTeamId": "team_feistel_g.",
-      "awayTeamId": "team_rinaldo_persson_k.",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_WYIL9aA7_h",
+      "awayTeamId": "espn_diretta_WYIL9aA7_a",
       "startTime": "2026-11-20T16:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vmKngQR0-KU30Bhih.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2eSFwMA6-6XK3SnRB.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/UXYqfHne-lhrQCoaH.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0tZ1nbQq-zac8GVEb.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -5195,31 +5263,6 @@
       ]
     },
     {
-      "id": "diretta_tennis_WYIL9aA7",
-      "title": "Konishi Silva J./Pereira R. - Candiotto A./Mi L.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_WYIL9aA7_h",
-      "awayTeamId": "espn_diretta_WYIL9aA7_a",
-      "startTime": "2026-11-20T17:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/UXYqfHne-lhrQCoaH.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0tZ1nbQq-zac8GVEb.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
       "id": "diretta_tennis_WU42elYa",
       "title": "Leme Da Silva N. V. - Andreescu B.",
       "sport": "TENNIS",
@@ -5245,17 +5288,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_O41fcA3m",
-      "title": "Kubka M. - Hennemann C. W.",
+      "id": "diretta_tennis_MiDKuLeR",
+      "title": "Leon S./Tran D. - Navarro M. F./Rodriguez V.",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_diretta_O41fcA3m_h",
-      "awayTeamId": "espn_diretta_O41fcA3m_a",
-      "startTime": "2026-11-20T17:30:00Z",
+      "homeTeamId": "espn_diretta_MiDKuLeR_h",
+      "awayTeamId": "espn_diretta_MiDKuLeR_a",
+      "startTime": "2026-11-20T17:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/M7XS6bPq-40hc0d8F.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IF0pCoUH-j1SJjtEU.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/08LDT8AN-Ozp8p34g.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Yu4zzchT-ll8mClni.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -5270,17 +5313,17 @@
       ]
     },
     {
-      "id": "diretta_tennis_MiDKuLeR",
-      "title": "Leon S./Tran D. - Navarro M. F./Rodriguez V.",
+      "id": "diretta_tennis_O41fcA3m",
+      "title": "Kubka M. - Hennemann C. W.",
       "sport": "TENNIS",
       "competitionId": "wta",
-      "homeTeamId": "espn_diretta_MiDKuLeR_h",
-      "awayTeamId": "espn_diretta_MiDKuLeR_a",
-      "startTime": "2026-11-20T18:30:00Z",
+      "homeTeamId": "espn_diretta_O41fcA3m_h",
+      "awayTeamId": "espn_diretta_O41fcA3m_a",
+      "startTime": "2026-11-20T17:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/08LDT8AN-Ozp8p34g.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/Yu4zzchT-ll8mClni.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/M7XS6bPq-40hc0d8F.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/IF0pCoUH-j1SJjtEU.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -5461,7 +5504,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "foxdeportes_us"
+        "foxdeportes_us",
+        "tyc_sports"
       ]
     },
     {
@@ -5526,6 +5570,7 @@
         "sky_sports_f1_uk",
         "dazn_5_HD_PT",
         "dazn_F1_es",
+        "rtl_de",
         "bein_sports_1_france",
         "dazn_spain",
         "canal_plus_france",
@@ -5770,6 +5815,7 @@
         "sky_sports_f1_uk",
         "dazn_5_HD_PT",
         "dazn_F1_es",
+        "rtl_de",
         "bein_sports_1_france",
         "dazn_spain",
         "canal_plus_france",
@@ -7386,7 +7432,8 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "foxdeportes_us"
+        "foxdeportes_us",
+        "tyc_sports"
       ]
     },
     {
