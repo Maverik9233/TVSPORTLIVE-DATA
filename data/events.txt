@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T02:42:54Z",
+  "generatedAt": "2026-11-21T10:17:53Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -1269,6 +1269,14 @@
       "name": "CD Sabadell",
       "shortName": "CD Sabadell",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/11487.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "team_ce_g.",
+      "name": "Ce G.",
+      "shortName": "Ce G.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/4EUHvpWH-Op3ON8FJ.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3625,14 +3633,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "team_pigossi_l.",
-      "name": "Pigossi L.",
-      "shortName": "Pigossi L.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/6ywp9EVH-tji4z59c.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_diretta_b1SFMQWb_h",
       "name": "Pigossi L./Stefani L.",
       "shortName": "Pigossi L./Stefani L.",
@@ -4185,6 +4185,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "team_sawangkaew_m.",
+      "name": "Sawangkaew M.",
+      "shortName": "Sawangkaew M.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/Q9oTBMkC-0Qlyjhvk.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_4buZ5023_h",
       "name": "Sawangkaew M.",
       "shortName": "Sawangkaew M.",
@@ -4569,6 +4577,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_diretta_pxsk2I1S_h",
+      "name": "Tararudee L.",
+      "shortName": "Tararudee L.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/2gFGnEA6-nccizx7T.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "team_tararudee_l.",
       "name": "Tararudee L.",
       "shortName": "Tararudee L.",
@@ -4577,7 +4593,7 @@
       "countryFlagUrl": null
     },
     {
-      "id": "team_teichmann_j.",
+      "id": "espn_diretta_pxsk2I1S_a",
       "name": "Teichmann J.",
       "shortName": "Teichmann J.",
       "logoUrl": "https://static.flashscore.com/res/image/data/Uym60l6k-Mg87oLd0.png",
@@ -4977,6 +4993,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "team_waltert_s.",
+      "name": "Waltert S.",
+      "shortName": "Waltert S.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/fe0qIHBN-CIeRE4aj.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_15365",
       "name": "Washington Spirit",
       "shortName": "Washington",
@@ -5249,13 +5273,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_jcCSItso_h",
       "awayTeamId": "espn_diretta_jcCSItso_a",
-      "startTime": "2026-11-21T02:00:00Z",
+      "startTime": "2026-11-21T03:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/SEFKoOPq-2VC9NbOs.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/6BN5oqle-zq14Erp9.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5274,13 +5298,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_6mXZrUb4_h",
       "awayTeamId": "espn_diretta_6mXZrUb4_a",
-      "startTime": "2026-11-21T03:00:00Z",
+      "startTime": "2026-11-21T03:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/MDAW0Y6k-zBZluHT6.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/8Ka15dne-Q1VGmKS1.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5299,13 +5323,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_Wf4xyt3T_h",
       "awayTeamId": "espn_diretta_Wf4xyt3T_a",
-      "startTime": "2026-11-21T03:00:00Z",
+      "startTime": "2026-11-21T03:15:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/ABC01TWH-fPXIK1lB.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/zigfYqlC-MHCegfFf.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5326,7 +5350,7 @@
       "awayTeamId": null,
       "startTime": "2026-11-21T04:00:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": null,
       "awayLogoUrl": null,
       "homeScore": null,
@@ -5363,38 +5387,13 @@
       "competitionId": "bjk_cup",
       "homeTeamId": "team_sakatsume_h.",
       "awayTeamId": "team_urrutia_m._f.",
-      "startTime": "2026-11-21T04:30:00Z",
+      "startTime": "2026-11-21T05:55:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/bLbDXjPq-l2yuHAxO.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/SxYhd3gT-INzc1qOQ.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_6TttNnxo",
-      "title": "Thailandia D - Svizzera D",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_6TttNnxo_h",
-      "awayTeamId": "espn_diretta_6TttNnxo_a",
-      "startTime": "2026-11-21T06:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hWANVEPq-h22DHgF2.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/QDkVVklC-fNEqmsjB.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5413,9 +5412,9 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_COrs4vXF_h",
       "awayTeamId": "espn_diretta_COrs4vXF_a",
-      "startTime": "2026-11-21T07:00:00Z",
+      "startTime": "2026-11-21T06:05:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/Q9oTBMkC-0Qlyjhvk.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/ILS554A6-dStYoeuO.png",
       "homeScore": null,
@@ -5432,19 +5431,69 @@
       ]
     },
     {
-      "id": "diretta_tennis_cup_bjk_cup_pxsk2I1S",
-      "title": "Tararudee L. - Teichmann J.",
+      "id": "diretta_tennis_cup_bjk_cup_bqahRKnm",
+      "title": "Sawangkaew M. - Waltert S.",
       "sport": "TENNIS",
       "competitionId": "bjk_cup",
-      "homeTeamId": "team_tararudee_l.",
-      "awayTeamId": "team_teichmann_j.",
-      "startTime": "2026-11-21T08:30:00Z",
+      "homeTeamId": "team_sawangkaew_m.",
+      "awayTeamId": "team_waltert_s.",
+      "startTime": "2026-11-21T06:20:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/Q9oTBMkC-0Qlyjhvk.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/fe0qIHBN-CIeRE4aj.png",
+      "homeScore": 1,
+      "awayScore": 2,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_6TttNnxo",
+      "title": "Thailandia D - Svizzera D",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_6TttNnxo_h",
+      "awayTeamId": "espn_diretta_6TttNnxo_a",
+      "startTime": "2026-11-21T06:20:00Z",
+      "endTime": null,
+      "status": "LIVE",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hWANVEPq-h22DHgF2.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/QDkVVklC-fNEqmsjB.png",
+      "homeScore": 1,
+      "awayScore": 1,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
+      "id": "diretta_tennis_pxsk2I1S",
+      "title": "Tararudee L. - Teichmann J.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_pxsk2I1S_h",
+      "awayTeamId": "espn_diretta_pxsk2I1S_a",
+      "startTime": "2026-11-21T09:40:00Z",
+      "endTime": null,
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/2gFGnEA6-nccizx7T.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Uym60l6k-Mg87oLd0.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -5463,13 +5512,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_WEQNK41B_h",
       "awayTeamId": "espn_diretta_WEQNK41B_a",
-      "startTime": "2026-11-21T10:00:00Z",
+      "startTime": "2026-11-21T10:10:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/xdtcxqjT-fkitJ1Ko.png",
       "awayLogoUrl": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -6776,6 +6825,8 @@
         "sky_sport_calcio",
         "dazn_1_italia",
         "dazn_2_italia",
+        "de_blue_sport_1_fhd",
+        "fr_l_equipe_live_5_fhd_event_only",
         "event_vip_blue_sport_2_live_4k",
         "it_dazn_serie_b_4_catanzaro",
         "it_dazn_serie_b_13_palermo"
@@ -6962,16 +7013,16 @@
       ]
     },
     {
-      "id": "diretta_tennis_cup_bjk_cup_l8jj65nI",
-      "title": "Pigossi L. - Andreescu B.",
+      "id": "diretta_tennis_cup_bjk_cup_fgsRNote",
+      "title": "Ce G. - Andreescu B.",
       "sport": "TENNIS",
       "competitionId": "bjk_cup",
-      "homeTeamId": "team_pigossi_l.",
+      "homeTeamId": "team_ce_g.",
       "awayTeamId": "team_andreescu_b.",
       "startTime": "2026-11-21T17:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/6ywp9EVH-tji4z59c.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4EUHvpWH-Op3ON8FJ.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/IRnv2ckC-0Y4Mdm9h.png",
       "homeScore": null,
       "awayScore": null,
@@ -7170,6 +7221,7 @@
       "channels": [
         "dazn_1_italia",
         "dazn_2_italia",
+        "de_blue_sport_1_fhd",
         "event_vip_blue_sport_4_live_4k",
         "it_dazn_serie_b_14_pisa"
       ]
@@ -7551,6 +7603,24 @@
         "tnt_sports_1",
         "espn_2",
         "espn"
+      ]
+    },
+    {
+      "id": "espn_401913961",
+      "title": "Atlético-MG - Boca Juniors",
+      "sport": "FOOTBALL",
+      "competitionId": "copa_sudamericana",
+      "homeTeamId": "espn_7632",
+      "awayTeamId": "espn_5",
+      "startTime": "2026-11-21T22:30Z",
+      "endTime": "2026-11-22T00:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "bein_sports_1_france"
       ]
     },
     {
@@ -9211,7 +9281,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "foxsports_1_us"
+        "foxdeportes_us"
       ]
     },
     {
@@ -9272,7 +9342,6 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "de_sport_digital_fussball_fhd",
         "tyc_sports"
       ]
     },
@@ -9475,7 +9544,6 @@
       "homeScore": 0,
       "awayScore": 0,
       "channels": [
-        "tr_spor_smart_hd",
         "tyc_sports"
       ]
     },
@@ -9557,25 +9625,6 @@
         "sky_sport_uno",
         "sky_sport_basket",
         "nba_tv_usa"
-      ]
-    },
-    {
-      "id": "espn_401933729",
-      "title": "Vancouver Whitecaps - Real Salt Lake",
-      "sport": "FOOTBALL",
-      "competitionId": "mls",
-      "homeTeamId": "espn_9727",
-      "awayTeamId": "espn_4771",
-      "startTime": "2026-11-23T01:30Z",
-      "endTime": "2026-11-23T03:30:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "rds_tv_social",
-        "tsn_5"
       ]
     }
   ]
