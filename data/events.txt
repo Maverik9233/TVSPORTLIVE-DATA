@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T23:33:26Z",
+  "generatedAt": "2026-11-23T04:00:35Z",
   "competitions": [
     {
       "id": "serie_a",
@@ -1764,6 +1764,7 @@
         "it_sky_calcio_1_uhd",
         "dazn_deutschland",
         "dazn_2_bar DE",
+        "arena_sport_1_hr",
         "arena_sport_2_bih",
         "Arena_Premium_3",
         "dazn_spain",
@@ -1831,6 +1832,7 @@
       "awayScore": null,
       "channels": [
         "sky_sport_max",
+        "rai_sport",
         "it_sky_calcio_3_uhd"
       ]
     },
@@ -2288,6 +2290,24 @@
       ]
     },
     {
+      "id": "espn_401873551",
+      "title": "Venezuela U17 - Romania U17",
+      "sport": "FOOTBALL",
+      "competitionId": "fifa_u17_world",
+      "homeTeamId": "espn_16306",
+      "awayTeamId": "espn_131740",
+      "startTime": "2026-11-24T12:30Z",
+      "endTime": "2026-11-24T14:30:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/ven.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/countries/500/rou.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_deutschland"
+      ]
+    },
+    {
       "id": "diretta_tennis_6gImJIjB",
       "title": "Bronzetti L. - Herrero Linana A.",
       "sport": "TENNIS",
@@ -2527,25 +2547,6 @@
       ]
     },
     {
-      "id": "espn_401889416",
-      "title": "AFC Hornchurch - Sutton United",
-      "sport": "FOOTBALL",
-      "competitionId": "national_league",
-      "homeTeamId": "espn_10167",
-      "awayTeamId": "espn_3231",
-      "startTime": "2026-11-24T19:45Z",
-      "endTime": "2026-11-24T21:45:00Z",
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10167.png",
-      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3231.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "channels": [
-        "dazn_1_italia",
-        "dazn_deutschland"
-      ]
-    },
-    {
       "id": "espn_401889189",
       "title": "Altrincham - Wealdstone",
       "sport": "FOOTBALL",
@@ -2710,6 +2711,25 @@
       "awayScore": 0,
       "channels": [
         "paramount"
+      ]
+    },
+    {
+      "id": "espn_401889184",
+      "title": "Scunthorpe United - Gateshead",
+      "sport": "FOOTBALL",
+      "competitionId": "national_league",
+      "homeTeamId": "espn_313",
+      "awayTeamId": "espn_3138",
+      "startTime": "2026-11-24T19:45Z",
+      "endTime": "2026-11-24T21:45:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/313.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/3138.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "dazn_1_italia",
+        "dazn_deutschland"
       ]
     },
     {
