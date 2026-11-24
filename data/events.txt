@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T01:54:14Z",
+  "generatedAt": "2026-11-24T11:59:20Z",
   "competitions": [
     {
       "id": "champions_league",
@@ -91,6 +91,15 @@
       "countryFlagUrl": "https://flagsapi.com/US/flat/64.png",
       "logoUrl": "https://flagsapi.com/US/flat/64.png",
       "priority": 70
+    },
+    {
+      "id": "liga_mx",
+      "name": "Liga MX",
+      "sport": "FOOTBALL",
+      "country": "Mexico",
+      "countryFlagUrl": "https://flagsapi.com/MX/flat/64.png",
+      "logoUrl": "https://flagsapi.com/MX/flat/64.png",
+      "priority": 68
     },
     {
       "id": "league_one",
@@ -206,6 +215,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_227",
+      "name": "América",
+      "shortName": "América",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_8109",
       "name": "América de Cali",
       "shortName": "América Cali",
@@ -274,6 +291,14 @@
       "name": "ATALANTA UNDER 23",
       "shortName": "ATALANTA UNDER 23",
       "logoUrl": "https://static.flashscore.com/res/image/data/z3aHqFBN-4EqKGS21.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_216",
+      "name": "Atlas",
+      "shortName": "Atlas",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -1078,6 +1103,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_220",
+      "name": "Monterrey",
+      "shortName": "Monterrey",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_10",
       "name": "Montreal Canadiens",
       "shortName": "Canadiens",
@@ -1542,6 +1575,14 @@
       "countryFlagUrl": null
     },
     {
+      "id": "espn_223",
+      "name": "Toluca",
+      "shortName": "Toluca",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
       "id": "espn_diretta_YBjICefe_a",
       "name": "Tsitsipas Pa.",
       "shortName": "Tsitsipas Pa.",
@@ -1720,11 +1761,11 @@
       "awayTeamId": "espn_diretta_df90Cqoe_a",
       "startTime": "2026-11-24T01:35:00Z",
       "endTime": null,
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/Aw3lua6k-8W163J3K.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/Kpd151Sq-69WazsLd.png",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -1743,13 +1784,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_KfoSJ89t_h",
       "awayTeamId": "espn_diretta_KfoSJ89t_a",
-      "startTime": "2026-11-24T03:30:00Z",
+      "startTime": "2026-11-24T05:25:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/4dG7MmiT-6Lh2o9rN.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -1768,7 +1809,7 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_2mhN1woo_h",
       "awayTeamId": "espn_diretta_2mhN1woo_a",
-      "startTime": "2026-11-24T10:00:00Z",
+      "startTime": "2026-11-24T11:00:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/vXP0Cz8k-IiEyXuFA.png",
@@ -1818,36 +1859,11 @@
       "competitionId": "atp",
       "homeTeamId": "espn_diretta_YBjICefe_h",
       "awayTeamId": "espn_diretta_YBjICefe_a",
-      "startTime": "2026-11-24T12:30:00Z",
+      "startTime": "2026-11-24T13:05:00Z",
       "endTime": null,
       "status": "SCHEDULED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/MqBHZBme-dl6K7abD.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/A9L9R8T0-EX6Qfl6M.png",
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        "sky_sport_uno",
-        "sky_sport_arena",
-        "sky_sport_tennis",
-        "supertennis_plus_1",
-        "supertennis_plus_2",
-        "supertennis_plus_3",
-        "supertennis_plus_4",
-        "supertennis"
-      ]
-    },
-    {
-      "id": "diretta_tennis_YybrLCj2",
-      "title": "Thompson B. - Micic E.",
-      "sport": "TENNIS",
-      "competitionId": "wta",
-      "homeTeamId": "espn_diretta_YybrLCj2_h",
-      "awayTeamId": "espn_diretta_YybrLCj2_a",
-      "startTime": "2026-11-24T14:00:00Z",
-      "endTime": null,
-      "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/AgaJHx7k-O0ebEQc0.png",
-      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2edD4xle-KrBPZxgU.png",
       "homeScore": null,
       "awayScore": null,
       "channels": [
@@ -2476,6 +2492,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_YybrLCj2",
+      "title": "Thompson B. - Micic E.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_YybrLCj2_h",
+      "awayTeamId": "espn_diretta_YybrLCj2_a",
+      "startTime": "2026-11-24T23:30:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/AgaJHx7k-O0ebEQc0.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/2edD4xle-KrBPZxgU.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401909314",
       "title": "Orlando Magic - Detroit Pistons",
       "sport": "BASKETBALL",
@@ -2910,7 +2951,8 @@
         "tv8_5",
         "it_sky_sport_calcio_uhd",
         "it_sky_sport_bar_primevideo_fhd",
-        "paramount"
+        "paramount",
+        "fox_sports_mexico"
       ]
     },
     {
@@ -3422,6 +3464,24 @@
         "tnt_sports_1",
         "espn_2",
         "espn"
+      ]
+    },
+    {
+      "id": "espn_401931986",
+      "title": "Toluca - Atlas",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_mx",
+      "homeTeamId": "espn_223",
+      "awayTeamId": "espn_216",
+      "startTime": "2026-11-26T01:00Z",
+      "endTime": "2026-11-26T03:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "canal_5"
       ]
     },
     {
