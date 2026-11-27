@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T00:06:57Z",
+  "generatedAt": "2026-11-27T08:23:26Z",
   "competitions": [
     {
       "id": "formula_1",
@@ -243,15 +243,6 @@
       "country": null,
       "countryFlagUrl": "https://flagcdn.com/w40/eu.png",
       "logoUrl": "https://flagcdn.com/w40/eu.png",
-      "priority": 50
-    },
-    {
-      "id": "liga_1_peru",
-      "name": "Liga 1 Perú",
-      "sport": "FOOTBALL",
-      "country": "Peru",
-      "countryFlagUrl": "https://flagsapi.com/PE/flat/64.png",
-      "logoUrl": "https://flagsapi.com/PE/flat/64.png",
       "priority": 50
     },
     {
@@ -872,6 +863,14 @@
       "name": "Bristol Rovers",
       "shortName": "Bristol Rovers",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/308.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_nmE32FeC_h",
+      "name": "Broadus S./Micic E.",
+      "shortName": "Broadus S./Micic E.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/tbFNAiiT-xrWnks8n.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -2908,14 +2907,6 @@
       "countryFlagUrl": null
     },
     {
-      "id": "espn_10318",
-      "name": "Sport Huancayo",
-      "shortName": "Huancayo",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/10318.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
       "id": "espn_267",
       "name": "St Johnstone",
       "shortName": "St Johnstone",
@@ -2965,6 +2956,14 @@
     },
     {
       "id": "espn_diretta_tWMuGAWA_h",
+      "name": "Stevens A./Thompson B.",
+      "shortName": "Stevens A./Thompson B.",
+      "logoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
+      "country": null,
+      "countryFlagUrl": null
+    },
+    {
+      "id": "espn_diretta_nmE32FeC_a",
       "name": "Stevens A./Thompson B.",
       "shortName": "Stevens A./Thompson B.",
       "logoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
@@ -3095,7 +3094,7 @@
       "id": "espn_diretta_UN1Kh064_h",
       "name": "Trevisan F.",
       "shortName": "Trevisan F.",
-      "logoUrl": "https://static.flashscore.com/res/image/data/vXP0Cz8k-IiEyXuFA.png",
+      "logoUrl": "https://static.flashscore.com/res/image/data/ryL9f0Sq-jm30Ncgp.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3120,14 +3119,6 @@
       "name": "UNION BRESCIA",
       "shortName": "UNION BRESCIA",
       "logoUrl": "https://static.flashscore.com/res/image/data/QLui3k7k-ULn9ffkC.png",
-      "country": null,
-      "countryFlagUrl": null
-    },
-    {
-      "id": "espn_2685",
-      "name": "Universitario",
-      "shortName": "Universitario",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
       "country": null,
       "countryFlagUrl": null
     },
@@ -3396,13 +3387,13 @@
       "competitionId": "wta",
       "homeTeamId": "espn_diretta_tWMuGAWA_h",
       "awayTeamId": "espn_diretta_tWMuGAWA_a",
-      "startTime": "2026-11-27T03:30:00Z",
+      "startTime": "2026-11-27T03:35:00Z",
       "endTime": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
       "awayLogoUrl": "https://static.flashscore.com/res/image/data/zHv3OhjC-h8iRQqsB.png",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 2,
       "channels": [
         "sky_sport_uno",
         "sky_sport_arena",
@@ -3449,7 +3440,7 @@
       "startTime": "2026-11-27T08:30:00Z",
       "endTime": null,
       "status": "SCHEDULED",
-      "homeLogoUrl": "https://static.flashscore.com/res/image/data/vXP0Cz8k-IiEyXuFA.png",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/ryL9f0Sq-jm30Ncgp.png",
       "awayLogoUrl": null,
       "homeScore": null,
       "awayScore": null,
@@ -3630,6 +3621,24 @@
         "supersport_motorsport",
         "dazn_1_pt",
         "f1_f1_tv_race_tracker_feed_fhd"
+      ]
+    },
+    {
+      "id": "espn_401888241",
+      "title": "Alanyaspor - Konyaspor",
+      "sport": "FOOTBALL",
+      "competitionId": "super_lig",
+      "homeTeamId": "espn_9078",
+      "awayTeamId": "espn_7648",
+      "startTime": "2026-11-27T17:00Z",
+      "endTime": "2026-11-27T19:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "bein_sports_1_france"
       ]
     },
     {
@@ -3918,6 +3927,24 @@
       ]
     },
     {
+      "id": "seriec_20261127_2030_cavese_scafatese",
+      "title": "CAVESE - SCAFATESE",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_cavese",
+      "awayTeamId": "espn_serie_c_scafatese",
+      "startTime": "2026-11-27T20:30:00+01:00",
+      "endTime": "2026-11-27T22:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/hKDTHR6k-lQsonYNp.png",
+      "awayLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-c/scafatese-trasp-logo.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_3_uhd"
+      ]
+    },
+    {
       "id": "seriec_20261127_2030_foggia_casertana",
       "title": "FOGGIA - CASERTANA",
       "sport": "FOOTBALL",
@@ -3932,7 +3959,8 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_uno"
+        "sky_sport_uno",
+        "it_sky_calcio_2_uhd"
       ]
     },
     {
@@ -4336,6 +4364,31 @@
       ]
     },
     {
+      "id": "diretta_tennis_nmE32FeC",
+      "title": "Broadus S./Micic E. - Stevens A./Thompson B.",
+      "sport": "TENNIS",
+      "competitionId": "wta",
+      "homeTeamId": "espn_diretta_nmE32FeC_h",
+      "awayTeamId": "espn_diretta_nmE32FeC_a",
+      "startTime": "2026-11-28T03:00:00Z",
+      "endTime": null,
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/tbFNAiiT-xrWnks8n.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/0U6FkiQq-GKRXCp1K.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "sky_sport_uno",
+        "sky_sport_arena",
+        "sky_sport_tennis",
+        "supertennis_plus_1",
+        "supertennis_plus_2",
+        "supertennis_plus_3",
+        "supertennis_plus_4",
+        "supertennis"
+      ]
+    },
+    {
       "id": "espn_401933725",
       "title": "Real Salt Lake - Vancouver Whitecaps",
       "sport": "FOOTBALL",
@@ -4619,6 +4672,96 @@
       ]
     },
     {
+      "id": "seriec_20261128_1430_carpi_lecco",
+      "title": "CARPI - LECCO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_carpi",
+      "awayTeamId": "espn_serie_c_lecco",
+      "startTime": "2026-11-28T14:30:00+01:00",
+      "endTime": "2026-11-28T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/4db86XmC-jkltiv4D.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/6mRuKqRq-A5NQVAWs.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_4_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261128_1430_giugliano_altamura",
+      "title": "GIUGLIANO - ALTAMURA",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_giugliano",
+      "awayTeamId": "espn_serie_c_altamura",
+      "startTime": "2026-11-28T14:30:00+01:00",
+      "endTime": "2026-11-28T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/bsUNe3BN-KbyStBWu.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/CY3YDjjC-63urVQ98.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_5_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261128_1430_gubbio_vado",
+      "title": "GUBBIO - VADO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_gubbio",
+      "awayTeamId": "espn_serie_c_vado",
+      "startTime": "2026-11-28T14:30:00+01:00",
+      "endTime": "2026-11-28T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/by51a8le-0lwy4Ij1.png",
+      "awayLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/girone-b/vado-trasp-logo.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_3_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261128_1430_guidonia_m_campobasso",
+      "title": "GUIDONIA M. - CAMPOBASSO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_guidonia_m",
+      "awayTeamId": "espn_serie_c_campobasso",
+      "startTime": "2026-11-28T14:30:00+01:00",
+      "endTime": "2026-11-28T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/APNv7D8k-zFFGIwi8.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/lARr7w7k-0fb2aiv1.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_2_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261128_1430_novara_alcione_milano",
+      "title": "NOVARA - ALCIONE MILANO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_novara",
+      "awayTeamId": "espn_serie_c_alcione_milano",
+      "startTime": "2026-11-28T14:30:00+01:00",
+      "endTime": "2026-11-28T16:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/nTi4zziT-IehoPOFd.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/WnUOt98k-nVlzfdm2.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_6_uhd"
+      ]
+    },
+    {
       "id": "seriec_20261128_1430_pescara_pianese",
       "title": "PESCARA - PIANESE",
       "sport": "FOOTBALL",
@@ -4633,7 +4776,8 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_calcio"
+        "sky_sport_calcio",
+        "it_sky_calcio_1_uhd"
       ]
     },
     {
@@ -5058,6 +5202,42 @@
       ]
     },
     {
+      "id": "seriec_20261128_1730_lumezzane_desenzano",
+      "title": "LUMEZZANE - DESENZANO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_lumezzane",
+      "awayTeamId": "espn_serie_c_desenzano",
+      "startTime": "2026-11-28T17:30:00+01:00",
+      "endTime": "2026-11-28T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/bZZj3WBN-x4BBSEWp.png",
+      "awayLogoUrl": "https://www.seriec.com/storage/app/media/loghi-squadre/Desenzano.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_6_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261128_1730_pergolettese_giana_erminio",
+      "title": "PERGOLETTESE - GIANA ERMINIO",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_pergolettese",
+      "awayTeamId": "espn_serie_c_giana_erminio",
+      "startTime": "2026-11-28T17:30:00+01:00",
+      "endTime": "2026-11-28T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/MsPodHPq-IF6oPsUG.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/bXy6R096-MJw8SsU0.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_4_uhd"
+      ]
+    },
+    {
       "id": "seriec_20261128_1730_salernitana_monopoli",
       "title": "SALERNITANA - MONOPOLI",
       "sport": "FOOTBALL",
@@ -5072,7 +5252,26 @@
       "homeScore": null,
       "awayScore": null,
       "channels": [
-        "sky_sport_calcio"
+        "sky_sport_calcio",
+        "it_sky_calcio_1_uhd"
+      ]
+    },
+    {
+      "id": "seriec_20261128_1730_sorrento_cosenza",
+      "title": "SORRENTO - COSENZA",
+      "sport": "FOOTBALL",
+      "competitionId": "serie_c",
+      "homeTeamId": "espn_serie_c_sorrento",
+      "awayTeamId": "espn_serie_c_cosenza",
+      "startTime": "2026-11-28T17:30:00+01:00",
+      "endTime": "2026-11-28T19:40:00+01:00",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://static.flashscore.com/res/image/data/EPleEMmC-xd98DIgi.png",
+      "awayLogoUrl": "https://static.flashscore.com/res/image/data/jHLbr0AN-j5ryYBSC.png",
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        "it_sky_calcio_3_uhd"
       ]
     },
     {
@@ -5688,6 +5887,24 @@
         "tnt_sports_1",
         "espn_2",
         "espn"
+      ]
+    },
+    {
+      "id": "espn_401936413",
+      "title": "Instituto (Córdoba) - River Plate",
+      "sport": "FOOTBALL",
+      "competitionId": "liga_profesional",
+      "homeTeamId": "espn_2975",
+      "awayTeamId": "espn_16",
+      "startTime": "2026-11-29T01:00Z",
+      "endTime": "2026-11-29T03:00:00Z",
+      "status": "SCHEDULED",
+      "homeLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
+      "awayLogoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
+      "homeScore": 0,
+      "awayScore": 0,
+      "channels": [
+        "sportitalia"
       ]
     },
     {
